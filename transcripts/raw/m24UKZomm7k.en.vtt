@@ -1,0 +1,1208 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.230 align:start position:0%
+ 
+Hi,<00:00:00.600><c> I'm</c><00:00:00.800><c> Onela.</c><00:00:01.400><c> That's</c><00:00:01.640><c> Joel.</c><00:00:02.520><c> And</c><00:00:02.720><c> we</c><00:00:02.840><c> built</c>
+
+00:00:03.230 --> 00:00:03.240 align:start position:0%
+Hi, I'm Onela. That's Joel. And we built
+ 
+
+00:00:03.240 --> 00:00:06.310 align:start position:0%
+Hi, I'm Onela. That's Joel. And we built
+Ace,<00:00:03.880><c> a</c><00:00:04.000><c> live</c><00:00:04.440><c> AI</c><00:00:04.680><c> voice</c><00:00:04.960><c> tutor</c><00:00:05.720><c> that</c><00:00:05.960><c> runs</c><00:00:06.280><c> a</c>
+
+00:00:06.310 --> 00:00:06.320 align:start position:0%
+Ace, a live AI voice tutor that runs a
+ 
+
+00:00:06.320 --> 00:00:09.830 align:start position:0%
+Ace, a live AI voice tutor that runs a
+full<00:00:06.600><c> lesson</c><00:00:07.520><c> start</c><00:00:07.880><c> to</c><00:00:08.000><c> finish</c><00:00:08.680><c> reliably.</c>
+
+00:00:09.830 --> 00:00:09.840 align:start position:0%
+full lesson start to finish reliably.
+ 
+
+00:00:09.840 --> 00:00:13.590 align:start position:0%
+full lesson start to finish reliably.
+The<00:00:10.080><c> trick</c><00:00:10.400><c> is</c><00:00:10.600><c> LLM</c><00:00:11.160><c> is</c><00:00:11.360><c> not</c><00:00:11.640><c> in</c><00:00:11.800><c> charge.</c>
+
+00:00:13.590 --> 00:00:13.600 align:start position:0%
+The trick is LLM is not in charge.
+ 
+
+00:00:13.600 --> 00:00:16.230 align:start position:0%
+The trick is LLM is not in charge.
+If<00:00:13.960><c> you</c><00:00:14.040><c> have</c><00:00:14.200><c> shipped</c><00:00:14.680><c> a</c><00:00:14.760><c> multi-step</c><00:00:15.560><c> agent,</c>
+
+00:00:16.230 --> 00:00:16.240 align:start position:0%
+If you have shipped a multi-step agent,
+ 
+
+00:00:16.240 --> 00:00:18.310 align:start position:0%
+If you have shipped a multi-step agent,
+you<00:00:16.360><c> know</c><00:00:16.520><c> this</c><00:00:16.760><c> moment.</c><00:00:17.720><c> It's</c><00:00:18.000><c> near</c><00:00:18.200><c> the</c>
+
+00:00:18.310 --> 00:00:18.320 align:start position:0%
+you know this moment. It's near the
+ 
+
+00:00:18.320 --> 00:00:20.870 align:start position:0%
+you know this moment. It's near the
+demo,<00:00:19.040><c> then</c><00:00:19.240><c> a</c><00:00:19.320><c> real</c><00:00:19.600><c> user</c><00:00:20.240><c> gets</c><00:00:20.520><c> in</c><00:00:20.680><c> and</c>
+
+00:00:20.870 --> 00:00:20.880 align:start position:0%
+demo, then a real user gets in and
+ 
+
+00:00:20.880 --> 00:00:23.070 align:start position:0%
+demo, then a real user gets in and
+halfway<00:00:21.320><c> through</c><00:00:21.680><c> the</c><00:00:21.880><c> agent</c><00:00:22.200><c> decide</c><00:00:22.840><c> it's</c>
+
+00:00:23.070 --> 00:00:23.080 align:start position:0%
+halfway through the agent decide it's
+ 
+
+00:00:23.080 --> 00:00:26.870 align:start position:0%
+halfway through the agent decide it's
+done.<00:00:23.920><c> Or</c><00:00:24.160><c> skip</c><00:00:24.600><c> a</c><00:00:24.680><c> step,</c><00:00:25.320><c> or</c><00:00:25.520><c> even</c><00:00:25.800><c> loops.</c><00:00:26.640><c> The</c>
+
+00:00:26.870 --> 00:00:26.880 align:start position:0%
+done. Or skip a step, or even loops. The
+ 
+
+00:00:26.880 --> 00:00:29.990 align:start position:0%
+done. Or skip a step, or even loops. The
+demo<00:00:27.240><c> never</c><00:00:27.600><c> show</c><00:00:27.840><c> you</c><00:00:27.960><c> that.</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+demo never show you that.
+ 
+
+00:00:30.000 --> 00:00:32.470 align:start position:0%
+demo never show you that.
+And<00:00:30.240><c> the</c><00:00:30.360><c> first</c><00:00:30.720><c> fix</c><00:00:31.160><c> everyone</c><00:00:31.800><c> reaches</c><00:00:32.240><c> for</c>
+
+00:00:32.470 --> 00:00:32.480 align:start position:0%
+And the first fix everyone reaches for
+ 
+
+00:00:32.480 --> 00:00:35.630 align:start position:0%
+And the first fix everyone reaches for
+is<00:00:33.120><c> prompt</c><00:00:33.440><c> this</c><00:00:33.640><c> harder,</c><00:00:34.320><c> add</c><00:00:34.560><c> more</c><00:00:34.800><c> holes.</c>
+
+00:00:35.630 --> 00:00:35.640 align:start position:0%
+is prompt this harder, add more holes.
+ 
+
+00:00:35.640 --> 00:00:37.910 align:start position:0%
+is prompt this harder, add more holes.
+But<00:00:35.800><c> reliability</c><00:00:36.680><c> was</c><00:00:36.920><c> never</c><00:00:37.320><c> a</c><00:00:37.440><c> prompting</c>
+
+00:00:37.910 --> 00:00:37.920 align:start position:0%
+But reliability was never a prompting
+ 
+
+00:00:37.920 --> 00:00:41.150 align:start position:0%
+But reliability was never a prompting
+problem.<00:00:38.920><c> It's</c><00:00:39.200><c> a</c><00:00:39.280><c> control</c><00:00:39.760><c> problem.</c><00:00:40.840><c> Think</c>
+
+00:00:41.150 --> 00:00:41.160 align:start position:0%
+problem. It's a control problem. Think
+ 
+
+00:00:41.160 --> 00:00:44.150 align:start position:0%
+problem. It's a control problem. Think
+of<00:00:41.320><c> it</c><00:00:41.440><c> this</c><00:00:41.680><c> way.</c><00:00:42.400><c> The</c><00:00:42.600><c> model</c><00:00:42.960><c> is</c><00:00:43.120><c> the</c><00:00:43.280><c> talent,</c>
+
+00:00:44.150 --> 00:00:44.160 align:start position:0%
+of it this way. The model is the talent,
+ 
+
+00:00:44.160 --> 00:00:46.390 align:start position:0%
+of it this way. The model is the talent,
+and<00:00:44.320><c> the</c><00:00:44.440><c> harness</c><00:00:44.880><c> is</c><00:00:45.080><c> the</c><00:00:45.200><c> director.</c><00:00:46.160><c> The</c>
+
+00:00:46.390 --> 00:00:46.400 align:start position:0%
+and the harness is the director. The
+ 
+
+00:00:46.400 --> 00:00:48.830 align:start position:0%
+and the harness is the director. The
+model<00:00:46.760><c> is</c><00:00:46.880><c> brilliant</c><00:00:47.360><c> at</c><00:00:47.480><c> delivering</c><00:00:48.000><c> a</c><00:00:48.080><c> line,</c>
+
+00:00:48.830 --> 00:00:48.840 align:start position:0%
+model is brilliant at delivering a line,
+ 
+
+00:00:48.840 --> 00:00:50.710 align:start position:0%
+model is brilliant at delivering a line,
+but<00:00:49.000><c> it's</c><00:00:49.160><c> really</c><00:00:49.400><c> terrible</c><00:00:49.960><c> at</c><00:00:50.120><c> remembering</c>
+
+00:00:50.710 --> 00:00:50.720 align:start position:0%
+but it's really terrible at remembering
+ 
+
+00:00:50.720 --> 00:00:54.070 align:start position:0%
+but it's really terrible at remembering
+if<00:00:50.920><c> it's</c><00:00:51.160><c> on</c><00:00:51.280><c> step</c><00:00:51.640><c> three</c><00:00:52.080><c> of</c><00:00:52.280><c> six.</c><00:00:53.320><c> So</c><00:00:53.560><c> we</c><00:00:53.680><c> stop</c>
+
+00:00:54.070 --> 00:00:54.080 align:start position:0%
+if it's on step three of six. So we stop
+ 
+
+00:00:54.080 --> 00:00:56.390 align:start position:0%
+if it's on step three of six. So we stop
+asking<00:00:54.480><c> it</c><00:00:54.680><c> to.</c>
+
+00:00:56.390 --> 00:00:56.400 align:start position:0%
+asking it to.
+ 
+
+00:00:56.400 --> 00:00:59.190 align:start position:0%
+asking it to.
+A<00:00:56.640><c> lesson</c><00:00:57.120><c> is</c><00:00:57.280><c> a</c><00:00:57.360><c> small</c><00:00:57.640><c> state</c><00:00:57.960><c> machine</c><00:00:58.920><c> with</c>
+
+00:00:59.190 --> 00:00:59.200 align:start position:0%
+A lesson is a small state machine with
+ 
+
+00:00:59.200 --> 00:01:03.670 align:start position:0%
+A lesson is a small state machine with
+intro,<00:01:00.160><c> teach,</c><00:01:01.000><c> check,</c><00:01:01.800><c> grade,</c><00:01:02.640><c> advance,</c><00:01:03.440><c> and</c>
+
+00:01:03.670 --> 00:01:03.680 align:start position:0%
+intro, teach, check, grade, advance, and
+ 
+
+00:01:03.680 --> 00:01:04.590 align:start position:0%
+intro, teach, check, grade, advance, and
+wrap.
+
+00:01:04.590 --> 00:01:04.600 align:start position:0%
+wrap.
+ 
+
+00:01:04.600 --> 00:01:06.830 align:start position:0%
+wrap.
+Each<00:01:04.960><c> step</c><00:01:05.440><c> sends</c><00:01:05.800><c> the</c><00:01:05.880><c> model</c><00:01:06.320><c> a</c><00:01:06.400><c> neural</c>
+
+00:01:06.830 --> 00:01:06.840 align:start position:0%
+Each step sends the model a neural
+ 
+
+00:01:06.840 --> 00:01:10.510 align:start position:0%
+Each step sends the model a neural
+contract.<00:01:07.800><c> Do</c><00:01:08.000><c> this</c><00:01:08.200><c> one</c><00:01:08.400><c> thing,</c><00:01:08.920><c> return</c><00:01:09.360><c> it.</c>
+
+00:01:10.510 --> 00:01:10.520 align:start position:0%
+contract. Do this one thing, return it.
+ 
+
+00:01:10.520 --> 00:01:13.110 align:start position:0%
+contract. Do this one thing, return it.
+The<00:01:10.760><c> harness</c><00:01:11.200><c> validates</c><00:01:11.760><c> what's</c><00:01:12.000><c> comes</c><00:01:12.320><c> back,</c>
+
+00:01:13.110 --> 00:01:13.120 align:start position:0%
+The harness validates what's comes back,
+ 
+
+00:01:13.120 --> 00:01:15.390 align:start position:0%
+The harness validates what's comes back,
+advance<00:01:13.560><c> the</c><00:01:13.680><c> state,</c><00:01:14.560><c> and</c><00:01:14.760><c> decide</c><00:01:15.160><c> what's</c>
+
+00:01:15.390 --> 00:01:15.400 align:start position:0%
+advance the state, and decide what's
+ 
+
+00:01:15.400 --> 00:01:18.510 align:start position:0%
+advance the state, and decide what's
+next.<00:01:16.440><c> The</c><00:01:16.640><c> model</c><00:01:17.040><c> never</c><00:01:17.520><c> decide</c><00:01:18.000><c> where</c><00:01:18.200><c> we</c>
+
+00:01:18.510 --> 00:01:18.520 align:start position:0%
+next. The model never decide where we
+ 
+
+00:01:18.520 --> 00:01:21.190 align:start position:0%
+next. The model never decide where we
+are.<00:01:18.920><c> That's</c><00:01:19.160><c> the</c><00:01:19.240><c> design.</c><00:01:20.280><c> Joel</c><00:01:20.640><c> is</c><00:01:20.800><c> going</c><00:01:21.040><c> to</c>
+
+00:01:21.190 --> 00:01:21.200 align:start position:0%
+are. That's the design. Joel is going to
+ 
+
+00:01:21.200 --> 00:01:24.350 align:start position:0%
+are. That's the design. Joel is going to
+show<00:01:21.520><c> you</c><00:01:21.960><c> the</c><00:01:22.120><c> harness</c><00:01:22.520><c> thing.</c>
+
+00:01:24.350 --> 00:01:24.360 align:start position:0%
+show you the harness thing.
+ 
+
+00:01:24.360 --> 00:01:26.630 align:start position:0%
+show you the harness thing.
+&gt;&gt; Yeah.<00:01:25.040><c> So,</c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+&gt;&gt; Yeah. So,
+ 
+
+00:01:26.640 --> 00:01:28.550 align:start position:0%
+&gt;&gt; Yeah. So,
+when<00:01:26.880><c> we</c><00:01:27.000><c> think</c><00:01:27.200><c> about</c><00:01:27.560><c> the</c><00:01:27.680><c> frontier</c><00:01:28.080><c> models</c>
+
+00:01:28.550 --> 00:01:28.560 align:start position:0%
+when we think about the frontier models
+ 
+
+00:01:28.560 --> 00:01:31.830 align:start position:0%
+when we think about the frontier models
+of<00:01:28.680><c> today,</c><00:01:29.640><c> let's</c><00:01:29.920><c> take</c><00:01:30.160><c> for</c><00:01:30.280><c> example</c>
+
+00:01:31.830 --> 00:01:31.840 align:start position:0%
+of today, let's take for example
+ 
+
+00:01:31.840 --> 00:01:35.310 align:start position:0%
+of today, let's take for example
+um<00:01:31.920><c> Opus</c><00:01:32.280><c> 4.7</c><00:01:33.320><c> Cloud</c><00:01:33.760><c> from</c><00:01:34.000><c> Anthropic,</c>
+
+00:01:35.310 --> 00:01:35.320 align:start position:0%
+um Opus 4.7 Cloud from Anthropic,
+ 
+
+00:01:35.320 --> 00:01:37.470 align:start position:0%
+um Opus 4.7 Cloud from Anthropic,
+you<00:01:35.600><c> see</c><00:01:35.760><c> that</c><00:01:35.960><c> oftentimes</c><00:01:36.640><c> people</c><00:01:37.040><c> leverage</c>
+
+00:01:37.470 --> 00:01:37.480 align:start position:0%
+you see that oftentimes people leverage
+ 
+
+00:01:37.480 --> 00:01:40.270 align:start position:0%
+you see that oftentimes people leverage
+the<00:01:37.600><c> model</c><00:01:38.120><c> for</c><00:01:38.920><c> essentially</c><00:01:39.520><c> everything.</c>
+
+00:01:40.270 --> 00:01:40.280 align:start position:0%
+the model for essentially everything.
+ 
+
+00:01:40.280 --> 00:01:43.550 align:start position:0%
+the model for essentially everything.
+For<00:01:40.520><c> the</c><00:01:40.680><c> thinking,</c><00:01:41.880><c> for</c><00:01:42.240><c> the</c><00:01:42.400><c> processing,</c>
+
+00:01:43.550 --> 00:01:43.560 align:start position:0%
+For the thinking, for the processing,
+ 
+
+00:01:43.560 --> 00:01:46.110 align:start position:0%
+For the thinking, for the processing,
+right?<00:01:43.960><c> And</c><00:01:44.120><c> for</c><00:01:44.320><c> everything</c><00:01:44.840><c> in</c><00:01:45.000><c> between.</c>
+
+00:01:46.110 --> 00:01:46.120 align:start position:0%
+right? And for everything in between.
+ 
+
+00:01:46.120 --> 00:01:48.630 align:start position:0%
+right? And for everything in between.
+While<00:01:46.560><c> that</c><00:01:46.840><c> can</c><00:01:47.040><c> be</c><00:01:47.240><c> good,</c><00:01:47.840><c> it's</c><00:01:48.080><c> not</c><00:01:48.280><c> always</c>
+
+00:01:48.630 --> 00:01:48.640 align:start position:0%
+While that can be good, it's not always
+ 
+
+00:01:48.640 --> 00:01:51.710 align:start position:0%
+While that can be good, it's not always
+effective<00:01:49.680><c> in</c><00:01:49.840><c> situations</c><00:01:50.640><c> like</c><00:01:50.920><c> ours,</c><00:01:51.440><c> where</c>
+
+00:01:51.710 --> 00:01:51.720 align:start position:0%
+effective in situations like ours, where
+ 
+
+00:01:51.720 --> 00:01:54.830 align:start position:0%
+effective in situations like ours, where
+we<00:01:51.920><c> are</c><00:01:52.040><c> building</c><00:01:52.560><c> a</c><00:01:52.680><c> live</c><00:01:53.240><c> AI</c><00:01:53.520><c> tutor</c><00:01:54.520><c> that</c><00:01:54.720><c> is</c>
+
+00:01:54.830 --> 00:01:54.840 align:start position:0%
+we are building a live AI tutor that is
+ 
+
+00:01:54.840 --> 00:01:57.230 align:start position:0%
+we are building a live AI tutor that is
+speaking<00:01:55.280><c> back</c><00:01:55.520><c> and</c><00:01:55.680><c> forth</c><00:01:56.000><c> with</c><00:01:56.200><c> students.</c>
+
+00:01:57.230 --> 00:01:57.240 align:start position:0%
+speaking back and forth with students.
+ 
+
+00:01:57.240 --> 00:01:59.910 align:start position:0%
+speaking back and forth with students.
+Right?<00:01:57.680><c> For</c><00:01:57.880><c> something</c><00:01:58.440><c> like</c><00:01:58.680><c> this,</c><00:01:59.480><c> we</c><00:01:59.680><c> had</c><00:01:59.880><c> a</c>
+
+00:01:59.910 --> 00:01:59.920 align:start position:0%
+Right? For something like this, we had a
+ 
+
+00:01:59.920 --> 00:02:02.350 align:start position:0%
+Right? For something like this, we had a
+need<00:02:00.440><c> to</c><00:02:00.640><c> actually</c><00:02:01.240><c> build</c><00:02:01.680><c> something</c><00:02:02.040><c> that</c><00:02:02.240><c> is</c>
+
+00:02:02.350 --> 00:02:02.360 align:start position:0%
+need to actually build something that is
+ 
+
+00:02:02.360 --> 00:02:04.150 align:start position:0%
+need to actually build something that is
+reliable,<00:02:03.440><c> something</c><00:02:03.840><c> that</c><00:02:04.000><c> is</c>
+
+00:02:04.150 --> 00:02:04.160 align:start position:0%
+reliable, something that is
+ 
+
+00:02:04.160 --> 00:02:06.469 align:start position:0%
+reliable, something that is
+cost-effective,<00:02:05.280><c> and</c><00:02:05.560><c> something</c><00:02:06.000><c> that</c><00:02:06.200><c> is</c>
+
+00:02:06.469 --> 00:02:06.479 align:start position:0%
+cost-effective, and something that is
+ 
+
+00:02:06.479 --> 00:02:07.710 align:start position:0%
+cost-effective, and something that is
+fast.
+
+00:02:07.710 --> 00:02:07.720 align:start position:0%
+fast.
+ 
+
+00:02:07.720 --> 00:02:09.669 align:start position:0%
+fast.
+Right?<00:02:08.000><c> So,</c><00:02:08.160><c> this</c><00:02:08.399><c> is</c><00:02:08.560><c> where</c><00:02:08.759><c> the</c><00:02:08.960><c> idea</c><00:02:09.520><c> of</c>
+
+00:02:09.669 --> 00:02:09.679 align:start position:0%
+Right? So, this is where the idea of
+ 
+
+00:02:09.679 --> 00:02:11.350 align:start position:0%
+Right? So, this is where the idea of
+leveraging<00:02:10.240><c> the</c><00:02:10.360><c> concept</c><00:02:10.759><c> of</c><00:02:10.920><c> harness</c>
+
+00:02:11.350 --> 00:02:11.360 align:start position:0%
+leveraging the concept of harness
+ 
+
+00:02:11.360 --> 00:02:13.630 align:start position:0%
+leveraging the concept of harness
+engineering<00:02:12.200><c> has</c><00:02:12.560><c> come</c><00:02:12.800><c> in.</c>
+
+00:02:13.630 --> 00:02:13.640 align:start position:0%
+engineering has come in.
+ 
+
+00:02:13.640 --> 00:02:16.310 align:start position:0%
+engineering has come in.
+Where<00:02:14.080><c> instead</c><00:02:14.440><c> of</c><00:02:14.560><c> having</c><00:02:15.120><c> a</c><00:02:15.200><c> model</c><00:02:15.640><c> that</c><00:02:15.920><c> is</c>
+
+00:02:16.310 --> 00:02:16.320 align:start position:0%
+Where instead of having a model that is
+ 
+
+00:02:16.320 --> 00:02:18.910 align:start position:0%
+Where instead of having a model that is
+really<00:02:16.640><c> intelligent,</c><00:02:17.520><c> sort</c><00:02:17.800><c> of</c><00:02:18.440><c> go</c><00:02:18.640><c> through</c>
+
+00:02:18.910 --> 00:02:18.920 align:start position:0%
+really intelligent, sort of go through
+ 
+
+00:02:18.920 --> 00:02:22.470 align:start position:0%
+really intelligent, sort of go through
+everything<00:02:19.360><c> for</c><00:02:19.560><c> us,</c><00:02:20.440><c> we</c><00:02:20.760><c> will</c><00:02:21.000><c> build</c><00:02:21.920><c> all</c><00:02:22.280><c> of</c>
+
+00:02:22.470 --> 00:02:22.480 align:start position:0%
+everything for us, we will build all of
+ 
+
+00:02:22.480 --> 00:02:25.230 align:start position:0%
+everything for us, we will build all of
+these<00:02:22.760><c> steps</c><00:02:23.320><c> that</c><00:02:23.520><c> are</c><00:02:23.600><c> needed</c><00:02:24.480><c> and</c><00:02:24.680><c> provide</c>
+
+00:02:25.230 --> 00:02:25.240 align:start position:0%
+these steps that are needed and provide
+ 
+
+00:02:25.240 --> 00:02:27.910 align:start position:0%
+these steps that are needed and provide
+only<00:02:25.640><c> the</c><00:02:25.840><c> input</c><00:02:26.400><c> required</c><00:02:27.160><c> for</c><00:02:27.320><c> the</c><00:02:27.440><c> model</c><00:02:27.760><c> to</c>
+
+00:02:27.910 --> 00:02:27.920 align:start position:0%
+only the input required for the model to
+ 
+
+00:02:27.920 --> 00:02:30.630 align:start position:0%
+only the input required for the model to
+execute<00:02:28.440><c> a</c><00:02:28.520><c> specific</c><00:02:29.200><c> scenario.</c><00:02:30.280><c> So,</c><00:02:30.400><c> when</c><00:02:30.560><c> we</c>
+
+00:02:30.630 --> 00:02:30.640 align:start position:0%
+execute a specific scenario. So, when we
+ 
+
+00:02:30.640 --> 00:02:32.230 align:start position:0%
+execute a specific scenario. So, when we
+were<00:02:30.720><c> building</c><00:02:31.120><c> ACE,</c><00:02:31.440><c> we</c><00:02:31.600><c> actually</c><00:02:31.959><c> thought</c>
+
+00:02:32.230 --> 00:02:32.240 align:start position:0%
+were building ACE, we actually thought
+ 
+
+00:02:32.240 --> 00:02:35.110 align:start position:0%
+were building ACE, we actually thought
+very<00:02:32.560><c> deeply</c><00:02:33.080><c> about</c><00:02:33.560><c> state</c><00:02:33.800><c> machines.</c><00:02:34.840><c> Right?</c>
+
+00:02:35.110 --> 00:02:35.120 align:start position:0%
+very deeply about state machines. Right?
+ 
+
+00:02:35.120 --> 00:02:37.750 align:start position:0%
+very deeply about state machines. Right?
+What<00:02:35.280><c> is</c><00:02:35.400><c> the</c><00:02:35.520><c> step</c><00:02:36.160><c> right</c><00:02:36.440><c> now?</c><00:02:37.120><c> And</c><00:02:37.400><c> what</c><00:02:37.560><c> is</c>
+
+00:02:37.750 --> 00:02:37.760 align:start position:0%
+What is the step right now? And what is
+ 
+
+00:02:37.760 --> 00:02:40.070 align:start position:0%
+What is the step right now? And what is
+the<00:02:37.920><c> possible</c><00:02:38.480><c> steps</c><00:02:39.160><c> that</c><00:02:39.400><c> could</c><00:02:39.560><c> come</c>
+
+00:02:40.070 --> 00:02:40.080 align:start position:0%
+the possible steps that could come
+ 
+
+00:02:40.080 --> 00:02:42.550 align:start position:0%
+the possible steps that could come
+after?<00:02:41.000><c> And</c><00:02:41.160><c> within</c><00:02:41.520><c> each</c><00:02:41.720><c> of</c><00:02:41.800><c> the</c><00:02:41.920><c> steps,</c>
+
+00:02:42.550 --> 00:02:42.560 align:start position:0%
+after? And within each of the steps,
+ 
+
+00:02:42.560 --> 00:02:44.949 align:start position:0%
+after? And within each of the steps,
+what<00:02:43.040><c> are</c><00:02:43.280><c> concrete</c><00:02:44.200><c> things</c><00:02:44.560><c> that</c><00:02:44.680><c> we</c><00:02:44.800><c> can</c>
+
+00:02:44.949 --> 00:02:44.959 align:start position:0%
+what are concrete things that we can
+ 
+
+00:02:44.959 --> 00:02:47.030 align:start position:0%
+what are concrete things that we can
+provide<00:02:45.440><c> to</c><00:02:45.520><c> the</c><00:02:45.640><c> model</c><00:02:46.360><c> so</c><00:02:46.480><c> that</c><00:02:46.800><c> it</c><00:02:46.920><c> is</c>
+
+00:02:47.030 --> 00:02:47.040 align:start position:0%
+provide to the model so that it is
+ 
+
+00:02:47.040 --> 00:02:49.630 align:start position:0%
+provide to the model so that it is
+confined<00:02:47.920><c> to</c><00:02:48.000><c> that</c><00:02:48.200><c> specific</c><00:02:48.840><c> action,</c><00:02:49.400><c> it</c><00:02:49.520><c> is</c>
+
+00:02:49.630 --> 00:02:49.640 align:start position:0%
+confined to that specific action, it is
+ 
+
+00:02:49.640 --> 00:02:52.310 align:start position:0%
+confined to that specific action, it is
+confined<00:02:50.280><c> to</c><00:02:50.400><c> that</c><00:02:50.600><c> specific</c><00:02:51.560><c> step</c><00:02:52.040><c> at</c><00:02:52.120><c> that</c>
+
+00:02:52.310 --> 00:02:52.320 align:start position:0%
+confined to that specific step at that
+ 
+
+00:02:52.320 --> 00:02:54.910 align:start position:0%
+confined to that specific step at that
+particular<00:02:52.840><c> moment,</c><00:02:53.560><c> and</c><00:02:53.800><c> only</c><00:02:54.160><c> execute</c><00:02:54.760><c> what</c>
+
+00:02:54.910 --> 00:02:54.920 align:start position:0%
+particular moment, and only execute what
+ 
+
+00:02:54.920 --> 00:02:56.430 align:start position:0%
+particular moment, and only execute what
+needs<00:02:55.160><c> to</c><00:02:55.240><c> be</c><00:02:55.360><c> done.</c>
+
+00:02:56.430 --> 00:02:56.440 align:start position:0%
+needs to be done.
+ 
+
+00:02:56.440 --> 00:02:58.310 align:start position:0%
+needs to be done.
+So,<00:02:56.520><c> by</c><00:02:56.640><c> doing</c><00:02:56.920><c> this,</c><00:02:57.480><c> instead</c><00:02:57.800><c> of</c><00:02:57.920><c> having</c><00:02:58.240><c> a</c>
+
+00:02:58.310 --> 00:02:58.320 align:start position:0%
+So, by doing this, instead of having a
+ 
+
+00:02:58.320 --> 00:03:01.110 align:start position:0%
+So, by doing this, instead of having a
+very<00:02:58.800><c> heavy</c><00:02:59.120><c> model</c><00:02:59.480><c> like</c><00:02:59.720><c> a</c><00:02:59.760><c> 4.7,</c><00:03:00.880><c> we</c><00:03:01.000><c> were</c>
+
+00:03:01.110 --> 00:03:01.120 align:start position:0%
+very heavy model like a 4.7, we were
+ 
+
+00:03:01.120 --> 00:03:03.670 align:start position:0%
+very heavy model like a 4.7, we were
+actually<00:03:01.600><c> able</c><00:03:01.920><c> to</c><00:03:02.080><c> rely</c><00:03:02.640><c> on</c><00:03:03.040><c> something</c><00:03:03.480><c> like</c>
+
+00:03:03.670 --> 00:03:03.680 align:start position:0%
+actually able to rely on something like
+ 
+
+00:03:03.680 --> 00:03:05.870 align:start position:0%
+actually able to rely on something like
+a<00:03:03.760><c> Haiku</c><00:03:04.160><c> 4.5,</c>
+
+00:03:05.870 --> 00:03:05.880 align:start position:0%
+a Haiku 4.5,
+ 
+
+00:03:05.880 --> 00:03:08.150 align:start position:0%
+a Haiku 4.5,
+which<00:03:06.120><c> is</c><00:03:06.280><c> a</c><00:03:06.360><c> much</c><00:03:06.720><c> smaller</c><00:03:07.040><c> model,</c><00:03:07.800><c> doesn't</c>
+
+00:03:08.150 --> 00:03:08.160 align:start position:0%
+which is a much smaller model, doesn't
+ 
+
+00:03:08.160 --> 00:03:10.229 align:start position:0%
+which is a much smaller model, doesn't
+have<00:03:08.320><c> as</c><00:03:08.480><c> much</c><00:03:08.720><c> reasoning</c><00:03:09.080><c> capabilities,</c><00:03:10.080><c> but</c>
+
+00:03:10.229 --> 00:03:10.239 align:start position:0%
+have as much reasoning capabilities, but
+ 
+
+00:03:10.239 --> 00:03:11.910 align:start position:0%
+have as much reasoning capabilities, but
+because<00:03:10.560><c> of</c><00:03:10.680><c> the</c><00:03:10.800><c> harnessing</c><00:03:11.360><c> around</c><00:03:11.760><c> it,</c>
+
+00:03:11.910 --> 00:03:11.920 align:start position:0%
+because of the harnessing around it,
+ 
+
+00:03:11.920 --> 00:03:14.110 align:start position:0%
+because of the harnessing around it,
+it's<00:03:12.120><c> still</c><00:03:12.480><c> able</c><00:03:12.760><c> to</c><00:03:12.880><c> perform</c><00:03:13.560><c> at</c><00:03:13.680><c> the</c><00:03:13.800><c> level</c>
+
+00:03:14.110 --> 00:03:14.120 align:start position:0%
+it's still able to perform at the level
+ 
+
+00:03:14.120 --> 00:03:16.910 align:start position:0%
+it's still able to perform at the level
+in<00:03:14.239><c> which</c><00:03:14.480><c> we</c><00:03:14.560><c> expect,</c><00:03:15.440><c> saving</c><00:03:15.840><c> money,</c><00:03:16.519><c> saving</c>
+
+00:03:16.910 --> 00:03:16.920 align:start position:0%
+in which we expect, saving money, saving
+ 
+
+00:03:16.920 --> 00:03:19.790 align:start position:0%
+in which we expect, saving money, saving
+time,<00:03:17.760><c> and</c><00:03:18.160><c> saving</c><00:03:18.440><c> latency.</c><00:03:19.440><c> So,</c><00:03:19.560><c> let's</c><00:03:19.720><c> go</c>
+
+00:03:19.790 --> 00:03:19.800 align:start position:0%
+time, and saving latency. So, let's go
+ 
+
+00:03:19.800 --> 00:03:21.790 align:start position:0%
+time, and saving latency. So, let's go
+ahead<00:03:20.080><c> and</c><00:03:20.200><c> play</c><00:03:20.480><c> this</c><00:03:20.840><c> recording,</c><00:03:21.480><c> which</c>
+
+00:03:21.790 --> 00:03:21.800 align:start position:0%
+ahead and play this recording, which
+ 
+
+00:03:21.800 --> 00:03:24.949 align:start position:0%
+ahead and play this recording, which
+will<00:03:21.920><c> show</c><00:03:22.200><c> us</c><00:03:22.480><c> logs</c><00:03:23.640><c> um</c><00:03:23.959><c> about</c><00:03:24.400><c> a</c><00:03:24.440><c> particular</c>
+
+00:03:24.949 --> 00:03:24.959 align:start position:0%
+will show us logs um about a particular
+ 
+
+00:03:24.959 --> 00:03:26.229 align:start position:0%
+will show us logs um about a particular
+lesson.
+
+00:03:26.229 --> 00:03:26.239 align:start position:0%
+lesson.
+ 
+
+00:03:26.239 --> 00:03:28.270 align:start position:0%
+lesson.
+So,<00:03:26.560><c> as</c><00:03:26.720><c> you</c><00:03:26.800><c> can</c><00:03:27.000><c> see</c><00:03:27.239><c> in</c><00:03:27.320><c> this</c><00:03:27.680><c> video,</c>
+
+00:03:28.270 --> 00:03:28.280 align:start position:0%
+So, as you can see in this video,
+ 
+
+00:03:28.280 --> 00:03:30.910 align:start position:0%
+So, as you can see in this video,
+especially<00:03:29.000><c> on</c><00:03:29.120><c> the</c><00:03:29.239><c> right</c><00:03:29.519><c> side,</c><00:03:30.320><c> we</c><00:03:30.560><c> see</c>
+
+00:03:30.910 --> 00:03:30.920 align:start position:0%
+especially on the right side, we see
+ 
+
+00:03:30.920 --> 00:03:33.590 align:start position:0%
+especially on the right side, we see
+logs<00:03:31.519><c> on</c><00:03:31.880><c> all</c><00:03:32.120><c> of</c><00:03:32.239><c> the</c><00:03:32.400><c> different</c><00:03:33.040><c> harnessing</c>
+
+00:03:33.590 --> 00:03:33.600 align:start position:0%
+logs on all of the different harnessing
+ 
+
+00:03:33.600 --> 00:03:35.229 align:start position:0%
+logs on all of the different harnessing
+that<00:03:33.800><c> are</c><00:03:33.840><c> happening.</c><00:03:34.187><c> [clears throat]</c>
+
+00:03:35.229 --> 00:03:35.239 align:start position:0%
+that are happening. [clears throat]
+ 
+
+00:03:35.239 --> 00:03:37.550 align:start position:0%
+that are happening. [clears throat]
+Right?<00:03:35.600><c> So,</c><00:03:36.280><c> for</c><00:03:36.440><c> example,</c><00:03:37.000><c> we</c><00:03:37.160><c> see</c><00:03:37.360><c> that</c>
+
+00:03:37.550 --> 00:03:37.560 align:start position:0%
+Right? So, for example, we see that
+ 
+
+00:03:37.560 --> 00:03:39.790 align:start position:0%
+Right? So, for example, we see that
+there's<00:03:37.840><c> harnessing</c><00:03:38.440><c> for</c><00:03:38.760><c> a</c><00:03:38.840><c> section,</c><00:03:39.600><c> which</c>
+
+00:03:39.790 --> 00:03:39.800 align:start position:0%
+there's harnessing for a section, which
+ 
+
+00:03:39.800 --> 00:03:42.350 align:start position:0%
+there's harnessing for a section, which
+provides<00:03:40.280><c> input</c><00:03:40.800><c> to</c><00:03:40.959><c> the</c><00:03:41.120><c> model</c><00:03:41.560><c> about</c>
+
+00:03:42.350 --> 00:03:42.360 align:start position:0%
+provides input to the model about
+ 
+
+00:03:42.360 --> 00:03:45.350 align:start position:0%
+provides input to the model about
+exactly<00:03:43.000><c> what</c><00:03:43.280><c> to</c><00:03:43.400><c> speak</c><00:03:43.720><c> about,</c><00:03:44.200><c> what</c><00:03:44.400><c> to</c><00:03:44.519><c> do.</c>
+
+00:03:45.350 --> 00:03:45.360 align:start position:0%
+exactly what to speak about, what to do.
+ 
+
+00:03:45.360 --> 00:03:47.509 align:start position:0%
+exactly what to speak about, what to do.
+We<00:03:45.519><c> have</c><00:03:45.800><c> harnessing</c><00:03:46.320><c> about</c><00:03:46.800><c> drawing</c><00:03:47.320><c> on</c><00:03:47.400><c> the</c>
+
+00:03:47.509 --> 00:03:47.519 align:start position:0%
+We have harnessing about drawing on the
+ 
+
+00:03:47.519 --> 00:03:49.910 align:start position:0%
+We have harnessing about drawing on the
+whiteboard.<00:03:48.480><c> We</c><00:03:48.640><c> have</c><00:03:48.880><c> harnessing</c><00:03:49.680><c> that</c>
+
+00:03:49.910 --> 00:03:49.920 align:start position:0%
+whiteboard. We have harnessing that
+ 
+
+00:03:49.920 --> 00:03:52.430 align:start position:0%
+whiteboard. We have harnessing that
+deals<00:03:50.239><c> with</c><00:03:50.400><c> clearing</c><00:03:50.880><c> the</c><00:03:51.000><c> queue.</c><00:03:51.920><c> We</c><00:03:52.160><c> have</c>
+
+00:03:52.430 --> 00:03:52.440 align:start position:0%
+deals with clearing the queue. We have
+ 
+
+00:03:52.440 --> 00:03:55.630 align:start position:0%
+deals with clearing the queue. We have
+steps<00:03:53.360><c> to</c><00:03:53.720><c> how</c><00:03:53.960><c> to</c><00:03:54.160><c> end</c><00:03:54.400><c> the</c><00:03:54.480><c> lesson</c><00:03:55.320><c> and</c>
+
+00:03:55.630 --> 00:03:55.640 align:start position:0%
+steps to how to end the lesson and
+ 
+
+00:03:55.640 --> 00:03:57.510 align:start position:0%
+steps to how to end the lesson and
+everything<00:03:56.160><c> in</c><00:03:56.240><c> between,</c><00:03:57.080><c> right?</c><00:03:57.360><c> So,</c>
+
+00:03:57.510 --> 00:03:57.520 align:start position:0%
+everything in between, right? So,
+ 
+
+00:03:57.520 --> 00:03:59.230 align:start position:0%
+everything in between, right? So,
+everything<00:03:58.240><c> that</c><00:03:58.440><c> would</c><00:03:58.600><c> allow</c><00:03:58.920><c> us</c><00:03:59.080><c> to</c>
+
+00:03:59.230 --> 00:03:59.240 align:start position:0%
+everything that would allow us to
+ 
+
+00:03:59.240 --> 00:04:02.830 align:start position:0%
+everything that would allow us to
+actually<00:03:59.720><c> build</c><00:04:00.760><c> the</c><00:04:01.240><c> lesson</c><00:04:02.080><c> in</c><00:04:02.240><c> a</c><00:04:02.360><c> way</c><00:04:02.600><c> that</c>
+
+00:04:02.830 --> 00:04:02.840 align:start position:0%
+actually build the lesson in a way that
+ 
+
+00:04:02.840 --> 00:04:04.910 align:start position:0%
+actually build the lesson in a way that
+is<00:04:03.000><c> reliable</c><00:04:03.760><c> even</c><00:04:04.240><c> if</c><00:04:04.440><c> there's</c><00:04:04.680><c> a</c><00:04:04.720><c> new</c>
+
+00:04:04.910 --> 00:04:04.920 align:start position:0%
+is reliable even if there's a new
+ 
+
+00:04:04.920 --> 00:04:07.110 align:start position:0%
+is reliable even if there's a new
+scenario<00:04:05.400><c> that</c><00:04:05.600><c> comes</c><00:04:05.880><c> in.</c><00:04:06.480><c> We</c><00:04:06.600><c> try</c><00:04:06.920><c> to</c>
+
+00:04:07.110 --> 00:04:07.120 align:start position:0%
+scenario that comes in. We try to
+ 
+
+00:04:07.120 --> 00:04:09.270 align:start position:0%
+scenario that comes in. We try to
+incorporate<00:04:07.840><c> that</c><00:04:07.959><c> in</c><00:04:08.120><c> our</c><00:04:08.240><c> state</c><00:04:08.480><c> machine.</c>
+
+00:04:09.270 --> 00:04:09.280 align:start position:0%
+incorporate that in our state machine.
+ 
+
+00:04:09.280 --> 00:04:11.310 align:start position:0%
+incorporate that in our state machine.
+We<00:04:09.400><c> try</c><00:04:09.600><c> to</c><00:04:09.720><c> incorporate</c><00:04:10.280><c> that</c><00:04:10.440><c> with</c><00:04:10.880><c> within</c>
+
+00:04:11.310 --> 00:04:11.320 align:start position:0%
+We try to incorporate that with within
+ 
+
+00:04:11.320 --> 00:04:13.350 align:start position:0%
+We try to incorporate that with within
+the<00:04:11.440><c> lesson,</c><00:04:12.320><c> right?</c><00:04:12.480><c> So,</c><00:04:12.600><c> again,</c><00:04:12.800><c> the</c><00:04:12.920><c> model</c>
+
+00:04:13.350 --> 00:04:13.360 align:start position:0%
+the lesson, right? So, again, the model
+ 
+
+00:04:13.360 --> 00:04:15.949 align:start position:0%
+the lesson, right? So, again, the model
+all<00:04:13.560><c> it</c><00:04:13.640><c> worries</c><00:04:13.920><c> about</c><00:04:14.320><c> is</c><00:04:14.560><c> given</c><00:04:14.880><c> an</c><00:04:15.000><c> input,</c>
+
+00:04:15.949 --> 00:04:15.959 align:start position:0%
+all it worries about is given an input,
+ 
+
+00:04:15.959 --> 00:04:18.030 align:start position:0%
+all it worries about is given an input,
+it<00:04:16.120><c> knows</c><00:04:16.560><c> which</c><00:04:16.840><c> action</c><00:04:17.200><c> to</c><00:04:17.320><c> take</c><00:04:17.799><c> and</c><00:04:17.959><c> it</c>
+
+00:04:18.030 --> 00:04:18.040 align:start position:0%
+it knows which action to take and it
+ 
+
+00:04:18.040 --> 00:04:20.590 align:start position:0%
+it knows which action to take and it
+provides<00:04:18.480><c> the</c><00:04:18.640><c> output</c><00:04:19.120><c> of</c><00:04:19.359><c> that</c><00:04:19.600><c> action.</c>
+
+00:04:20.590 --> 00:04:20.600 align:start position:0%
+provides the output of that action.
+ 
+
+00:04:20.600 --> 00:04:23.670 align:start position:0%
+provides the output of that action.
+Right?<00:04:21.160><c> And</c><00:04:21.400><c> so,</c><00:04:21.600><c> the</c><00:04:21.720><c> model</c><00:04:22.080><c> never</c><00:04:22.440><c> really</c>
+
+00:04:23.670 --> 00:04:23.680 align:start position:0%
+Right? And so, the model never really
+ 
+
+00:04:23.680 --> 00:04:24.390 align:start position:0%
+Right? And so, the model never really
+um
+
+00:04:24.390 --> 00:04:24.400 align:start position:0%
+um
+ 
+
+00:04:24.400 --> 00:04:26.430 align:start position:0%
+um
+has<00:04:24.720><c> to</c><00:04:24.840><c> think.</c><00:04:25.480><c> It</c><00:04:25.640><c> proposes,</c><00:04:26.240><c> but</c>
+
+00:04:26.430 --> 00:04:26.440 align:start position:0%
+has to think. It proposes, but
+ 
+
+00:04:26.440 --> 00:04:28.070 align:start position:0%
+has to think. It proposes, but
+ultimately<00:04:27.160><c> it</c><00:04:27.320><c> is</c><00:04:27.440><c> the</c><00:04:27.560><c> harness</c><00:04:27.960><c> that</c>
+
+00:04:28.070 --> 00:04:28.080 align:start position:0%
+ultimately it is the harness that
+ 
+
+00:04:28.080 --> 00:04:30.750 align:start position:0%
+ultimately it is the harness that
+decides.<00:04:29.080><c> And</c><00:04:29.200><c> so,</c><00:04:29.280><c> for</c><00:04:29.480><c> his</c><00:04:29.880><c> A</c><00:04:30.080><c> specifically,</c>
+
+00:04:30.750 --> 00:04:30.760 align:start position:0%
+decides. And so, for his A specifically,
+ 
+
+00:04:30.760 --> 00:04:32.470 align:start position:0%
+decides. And so, for his A specifically,
+there<00:04:30.880><c> are</c><00:04:30.960><c> three</c><00:04:31.240><c> things</c><00:04:31.520><c> that</c><00:04:31.680><c> we</c><00:04:31.800><c> wanted</c><00:04:32.160><c> to</c>
+
+00:04:32.470 --> 00:04:32.480 align:start position:0%
+there are three things that we wanted to
+ 
+
+00:04:32.480 --> 00:04:34.270 align:start position:0%
+there are three things that we wanted to
+think<00:04:32.680><c> about.</c><00:04:33.320><c> Like,</c><00:04:33.520><c> when</c><00:04:33.760><c> is</c><00:04:33.840><c> the</c><00:04:33.919><c> lesson</c>
+
+00:04:34.270 --> 00:04:34.280 align:start position:0%
+think about. Like, when is the lesson
+ 
+
+00:04:34.280 --> 00:04:36.310 align:start position:0%
+think about. Like, when is the lesson
+done<00:04:34.520><c> is</c><00:04:34.680><c> one,</c><00:04:35.400><c> right?</c><00:04:35.640><c> Did</c><00:04:35.760><c> the</c><00:04:35.880><c> student</c>
+
+00:04:36.310 --> 00:04:36.320 align:start position:0%
+done is one, right? Did the student
+ 
+
+00:04:36.320 --> 00:04:37.710 align:start position:0%
+done is one, right? Did the student
+actually<00:04:36.680><c> get</c><00:04:36.880><c> it</c><00:04:37.000><c> right?</c><00:04:37.280><c> Like,</c><00:04:37.480><c> did</c><00:04:37.600><c> they</c>
+
+00:04:37.710 --> 00:04:37.720 align:start position:0%
+actually get it right? Like, did they
+ 
+
+00:04:37.720 --> 00:04:39.150 align:start position:0%
+actually get it right? Like, did they
+actually<00:04:38.240><c> learn</c><00:04:38.560><c> in</c><00:04:38.680><c> the</c><00:04:38.800><c> way</c><00:04:38.919><c> they</c><00:04:39.040><c> were</c>
+
+00:04:39.150 --> 00:04:39.160 align:start position:0%
+actually learn in the way they were
+ 
+
+00:04:39.160 --> 00:04:41.750 align:start position:0%
+actually learn in the way they were
+supposed<00:04:39.520><c> to?</c><00:04:40.080><c> And</c><00:04:40.280><c> what</c><00:04:40.520><c> comes</c><00:04:40.840><c> next,</c><00:04:41.440><c> right?</c>
+
+00:04:41.750 --> 00:04:41.760 align:start position:0%
+supposed to? And what comes next, right?
+ 
+
+00:04:41.760 --> 00:04:43.550 align:start position:0%
+supposed to? And what comes next, right?
+And<00:04:41.880><c> so,</c><00:04:42.040><c> everything</c><00:04:42.680><c> that</c><00:04:42.919><c> comes</c><00:04:43.280><c> within</c>
+
+00:04:43.550 --> 00:04:43.560 align:start position:0%
+And so, everything that comes within
+ 
+
+00:04:43.560 --> 00:04:45.510 align:start position:0%
+And so, everything that comes within
+those<00:04:43.720><c> three</c><00:04:43.960><c> categories,</c><00:04:45.080><c> all</c><00:04:45.320><c> of</c><00:04:45.400><c> the</c>
+
+00:04:45.510 --> 00:04:45.520 align:start position:0%
+those three categories, all of the
+ 
+
+00:04:45.520 --> 00:04:46.750 align:start position:0%
+those three categories, all of the
+different<00:04:45.880><c> questions,</c><00:04:46.400><c> all</c><00:04:46.520><c> of</c><00:04:46.600><c> the</c>
+
+00:04:46.750 --> 00:04:46.760 align:start position:0%
+different questions, all of the
+ 
+
+00:04:46.760 --> 00:04:48.350 align:start position:0%
+different questions, all of the
+different<00:04:47.160><c> actions</c><00:04:47.600><c> that</c><00:04:47.720><c> the</c><00:04:47.800><c> models</c><00:04:48.160><c> needs</c>
+
+00:04:48.350 --> 00:04:48.360 align:start position:0%
+different actions that the models needs
+ 
+
+00:04:48.360 --> 00:04:51.350 align:start position:0%
+different actions that the models needs
+to<00:04:48.480><c> take,</c><00:04:49.040><c> we</c><00:04:49.120><c> have</c><00:04:49.320><c> engineered</c><00:04:50.120><c> that</c><00:04:50.520><c> outside</c>
+
+00:04:51.350 --> 00:04:51.360 align:start position:0%
+to take, we have engineered that outside
+ 
+
+00:04:51.360 --> 00:04:53.230 align:start position:0%
+to take, we have engineered that outside
+of<00:04:51.480><c> the</c><00:04:51.600><c> model,</c><00:04:52.280><c> right?</c><00:04:52.560><c> So,</c><00:04:52.680><c> again,</c><00:04:52.960><c> it's</c><00:04:53.080><c> an</c>
+
+00:04:53.230 --> 00:04:53.240 align:start position:0%
+of the model, right? So, again, it's an
+ 
+
+00:04:53.240 --> 00:04:55.670 align:start position:0%
+of the model, right? So, again, it's an
+input,<00:04:54.080><c> the</c><00:04:54.200><c> model</c><00:04:54.440><c> receives</c><00:04:54.840><c> it</c><00:04:55.280><c> and</c><00:04:55.480><c> gives</c>
+
+00:04:55.670 --> 00:04:55.680 align:start position:0%
+input, the model receives it and gives
+ 
+
+00:04:55.680 --> 00:04:57.750 align:start position:0%
+input, the model receives it and gives
+us<00:04:55.840><c> an</c><00:04:55.960><c> output,</c><00:04:56.760><c> right?</c><00:04:57.080><c> And</c><00:04:57.200><c> so,</c><00:04:57.320><c> this</c><00:04:57.560><c> is</c>
+
+00:04:57.750 --> 00:04:57.760 align:start position:0%
+us an output, right? And so, this is
+ 
+
+00:04:57.760 --> 00:04:59.870 align:start position:0%
+us an output, right? And so, this is
+very,<00:04:58.080><c> very</c><00:04:58.440><c> important</c><00:04:59.120><c> and</c><00:04:59.360><c> we</c><00:04:59.520><c> have</c><00:04:59.640><c> found</c>
+
+00:04:59.870 --> 00:04:59.880 align:start position:0%
+very, very important and we have found
+ 
+
+00:04:59.880 --> 00:05:02.670 align:start position:0%
+very, very important and we have found
+this<00:05:00.080><c> to</c><00:05:00.200><c> be</c><00:05:00.640><c> very</c><00:05:00.919><c> remarkable.</c>
+
+00:05:02.670 --> 00:05:02.680 align:start position:0%
+this to be very remarkable.
+ 
+
+00:05:02.680 --> 00:05:05.150 align:start position:0%
+this to be very remarkable.
+Right?<00:05:02.880><c> So,</c><00:05:03.000><c> again,</c><00:05:03.480><c> the</c><00:05:03.919><c> the</c><00:05:04.680><c> this</c><00:05:04.960><c> is</c>
+
+00:05:05.150 --> 00:05:05.160 align:start position:0%
+Right? So, again, the the this is
+ 
+
+00:05:05.160 --> 00:05:06.950 align:start position:0%
+Right? So, again, the the this is
+applicable<00:05:05.800><c> to</c><00:05:06.040><c> really</c><00:05:06.320><c> everything,</c><00:05:06.760><c> right?</c>
+
+00:05:06.950 --> 00:05:06.960 align:start position:0%
+applicable to really everything, right?
+ 
+
+00:05:06.960 --> 00:05:10.390 align:start position:0%
+applicable to really everything, right?
+It's<00:05:07.080><c> applicable</c><00:05:08.200><c> to</c><00:05:08.840><c> something</c><00:05:09.360><c> like</c><00:05:09.720><c> A</c><00:05:10.160><c> that</c>
+
+00:05:10.390 --> 00:05:10.400 align:start position:0%
+It's applicable to something like A that
+ 
+
+00:05:10.400 --> 00:05:12.710 align:start position:0%
+It's applicable to something like A that
+is<00:05:10.560><c> a</c><00:05:10.640><c> voice</c><00:05:11.320><c> model.</c><00:05:11.680><c> It's</c><00:05:11.880><c> applicable</c><00:05:12.520><c> to</c>
+
+00:05:12.710 --> 00:05:12.720 align:start position:0%
+is a voice model. It's applicable to
+ 
+
+00:05:12.720 --> 00:05:15.350 align:start position:0%
+is a voice model. It's applicable to
+coding<00:05:13.080><c> agents,</c><00:05:13.560><c> to</c><00:05:13.760><c> Ops</c><00:05:14.000><c> Run</c><00:05:14.240><c> Books.</c>
+
+00:05:15.350 --> 00:05:15.360 align:start position:0%
+coding agents, to Ops Run Books.
+ 
+
+00:05:15.360 --> 00:05:17.150 align:start position:0%
+coding agents, to Ops Run Books.
+Um<00:05:15.440><c> it's</c><00:05:15.600><c> applicable</c><00:05:16.080><c> to</c><00:05:16.200><c> onboarding</c><00:05:16.680><c> flows,</c>
+
+00:05:17.150 --> 00:05:17.160 align:start position:0%
+Um it's applicable to onboarding flows,
+ 
+
+00:05:17.160 --> 00:05:19.790 align:start position:0%
+Um it's applicable to onboarding flows,
+right?<00:05:17.440><c> The</c><00:05:17.560><c> same</c><00:05:17.960><c> rule</c><00:05:18.440><c> applies,</c><00:05:19.360><c> right?</c><00:05:19.640><c> We</c>
+
+00:05:19.790 --> 00:05:19.800 align:start position:0%
+right? The same rule applies, right? We
+ 
+
+00:05:19.800 --> 00:05:22.550 align:start position:0%
+right? The same rule applies, right? We
+want<00:05:20.040><c> to</c><00:05:20.160><c> find</c><00:05:20.520><c> a</c><00:05:20.600><c> way</c><00:05:20.919><c> to</c><00:05:21.240><c> not</c><00:05:21.680><c> let</c><00:05:22.120><c> the</c><00:05:22.240><c> model</c>
+
+00:05:22.550 --> 00:05:22.560 align:start position:0%
+want to find a way to not let the model
+ 
+
+00:05:22.560 --> 00:05:25.390 align:start position:0%
+want to find a way to not let the model
+think,<00:05:23.200><c> but</c><00:05:23.480><c> building</c><00:05:24.160><c> abstractions</c><00:05:25.000><c> around</c>
+
+00:05:25.390 --> 00:05:25.400 align:start position:0%
+think, but building abstractions around
+ 
+
+00:05:25.400 --> 00:05:28.710 align:start position:0%
+think, but building abstractions around
+it.<00:05:25.919><c> So,</c><00:05:26.080><c> a</c><00:05:26.160><c> good</c><00:05:26.440><c> way</c><00:05:26.680><c> to</c><00:05:27.440><c> to</c><00:05:27.560><c> remember</c><00:05:28.480><c> on</c>
+
+00:05:28.710 --> 00:05:28.720 align:start position:0%
+it. So, a good way to to remember on
+ 
+
+00:05:28.720 --> 00:05:31.270 align:start position:0%
+it. So, a good way to to remember on
+whether<00:05:29.080><c> you</c><00:05:29.200><c> should</c><00:05:29.480><c> use</c><00:05:30.040><c> this</c><00:05:30.280><c> abstraction</c>
+
+00:05:31.270 --> 00:05:31.280 align:start position:0%
+whether you should use this abstraction
+ 
+
+00:05:31.280 --> 00:05:33.030 align:start position:0%
+whether you should use this abstraction
+is<00:05:31.400><c> essentially</c><00:05:32.000><c> to</c><00:05:32.120><c> think</c><00:05:32.360><c> about</c><00:05:32.919><c> the</c>
+
+00:05:33.030 --> 00:05:33.040 align:start position:0%
+is essentially to think about the
+ 
+
+00:05:33.040 --> 00:05:35.110 align:start position:0%
+is essentially to think about the
+reliability<00:05:33.800><c> of</c><00:05:33.880><c> your</c><00:05:34.040><c> agent,</c><00:05:34.680><c> right?</c><00:05:34.960><c> If</c>
+
+00:05:35.110 --> 00:05:35.120 align:start position:0%
+reliability of your agent, right? If
+ 
+
+00:05:35.120 --> 00:05:36.909 align:start position:0%
+reliability of your agent, right? If
+it's<00:05:35.360><c> somewhat</c><00:05:35.760><c> of</c><00:05:35.880><c> a</c><00:05:35.960><c> coin</c><00:05:36.200><c> flip,</c><00:05:36.640><c> then</c><00:05:36.840><c> you</c>
+
+00:05:36.909 --> 00:05:36.919 align:start position:0%
+it's somewhat of a coin flip, then you
+ 
+
+00:05:36.919 --> 00:05:39.350 align:start position:0%
+it's somewhat of a coin flip, then you
+want<00:05:37.080><c> to</c><00:05:37.160><c> take</c><00:05:37.360><c> the</c><00:05:37.480><c> control</c><00:05:38.160><c> flow</c><00:05:38.919><c> out</c><00:05:39.120><c> of</c><00:05:39.240><c> the</c>
+
+00:05:39.350 --> 00:05:39.360 align:start position:0%
+want to take the control flow out of the
+ 
+
+00:05:39.360 --> 00:05:42.790 align:start position:0%
+want to take the control flow out of the
+model.<00:05:40.120><c> You</c><00:05:40.280><c> want</c><00:05:40.440><c> the</c><00:05:40.560><c> model</c><00:05:41.000><c> to</c><00:05:41.400><c> not</c><00:05:42.280><c> make</c><00:05:42.600><c> as</c>
+
+00:05:42.790 --> 00:05:42.800 align:start position:0%
+model. You want the model to not make as
+ 
+
+00:05:42.800 --> 00:05:45.390 align:start position:0%
+model. You want the model to not make as
+many<00:05:43.040><c> decisions</c><00:05:43.960><c> as</c><00:05:44.120><c> it</c><00:05:44.240><c> should</c><00:05:44.840><c> and</c><00:05:45.000><c> instead</c>
+
+00:05:45.390 --> 00:05:45.400 align:start position:0%
+many decisions as it should and instead
+ 
+
+00:05:45.400 --> 00:05:47.950 align:start position:0%
+many decisions as it should and instead
+build<00:05:45.880><c> those</c><00:05:46.120><c> decisions</c><00:05:47.080><c> around</c><00:05:47.440><c> the</c><00:05:47.560><c> model</c>
+
+00:05:47.950 --> 00:05:47.960 align:start position:0%
+build those decisions around the model
+ 
+
+00:05:47.960 --> 00:05:50.870 align:start position:0%
+build those decisions around the model
+and<00:05:48.120><c> simply</c><00:05:48.600><c> feed</c><00:05:49.080><c> an</c><00:05:49.280><c> easy</c><00:05:49.640><c> input</c><00:05:50.480><c> so</c><00:05:50.640><c> that</c>
+
+00:05:50.870 --> 00:05:50.880 align:start position:0%
+and simply feed an easy input so that
+ 
+
+00:05:50.880 --> 00:05:53.430 align:start position:0%
+and simply feed an easy input so that
+the<00:05:51.000><c> model</c><00:05:51.360><c> can</c><00:05:51.600><c> easily</c><00:05:51.920><c> produce</c><00:05:52.480><c> an</c><00:05:52.640><c> output,</c>
+
+00:05:53.430 --> 00:05:53.440 align:start position:0%
+the model can easily produce an output,
+ 
+
+00:05:53.440 --> 00:05:55.990 align:start position:0%
+the model can easily produce an output,
+right?<00:05:53.760><c> So,</c><00:05:54.320><c> don't</c><00:05:54.600><c> let</c><00:05:54.760><c> the</c><00:05:54.840><c> model</c><00:05:55.120><c> talk,</c>
+
+00:05:55.990 --> 00:05:56.000 align:start position:0%
+right? So, don't let the model talk,
+ 
+
+00:05:56.000 --> 00:05:58.150 align:start position:0%
+right? So, don't let the model talk,
+right?<00:05:56.480><c> Or</c><00:05:57.080><c> actually</c><00:05:57.440><c> let</c><00:05:57.640><c> it</c><00:05:57.760><c> talk,</c><00:05:57.960><c> but</c>
+
+00:05:58.150 --> 00:05:58.160 align:start position:0%
+right? Or actually let it talk, but
+ 
+
+00:05:58.160 --> 00:05:59.630 align:start position:0%
+right? Or actually let it talk, but
+don't<00:05:58.360><c> let</c><00:05:58.520><c> it</c><00:05:58.600><c> drive.</c>
+
+00:05:59.630 --> 00:05:59.640 align:start position:0%
+don't let it drive.
+ 
+
+00:05:59.640 --> 00:06:02.510 align:start position:0%
+don't let it drive.
+So,<00:06:00.000><c> we're</c><00:06:00.160><c> Joel</c><00:06:00.640><c> and</c><00:06:00.760><c> Ornella.</c><00:06:01.480><c> This</c><00:06:01.760><c> is</c><00:06:02.040><c> Ace,</c>
+
+00:06:02.510 --> 00:06:02.520 align:start position:0%
+So, we're Joel and Ornella. This is Ace,
+ 
+
+00:06:02.520 --> 00:06:04.510 align:start position:0%
+So, we're Joel and Ornella. This is Ace,
+and<00:06:02.960><c> if</c><00:06:03.120><c> you</c><00:06:03.200><c> have</c><00:06:03.400><c> any</c><00:06:03.520><c> questions,</c><00:06:04.120><c> please</c>
+
+00:06:04.510 --> 00:06:04.520 align:start position:0%
+and if you have any questions, please
+ 
+
+00:06:04.520 --> 00:06:06.350 align:start position:0%
+and if you have any questions, please
+let<00:06:04.680><c> us</c><00:06:04.800><c> know.</c><00:06:05.200><c> Thank</c><00:06:05.440><c> you.</c>
+
+00:06:06.350 --> 00:06:06.360 align:start position:0%
+let us know. Thank you.
+ 
+
+00:06:06.360 --> 00:06:08.840 align:start position:0%
+let us know. Thank you.
+&gt;&gt; Thank<00:06:06.600><c> you.</c>
+

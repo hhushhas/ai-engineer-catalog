@@ -1,0 +1,4320 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.530 --> 00:00:14.789 align:start position:0%
+ 
+[Music]
+
+00:00:14.789 --> 00:00:14.799 align:start position:0%
+ 
+ 
+
+00:00:14.799 --> 00:00:16.550 align:start position:0%
+ 
+Hey<00:00:14.960><c> there</c><00:00:15.120><c> everyone.</c><00:00:15.440><c> I'm</c><00:00:15.679><c> Kyle</c><00:00:16.000><c> Cranon</c><00:00:16.400><c> and</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+Hey there everyone. I'm Kyle Cranon and
+ 
+
+00:00:16.560 --> 00:00:18.230 align:start position:0%
+Hey there everyone. I'm Kyle Cranon and
+today<00:00:16.720><c> I'll</c><00:00:16.960><c> be</c><00:00:17.039><c> talking</c><00:00:17.279><c> about</c><00:00:17.680><c> how</c><00:00:17.920><c> to</c><00:00:18.080><c> break</c>
+
+00:00:18.230 --> 00:00:18.240 align:start position:0%
+today I'll be talking about how to break
+ 
+
+00:00:18.240 --> 00:00:20.150 align:start position:0%
+today I'll be talking about how to break
+the<00:00:18.480><c> inference</c><00:00:18.880><c> bra</c><00:00:19.439><c> frontier</c><00:00:19.760><c> in</c><00:00:20.000><c> your</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+the inference bra frontier in your
+ 
+
+00:00:20.160 --> 00:00:23.029 align:start position:0%
+the inference bra frontier in your
+advantage.<00:00:21.119><c> Um</c><00:00:21.920><c> really</c><00:00:22.240><c> the</c><00:00:22.560><c> thing</c><00:00:22.640><c> that</c>
+
+00:00:23.029 --> 00:00:23.039 align:start position:0%
+advantage. Um really the thing that
+ 
+
+00:00:23.039 --> 00:00:25.670 align:start position:0%
+advantage. Um really the thing that
+enables<00:00:23.439><c> the</c><00:00:23.760><c> success</c><00:00:24.240><c> is</c><00:00:24.480><c> that</c><00:00:24.880><c> a</c><00:00:25.199><c> good</c><00:00:25.359><c> model</c>
+
+00:00:25.670 --> 00:00:25.680 align:start position:0%
+enables the success is that a good model
+ 
+
+00:00:25.680 --> 00:00:27.830 align:start position:0%
+enables the success is that a good model
+and<00:00:25.920><c> a</c><00:00:26.080><c> good</c><00:00:26.240><c> system</c><00:00:27.039><c> that</c><00:00:27.279><c> takes</c><00:00:27.519><c> into</c>
+
+00:00:27.830 --> 00:00:27.840 align:start position:0%
+and a good system that takes into
+ 
+
+00:00:27.840 --> 00:00:29.910 align:start position:0%
+and a good system that takes into
+account<00:00:28.080><c> the</c><00:00:28.480><c> actual</c><00:00:28.880><c> constraints</c><00:00:29.359><c> for</c><00:00:29.679><c> what</c>
+
+00:00:29.910 --> 00:00:29.920 align:start position:0%
+account the actual constraints for what
+ 
+
+00:00:29.920 --> 00:00:31.750 align:start position:0%
+account the actual constraints for what
+you<00:00:30.080><c> need</c><00:00:30.320><c> from</c><00:00:30.560><c> your</c><00:00:30.720><c> deployment</c><00:00:31.439><c> is</c>
+
+00:00:31.750 --> 00:00:31.760 align:start position:0%
+you need from your deployment is
+ 
+
+00:00:31.760 --> 00:00:33.990 align:start position:0%
+you need from your deployment is
+actually<00:00:32.079><c> key</c><00:00:32.320><c> to</c><00:00:32.480><c> the</c><00:00:32.719><c> success</c><00:00:33.040><c> of</c><00:00:33.360><c> both</c><00:00:33.600><c> your</c>
+
+00:00:33.990 --> 00:00:34.000 align:start position:0%
+actually key to the success of both your
+ 
+
+00:00:34.000 --> 00:00:35.830 align:start position:0%
+actually key to the success of both your
+deployment<00:00:34.480><c> and</c><00:00:34.719><c> the</c><00:00:34.880><c> application</c><00:00:35.280><c> that</c><00:00:35.680><c> is</c>
+
+00:00:35.830 --> 00:00:35.840 align:start position:0%
+deployment and the application that is
+ 
+
+00:00:35.840 --> 00:00:39.510 align:start position:0%
+deployment and the application that is
+backed<00:00:36.160><c> by</c><00:00:36.239><c> it.</c><00:00:37.440><c> Um</c><00:00:38.239><c> so</c><00:00:38.559><c> who</c><00:00:38.719><c> am</c><00:00:38.879><c> I</c><00:00:38.960><c> and</c><00:00:39.200><c> why</c><00:00:39.360><c> am</c>
+
+00:00:39.510 --> 00:00:39.520 align:start position:0%
+backed by it. Um so who am I and why am
+ 
+
+00:00:39.520 --> 00:00:42.069 align:start position:0%
+backed by it. Um so who am I and why am
+I<00:00:40.079><c> talking</c><00:00:40.399><c> about</c><00:00:40.559><c> this?</c><00:00:41.200><c> Uh</c><00:00:41.440><c> as</c><00:00:41.600><c> I</c><00:00:41.760><c> said</c><00:00:41.920><c> my</c>
+
+00:00:42.069 --> 00:00:42.079 align:start position:0%
+I talking about this? Uh as I said my
+ 
+
+00:00:42.079 --> 00:00:44.709 align:start position:0%
+I talking about this? Uh as I said my
+name<00:00:42.160><c> is</c><00:00:42.239><c> Kyle</c><00:00:42.559><c> Crane.</c><00:00:43.520><c> Uh</c><00:00:43.920><c> previously</c><00:00:44.320><c> I</c><00:00:44.559><c> work</c>
+
+00:00:44.709 --> 00:00:44.719 align:start position:0%
+name is Kyle Crane. Uh previously I work
+ 
+
+00:00:44.719 --> 00:00:47.190 align:start position:0%
+name is Kyle Crane. Uh previously I work
+at<00:00:44.879><c> or</c><00:00:45.200><c> currently</c><00:00:45.520><c> I</c><00:00:45.680><c> work</c><00:00:45.760><c> at</c><00:00:45.920><c> NVIDIA.</c><00:00:46.719><c> Uh</c>
+
+00:00:47.190 --> 00:00:47.200 align:start position:0%
+at or currently I work at NVIDIA. Uh
+ 
+
+00:00:47.200 --> 00:00:50.150 align:start position:0%
+at or currently I work at NVIDIA. Uh
+previously<00:00:47.600><c> at</c><00:00:47.920><c> NVIDIA,</c><00:00:48.640><c> I</c><00:00:49.120><c> was</c><00:00:49.840><c> uh</c><00:00:49.920><c> leading</c>
+
+00:00:50.150 --> 00:00:50.160 align:start position:0%
+previously at NVIDIA, I was uh leading
+ 
+
+00:00:50.160 --> 00:00:51.670 align:start position:0%
+previously at NVIDIA, I was uh leading
+and<00:00:50.399><c> GMing</c><00:00:50.800><c> the</c><00:00:50.960><c> largest</c><00:00:51.200><c> inference</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+and GMing the largest inference
+ 
+
+00:00:51.680 --> 00:00:54.150 align:start position:0%
+and GMing the largest inference
+deployment<00:00:51.920><c> at</c><00:00:52.160><c> NVIDIA</c><00:00:52.640><c> with</c><00:00:52.879><c> a</c><00:00:53.680><c> multiple</c>
+
+00:00:54.150 --> 00:00:54.160 align:start position:0%
+deployment at NVIDIA with a multiple
+ 
+
+00:00:54.160 --> 00:00:56.229 align:start position:0%
+deployment at NVIDIA with a multiple
+tens<00:00:54.480><c> of</c><00:00:54.640><c> millions</c><00:00:54.960><c> of</c><00:00:55.039><c> dollar</c><00:00:55.760><c> quarterly</c>
+
+00:00:56.229 --> 00:00:56.239 align:start position:0%
+tens of millions of dollar quarterly
+ 
+
+00:00:56.239 --> 00:00:59.349 align:start position:0%
+tens of millions of dollar quarterly
+cloud<00:00:56.559><c> bill.</c><00:00:57.280><c> Uh</c><00:00:57.600><c> and</c><00:00:57.840><c> now</c><00:00:58.160><c> I'm</c><00:00:58.719><c> an</c><00:00:58.960><c> architect</c>
+
+00:00:59.349 --> 00:00:59.359 align:start position:0%
+cloud bill. Uh and now I'm an architect
+ 
+
+00:00:59.359 --> 00:01:00.950 align:start position:0%
+cloud bill. Uh and now I'm an architect
+and<00:00:59.600><c> lead</c><00:00:59.840><c> for</c><00:01:00.000><c> a</c><00:01:00.239><c> project</c><00:01:00.399><c> that</c><00:01:00.640><c> we</c><00:01:00.800><c> just</c>
+
+00:01:00.950 --> 00:01:00.960 align:start position:0%
+and lead for a project that we just
+ 
+
+00:01:00.960 --> 00:01:02.310 align:start position:0%
+and lead for a project that we just
+released<00:01:01.199><c> in</c><00:01:01.359><c> open</c><00:01:01.520><c> source</c><00:01:01.760><c> called</c><00:01:01.920><c> NVIDIA</c>
+
+00:01:02.310 --> 00:01:02.320 align:start position:0%
+released in open source called NVIDIA
+ 
+
+00:01:02.320 --> 00:01:05.350 align:start position:0%
+released in open source called NVIDIA
+Dynamo<00:01:02.800><c> that</c><00:01:03.039><c> aims</c><00:01:03.359><c> to</c><00:01:04.640><c> do</c><00:01:04.879><c> things</c><00:01:05.119><c> like</c>
+
+00:01:05.350 --> 00:01:05.360 align:start position:0%
+Dynamo that aims to do things like
+ 
+
+00:01:05.360 --> 00:01:08.149 align:start position:0%
+Dynamo that aims to do things like
+enable<00:01:05.760><c> data</c><00:01:06.000><c> center</c><00:01:06.240><c> scale</c><00:01:06.479><c> inference</c><00:01:07.360><c> to</c>
+
+00:01:08.149 --> 00:01:08.159 align:start position:0%
+enable data center scale inference to
+ 
+
+00:01:08.159 --> 00:01:09.350 align:start position:0%
+enable data center scale inference to
+manipulate<00:01:08.640><c> your</c><00:01:08.880><c> deployment</c><00:01:09.200><c> and</c>
+
+00:01:09.350 --> 00:01:09.360 align:start position:0%
+manipulate your deployment and
+ 
+
+00:01:09.360 --> 00:01:11.510 align:start position:0%
+manipulate your deployment and
+manipulate<00:01:09.760><c> the</c><00:01:10.080><c> paro</c><00:01:10.560><c> frontier</c><00:01:10.960><c> in</c><00:01:11.200><c> order</c><00:01:11.280><c> to</c>
+
+00:01:11.510 --> 00:01:11.520 align:start position:0%
+manipulate the paro frontier in order to
+ 
+
+00:01:11.520 --> 00:01:13.910 align:start position:0%
+manipulate the paro frontier in order to
+achieve<00:01:11.840><c> better</c><00:01:12.159><c> SLAs's</c><00:01:13.040><c> or</c><00:01:13.360><c> achieve</c><00:01:13.680><c> lower</c>
+
+00:01:13.910 --> 00:01:13.920 align:start position:0%
+achieve better SLAs's or achieve lower
+ 
+
+00:01:13.920 --> 00:01:16.390 align:start position:0%
+achieve better SLAs's or achieve lower
+costs<00:01:14.159><c> for</c><00:01:14.320><c> your</c><00:01:14.479><c> existing</c><00:01:14.799><c> SLAs's.</c><00:01:16.159><c> with</c>
+
+00:01:16.390 --> 00:01:16.400 align:start position:0%
+costs for your existing SLAs's. with
+ 
+
+00:01:16.400 --> 00:01:17.990 align:start position:0%
+costs for your existing SLAs's. with
+techniques<00:01:16.720><c> like</c><00:01:16.880><c> disagregation</c><00:01:17.520><c> or</c><00:01:17.840><c> more</c>
+
+00:01:17.990 --> 00:01:18.000 align:start position:0%
+techniques like disagregation or more
+ 
+
+00:01:18.000 --> 00:01:19.350 align:start position:0%
+techniques like disagregation or more
+techniques<00:01:18.320><c> that</c><00:01:18.479><c> I'll</c><00:01:18.640><c> talk</c><00:01:18.799><c> about</c><00:01:18.960><c> later</c><00:01:19.200><c> in</c>
+
+00:01:19.350 --> 00:01:19.360 align:start position:0%
+techniques that I'll talk about later in
+ 
+
+00:01:19.360 --> 00:01:23.350 align:start position:0%
+techniques that I'll talk about later in
+the<00:01:19.520><c> talk.</c><00:01:20.320><c> Dynamo</c><00:01:21.040><c> is</c><00:01:21.759><c> uh</c><00:01:22.479><c> the</c><00:01:22.640><c> Dynamo</c><00:01:23.040><c> meetup</c>
+
+00:01:23.350 --> 00:01:23.360 align:start position:0%
+the talk. Dynamo is uh the Dynamo meetup
+ 
+
+00:01:23.360 --> 00:01:24.710 align:start position:0%
+the talk. Dynamo is uh the Dynamo meetup
+is<00:01:23.520><c> linked</c><00:01:23.759><c> right</c><00:01:24.000><c> here.</c><00:01:24.240><c> You</c><00:01:24.400><c> can</c><00:01:24.479><c> learn</c><00:01:24.640><c> more</c>
+
+00:01:24.710 --> 00:01:24.720 align:start position:0%
+is linked right here. You can learn more
+ 
+
+00:01:24.720 --> 00:01:26.390 align:start position:0%
+is linked right here. You can learn more
+about<00:01:24.880><c> Dynamo</c><00:01:25.360><c> there</c><00:01:25.600><c> if</c><00:01:25.920><c> you</c><00:01:26.000><c> want</c><00:01:26.080><c> to</c><00:01:26.240><c> look</c>
+
+00:01:26.390 --> 00:01:26.400 align:start position:0%
+about Dynamo there if you want to look
+ 
+
+00:01:26.400 --> 00:01:28.070 align:start position:0%
+about Dynamo there if you want to look
+it<00:01:26.479><c> up</c><00:01:26.560><c> and</c><00:01:26.720><c> I'll</c><00:01:27.040><c> also</c><00:01:27.280><c> have</c><00:01:27.360><c> that</c><00:01:27.680><c> uh</c><00:01:27.840><c> at</c><00:01:28.000><c> the</c>
+
+00:01:28.070 --> 00:01:28.080 align:start position:0%
+it up and I'll also have that uh at the
+ 
+
+00:01:28.080 --> 00:01:31.590 align:start position:0%
+it up and I'll also have that uh at the
+end<00:01:28.159><c> of</c><00:01:28.240><c> the</c><00:01:28.560><c> talk</c><00:01:28.799><c> as</c><00:01:29.040><c> well.</c><00:01:29.759><c> Um</c><00:01:30.240><c> so</c><00:01:31.040><c> the</c><00:01:31.360><c> three</c>
+
+00:01:31.590 --> 00:01:31.600 align:start position:0%
+end of the talk as well. Um so the three
+ 
+
+00:01:31.600 --> 00:01:33.670 align:start position:0%
+end of the talk as well. Um so the three
+things<00:01:31.840><c> that</c><00:01:32.159><c> we</c><00:01:32.479><c> or</c><00:01:32.720><c> I</c><00:01:32.960><c> like</c><00:01:33.119><c> to</c><00:01:33.280><c> think</c><00:01:33.439><c> about</c>
+
+00:01:33.670 --> 00:01:33.680 align:start position:0%
+things that we or I like to think about
+ 
+
+00:01:33.680 --> 00:01:35.429 align:start position:0%
+things that we or I like to think about
+when<00:01:34.000><c> I'm</c><00:01:34.320><c> thinking</c><00:01:34.560><c> about</c><00:01:34.720><c> whether</c><00:01:34.960><c> or</c><00:01:35.200><c> not</c>
+
+00:01:35.429 --> 00:01:35.439 align:start position:0%
+when I'm thinking about whether or not
+ 
+
+00:01:35.439 --> 00:01:37.109 align:start position:0%
+when I'm thinking about whether or not
+something<00:01:35.759><c> can</c><00:01:36.000><c> actually</c><00:01:36.240><c> be</c><00:01:36.479><c> deployed</c><00:01:36.880><c> and</c>
+
+00:01:37.109 --> 00:01:37.119 align:start position:0%
+something can actually be deployed and
+ 
+
+00:01:37.119 --> 00:01:40.069 align:start position:0%
+something can actually be deployed and
+used<00:01:37.920><c> is</c><00:01:38.400><c> really</c><00:01:38.720><c> simple.</c><00:01:39.280><c> It's</c><00:01:39.600><c> quality.</c>
+
+00:01:40.069 --> 00:01:40.079 align:start position:0%
+used is really simple. It's quality.
+ 
+
+00:01:40.079 --> 00:01:42.149 align:start position:0%
+used is really simple. It's quality.
+whether<00:01:40.320><c> or</c><00:01:40.479><c> not</c><00:01:40.720><c> your</c><00:01:41.200><c> application</c><00:01:41.759><c> and</c><00:01:42.000><c> the</c>
+
+00:01:42.149 --> 00:01:42.159 align:start position:0%
+whether or not your application and the
+ 
+
+00:01:42.159 --> 00:01:44.230 align:start position:0%
+whether or not your application and the
+system<00:01:42.320><c> around</c><00:01:42.640><c> your</c><00:01:42.880><c> model</c><00:01:43.200><c> is</c><00:01:43.520><c> capable</c><00:01:43.920><c> of,</c>
+
+00:01:44.230 --> 00:01:44.240 align:start position:0%
+system around your model is capable of,
+ 
+
+00:01:44.240 --> 00:01:45.910 align:start position:0%
+system around your model is capable of,
+you<00:01:44.400><c> know,</c><00:01:44.560><c> completing</c><00:01:45.040><c> tasks</c><00:01:45.439><c> with</c><00:01:45.680><c> some</c>
+
+00:01:45.910 --> 00:01:45.920 align:start position:0%
+you know, completing tasks with some
+ 
+
+00:01:45.920 --> 00:01:49.590 align:start position:0%
+you know, completing tasks with some
+level<00:01:46.159><c> of</c><00:01:46.640><c> accuracy</c><00:01:47.119><c> or</c><00:01:47.439><c> quality.</c><00:01:48.479><c> Latency,</c>
+
+00:01:49.590 --> 00:01:49.600 align:start position:0%
+level of accuracy or quality. Latency,
+ 
+
+00:01:49.600 --> 00:01:51.190 align:start position:0%
+level of accuracy or quality. Latency,
+whether<00:01:49.759><c> or</c><00:01:50.000><c> not</c><00:01:50.079><c> the</c><00:01:50.320><c> task</c><00:01:50.560><c> can</c><00:01:50.720><c> be</c><00:01:50.880><c> completed</c>
+
+00:01:51.190 --> 00:01:51.200 align:start position:0%
+whether or not the task can be completed
+ 
+
+00:01:51.200 --> 00:01:53.270 align:start position:0%
+whether or not the task can be completed
+in<00:01:51.360><c> a</c><00:01:51.600><c> fast</c><00:01:51.759><c> enough</c><00:01:52.079><c> envelope</c><00:01:52.560><c> for,</c><00:01:52.960><c> you</c><00:01:53.119><c> know,</c>
+
+00:01:53.270 --> 00:01:53.280 align:start position:0%
+in a fast enough envelope for, you know,
+ 
+
+00:01:53.280 --> 00:01:55.270 align:start position:0%
+in a fast enough envelope for, you know,
+either<00:01:53.520><c> the</c><00:01:53.759><c> user</c><00:01:54.000><c> to</c><00:01:54.159><c> be</c><00:01:54.320><c> happy</c><00:01:54.560><c> or</c><00:01:54.880><c> to</c><00:01:55.040><c> meet</c>
+
+00:01:55.270 --> 00:01:55.280 align:start position:0%
+either the user to be happy or to meet
+ 
+
+00:01:55.280 --> 00:01:57.990 align:start position:0%
+either the user to be happy or to meet
+safety<00:01:55.600><c> guarantees</c><00:01:56.159><c> like</c><00:01:56.320><c> for</c><00:01:56.640><c> robotics,</c><00:01:57.840><c> uh,</c>
+
+00:01:57.990 --> 00:01:58.000 align:start position:0%
+safety guarantees like for robotics, uh,
+ 
+
+00:01:58.000 --> 00:02:01.270 align:start position:0%
+safety guarantees like for robotics, uh,
+and<00:01:58.240><c> cost.</c><00:01:58.880><c> Can</c><00:01:59.040><c> the</c><00:01:59.200><c> LM</c><00:02:00.240><c> complete</c><00:02:00.640><c> the</c><00:02:00.880><c> task</c>
+
+00:02:01.270 --> 00:02:01.280 align:start position:0%
+and cost. Can the LM complete the task
+ 
+
+00:02:01.280 --> 00:02:03.590 align:start position:0%
+and cost. Can the LM complete the task
+cheaply<00:02:01.680><c> enough</c><00:02:02.000><c> per</c><00:02:02.320><c> request</c><00:02:03.040><c> in</c><00:02:03.360><c> order</c><00:02:03.439><c> for</c>
+
+00:02:03.590 --> 00:02:03.600 align:start position:0%
+cheaply enough per request in order for
+ 
+
+00:02:03.600 --> 00:02:05.749 align:start position:0%
+cheaply enough per request in order for
+you<00:02:03.759><c> to</c><00:02:03.920><c> meet</c><00:02:04.560><c> whatever,</c><00:02:05.040><c> you</c><00:02:05.200><c> know,</c><00:02:05.360><c> margin</c>
+
+00:02:05.749 --> 00:02:05.759 align:start position:0%
+you to meet whatever, you know, margin
+ 
+
+00:02:05.759 --> 00:02:06.950 align:start position:0%
+you to meet whatever, you know, margin
+requirements<00:02:06.240><c> you</c><00:02:06.399><c> have</c><00:02:06.560><c> for</c><00:02:06.719><c> your</c>
+
+00:02:06.950 --> 00:02:06.960 align:start position:0%
+requirements you have for your
+ 
+
+00:02:06.960 --> 00:02:08.389 align:start position:0%
+requirements you have for your
+application?
+
+00:02:08.389 --> 00:02:08.399 align:start position:0%
+application?
+ 
+
+00:02:08.399 --> 00:02:09.910 align:start position:0%
+application?
+Um
+
+00:02:09.910 --> 00:02:09.920 align:start position:0%
+Um
+ 
+
+00:02:09.920 --> 00:02:12.390 align:start position:0%
+Um
+and<00:02:10.959><c> one</c><00:02:11.200><c> of</c><00:02:11.280><c> the</c><00:02:11.440><c> ways</c><00:02:11.599><c> that</c><00:02:11.760><c> we</c><00:02:12.000><c> generally</c>
+
+00:02:12.390 --> 00:02:12.400 align:start position:0%
+and one of the ways that we generally
+ 
+
+00:02:12.400 --> 00:02:13.670 align:start position:0%
+and one of the ways that we generally
+compare<00:02:12.720><c> these</c><00:02:12.959><c> three</c><00:02:13.120><c> things</c><00:02:13.280><c> is</c><00:02:13.440><c> through</c><00:02:13.599><c> a</c>
+
+00:02:13.670 --> 00:02:13.680 align:start position:0%
+compare these three things is through a
+ 
+
+00:02:13.680 --> 00:02:16.150 align:start position:0%
+compare these three things is through a
+para<00:02:14.160><c> frontier.</c><00:02:14.720><c> Now</c><00:02:15.120><c> uh</c><00:02:15.200><c> the</c><00:02:15.599><c> frontier</c><00:02:16.000><c> I'm</c>
+
+00:02:16.150 --> 00:02:16.160 align:start position:0%
+para frontier. Now uh the frontier I'm
+ 
+
+00:02:16.160 --> 00:02:17.990 align:start position:0%
+para frontier. Now uh the frontier I'm
+showing<00:02:16.400><c> here</c><00:02:16.480><c> is</c><00:02:16.720><c> two</c><00:02:16.959><c> dimensional.</c><00:02:17.520><c> Uh</c><00:02:17.760><c> it's</c>
+
+00:02:17.990 --> 00:02:18.000 align:start position:0%
+showing here is two dimensional. Uh it's
+ 
+
+00:02:18.000 --> 00:02:19.350 align:start position:0%
+showing here is two dimensional. Uh it's
+actually<00:02:18.239><c> really</c><00:02:18.400><c> hard</c><00:02:18.560><c> to</c><00:02:18.720><c> plot</c><00:02:18.959><c> things</c><00:02:19.120><c> in</c>
+
+00:02:19.350 --> 00:02:19.360 align:start position:0%
+actually really hard to plot things in
+ 
+
+00:02:19.360 --> 00:02:21.190 align:start position:0%
+actually really hard to plot things in
+3D<00:02:19.680><c> on</c><00:02:19.760><c> a</c><00:02:19.920><c> 2D</c><00:02:20.239><c> slide.</c><00:02:20.560><c> So</c><00:02:20.720><c> I'm</c><00:02:20.879><c> going</c><00:02:20.959><c> to</c><00:02:21.040><c> just</c>
+
+00:02:21.190 --> 00:02:21.200 align:start position:0%
+3D on a 2D slide. So I'm going to just
+ 
+
+00:02:21.200 --> 00:02:23.110 align:start position:0%
+3D on a 2D slide. So I'm going to just
+show<00:02:21.360><c> two</c><00:02:21.599><c> dimensions.</c><00:02:22.480><c> Really</c><00:02:22.720><c> what</c><00:02:22.879><c> this</c>
+
+00:02:23.110 --> 00:02:23.120 align:start position:0%
+show two dimensions. Really what this
+ 
+
+00:02:23.120 --> 00:02:25.830 align:start position:0%
+show two dimensions. Really what this
+looks<00:02:23.360><c> like</c><00:02:23.520><c> is</c><00:02:23.920><c> you</c><00:02:24.160><c> have</c><00:02:24.319><c> this</c><00:02:24.560><c> like</c><00:02:25.120><c> edge</c>
+
+00:02:25.830 --> 00:02:25.840 align:start position:0%
+looks like is you have this like edge
+ 
+
+00:02:25.840 --> 00:02:29.510 align:start position:0%
+looks like is you have this like edge
+that<00:02:26.800><c> oh</c><00:02:27.920><c> is</c><00:02:28.080><c> it</c><00:02:28.239><c> working?</c><00:02:28.879><c> uh</c><00:02:29.040><c> we</c><00:02:29.200><c> have</c><00:02:29.360><c> this</c>
+
+00:02:29.510 --> 00:02:29.520 align:start position:0%
+that oh is it working? uh we have this
+ 
+
+00:02:29.520 --> 00:02:33.750 align:start position:0%
+that oh is it working? uh we have this
+edge<00:02:30.080><c> that</c><00:02:30.720><c> sort</c><00:02:30.959><c> of</c><00:02:31.680><c> represents</c><00:02:32.239><c> the</c><00:02:32.560><c> best</c><00:02:32.879><c> or</c>
+
+00:02:33.750 --> 00:02:33.760 align:start position:0%
+edge that sort of represents the best or
+ 
+
+00:02:33.760 --> 00:02:35.830 align:start position:0%
+edge that sort of represents the best or
+to<00:02:34.000><c> the</c><00:02:34.160><c> top</c><00:02:34.319><c> and</c><00:02:34.560><c> rightmost</c><00:02:35.120><c> points</c><00:02:35.440><c> that</c><00:02:35.680><c> we</c>
+
+00:02:35.830 --> 00:02:35.840 align:start position:0%
+to the top and rightmost points that we
+ 
+
+00:02:35.840 --> 00:02:38.630 align:start position:0%
+to the top and rightmost points that we
+achieve<00:02:36.720><c> for</c><00:02:37.440><c> uh</c><00:02:37.680><c> you</c><00:02:37.840><c> know</c><00:02:37.920><c> a</c><00:02:38.160><c> specific</c><00:02:38.480><c> set</c>
+
+00:02:38.630 --> 00:02:38.640 align:start position:0%
+achieve for uh you know a specific set
+ 
+
+00:02:38.640 --> 00:02:40.710 align:start position:0%
+achieve for uh you know a specific set
+of<00:02:38.720><c> attributes.</c><00:02:39.200><c> So</c><00:02:39.360><c> in</c><00:02:39.519><c> this</c><00:02:39.680><c> case</c><00:02:40.239><c> we</c><00:02:40.480><c> have</c>
+
+00:02:40.710 --> 00:02:40.720 align:start position:0%
+of attributes. So in this case we have
+ 
+
+00:02:40.720 --> 00:02:43.430 align:start position:0%
+of attributes. So in this case we have
+the<00:02:41.519><c> TPS</c><00:02:41.920><c> per</c><00:02:42.160><c> GPU</c><00:02:42.560><c> which</c><00:02:42.720><c> is</c><00:02:42.879><c> effectively</c><00:02:43.280><c> a</c>
+
+00:02:43.430 --> 00:02:43.440 align:start position:0%
+the TPS per GPU which is effectively a
+ 
+
+00:02:43.440 --> 00:02:45.270 align:start position:0%
+the TPS per GPU which is effectively a
+cost<00:02:43.760><c> metric.</c><00:02:44.319><c> How</c><00:02:44.480><c> many</c><00:02:44.640><c> requests</c><00:02:44.959><c> can</c><00:02:45.200><c> you</c>
+
+00:02:45.270 --> 00:02:45.280 align:start position:0%
+cost metric. How many requests can you
+ 
+
+00:02:45.280 --> 00:02:47.670 align:start position:0%
+cost metric. How many requests can you
+handle<00:02:45.519><c> per</c><00:02:45.680><c> GPU</c><00:02:46.160><c> per</c><00:02:46.319><c> second</c><00:02:46.959><c> and</c><00:02:47.200><c> the</c><00:02:47.360><c> user</c>
+
+00:02:47.670 --> 00:02:47.680 align:start position:0%
+handle per GPU per second and the user
+ 
+
+00:02:47.680 --> 00:02:49.589 align:start position:0%
+handle per GPU per second and the user
+TPS<00:02:48.160><c> which</c><00:02:48.319><c> is</c><00:02:48.400><c> a</c><00:02:48.560><c> responsiveness</c><00:02:49.120><c> metric</c>
+
+00:02:49.589 --> 00:02:49.599 align:start position:0%
+TPS which is a responsiveness metric
+ 
+
+00:02:49.599 --> 00:02:51.190 align:start position:0%
+TPS which is a responsiveness metric
+right?<00:02:49.760><c> So</c><00:02:49.920><c> this</c><00:02:50.080><c> is</c><00:02:50.160><c> the</c><00:02:50.319><c> the</c><00:02:50.480><c> latency</c><00:02:50.959><c> versus</c>
+
+00:02:51.190 --> 00:02:51.200 align:start position:0%
+right? So this is the the latency versus
+ 
+
+00:02:51.200 --> 00:02:54.309 align:start position:0%
+right? So this is the the latency versus
+the<00:02:51.440><c> cost</c><00:02:52.400><c> and</c><00:02:52.879><c> for</c><00:02:53.200><c> different</c><00:02:53.440><c> applications</c>
+
+00:02:54.309 --> 00:02:54.319 align:start position:0%
+the cost and for different applications
+ 
+
+00:02:54.319 --> 00:02:57.910 align:start position:0%
+the cost and for different applications
+really<00:02:54.800><c> you</c><00:02:55.120><c> want</c><00:02:55.360><c> to</c><00:02:56.800><c> enable</c><00:02:57.280><c> your</c><00:02:57.519><c> prao</c>
+
+00:02:57.910 --> 00:02:57.920 align:start position:0%
+really you want to enable your prao
+ 
+
+00:02:57.920 --> 00:03:00.229 align:start position:0%
+really you want to enable your prao
+front<00:02:58.319><c> enable</c><00:02:59.200><c> or</c><00:02:59.440><c> you</c><00:02:59.599><c> actually</c><00:02:59.840><c> really</c><00:03:00.000><c> only</c>
+
+00:03:00.229 --> 00:03:00.239 align:start position:0%
+front enable or you actually really only
+ 
+
+00:03:00.239 --> 00:03:01.910 align:start position:0%
+front enable or you actually really only
+want<00:03:00.400><c> one</c><00:03:00.640><c> point</c><00:03:00.720><c> on</c><00:03:00.879><c> the</c><00:03:00.959><c> prao</c><00:03:01.360><c> frontier</c><00:03:01.680><c> it's</c>
+
+00:03:01.910 --> 00:03:01.920 align:start position:0%
+want one point on the prao frontier it's
+ 
+
+00:03:01.920 --> 00:03:03.509 align:start position:0%
+want one point on the prao frontier it's
+right<00:03:02.159><c> what</c><00:03:02.319><c> is</c><00:03:02.480><c> your</c><00:03:02.640><c> operating</c><00:03:02.959><c> latency</c>
+
+00:03:03.509 --> 00:03:03.519 align:start position:0%
+right what is your operating latency
+ 
+
+00:03:03.519 --> 00:03:04.949 align:start position:0%
+right what is your operating latency
+what<00:03:03.680><c> is</c><00:03:03.760><c> the</c><00:03:03.920><c> operating</c><00:03:04.239><c> quality</c><00:03:04.480><c> you</c><00:03:04.720><c> need</c>
+
+00:03:04.949 --> 00:03:04.959 align:start position:0%
+what is the operating quality you need
+ 
+
+00:03:04.959 --> 00:03:07.030 align:start position:0%
+what is the operating quality you need
+and<00:03:05.200><c> how</c><00:03:05.360><c> can</c><00:03:05.440><c> you</c><00:03:05.599><c> minimize</c><00:03:06.000><c> cost</c><00:03:06.239><c> for</c><00:03:06.400><c> that</c>
+
+00:03:07.030 --> 00:03:07.040 align:start position:0%
+and how can you minimize cost for that
+ 
+
+00:03:07.040 --> 00:03:09.509 align:start position:0%
+and how can you minimize cost for that
+now<00:03:08.000><c> this</c><00:03:08.159><c> really</c><00:03:08.400><c> actually</c><00:03:08.720><c> depends</c><00:03:09.040><c> on</c><00:03:09.280><c> the</c>
+
+00:03:09.509 --> 00:03:09.519 align:start position:0%
+now this really actually depends on the
+ 
+
+00:03:09.519 --> 00:03:11.110 align:start position:0%
+now this really actually depends on the
+application<00:03:10.000><c> you're</c><00:03:10.239><c> talking</c><00:03:10.480><c> about</c><00:03:10.720><c> so</c><00:03:10.959><c> one</c>
+
+00:03:11.110 --> 00:03:11.120 align:start position:0%
+application you're talking about so one
+ 
+
+00:03:11.120 --> 00:03:12.229 align:start position:0%
+application you're talking about so one
+of<00:03:11.200><c> the</c><00:03:11.360><c> most</c><00:03:11.519><c> important</c><00:03:11.760><c> things</c><00:03:11.920><c> you're</c>
+
+00:03:12.229 --> 00:03:12.239 align:start position:0%
+of the most important things you're
+ 
+
+00:03:12.239 --> 00:03:14.149 align:start position:0%
+of the most important things you're
+doing<00:03:12.640><c> when</c><00:03:12.879><c> you're</c><00:03:13.599><c> thinking</c><00:03:13.920><c> about</c>
+
+00:03:14.149 --> 00:03:14.159 align:start position:0%
+doing when you're thinking about
+ 
+
+00:03:14.159 --> 00:03:16.229 align:start position:0%
+doing when you're thinking about
+breaking<00:03:14.480><c> the</c><00:03:15.040><c> creative</c><00:03:15.360><c> frontier</c><00:03:15.840><c> is</c><00:03:16.080><c> you're</c>
+
+00:03:16.229 --> 00:03:16.239 align:start position:0%
+breaking the creative frontier is you're
+ 
+
+00:03:16.239 --> 00:03:17.910 align:start position:0%
+breaking the creative frontier is you're
+thinking<00:03:16.400><c> about</c><00:03:16.560><c> your</c><00:03:16.800><c> application</c><00:03:17.519><c> so</c><00:03:17.840><c> for</c>
+
+00:03:17.910 --> 00:03:17.920 align:start position:0%
+thinking about your application so for
+ 
+
+00:03:17.920 --> 00:03:19.589 align:start position:0%
+thinking about your application so for
+example<00:03:18.400><c> if</c><00:03:18.560><c> we're</c><00:03:18.720><c> talking</c><00:03:18.959><c> about</c><00:03:19.120><c> personal</c>
+
+00:03:19.589 --> 00:03:19.599 align:start position:0%
+example if we're talking about personal
+ 
+
+00:03:19.599 --> 00:03:21.910 align:start position:0%
+example if we're talking about personal
+cancer<00:03:19.920><c> cures,</c><00:03:20.319><c> which</c><00:03:20.560><c> is</c><00:03:20.720><c> a</c><00:03:21.200><c> topic</c><00:03:21.519><c> that's</c>
+
+00:03:21.910 --> 00:03:21.920 align:start position:0%
+cancer cures, which is a topic that's
+ 
+
+00:03:21.920 --> 00:03:23.430 align:start position:0%
+cancer cures, which is a topic that's
+talked<00:03:22.159><c> about</c><00:03:22.319><c> a</c><00:03:22.560><c> lot</c><00:03:22.640><c> in</c><00:03:22.879><c> the</c><00:03:23.040><c> context</c><00:03:23.280><c> of</c>
+
+00:03:23.430 --> 00:03:23.440 align:start position:0%
+talked about a lot in the context of
+ 
+
+00:03:23.440 --> 00:03:27.030 align:start position:0%
+talked about a lot in the context of
+generative<00:03:23.840><c> AI.</c><00:03:24.800><c> Uh,</c><00:03:25.599><c> in</c><00:03:25.840><c> that</c><00:03:26.080><c> situation,</c>
+
+00:03:27.030 --> 00:03:27.040 align:start position:0%
+generative AI. Uh, in that situation,
+ 
+
+00:03:27.040 --> 00:03:28.790 align:start position:0%
+generative AI. Uh, in that situation,
+uh,<00:03:27.200><c> latency</c><00:03:27.599><c> and</c><00:03:27.840><c> cost</c><00:03:28.080><c> are</c><00:03:28.239><c> pretty</c><00:03:28.400><c> much</c><00:03:28.560><c> no</c>
+
+00:03:28.790 --> 00:03:28.800 align:start position:0%
+uh, latency and cost are pretty much no
+ 
+
+00:03:28.800 --> 00:03:30.390 align:start position:0%
+uh, latency and cost are pretty much no
+object,<00:03:29.280><c> right?</c><00:03:29.440><c> You</c><00:03:29.599><c> could</c><00:03:29.760><c> spend</c><00:03:30.080><c> millions</c>
+
+00:03:30.390 --> 00:03:30.400 align:start position:0%
+object, right? You could spend millions
+ 
+
+00:03:30.400 --> 00:03:32.710 align:start position:0%
+object, right? You could spend millions
+of<00:03:30.560><c> dollars</c><00:03:31.040><c> on</c><00:03:31.599><c> proving</c><00:03:31.920><c> out</c><00:03:32.080><c> a</c><00:03:32.239><c> single</c><00:03:32.480><c> cure</c>
+
+00:03:32.710 --> 00:03:32.720 align:start position:0%
+of dollars on proving out a single cure
+ 
+
+00:03:32.720 --> 00:03:33.910 align:start position:0%
+of dollars on proving out a single cure
+and<00:03:32.879><c> if</c><00:03:33.040><c> it</c><00:03:33.200><c> works,</c><00:03:33.360><c> the</c><00:03:33.599><c> return</c><00:03:33.760><c> on</c>
+
+00:03:33.910 --> 00:03:33.920 align:start position:0%
+and if it works, the return on
+ 
+
+00:03:33.920 --> 00:03:36.390 align:start position:0%
+and if it works, the return on
+investment<00:03:34.400><c> is</c><00:03:34.560><c> so</c><00:03:34.799><c> high</c><00:03:35.360><c> that</c><00:03:35.840><c> it</c><00:03:36.159><c> doesn't</c>
+
+00:03:36.390 --> 00:03:36.400 align:start position:0%
+investment is so high that it doesn't
+ 
+
+00:03:36.400 --> 00:03:39.190 align:start position:0%
+investment is so high that it doesn't
+really<00:03:36.560><c> matter.</c><00:03:37.280><c> Um,</c><00:03:38.480><c> to</c><00:03:38.720><c> take</c><00:03:38.799><c> a</c><00:03:38.959><c> different</c>
+
+00:03:39.190 --> 00:03:39.200 align:start position:0%
+really matter. Um, to take a different
+ 
+
+00:03:39.200 --> 00:03:40.869 align:start position:0%
+really matter. Um, to take a different
+example,<00:03:39.599><c> tab</c><00:03:39.920><c> completion</c><00:03:40.319><c> like</c><00:03:40.480><c> those</c><00:03:40.720><c> that</c>
+
+00:03:40.869 --> 00:03:40.879 align:start position:0%
+example, tab completion like those that
+ 
+
+00:03:40.879 --> 00:03:45.110 align:start position:0%
+example, tab completion like those that
+you<00:03:41.040><c> see</c><00:03:41.120><c> in</c><00:03:41.440><c> popular</c><00:03:42.560><c> IDs</c><00:03:43.040><c> like</c><00:03:43.280><c> cursor</c><00:03:44.560><c> all</c>
+
+00:03:45.110 --> 00:03:45.120 align:start position:0%
+you see in popular IDs like cursor all
+ 
+
+00:03:45.120 --> 00:03:47.509 align:start position:0%
+you see in popular IDs like cursor all
+are<00:03:45.440><c> very</c><00:03:45.760><c> very</c><00:03:46.080><c> dependent</c><00:03:46.480><c> upon</c><00:03:46.879><c> snappiness.</c>
+
+00:03:47.509 --> 00:03:47.519 align:start position:0%
+are very very dependent upon snappiness.
+ 
+
+00:03:47.519 --> 00:03:48.869 align:start position:0%
+are very very dependent upon snappiness.
+The<00:03:47.680><c> user</c><00:03:47.920><c> expects</c><00:03:48.239><c> that</c><00:03:48.400><c> when</c><00:03:48.560><c> they</c><00:03:48.720><c> press</c>
+
+00:03:48.869 --> 00:03:48.879 align:start position:0%
+The user expects that when they press
+ 
+
+00:03:48.879 --> 00:03:51.750 align:start position:0%
+The user expects that when they press
+tab,<00:03:49.280><c> they</c><00:03:49.440><c> will</c><00:03:49.680><c> see</c><00:03:49.840><c> a</c><00:03:50.720><c> recommendation</c><00:03:51.519><c> for</c>
+
+00:03:51.750 --> 00:03:51.760 align:start position:0%
+tab, they will see a recommendation for
+ 
+
+00:03:51.760 --> 00:03:53.750 align:start position:0%
+tab, they will see a recommendation for
+the<00:03:52.000><c> next</c><00:03:52.239><c> line</c><00:03:52.480><c> or</c><00:03:52.720><c> the</c><00:03:52.879><c> next</c><00:03:53.120><c> set</c><00:03:53.280><c> of</c><00:03:53.599><c> you</c>
+
+00:03:53.750 --> 00:03:53.760 align:start position:0%
+the next line or the next set of you
+ 
+
+00:03:53.760 --> 00:03:56.470 align:start position:0%
+the next line or the next set of you
+know<00:03:53.920><c> tokens</c><00:03:54.640><c> very</c><00:03:54.959><c> very</c><00:03:55.200><c> quickly.</c><00:03:56.159><c> And</c><00:03:56.319><c> then</c>
+
+00:03:56.470 --> 00:03:56.480 align:start position:0%
+know tokens very very quickly. And then
+ 
+
+00:03:56.480 --> 00:03:58.630 align:start position:0%
+know tokens very very quickly. And then
+to<00:03:56.720><c> take</c><00:03:57.040><c> another</c><00:03:57.360><c> code</c><00:03:57.599><c> example</c><00:03:58.319><c> with</c>
+
+00:03:58.630 --> 00:03:58.640 align:start position:0%
+to take another code example with
+ 
+
+00:03:58.640 --> 00:04:00.949 align:start position:0%
+to take another code example with
+respect<00:03:59.040><c> to</c><00:03:59.519><c> async</c><00:04:00.000><c> code</c><00:04:00.159><c> commits</c><00:04:00.720><c> things</c>
+
+00:04:00.949 --> 00:04:00.959 align:start position:0%
+respect to async code commits things
+ 
+
+00:04:00.959 --> 00:04:05.830 align:start position:0%
+respect to async code commits things
+like<00:04:01.920><c> uh</c><00:04:02.799><c> you</c><00:04:03.040><c> know</c><00:04:03.680><c> uh</c><00:04:04.000><c> cursors</c><00:04:05.040><c> um</c><00:04:05.519><c> what's</c><00:04:05.680><c> it</c>
+
+00:04:05.830 --> 00:04:05.840 align:start position:0%
+like uh you know uh cursors um what's it
+ 
+
+00:04:05.840 --> 00:04:09.270 align:start position:0%
+like uh you know uh cursors um what's it
+called?<00:04:06.159><c> agent</c><00:04:06.560><c> mode</c><00:04:06.959><c> and</c><00:04:08.080><c> um</c><00:04:08.720><c> you</c><00:04:08.879><c> know</c><00:04:09.040><c> other</c>
+
+00:04:09.270 --> 00:04:09.280 align:start position:0%
+called? agent mode and um you know other
+ 
+
+00:04:09.280 --> 00:04:12.070 align:start position:0%
+called? agent mode and um you know other
+applications<00:04:09.760><c> where</c><00:04:10.000><c> the</c><00:04:10.159><c> the</c><00:04:11.040><c> chatbot</c><00:04:11.599><c> or</c>
+
+00:04:12.070 --> 00:04:12.080 align:start position:0%
+applications where the the chatbot or
+ 
+
+00:04:12.080 --> 00:04:14.070 align:start position:0%
+applications where the the chatbot or
+applications<00:04:12.720><c> working</c><00:04:13.040><c> next</c><00:04:13.200><c> to</c><00:04:13.360><c> the</c><00:04:13.519><c> user</c>
+
+00:04:14.070 --> 00:04:14.080 align:start position:0%
+applications working next to the user
+ 
+
+00:04:14.080 --> 00:04:16.150 align:start position:0%
+applications working next to the user
+there's<00:04:14.400><c> not</c><00:04:14.480><c> as</c><00:04:14.720><c> much</c><00:04:14.959><c> a</c><00:04:15.519><c> consideration</c><00:04:16.000><c> for</c>
+
+00:04:16.150 --> 00:04:16.160 align:start position:0%
+there's not as much a consideration for
+ 
+
+00:04:16.160 --> 00:04:18.150 align:start position:0%
+there's not as much a consideration for
+latency<00:04:16.560><c> but</c><00:04:16.799><c> there</c><00:04:16.959><c> is</c><00:04:17.199><c> a</c><00:04:17.440><c> concern</c><00:04:17.680><c> for</c><00:04:17.919><c> both</c>
+
+00:04:18.150 --> 00:04:18.160 align:start position:0%
+latency but there is a concern for both
+ 
+
+00:04:18.160 --> 00:04:20.789 align:start position:0%
+latency but there is a concern for both
+quality<00:04:18.479><c> and</c><00:04:18.720><c> cost.</c><00:04:19.519><c> Uh</c><00:04:19.919><c> and</c><00:04:20.160><c> this</c><00:04:20.400><c> sort</c><00:04:20.639><c> of</c>
+
+00:04:20.789 --> 00:04:20.799 align:start position:0%
+quality and cost. Uh and this sort of
+ 
+
+00:04:20.799 --> 00:04:24.710 align:start position:0%
+quality and cost. Uh and this sort of
+breaks<00:04:21.120><c> down</c><00:04:21.840><c> how</c><00:04:22.160><c> or</c><00:04:22.479><c> this</c><00:04:22.720><c> sort</c><00:04:22.880><c> of</c><00:04:24.240><c> depends</c>
+
+00:04:24.710 --> 00:04:24.720 align:start position:0%
+breaks down how or this sort of depends
+ 
+
+00:04:24.720 --> 00:04:26.550 align:start position:0%
+breaks down how or this sort of depends
+upon<00:04:24.960><c> what</c><00:04:25.199><c> the</c><00:04:25.360><c> user</c><00:04:25.680><c> expects</c><00:04:26.080><c> from</c><00:04:26.320><c> the</c>
+
+00:04:26.550 --> 00:04:26.560 align:start position:0%
+upon what the user expects from the
+ 
+
+00:04:26.560 --> 00:04:28.230 align:start position:0%
+upon what the user expects from the
+application.<00:04:27.040><c> Does</c><00:04:27.199><c> it</c><00:04:27.360><c> do</c><00:04:27.520><c> do</c><00:04:27.759><c> they</c><00:04:27.919><c> expect</c>
+
+00:04:28.230 --> 00:04:28.240 align:start position:0%
+application. Does it do do they expect
+ 
+
+00:04:28.240 --> 00:04:30.950 align:start position:0%
+application. Does it do do they expect
+it<00:04:28.720><c> to</c><00:04:28.960><c> be</c><00:04:29.600><c> fast?</c><00:04:30.080><c> Do</c><00:04:30.240><c> they</c><00:04:30.400><c> expect</c><00:04:30.560><c> it</c><00:04:30.720><c> to</c><00:04:30.880><c> be</c>
+
+00:04:30.950 --> 00:04:30.960 align:start position:0%
+it to be fast? Do they expect it to be
+ 
+
+00:04:30.960 --> 00:04:32.790 align:start position:0%
+it to be fast? Do they expect it to be
+slow?<00:04:31.280><c> Are</c><00:04:31.440><c> they</c><00:04:31.600><c> involved</c><00:04:32.000><c> in</c><00:04:32.160><c> the</c><00:04:32.320><c> loop</c><00:04:32.560><c> with</c>
+
+00:04:32.790 --> 00:04:32.800 align:start position:0%
+slow? Are they involved in the loop with
+ 
+
+00:04:32.800 --> 00:04:35.189 align:start position:0%
+slow? Are they involved in the loop with
+this<00:04:33.040><c> application?</c>
+
+00:04:35.189 --> 00:04:35.199 align:start position:0%
+this application?
+ 
+
+00:04:35.199 --> 00:04:37.350 align:start position:0%
+this application?
+Now<00:04:35.840><c> there</c><00:04:36.080><c> are</c><00:04:36.160><c> a</c><00:04:36.320><c> series</c><00:04:36.639><c> of</c><00:04:37.040><c> you</c><00:04:37.199><c> know</c>
+
+00:04:37.350 --> 00:04:37.360 align:start position:0%
+Now there are a series of you know
+ 
+
+00:04:37.360 --> 00:04:38.790 align:start position:0%
+Now there are a series of you know
+techniques<00:04:37.759><c> that</c><00:04:37.919><c> are</c><00:04:38.080><c> pretty</c><00:04:38.320><c> commonly</c>
+
+00:04:38.790 --> 00:04:38.800 align:start position:0%
+techniques that are pretty commonly
+ 
+
+00:04:38.800 --> 00:04:41.270 align:start position:0%
+techniques that are pretty commonly
+known<00:04:39.040><c> about</c><00:04:39.440><c> that</c><00:04:39.759><c> all</c><00:04:40.320><c> you</c><00:04:40.479><c> know</c><00:04:40.960><c> support</c>
+
+00:04:41.270 --> 00:04:41.280 align:start position:0%
+known about that all you know support
+ 
+
+00:04:41.280 --> 00:04:43.030 align:start position:0%
+known about that all you know support
+the<00:04:41.520><c> manipulation</c><00:04:42.000><c> of</c><00:04:42.000><c> the</c><00:04:42.160><c> sprintier.</c><00:04:42.960><c> For</c>
+
+00:04:43.030 --> 00:04:43.040 align:start position:0%
+the manipulation of the sprintier. For
+ 
+
+00:04:43.040 --> 00:04:44.870 align:start position:0%
+the manipulation of the sprintier. For
+example,<00:04:43.360><c> quantization</c><00:04:44.160><c> speeds</c><00:04:44.479><c> up</c><00:04:44.560><c> your</c>
+
+00:04:44.870 --> 00:04:44.880 align:start position:0%
+example, quantization speeds up your
+ 
+
+00:04:44.880 --> 00:04:46.870 align:start position:0%
+example, quantization speeds up your
+latency<00:04:45.360><c> and</c><00:04:45.600><c> it</c><00:04:45.759><c> also</c><00:04:46.000><c> decreases</c><00:04:46.400><c> your</c><00:04:46.639><c> cost</c>
+
+00:04:46.870 --> 00:04:46.880 align:start position:0%
+latency and it also decreases your cost
+ 
+
+00:04:46.880 --> 00:04:48.710 align:start position:0%
+latency and it also decreases your cost
+because<00:04:47.120><c> you</c><00:04:47.360><c> can</c><00:04:47.840><c> produce</c><00:04:48.160><c> higher</c><00:04:48.479><c> batch</c>
+
+00:04:48.710 --> 00:04:48.720 align:start position:0%
+because you can produce higher batch
+ 
+
+00:04:48.720 --> 00:04:50.870 align:start position:0%
+because you can produce higher batch
+sizes.<00:04:49.440><c> Retrieve</c><00:04:49.840><c> augmented</c><00:04:50.320><c> generation</c>
+
+00:04:50.870 --> 00:04:50.880 align:start position:0%
+sizes. Retrieve augmented generation
+ 
+
+00:04:50.880 --> 00:04:52.550 align:start position:0%
+sizes. Retrieve augmented generation
+generally<00:04:51.280><c> slows</c><00:04:51.600><c> down</c><00:04:51.759><c> your</c><00:04:52.000><c> application,</c>
+
+00:04:52.550 --> 00:04:52.560 align:start position:0%
+generally slows down your application,
+ 
+
+00:04:52.560 --> 00:04:54.629 align:start position:0%
+generally slows down your application,
+makes<00:04:52.720><c> it</c><00:04:52.880><c> higher</c><00:04:53.120><c> latency,</c><00:04:53.919><c> increases</c><00:04:54.400><c> the</c>
+
+00:04:54.629 --> 00:04:54.639 align:start position:0%
+makes it higher latency, increases the
+ 
+
+00:04:54.639 --> 00:04:57.270 align:start position:0%
+makes it higher latency, increases the
+cost<00:04:54.960><c> but</c><00:04:55.199><c> also</c><00:04:55.440><c> increases</c><00:04:55.840><c> the</c><00:04:56.000><c> quality.</c><00:04:56.960><c> And</c>
+
+00:04:57.270 --> 00:04:57.280 align:start position:0%
+cost but also increases the quality. And
+ 
+
+00:04:57.280 --> 00:04:59.510 align:start position:0%
+cost but also increases the quality. And
+reasoning<00:04:57.840><c> for</c><00:04:57.919><c> example</c><00:04:58.400><c> similar,</c><00:04:59.280><c> you</c><00:04:59.440><c> know,</c>
+
+00:04:59.510 --> 00:04:59.520 align:start position:0%
+reasoning for example similar, you know,
+ 
+
+00:04:59.520 --> 00:05:01.510 align:start position:0%
+reasoning for example similar, you know,
+you<00:04:59.759><c> produce</c><00:05:00.000><c> more</c><00:05:00.160><c> tokens</c><00:05:00.479><c> to</c><00:05:00.639><c> think.</c><00:05:01.280><c> And</c>
+
+00:05:01.510 --> 00:05:01.520 align:start position:0%
+you produce more tokens to think. And
+ 
+
+00:05:01.520 --> 00:05:03.110 align:start position:0%
+you produce more tokens to think. And
+changing<00:05:01.759><c> the</c><00:05:01.919><c> model</c><00:05:02.240><c> config</c><00:05:02.560><c> allows</c><00:05:02.880><c> you</c><00:05:02.960><c> to</c>
+
+00:05:03.110 --> 00:05:03.120 align:start position:0%
+changing the model config allows you to
+ 
+
+00:05:03.120 --> 00:05:04.790 align:start position:0%
+changing the model config allows you to
+do<00:05:03.199><c> any</c><00:05:03.440><c> of</c><00:05:03.520><c> these</c><00:05:03.759><c> things.</c><00:05:04.160><c> If</c><00:05:04.400><c> you</c><00:05:04.560><c> change</c>
+
+00:05:04.790 --> 00:05:04.800 align:start position:0%
+do any of these things. If you change
+ 
+
+00:05:04.800 --> 00:05:06.310 align:start position:0%
+do any of these things. If you change
+how<00:05:04.960><c> the</c><00:05:05.199><c> model</c><00:05:05.360><c> is</c><00:05:05.600><c> represented</c><00:05:06.000><c> in</c><00:05:06.160><c> a</c>
+
+00:05:06.310 --> 00:05:06.320 align:start position:0%
+how the model is represented in a
+ 
+
+00:05:06.320 --> 00:05:08.230 align:start position:0%
+how the model is represented in a
+parallel<00:05:06.720><c> manner,</c><00:05:07.600><c> uh</c><00:05:07.759><c> you</c><00:05:08.000><c> can</c>
+
+00:05:08.230 --> 00:05:08.240 align:start position:0%
+parallel manner, uh you can
+ 
+
+00:05:08.240 --> 00:05:10.550 align:start position:0%
+parallel manner, uh you can
+significantly<00:05:08.880><c> change</c><00:05:09.360><c> the</c><00:05:09.759><c> characteristics</c>
+
+00:05:10.550 --> 00:05:10.560 align:start position:0%
+significantly change the characteristics
+ 
+
+00:05:10.560 --> 00:05:12.950 align:start position:0%
+significantly change the characteristics
+of<00:05:11.520><c> uh</c><00:05:11.759><c> speed,</c><00:05:12.160><c> cost,</c><00:05:12.400><c> and</c><00:05:12.560><c> theoretically</c>
+
+00:05:12.950 --> 00:05:12.960 align:start position:0%
+of uh speed, cost, and theoretically
+ 
+
+00:05:12.960 --> 00:05:14.070 align:start position:0%
+of uh speed, cost, and theoretically
+equality.<00:05:13.440><c> If</c><00:05:13.600><c> you're</c><00:05:13.759><c> talking</c><00:05:13.919><c> about</c>
+
+00:05:14.070 --> 00:05:14.080 align:start position:0%
+equality. If you're talking about
+ 
+
+00:05:14.080 --> 00:05:17.830 align:start position:0%
+equality. If you're talking about
+non-haled<00:05:14.880><c> context</c><00:05:15.199><c> parallelism,</c><00:05:16.560><c> um</c><00:05:17.600><c> the</c>
+
+00:05:17.830 --> 00:05:17.840 align:start position:0%
+non-haled context parallelism, um the
+ 
+
+00:05:17.840 --> 00:05:19.029 align:start position:0%
+non-haled context parallelism, um the
+thing<00:05:17.919><c> that</c><00:05:18.080><c> I</c><00:05:18.160><c> want</c><00:05:18.240><c> to</c><00:05:18.320><c> impart</c><00:05:18.639><c> upon</c><00:05:18.880><c> you</c>
+
+00:05:19.029 --> 00:05:19.039 align:start position:0%
+thing that I want to impart upon you
+ 
+
+00:05:19.039 --> 00:05:20.310 align:start position:0%
+thing that I want to impart upon you
+before<00:05:19.199><c> we</c><00:05:19.360><c> jump</c><00:05:19.520><c> into</c><00:05:19.759><c> like</c><00:05:19.919><c> a</c><00:05:20.000><c> lot</c><00:05:20.080><c> more</c><00:05:20.240><c> of</c>
+
+00:05:20.310 --> 00:05:20.320 align:start position:0%
+before we jump into like a lot more of
+ 
+
+00:05:20.320 --> 00:05:21.909 align:start position:0%
+before we jump into like a lot more of
+these<00:05:20.479><c> advanced</c><00:05:20.800><c> techniques</c><00:05:21.199><c> is</c><00:05:21.440><c> that</c><00:05:21.680><c> these</c>
+
+00:05:21.909 --> 00:05:21.919 align:start position:0%
+these advanced techniques is that these
+ 
+
+00:05:21.919 --> 00:05:23.749 align:start position:0%
+these advanced techniques is that these
+techniques<00:05:22.320><c> can</c><00:05:22.479><c> be</c><00:05:22.639><c> compounded.</c><00:05:23.440><c> So</c><00:05:23.680><c> for</c>
+
+00:05:23.749 --> 00:05:23.759 align:start position:0%
+techniques can be compounded. So for
+ 
+
+00:05:23.759 --> 00:05:24.950 align:start position:0%
+techniques can be compounded. So for
+example,<00:05:24.080><c> if</c><00:05:24.240><c> you</c><00:05:24.400><c> have</c><00:05:24.479><c> an</c><00:05:24.639><c> initial</c>
+
+00:05:24.950 --> 00:05:24.960 align:start position:0%
+example, if you have an initial
+ 
+
+00:05:24.960 --> 00:05:26.710 align:start position:0%
+example, if you have an initial
+application<00:05:25.440><c> and</c><00:05:25.680><c> has</c><00:05:25.919><c> some</c><00:05:26.080><c> required</c>
+
+00:05:26.710 --> 00:05:26.720 align:start position:0%
+application and has some required
+ 
+
+00:05:26.720 --> 00:05:29.189 align:start position:0%
+application and has some required
+performance,<00:05:27.520><c> you</c><00:05:27.759><c> can</c><00:05:27.919><c> actually</c><00:05:28.320><c> stack</c><00:05:29.120><c> for</c>
+
+00:05:29.189 --> 00:05:29.199 align:start position:0%
+performance, you can actually stack for
+ 
+
+00:05:29.199 --> 00:05:31.430 align:start position:0%
+performance, you can actually stack for
+example<00:05:29.600><c> retrieve</c><00:05:30.080><c> augmented</c><00:05:30.720><c> generation</c><00:05:31.199><c> in</c>
+
+00:05:31.430 --> 00:05:31.440 align:start position:0%
+example retrieve augmented generation in
+ 
+
+00:05:31.440 --> 00:05:33.430 align:start position:0%
+example retrieve augmented generation in
+order<00:05:31.600><c> to</c><00:05:31.919><c> increase</c><00:05:32.160><c> the</c><00:05:32.400><c> quality</c><00:05:32.960><c> but</c><00:05:33.280><c> make</c>
+
+00:05:33.430 --> 00:05:33.440 align:start position:0%
+order to increase the quality but make
+ 
+
+00:05:33.440 --> 00:05:36.790 align:start position:0%
+order to increase the quality but make
+the<00:05:33.600><c> latency</c><00:05:34.000><c> worse</c><00:05:35.440><c> and</c><00:05:35.600><c> you</c><00:05:35.840><c> can</c><00:05:35.919><c> also</c><00:05:36.479><c> stack</c>
+
+00:05:36.790 --> 00:05:36.800 align:start position:0%
+the latency worse and you can also stack
+ 
+
+00:05:36.800 --> 00:05:39.029 align:start position:0%
+the latency worse and you can also stack
+on<00:05:36.960><c> top</c><00:05:37.039><c> of</c><00:05:37.120><c> that</c><00:05:37.360><c> quantization</c><00:05:38.240><c> of</c><00:05:38.479><c> the</c><00:05:38.720><c> model</c>
+
+00:05:39.029 --> 00:05:39.039 align:start position:0%
+on top of that quantization of the model
+ 
+
+00:05:39.039 --> 00:05:41.749 align:start position:0%
+on top of that quantization of the model
+in<00:05:39.280><c> order</c><00:05:39.440><c> to</c><00:05:39.840><c> speed</c><00:05:40.080><c> up</c><00:05:40.240><c> your</c><00:05:40.400><c> latency.</c><00:05:41.520><c> The</c>
+
+00:05:41.749 --> 00:05:41.759 align:start position:0%
+in order to speed up your latency. The
+ 
+
+00:05:41.759 --> 00:05:43.430 align:start position:0%
+in order to speed up your latency. The
+point<00:05:41.919><c> I'm,</c><00:05:42.320><c> you</c><00:05:42.479><c> know,</c><00:05:42.639><c> trying</c><00:05:42.880><c> to</c><00:05:43.120><c> trying</c><00:05:43.360><c> to</c>
+
+00:05:43.430 --> 00:05:43.440 align:start position:0%
+point I'm, you know, trying to trying to
+ 
+
+00:05:43.440 --> 00:05:45.029 align:start position:0%
+point I'm, you know, trying to trying to
+make<00:05:43.600><c> here</c><00:05:43.759><c> is</c><00:05:44.000><c> that</c><00:05:44.160><c> you</c><00:05:44.400><c> really</c><00:05:44.639><c> have</c><00:05:44.800><c> this</c>
+
+00:05:45.029 --> 00:05:45.039 align:start position:0%
+make here is that you really have this
+ 
+
+00:05:45.039 --> 00:05:47.990 align:start position:0%
+make here is that you really have this
+toolbox<00:05:45.600><c> of</c><00:05:46.160><c> a</c><00:05:46.400><c> sets</c><00:05:46.639><c> of</c><00:05:47.120><c> large</c><00:05:47.440><c> sets</c><00:05:47.600><c> of</c><00:05:47.759><c> tools</c>
+
+00:05:47.990 --> 00:05:48.000 align:start position:0%
+toolbox of a sets of large sets of tools
+ 
+
+00:05:48.000 --> 00:05:50.230 align:start position:0%
+toolbox of a sets of large sets of tools
+that<00:05:48.160><c> you</c><00:05:48.320><c> can</c><00:05:48.400><c> use</c><00:05:48.639><c> together.</c><00:05:49.520><c> And</c><00:05:49.759><c> the</c><00:05:49.919><c> tools</c>
+
+00:05:50.230 --> 00:05:50.240 align:start position:0%
+that you can use together. And the tools
+ 
+
+00:05:50.240 --> 00:05:52.469 align:start position:0%
+that you can use together. And the tools
+themselves<00:05:50.560><c> are</c><00:05:50.720><c> not</c><00:05:50.880><c> independent</c><00:05:51.759><c> and</c><00:05:52.240><c> can</c>
+
+00:05:52.469 --> 00:05:52.479 align:start position:0%
+themselves are not independent and can
+ 
+
+00:05:52.479 --> 00:05:54.790 align:start position:0%
+themselves are not independent and can
+be<00:05:52.639><c> combined</c><00:05:53.120><c> in</c><00:05:53.520><c> very</c><00:05:54.320><c> sometimes</c>
+
+00:05:54.790 --> 00:05:54.800 align:start position:0%
+be combined in very sometimes
+ 
+
+00:05:54.800 --> 00:05:57.029 align:start position:0%
+be combined in very sometimes
+non-obvious<00:05:55.360><c> ways</c><00:05:55.600><c> in</c><00:05:55.840><c> order</c><00:05:56.000><c> to</c><00:05:56.320><c> actually</c>
+
+00:05:57.029 --> 00:05:57.039 align:start position:0%
+non-obvious ways in order to actually
+ 
+
+00:05:57.039 --> 00:05:59.830 align:start position:0%
+non-obvious ways in order to actually
+break<00:05:57.199><c> your</c><00:05:57.440><c> predo</c><00:05:57.840><c> frontier</c><00:05:58.560><c> or</c><00:05:59.360><c> squeeze</c><00:05:59.680><c> it</c>
+
+00:05:59.830 --> 00:05:59.840 align:start position:0%
+break your predo frontier or squeeze it
+ 
+
+00:05:59.840 --> 00:06:01.510 align:start position:0%
+break your predo frontier or squeeze it
+in<00:06:00.080><c> different</c><00:06:00.320><c> directions</c><00:06:00.800><c> in</c><00:06:01.039><c> order</c><00:06:01.199><c> to</c>
+
+00:06:01.510 --> 00:06:01.520 align:start position:0%
+in different directions in order to
+ 
+
+00:06:01.520 --> 00:06:04.469 align:start position:0%
+in different directions in order to
+support<00:06:01.840><c> your</c><00:06:02.080><c> application.</c><00:06:03.440><c> Um</c><00:06:04.080><c> so</c><00:06:04.240><c> there</c>
+
+00:06:04.469 --> 00:06:04.479 align:start position:0%
+support your application. Um so there
+ 
+
+00:06:04.479 --> 00:06:06.390 align:start position:0%
+support your application. Um so there
+are<00:06:04.639><c> three</c><00:06:04.880><c> things</c><00:06:05.280><c> outside</c><00:06:05.759><c> of</c><00:06:06.000><c> those</c>
+
+00:06:06.390 --> 00:06:06.400 align:start position:0%
+are three things outside of those
+ 
+
+00:06:06.400 --> 00:06:08.469 align:start position:0%
+are three things outside of those
+techniques<00:06:06.800><c> that</c><00:06:06.960><c> I</c><00:06:07.120><c> I</c><00:06:07.199><c> I</c><00:06:07.600><c> tend</c><00:06:07.919><c> I</c><00:06:08.160><c> tend</c><00:06:08.319><c> to</c>
+
+00:06:08.469 --> 00:06:08.479 align:start position:0%
+techniques that I I I tend I tend to
+ 
+
+00:06:08.479 --> 00:06:13.029 align:start position:0%
+techniques that I I I tend I tend to
+think<00:06:08.800><c> drive</c><00:06:10.000><c> uh</c><00:06:10.720><c> you</c><00:06:10.960><c> know</c><00:06:11.520><c> the</c>
+
+00:06:13.029 --> 00:06:13.039 align:start position:0%
+think drive uh you know the
+ 
+
+00:06:13.039 --> 00:06:15.590 align:start position:0%
+think drive uh you know the
+how<00:06:13.360><c> you</c><00:06:13.600><c> can</c><00:06:13.759><c> modify</c><00:06:14.000><c> the</c><00:06:14.240><c> parto</c><00:06:14.720><c> frontier</c>
+
+00:06:15.590 --> 00:06:15.600 align:start position:0%
+how you can modify the parto frontier
+ 
+
+00:06:15.600 --> 00:06:17.590 align:start position:0%
+how you can modify the parto frontier
+going<00:06:15.919><c> forward.</c><00:06:16.479><c> Those</c><00:06:16.720><c> three</c><00:06:16.880><c> are</c><00:06:17.120><c> scale,</c>
+
+00:06:17.590 --> 00:06:17.600 align:start position:0%
+going forward. Those three are scale,
+ 
+
+00:06:17.600 --> 00:06:20.390 align:start position:0%
+going forward. Those three are scale,
+structure<00:06:18.000><c> and</c><00:06:18.240><c> dynamism.</c>
+
+00:06:20.390 --> 00:06:20.400 align:start position:0%
+structure and dynamism.
+ 
+
+00:06:20.400 --> 00:06:23.029 align:start position:0%
+structure and dynamism.
+Um<00:06:20.960><c> so</c><00:06:21.280><c> one</c><00:06:21.440><c> of</c><00:06:21.520><c> the</c><00:06:21.759><c> things</c><00:06:22.080><c> that</c><00:06:22.400><c> is</c><00:06:22.720><c> you</c><00:06:22.880><c> know</c>
+
+00:06:23.029 --> 00:06:23.039 align:start position:0%
+Um so one of the things that is you know
+ 
+
+00:06:23.039 --> 00:06:26.710 align:start position:0%
+Um so one of the things that is you know
+really<00:06:23.360><c> relevant</c><00:06:23.840><c> in</c><00:06:24.160><c> the</c><00:06:24.800><c> realm</c><00:06:25.280><c> of</c><00:06:26.000><c> scale</c><00:06:26.400><c> is</c>
+
+00:06:26.710 --> 00:06:26.720 align:start position:0%
+really relevant in the realm of scale is
+ 
+
+00:06:26.720 --> 00:06:28.790 align:start position:0%
+really relevant in the realm of scale is
+disagregation.<00:06:27.840><c> So</c><00:06:28.080><c> for</c><00:06:28.240><c> those</c><00:06:28.400><c> that</c><00:06:28.560><c> aren't</c>
+
+00:06:28.790 --> 00:06:28.800 align:start position:0%
+disagregation. So for those that aren't
+ 
+
+00:06:28.800 --> 00:06:31.189 align:start position:0%
+disagregation. So for those that aren't
+aware,<00:06:29.360><c> uh</c><00:06:29.600><c> KV</c><00:06:30.000><c> caching</c><00:06:30.319><c> is</c><00:06:30.479><c> a</c><00:06:30.639><c> technique</c><00:06:30.960><c> by</c>
+
+00:06:31.189 --> 00:06:31.199 align:start position:0%
+aware, uh KV caching is a technique by
+ 
+
+00:06:31.199 --> 00:06:34.469 align:start position:0%
+aware, uh KV caching is a technique by
+which<00:06:31.360><c> you</c><00:06:31.840><c> take</c><00:06:32.080><c> the</c><00:06:32.639><c> K</c><00:06:32.720><c> K</c><00:06:33.039><c> val</c><00:06:33.360><c> key</c><00:06:33.840><c> and</c><00:06:34.160><c> value</c>
+
+00:06:34.469 --> 00:06:34.479 align:start position:0%
+which you take the K K val key and value
+ 
+
+00:06:34.479 --> 00:06:36.550 align:start position:0%
+which you take the K K val key and value
+vectors<00:06:35.199><c> that</c><00:06:35.440><c> are</c><00:06:35.600><c> associated</c><00:06:36.160><c> with</c><00:06:36.319><c> each</c>
+
+00:06:36.550 --> 00:06:36.560 align:start position:0%
+vectors that are associated with each
+ 
+
+00:06:36.560 --> 00:06:39.189 align:start position:0%
+vectors that are associated with each
+token<00:06:37.199><c> and</c><00:06:37.440><c> you</c><00:06:37.600><c> cache</c><00:06:38.000><c> them.</c><00:06:38.560><c> Uh</c><00:06:38.880><c> so</c><00:06:39.039><c> that</c>
+
+00:06:39.189 --> 00:06:39.199 align:start position:0%
+token and you cache them. Uh so that
+ 
+
+00:06:39.199 --> 00:06:40.309 align:start position:0%
+token and you cache them. Uh so that
+when<00:06:39.360><c> you're</c><00:06:39.440><c> doing</c><00:06:39.600><c> auto</c><00:06:39.919><c> reggressive</c>
+
+00:06:40.309 --> 00:06:40.319 align:start position:0%
+when you're doing auto reggressive
+ 
+
+00:06:40.319 --> 00:06:41.830 align:start position:0%
+when you're doing auto reggressive
+generation,<00:06:40.800><c> you</c><00:06:40.960><c> don't</c><00:06:41.120><c> have</c><00:06:41.280><c> to</c><00:06:41.440><c> generate</c>
+
+00:06:41.830 --> 00:06:41.840 align:start position:0%
+generation, you don't have to generate
+ 
+
+00:06:41.840 --> 00:06:43.590 align:start position:0%
+generation, you don't have to generate
+the<00:06:42.160><c> entire</c><00:06:42.400><c> set</c><00:06:42.560><c> of</c><00:06:42.720><c> key</c><00:06:42.880><c> and</c><00:06:43.039><c> value</c><00:06:43.280><c> vectors</c>
+
+00:06:43.590 --> 00:06:43.600 align:start position:0%
+the entire set of key and value vectors
+ 
+
+00:06:43.600 --> 00:06:45.110 align:start position:0%
+the entire set of key and value vectors
+for<00:06:43.759><c> the</c><00:06:44.000><c> entire</c><00:06:44.240><c> sequence</c><00:06:44.639><c> up</c><00:06:44.800><c> to</c><00:06:44.960><c> this</c>
+
+00:06:45.110 --> 00:06:45.120 align:start position:0%
+for the entire sequence up to this
+ 
+
+00:06:45.120 --> 00:06:47.189 align:start position:0%
+for the entire sequence up to this
+point.<00:06:45.600><c> You</c><00:06:45.840><c> can</c><00:06:46.000><c> just</c><00:06:46.240><c> generate</c><00:06:46.720><c> new</c><00:06:46.880><c> ones</c>
+
+00:06:47.189 --> 00:06:47.199 align:start position:0%
+point. You can just generate new ones
+ 
+
+00:06:47.199 --> 00:06:50.390 align:start position:0%
+point. You can just generate new ones
+and<00:06:47.680><c> put</c><00:06:47.840><c> them</c><00:06:48.000><c> back</c><00:06:48.160><c> into</c><00:06:48.319><c> the</c><00:06:48.479><c> KV</c><00:06:48.880><c> cache.</c><00:06:49.919><c> Uh</c>
+
+00:06:50.390 --> 00:06:50.400 align:start position:0%
+and put them back into the KV cache. Uh
+ 
+
+00:06:50.400 --> 00:06:52.230 align:start position:0%
+and put them back into the KV cache. Uh
+what<00:06:50.639><c> this</c><00:06:50.880><c> actually</c><00:06:51.280><c> means</c><00:06:51.600><c> is</c><00:06:51.840><c> that</c><00:06:52.000><c> we</c>
+
+00:06:52.230 --> 00:06:52.240 align:start position:0%
+what this actually means is that we
+ 
+
+00:06:52.240 --> 00:06:53.590 align:start position:0%
+what this actually means is that we
+effectively<00:06:52.720><c> have</c><00:06:52.800><c> two</c><00:06:53.039><c> phases</c><00:06:53.360><c> of</c>
+
+00:06:53.590 --> 00:06:53.600 align:start position:0%
+effectively have two phases of
+ 
+
+00:06:53.600 --> 00:06:55.189 align:start position:0%
+effectively have two phases of
+generation.<00:06:54.160><c> one</c><00:06:54.400><c> in</c><00:06:54.639><c> which</c><00:06:54.800><c> you're</c>
+
+00:06:55.189 --> 00:06:55.199 align:start position:0%
+generation. one in which you're
+ 
+
+00:06:55.199 --> 00:06:58.710 align:start position:0%
+generation. one in which you're
+generating<00:06:56.000><c> the</c><00:06:56.960><c> prefill</c><00:06:57.520><c> or</c><00:06:58.240><c> filling</c><00:06:58.639><c> up</c>
+
+00:06:58.710 --> 00:06:58.720 align:start position:0%
+generating the prefill or filling up
+ 
+
+00:06:58.720 --> 00:07:01.589 align:start position:0%
+generating the prefill or filling up
+your<00:06:58.880><c> KV</c><00:06:59.360><c> cache</c><00:07:00.319><c> and</c><00:07:00.720><c> one</c><00:07:01.039><c> in</c><00:07:01.199><c> which</c><00:07:01.360><c> you're</c>
+
+00:07:01.589 --> 00:07:01.599 align:start position:0%
+your KV cache and one in which you're
+ 
+
+00:07:01.599 --> 00:07:03.990 align:start position:0%
+your KV cache and one in which you're
+actually<00:07:02.000><c> generating</c><00:07:02.720><c> new</c><00:07:03.120><c> KV</c><00:07:03.520><c> cache</c><00:07:03.759><c> as</c><00:07:03.919><c> well</c>
+
+00:07:03.990 --> 00:07:04.000 align:start position:0%
+actually generating new KV cache as well
+ 
+
+00:07:04.000 --> 00:07:06.790 align:start position:0%
+actually generating new KV cache as well
+as<00:07:04.160><c> new</c><00:07:04.319><c> tokens</c><00:07:04.639><c> and</c><00:07:04.880><c> producing</c><00:07:05.280><c> output.</c><00:07:06.160><c> Now</c>
+
+00:07:06.790 --> 00:07:06.800 align:start position:0%
+as new tokens and producing output. Now
+ 
+
+00:07:06.800 --> 00:07:08.870 align:start position:0%
+as new tokens and producing output. Now
+um<00:07:07.120><c> disagregation</c><00:07:07.840><c> as</c><00:07:08.080><c> a</c><00:07:08.240><c> technique</c>
+
+00:07:08.870 --> 00:07:08.880 align:start position:0%
+um disagregation as a technique
+ 
+
+00:07:08.880 --> 00:07:11.589 align:start position:0%
+um disagregation as a technique
+basically<00:07:09.280><c> allows</c><00:07:09.599><c> you</c><00:07:09.759><c> to</c><00:07:10.479><c> have</c><00:07:10.800><c> these</c><00:07:11.440><c> you</c>
+
+00:07:11.589 --> 00:07:11.599 align:start position:0%
+basically allows you to have these you
+ 
+
+00:07:11.599 --> 00:07:13.830 align:start position:0%
+basically allows you to have these you
+know<00:07:11.919><c> two</c><00:07:12.240><c> phases</c><00:07:12.639><c> which</c><00:07:12.880><c> were</c><00:07:13.199><c> typically</c>
+
+00:07:13.830 --> 00:07:13.840 align:start position:0%
+know two phases which were typically
+ 
+
+00:07:13.840 --> 00:07:16.390 align:start position:0%
+know two phases which were typically
+used<00:07:14.080><c> on</c><00:07:14.240><c> the</c><00:07:14.400><c> same</c><00:07:14.560><c> set</c><00:07:14.720><c> of</c><00:07:14.800><c> GPUs</c><00:07:15.919><c> uh</c><00:07:16.080><c> onto</c>
+
+00:07:16.390 --> 00:07:16.400 align:start position:0%
+used on the same set of GPUs uh onto
+ 
+
+00:07:16.400 --> 00:07:18.550 align:start position:0%
+used on the same set of GPUs uh onto
+multiple<00:07:16.960><c> different</c><00:07:17.599><c> workers</c><00:07:18.000><c> and</c><00:07:18.240><c> sets</c><00:07:18.400><c> of</c>
+
+00:07:18.550 --> 00:07:18.560 align:start position:0%
+multiple different workers and sets of
+ 
+
+00:07:18.560 --> 00:07:20.870 align:start position:0%
+multiple different workers and sets of
+GPUs<00:07:19.599><c> and</c><00:07:19.840><c> this</c><00:07:20.000><c> provides</c><00:07:20.319><c> a</c><00:07:20.479><c> couple</c><00:07:20.639><c> key</c>
+
+00:07:20.870 --> 00:07:20.880 align:start position:0%
+GPUs and this provides a couple key
+ 
+
+00:07:20.880 --> 00:07:23.110 align:start position:0%
+GPUs and this provides a couple key
+benefits<00:07:21.120><c> that</c><00:07:21.360><c> we'll</c><00:07:21.520><c> go</c><00:07:21.599><c> into</c><00:07:22.000><c> right</c><00:07:22.319><c> now.</c>
+
+00:07:23.110 --> 00:07:23.120 align:start position:0%
+benefits that we'll go into right now.
+ 
+
+00:07:23.120 --> 00:07:25.990 align:start position:0%
+benefits that we'll go into right now.
+Um<00:07:24.080><c> the</c><00:07:24.400><c> three</c><00:07:24.960><c> really</c><00:07:25.280><c> big</c><00:07:25.440><c> benefits</c><00:07:25.759><c> here</c>
+
+00:07:25.990 --> 00:07:26.000 align:start position:0%
+Um the three really big benefits here
+ 
+
+00:07:26.000 --> 00:07:28.070 align:start position:0%
+Um the three really big benefits here
+are<00:07:26.160><c> that</c><00:07:26.319><c> you</c><00:07:26.479><c> will</c><00:07:26.720><c> you</c><00:07:26.960><c> can</c><00:07:27.120><c> really</c><00:07:27.440><c> now</c>
+
+00:07:28.070 --> 00:07:28.080 align:start position:0%
+are that you will you can really now
+ 
+
+00:07:28.080 --> 00:07:31.270 align:start position:0%
+are that you will you can really now
+take<00:07:28.880><c> two</c><00:07:29.680><c> uh</c><00:07:30.160><c> sort</c><00:07:30.319><c> of</c><00:07:30.479><c> phases</c><00:07:30.800><c> that</c><00:07:30.880><c> have</c>
+
+00:07:31.270 --> 00:07:31.280 align:start position:0%
+take two uh sort of phases that have
+ 
+
+00:07:31.280 --> 00:07:33.270 align:start position:0%
+take two uh sort of phases that have
+very<00:07:31.360><c> very</c><00:07:31.599><c> different</c><00:07:31.759><c> needs.</c><00:07:32.160><c> Uh</c><00:07:32.479><c> prefill</c><00:07:33.039><c> is</c>
+
+00:07:33.270 --> 00:07:33.280 align:start position:0%
+very very different needs. Uh prefill is
+ 
+
+00:07:33.280 --> 00:07:34.870 align:start position:0%
+very very different needs. Uh prefill is
+very<00:07:33.520><c> computebound</c><00:07:34.080><c> and</c><00:07:34.240><c> decode</c><00:07:34.639><c> depending</c>
+
+00:07:34.870 --> 00:07:34.880 align:start position:0%
+very computebound and decode depending
+ 
+
+00:07:34.880 --> 00:07:37.350 align:start position:0%
+very computebound and decode depending
+on<00:07:34.960><c> the</c><00:07:35.360><c> application</c><00:07:35.840><c> and</c><00:07:36.000><c> model</c><00:07:36.319><c> can</c><00:07:36.479><c> be</c><00:07:36.639><c> very</c>
+
+00:07:37.350 --> 00:07:37.360 align:start position:0%
+on the application and model can be very
+ 
+
+00:07:37.360 --> 00:07:39.990 align:start position:0%
+on the application and model can be very
+memory<00:07:37.840><c> bound</c><00:07:38.720><c> and</c><00:07:39.039><c> it</c><00:07:39.280><c> allows</c><00:07:39.520><c> you</c><00:07:39.599><c> to</c><00:07:39.759><c> do</c><00:07:39.840><c> a</c>
+
+00:07:39.990 --> 00:07:40.000 align:start position:0%
+memory bound and it allows you to do a
+ 
+
+00:07:40.000 --> 00:07:41.589 align:start position:0%
+memory bound and it allows you to do a
+granular<00:07:40.400><c> load</c><00:07:40.639><c> matching</c><00:07:40.960><c> between</c><00:07:41.199><c> those</c><00:07:41.440><c> two</c>
+
+00:07:41.589 --> 00:07:41.599 align:start position:0%
+granular load matching between those two
+ 
+
+00:07:41.599 --> 00:07:44.550 align:start position:0%
+granular load matching between those two
+phases.<00:07:42.400><c> And</c><00:07:42.639><c> what</c><00:07:42.800><c> this</c><00:07:43.120><c> means</c><00:07:43.360><c> is</c><00:07:44.000><c> uh</c><00:07:44.400><c> you</c>
+
+00:07:44.550 --> 00:07:44.560 align:start position:0%
+phases. And what this means is uh you
+ 
+
+00:07:44.560 --> 00:07:46.790 align:start position:0%
+phases. And what this means is uh you
+know<00:07:44.880><c> compute</c><00:07:45.199><c> saturates</c><00:07:45.759><c> relatively</c><00:07:46.240><c> early</c>
+
+00:07:46.790 --> 00:07:46.800 align:start position:0%
+know compute saturates relatively early
+ 
+
+00:07:46.800 --> 00:07:48.870 align:start position:0%
+know compute saturates relatively early
+uh<00:07:46.880><c> to</c><00:07:47.039><c> use</c><00:07:47.120><c> deepse</c><00:07:47.840><c> as</c><00:07:48.000><c> an</c><00:07:48.160><c> example</c><00:07:48.560><c> compute</c>
+
+00:07:48.870 --> 00:07:48.880 align:start position:0%
+uh to use deepse as an example compute
+ 
+
+00:07:48.880 --> 00:07:50.950 align:start position:0%
+uh to use deepse as an example compute
+saturates<00:07:49.599><c> relatively</c><00:07:50.080><c> early</c><00:07:50.319><c> and</c><00:07:50.560><c> you</c><00:07:50.720><c> may</c>
+
+00:07:50.950 --> 00:07:50.960 align:start position:0%
+saturates relatively early and you may
+ 
+
+00:07:50.960 --> 00:07:54.469 align:start position:0%
+saturates relatively early and you may
+use<00:07:51.680><c> uh</c><00:07:51.919><c> relatively</c><00:07:52.639><c> few</c><00:07:53.440><c> uh</c><00:07:53.759><c> GPUs</c><00:07:54.240><c> for</c><00:07:54.400><c> your</c>
+
+00:07:54.469 --> 00:07:54.479 align:start position:0%
+use uh relatively few uh GPUs for your
+ 
+
+00:07:54.479 --> 00:07:56.230 align:start position:0%
+use uh relatively few uh GPUs for your
+prefill<00:07:54.879><c> instances</c><00:07:55.280><c> and</c><00:07:55.520><c> have</c><00:07:55.599><c> them</c><00:07:55.840><c> handle</c><00:07:56.080><c> a</c>
+
+00:07:56.230 --> 00:07:56.240 align:start position:0%
+prefill instances and have them handle a
+ 
+
+00:07:56.240 --> 00:07:58.790 align:start position:0%
+prefill instances and have them handle a
+lower<00:07:56.400><c> batch</c><00:07:56.720><c> size</c><00:07:57.440><c> but</c><00:07:57.840><c> handle</c><00:07:58.240><c> a</c><00:07:58.560><c> much</c>
+
+00:07:58.790 --> 00:07:58.800 align:start position:0%
+lower batch size but handle a much
+ 
+
+00:07:58.800 --> 00:08:01.350 align:start position:0%
+lower batch size but handle a much
+larger<00:07:59.199><c> batch</c><00:07:59.599><c> size</c><00:08:00.080><c> with</c><00:08:00.400><c> many</c><00:08:00.639><c> more</c><00:08:00.879><c> GPUs</c>
+
+00:08:01.350 --> 00:08:01.360 align:start position:0%
+larger batch size with many more GPUs
+ 
+
+00:08:01.360 --> 00:08:03.270 align:start position:0%
+larger batch size with many more GPUs
+for<00:08:01.520><c> your</c><00:08:01.680><c> decode</c><00:08:02.160><c> instances.</c><00:08:02.879><c> And</c><00:08:03.120><c> this</c>
+
+00:08:03.270 --> 00:08:03.280 align:start position:0%
+for your decode instances. And this
+ 
+
+00:08:03.280 --> 00:08:05.589 align:start position:0%
+for your decode instances. And this
+split<00:08:03.680><c> and</c><00:08:03.840><c> this</c><00:08:04.080><c> heterogeneity</c><00:08:05.039><c> between</c><00:08:05.360><c> the</c>
+
+00:08:05.589 --> 00:08:05.599 align:start position:0%
+split and this heterogeneity between the
+ 
+
+00:08:05.599 --> 00:08:08.869 align:start position:0%
+split and this heterogeneity between the
+two<00:08:06.319><c> actually</c><00:08:06.720><c> allows</c><00:08:07.039><c> you</c><00:08:07.520><c> to</c><00:08:08.080><c> produce</c><00:08:08.560><c> far</c>
+
+00:08:08.869 --> 00:08:08.879 align:start position:0%
+two actually allows you to produce far
+ 
+
+00:08:08.879 --> 00:08:10.950 align:start position:0%
+two actually allows you to produce far
+more<00:08:09.120><c> performance.</c>
+
+00:08:10.950 --> 00:08:10.960 align:start position:0%
+more performance.
+ 
+
+00:08:10.960 --> 00:08:14.070 align:start position:0%
+more performance.
+Um<00:08:12.240><c> the</c><00:08:12.479><c> other</c><00:08:12.639><c> thing</c><00:08:12.800><c> is</c><00:08:13.039><c> that</c><00:08:13.599><c> you</c><00:08:13.759><c> know</c><00:08:13.919><c> one</c>
+
+00:08:14.070 --> 00:08:14.080 align:start position:0%
+Um the other thing is that you know one
+ 
+
+00:08:14.080 --> 00:08:15.589 align:start position:0%
+Um the other thing is that you know one
+of<00:08:14.160><c> the</c><00:08:14.240><c> one</c><00:08:14.479><c> of</c><00:08:14.560><c> the</c><00:08:14.720><c> problems</c><00:08:14.960><c> is</c><00:08:15.199><c> that</c><00:08:15.440><c> if</c>
+
+00:08:15.589 --> 00:08:15.599 align:start position:0%
+of the one of the problems is that if
+ 
+
+00:08:15.599 --> 00:08:17.270 align:start position:0%
+of the one of the problems is that if
+you<00:08:15.759><c> have</c><00:08:16.000><c> inflight</c><00:08:16.400><c> batching</c><00:08:16.879><c> you</c><00:08:16.960><c> have</c><00:08:17.039><c> many</c>
+
+00:08:17.270 --> 00:08:17.280 align:start position:0%
+you have inflight batching you have many
+ 
+
+00:08:17.280 --> 00:08:19.110 align:start position:0%
+you have inflight batching you have many
+tokens<00:08:17.599><c> coming</c><00:08:17.759><c> in</c><00:08:18.000><c> at</c><00:08:18.240><c> the</c><00:08:18.319><c> same</c><00:08:18.479><c> time</c><00:08:18.960><c> that</c>
+
+00:08:19.110 --> 00:08:19.120 align:start position:0%
+tokens coming in at the same time that
+ 
+
+00:08:19.120 --> 00:08:20.869 align:start position:0%
+tokens coming in at the same time that
+are<00:08:19.280><c> in</c><00:08:19.520><c> different</c><00:08:19.840><c> phases</c><00:08:20.160><c> of</c><00:08:20.400><c> generation</c>
+
+00:08:20.869 --> 00:08:20.879 align:start position:0%
+are in different phases of generation
+ 
+
+00:08:20.879 --> 00:08:22.070 align:start position:0%
+are in different phases of generation
+right<00:08:21.039><c> if</c><00:08:21.120><c> you</c><00:08:21.199><c> have</c><00:08:21.280><c> a</c><00:08:21.520><c> request</c><00:08:21.680><c> that's</c><00:08:21.919><c> doing</c>
+
+00:08:22.070 --> 00:08:22.080 align:start position:0%
+right if you have a request that's doing
+ 
+
+00:08:22.080 --> 00:08:23.189 align:start position:0%
+right if you have a request that's doing
+prefill<00:08:22.400><c> and</c><00:08:22.560><c> a</c><00:08:22.639><c> request</c><00:08:22.800><c> that's</c><00:08:22.960><c> doing</c>
+
+00:08:23.189 --> 00:08:23.199 align:start position:0%
+prefill and a request that's doing
+ 
+
+00:08:23.199 --> 00:08:24.869 align:start position:0%
+prefill and a request that's doing
+decode<00:08:23.520><c> on</c><00:08:23.680><c> the</c><00:08:23.759><c> same</c><00:08:23.919><c> machine</c><00:08:24.479><c> you</c><00:08:24.639><c> get</c>
+
+00:08:24.869 --> 00:08:24.879 align:start position:0%
+decode on the same machine you get
+ 
+
+00:08:24.879 --> 00:08:26.469 align:start position:0%
+decode on the same machine you get
+scheduling<00:08:25.280><c> conflicts</c><00:08:25.759><c> and</c><00:08:25.919><c> theuler</c>
+
+00:08:26.469 --> 00:08:26.479 align:start position:0%
+scheduling conflicts and theuler
+ 
+
+00:08:26.479 --> 00:08:27.830 align:start position:0%
+scheduling conflicts and theuler
+basically<00:08:26.800><c> has</c><00:08:26.960><c> to</c><00:08:27.120><c> decide</c><00:08:27.360><c> whether</c><00:08:27.520><c> or</c><00:08:27.680><c> not</c>
+
+00:08:27.830 --> 00:08:27.840 align:start position:0%
+basically has to decide whether or not
+ 
+
+00:08:27.840 --> 00:08:30.309 align:start position:0%
+basically has to decide whether or not
+it<00:08:28.000><c> handles</c><00:08:28.560><c> new</c><00:08:28.800><c> tokens</c><00:08:29.599><c> uh</c><00:08:29.759><c> there</c><00:08:29.840><c> are</c><00:08:29.919><c> some</c>
+
+00:08:30.309 --> 00:08:30.319 align:start position:0%
+it handles new tokens uh there are some
+ 
+
+00:08:30.319 --> 00:08:32.230 align:start position:0%
+it handles new tokens uh there are some
+techniques<00:08:30.720><c> to</c><00:08:30.879><c> handle</c><00:08:31.120><c> this</c><00:08:31.360><c> like</c><00:08:31.759><c> inflight</c>
+
+00:08:32.230 --> 00:08:32.240 align:start position:0%
+techniques to handle this like inflight
+ 
+
+00:08:32.240 --> 00:08:34.389 align:start position:0%
+techniques to handle this like inflight
+batching<00:08:32.560><c> and</c><00:08:32.800><c> chunk</c><00:08:33.039><c> piggybacking</c><00:08:34.080><c> uh</c><00:08:34.159><c> or</c>
+
+00:08:34.389 --> 00:08:34.399 align:start position:0%
+batching and chunk piggybacking uh or
+ 
+
+00:08:34.399 --> 00:08:37.110 align:start position:0%
+batching and chunk piggybacking uh or
+sorry<00:08:34.560><c> chunk</c><00:08:34.800><c> chunk</c><00:08:35.039><c> piggybacking</c><00:08:35.839><c> but</c><00:08:36.240><c> um</c>
+
+00:08:37.110 --> 00:08:37.120 align:start position:0%
+sorry chunk chunk piggybacking but um
+ 
+
+00:08:37.120 --> 00:08:38.870 align:start position:0%
+sorry chunk chunk piggybacking but um
+generally<00:08:37.680><c> there</c><00:08:37.919><c> is</c><00:08:38.000><c> a</c><00:08:38.240><c> cost</c><00:08:38.399><c> to</c><00:08:38.560><c> doing</c><00:08:38.719><c> that</c>
+
+00:08:38.870 --> 00:08:38.880 align:start position:0%
+generally there is a cost to doing that
+ 
+
+00:08:38.880 --> 00:08:40.310 align:start position:0%
+generally there is a cost to doing that
+mutual<00:08:39.200><c> scheduling</c><00:08:39.519><c> so</c><00:08:39.680><c> splitting</c><00:08:39.919><c> this</c>
+
+00:08:40.310 --> 00:08:40.320 align:start position:0%
+mutual scheduling so splitting this
+ 
+
+00:08:40.320 --> 00:08:42.389 align:start position:0%
+mutual scheduling so splitting this
+makes<00:08:40.399><c> the</c><00:08:40.560><c> scheduling</c><00:08:40.959><c> simpler.</c><00:08:42.000><c> Now,</c>
+
+00:08:42.389 --> 00:08:42.399 align:start position:0%
+makes the scheduling simpler. Now,
+ 
+
+00:08:42.399 --> 00:08:43.990 align:start position:0%
+makes the scheduling simpler. Now,
+there's<00:08:42.560><c> an</c><00:08:42.719><c> asterisk</c><00:08:43.200><c> to</c><00:08:43.360><c> this,</c><00:08:43.680><c> which</c><00:08:43.919><c> is</c>
+
+00:08:43.990 --> 00:08:44.000 align:start position:0%
+there's an asterisk to this, which is
+ 
+
+00:08:44.000 --> 00:08:46.310 align:start position:0%
+there's an asterisk to this, which is
+that<00:08:44.800><c> uh</c><00:08:44.959><c> sorry,</c><00:08:45.279><c> really</c><00:08:45.519><c> quickly</c><00:08:45.760><c> and</c><00:08:46.000><c> I</c><00:08:46.160><c> I'll</c>
+
+00:08:46.310 --> 00:08:46.320 align:start position:0%
+that uh sorry, really quickly and I I'll
+ 
+
+00:08:46.320 --> 00:08:47.670 align:start position:0%
+that uh sorry, really quickly and I I'll
+go<00:08:46.399><c> over</c><00:08:46.640><c> the</c><00:08:46.880><c> performance</c><00:08:47.200><c> numbers.</c><00:08:47.519><c> I'm</c>
+
+00:08:47.670 --> 00:08:47.680 align:start position:0%
+go over the performance numbers. I'm
+ 
+
+00:08:47.680 --> 00:08:49.590 align:start position:0%
+go over the performance numbers. I'm
+going<00:08:47.760><c> to</c><00:08:47.839><c> use</c><00:08:47.920><c> llama</c><00:08:48.240><c> 7B</c><00:08:48.640><c> as</c><00:08:48.800><c> an</c><00:08:48.880><c> example.</c>
+
+00:08:49.590 --> 00:08:49.600 align:start position:0%
+going to use llama 7B as an example.
+ 
+
+00:08:49.600 --> 00:08:51.430 align:start position:0%
+going to use llama 7B as an example.
+Right.<00:08:49.839><c> Right</c><00:08:50.160><c> here</c><00:08:50.399><c> we</c><00:08:50.640><c> have</c><00:08:50.880><c> on</c><00:08:51.040><c> our</c><00:08:51.200><c> left</c>
+
+00:08:51.430 --> 00:08:51.440 align:start position:0%
+Right. Right here we have on our left
+ 
+
+00:08:51.440 --> 00:08:53.190 align:start position:0%
+Right. Right here we have on our left
+axis<00:08:51.839><c> or</c><00:08:52.080><c> the</c><00:08:52.160><c> our</c><00:08:52.320><c> y</c><00:08:52.560><c> axis</c><00:08:52.800><c> we</c><00:08:52.959><c> have</c><00:08:53.040><c> the</c>
+
+00:08:53.190 --> 00:08:53.200 align:start position:0%
+axis or the our y axis we have the
+ 
+
+00:08:53.200 --> 00:08:55.190 align:start position:0%
+axis or the our y axis we have the
+tokens<00:08:53.440><c> per</c><00:08:53.600><c> second</c><00:08:53.760><c> per</c><00:08:53.920><c> GPU.</c><00:08:54.720><c> On</c><00:08:54.880><c> our</c>
+
+00:08:55.190 --> 00:08:55.200 align:start position:0%
+tokens per second per GPU. On our
+ 
+
+00:08:55.200 --> 00:08:56.870 align:start position:0%
+tokens per second per GPU. On our
+x-axis,<00:08:55.839><c> we</c><00:08:56.000><c> have</c><00:08:56.080><c> the</c><00:08:56.240><c> tokens</c><00:08:56.480><c> per</c><00:08:56.720><c> second</c>
+
+00:08:56.870 --> 00:08:56.880 align:start position:0%
+x-axis, we have the tokens per second
+ 
+
+00:08:56.880 --> 00:08:58.949 align:start position:0%
+x-axis, we have the tokens per second
+per<00:08:57.040><c> user.</c><00:08:57.440><c> Right</c><00:08:57.760><c> up</c><00:08:58.160><c> and</c><00:08:58.320><c> to</c><00:08:58.480><c> the</c><00:08:58.560><c> right</c><00:08:58.720><c> is</c>
+
+00:08:58.949 --> 00:08:58.959 align:start position:0%
+per user. Right up and to the right is
+ 
+
+00:08:58.959 --> 00:09:01.110 align:start position:0%
+per user. Right up and to the right is
+better.<00:08:59.600><c> Um,</c><00:08:59.920><c> if</c><00:09:00.160><c> we</c><00:09:00.320><c> choose</c><00:09:00.560><c> one</c><00:09:00.720><c> operating</c>
+
+00:09:01.110 --> 00:09:01.120 align:start position:0%
+better. Um, if we choose one operating
+ 
+
+00:09:01.120 --> 00:09:03.269 align:start position:0%
+better. Um, if we choose one operating
+point<00:09:01.279><c> at</c><00:09:01.440><c> latency,</c><00:09:02.160><c> disagregating</c><00:09:02.880><c> on</c><00:09:03.120><c> the</c>
+
+00:09:03.269 --> 00:09:03.279 align:start position:0%
+point at latency, disagregating on the
+ 
+
+00:09:03.279 --> 00:09:06.230 align:start position:0%
+point at latency, disagregating on the
+same<00:09:03.440><c> number</c><00:09:03.600><c> of</c><00:09:03.760><c> GPUs,</c><00:09:04.399><c> 16</c><00:09:04.720><c> total</c><00:09:05.040><c> H100s,</c><00:09:06.000><c> we</c>
+
+00:09:06.230 --> 00:09:06.240 align:start position:0%
+same number of GPUs, 16 total H100s, we
+ 
+
+00:09:06.240 --> 00:09:08.870 align:start position:0%
+same number of GPUs, 16 total H100s, we
+can<00:09:06.320><c> achieve</c><00:09:06.720><c> up</c><00:09:06.959><c> to</c><00:09:07.120><c> two</c><00:09:07.360><c> times</c><00:09:08.240><c> uh</c><00:09:08.399><c> the</c>
+
+00:09:08.870 --> 00:09:08.880 align:start position:0%
+can achieve up to two times uh the
+ 
+
+00:09:08.880 --> 00:09:11.269 align:start position:0%
+can achieve up to two times uh the
+tokens<00:09:09.360><c> per</c><00:09:09.519><c> second</c><00:09:09.760><c> per</c><00:09:10.000><c> GPU</c><00:09:10.640><c> at</c><00:09:10.880><c> a</c><00:09:11.040><c> fixed</c>
+
+00:09:11.269 --> 00:09:11.279 align:start position:0%
+tokens per second per GPU at a fixed
+ 
+
+00:09:11.279 --> 00:09:12.790 align:start position:0%
+tokens per second per GPU at a fixed
+latency,<00:09:11.680><c> which</c><00:09:11.920><c> means</c><00:09:12.080><c> that</c><00:09:12.399><c> you're</c><00:09:12.640><c> now</c>
+
+00:09:12.790 --> 00:09:12.800 align:start position:0%
+latency, which means that you're now
+ 
+
+00:09:12.800 --> 00:09:14.470 align:start position:0%
+latency, which means that you're now
+paying<00:09:13.040><c> two</c><00:09:13.279><c> times</c><00:09:13.519><c> less</c><00:09:13.920><c> for</c><00:09:14.240><c> your</c>
+
+00:09:14.470 --> 00:09:14.480 align:start position:0%
+paying two times less for your
+ 
+
+00:09:14.480 --> 00:09:16.389 align:start position:0%
+paying two times less for your
+application.
+
+00:09:16.389 --> 00:09:16.399 align:start position:0%
+application.
+ 
+
+00:09:16.399 --> 00:09:18.389 align:start position:0%
+application.
+Um,<00:09:16.959><c> there</c><00:09:17.200><c> are</c><00:09:17.360><c> some</c><00:09:17.519><c> constraints</c><00:09:17.920><c> though.</c>
+
+00:09:18.389 --> 00:09:18.399 align:start position:0%
+Um, there are some constraints though.
+ 
+
+00:09:18.399 --> 00:09:20.870 align:start position:0%
+Um, there are some constraints though.
+Uh,<00:09:18.640><c> the</c><00:09:18.880><c> use</c><00:09:19.120><c> case</c><00:09:19.839><c> really</c><00:09:20.080><c> does</c><00:09:20.320><c> dictate</c>
+
+00:09:20.870 --> 00:09:20.880 align:start position:0%
+Uh, the use case really does dictate
+ 
+
+00:09:20.880 --> 00:09:23.590 align:start position:0%
+Uh, the use case really does dictate
+performance<00:09:21.200><c> for</c><00:09:21.440><c> for</c><00:09:21.920><c> disagregation.</c><00:09:23.200><c> Uh,</c>
+
+00:09:23.590 --> 00:09:23.600 align:start position:0%
+performance for for disagregation. Uh,
+ 
+
+00:09:23.600 --> 00:09:26.230 align:start position:0%
+performance for for disagregation. Uh,
+for example,<00:09:24.320><c> low</c><00:09:24.640><c> input</c><00:09:25.200><c> length</c><00:09:25.680><c> use</c><00:09:25.920><c> cases</c>
+
+00:09:26.230 --> 00:09:26.240 align:start position:0%
+for example, low input length use cases
+ 
+
+00:09:26.240 --> 00:09:28.949 align:start position:0%
+for example, low input length use cases
+have<00:09:26.399><c> little</c><00:09:26.560><c> to</c><00:09:26.720><c> no</c><00:09:26.880><c> speed</c><00:09:27.120><c> up</c><00:09:27.360><c> because</c><00:09:28.399><c> uh</c>
+
+00:09:28.949 --> 00:09:28.959 align:start position:0%
+have little to no speed up because uh
+ 
+
+00:09:28.959 --> 00:09:31.030 align:start position:0%
+have little to no speed up because uh
+you<00:09:29.600><c> don't</c><00:09:29.839><c> h</c><00:09:30.080><c> actually</c><00:09:30.320><c> have</c><00:09:30.480><c> as</c><00:09:30.640><c> much</c><00:09:30.720><c> of</c><00:09:30.880><c> the</c>
+
+00:09:31.030 --> 00:09:31.040 align:start position:0%
+you don't h actually have as much of the
+ 
+
+00:09:31.040 --> 00:09:31.990 align:start position:0%
+you don't h actually have as much of the
+scheduling<00:09:31.360><c> problem.</c><00:09:31.680><c> They're</c><00:09:31.839><c> very</c>
+
+00:09:31.990 --> 00:09:32.000 align:start position:0%
+scheduling problem. They're very
+ 
+
+00:09:32.000 --> 00:09:33.190 align:start position:0%
+scheduling problem. They're very
+pre-filled<00:09:32.399><c> light.</c><00:09:32.720><c> You're</c><00:09:32.800><c> basically</c><00:09:33.040><c> just</c>
+
+00:09:33.190 --> 00:09:33.200 align:start position:0%
+pre-filled light. You're basically just
+ 
+
+00:09:33.200 --> 00:09:36.470 align:start position:0%
+pre-filled light. You're basically just
+doing<00:09:33.360><c> decode</c><00:09:33.760><c> the</c><00:09:33.920><c> entire</c><00:09:34.240><c> time.</c><00:09:35.040><c> Um,</c><00:09:36.240><c> and</c>
+
+00:09:36.470 --> 00:09:36.480 align:start position:0%
+doing decode the entire time. Um, and
+ 
+
+00:09:36.480 --> 00:09:38.630 align:start position:0%
+doing decode the entire time. Um, and
+then<00:09:36.800><c> per</c><00:09:37.040><c> the</c><00:09:37.279><c> graph</c><00:09:37.600><c> disagregation</c><00:09:38.320><c> and</c>
+
+00:09:38.630 --> 00:09:38.640 align:start position:0%
+then per the graph disagregation and
+ 
+
+00:09:38.640 --> 00:09:39.990 align:start position:0%
+then per the graph disagregation and
+I'll<00:09:38.800><c> go</c><00:09:38.959><c> back</c><00:09:39.040><c> to</c><00:09:39.120><c> the</c><00:09:39.279><c> graph.</c><00:09:39.519><c> actually</c>
+
+00:09:39.990 --> 00:09:40.000 align:start position:0%
+I'll go back to the graph. actually
+ 
+
+00:09:40.000 --> 00:09:42.310 align:start position:0%
+I'll go back to the graph. actually
+disagregation<00:09:40.640><c> is</c><00:09:40.800><c> is</c><00:09:40.800><c> is</c><00:09:41.440><c> useful</c><00:09:41.680><c> in</c><00:09:42.000><c> usually</c>
+
+00:09:42.310 --> 00:09:42.320 align:start position:0%
+disagregation is is is useful in usually
+ 
+
+00:09:42.320 --> 00:09:44.550 align:start position:0%
+disagregation is is is useful in usually
+in<00:09:42.480><c> the</c><00:09:42.560><c> middle</c><00:09:42.720><c> of</c><00:09:42.800><c> the</c><00:09:42.959><c> graph.</c><00:09:43.200><c> In</c><00:09:43.440><c> very</c><00:09:44.240><c> high</c>
+
+00:09:44.550 --> 00:09:44.560 align:start position:0%
+in the middle of the graph. In very high
+ 
+
+00:09:44.560 --> 00:09:46.870 align:start position:0%
+in the middle of the graph. In very high
+high<00:09:44.880><c> latency</c><00:09:45.680><c> high</c><00:09:45.920><c> throughput</c><00:09:46.399><c> scenarios</c>
+
+00:09:46.870 --> 00:09:46.880 align:start position:0%
+high latency high throughput scenarios
+ 
+
+00:09:46.880 --> 00:09:48.790 align:start position:0%
+high latency high throughput scenarios
+which<00:09:47.040><c> would</c><00:09:47.200><c> be</c><00:09:47.279><c> the</c><00:09:47.440><c> left</c><00:09:47.680><c> and</c><00:09:48.080><c> top</c><00:09:48.480><c> of</c><00:09:48.640><c> the</c>
+
+00:09:48.790 --> 00:09:48.800 align:start position:0%
+which would be the left and top of the
+ 
+
+00:09:48.800 --> 00:09:51.350 align:start position:0%
+which would be the left and top of the
+graph<00:09:49.600><c> and</c><00:09:50.080><c> low</c><00:09:50.320><c> latency</c><00:09:50.800><c> low</c><00:09:50.959><c> throughput</c>
+
+00:09:51.350 --> 00:09:51.360 align:start position:0%
+graph and low latency low throughput
+ 
+
+00:09:51.360 --> 00:09:53.670 align:start position:0%
+graph and low latency low throughput
+scenarios<00:09:51.760><c> the</c><00:09:51.920><c> bottom</c><00:09:52.160><c> right</c><00:09:52.800><c> uh</c><00:09:52.959><c> aggregated</c>
+
+00:09:53.670 --> 00:09:53.680 align:start position:0%
+scenarios the bottom right uh aggregated
+ 
+
+00:09:53.680 --> 00:09:55.829 align:start position:0%
+scenarios the bottom right uh aggregated
+tends<00:09:54.000><c> to</c><00:09:54.240><c> reconfer</c><00:09:54.959><c> recon</c><00:09:55.279><c> converge</c><00:09:55.680><c> with</c>
+
+00:09:55.829 --> 00:09:55.839 align:start position:0%
+tends to reconfer recon converge with
+ 
+
+00:09:55.839 --> 00:09:57.990 align:start position:0%
+tends to reconfer recon converge with
+disagregated<00:09:56.640><c> and</c><00:09:56.959><c> produce</c><00:09:57.440><c> a</c><00:09:57.760><c> little</c><00:09:57.839><c> bit</c>
+
+00:09:57.990 --> 00:09:58.000 align:start position:0%
+disagregated and produce a little bit
+ 
+
+00:09:58.000 --> 00:10:00.550 align:start position:0%
+disagregated and produce a little bit
+more<00:09:58.160><c> performance</c><00:09:58.480><c> in</c><00:09:58.640><c> those</c><00:09:58.880><c> cases.</c><00:09:59.760><c> Uh</c><00:10:00.320><c> that</c>
+
+00:10:00.550 --> 00:10:00.560 align:start position:0%
+more performance in those cases. Uh that
+ 
+
+00:10:00.560 --> 00:10:03.190 align:start position:0%
+more performance in those cases. Uh that
+being<00:10:00.800><c> said</c><00:10:01.200><c> for</c><00:10:01.360><c> a</c><00:10:01.600><c> lot</c><00:10:01.680><c> of</c><00:10:01.839><c> user</c><00:10:02.800><c> you</c><00:10:02.959><c> know</c>
+
+00:10:03.190 --> 00:10:03.200 align:start position:0%
+being said for a lot of user you know
+ 
+
+00:10:03.200 --> 00:10:05.670 align:start position:0%
+being said for a lot of user you know
+interactive<00:10:03.839><c> applications</c><00:10:04.880><c> disagregation</c>
+
+00:10:05.670 --> 00:10:05.680 align:start position:0%
+interactive applications disagregation
+ 
+
+00:10:05.680 --> 00:10:07.990 align:start position:0%
+interactive applications disagregation
+makes<00:10:06.080><c> the</c><00:10:06.399><c> most</c><00:10:06.640><c> sense</c><00:10:06.959><c> because</c><00:10:07.360><c> users</c><00:10:07.839><c> tend</c>
+
+00:10:07.990 --> 00:10:08.000 align:start position:0%
+makes the most sense because users tend
+ 
+
+00:10:08.000 --> 00:10:10.070 align:start position:0%
+makes the most sense because users tend
+to<00:10:08.160><c> read</c><00:10:08.640><c> that</c><00:10:08.959><c> between</c><00:10:09.360><c> or</c><00:10:09.680><c> care</c><00:10:09.839><c> about</c>
+
+00:10:10.070 --> 00:10:10.080 align:start position:0%
+to read that between or care about
+ 
+
+00:10:10.080 --> 00:10:14.230 align:start position:0%
+to read that between or care about
+things<00:10:10.240><c> in</c><00:10:10.480><c> the</c><00:10:10.560><c> realm</c><00:10:10.800><c> of</c><00:10:11.519><c> 20</c><00:10:11.920><c> to</c><00:10:13.360><c> 200</c><00:10:13.920><c> tokens</c>
+
+00:10:14.230 --> 00:10:14.240 align:start position:0%
+things in the realm of 20 to 200 tokens
+ 
+
+00:10:14.240 --> 00:10:17.110 align:start position:0%
+things in the realm of 20 to 200 tokens
+per<00:10:14.480><c> second.</c><00:10:15.279><c> Um</c>
+
+00:10:17.110 --> 00:10:17.120 align:start position:0%
+per second. Um
+ 
+
+00:10:17.120 --> 00:10:18.949 align:start position:0%
+per second. Um
+the<00:10:17.360><c> other</c><00:10:17.600><c> thing</c><00:10:17.680><c> that's</c><00:10:18.160><c> kind</c><00:10:18.399><c> of</c><00:10:18.480><c> a</c><00:10:18.640><c> caveat</c>
+
+00:10:18.949 --> 00:10:18.959 align:start position:0%
+the other thing that's kind of a caveat
+ 
+
+00:10:18.959 --> 00:10:20.389 align:start position:0%
+the other thing that's kind of a caveat
+about<00:10:19.120><c> this</c><00:10:19.279><c> is</c><00:10:19.440><c> that</c><00:10:19.600><c> configuration</c><00:10:20.160><c> is</c>
+
+00:10:20.389 --> 00:10:20.399 align:start position:0%
+about this is that configuration is
+ 
+
+00:10:20.399 --> 00:10:22.310 align:start position:0%
+about this is that configuration is
+really<00:10:20.560><c> important.</c><00:10:21.440><c> Um</c><00:10:21.839><c> since</c><00:10:22.000><c> you're</c>
+
+00:10:22.310 --> 00:10:22.320 align:start position:0%
+really important. Um since you're
+ 
+
+00:10:22.320 --> 00:10:24.150 align:start position:0%
+really important. Um since you're
+separating<00:10:22.640><c> these</c><00:10:22.880><c> two</c><00:10:23.120><c> phases</c><00:10:23.760><c> into</c>
+
+00:10:24.150 --> 00:10:24.160 align:start position:0%
+separating these two phases into
+ 
+
+00:10:24.160 --> 00:10:25.990 align:start position:0%
+separating these two phases into
+pre-fill<00:10:24.560><c> and</c><00:10:24.720><c> generation,</c><00:10:25.440><c> the</c><00:10:25.680><c> balance</c>
+
+00:10:25.990 --> 00:10:26.000 align:start position:0%
+pre-fill and generation, the balance
+ 
+
+00:10:26.000 --> 00:10:27.590 align:start position:0%
+pre-fill and generation, the balance
+between<00:10:26.240><c> the</c><00:10:26.480><c> number</c><00:10:26.640><c> of</c><00:10:26.800><c> workers</c><00:10:27.279><c> for</c>
+
+00:10:27.590 --> 00:10:27.600 align:start position:0%
+between the number of workers for
+ 
+
+00:10:27.600 --> 00:10:29.990 align:start position:0%
+between the number of workers for
+prefill<00:10:28.160><c> and</c><00:10:28.480><c> decoding</c><00:10:29.279><c> dictates</c><00:10:29.760><c> the</c>
+
+00:10:29.990 --> 00:10:30.000 align:start position:0%
+prefill and decoding dictates the
+ 
+
+00:10:30.000 --> 00:10:31.430 align:start position:0%
+prefill and decoding dictates the
+performance.<00:10:30.399><c> So</c><00:10:30.640><c> for</c><00:10:30.720><c> example,</c><00:10:31.040><c> if</c><00:10:31.200><c> you</c><00:10:31.360><c> have</c>
+
+00:10:31.430 --> 00:10:31.440 align:start position:0%
+performance. So for example, if you have
+ 
+
+00:10:31.440 --> 00:10:33.509 align:start position:0%
+performance. So for example, if you have
+too<00:10:31.680><c> many</c><00:10:31.839><c> decode</c><00:10:32.240><c> workers,</c><00:10:32.959><c> you're</c><00:10:33.200><c> pre</c>
+
+00:10:33.509 --> 00:10:33.519 align:start position:0%
+too many decode workers, you're pre
+ 
+
+00:10:33.519 --> 00:10:35.269 align:start position:0%
+too many decode workers, you're pre
+you're<00:10:33.680><c> you're</c><00:10:33.920><c> basically</c><00:10:34.240><c> going</c><00:10:34.399><c> to</c><00:10:34.560><c> have</c><00:10:35.120><c> uh</c>
+
+00:10:35.269 --> 00:10:35.279 align:start position:0%
+you're you're basically going to have uh
+ 
+
+00:10:35.279 --> 00:10:36.710 align:start position:0%
+you're you're basically going to have uh
+decode<00:10:35.680><c> workers</c><00:10:35.920><c> that</c><00:10:36.079><c> are</c><00:10:36.160><c> starving</c><00:10:36.480><c> for</c>
+
+00:10:36.710 --> 00:10:36.720 align:start position:0%
+decode workers that are starving for
+ 
+
+00:10:36.720 --> 00:10:39.190 align:start position:0%
+decode workers that are starving for
+work.<00:10:37.040><c> And</c><00:10:37.200><c> if</c><00:10:37.360><c> you</c><00:10:37.519><c> prefill</c><00:10:38.000><c> workers,</c><00:10:38.880><c> uh</c>
+
+00:10:39.190 --> 00:10:39.200 align:start position:0%
+work. And if you prefill workers, uh
+ 
+
+00:10:39.200 --> 00:10:40.710 align:start position:0%
+work. And if you prefill workers, uh
+they're<00:10:39.519><c> going</c><00:10:39.600><c> to</c><00:10:39.760><c> be</c><00:10:39.920><c> generating</c><00:10:40.399><c> work</c><00:10:40.560><c> for</c>
+
+00:10:40.710 --> 00:10:40.720 align:start position:0%
+they're going to be generating work for
+ 
+
+00:10:40.720 --> 00:10:41.990 align:start position:0%
+they're going to be generating work for
+the<00:10:40.880><c> decode</c><00:10:41.200><c> workers</c><00:10:41.440><c> and</c><00:10:41.600><c> the</c><00:10:41.680><c> decode</c>
+
+00:10:41.990 --> 00:10:42.000 align:start position:0%
+the decode workers and the decode
+ 
+
+00:10:42.000 --> 00:10:43.590 align:start position:0%
+the decode workers and the decode
+workers<00:10:42.240><c> are</c><00:10:42.399><c> going</c><00:10:42.480><c> to</c><00:10:42.640><c> be</c><00:10:42.959><c> being</c><00:10:43.279><c> pushed</c>
+
+00:10:43.590 --> 00:10:43.600 align:start position:0%
+workers are going to be being pushed
+ 
+
+00:10:43.600 --> 00:10:45.990 align:start position:0%
+workers are going to be being pushed
+down<00:10:43.920><c> by,</c><00:10:44.399><c> you</c><00:10:44.560><c> know,</c><00:10:44.800><c> just</c><00:10:45.040><c> an</c><00:10:45.519><c> increasing</c>
+
+00:10:45.990 --> 00:10:46.000 align:start position:0%
+down by, you know, just an increasing
+ 
+
+00:10:46.000 --> 00:10:48.310 align:start position:0%
+down by, you know, just an increasing
+amount<00:10:46.160><c> of</c><00:10:46.320><c> load</c><00:10:46.640><c> and</c><00:10:46.800><c> increasing</c><00:10:47.120><c> Q</c><00:10:47.440><c> depth.</c>
+
+00:10:48.310 --> 00:10:48.320 align:start position:0%
+amount of load and increasing Q depth.
+ 
+
+00:10:48.320 --> 00:10:51.430 align:start position:0%
+amount of load and increasing Q depth.
+Um,<00:10:49.680><c> and</c><00:10:50.000><c> the</c><00:10:50.240><c> other</c><00:10:50.399><c> thing</c><00:10:50.560><c> is</c><00:10:50.720><c> that</c><00:10:51.120><c> mo</c>
+
+00:10:51.430 --> 00:10:51.440 align:start position:0%
+Um, and the other thing is that mo
+ 
+
+00:10:51.440 --> 00:10:53.269 align:start position:0%
+Um, and the other thing is that mo
+modifying<00:10:51.920><c> this</c><00:10:52.160><c> is</c><00:10:52.399><c> kind</c><00:10:52.640><c> of</c><00:10:52.720><c> expensive</c><00:10:53.040><c> and</c>
+
+00:10:53.269 --> 00:10:53.279 align:start position:0%
+modifying this is kind of expensive and
+ 
+
+00:10:53.279 --> 00:10:55.110 align:start position:0%
+modifying this is kind of expensive and
+hard<00:10:53.680><c> because</c><00:10:54.000><c> the</c><00:10:54.160><c> balance</c><00:10:54.480><c> between</c><00:10:54.720><c> prefill</c>
+
+00:10:55.110 --> 00:10:55.120 align:start position:0%
+hard because the balance between prefill
+ 
+
+00:10:55.120 --> 00:10:57.110 align:start position:0%
+hard because the balance between prefill
+and<00:10:55.279><c> decode</c><00:10:55.839><c> depends</c><00:10:56.160><c> on</c><00:10:56.240><c> the</c><00:10:56.399><c> par</c><00:10:56.880><c> the</c>
+
+00:10:57.110 --> 00:10:57.120 align:start position:0%
+and decode depends on the par the
+ 
+
+00:10:57.120 --> 00:10:58.550 align:start position:0%
+and decode depends on the par the
+parallel<00:10:57.519><c> configs</c><00:10:57.920><c> of</c><00:10:58.000><c> each.</c><00:10:58.160><c> So</c><00:10:58.320><c> it's</c><00:10:58.480><c> like</c>
+
+00:10:58.550 --> 00:10:58.560 align:start position:0%
+parallel configs of each. So it's like
+ 
+
+00:10:58.560 --> 00:11:01.509 align:start position:0%
+parallel configs of each. So it's like
+this<00:10:58.800><c> really</c><00:10:59.040><c> wide</c><00:10:59.440><c> configuration</c><00:11:00.079><c> space.</c>
+
+00:11:01.509 --> 00:11:01.519 align:start position:0%
+this really wide configuration space.
+ 
+
+00:11:01.519 --> 00:11:03.269 align:start position:0%
+this really wide configuration space.
+One<00:11:01.760><c> other</c><00:11:02.000><c> thing</c><00:11:02.079><c> that</c><00:11:02.320><c> we</c><00:11:02.640><c> talk</c><00:11:02.880><c> about</c><00:11:03.040><c> with</c>
+
+00:11:03.269 --> 00:11:03.279 align:start position:0%
+One other thing that we talk about with
+ 
+
+00:11:03.279 --> 00:11:05.910 align:start position:0%
+One other thing that we talk about with
+respect<00:11:03.519><c> to</c><00:11:03.760><c> scale</c><00:11:04.000><c> is</c><00:11:04.240><c> routing.</c><00:11:05.360><c> So</c><00:11:05.600><c> we</c>
+
+00:11:05.910 --> 00:11:05.920 align:start position:0%
+respect to scale is routing. So we
+ 
+
+00:11:05.920 --> 00:11:07.910 align:start position:0%
+respect to scale is routing. So we
+talked<00:11:06.079><c> about</c><00:11:06.160><c> how</c><00:11:06.320><c> this</c><00:11:06.480><c> KV</c><00:11:06.880><c> is</c><00:11:07.120><c> important.</c>
+
+00:11:07.910 --> 00:11:07.920 align:start position:0%
+talked about how this KV is important.
+ 
+
+00:11:07.920 --> 00:11:09.829 align:start position:0%
+talked about how this KV is important.
+Um,<00:11:08.640><c> one</c><00:11:08.880><c> of</c><00:11:08.959><c> the</c><00:11:09.040><c> things</c><00:11:09.200><c> that</c><00:11:09.360><c> we</c><00:11:09.519><c> have</c><00:11:09.600><c> to</c><00:11:09.760><c> do</c>
+
+00:11:09.829 --> 00:11:09.839 align:start position:0%
+Um, one of the things that we have to do
+ 
+
+00:11:09.839 --> 00:11:11.590 align:start position:0%
+Um, one of the things that we have to do
+for<00:11:10.160><c> pre</c><00:11:10.720><c> uh</c><00:11:10.880><c> pre-filled</c><00:11:11.279><c> decode</c>
+
+00:11:11.590 --> 00:11:11.600 align:start position:0%
+for pre uh pre-filled decode
+ 
+
+00:11:11.600 --> 00:11:13.269 align:start position:0%
+for pre uh pre-filled decode
+disagregation<00:11:12.399><c> is</c><00:11:12.640><c> that</c><00:11:12.800><c> we</c><00:11:13.040><c> need</c><00:11:13.120><c> to</c>
+
+00:11:13.269 --> 00:11:13.279 align:start position:0%
+disagregation is that we need to
+ 
+
+00:11:13.279 --> 00:11:15.030 align:start position:0%
+disagregation is that we need to
+actually<00:11:13.600><c> transfer</c><00:11:13.920><c> the</c><00:11:14.079><c> KV</c><00:11:14.560><c> between</c>
+
+00:11:15.030 --> 00:11:15.040 align:start position:0%
+actually transfer the KV between
+ 
+
+00:11:15.040 --> 00:11:18.069 align:start position:0%
+actually transfer the KV between
+machines.<00:11:16.079><c> And</c><00:11:16.800><c> uh</c><00:11:16.959><c> in</c><00:11:17.200><c> some</c><00:11:17.440><c> sense</c><00:11:17.680><c> there's</c>
+
+00:11:18.069 --> 00:11:18.079 align:start position:0%
+machines. And uh in some sense there's
+ 
+
+00:11:18.079 --> 00:11:19.829 align:start position:0%
+machines. And uh in some sense there's
+actually<00:11:18.320><c> an</c><00:11:18.480><c> affinity</c><00:11:19.040><c> for</c><00:11:19.279><c> some</c><00:11:19.440><c> mean</c>
+
+00:11:19.829 --> 00:11:19.839 align:start position:0%
+actually an affinity for some mean
+ 
+
+00:11:19.839 --> 00:11:21.590 align:start position:0%
+actually an affinity for some mean
+machines<00:11:20.240><c> to</c><00:11:20.399><c> do</c><00:11:20.480><c> some</c><00:11:20.720><c> work</c><00:11:20.880><c> since</c><00:11:21.120><c> the</c><00:11:21.200><c> KV</c>
+
+00:11:21.590 --> 00:11:21.600 align:start position:0%
+machines to do some work since the KV
+ 
+
+00:11:21.600 --> 00:11:23.350 align:start position:0%
+machines to do some work since the KV
+cache<00:11:21.920><c> of</c><00:11:22.079><c> previous</c><00:11:22.399><c> requests</c><00:11:22.800><c> is</c><00:11:23.040><c> actually</c>
+
+00:11:23.350 --> 00:11:23.360 align:start position:0%
+cache of previous requests is actually
+ 
+
+00:11:23.360 --> 00:11:26.949 align:start position:0%
+cache of previous requests is actually
+stored<00:11:24.079><c> on</c><00:11:24.320><c> those</c><00:11:24.560><c> GPUs</c><00:11:25.200><c> or</c><00:11:25.440><c> offloaded</c><00:11:26.000><c> onto</c>
+
+00:11:26.949 --> 00:11:26.959 align:start position:0%
+stored on those GPUs or offloaded onto
+ 
+
+00:11:26.959 --> 00:11:29.750 align:start position:0%
+stored on those GPUs or offloaded onto
+uh<00:11:27.360><c> system</c><00:11:27.680><c> memory</c><00:11:28.240><c> host</c><00:11:28.880><c> or</c><00:11:29.279><c> external</c>
+
+00:11:29.750 --> 00:11:29.760 align:start position:0%
+uh system memory host or external
+ 
+
+00:11:29.760 --> 00:11:32.550 align:start position:0%
+uh system memory host or external
+storage<00:11:30.880><c> uh</c><00:11:31.360><c> during</c><00:11:31.680><c> the</c><00:11:31.920><c> course</c><00:11:32.079><c> of</c><00:11:32.240><c> of</c>
+
+00:11:32.550 --> 00:11:32.560 align:start position:0%
+storage uh during the course of of
+ 
+
+00:11:32.560 --> 00:11:35.590 align:start position:0%
+storage uh during the course of of
+inference.<00:11:33.600><c> So</c><00:11:34.240><c> um</c><00:11:34.399><c> I</c><00:11:34.640><c> actually</c><00:11:35.040><c> labeled</c><00:11:35.440><c> this</c>
+
+00:11:35.590 --> 00:11:35.600 align:start position:0%
+inference. So um I actually labeled this
+ 
+
+00:11:35.600 --> 00:11:37.750 align:start position:0%
+inference. So um I actually labeled this
+wrong.<00:11:36.079><c> Uh</c><00:11:36.320><c> this</c><00:11:36.480><c> is</c><00:11:36.560><c> not</c><00:11:36.720><c> the</c><00:11:36.880><c> smart</c><00:11:37.120><c> router.</c>
+
+00:11:37.750 --> 00:11:37.760 align:start position:0%
+wrong. Uh this is not the smart router.
+ 
+
+00:11:37.760 --> 00:11:41.110 align:start position:0%
+wrong. Uh this is not the smart router.
+Um<00:11:38.560><c> uh</c><00:11:39.040><c> this</c><00:11:39.360><c> in</c><00:11:39.680><c> in</c><00:11:39.680><c> in</c><00:11:40.160><c> a</c><00:11:40.320><c> naive</c><00:11:40.720><c> case</c><00:11:40.959><c> you</c>
+
+00:11:41.110 --> 00:11:41.120 align:start position:0%
+Um uh this in in in a naive case you
+ 
+
+00:11:41.120 --> 00:11:43.670 align:start position:0%
+Um uh this in in in a naive case you
+would<00:11:41.279><c> route</c><00:11:42.000><c> pretty</c><00:11:42.240><c> much</c><00:11:42.800><c> exclusively</c>
+
+00:11:43.670 --> 00:11:43.680 align:start position:0%
+would route pretty much exclusively
+ 
+
+00:11:43.680 --> 00:11:47.670 align:start position:0%
+would route pretty much exclusively
+randomly,<00:11:44.399><c> right?</c><00:11:45.200><c> um</c><00:11:45.600><c> or</c><00:11:45.839><c> or</c><00:11:46.320><c> towards</c><00:11:47.120><c> uh</c><00:11:47.519><c> you</c>
+
+00:11:47.670 --> 00:11:47.680 align:start position:0%
+randomly, right? um or or towards uh you
+ 
+
+00:11:47.680 --> 00:11:51.190 align:start position:0%
+randomly, right? um or or towards uh you
+know<00:11:48.560><c> any</c><00:11:48.959><c> anything</c><00:11:49.839><c> right</c><00:11:50.079><c> so</c><00:11:50.399><c> in</c><00:11:50.640><c> this</c><00:11:50.800><c> case</c>
+
+00:11:51.190 --> 00:11:51.200 align:start position:0%
+know any anything right so in this case
+ 
+
+00:11:51.200 --> 00:11:53.269 align:start position:0%
+know any anything right so in this case
+we're<00:11:51.440><c> biasing</c><00:11:52.000><c> towards</c><00:11:52.720><c> we're</c><00:11:52.800><c> not</c><00:11:52.959><c> biasing</c>
+
+00:11:53.269 --> 00:11:53.279 align:start position:0%
+we're biasing towards we're not biasing
+ 
+
+00:11:53.279 --> 00:11:55.030 align:start position:0%
+we're biasing towards we're not biasing
+towards<00:11:53.519><c> anything</c><00:11:53.920><c> we're</c><00:11:54.160><c> sampling</c><00:11:54.480><c> randomly</c>
+
+00:11:55.030 --> 00:11:55.040 align:start position:0%
+towards anything we're sampling randomly
+ 
+
+00:11:55.040 --> 00:11:56.949 align:start position:0%
+towards anything we're sampling randomly
+alternatively<00:11:56.240><c> you</c><00:11:56.399><c> know</c><00:11:56.480><c> if</c><00:11:56.640><c> we're</c><00:11:56.800><c> talking</c>
+
+00:11:56.949 --> 00:11:56.959 align:start position:0%
+alternatively you know if we're talking
+ 
+
+00:11:56.959 --> 00:11:58.790 align:start position:0%
+alternatively you know if we're talking
+about<00:11:57.200><c> this</c><00:11:57.600><c> uh</c><00:11:57.839><c> routing</c><00:11:58.079><c> to</c><00:11:58.160><c> worker</c><00:11:58.480><c> three</c><00:11:58.640><c> in</c>
+
+00:11:58.790 --> 00:11:58.800 align:start position:0%
+about this uh routing to worker three in
+ 
+
+00:11:58.800 --> 00:12:00.069 align:start position:0%
+about this uh routing to worker three in
+this<00:11:58.880><c> case</c><00:11:59.040><c> it</c><00:11:59.200><c> could</c><00:11:59.360><c> also</c><00:11:59.519><c> be</c><00:11:59.680><c> that</c><00:11:59.839><c> you're</c>
+
+00:12:00.069 --> 00:12:00.079 align:start position:0%
+this case it could also be that you're
+ 
+
+00:12:00.079 --> 00:12:03.829 align:start position:0%
+this case it could also be that you're
+optimizing<00:12:00.720><c> for</c><00:12:01.200><c> purely</c><00:12:01.519><c> your</c><00:12:01.680><c> KV</c><00:12:02.079><c> match</c><00:12:03.040><c> um</c>
+
+00:12:03.829 --> 00:12:03.839 align:start position:0%
+optimizing for purely your KV match um
+ 
+
+00:12:03.839 --> 00:12:05.750 align:start position:0%
+optimizing for purely your KV match um
+if<00:12:04.079><c> you're</c><00:12:04.399><c> doing</c><00:12:04.640><c> a</c><00:12:05.360><c> this</c><00:12:05.519><c> is</c><00:12:05.600><c> actually</c>
+
+00:12:05.750 --> 00:12:05.760 align:start position:0%
+if you're doing a this is actually
+ 
+
+00:12:05.760 --> 00:12:08.230 align:start position:0%
+if you're doing a this is actually
+inverted<00:12:06.240><c> if</c><00:12:06.480><c> you're</c><00:12:06.560><c> doing</c><00:12:06.720><c> a</c><00:12:07.040><c> a</c><00:12:07.519><c> KV</c><00:12:08.000><c> based</c>
+
+00:12:08.230 --> 00:12:08.240 align:start position:0%
+inverted if you're doing a a KV based
+ 
+
+00:12:08.240 --> 00:12:12.949 align:start position:0%
+inverted if you're doing a a KV based
+router<00:12:09.120><c> um</c><00:12:09.839><c> uh</c><00:12:10.399><c> you</c><00:12:11.600><c> uh</c><00:12:12.000><c> may</c><00:12:12.240><c> end</c><00:12:12.399><c> up</c><00:12:12.560><c> biasing</c>
+
+00:12:12.949 --> 00:12:12.959 align:start position:0%
+router um uh you uh may end up biasing
+ 
+
+00:12:12.959 --> 00:12:14.470 align:start position:0%
+router um uh you uh may end up biasing
+towards<00:12:13.279><c> machines</c><00:12:13.600><c> that</c><00:12:13.760><c> have</c><00:12:13.839><c> too</c><00:12:14.000><c> high</c><00:12:14.240><c> KV</c>
+
+00:12:14.470 --> 00:12:14.480 align:start position:0%
+towards machines that have too high KV
+ 
+
+00:12:14.480 --> 00:12:15.590 align:start position:0%
+towards machines that have too high KV
+reload<00:12:14.800><c> and</c><00:12:14.959><c> therefore</c><00:12:15.200><c> we're</c><00:12:15.279><c> not</c><00:12:15.440><c> going</c><00:12:15.519><c> to</c>
+
+00:12:15.590 --> 00:12:15.600 align:start position:0%
+reload and therefore we're not going to
+ 
+
+00:12:15.600 --> 00:12:16.629 align:start position:0%
+reload and therefore we're not going to
+be<00:12:15.680><c> able</c><00:12:15.839><c> to</c><00:12:15.920><c> handle</c><00:12:16.079><c> the</c><00:12:16.240><c> request</c><00:12:16.399><c> and</c><00:12:16.560><c> you</c>
+
+00:12:16.629 --> 00:12:16.639 align:start position:0%
+be able to handle the request and you
+ 
+
+00:12:16.639 --> 00:12:18.790 align:start position:0%
+be able to handle the request and you
+end<00:12:16.720><c> up</c><00:12:16.800><c> with</c><00:12:16.959><c> queuing.</c><00:12:17.680><c> Uh</c><00:12:18.079><c> in</c><00:12:18.240><c> a</c><00:12:18.399><c> smart</c><00:12:18.639><c> case,</c>
+
+00:12:18.790 --> 00:12:18.800 align:start position:0%
+end up with queuing. Uh in a smart case,
+ 
+
+00:12:18.800 --> 00:12:21.990 align:start position:0%
+end up with queuing. Uh in a smart case,
+you<00:12:19.040><c> actually</c><00:12:19.200><c> want</c><00:12:19.360><c> to</c><00:12:19.760><c> minimize</c><00:12:20.480><c> the</c><00:12:21.600><c> uh</c>
+
+00:12:21.990 --> 00:12:22.000 align:start position:0%
+you actually want to minimize the uh
+ 
+
+00:12:22.000 --> 00:12:23.750 align:start position:0%
+you actually want to minimize the uh
+sort<00:12:22.240><c> of</c><00:12:22.320><c> this</c><00:12:22.560><c> cost</c><00:12:22.800><c> function</c><00:12:23.120><c> that</c><00:12:23.440><c> includes</c>
+
+00:12:23.750 --> 00:12:23.760 align:start position:0%
+sort of this cost function that includes
+ 
+
+00:12:23.760 --> 00:12:25.750 align:start position:0%
+sort of this cost function that includes
+both<00:12:24.000><c> the</c><00:12:24.399><c> amount</c><00:12:24.639><c> of</c><00:12:24.800><c> prefix</c><00:12:25.200><c> match</c><00:12:25.440><c> that</c><00:12:25.600><c> you</c>
+
+00:12:25.750 --> 00:12:25.760 align:start position:0%
+both the amount of prefix match that you
+ 
+
+00:12:25.760 --> 00:12:29.350 align:start position:0%
+both the amount of prefix match that you
+can<00:12:25.920><c> get</c><00:12:26.560><c> from</c><00:12:27.440><c> uh</c><00:12:27.920><c> or</c><00:12:28.560><c> maximize</c><00:12:28.959><c> the</c><00:12:29.040><c> prefix</c>
+
+00:12:29.350 --> 00:12:29.360 align:start position:0%
+can get from uh or maximize the prefix
+ 
+
+00:12:29.360 --> 00:12:31.829 align:start position:0%
+can get from uh or maximize the prefix
+match<00:12:29.600><c> that</c><00:12:29.680><c> you</c><00:12:29.839><c> can</c><00:12:30.000><c> get</c><00:12:30.160><c> from</c><00:12:31.040><c> uh</c><00:12:31.200><c> the</c><00:12:31.600><c> work</c>
+
+00:12:31.829 --> 00:12:31.839 align:start position:0%
+match that you can get from uh the work
+ 
+
+00:12:31.839 --> 00:12:33.430 align:start position:0%
+match that you can get from uh the work
+that's<00:12:32.079><c> already</c><00:12:32.240><c> been</c><00:12:32.320><c> done</c><00:12:32.480><c> on</c><00:12:32.639><c> that</c><00:12:32.800><c> node</c>
+
+00:12:33.430 --> 00:12:33.440 align:start position:0%
+that's already been done on that node
+ 
+
+00:12:33.440 --> 00:12:35.509 align:start position:0%
+that's already been done on that node
+and<00:12:33.920><c> the</c><00:12:34.320><c> amount</c><00:12:34.560><c> of</c><00:12:34.720><c> load</c><00:12:34.959><c> that</c><00:12:35.279><c> already</c>
+
+00:12:35.509 --> 00:12:35.519 align:start position:0%
+and the amount of load that already
+ 
+
+00:12:35.519 --> 00:12:38.790 align:start position:0%
+and the amount of load that already
+exists<00:12:35.760><c> on</c><00:12:35.920><c> that</c><00:12:36.079><c> node.</c><00:12:36.720><c> Um,</c><00:12:37.920><c> and</c><00:12:38.399><c> as</c><00:12:38.639><c> you</c>
+
+00:12:38.790 --> 00:12:38.800 align:start position:0%
+exists on that node. Um, and as you
+ 
+
+00:12:38.800 --> 00:12:40.389 align:start position:0%
+exists on that node. Um, and as you
+scale<00:12:39.040><c> out,</c><00:12:39.279><c> as</c><00:12:39.440><c> you</c><00:12:39.600><c> get</c><00:12:39.760><c> get</c><00:12:40.000><c> more</c><00:12:40.079><c> and</c><00:12:40.240><c> more</c>
+
+00:12:40.389 --> 00:12:40.399 align:start position:0%
+scale out, as you get get more and more
+ 
+
+00:12:40.399 --> 00:12:43.590 align:start position:0%
+scale out, as you get get more and more
+GPUs<00:12:41.600><c> um,</c><00:12:41.760><c> in</c><00:12:41.920><c> a</c><00:12:42.079><c> in</c><00:12:42.240><c> a</c><00:12:42.399><c> in</c><00:12:42.560><c> a</c><00:12:42.720><c> deployment,</c><00:12:43.360><c> you</c>
+
+00:12:43.590 --> 00:12:43.600 align:start position:0%
+GPUs um, in a in a in a deployment, you
+ 
+
+00:12:43.600 --> 00:12:45.829 align:start position:0%
+GPUs um, in a in a in a deployment, you
+actually<00:12:43.920><c> end</c><00:12:44.079><c> up</c><00:12:44.399><c> with</c><00:12:44.959><c> more</c><00:12:45.200><c> and</c><00:12:45.519><c> more</c>
+
+00:12:45.829 --> 00:12:45.839 align:start position:0%
+actually end up with more and more
+ 
+
+00:12:45.839 --> 00:12:48.069 align:start position:0%
+actually end up with more and more
+represented<00:12:46.560><c> KV</c><00:12:46.959><c> space</c><00:12:47.200><c> that's</c><00:12:47.600><c> local</c><00:12:47.839><c> to</c>
+
+00:12:48.069 --> 00:12:48.079 align:start position:0%
+represented KV space that's local to
+ 
+
+00:12:48.079 --> 00:12:50.150 align:start position:0%
+represented KV space that's local to
+those<00:12:48.320><c> machines.</c><00:12:49.040><c> And</c><00:12:49.200><c> because</c><00:12:49.440><c> of</c><00:12:49.600><c> that,</c>
+
+00:12:50.150 --> 00:12:50.160 align:start position:0%
+those machines. And because of that,
+ 
+
+00:12:50.160 --> 00:12:51.829 align:start position:0%
+those machines. And because of that,
+having<00:12:50.480><c> a</c><00:12:50.720><c> larger</c><00:12:50.959><c> and</c><00:12:51.120><c> larger</c><00:12:51.440><c> deployment</c>
+
+00:12:51.829 --> 00:12:51.839 align:start position:0%
+having a larger and larger deployment
+ 
+
+00:12:51.839 --> 00:12:53.750 align:start position:0%
+having a larger and larger deployment
+means<00:12:52.079><c> that</c><00:12:52.240><c> you</c><00:12:52.480><c> get</c><00:12:52.639><c> an</c><00:12:52.880><c> asmtoically</c>
+
+00:12:53.750 --> 00:12:53.760 align:start position:0%
+means that you get an asmtoically
+ 
+
+00:12:53.760 --> 00:12:56.470 align:start position:0%
+means that you get an asmtoically
+increasing<00:12:54.880><c> uh,</c><00:12:55.120><c> KV</c><00:12:55.440><c> cache</c><00:12:55.680><c> hit</c><00:12:55.920><c> rate,</c><00:12:56.160><c> which</c>
+
+00:12:56.470 --> 00:12:56.480 align:start position:0%
+increasing uh, KV cache hit rate, which
+ 
+
+00:12:56.480 --> 00:12:59.110 align:start position:0%
+increasing uh, KV cache hit rate, which
+means<00:12:56.639><c> that</c><00:12:56.959><c> you're</c><00:12:57.760><c> doing</c><00:12:58.480><c> less</c><00:12:58.720><c> and</c><00:12:58.880><c> less</c>
+
+00:12:59.110 --> 00:12:59.120 align:start position:0%
+means that you're doing less and less
+ 
+
+00:12:59.120 --> 00:13:01.509 align:start position:0%
+means that you're doing less and less
+prefill<00:12:59.519><c> work</c><00:12:59.760><c> over</c><00:13:00.000><c> time.</c>
+
+00:13:01.509 --> 00:13:01.519 align:start position:0%
+prefill work over time.
+ 
+
+00:13:01.519 --> 00:13:03.590 align:start position:0%
+prefill work over time.
+So<00:13:01.839><c> routing,</c><00:13:02.560><c> you</c><00:13:02.720><c> know,</c><00:13:02.880><c> here</c><00:13:03.040><c> to</c><00:13:03.200><c> give</c><00:13:03.360><c> it</c><00:13:03.440><c> a</c>
+
+00:13:03.590 --> 00:13:03.600 align:start position:0%
+So routing, you know, here to give it a
+ 
+
+00:13:03.600 --> 00:13:05.110 align:start position:0%
+So routing, you know, here to give it a
+report<00:13:03.839><c> card</c><00:13:04.240><c> increases</c><00:13:04.560><c> your</c><00:13:04.720><c> speed</c><00:13:04.959><c> and</c>
+
+00:13:05.110 --> 00:13:05.120 align:start position:0%
+report card increases your speed and
+ 
+
+00:13:05.120 --> 00:13:06.949 align:start position:0%
+report card increases your speed and
+cost<00:13:05.680><c> and</c><00:13:06.160><c> doesn't</c><00:13:06.399><c> really</c><00:13:06.560><c> have</c><00:13:06.639><c> an</c><00:13:06.800><c> effect</c>
+
+00:13:06.949 --> 00:13:06.959 align:start position:0%
+cost and doesn't really have an effect
+ 
+
+00:13:06.959 --> 00:13:08.790 align:start position:0%
+cost and doesn't really have an effect
+upon<00:13:07.279><c> quality</c><00:13:07.600><c> because</c><00:13:07.920><c> it's</c><00:13:08.160><c> it's</c><00:13:08.480><c> doing</c><00:13:08.639><c> the</c>
+
+00:13:08.790 --> 00:13:08.800 align:start position:0%
+upon quality because it's it's doing the
+ 
+
+00:13:08.800 --> 00:13:11.269 align:start position:0%
+upon quality because it's it's doing the
+same<00:13:08.959><c> work</c><00:13:09.120><c> that</c><00:13:09.279><c> it</c><00:13:09.440><c> would</c><00:13:09.519><c> normally</c><00:13:09.839><c> do.</c><00:13:10.560><c> Um,</c>
+
+00:13:11.269 --> 00:13:11.279 align:start position:0%
+same work that it would normally do. Um,
+ 
+
+00:13:11.279 --> 00:13:13.269 align:start position:0%
+same work that it would normally do. Um,
+now<00:13:11.519><c> we</c><00:13:11.760><c> talk</c><00:13:11.920><c> about</c><00:13:12.079><c> structure.</c><00:13:12.720><c> Structure</c>
+
+00:13:13.269 --> 00:13:13.279 align:start position:0%
+now we talk about structure. Structure
+ 
+
+00:13:13.279 --> 00:13:15.430 align:start position:0%
+now we talk about structure. Structure
+is<00:13:13.760><c> really</c><00:13:14.079><c> important</c><00:13:14.560><c> because</c><00:13:14.880><c> we</c><00:13:15.120><c> have</c><00:13:15.279><c> a</c>
+
+00:13:15.430 --> 00:13:15.440 align:start position:0%
+is really important because we have a
+ 
+
+00:13:15.440 --> 00:13:16.710 align:start position:0%
+is really important because we have a
+lot<00:13:15.519><c> of</c><00:13:15.519><c> these</c><00:13:15.760><c> workloads</c><00:13:16.240><c> that</c><00:13:16.399><c> you</c><00:13:16.560><c> guys</c>
+
+00:13:16.710 --> 00:13:16.720 align:start position:0%
+lot of these workloads that you guys
+ 
+
+00:13:16.720 --> 00:13:18.389 align:start position:0%
+lot of these workloads that you guys
+have<00:13:16.880><c> probably</c><00:13:17.200><c> seen</c><00:13:17.440><c> at</c><00:13:17.680><c> the</c><00:13:17.760><c> AI</c><00:13:18.079><c> engineers</c>
+
+00:13:18.389 --> 00:13:18.399 align:start position:0%
+have probably seen at the AI engineers
+ 
+
+00:13:18.399 --> 00:13:21.030 align:start position:0%
+have probably seen at the AI engineers
+world<00:13:18.720><c> fair</c><00:13:19.040><c> like</c><00:13:19.279><c> agents</c><00:13:19.839><c> for</c><00:13:19.920><c> example.</c><00:13:20.639><c> Um,</c>
+
+00:13:21.030 --> 00:13:21.040 align:start position:0%
+world fair like agents for example. Um,
+ 
+
+00:13:21.040 --> 00:13:23.590 align:start position:0%
+world fair like agents for example. Um,
+agents<00:13:21.519><c> impart</c><00:13:21.839><c> a</c><00:13:22.079><c> structure</c><00:13:22.880><c> on</c><00:13:23.279><c> the</c>
+
+00:13:23.590 --> 00:13:23.600 align:start position:0%
+agents impart a structure on the
+ 
+
+00:13:23.600 --> 00:13:25.750 align:start position:0%
+agents impart a structure on the
+workload<00:13:24.000><c> in</c><00:13:24.160><c> that</c><00:13:24.399><c> they</c><00:13:24.880><c> have</c><00:13:25.200><c> moderately</c>
+
+00:13:25.750 --> 00:13:25.760 align:start position:0%
+workload in that they have moderately
+ 
+
+00:13:25.760 --> 00:13:27.670 align:start position:0%
+workload in that they have moderately
+predictable<00:13:26.240><c> usage</c><00:13:26.639><c> patterns</c><00:13:27.120><c> between</c>
+
+00:13:27.670 --> 00:13:27.680 align:start position:0%
+predictable usage patterns between
+ 
+
+00:13:27.680 --> 00:13:29.750 align:start position:0%
+predictable usage patterns between
+concurrent<00:13:28.240><c> requests.</c><00:13:28.959><c> So</c><00:13:29.200><c> an</c><00:13:29.360><c> example</c><00:13:29.680><c> here</c>
+
+00:13:29.750 --> 00:13:29.760 align:start position:0%
+concurrent requests. So an example here
+ 
+
+00:13:29.760 --> 00:13:31.190 align:start position:0%
+concurrent requests. So an example here
+is<00:13:29.920><c> inference</c><00:13:30.240><c> time</c><00:13:30.480><c> scaling.</c><00:13:30.880><c> This</c><00:13:30.959><c> is</c><00:13:31.040><c> a</c>
+
+00:13:31.190 --> 00:13:31.200 align:start position:0%
+is inference time scaling. This is a
+ 
+
+00:13:31.200 --> 00:13:32.949 align:start position:0%
+is inference time scaling. This is a
+cool<00:13:31.360><c> graph</c><00:13:31.600><c> I'll</c><00:13:31.760><c> go</c><00:13:31.839><c> over</c><00:13:32.079><c> really</c><00:13:32.320><c> quickly.</c>
+
+00:13:32.949 --> 00:13:32.959 align:start position:0%
+cool graph I'll go over really quickly.
+ 
+
+00:13:32.959 --> 00:13:34.790 align:start position:0%
+cool graph I'll go over really quickly.
+For<00:13:33.040><c> example,</c><00:13:33.680><c> we</c><00:13:33.839><c> have</c><00:13:34.000><c> three</c><00:13:34.240><c> models</c><00:13:34.480><c> here.</c>
+
+00:13:34.790 --> 00:13:34.800 align:start position:0%
+For example, we have three models here.
+ 
+
+00:13:34.800 --> 00:13:37.190 align:start position:0%
+For example, we have three models here.
+In<00:13:35.040><c> green</c><00:13:35.279><c> we</c><00:13:35.440><c> have</c><00:13:35.519><c> an</c><00:13:35.600><c> 8B</c><00:13:36.079><c> model.</c><00:13:36.560><c> In</c><00:13:36.880><c> yellow</c>
+
+00:13:37.190 --> 00:13:37.200 align:start position:0%
+In green we have an 8B model. In yellow
+ 
+
+00:13:37.200 --> 00:13:39.269 align:start position:0%
+In green we have an 8B model. In yellow
+we<00:13:37.360><c> have</c><00:13:37.440><c> a</c><00:13:37.600><c> 49B</c><00:13:38.240><c> model.</c><00:13:38.480><c> And</c><00:13:38.639><c> in</c><00:13:38.800><c> red</c><00:13:39.040><c> we</c><00:13:39.279><c> have</c>
+
+00:13:39.269 --> 00:13:39.279 align:start position:0%
+we have a 49B model. And in red we have
+ 
+
+00:13:39.279 --> 00:13:41.910 align:start position:0%
+we have a 49B model. And in red we have
+a<00:13:39.519><c> 235B</c><00:13:40.480><c> model.</c><00:13:41.200><c> We</c><00:13:41.360><c> find</c><00:13:41.519><c> that</c><00:13:41.760><c> with</c>
+
+00:13:41.910 --> 00:13:41.920 align:start position:0%
+a 235B model. We find that with
+ 
+
+00:13:41.920 --> 00:13:43.590 align:start position:0%
+a 235B model. We find that with
+inference<00:13:42.399><c> time</c><00:13:42.560><c> scaling</c><00:13:43.040><c> that</c><00:13:43.200><c> is</c><00:13:43.360><c> to</c>
+
+00:13:43.590 --> 00:13:43.600 align:start position:0%
+inference time scaling that is to
+ 
+
+00:13:43.600 --> 00:13:45.509 align:start position:0%
+inference time scaling that is to
+re-query<00:13:44.079><c> the</c><00:13:44.240><c> model</c><00:13:44.720><c> and</c><00:13:44.959><c> to</c><00:13:45.200><c> you</c><00:13:45.360><c> know</c>
+
+00:13:45.509 --> 00:13:45.519 align:start position:0%
+re-query the model and to you know
+ 
+
+00:13:45.519 --> 00:13:47.509 align:start position:0%
+re-query the model and to you know
+prompt<00:13:45.760><c> it</c><00:13:46.000><c> to</c><00:13:46.399><c> reconsider</c><00:13:46.880><c> its</c><00:13:47.120><c> results</c><00:13:47.360><c> or</c>
+
+00:13:47.509 --> 00:13:47.519 align:start position:0%
+prompt it to reconsider its results or
+ 
+
+00:13:47.519 --> 00:13:49.030 align:start position:0%
+prompt it to reconsider its results or
+reason<00:13:47.839><c> more</c><00:13:48.000><c> about</c><00:13:48.079><c> its</c><00:13:48.320><c> results,</c><00:13:48.720><c> we</c><00:13:48.959><c> can</c>
+
+00:13:49.030 --> 00:13:49.040 align:start position:0%
+reason more about its results, we can
+ 
+
+00:13:49.040 --> 00:13:51.030 align:start position:0%
+reason more about its results, we can
+produce<00:13:49.360><c> better</c><00:13:49.519><c> and</c><00:13:49.760><c> better</c><00:13:50.000><c> results.</c><00:13:50.880><c> And</c>
+
+00:13:51.030 --> 00:13:51.040 align:start position:0%
+produce better and better results. And
+ 
+
+00:13:51.040 --> 00:13:52.310 align:start position:0%
+produce better and better results. And
+you<00:13:51.200><c> actually</c><00:13:51.360><c> see</c><00:13:51.519><c> this</c><00:13:51.760><c> really</c><00:13:51.920><c> interesting</c>
+
+00:13:52.310 --> 00:13:52.320 align:start position:0%
+you actually see this really interesting
+ 
+
+00:13:52.320 --> 00:13:56.230 align:start position:0%
+you actually see this really interesting
+trend<00:13:53.120><c> where</c><00:13:54.000><c> uh</c><00:13:54.560><c> with</c><00:13:55.200><c> about</c><00:13:55.600><c> three</c><00:13:55.839><c> or</c><00:13:56.079><c> four</c>
+
+00:13:56.230 --> 00:13:56.240 align:start position:0%
+trend where uh with about three or four
+ 
+
+00:13:56.240 --> 00:13:58.310 align:start position:0%
+trend where uh with about three or four
+times<00:13:56.480><c> of</c><00:13:56.560><c> requering,</c><00:13:57.440><c> we</c><00:13:57.680><c> can</c><00:13:57.839><c> see</c><00:13:58.000><c> that</c><00:13:58.160><c> the</c>
+
+00:13:58.310 --> 00:13:58.320 align:start position:0%
+times of requering, we can see that the
+ 
+
+00:13:58.320 --> 00:14:01.110 align:start position:0%
+times of requering, we can see that the
+8B<00:13:58.720><c> model</c><00:13:59.360><c> is</c><00:13:59.760><c> basically</c><00:14:00.240><c> on</c><00:14:00.560><c> par</c><00:14:00.880><c> with</c>
+
+00:14:01.110 --> 00:14:01.120 align:start position:0%
+8B model is basically on par with
+ 
+
+00:14:01.120 --> 00:14:04.069 align:start position:0%
+8B model is basically on par with
+respect<00:14:01.360><c> to</c><00:14:01.600><c> quality</c><00:14:02.000><c> as</c><00:14:02.240><c> the</c><00:14:02.480><c> 49B</c><00:14:03.120><c> model.</c><00:14:03.839><c> And</c>
+
+00:14:04.069 --> 00:14:04.079 align:start position:0%
+respect to quality as the 49B model. And
+ 
+
+00:14:04.079 --> 00:14:06.629 align:start position:0%
+respect to quality as the 49B model. And
+the<00:14:04.320><c> 49B</c><00:14:05.040><c> is</c><00:14:05.199><c> almost</c><00:14:05.440><c> on</c><00:14:05.680><c> par</c><00:14:05.920><c> with</c><00:14:06.240><c> respect</c><00:14:06.480><c> to</c>
+
+00:14:06.629 --> 00:14:06.639 align:start position:0%
+the 49B is almost on par with respect to
+ 
+
+00:14:06.639 --> 00:14:11.670 align:start position:0%
+the 49B is almost on par with respect to
+quality<00:14:06.959><c> as</c><00:14:07.279><c> the</c><00:14:07.760><c> 235B</c><00:14:08.880><c> model.</c><00:14:09.519><c> Um</c><00:14:10.480><c> and</c><00:14:11.440><c> we</c>
+
+00:14:11.670 --> 00:14:11.680 align:start position:0%
+quality as the 235B model. Um and we
+ 
+
+00:14:11.680 --> 00:14:14.629 align:start position:0%
+quality as the 235B model. Um and we
+note<00:14:11.920><c> here</c><00:14:12.160><c> that</c><00:14:12.399><c> like</c><00:14:13.199><c> the</c><00:14:13.680><c> cost</c><00:14:14.000><c> of</c><00:14:14.240><c> quering</c>
+
+00:14:14.629 --> 00:14:14.639 align:start position:0%
+note here that like the cost of quering
+ 
+
+00:14:14.639 --> 00:14:18.230 align:start position:0%
+note here that like the cost of quering
+that<00:14:14.880><c> AP</c><00:14:15.360><c> model</c><00:14:16.800><c> you</c><00:14:17.040><c> know</c><00:14:17.360><c> uh</c><00:14:17.519><c> even</c><00:14:17.839><c> quering</c>
+
+00:14:18.230 --> 00:14:18.240 align:start position:0%
+that AP model you know uh even quering
+ 
+
+00:14:18.240 --> 00:14:20.550 align:start position:0%
+that AP model you know uh even quering
+it<00:14:18.399><c> multiple</c><00:14:18.800><c> times</c><00:14:19.040><c> is</c><00:14:19.360><c> actually</c><00:14:19.680><c> lower</c><00:14:20.079><c> than</c>
+
+00:14:20.550 --> 00:14:20.560 align:start position:0%
+it multiple times is actually lower than
+ 
+
+00:14:20.560 --> 00:14:24.949 align:start position:0%
+it multiple times is actually lower than
+quering<00:14:21.040><c> the</c><00:14:22.160><c> uh</c><00:14:22.480><c> the</c><00:14:23.600><c> larger</c><00:14:24.000><c> model</c><00:14:24.639><c> right</c>
+
+00:14:24.949 --> 00:14:24.959 align:start position:0%
+quering the uh the larger model right
+ 
+
+00:14:24.959 --> 00:14:28.150 align:start position:0%
+quering the uh the larger model right
+and<00:14:25.360><c> in</c><00:14:25.600><c> this</c><00:14:25.760><c> sense</c><00:14:26.800><c> you</c><00:14:26.959><c> know</c><00:14:27.199><c> we</c><00:14:27.440><c> we</c><00:14:27.760><c> b</c><00:14:27.920><c> we</c>
+
+00:14:28.150 --> 00:14:28.160 align:start position:0%
+and in this sense you know we we b we
+ 
+
+00:14:28.160 --> 00:14:29.269 align:start position:0%
+and in this sense you know we we b we
+basically<00:14:28.399><c> see</c><00:14:28.480><c> that</c><00:14:28.639><c> inference</c><00:14:29.040><c> time</c>
+
+00:14:29.269 --> 00:14:29.279 align:start position:0%
+basically see that inference time
+ 
+
+00:14:29.279 --> 00:14:32.310 align:start position:0%
+basically see that inference time
+scaling<00:14:29.920><c> can</c><00:14:30.639><c> be</c><00:14:30.880><c> considered</c><00:14:31.279><c> sort</c><00:14:31.519><c> of</c><00:14:31.600><c> as</c><00:14:32.160><c> you</c>
+
+00:14:32.310 --> 00:14:32.320 align:start position:0%
+scaling can be considered sort of as you
+ 
+
+00:14:32.320 --> 00:14:34.629 align:start position:0%
+scaling can be considered sort of as you
+know<00:14:32.480><c> increasing</c><00:14:32.959><c> quality</c><00:14:33.760><c> at</c><00:14:34.079><c> the</c><00:14:34.240><c> cost</c><00:14:34.480><c> of</c>
+
+00:14:34.629 --> 00:14:34.639 align:start position:0%
+know increasing quality at the cost of
+ 
+
+00:14:34.639 --> 00:14:37.750 align:start position:0%
+know increasing quality at the cost of
+speed<00:14:35.040><c> and</c><00:14:35.279><c> at</c><00:14:35.440><c> the</c><00:14:35.680><c> cost</c><00:14:35.920><c> of</c><00:14:36.639><c> uh</c><00:14:37.040><c> cost</c><00:14:37.519><c> right</c>
+
+00:14:37.750 --> 00:14:37.760 align:start position:0%
+speed and at the cost of uh cost right
+ 
+
+00:14:37.760 --> 00:14:39.430 align:start position:0%
+speed and at the cost of uh cost right
+because<00:14:37.920><c> you're</c><00:14:38.079><c> you're</c><00:14:38.320><c> requerering</c>
+
+00:14:39.430 --> 00:14:39.440 align:start position:0%
+because you're you're requerering
+ 
+
+00:14:39.440 --> 00:14:41.750 align:start position:0%
+because you're you're requerering
+But<00:14:39.680><c> alternatively,</c><00:14:40.399><c> if</c><00:14:40.560><c> you</c><00:14:40.720><c> keep</c><00:14:41.360><c> quality</c>
+
+00:14:41.750 --> 00:14:41.760 align:start position:0%
+But alternatively, if you keep quality
+ 
+
+00:14:41.760 --> 00:14:46.790 align:start position:0%
+But alternatively, if you keep quality
+fixed,<00:14:43.120><c> um</c><00:14:44.000><c> you</c><00:14:44.480><c> can</c><00:14:45.360><c> basically</c><00:14:46.079><c> get</c><00:14:46.480><c> lower</c>
+
+00:14:46.790 --> 00:14:46.800 align:start position:0%
+fixed, um you can basically get lower
+ 
+
+00:14:46.800 --> 00:14:49.829 align:start position:0%
+fixed, um you can basically get lower
+latency<00:14:47.440><c> and</c><00:14:47.760><c> lower</c><00:14:48.079><c> cost</c><00:14:49.120><c> by</c><00:14:49.440><c> using</c><00:14:49.680><c> a</c>
+
+00:14:49.829 --> 00:14:49.839 align:start position:0%
+latency and lower cost by using a
+ 
+
+00:14:49.839 --> 00:14:51.509 align:start position:0%
+latency and lower cost by using a
+smaller<00:14:50.240><c> model</c><00:14:50.399><c> and</c><00:14:50.639><c> requering</c><00:14:51.040><c> it</c><00:14:51.199><c> multiple</c>
+
+00:14:51.509 --> 00:14:51.519 align:start position:0%
+smaller model and requering it multiple
+ 
+
+00:14:51.519 --> 00:14:54.470 align:start position:0%
+smaller model and requering it multiple
+times.<00:14:52.399><c> And</c><00:14:52.800><c> the</c><00:14:53.120><c> structure</c><00:14:53.440><c> that</c><00:14:53.680><c> we</c><00:14:53.839><c> infer</c>
+
+00:14:54.470 --> 00:14:54.480 align:start position:0%
+times. And the structure that we infer
+ 
+
+00:14:54.480 --> 00:14:57.189 align:start position:0%
+times. And the structure that we infer
+or<00:14:54.800><c> from</c><00:14:55.199><c> doing</c><00:14:55.440><c> that</c><00:14:55.680><c> requiring</c><00:14:56.720><c> allows</c><00:14:57.040><c> us</c>
+
+00:14:57.189 --> 00:14:57.199 align:start position:0%
+or from doing that requiring allows us
+ 
+
+00:14:57.199 --> 00:14:58.710 align:start position:0%
+or from doing that requiring allows us
+to<00:14:57.360><c> do</c><00:14:57.519><c> better</c><00:14:57.760><c> scheduling.</c><00:14:58.160><c> So</c><00:14:58.320><c> in</c><00:14:58.560><c> this</c>
+
+00:14:58.710 --> 00:14:58.720 align:start position:0%
+to do better scheduling. So in this
+ 
+
+00:14:58.720 --> 00:15:00.790 align:start position:0%
+to do better scheduling. So in this
+graph<00:14:59.199><c> we</c><00:14:59.440><c> have</c><00:14:59.680><c> a</c><00:14:59.920><c> series</c><00:15:00.160><c> of</c><00:15:00.320><c> curves</c><00:15:00.560><c> that</c>
+
+00:15:00.790 --> 00:15:00.800 align:start position:0%
+graph we have a series of curves that
+ 
+
+00:15:00.800 --> 00:15:03.990 align:start position:0%
+graph we have a series of curves that
+represent<00:15:01.360><c> basically</c><00:15:02.480><c> uh</c><00:15:02.720><c> the</c><00:15:03.199><c> runtime</c><00:15:03.680><c> of</c><00:15:03.839><c> a</c>
+
+00:15:03.990 --> 00:15:04.000 align:start position:0%
+represent basically uh the runtime of a
+ 
+
+00:15:04.000 --> 00:15:06.150 align:start position:0%
+represent basically uh the runtime of a
+of<00:15:04.160><c> a</c><00:15:04.320><c> given</c><00:15:04.480><c> reasoning</c><00:15:04.959><c> example</c><00:15:05.760><c> uh</c><00:15:05.839><c> from</c><00:15:06.000><c> the</c>
+
+00:15:06.150 --> 00:15:06.160 align:start position:0%
+of a given reasoning example uh from the
+ 
+
+00:15:06.160 --> 00:15:09.430 align:start position:0%
+of a given reasoning example uh from the
+natural<00:15:06.480><c> plan</c><00:15:06.800><c> data</c><00:15:07.040><c> set</c><00:15:07.600><c> and</c><00:15:08.079><c> the</c><00:15:09.120><c> uh</c>
+
+00:15:09.430 --> 00:15:09.440 align:start position:0%
+natural plan data set and the uh
+ 
+
+00:15:09.440 --> 00:15:12.310 align:start position:0%
+natural plan data set and the uh
+basically<00:15:09.839><c> the</c><00:15:10.000><c> the</c><00:15:11.040><c> um</c><00:15:11.519><c> concurrency.</c><00:15:12.160><c> So</c>
+
+00:15:12.310 --> 00:15:12.320 align:start position:0%
+basically the the um concurrency. So
+ 
+
+00:15:12.320 --> 00:15:13.670 align:start position:0%
+basically the the um concurrency. So
+this<00:15:12.480><c> is</c><00:15:12.560><c> like</c><00:15:12.720><c> a</c><00:15:12.880><c> graph</c><00:15:13.040><c> of</c><00:15:13.199><c> like</c><00:15:13.360><c> how</c><00:15:13.519><c> many</c>
+
+00:15:13.670 --> 00:15:13.680 align:start position:0%
+this is like a graph of like how many
+ 
+
+00:15:13.680 --> 00:15:15.829 align:start position:0%
+this is like a graph of like how many
+you<00:15:13.839><c> can</c><00:15:14.079><c> how</c><00:15:14.320><c> many</c><00:15:14.800><c> in</c><00:15:15.120><c> concurrent</c><00:15:15.519><c> instances</c>
+
+00:15:15.829 --> 00:15:15.839 align:start position:0%
+you can how many in concurrent instances
+ 
+
+00:15:15.839 --> 00:15:18.470 align:start position:0%
+you can how many in concurrent instances
+you<00:15:16.000><c> can</c><00:15:16.079><c> run</c><00:15:16.240><c> at</c><00:15:16.399><c> once</c><00:15:17.199><c> and</c><00:15:17.760><c> uh</c><00:15:18.000><c> we</c><00:15:18.240><c> sample</c>
+
+00:15:18.470 --> 00:15:18.480 align:start position:0%
+you can run at once and uh we sample
+ 
+
+00:15:18.480 --> 00:15:20.629 align:start position:0%
+you can run at once and uh we sample
+across<00:15:18.720><c> all</c><00:15:18.880><c> this</c><00:15:19.279><c> this</c><00:15:19.519><c> concurrency.</c><00:15:20.320><c> We</c><00:15:20.560><c> see</c>
+
+00:15:20.629 --> 00:15:20.639 align:start position:0%
+across all this this concurrency. We see
+ 
+
+00:15:20.639 --> 00:15:22.389 align:start position:0%
+across all this this concurrency. We see
+that<00:15:20.880><c> implementing</c><00:15:21.360><c> disagregation</c><00:15:22.079><c> gives</c><00:15:22.240><c> us</c>
+
+00:15:22.389 --> 00:15:22.399 align:start position:0%
+that implementing disagregation gives us
+ 
+
+00:15:22.399 --> 00:15:24.310 align:start position:0%
+that implementing disagregation gives us
+a<00:15:22.560><c> small</c><00:15:22.800><c> benefit</c><00:15:23.360><c> uh</c><00:15:23.519><c> mostly</c><00:15:23.839><c> because</c><00:15:24.000><c> this</c>
+
+00:15:24.310 --> 00:15:24.320 align:start position:0%
+a small benefit uh mostly because this
+ 
+
+00:15:24.320 --> 00:15:27.430 align:start position:0%
+a small benefit uh mostly because this
+data<00:15:24.560><c> set</c><00:15:24.720><c> is</c><00:15:24.880><c> very</c><00:15:25.279><c> ISL</c><00:15:26.160><c> uh</c><00:15:26.480><c> short</c><00:15:26.720><c> ISL</c><00:15:27.199><c> long</c>
+
+00:15:27.430 --> 00:15:27.440 align:start position:0%
+data set is very ISL uh short ISL long
+ 
+
+00:15:27.440 --> 00:15:29.590 align:start position:0%
+data set is very ISL uh short ISL long
+OSL<00:15:28.240><c> um</c><00:15:28.399><c> you</c><00:15:28.639><c> don't</c><00:15:28.720><c> get</c><00:15:28.800><c> a</c><00:15:29.120><c> whole</c><00:15:29.279><c> ton</c><00:15:29.440><c> of</c>
+
+00:15:29.590 --> 00:15:29.600 align:start position:0%
+OSL um you don't get a whole ton of
+ 
+
+00:15:29.600 --> 00:15:32.470 align:start position:0%
+OSL um you don't get a whole ton of
+benefit<00:15:29.760><c> from</c><00:15:29.920><c> disagregation</c><00:15:30.560><c> in</c><00:15:30.720><c> this</c><00:15:30.880><c> case</c>
+
+00:15:32.470 --> 00:15:32.480 align:start position:0%
+benefit from disagregation in this case
+ 
+
+00:15:32.480 --> 00:15:34.790 align:start position:0%
+benefit from disagregation in this case
+basically<00:15:33.199><c> making</c><00:15:33.839><c> uh</c><00:15:34.000><c> you</c><00:15:34.160><c> know</c><00:15:34.320><c> removing</c><00:15:34.639><c> a</c>
+
+00:15:34.790 --> 00:15:34.800 align:start position:0%
+basically making uh you know removing a
+ 
+
+00:15:34.800 --> 00:15:37.670 align:start position:0%
+basically making uh you know removing a
+round<00:15:35.040><c> trip</c><00:15:35.519><c> by</c><00:15:35.920><c> making</c><00:15:36.160><c> the</c><00:15:36.880><c> requeries</c><00:15:37.519><c> come</c>
+
+00:15:37.670 --> 00:15:37.680 align:start position:0%
+round trip by making the requeries come
+ 
+
+00:15:37.680 --> 00:15:39.430 align:start position:0%
+round trip by making the requeries come
+from<00:15:37.760><c> the</c><00:15:38.000><c> router</c><00:15:38.240><c> instead</c><00:15:38.560><c> of</c><00:15:38.639><c> coming</c><00:15:38.959><c> from</c>
+
+00:15:39.430 --> 00:15:39.440 align:start position:0%
+from the router instead of coming from
+ 
+
+00:15:39.440 --> 00:15:41.750 align:start position:0%
+from the router instead of coming from
+the<00:15:39.760><c> user</c><00:15:40.079><c> or</c><00:15:40.320><c> the</c><00:15:40.560><c> client</c><00:15:40.800><c> on</c><00:15:40.959><c> the</c><00:15:41.120><c> outside</c>
+
+00:15:41.750 --> 00:15:41.760 align:start position:0%
+the user or the client on the outside
+ 
+
+00:15:41.760 --> 00:15:43.509 align:start position:0%
+the user or the client on the outside
+allows<00:15:42.079><c> you</c><00:15:42.240><c> to</c><00:15:42.639><c> really</c><00:15:42.959><c> decrease</c><00:15:43.279><c> these</c>
+
+00:15:43.509 --> 00:15:43.519 align:start position:0%
+allows you to really decrease these
+ 
+
+00:15:43.519 --> 00:15:45.110 align:start position:0%
+allows you to really decrease these
+round<00:15:43.680><c> trips</c><00:15:43.920><c> with</c><00:15:44.079><c> respect</c><00:15:44.320><c> to</c><00:15:44.399><c> latency</c><00:15:44.959><c> and</c>
+
+00:15:45.110 --> 00:15:45.120 align:start position:0%
+round trips with respect to latency and
+ 
+
+00:15:45.120 --> 00:15:46.790 align:start position:0%
+round trips with respect to latency and
+then<00:15:45.279><c> on</c><00:15:45.519><c> top</c><00:15:45.600><c> of</c><00:15:45.760><c> that</c><00:15:46.079><c> making</c><00:15:46.240><c> the</c><00:15:46.480><c> router</c>
+
+00:15:46.790 --> 00:15:46.800 align:start position:0%
+then on top of that making the router
+ 
+
+00:15:46.800 --> 00:15:49.829 align:start position:0%
+then on top of that making the router
+aware<00:15:47.440><c> and</c><00:15:47.680><c> making</c><00:15:47.920><c> the</c><00:15:48.079><c> LMuler</c><00:15:48.959><c> aware</c><00:15:49.519><c> that</c>
+
+00:15:49.829 --> 00:15:49.839 align:start position:0%
+aware and making the LMuler aware that
+ 
+
+00:15:49.839 --> 00:15:52.550 align:start position:0%
+aware and making the LMuler aware that
+you<00:15:50.160><c> are</c><00:15:50.560><c> doing</c><00:15:51.360><c> you</c><00:15:51.519><c> know</c><00:15:51.839><c> repeat</c><00:15:52.240><c> work</c>
+
+00:15:52.550 --> 00:15:52.560 align:start position:0%
+you are doing you know repeat work
+ 
+
+00:15:52.560 --> 00:15:54.790 align:start position:0%
+you are doing you know repeat work
+you're<00:15:52.800><c> requiring</c><00:15:53.360><c> it</c><00:15:54.160><c> actually</c><00:15:54.480><c> gives</c><00:15:54.720><c> you</c>
+
+00:15:54.790 --> 00:15:54.800 align:start position:0%
+you're requiring it actually gives you
+ 
+
+00:15:54.800 --> 00:15:56.470 align:start position:0%
+you're requiring it actually gives you
+an<00:15:55.040><c> increased</c><00:15:55.440><c> benefit</c><00:15:55.839><c> that</c><00:15:56.000><c> is</c><00:15:56.160><c> the</c><00:15:56.320><c> red</c>
+
+00:15:56.470 --> 00:15:56.480 align:start position:0%
+an increased benefit that is the red
+ 
+
+00:15:56.480 --> 00:15:59.829 align:start position:0%
+an increased benefit that is the red
+line<00:15:56.639><c> to</c><00:15:56.800><c> the</c><00:15:56.880><c> green</c><00:15:57.120><c> line</c><00:15:58.480><c> that</c><00:15:58.639><c> is</c><00:15:58.800><c> to</c><00:15:58.959><c> say</c>
+
+00:15:59.829 --> 00:15:59.839 align:start position:0%
+line to the green line that is to say
+ 
+
+00:15:59.839 --> 00:16:01.829 align:start position:0%
+line to the green line that is to say
+amongst<00:16:00.160><c> of</c><00:16:00.240><c> a</c><00:16:00.320><c> wide</c><00:16:00.560><c> variety</c><00:16:00.720><c> of</c><00:16:00.880><c> models</c><00:16:01.600><c> if</c>
+
+00:16:01.829 --> 00:16:01.839 align:start position:0%
+amongst of a wide variety of models if
+ 
+
+00:16:01.839 --> 00:16:04.389 align:start position:0%
+amongst of a wide variety of models if
+we<00:16:02.000><c> assume</c><00:16:02.399><c> that</c><00:16:02.720><c> the</c><00:16:02.959><c> quality</c><00:16:03.279><c> is</c><00:16:03.440><c> fixed</c><00:16:04.160><c> we</c>
+
+00:16:04.389 --> 00:16:04.399 align:start position:0%
+we assume that the quality is fixed we
+ 
+
+00:16:04.399 --> 00:16:06.150 align:start position:0%
+we assume that the quality is fixed we
+can<00:16:04.560><c> actually</c><00:16:04.720><c> use</c><00:16:04.880><c> inference</c><00:16:05.279><c> time</c><00:16:05.519><c> scaling</c>
+
+00:16:06.150 --> 00:16:06.160 align:start position:0%
+can actually use inference time scaling
+ 
+
+00:16:06.160 --> 00:16:07.910 align:start position:0%
+can actually use inference time scaling
+and<00:16:06.399><c> some</c><00:16:06.639><c> smart</c><00:16:06.959><c> techniques</c><00:16:07.360><c> in</c><00:16:07.519><c> order</c><00:16:07.680><c> to</c>
+
+00:16:07.910 --> 00:16:07.920 align:start position:0%
+and some smart techniques in order to
+ 
+
+00:16:07.920 --> 00:16:09.829 align:start position:0%
+and some smart techniques in order to
+significantly<00:16:08.720><c> decrease</c><00:16:09.199><c> latency</c><00:16:09.600><c> and</c>
+
+00:16:09.829 --> 00:16:09.839 align:start position:0%
+significantly decrease latency and
+ 
+
+00:16:09.839 --> 00:16:11.110 align:start position:0%
+significantly decrease latency and
+increase<00:16:10.079><c> throughput</c><00:16:10.480><c> while</c><00:16:10.800><c> maintaining</c>
+
+00:16:11.110 --> 00:16:11.120 align:start position:0%
+increase throughput while maintaining
+ 
+
+00:16:11.120 --> 00:16:13.509 align:start position:0%
+increase throughput while maintaining
+the<00:16:11.279><c> same</c><00:16:11.440><c> quality</c>
+
+00:16:13.509 --> 00:16:13.519 align:start position:0%
+the same quality
+ 
+
+00:16:13.519 --> 00:16:14.629 align:start position:0%
+the same quality
+one<00:16:13.759><c> last</c><00:16:13.920><c> thing</c><00:16:14.079><c> and</c><00:16:14.240><c> I'm</c><00:16:14.399><c> going</c><00:16:14.480><c> to</c><00:16:14.560><c> go</c>
+
+00:16:14.629 --> 00:16:14.639 align:start position:0%
+one last thing and I'm going to go
+ 
+
+00:16:14.639 --> 00:16:15.749 align:start position:0%
+one last thing and I'm going to go
+through<00:16:14.800><c> this</c><00:16:14.959><c> really</c><00:16:15.199><c> quick</c><00:16:15.360><c> because</c><00:16:15.519><c> I'm</c>
+
+00:16:15.749 --> 00:16:15.759 align:start position:0%
+through this really quick because I'm
+ 
+
+00:16:15.759 --> 00:16:18.790 align:start position:0%
+through this really quick because I'm
+getting<00:16:15.920><c> low</c><00:16:16.079><c> on</c><00:16:16.320><c> time</c><00:16:17.040><c> is</c><00:16:17.680><c> manipulating</c><00:16:18.320><c> K</c><00:16:18.639><c> K</c>
+
+00:16:18.790 --> 00:16:18.800 align:start position:0%
+getting low on time is manipulating K K
+ 
+
+00:16:18.800 --> 00:16:21.269 align:start position:0%
+getting low on time is manipulating K K
+and<00:16:19.040><c> V</c><00:16:19.279><c> values</c><00:16:19.759><c> Right?</c><00:16:20.160><c> We've</c><00:16:20.800><c> sort</c><00:16:20.959><c> of</c><00:16:21.040><c> talked</c>
+
+00:16:21.269 --> 00:16:21.279 align:start position:0%
+and V values Right? We've sort of talked
+ 
+
+00:16:21.279 --> 00:16:22.790 align:start position:0%
+and V values Right? We've sort of talked
+about<00:16:21.440><c> how</c><00:16:21.680><c> before</c><00:16:22.079><c> there's</c><00:16:22.320><c> this</c><00:16:22.560><c> work</c><00:16:22.639><c> that</c>
+
+00:16:22.790 --> 00:16:22.800 align:start position:0%
+about how before there's this work that
+ 
+
+00:16:22.800 --> 00:16:24.150 align:start position:0%
+about how before there's this work that
+we<00:16:22.880><c> do</c><00:16:22.959><c> in</c><00:16:23.120><c> prefill</c><00:16:23.519><c> that</c><00:16:23.680><c> we</c><00:16:23.839><c> don't</c><00:16:23.920><c> want</c><00:16:24.000><c> to</c>
+
+00:16:24.150 --> 00:16:24.160 align:start position:0%
+we do in prefill that we don't want to
+ 
+
+00:16:24.160 --> 00:16:27.269 align:start position:0%
+we do in prefill that we don't want to
+lose.<00:16:24.639><c> We</c><00:16:24.880><c> we</c><00:16:25.120><c> do</c><00:16:25.279><c> routing</c><00:16:25.759><c> to</c><00:16:25.920><c> ensure</c><00:16:26.240><c> that</c><00:16:26.480><c> we</c>
+
+00:16:27.269 --> 00:16:27.279 align:start position:0%
+lose. We we do routing to ensure that we
+ 
+
+00:16:27.279 --> 00:16:32.150 align:start position:0%
+lose. We we do routing to ensure that we
+uh<00:16:27.759><c> don't</c><00:16:28.079><c> lose</c><00:16:28.399><c> this</c><00:16:29.199><c> KV</c><00:16:30.480><c> and</c><00:16:31.279><c> you</c><00:16:31.519><c> know</c><00:16:31.759><c> if</c><00:16:32.000><c> we</c>
+
+00:16:32.150 --> 00:16:32.160 align:start position:0%
+uh don't lose this KV and you know if we
+ 
+
+00:16:32.160 --> 00:16:33.990 align:start position:0%
+uh don't lose this KV and you know if we
+have<00:16:32.320><c> like</c><00:16:32.480><c> a</c><00:16:32.800><c> workflow</c><00:16:33.199><c> where</c><00:16:33.440><c> we</c><00:16:33.680><c> know</c><00:16:33.839><c> the</c>
+
+00:16:33.990 --> 00:16:34.000 align:start position:0%
+have like a workflow where we know the
+ 
+
+00:16:34.000 --> 00:16:36.310 align:start position:0%
+have like a workflow where we know the
+runtimes<00:16:34.480><c> of</c><00:16:34.639><c> things.</c><00:16:35.040><c> So</c><00:16:35.199><c> for</c><00:16:35.279><c> example,</c><00:16:36.079><c> if</c>
+
+00:16:36.310 --> 00:16:36.320 align:start position:0%
+runtimes of things. So for example, if
+ 
+
+00:16:36.320 --> 00:16:40.550 align:start position:0%
+runtimes of things. So for example, if
+we<00:16:37.120><c> do</c><00:16:37.600><c> a,</c><00:16:38.560><c> you</c><00:16:38.720><c> know,</c><00:16:38.959><c> a</c>
+
+00:16:40.550 --> 00:16:40.560 align:start position:0%
+we do a, you know, a
+ 
+
+00:16:40.560 --> 00:16:42.230 align:start position:0%
+we do a, you know, a
+tool<00:16:40.880><c> call,</c><00:16:41.279><c> for</c><00:16:41.279><c> example,</c><00:16:41.600><c> and</c><00:16:41.839><c> we</c><00:16:41.920><c> know</c><00:16:42.079><c> this</c>
+
+00:16:42.230 --> 00:16:42.240 align:start position:0%
+tool call, for example, and we know this
+ 
+
+00:16:42.240 --> 00:16:44.150 align:start position:0%
+tool call, for example, and we know this
+tool<00:16:42.560><c> call</c><00:16:42.800><c> takes</c><00:16:43.120><c> a</c><00:16:43.600><c> moderately</c>
+
+00:16:44.150 --> 00:16:44.160 align:start position:0%
+tool call takes a moderately
+ 
+
+00:16:44.160 --> 00:16:46.230 align:start position:0%
+tool call takes a moderately
+deterministic<00:16:44.800><c> amount</c><00:16:44.959><c> of</c><00:16:45.120><c> time,</c><00:16:46.079><c> we</c>
+
+00:16:46.230 --> 00:16:46.240 align:start position:0%
+deterministic amount of time, we
+ 
+
+00:16:46.240 --> 00:16:47.749 align:start position:0%
+deterministic amount of time, we
+basically<00:16:46.560><c> end</c><00:16:46.720><c> up</c><00:16:46.800><c> with</c><00:16:46.880><c> this</c><00:16:47.040><c> this</c><00:16:47.519><c> KV</c>
+
+00:16:47.749 --> 00:16:47.759 align:start position:0%
+basically end up with this this KV
+ 
+
+00:16:47.759 --> 00:16:49.030 align:start position:0%
+basically end up with this this KV
+eviction,<00:16:48.079><c> right?</c><00:16:48.240><c> If</c><00:16:48.320><c> we</c><00:16:48.480><c> have</c><00:16:48.480><c> a</c><00:16:48.639><c> tool</c><00:16:48.880><c> call</c>
+
+00:16:49.030 --> 00:16:49.040 align:start position:0%
+eviction, right? If we have a tool call
+ 
+
+00:16:49.040 --> 00:16:50.790 align:start position:0%
+eviction, right? If we have a tool call
+that<00:16:49.199><c> takes</c><00:16:49.440><c> 30</c><00:16:49.680><c> seconds,</c><00:16:50.079><c> the</c><00:16:50.240><c> KV</c><00:16:50.560><c> is</c><00:16:50.720><c> going</c>
+
+00:16:50.790 --> 00:16:50.800 align:start position:0%
+that takes 30 seconds, the KV is going
+ 
+
+00:16:50.800 --> 00:16:52.710 align:start position:0%
+that takes 30 seconds, the KV is going
+to<00:16:50.880><c> be</c><00:16:50.959><c> swept</c><00:16:51.199><c> out</c><00:16:51.360><c> from</c><00:16:51.519><c> HPM</c><00:16:52.000><c> and</c><00:16:52.079><c> you're</c><00:16:52.560><c> not</c>
+
+00:16:52.710 --> 00:16:52.720 align:start position:0%
+to be swept out from HPM and you're not
+ 
+
+00:16:52.720 --> 00:16:54.230 align:start position:0%
+to be swept out from HPM and you're not
+going<00:16:52.800><c> to</c><00:16:53.040><c> be</c><00:16:53.199><c> able</c><00:16:53.360><c> to</c><00:16:53.440><c> use</c><00:16:53.600><c> it</c><00:16:53.759><c> in</c><00:16:53.920><c> the</c><00:16:54.000><c> future</c>
+
+00:16:54.230 --> 00:16:54.240 align:start position:0%
+going to be able to use it in the future
+ 
+
+00:16:54.240 --> 00:16:56.710 align:start position:0%
+going to be able to use it in the future
+because<00:16:54.480><c> it's</c><00:16:54.720><c> no</c><00:16:54.800><c> longer</c><00:16:55.040><c> being</c><00:16:55.279><c> cached.</c><00:16:56.480><c> But</c>
+
+00:16:56.710 --> 00:16:56.720 align:start position:0%
+because it's no longer being cached. But
+ 
+
+00:16:56.720 --> 00:16:58.550 align:start position:0%
+because it's no longer being cached. But
+if<00:16:56.880><c> we</c><00:16:57.040><c> know</c><00:16:57.120><c> that</c><00:16:57.279><c> it's</c><00:16:57.519><c> going</c><00:16:57.600><c> to</c><00:16:57.759><c> be</c><00:16:58.240><c> used</c>
+
+00:16:58.550 --> 00:16:58.560 align:start position:0%
+if we know that it's going to be used
+ 
+
+00:16:58.560 --> 00:17:02.550 align:start position:0%
+if we know that it's going to be used
+again,<00:16:59.440><c> why</c><00:16:59.680><c> not</c><00:16:59.920><c> just</c><00:17:00.240><c> offload</c><00:17:00.720><c> it,</c><00:17:01.360><c> right?</c>
+
+00:17:02.550 --> 00:17:02.560 align:start position:0%
+again, why not just offload it, right?
+ 
+
+00:17:02.560 --> 00:17:04.549 align:start position:0%
+again, why not just offload it, right?
+Basically<00:17:03.120><c> inference</c><00:17:03.519><c> time</c><00:17:03.759><c> scaling</c><00:17:04.240><c> gives</c>
+
+00:17:04.549 --> 00:17:04.559 align:start position:0%
+Basically inference time scaling gives
+ 
+
+00:17:04.559 --> 00:17:06.470 align:start position:0%
+Basically inference time scaling gives
+you<00:17:04.959><c> structure</c><00:17:05.360><c> to</c><00:17:05.520><c> manipulate</c><00:17:05.919><c> your</c><00:17:06.079><c> KV.</c>
+
+00:17:06.470 --> 00:17:06.480 align:start position:0%
+you structure to manipulate your KV.
+ 
+
+00:17:06.480 --> 00:17:07.829 align:start position:0%
+you structure to manipulate your KV.
+Tool<00:17:06.799><c> calling</c><00:17:07.039><c> gives</c><00:17:07.199><c> you</c><00:17:07.360><c> structure</c><00:17:07.679><c> to</c>
+
+00:17:07.829 --> 00:17:07.839 align:start position:0%
+Tool calling gives you structure to
+ 
+
+00:17:07.839 --> 00:17:10.309 align:start position:0%
+Tool calling gives you structure to
+manipulate<00:17:08.240><c> your</c><00:17:08.400><c> KV.</c><00:17:09.199><c> So</c><00:17:09.439><c> instead</c><00:17:09.839><c> of</c><00:17:10.000><c> doing</c>
+
+00:17:10.309 --> 00:17:10.319 align:start position:0%
+manipulate your KV. So instead of doing
+ 
+
+00:17:10.319 --> 00:17:13.189 align:start position:0%
+manipulate your KV. So instead of doing
+another<00:17:10.640><c> prefill</c><00:17:11.679><c> uh</c><00:17:12.000><c> the</c><00:17:12.240><c> second</c><00:17:12.480><c> time</c><00:17:13.039><c> you</c>
+
+00:17:13.189 --> 00:17:13.199 align:start position:0%
+another prefill uh the second time you
+ 
+
+00:17:13.199 --> 00:17:17.189 align:start position:0%
+another prefill uh the second time you
+might<00:17:13.600><c> for</c><00:17:13.679><c> example</c><00:17:14.319><c> do</c><00:17:14.799><c> prefill</c><00:17:15.280><c> once</c><00:17:15.839><c> do</c><00:17:16.959><c> uh</c>
+
+00:17:17.189 --> 00:17:17.199 align:start position:0%
+might for example do prefill once do uh
+ 
+
+00:17:17.199 --> 00:17:20.150 align:start position:0%
+might for example do prefill once do uh
+you<00:17:17.360><c> know</c><00:17:17.439><c> the</c><00:17:17.679><c> LM</c><00:17:18.000><c> call</c><00:17:18.160><c> the</c><00:17:18.319><c> decode</c><00:17:18.799><c> once</c><00:17:19.760><c> uh</c>
+
+00:17:20.150 --> 00:17:20.160 align:start position:0%
+you know the LM call the decode once uh
+ 
+
+00:17:20.160 --> 00:17:22.069 align:start position:0%
+you know the LM call the decode once uh
+move<00:17:20.319><c> it</c><00:17:20.480><c> to</c><00:17:20.559><c> host</c><00:17:20.880><c> memory</c><00:17:21.199><c> and</c><00:17:21.360><c> then</c><00:17:21.760><c> you</c><00:17:21.919><c> know</c>
+
+00:17:22.069 --> 00:17:22.079 align:start position:0%
+move it to host memory and then you know
+ 
+
+00:17:22.079 --> 00:17:23.669 align:start position:0%
+move it to host memory and then you know
+at<00:17:22.400><c> the</c><00:17:22.640><c> time</c><00:17:22.799><c> at</c><00:17:22.959><c> which</c><00:17:23.039><c> you</c><00:17:23.199><c> expect</c><00:17:23.360><c> the</c><00:17:23.520><c> tool</c>
+
+00:17:23.669 --> 00:17:23.679 align:start position:0%
+at the time at which you expect the tool
+ 
+
+00:17:23.679 --> 00:17:25.350 align:start position:0%
+at the time at which you expect the tool
+to<00:17:23.839><c> complete</c><00:17:24.319><c> you</c><00:17:24.559><c> move</c><00:17:24.640><c> it</c><00:17:24.880><c> right</c><00:17:25.039><c> back</c><00:17:25.120><c> into</c>
+
+00:17:25.350 --> 00:17:25.360 align:start position:0%
+to complete you move it right back into
+ 
+
+00:17:25.360 --> 00:17:27.270 align:start position:0%
+to complete you move it right back into
+me<00:17:25.600><c> into</c><00:17:25.839><c> GPU</c><00:17:26.160><c> memory</c><00:17:26.559><c> so</c><00:17:26.720><c> that's</c><00:17:26.959><c> ready</c><00:17:27.120><c> for</c>
+
+00:17:27.270 --> 00:17:27.280 align:start position:0%
+me into GPU memory so that's ready for
+ 
+
+00:17:27.280 --> 00:17:29.029 align:start position:0%
+me into GPU memory so that's ready for
+the<00:17:27.439><c> next</c><00:17:27.600><c> LM</c><00:17:28.000><c> call</c><00:17:28.240><c> that</c><00:17:28.400><c> will</c><00:17:28.559><c> include</c><00:17:28.799><c> this</c>
+
+00:17:29.029 --> 00:17:29.039 align:start position:0%
+the next LM call that will include this
+ 
+
+00:17:29.039 --> 00:17:31.830 align:start position:0%
+the next LM call that will include this
+added<00:17:29.360><c> context</c><00:17:29.679><c> from</c><00:17:29.840><c> the</c><00:17:30.000><c> tool.</c><00:17:31.280><c> So</c><00:17:31.440><c> KV</c>
+
+00:17:31.830 --> 00:17:31.840 align:start position:0%
+added context from the tool. So KV
+ 
+
+00:17:31.840 --> 00:17:34.390 align:start position:0%
+added context from the tool. So KV
+manipulation<00:17:32.960><c> you</c><00:17:33.120><c> know</c><00:17:33.280><c> again</c><00:17:34.000><c> increases</c>
+
+00:17:34.390 --> 00:17:34.400 align:start position:0%
+manipulation you know again increases
+ 
+
+00:17:34.400 --> 00:17:36.870 align:start position:0%
+manipulation you know again increases
+your<00:17:34.640><c> speed</c><00:17:34.960><c> and</c><00:17:35.280><c> decreases</c><00:17:35.760><c> your</c><00:17:36.000><c> cost</c><00:17:36.480><c> while</c>
+
+00:17:36.870 --> 00:17:36.880 align:start position:0%
+your speed and decreases your cost while
+ 
+
+00:17:36.880 --> 00:17:39.510 align:start position:0%
+your speed and decreases your cost while
+also<00:17:37.520><c> you</c><00:17:37.679><c> know</c><00:17:37.840><c> improving</c><00:17:38.320><c> your</c><00:17:38.640><c> quality</c><00:17:39.280><c> or</c>
+
+00:17:39.510 --> 00:17:39.520 align:start position:0%
+also you know improving your quality or
+ 
+
+00:17:39.520 --> 00:17:40.870 align:start position:0%
+also you know improving your quality or
+not<00:17:39.760><c> improving</c><00:17:40.080><c> quality</c><00:17:40.400><c> keeping</c><00:17:40.559><c> quality</c>
+
+00:17:40.870 --> 00:17:40.880 align:start position:0%
+not improving quality keeping quality
+ 
+
+00:17:40.880 --> 00:17:42.870 align:start position:0%
+not improving quality keeping quality
+constant.<00:17:41.760><c> Um</c><00:17:42.000><c> the</c><00:17:42.240><c> last</c><00:17:42.400><c> thing</c><00:17:42.480><c> that</c><00:17:42.640><c> we</c><00:17:42.799><c> have</c>
+
+00:17:42.870 --> 00:17:42.880 align:start position:0%
+constant. Um the last thing that we have
+ 
+
+00:17:42.880 --> 00:17:45.190 align:start position:0%
+constant. Um the last thing that we have
+to<00:17:42.960><c> talk</c><00:17:43.120><c> about</c><00:17:43.280><c> here</c><00:17:43.360><c> is</c><00:17:43.520><c> dynamism.</c><00:17:44.559><c> Um</c>
+
+00:17:45.190 --> 00:17:45.200 align:start position:0%
+to talk about here is dynamism. Um
+ 
+
+00:17:45.200 --> 00:17:46.630 align:start position:0%
+to talk about here is dynamism. Um
+worker<00:17:45.600><c> specialization</c><00:17:46.240><c> is</c><00:17:46.400><c> really</c>
+
+00:17:46.630 --> 00:17:46.640 align:start position:0%
+worker specialization is really
+ 
+
+00:17:46.640 --> 00:17:49.510 align:start position:0%
+worker specialization is really
+important.<00:17:47.120><c> As</c><00:17:47.360><c> I</c><00:17:47.520><c> said,</c><00:17:48.000><c> since</c><00:17:48.320><c> you</c><00:17:48.559><c> have</c><00:17:49.200><c> uh</c>
+
+00:17:49.510 --> 00:17:49.520 align:start position:0%
+important. As I said, since you have uh
+ 
+
+00:17:49.520 --> 00:17:50.870 align:start position:0%
+important. As I said, since you have uh
+different<00:17:50.160><c> charact</c><00:17:50.160><c> characteristics</c><00:17:50.720><c> of</c>
+
+00:17:50.870 --> 00:17:50.880 align:start position:0%
+different charact characteristics of
+ 
+
+00:17:50.880 --> 00:17:52.870 align:start position:0%
+different charact characteristics of
+disagregation<00:17:51.520><c> at</c><00:17:51.840><c> different</c><00:17:52.400><c> infant</c>
+
+00:17:52.870 --> 00:17:52.880 align:start position:0%
+disagregation at different infant
+ 
+
+00:17:52.880 --> 00:17:54.150 align:start position:0%
+disagregation at different infant
+sequence<00:17:53.200><c> links</c><00:17:53.440><c> and</c><00:17:53.600><c> output</c><00:17:53.840><c> sequence</c>
+
+00:17:54.150 --> 00:17:54.160 align:start position:0%
+sequence links and output sequence
+ 
+
+00:17:54.160 --> 00:17:56.310 align:start position:0%
+sequence links and output sequence
+links,<00:17:54.720><c> you</c><00:17:54.960><c> actually</c><00:17:55.280><c> want</c><00:17:55.440><c> to</c><00:17:55.600><c> have</c><00:17:55.840><c> a</c><00:17:56.080><c> mix</c>
+
+00:17:56.310 --> 00:17:56.320 align:start position:0%
+links, you actually want to have a mix
+ 
+
+00:17:56.320 --> 00:17:58.230 align:start position:0%
+links, you actually want to have a mix
+of<00:17:56.480><c> aggregated</c><00:17:56.960><c> and</c><00:17:57.200><c> disagregated</c><00:17:57.840><c> workers</c>
+
+00:17:58.230 --> 00:17:58.240 align:start position:0%
+of aggregated and disagregated workers
+ 
+
+00:17:58.240 --> 00:18:00.950 align:start position:0%
+of aggregated and disagregated workers
+based<00:17:58.480><c> on</c><00:17:58.720><c> where</c><00:17:58.960><c> you</c><00:17:59.200><c> are</c><00:17:59.440><c> in</c><00:17:59.679><c> the</c><00:17:59.840><c> OSL</c><00:18:00.400><c> ISL</c>
+
+00:18:00.950 --> 00:18:00.960 align:start position:0%
+based on where you are in the OSL ISL
+ 
+
+00:18:00.960 --> 00:18:03.909 align:start position:0%
+based on where you are in the OSL ISL
+histogram.<00:18:01.840><c> So</c><00:18:02.400><c> at,</c><00:18:02.960><c> you</c><00:18:03.120><c> know,</c><00:18:03.280><c> lower</c><00:18:03.600><c> input</c>
+
+00:18:03.909 --> 00:18:03.919 align:start position:0%
+histogram. So at, you know, lower input
+ 
+
+00:18:03.919 --> 00:18:05.110 align:start position:0%
+histogram. So at, you know, lower input
+sequence<00:18:04.240><c> links</c><00:18:04.400><c> and</c><00:18:04.559><c> higher</c><00:18:04.799><c> output</c>
+
+00:18:05.110 --> 00:18:05.120 align:start position:0%
+sequence links and higher output
+ 
+
+00:18:05.120 --> 00:18:06.230 align:start position:0%
+sequence links and higher output
+sequence<00:18:05.360><c> links,</c><00:18:05.600><c> you</c><00:18:05.760><c> might</c><00:18:05.840><c> want</c><00:18:05.919><c> to</c><00:18:06.080><c> do</c>
+
+00:18:06.230 --> 00:18:06.240 align:start position:0%
+sequence links, you might want to do
+ 
+
+00:18:06.240 --> 00:18:07.510 align:start position:0%
+sequence links, you might want to do
+aggregated<00:18:06.720><c> with</c><00:18:06.799><c> a</c><00:18:06.960><c> higher</c><00:18:07.200><c> tensor</c>
+
+00:18:07.510 --> 00:18:07.520 align:start position:0%
+aggregated with a higher tensor
+ 
+
+00:18:07.520 --> 00:18:09.110 align:start position:0%
+aggregated with a higher tensor
+parallelism.<00:18:08.240><c> In</c><00:18:08.400><c> the</c><00:18:08.559><c> middle</c><00:18:08.640><c> of</c><00:18:08.720><c> the</c><00:18:08.880><c> range,</c>
+
+00:18:09.110 --> 00:18:09.120 align:start position:0%
+parallelism. In the middle of the range,
+ 
+
+00:18:09.120 --> 00:18:10.789 align:start position:0%
+parallelism. In the middle of the range,
+you<00:18:09.280><c> may</c><00:18:09.440><c> want</c><00:18:09.520><c> to</c><00:18:09.679><c> use</c><00:18:10.160><c> in</c><00:18:10.400><c> the</c><00:18:10.559><c> middle</c><00:18:10.640><c> of</c><00:18:10.720><c> the</c>
+
+00:18:10.789 --> 00:18:10.799 align:start position:0%
+you may want to use in the middle of the
+ 
+
+00:18:10.799 --> 00:18:12.230 align:start position:0%
+you may want to use in the middle of the
+input<00:18:11.120><c> sequence</c><00:18:11.360><c> range,</c><00:18:11.600><c> you</c><00:18:11.760><c> may</c><00:18:11.919><c> may</c><00:18:12.160><c> want</c>
+
+00:18:12.230 --> 00:18:12.240 align:start position:0%
+input sequence range, you may may want
+ 
+
+00:18:12.240 --> 00:18:15.510 align:start position:0%
+input sequence range, you may may want
+to<00:18:12.320><c> use</c><00:18:12.480><c> disagregated.</c><00:18:13.840><c> And</c><00:18:14.400><c> in</c><00:18:14.720><c> the</c><00:18:15.200><c> you</c><00:18:15.360><c> know</c>
+
+00:18:15.510 --> 00:18:15.520 align:start position:0%
+to use disagregated. And in the you know
+ 
+
+00:18:15.520 --> 00:18:19.350 align:start position:0%
+to use disagregated. And in the you know
+long<00:18:15.919><c> context</c><00:18:16.799><c> uh</c><00:18:17.280><c> you</c><00:18:17.520><c> know</c><00:18:18.400><c> regime</c><00:18:19.039><c> you</c><00:18:19.200><c> may</c>
+
+00:18:19.350 --> 00:18:19.360 align:start position:0%
+long context uh you know regime you may
+ 
+
+00:18:19.360 --> 00:18:21.110 align:start position:0%
+long context uh you know regime you may
+want<00:18:19.440><c> to</c><00:18:19.520><c> use</c><00:18:19.760><c> disagregated</c><00:18:20.480><c> with</c><00:18:20.720><c> context</c>
+
+00:18:21.110 --> 00:18:21.120 align:start position:0%
+want to use disagregated with context
+ 
+
+00:18:21.120 --> 00:18:23.750 align:start position:0%
+want to use disagregated with context
+parallelism.<00:18:22.240><c> Now</c><00:18:22.799><c> uh</c><00:18:22.960><c> again</c><00:18:23.280><c> this</c><00:18:23.440><c> differs</c>
+
+00:18:23.750 --> 00:18:23.760 align:start position:0%
+parallelism. Now uh again this differs
+ 
+
+00:18:23.760 --> 00:18:25.590 align:start position:0%
+parallelism. Now uh again this differs
+model<00:18:24.000><c> to</c><00:18:24.240><c> model</c><00:18:24.640><c> uh</c><00:18:24.720><c> and</c><00:18:24.880><c> this</c><00:18:25.039><c> is</c><00:18:25.200><c> just</c><00:18:25.440><c> an</c>
+
+00:18:25.590 --> 00:18:25.600 align:start position:0%
+model to model uh and this is just an
+ 
+
+00:18:25.600 --> 00:18:29.190 align:start position:0%
+model to model uh and this is just an
+exemplary<00:18:26.160><c> graph</c><00:18:26.799><c> but</c><00:18:27.280><c> um</c><00:18:28.320><c> generally</c><00:18:28.720><c> if</c><00:18:28.880><c> you</c>
+
+00:18:29.190 --> 00:18:29.200 align:start position:0%
+exemplary graph but um generally if you
+ 
+
+00:18:29.200 --> 00:18:31.990 align:start position:0%
+exemplary graph but um generally if you
+specialize<00:18:29.760><c> workers</c><00:18:30.240><c> you</c><00:18:30.480><c> can</c><00:18:30.640><c> also</c><00:18:31.440><c> increase</c>
+
+00:18:31.990 --> 00:18:32.000 align:start position:0%
+specialize workers you can also increase
+ 
+
+00:18:32.000 --> 00:18:33.669 align:start position:0%
+specialize workers you can also increase
+uh<00:18:32.240><c> increase</c><00:18:32.480><c> your</c><00:18:32.640><c> speed</c><00:18:33.120><c> decrease</c><00:18:33.520><c> your</c>
+
+00:18:33.669 --> 00:18:33.679 align:start position:0%
+uh increase your speed decrease your
+ 
+
+00:18:33.679 --> 00:18:35.190 align:start position:0%
+uh increase your speed decrease your
+cost<00:18:34.000><c> while</c><00:18:34.240><c> keeping</c><00:18:34.559><c> quality</c><00:18:34.880><c> the</c><00:18:35.039><c> same</c>
+
+00:18:35.190 --> 00:18:35.200 align:start position:0%
+cost while keeping quality the same
+ 
+
+00:18:35.200 --> 00:18:36.789 align:start position:0%
+cost while keeping quality the same
+because<00:18:35.440><c> again</c><00:18:35.840><c> you're</c><00:18:36.160><c> not</c><00:18:36.400><c> actually</c>
+
+00:18:36.789 --> 00:18:36.799 align:start position:0%
+because again you're not actually
+ 
+
+00:18:36.799 --> 00:18:38.950 align:start position:0%
+because again you're not actually
+touching<00:18:37.360><c> the</c><00:18:37.679><c> execution</c><00:18:38.240><c> what</c><00:18:38.400><c> the</c><00:18:38.559><c> model</c><00:18:38.799><c> is</c>
+
+00:18:38.950 --> 00:18:38.960 align:start position:0%
+touching the execution what the model is
+ 
+
+00:18:38.960 --> 00:18:40.150 align:start position:0%
+touching the execution what the model is
+executing<00:18:39.360><c> you're</c><00:18:39.440><c> not</c><00:18:39.600><c> touching</c><00:18:39.840><c> the</c><00:18:40.000><c> math</c>
+
+00:18:40.150 --> 00:18:40.160 align:start position:0%
+executing you're not touching the math
+ 
+
+00:18:40.160 --> 00:18:43.669 align:start position:0%
+executing you're not touching the math
+it's<00:18:40.480><c> doing.</c><00:18:41.520><c> Um,</c><00:18:42.880><c> one</c><00:18:43.120><c> last</c><00:18:43.360><c> thing</c><00:18:43.440><c> about</c>
+
+00:18:43.669 --> 00:18:43.679 align:start position:0%
+it's doing. Um, one last thing about
+ 
+
+00:18:43.679 --> 00:18:45.830 align:start position:0%
+it's doing. Um, one last thing about
+dynamism<00:18:44.400><c> is</c><00:18:44.799><c> load</c><00:18:45.120><c> balance</c><00:18:45.440><c> is</c><00:18:45.600><c> quite</c>
+
+00:18:45.830 --> 00:18:45.840 align:start position:0%
+dynamism is load balance is quite
+ 
+
+00:18:45.840 --> 00:18:48.390 align:start position:0%
+dynamism is load balance is quite
+important.<00:18:46.320><c> As</c><00:18:46.480><c> I</c><00:18:46.640><c> mentioned</c><00:18:46.960><c> earlier,</c><00:18:47.840><c> doing</c>
+
+00:18:48.390 --> 00:18:48.400 align:start position:0%
+important. As I mentioned earlier, doing
+ 
+
+00:18:48.400 --> 00:18:51.190 align:start position:0%
+important. As I mentioned earlier, doing
+looking<00:18:48.720><c> at</c><00:18:48.960><c> the</c><00:18:49.280><c> amount</c><00:18:49.520><c> of</c><00:18:49.679><c> P</c><00:18:49.919><c> and</c><00:18:50.240><c> D</c><00:18:50.480><c> workers</c>
+
+00:18:51.190 --> 00:18:51.200 align:start position:0%
+looking at the amount of P and D workers
+ 
+
+00:18:51.200 --> 00:18:53.510 align:start position:0%
+looking at the amount of P and D workers
+is<00:18:51.520><c> really</c><00:18:51.840><c> important</c><00:18:52.240><c> to</c><00:18:52.480><c> determine</c><00:18:53.200><c> whether</c>
+
+00:18:53.510 --> 00:18:53.520 align:start position:0%
+is really important to determine whether
+ 
+
+00:18:53.520 --> 00:18:55.190 align:start position:0%
+is really important to determine whether
+or<00:18:53.679><c> not</c><00:18:53.840><c> your</c><00:18:54.160><c> disagregated</c><00:18:54.799><c> deployment</c><00:18:55.039><c> is</c>
+
+00:18:55.190 --> 00:18:55.200 align:start position:0%
+or not your disagregated deployment is
+ 
+
+00:18:55.200 --> 00:18:56.870 align:start position:0%
+or not your disagregated deployment is
+going<00:18:55.280><c> to</c><00:18:55.440><c> be</c><00:18:55.520><c> successful.</c><00:18:56.240><c> So</c><00:18:56.480><c> for</c><00:18:56.559><c> example,</c>
+
+00:18:56.870 --> 00:18:56.880 align:start position:0%
+going to be successful. So for example,
+ 
+
+00:18:56.880 --> 00:18:58.310 align:start position:0%
+going to be successful. So for example,
+if<00:18:57.120><c> you</c><00:18:57.200><c> have</c><00:18:57.280><c> a</c><00:18:57.440><c> histogram</c><00:18:57.840><c> that</c><00:18:58.080><c> you</c>
+
+00:18:58.310 --> 00:18:58.320 align:start position:0%
+if you have a histogram that you
+ 
+
+00:18:58.320 --> 00:18:59.669 align:start position:0%
+if you have a histogram that you
+initially<00:18:58.799><c> create</c><00:18:58.960><c> your</c><00:18:59.120><c> configuration</c>
+
+00:18:59.669 --> 00:18:59.679 align:start position:0%
+initially create your configuration
+ 
+
+00:18:59.679 --> 00:19:01.350 align:start position:0%
+initially create your configuration
+based<00:18:59.919><c> off</c><00:19:00.080><c> of,</c><00:19:00.640><c> for</c><00:19:00.720><c> example,</c><00:19:01.039><c> if</c><00:19:01.200><c> you</c><00:19:01.280><c> have</c>
+
+00:19:01.350 --> 00:19:01.360 align:start position:0%
+based off of, for example, if you have
+ 
+
+00:19:01.360 --> 00:19:03.830 align:start position:0%
+based off of, for example, if you have
+app<00:19:01.600><c> A</c><00:19:01.760><c> and</c><00:19:01.919><c> app</c><00:19:02.160><c> B</c><00:19:02.320><c> that</c><00:19:02.559><c> have</c><00:19:02.720><c> like</c><00:19:03.200><c> these</c><00:19:03.520><c> two</c>
+
+00:19:03.830 --> 00:19:03.840 align:start position:0%
+app A and app B that have like these two
+ 
+
+00:19:03.840 --> 00:19:05.190 align:start position:0%
+app A and app B that have like these two
+input<00:19:04.240><c> sequence</c><00:19:04.480><c> length</c><00:19:04.720><c> and</c><00:19:04.880><c> output</c>
+
+00:19:05.190 --> 00:19:05.200 align:start position:0%
+input sequence length and output
+ 
+
+00:19:05.200 --> 00:19:07.430 align:start position:0%
+input sequence length and output
+sequence<00:19:05.440><c> links,</c><00:19:06.160><c> you</c><00:19:06.400><c> may</c><00:19:06.640><c> end</c><00:19:06.880><c> up</c><00:19:07.039><c> with</c><00:19:07.200><c> this</c>
+
+00:19:07.430 --> 00:19:07.440 align:start position:0%
+sequence links, you may end up with this
+ 
+
+00:19:07.440 --> 00:19:09.510 align:start position:0%
+sequence links, you may end up with this
+scenario<00:19:08.160><c> where</c><00:19:08.480><c> a</c><00:19:08.799><c> change</c><00:19:08.960><c> in</c><00:19:09.120><c> user</c>
+
+00:19:09.510 --> 00:19:09.520 align:start position:0%
+scenario where a change in user
+ 
+
+00:19:09.520 --> 00:19:12.630 align:start position:0%
+scenario where a change in user
+distribution<00:19:10.720><c> causes</c><00:19:11.760><c> significant</c><00:19:12.240><c> issues</c>
+
+00:19:12.630 --> 00:19:12.640 align:start position:0%
+distribution causes significant issues
+ 
+
+00:19:12.640 --> 00:19:14.710 align:start position:0%
+distribution causes significant issues
+with<00:19:12.880><c> your</c><00:19:13.039><c> deployment.</c><00:19:13.600><c> You're</c><00:19:14.080><c> de</c><00:19:14.400><c> in</c><00:19:14.559><c> this</c>
+
+00:19:14.710 --> 00:19:14.720 align:start position:0%
+with your deployment. You're de in this
+ 
+
+00:19:14.720 --> 00:19:17.590 align:start position:0%
+with your deployment. You're de in this
+case<00:19:14.960><c> by</c><00:19:15.200><c> when</c><00:19:15.440><c> you</c><00:19:15.760><c> increase</c><00:19:16.000><c> your</c><00:19:17.280><c> input</c>
+
+00:19:17.590 --> 00:19:17.600 align:start position:0%
+case by when you increase your input
+ 
+
+00:19:17.600 --> 00:19:18.950 align:start position:0%
+case by when you increase your input
+sequence<00:19:17.919><c> length</c><00:19:18.160><c> and</c><00:19:18.400><c> output</c><00:19:18.640><c> sequence</c>
+
+00:19:18.950 --> 00:19:18.960 align:start position:0%
+sequence length and output sequence
+ 
+
+00:19:18.960 --> 00:19:20.789 align:start position:0%
+sequence length and output sequence
+length<00:19:19.200><c> by</c><00:19:19.360><c> a</c><00:19:19.440><c> little</c><00:19:19.520><c> bit</c><00:19:19.919><c> more</c><00:19:20.080><c> your</c><00:19:20.480><c> input</c>
+
+00:19:20.789 --> 00:19:20.799 align:start position:0%
+length by a little bit more your input
+ 
+
+00:19:20.799 --> 00:19:22.789 align:start position:0%
+length by a little bit more your input
+sequence<00:19:21.120><c> length,</c><00:19:21.600><c> you</c><00:19:21.840><c> might</c><00:19:22.080><c> create</c><00:19:22.480><c> more</c>
+
+00:19:22.789 --> 00:19:22.799 align:start position:0%
+sequence length, you might create more
+ 
+
+00:19:22.799 --> 00:19:24.470 align:start position:0%
+sequence length, you might create more
+demand<00:19:23.120><c> for</c><00:19:23.280><c> prefill</c><00:19:23.760><c> workers</c><00:19:24.080><c> than</c><00:19:24.240><c> you</c><00:19:24.320><c> do</c>
+
+00:19:24.470 --> 00:19:24.480 align:start position:0%
+demand for prefill workers than you do
+ 
+
+00:19:24.480 --> 00:19:26.470 align:start position:0%
+demand for prefill workers than you do
+for<00:19:24.640><c> decode</c><00:19:25.039><c> workers.</c><00:19:25.520><c> So</c><00:19:25.760><c> your</c><00:19:25.919><c> balance</c><00:19:26.240><c> will</c>
+
+00:19:26.470 --> 00:19:26.480 align:start position:0%
+for decode workers. So your balance will
+ 
+
+00:19:26.480 --> 00:19:28.789 align:start position:0%
+for decode workers. So your balance will
+change<00:19:26.799><c> over</c><00:19:27.120><c> time</c><00:19:27.679><c> and</c><00:19:28.000><c> this</c><00:19:28.160><c> has</c><00:19:28.400><c> been</c>
+
+00:19:28.789 --> 00:19:28.799 align:start position:0%
+change over time and this has been
+ 
+
+00:19:28.799 --> 00:19:30.789 align:start position:0%
+change over time and this has been
+empirically<00:19:29.360><c> proven</c><00:19:29.760><c> by</c><00:19:30.000><c> a</c><00:19:30.240><c> wide</c><00:19:30.400><c> variety</c><00:19:30.640><c> of</c>
+
+00:19:30.789 --> 00:19:30.799 align:start position:0%
+empirically proven by a wide variety of
+ 
+
+00:19:30.799 --> 00:19:34.630 align:start position:0%
+empirically proven by a wide variety of
+people<00:19:30.880><c> that</c><00:19:31.120><c> publish</c><00:19:31.440><c> data.</c><00:19:32.080><c> Um</c><00:19:33.440><c> and</c><00:19:34.240><c> you</c>
+
+00:19:34.630 --> 00:19:34.640 align:start position:0%
+people that publish data. Um and you
+ 
+
+00:19:34.640 --> 00:19:37.270 align:start position:0%
+people that publish data. Um and you
+actually<00:19:34.960><c> have</c><00:19:35.120><c> to</c><00:19:35.280><c> do</c><00:19:35.919><c> autoscaling</c><00:19:36.960><c> across</c>
+
+00:19:37.270 --> 00:19:37.280 align:start position:0%
+actually have to do autoscaling across
+ 
+
+00:19:37.280 --> 00:19:39.830 align:start position:0%
+actually have to do autoscaling across
+these<00:19:37.679><c> two</c><00:19:38.160><c> you</c><00:19:38.320><c> know</c><00:19:38.400><c> types</c><00:19:38.640><c> of</c><00:19:38.799><c> instances</c><00:19:39.520><c> in</c>
+
+00:19:39.830 --> 00:19:39.840 align:start position:0%
+these two you know types of instances in
+ 
+
+00:19:39.840 --> 00:19:41.990 align:start position:0%
+these two you know types of instances in
+real<00:19:40.080><c> time</c><00:19:40.320><c> to</c><00:19:40.559><c> account</c><00:19:40.799><c> for</c><00:19:41.120><c> changes</c><00:19:41.440><c> in</c><00:19:41.679><c> user</c>
+
+00:19:41.990 --> 00:19:42.000 align:start position:0%
+real time to account for changes in user
+ 
+
+00:19:42.000 --> 00:19:45.430 align:start position:0%
+real time to account for changes in user
+usage<00:19:42.400><c> distribution</c><00:19:42.880><c> of</c><00:19:43.120><c> your</c><00:19:43.520><c> platform.</c><00:19:44.960><c> Um</c>
+
+00:19:45.430 --> 00:19:45.440 align:start position:0%
+usage distribution of your platform. Um
+ 
+
+00:19:45.440 --> 00:19:47.830 align:start position:0%
+usage distribution of your platform. Um
+so<00:19:45.679><c> in</c><00:19:45.840><c> this</c><00:19:46.000><c> case</c><00:19:46.320><c> dynamic</c><00:19:46.720><c> load</c><00:19:46.960><c> balancing</c>
+
+00:19:47.830 --> 00:19:47.840 align:start position:0%
+so in this case dynamic load balancing
+ 
+
+00:19:47.840 --> 00:19:50.310 align:start position:0%
+so in this case dynamic load balancing
+uh<00:19:48.640><c> increases</c><00:19:49.039><c> your</c><00:19:49.280><c> speed</c><00:19:49.600><c> and</c><00:19:49.919><c> keeps</c><00:19:50.160><c> your</c>
+
+00:19:50.310 --> 00:19:50.320 align:start position:0%
+uh increases your speed and keeps your
+ 
+
+00:19:50.320 --> 00:19:53.029 align:start position:0%
+uh increases your speed and keeps your
+cost<00:19:50.640><c> low</c><00:19:51.280><c> but</c><00:19:51.600><c> mostly</c><00:19:52.080><c> it's</c><00:19:52.400><c> it's</c><00:19:52.720><c> really</c>
+
+00:19:53.029 --> 00:19:53.039 align:start position:0%
+cost low but mostly it's it's really
+ 
+
+00:19:53.039 --> 00:19:55.029 align:start position:0%
+cost low but mostly it's it's really
+just<00:19:53.360><c> essential</c><00:19:53.679><c> to</c><00:19:53.919><c> ensuring</c><00:19:54.240><c> that</c><00:19:54.480><c> disagre</c>
+
+00:19:55.029 --> 00:19:55.039 align:start position:0%
+just essential to ensuring that disagre
+ 
+
+00:19:55.039 --> 00:19:58.230 align:start position:0%
+just essential to ensuring that disagre
+disagre<00:19:55.679><c> disagregation</c><00:19:56.720><c> actually</c><00:19:57.120><c> works</c><00:19:57.760><c> to</c>
+
+00:19:58.230 --> 00:19:58.240 align:start position:0%
+disagre disagregation actually works to
+ 
+
+00:19:58.240 --> 00:20:01.510 align:start position:0%
+disagre disagregation actually works to
+maximum<00:19:58.720><c> potential.</c><00:19:59.760><c> Um</c><00:20:00.160><c> okay</c><00:20:00.640><c> last</c><00:20:00.960><c> things.</c>
+
+00:20:01.510 --> 00:20:01.520 align:start position:0%
+maximum potential. Um okay last things.
+ 
+
+00:20:01.520 --> 00:20:03.750 align:start position:0%
+maximum potential. Um okay last things.
+Uh<00:20:01.840><c> here</c><00:20:02.000><c> is</c><00:20:02.160><c> the</c><00:20:02.559><c> uh</c><00:20:02.640><c> Dynamo</c><00:20:03.120><c> repo.</c><00:20:03.520><c> It's</c>
+
+00:20:03.750 --> 00:20:03.760 align:start position:0%
+Uh here is the uh Dynamo repo. It's
+ 
+
+00:20:03.760 --> 00:20:07.830 align:start position:0%
+Uh here is the uh Dynamo repo. It's
+right<00:20:04.000><c> here.</c><00:20:04.640><c> Um</c><00:20:05.440><c> it's</c><00:20:05.679><c> github.com.</c>
+
+00:20:07.830 --> 00:20:07.840 align:start position:0%
+right here. Um it's github.com.
+ 
+
+00:20:07.840 --> 00:20:09.830 align:start position:0%
+right here. Um it's github.com.
+Um<00:20:08.240><c> we</c><00:20:08.480><c> also</c><00:20:08.720><c> have</c><00:20:08.799><c> a</c><00:20:08.960><c> Dynamo</c><00:20:09.360><c> meetup</c><00:20:09.600><c> that</c><00:20:09.760><c> is</c>
+
+00:20:09.830 --> 00:20:09.840 align:start position:0%
+Um we also have a Dynamo meetup that is
+ 
+
+00:20:09.840 --> 00:20:11.830 align:start position:0%
+Um we also have a Dynamo meetup that is
+being<00:20:10.000><c> hosted</c><00:20:10.400><c> tomorrow</c><00:20:10.960><c> Thursday</c><00:20:11.360><c> from</c><00:20:11.520><c> 5</c><00:20:11.679><c> to</c>
+
+00:20:11.830 --> 00:20:11.840 align:start position:0%
+being hosted tomorrow Thursday from 5 to
+ 
+
+00:20:11.840 --> 00:20:14.070 align:start position:0%
+being hosted tomorrow Thursday from 5 to
+8:00<00:20:12.080><c> p.m.</c><00:20:12.320><c> here</c><00:20:12.400><c> in</c><00:20:12.640><c> San</c><00:20:12.799><c> Francisco.</c><00:20:13.919><c> uh</c>
+
+00:20:14.070 --> 00:20:14.080 align:start position:0%
+8:00 p.m. here in San Francisco. uh
+ 
+
+00:20:14.080 --> 00:20:15.430 align:start position:0%
+8:00 p.m. here in San Francisco. uh
+please<00:20:14.400><c> come.</c><00:20:14.720><c> We're</c><00:20:14.880><c> going</c><00:20:14.960><c> to</c><00:20:15.039><c> be</c><00:20:15.120><c> talking</c><00:20:15.280><c> a</c>
+
+00:20:15.430 --> 00:20:15.440 align:start position:0%
+please come. We're going to be talking a
+ 
+
+00:20:15.440 --> 00:20:16.950 align:start position:0%
+please come. We're going to be talking a
+lot<00:20:15.600><c> more</c><00:20:15.679><c> about</c><00:20:15.840><c> how</c><00:20:16.080><c> we</c><00:20:16.240><c> actually</c><00:20:16.559><c> implement</c>
+
+00:20:16.950 --> 00:20:16.960 align:start position:0%
+lot more about how we actually implement
+ 
+
+00:20:16.960 --> 00:20:22.620 align:start position:0%
+lot more about how we actually implement
+these<00:20:17.200><c> things</c><00:20:17.360><c> at</c><00:20:17.600><c> the</c><00:20:17.760><c> event.</c>
+
+00:20:22.620 --> 00:20:22.630 align:start position:0%
+ 
+ 
+
+00:20:22.630 --> 00:20:25.919 align:start position:0%
+ 
+[Music]
+

@@ -1,0 +1,1152 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.470 align:start position:0%
+ 
+Hey<00:00:00.240><c> everyone,</c><00:00:00.960><c> my</c><00:00:01.120><c> name</c><00:00:01.440><c> is</c><00:00:01.720><c> Eric</c><00:00:02.000><c> Hanchett.</c>
+
+00:00:02.470 --> 00:00:02.480 align:start position:0%
+Hey everyone, my name is Eric Hanchett.
+ 
+
+00:00:02.480 --> 00:00:04.990 align:start position:0%
+Hey everyone, my name is Eric Hanchett.
+I<00:00:02.560><c> am</c><00:00:02.720><c> a</c><00:00:02.800><c> senior</c><00:00:03.080><c> developer</c><00:00:03.680><c> advocate</c><00:00:04.160><c> at</c><00:00:04.400><c> AWS</c>
+
+00:00:04.990 --> 00:00:05.000 align:start position:0%
+I am a senior developer advocate at AWS
+ 
+
+00:00:05.000 --> 00:00:06.750 align:start position:0%
+I am a senior developer advocate at AWS
+and<00:00:05.200><c> I'm</c><00:00:05.320><c> going</c><00:00:05.440><c> to</c><00:00:05.520><c> talk</c><00:00:05.800><c> to</c><00:00:05.920><c> you</c><00:00:06.120><c> about</c><00:00:06.520><c> how</c>
+
+00:00:06.750 --> 00:00:06.760 align:start position:0%
+and I'm going to talk to you about how
+ 
+
+00:00:06.760 --> 00:00:09.630 align:start position:0%
+and I'm going to talk to you about how
+you<00:00:06.920><c> can</c><00:00:07.160><c> save</c><00:00:07.560><c> on</c><00:00:07.800><c> token</c><00:00:08.600><c> costs.</c><00:00:09.400><c> Now,</c><00:00:09.560><c> I'm</c>
+
+00:00:09.630 --> 00:00:09.640 align:start position:0%
+you can save on token costs. Now, I'm
+ 
+
+00:00:09.640 --> 00:00:13.270 align:start position:0%
+you can save on token costs. Now, I'm
+going<00:00:09.760><c> to</c><00:00:09.840><c> show</c><00:00:10.040><c> you</c><00:00:10.280><c> five</c><00:00:11.240><c> ways</c><00:00:12.080><c> that</c><00:00:12.320><c> you</c><00:00:12.520><c> can</c>
+
+00:00:13.270 --> 00:00:13.280 align:start position:0%
+going to show you five ways that you can
+ 
+
+00:00:13.280 --> 00:00:16.350 align:start position:0%
+going to show you five ways that you can
+reduce<00:00:13.840><c> your</c><00:00:14.000><c> token</c><00:00:14.440><c> costs</c><00:00:15.280><c> while</c><00:00:15.600><c> using</c><00:00:16.200><c> and</c>
+
+00:00:16.350 --> 00:00:16.360 align:start position:0%
+reduce your token costs while using and
+ 
+
+00:00:16.360 --> 00:00:18.750 align:start position:0%
+reduce your token costs while using and
+creating<00:00:17.000><c> agents.</c>
+
+00:00:18.750 --> 00:00:18.760 align:start position:0%
+creating agents.
+ 
+
+00:00:18.760 --> 00:00:21.550 align:start position:0%
+creating agents.
+So,<00:00:19.040><c> the</c><00:00:19.200><c> first</c><00:00:19.840><c> way</c><00:00:20.200><c> you</c><00:00:20.360><c> can</c><00:00:20.520><c> do</c><00:00:20.680><c> that</c><00:00:21.120><c> is</c><00:00:21.360><c> to</c>
+
+00:00:21.550 --> 00:00:21.560 align:start position:0%
+So, the first way you can do that is to
+ 
+
+00:00:21.560 --> 00:00:24.790 align:start position:0%
+So, the first way you can do that is to
+cache<00:00:22.080><c> your</c><00:00:22.520><c> system</c><00:00:23.080><c> prompt.</c><00:00:24.240><c> Let</c><00:00:24.480><c> me</c><00:00:24.600><c> show</c>
+
+00:00:24.790 --> 00:00:24.800 align:start position:0%
+cache your system prompt. Let me show
+ 
+
+00:00:24.800 --> 00:00:28.310 align:start position:0%
+cache your system prompt. Let me show
+you<00:00:24.960><c> some</c><00:00:25.200><c> code.</c><00:00:25.920><c> Now,</c><00:00:26.120><c> I'm</c><00:00:26.320><c> using</c><00:00:27.120><c> AWS's</c>
+
+00:00:28.310 --> 00:00:28.320 align:start position:0%
+you some code. Now, I'm using AWS's
+ 
+
+00:00:28.320 --> 00:00:31.350 align:start position:0%
+you some code. Now, I'm using AWS's
+Strands<00:00:29.240><c> agents.</c><00:00:29.840><c> This</c><00:00:30.120><c> works</c><00:00:30.480><c> with</c><00:00:31.120><c> all</c>
+
+00:00:31.350 --> 00:00:31.360 align:start position:0%
+Strands agents. This works with all
+ 
+
+00:00:31.360 --> 00:00:33.630 align:start position:0%
+Strands agents. This works with all
+different<00:00:31.760><c> providers.</c><00:00:32.960><c> This</c><00:00:33.200><c> is</c><00:00:33.320><c> a</c><00:00:33.400><c> little</c>
+
+00:00:33.630 --> 00:00:33.640 align:start position:0%
+different providers. This is a little
+ 
+
+00:00:33.640 --> 00:00:36.310 align:start position:0%
+different providers. This is a little
+bit<00:00:33.800><c> of</c><00:00:33.880><c> pseudo</c><00:00:34.200><c> code,</c><00:00:34.480><c> but</c><00:00:34.640><c> the</c><00:00:34.840><c> idea</c><00:00:35.400><c> is</c><00:00:36.040><c> that</c>
+
+00:00:36.310 --> 00:00:36.320 align:start position:0%
+bit of pseudo code, but the idea is that
+ 
+
+00:00:36.320 --> 00:00:39.310 align:start position:0%
+bit of pseudo code, but the idea is that
+you<00:00:36.440><c> can</c><00:00:36.680><c> add</c><00:00:36.920><c> cache</c><00:00:37.360><c> prompt</c><00:00:37.760><c> equals</c><00:00:38.240><c> default.</c>
+
+00:00:39.310 --> 00:00:39.320 align:start position:0%
+you can add cache prompt equals default.
+ 
+
+00:00:39.320 --> 00:00:41.830 align:start position:0%
+you can add cache prompt equals default.
+And<00:00:39.520><c> what</c><00:00:39.680><c> that'll</c><00:00:39.960><c> do</c><00:00:40.320><c> is</c><00:00:40.520><c> on</c><00:00:40.680><c> the</c><00:00:40.840><c> first</c><00:00:41.360><c> call</c>
+
+00:00:41.830 --> 00:00:41.840 align:start position:0%
+And what that'll do is on the first call
+ 
+
+00:00:41.840 --> 00:00:45.830 align:start position:0%
+And what that'll do is on the first call
+of<00:00:42.000><c> your</c><00:00:42.200><c> agent,</c><00:00:43.160><c> it</c><00:00:43.480><c> will</c><00:00:44.200><c> send</c><00:00:44.680><c> the</c><00:00:45.000><c> full</c>
+
+00:00:45.830 --> 00:00:45.840 align:start position:0%
+of your agent, it will send the full
+ 
+
+00:00:45.840 --> 00:00:48.230 align:start position:0%
+of your agent, it will send the full
+system<00:00:46.280><c> prompt</c><00:00:46.720><c> over</c><00:00:47.280><c> and</c><00:00:47.480><c> then</c><00:00:47.680><c> on</c><00:00:47.880><c> every</c>
+
+00:00:48.230 --> 00:00:48.240 align:start position:0%
+system prompt over and then on every
+ 
+
+00:00:48.240 --> 00:00:51.230 align:start position:0%
+system prompt over and then on every
+subsequent<00:00:48.920><c> call,</c><00:00:49.600><c> it</c><00:00:49.720><c> will</c><00:00:49.920><c> have</c><00:00:50.400><c> a</c><00:00:50.880><c> much</c>
+
+00:00:51.230 --> 00:00:51.240 align:start position:0%
+subsequent call, it will have a much
+ 
+
+00:00:51.240 --> 00:00:54.350 align:start position:0%
+subsequent call, it will have a much
+reduced<00:00:52.200><c> system</c><00:00:52.600><c> prompt</c><00:00:52.960><c> being</c><00:00:53.200><c> sent</c><00:00:53.640><c> over.</c>
+
+00:00:54.350 --> 00:00:54.360 align:start position:0%
+reduced system prompt being sent over.
+ 
+
+00:00:54.360 --> 00:00:56.990 align:start position:0%
+reduced system prompt being sent over.
+So,<00:00:54.600><c> it'll</c><00:00:54.840><c> be</c><00:00:55.000><c> cached.</c><00:00:55.800><c> You</c><00:00:55.880><c> can</c><00:00:56.040><c> also</c><00:00:56.480><c> cache</c>
+
+00:00:56.990 --> 00:00:57.000 align:start position:0%
+So, it'll be cached. You can also cache
+ 
+
+00:00:57.000 --> 00:01:01.070 align:start position:0%
+So, it'll be cached. You can also cache
+the<00:00:57.240><c> tool</c><00:00:57.560><c> prompts</c><00:00:58.080><c> and</c><00:00:58.200><c> messages</c><00:00:59.120><c> as</c><00:00:59.400><c> well.</c>
+
+00:01:01.070 --> 00:01:01.080 align:start position:0%
+the tool prompts and messages as well.
+ 
+
+00:01:01.080 --> 00:01:03.910 align:start position:0%
+the tool prompts and messages as well.
+This<00:01:01.440><c> may</c><00:01:01.800><c> sound</c><00:01:02.360><c> obvious,</c><00:01:03.200><c> but</c><00:01:03.360><c> you</c><00:01:03.520><c> want</c><00:01:03.800><c> to</c>
+
+00:01:03.910 --> 00:01:03.920 align:start position:0%
+This may sound obvious, but you want to
+ 
+
+00:01:03.920 --> 00:01:06.910 align:start position:0%
+This may sound obvious, but you want to
+look<00:01:04.160><c> into</c><00:01:04.680><c> routing</c><00:01:05.640><c> your</c><00:01:05.960><c> different</c>
+
+00:01:06.910 --> 00:01:06.920 align:start position:0%
+look into routing your different
+ 
+
+00:01:06.920 --> 00:01:09.390 align:start position:0%
+look into routing your different
+messages<00:01:07.600><c> based</c><00:01:07.960><c> on</c><00:01:08.120><c> the</c><00:01:08.280><c> difficulty.</c><00:01:09.200><c> So,</c>
+
+00:01:09.390 --> 00:01:09.400 align:start position:0%
+messages based on the difficulty. So,
+ 
+
+00:01:09.400 --> 00:01:11.430 align:start position:0%
+messages based on the difficulty. So,
+here's<00:01:09.760><c> a</c><00:01:09.840><c> code</c><00:01:10.120><c> example.</c>
+
+00:01:11.430 --> 00:01:11.440 align:start position:0%
+here's a code example.
+ 
+
+00:01:11.440 --> 00:01:13.910 align:start position:0%
+here's a code example.
+Let's<00:01:11.760><c> imagine</c><00:01:12.320><c> that</c><00:01:12.560><c> you</c><00:01:12.680><c> have</c><00:01:13.480><c> a</c><00:01:13.560><c> task</c>
+
+00:01:13.910 --> 00:01:13.920 align:start position:0%
+Let's imagine that you have a task
+ 
+
+00:01:13.920 --> 00:01:16.070 align:start position:0%
+Let's imagine that you have a task
+that's<00:01:14.160><c> very</c><00:01:14.480><c> difficult.</c><00:01:15.360><c> You</c><00:01:15.520><c> may</c><00:01:15.800><c> want</c><00:01:15.960><c> to</c>
+
+00:01:16.070 --> 00:01:16.080 align:start position:0%
+that's very difficult. You may want to
+ 
+
+00:01:16.080 --> 00:01:18.670 align:start position:0%
+that's very difficult. You may want to
+use<00:01:16.480><c> one</c><00:01:16.680><c> of</c><00:01:16.760><c> the</c><00:01:16.880><c> newer</c><00:01:17.240><c> frontier</c><00:01:17.760><c> models.</c>
+
+00:01:18.670 --> 00:01:18.680 align:start position:0%
+use one of the newer frontier models.
+ 
+
+00:01:18.680 --> 00:01:21.110 align:start position:0%
+use one of the newer frontier models.
+However,<00:01:19.200><c> if</c><00:01:19.440><c> it's</c><00:01:19.600><c> something</c><00:01:19.960><c> simpler,</c><00:01:20.960><c> you</c>
+
+00:01:21.110 --> 00:01:21.120 align:start position:0%
+However, if it's something simpler, you
+ 
+
+00:01:21.120 --> 00:01:23.150 align:start position:0%
+However, if it's something simpler, you
+want<00:01:21.400><c> to</c><00:01:21.880><c> use</c><00:01:22.200><c> a</c><00:01:22.280><c> cheaper</c><00:01:22.600><c> model.</c><00:01:22.920><c> In</c><00:01:23.000><c> this</c>
+
+00:01:23.150 --> 00:01:23.160 align:start position:0%
+want to use a cheaper model. In this
+ 
+
+00:01:23.160 --> 00:01:25.350 align:start position:0%
+want to use a cheaper model. In this
+case,<00:01:23.480><c> maybe</c><00:01:23.760><c> we</c><00:01:23.840><c> use</c><00:01:24.040><c> Claude</c><00:01:24.400><c> Haiku</c><00:01:25.000><c> for</c><00:01:25.280><c> a</c>
+
+00:01:25.350 --> 00:01:25.360 align:start position:0%
+case, maybe we use Claude Haiku for a
+ 
+
+00:01:25.360 --> 00:01:27.590 align:start position:0%
+case, maybe we use Claude Haiku for a
+cheap<00:01:26.160><c> something</c><00:01:26.560><c> cheap</c><00:01:26.880><c> and</c><00:01:27.040><c> then</c><00:01:27.400><c> use</c>
+
+00:01:27.590 --> 00:01:27.600 align:start position:0%
+cheap something cheap and then use
+ 
+
+00:01:27.600 --> 00:01:29.070 align:start position:0%
+cheap something cheap and then use
+Claude<00:01:27.840><c> Sonnet</c><00:01:28.200><c> for</c><00:01:28.320><c> something</c><00:01:28.640><c> a</c><00:01:28.680><c> little</c><00:01:28.920><c> bit</c>
+
+00:01:29.070 --> 00:01:29.080 align:start position:0%
+Claude Sonnet for something a little bit
+ 
+
+00:01:29.080 --> 00:01:31.790 align:start position:0%
+Claude Sonnet for something a little bit
+more<00:01:29.280><c> difficult.</c><00:01:30.120><c> And</c><00:01:30.320><c> then</c><00:01:30.520><c> you</c><00:01:30.720><c> can</c><00:01:31.400><c> use</c><00:01:31.640><c> an</c>
+
+00:01:31.790 --> 00:01:31.800 align:start position:0%
+more difficult. And then you can use an
+ 
+
+00:01:31.800 --> 00:01:34.150 align:start position:0%
+more difficult. And then you can use an
+if<00:01:32.000><c> statement.</c><00:01:32.600><c> You</c><00:01:32.720><c> can</c><00:01:32.880><c> even</c><00:01:33.200><c> have</c><00:01:33.680><c> another</c>
+
+00:01:34.150 --> 00:01:34.160 align:start position:0%
+if statement. You can even have another
+ 
+
+00:01:34.160 --> 00:01:36.310 align:start position:0%
+if statement. You can even have another
+model<00:01:34.480><c> that's</c><00:01:34.680><c> very</c><00:01:34.880><c> cheap</c><00:01:35.320><c> decide</c><00:01:36.040><c> which</c>
+
+00:01:36.310 --> 00:01:36.320 align:start position:0%
+model that's very cheap decide which
+ 
+
+00:01:36.320 --> 00:01:38.390 align:start position:0%
+model that's very cheap decide which
+model<00:01:36.720><c> to</c><00:01:36.880><c> use.</c><00:01:37.560><c> So,</c><00:01:37.680><c> you</c><00:01:37.800><c> can</c><00:01:37.920><c> play</c><00:01:38.120><c> around</c>
+
+00:01:38.390 --> 00:01:38.400 align:start position:0%
+model to use. So, you can play around
+ 
+
+00:01:38.400 --> 00:01:40.230 align:start position:0%
+model to use. So, you can play around
+with<00:01:38.520><c> this,</c><00:01:39.080><c> but</c><00:01:39.240><c> I</c><00:01:39.280><c> highly</c><00:01:39.520><c> recommend</c><00:01:39.960><c> don't</c>
+
+00:01:40.230 --> 00:01:40.240 align:start position:0%
+with this, but I highly recommend don't
+ 
+
+00:01:40.240 --> 00:01:42.110 align:start position:0%
+with this, but I highly recommend don't
+use<00:01:40.480><c> the</c><00:01:40.640><c> most</c><00:01:40.920><c> expensive</c><00:01:41.600><c> model</c><00:01:41.920><c> for</c>
+
+00:01:42.110 --> 00:01:42.120 align:start position:0%
+use the most expensive model for
+ 
+
+00:01:42.120 --> 00:01:44.030 align:start position:0%
+use the most expensive model for
+everything<00:01:42.440><c> you're</c><00:01:42.520><c> doing.</c><00:01:43.280><c> You</c><00:01:43.400><c> want</c><00:01:43.640><c> to</c><00:01:43.760><c> use</c>
+
+00:01:44.030 --> 00:01:44.040 align:start position:0%
+everything you're doing. You want to use
+ 
+
+00:01:44.040 --> 00:01:46.190 align:start position:0%
+everything you're doing. You want to use
+multiple<00:01:44.640><c> different</c><00:01:45.040><c> models</c><00:01:45.520><c> based</c><00:01:45.920><c> on</c><00:01:46.080><c> the</c>
+
+00:01:46.190 --> 00:01:46.200 align:start position:0%
+multiple different models based on the
+ 
+
+00:01:46.200 --> 00:01:48.790 align:start position:0%
+multiple different models based on the
+use<00:01:46.520><c> case.</c><00:01:47.160><c> And</c><00:01:47.320><c> then</c><00:01:47.440><c> try</c><00:01:47.600><c> to</c><00:01:47.800><c> route</c><00:01:48.160><c> to</c><00:01:48.320><c> it</c>
+
+00:01:48.790 --> 00:01:48.800 align:start position:0%
+use case. And then try to route to it
+ 
+
+00:01:48.800 --> 00:01:51.110 align:start position:0%
+use case. And then try to route to it
+inside<00:01:49.240><c> your</c><00:01:49.480><c> agent.</c>
+
+00:01:51.110 --> 00:01:51.120 align:start position:0%
+inside your agent.
+ 
+
+00:01:51.120 --> 00:01:53.830 align:start position:0%
+inside your agent.
+Another<00:01:51.600><c> good</c><00:01:51.840><c> tip</c><00:01:52.240><c> is</c><00:01:52.400><c> to</c><00:01:52.640><c> offload</c><00:01:53.280><c> the</c><00:01:53.440><c> tool</c>
+
+00:01:53.830 --> 00:01:53.840 align:start position:0%
+Another good tip is to offload the tool
+ 
+
+00:01:53.840 --> 00:01:55.030 align:start position:0%
+Another good tip is to offload the tool
+result.
+
+00:01:55.030 --> 00:01:55.040 align:start position:0%
+result.
+ 
+
+00:01:55.040 --> 00:01:56.870 align:start position:0%
+result.
+Let<00:01:55.240><c> me</c><00:01:55.360><c> show</c><00:01:55.560><c> you</c><00:01:55.680><c> some</c><00:01:55.880><c> code</c><00:01:56.160><c> on</c><00:01:56.280><c> here.</c><00:01:56.720><c> Once</c>
+
+00:01:56.870 --> 00:01:56.880 align:start position:0%
+Let me show you some code on here. Once
+ 
+
+00:01:56.880 --> 00:01:59.070 align:start position:0%
+Let me show you some code on here. Once
+again,<00:01:57.200><c> I'm</c><00:01:57.320><c> using</c><00:01:57.560><c> strands</c><00:01:58.040><c> agents.</c><00:01:58.760><c> This</c><00:01:58.920><c> is</c>
+
+00:01:59.070 --> 00:01:59.080 align:start position:0%
+again, I'm using strands agents. This is
+ 
+
+00:01:59.080 --> 00:02:01.590 align:start position:0%
+again, I'm using strands agents. This is
+a<00:01:59.240><c> a</c><00:01:59.360><c> manual</c><00:01:59.800><c> way</c><00:01:59.880><c> to</c><00:02:00.040><c> do</c><00:02:00.200><c> it.</c><00:02:00.320><c> There</c><00:02:00.480><c> is</c><00:02:00.840><c> some</c>
+
+00:02:01.590 --> 00:02:01.600 align:start position:0%
+a a manual way to do it. There is some
+ 
+
+00:02:01.600 --> 00:02:04.710 align:start position:0%
+a a manual way to do it. There is some
+additional<00:02:02.560><c> APIs</c><00:02:03.360><c> that</c><00:02:03.640><c> the</c><00:02:03.760><c> strands</c><00:02:04.200><c> agents</c>
+
+00:02:04.710 --> 00:02:04.720 align:start position:0%
+additional APIs that the strands agents
+ 
+
+00:02:04.720 --> 00:02:06.590 align:start position:0%
+additional APIs that the strands agents
+offers<00:02:05.280><c> to</c><00:02:05.479><c> do</c><00:02:05.680><c> this.</c>
+
+00:02:06.590 --> 00:02:06.600 align:start position:0%
+offers to do this.
+ 
+
+00:02:06.600 --> 00:02:09.109 align:start position:0%
+offers to do this.
+If<00:02:06.840><c> you</c><00:02:07.000><c> have</c><00:02:07.360><c> a</c><00:02:07.440><c> large</c><00:02:07.880><c> tool</c><00:02:08.200><c> result</c><00:02:08.880><c> that's</c>
+
+00:02:09.109 --> 00:02:09.119 align:start position:0%
+If you have a large tool result that's
+ 
+
+00:02:09.119 --> 00:02:12.350 align:start position:0%
+If you have a large tool result that's
+coming<00:02:09.479><c> back,</c><00:02:10.160><c> you</c><00:02:10.320><c> can</c><00:02:10.679><c> store</c><00:02:11.000><c> it</c><00:02:11.160><c> locally</c><00:02:12.160><c> or</c>
+
+00:02:12.350 --> 00:02:12.360 align:start position:0%
+coming back, you can store it locally or
+ 
+
+00:02:12.360 --> 00:02:15.350 align:start position:0%
+coming back, you can store it locally or
+in<00:02:12.520><c> the</c><00:02:12.600><c> cloud</c><00:02:13.760><c> and</c><00:02:14.040><c> then</c><00:02:14.680><c> use</c><00:02:14.880><c> some</c><00:02:15.040><c> kind</c><00:02:15.240><c> of</c>
+
+00:02:15.350 --> 00:02:15.360 align:start position:0%
+in the cloud and then use some kind of
+ 
+
+00:02:15.360 --> 00:02:18.670 align:start position:0%
+in the cloud and then use some kind of
+summarization<00:02:16.640><c> that</c><00:02:17.320><c> saves</c><00:02:17.800><c> on</c><00:02:18.000><c> tokens.</c><00:02:18.560><c> So</c>
+
+00:02:18.670 --> 00:02:18.680 align:start position:0%
+summarization that saves on tokens. So
+ 
+
+00:02:18.680 --> 00:02:21.630 align:start position:0%
+summarization that saves on tokens. So
+that<00:02:18.959><c> way</c><00:02:19.760><c> when</c><00:02:20.040><c> it's</c><00:02:20.360><c> being</c><00:02:20.600><c> called</c><00:02:21.040><c> over</c><00:02:21.400><c> and</c>
+
+00:02:21.630 --> 00:02:21.640 align:start position:0%
+that way when it's being called over and
+ 
+
+00:02:21.640 --> 00:02:24.310 align:start position:0%
+that way when it's being called over and
+over<00:02:21.959><c> again,</c><00:02:22.600><c> the</c><00:02:22.760><c> tool</c><00:02:23.040><c> result</c><00:02:23.560><c> isn't</c><00:02:23.959><c> added</c>
+
+00:02:24.310 --> 00:02:24.320 align:start position:0%
+over again, the tool result isn't added
+ 
+
+00:02:24.320 --> 00:02:27.470 align:start position:0%
+over again, the tool result isn't added
+into<00:02:24.600><c> the</c><00:02:24.720><c> context</c><00:02:25.880><c> every</c><00:02:26.200><c> time</c><00:02:27.040><c> every</c><00:02:27.200><c> time</c>
+
+00:02:27.470 --> 00:02:27.480 align:start position:0%
+into the context every time every time
+ 
+
+00:02:27.480 --> 00:02:29.670 align:start position:0%
+into the context every time every time
+the<00:02:27.600><c> tool</c><00:02:27.920><c> loops</c><00:02:28.520><c> or</c><00:02:28.720><c> every</c><00:02:28.920><c> time</c><00:02:29.120><c> the</c><00:02:29.320><c> agent</c>
+
+00:02:29.670 --> 00:02:29.680 align:start position:0%
+the tool loops or every time the agent
+ 
+
+00:02:29.680 --> 00:02:32.230 align:start position:0%
+the tool loops or every time the agent
+loops.<00:02:30.480><c> So</c><00:02:30.680><c> if</c><00:02:30.760><c> you</c><00:02:30.840><c> can</c><00:02:30.959><c> find</c><00:02:31.240><c> any</c><00:02:31.440><c> way</c><00:02:31.959><c> that</c>
+
+00:02:32.230 --> 00:02:32.240 align:start position:0%
+loops. So if you can find any way that
+ 
+
+00:02:32.240 --> 00:02:34.710 align:start position:0%
+loops. So if you can find any way that
+where<00:02:32.720><c> you</c><00:02:32.920><c> have</c><00:02:33.120><c> this</c><00:02:33.320><c> tool</c><00:02:33.560><c> result</c><00:02:34.320><c> that</c><00:02:34.600><c> you</c>
+
+00:02:34.710 --> 00:02:34.720 align:start position:0%
+where you have this tool result that you
+ 
+
+00:02:34.720 --> 00:02:36.550 align:start position:0%
+where you have this tool result that you
+don't<00:02:34.880><c> necessarily</c><00:02:35.400><c> send</c><00:02:35.720><c> it</c><00:02:35.880><c> on</c><00:02:36.200><c> every</c>
+
+00:02:36.550 --> 00:02:36.560 align:start position:0%
+don't necessarily send it on every
+ 
+
+00:02:36.560 --> 00:02:38.630 align:start position:0%
+don't necessarily send it on every
+single<00:02:37.240><c> call</c><00:02:37.640><c> back</c><00:02:37.959><c> to</c><00:02:38.040><c> the</c><00:02:38.120><c> large</c><00:02:38.320><c> language</c>
+
+00:02:38.630 --> 00:02:38.640 align:start position:0%
+single call back to the large language
+ 
+
+00:02:38.640 --> 00:02:40.710 align:start position:0%
+single call back to the large language
+model,<00:02:38.920><c> that</c><00:02:39.120><c> will</c><00:02:39.240><c> save</c><00:02:39.720><c> a</c><00:02:39.800><c> lot</c><00:02:40.120><c> of</c><00:02:40.240><c> tokens</c>
+
+00:02:40.710 --> 00:02:40.720 align:start position:0%
+model, that will save a lot of tokens
+ 
+
+00:02:40.720 --> 00:02:42.510 align:start position:0%
+model, that will save a lot of tokens
+for<00:02:40.959><c> you.</c><00:02:41.400><c> And</c><00:02:41.600><c> like</c><00:02:41.760><c> I</c><00:02:41.800><c> said,</c><00:02:42.040><c> there's</c><00:02:42.200><c> a</c><00:02:42.240><c> few</c>
+
+00:02:42.510 --> 00:02:42.520 align:start position:0%
+for you. And like I said, there's a few
+ 
+
+00:02:42.520 --> 00:02:44.510 align:start position:0%
+for you. And like I said, there's a few
+APIs<00:02:42.959><c> to</c><00:02:43.080><c> do</c><00:02:43.200><c> this,</c><00:02:43.400><c> but</c><00:02:43.560><c> it</c><00:02:43.800><c> essentially</c><00:02:44.400><c> you</c>
+
+00:02:44.510 --> 00:02:44.520 align:start position:0%
+APIs to do this, but it essentially you
+ 
+
+00:02:44.520 --> 00:02:47.310 align:start position:0%
+APIs to do this, but it essentially you
+can<00:02:45.040><c> do</c><00:02:45.160><c> the</c><00:02:45.280><c> summarization</c><00:02:46.080><c> technique.</c>
+
+00:02:47.310 --> 00:02:47.320 align:start position:0%
+can do the summarization technique.
+ 
+
+00:02:47.320 --> 00:02:50.390 align:start position:0%
+can do the summarization technique.
+You<00:02:47.520><c> can</c><00:02:47.720><c> also</c><00:02:48.240><c> cap</c><00:02:48.640><c> your</c><00:02:48.800><c> tool</c><00:02:49.160><c> loops.</c>
+
+00:02:50.390 --> 00:02:50.400 align:start position:0%
+You can also cap your tool loops.
+ 
+
+00:02:50.400 --> 00:02:52.190 align:start position:0%
+You can also cap your tool loops.
+So<00:02:50.680><c> when</c><00:02:50.880><c> you're</c><00:02:51.080><c> dealing</c><00:02:51.440><c> with</c><00:02:51.560><c> the</c><00:02:51.760><c> agent</c>
+
+00:02:52.190 --> 00:02:52.200 align:start position:0%
+So when you're dealing with the agent
+ 
+
+00:02:52.200 --> 00:02:54.590 align:start position:0%
+So when you're dealing with the agent
+loop<00:02:52.680><c> and</c><00:02:52.840><c> it</c><00:02:52.959><c> decides</c><00:02:53.480><c> to</c><00:02:53.600><c> do</c><00:02:53.760><c> a</c><00:02:53.840><c> tool</c><00:02:54.160><c> call,</c>
+
+00:02:54.590 --> 00:02:54.600 align:start position:0%
+loop and it decides to do a tool call,
+ 
+
+00:02:54.600 --> 00:02:56.710 align:start position:0%
+loop and it decides to do a tool call,
+I've<00:02:54.760><c> had</c><00:02:55.000><c> this</c><00:02:55.280><c> happen</c><00:02:55.760><c> often</c><00:02:56.240><c> where</c><00:02:56.520><c> it</c>
+
+00:02:56.710 --> 00:02:56.720 align:start position:0%
+I've had this happen often where it
+ 
+
+00:02:56.720 --> 00:02:59.390 align:start position:0%
+I've had this happen often where it
+calls<00:02:57.040><c> the</c><00:02:57.160><c> tool</c><00:02:57.680><c> over</c><00:02:58.200><c> and</c><00:02:58.520><c> over</c><00:02:58.880><c> and</c><00:02:59.120><c> over</c>
+
+00:02:59.390 --> 00:02:59.400 align:start position:0%
+calls the tool over and over and over
+ 
+
+00:02:59.400 --> 00:03:02.430 align:start position:0%
+calls the tool over and over and over
+again.<00:03:00.200><c> And</c><00:03:00.600><c> if</c><00:03:00.760><c> you</c><00:03:00.840><c> don't</c><00:03:01.160><c> cap</c><00:03:01.519><c> that</c><00:03:02.120><c> tool</c>
+
+00:03:02.430 --> 00:03:02.440 align:start position:0%
+again. And if you don't cap that tool
+ 
+
+00:03:02.440 --> 00:03:06.550 align:start position:0%
+again. And if you don't cap that tool
+call,<00:03:03.400><c> then</c><00:03:03.760><c> it</c><00:03:03.959><c> might</c><00:03:04.440><c> run</c><00:03:04.920><c> 10,</c><00:03:05.360><c> 20</c><00:03:05.840><c> times.</c><00:03:06.440><c> It</c>
+
+00:03:06.550 --> 00:03:06.560 align:start position:0%
+call, then it might run 10, 20 times. It
+ 
+
+00:03:06.560 --> 00:03:08.670 align:start position:0%
+call, then it might run 10, 20 times. It
+might<00:03:06.800><c> get</c><00:03:06.959><c> into</c><00:03:07.440><c> an</c><00:03:07.640><c> infinite</c><00:03:08.160><c> loop,</c><00:03:08.440><c> which</c>
+
+00:03:08.670 --> 00:03:08.680 align:start position:0%
+might get into an infinite loop, which
+ 
+
+00:03:08.680 --> 00:03:10.830 align:start position:0%
+might get into an infinite loop, which
+would<00:03:08.840><c> be</c><00:03:09.000><c> very</c><00:03:09.239><c> bad</c><00:03:09.560><c> for</c><00:03:09.680><c> your</c><00:03:09.800><c> token</c><00:03:10.160><c> usage.</c>
+
+00:03:10.830 --> 00:03:10.840 align:start position:0%
+would be very bad for your token usage.
+ 
+
+00:03:10.840 --> 00:03:13.630 align:start position:0%
+would be very bad for your token usage.
+So<00:03:11.080><c> always</c><00:03:11.640><c> set</c><00:03:12.000><c> a</c><00:03:12.120><c> max</c><00:03:12.480><c> iterations</c><00:03:13.239><c> of</c><00:03:13.480><c> how</c>
+
+00:03:13.630 --> 00:03:13.640 align:start position:0%
+So always set a max iterations of how
+ 
+
+00:03:13.640 --> 00:03:17.070 align:start position:0%
+So always set a max iterations of how
+many<00:03:13.959><c> times</c><00:03:14.760><c> it</c><00:03:14.959><c> will</c><00:03:15.120><c> loop.</c><00:03:16.000><c> A</c><00:03:16.160><c> good</c><00:03:16.840><c> thing</c>
+
+00:03:17.070 --> 00:03:17.080 align:start position:0%
+many times it will loop. A good thing
+ 
+
+00:03:17.080 --> 00:03:19.630 align:start position:0%
+many times it will loop. A good thing
+you<00:03:17.200><c> can</c><00:03:17.400><c> do</c><00:03:17.640><c> before</c><00:03:18.320><c> you</c><00:03:18.560><c> deploy</c><00:03:18.959><c> your</c><00:03:19.200><c> agent</c>
+
+00:03:19.630 --> 00:03:19.640 align:start position:0%
+you can do before you deploy your agent
+ 
+
+00:03:19.640 --> 00:03:22.350 align:start position:0%
+you can do before you deploy your agent
+is<00:03:19.840><c> to</c><00:03:19.959><c> run</c><00:03:20.200><c> some</c><00:03:20.440><c> observability</c><00:03:21.320><c> tools</c><00:03:22.120><c> and</c>
+
+00:03:22.350 --> 00:03:22.360 align:start position:0%
+is to run some observability tools and
+ 
+
+00:03:22.360 --> 00:03:25.270 align:start position:0%
+is to run some observability tools and
+take<00:03:22.560><c> a</c><00:03:22.600><c> look</c><00:03:23.040><c> at</c><00:03:23.280><c> the</c><00:03:23.760><c> tool</c><00:03:24.080><c> call</c><00:03:24.480><c> use</c><00:03:25.040><c> for</c>
+
+00:03:25.270 --> 00:03:25.280 align:start position:0%
+take a look at the tool call use for
+ 
+
+00:03:25.280 --> 00:03:27.830 align:start position:0%
+take a look at the tool call use for
+every<00:03:25.480><c> single</c><00:03:25.800><c> tool</c><00:03:26.600><c> and</c><00:03:26.760><c> then</c><00:03:27.000><c> see</c><00:03:27.239><c> how</c><00:03:27.440><c> long</c>
+
+00:03:27.830 --> 00:03:27.840 align:start position:0%
+every single tool and then see how long
+ 
+
+00:03:27.840 --> 00:03:30.150 align:start position:0%
+every single tool and then see how long
+each<00:03:28.040><c> one</c><00:03:28.320><c> of</c><00:03:28.519><c> them</c><00:03:28.840><c> is</c><00:03:29.040><c> running</c><00:03:29.480><c> and</c><00:03:29.800><c> how</c><00:03:30.000><c> many</c>
+
+00:03:30.150 --> 00:03:30.160 align:start position:0%
+each one of them is running and how many
+ 
+
+00:03:30.160 --> 00:03:32.110 align:start position:0%
+each one of them is running and how many
+times<00:03:30.519><c> they're</c><00:03:30.680><c> looping.</c><00:03:31.480><c> And</c><00:03:31.600><c> that</c><00:03:31.760><c> way</c><00:03:31.959><c> you</c>
+
+00:03:32.110 --> 00:03:32.120 align:start position:0%
+times they're looping. And that way you
+ 
+
+00:03:32.120 --> 00:03:34.630 align:start position:0%
+times they're looping. And that way you
+can<00:03:32.239><c> get</c><00:03:32.360><c> an</c><00:03:32.480><c> idea</c><00:03:33.120><c> of</c><00:03:33.680><c> how</c><00:03:33.880><c> efficient</c><00:03:34.519><c> the</c>
+
+00:03:34.630 --> 00:03:34.640 align:start position:0%
+can get an idea of how efficient the
+ 
+
+00:03:34.640 --> 00:03:37.229 align:start position:0%
+can get an idea of how efficient the
+tool<00:03:34.880><c> call</c><00:03:35.239><c> is.</c>
+
+00:03:37.229 --> 00:03:37.239 align:start position:0%
+tool call is.
+ 
+
+00:03:37.239 --> 00:03:40.150 align:start position:0%
+tool call is.
+Last<00:03:37.720><c> but</c><00:03:37.920><c> not</c><00:03:38.239><c> least,</c><00:03:39.000><c> we</c><00:03:39.160><c> can</c><00:03:39.440><c> trim</c><00:03:40.040><c> the</c>
+
+00:03:40.150 --> 00:03:40.160 align:start position:0%
+Last but not least, we can trim the
+ 
+
+00:03:40.160 --> 00:03:42.390 align:start position:0%
+Last but not least, we can trim the
+history.
+
+00:03:42.390 --> 00:03:42.400 align:start position:0%
+history.
+ 
+
+00:03:42.400 --> 00:03:45.670 align:start position:0%
+history.
+So<00:03:42.680><c> if</c><00:03:42.760><c> we're</c><00:03:42.920><c> using</c><00:03:44.000><c> a</c><00:03:44.120><c> multi-turn</c><00:03:44.959><c> agent</c><00:03:45.519><c> and</c>
+
+00:03:45.670 --> 00:03:45.680 align:start position:0%
+So if we're using a multi-turn agent and
+ 
+
+00:03:45.680 --> 00:03:48.310 align:start position:0%
+So if we're using a multi-turn agent and
+we<00:03:45.840><c> are</c><00:03:46.000><c> talking</c><00:03:46.519><c> back</c><00:03:46.800><c> and</c><00:03:46.959><c> forth,</c><00:03:47.959><c> you</c><00:03:48.160><c> will</c>
+
+00:03:48.310 --> 00:03:48.320 align:start position:0%
+we are talking back and forth, you will
+ 
+
+00:03:48.320 --> 00:03:51.150 align:start position:0%
+we are talking back and forth, you will
+find<00:03:48.880><c> at</c><00:03:49.080><c> times</c><00:03:49.440><c> that</c><00:03:50.200><c> the</c><00:03:50.480><c> conversation</c>
+
+00:03:51.150 --> 00:03:51.160 align:start position:0%
+find at times that the conversation
+ 
+
+00:03:51.160 --> 00:03:53.390 align:start position:0%
+find at times that the conversation
+history<00:03:51.519><c> will</c><00:03:51.680><c> get</c><00:03:51.920><c> very</c><00:03:52.200><c> large</c><00:03:52.720><c> on</c><00:03:53.080><c> every</c>
+
+00:03:53.390 --> 00:03:53.400 align:start position:0%
+history will get very large on every
+ 
+
+00:03:53.400 --> 00:03:55.830 align:start position:0%
+history will get very large on every
+single<00:03:53.840><c> call,</c><00:03:54.600><c> that</c><00:03:54.840><c> whole</c><00:03:55.080><c> conversation</c>
+
+00:03:55.830 --> 00:03:55.840 align:start position:0%
+single call, that whole conversation
+ 
+
+00:03:55.840 --> 00:03:57.750 align:start position:0%
+single call, that whole conversation
+history<00:03:56.240><c> will</c><00:03:56.400><c> be</c><00:03:56.560><c> sent</c><00:03:56.920><c> back</c><00:03:57.160><c> to</c><00:03:57.240><c> the</c><00:03:57.360><c> large</c>
+
+00:03:57.750 --> 00:03:57.760 align:start position:0%
+history will be sent back to the large
+ 
+
+00:03:57.760 --> 00:04:00.430 align:start position:0%
+history will be sent back to the large
+language<00:03:58.240><c> model.</c><00:03:59.120><c> And</c><00:03:59.280><c> this</c><00:03:59.480><c> can</c><00:03:59.680><c> eat</c><00:03:59.880><c> through</c>
+
+00:04:00.430 --> 00:04:00.440 align:start position:0%
+language model. And this can eat through
+ 
+
+00:04:00.440 --> 00:04:03.430 align:start position:0%
+language model. And this can eat through
+hundreds,<00:04:01.280><c> if</c><00:04:01.440><c> not</c><00:04:01.640><c> thousands,</c><00:04:02.240><c> of</c><00:04:02.400><c> tokens.</c>
+
+00:04:03.430 --> 00:04:03.440 align:start position:0%
+hundreds, if not thousands, of tokens.
+ 
+
+00:04:03.440 --> 00:04:05.070 align:start position:0%
+hundreds, if not thousands, of tokens.
+In<00:04:03.720><c> Strand's</c><00:04:04.160><c> agents,</c><00:04:04.560><c> we</c><00:04:04.680><c> have</c><00:04:04.840><c> something</c>
+
+00:04:05.070 --> 00:04:05.080 align:start position:0%
+In Strand's agents, we have something
+ 
+
+00:04:05.080 --> 00:04:07.350 align:start position:0%
+In Strand's agents, we have something
+called<00:04:05.360><c> sliding</c><00:04:05.920><c> window</c><00:04:06.360><c> conversation</c>
+
+00:04:07.350 --> 00:04:07.360 align:start position:0%
+called sliding window conversation
+ 
+
+00:04:07.360 --> 00:04:10.510 align:start position:0%
+called sliding window conversation
+manager,<00:04:08.360><c> which</c><00:04:09.280><c> which</c><00:04:09.680><c> this</c><00:04:09.880><c> does</c><00:04:10.200><c> is</c><00:04:10.360><c> it</c>
+
+00:04:10.510 --> 00:04:10.520 align:start position:0%
+manager, which which this does is it
+ 
+
+00:04:10.520 --> 00:04:12.790 align:start position:0%
+manager, which which this does is it
+looks<00:04:10.800><c> back</c><00:04:11.120><c> at</c><00:04:11.280><c> the</c><00:04:11.400><c> last</c><00:04:11.720><c> 10</c><00:04:11.959><c> messages</c><00:04:12.600><c> and</c>
+
+00:04:12.790 --> 00:04:12.800 align:start position:0%
+looks back at the last 10 messages and
+ 
+
+00:04:12.800 --> 00:04:14.830 align:start position:0%
+looks back at the last 10 messages and
+only<00:04:13.040><c> sends</c><00:04:13.600><c> those</c><00:04:13.880><c> back.</c><00:04:14.200><c> And</c><00:04:14.320><c> you</c><00:04:14.400><c> can</c><00:04:14.600><c> set</c>
+
+00:04:14.830 --> 00:04:14.840 align:start position:0%
+only sends those back. And you can set
+ 
+
+00:04:14.840 --> 00:04:17.590 align:start position:0%
+only sends those back. And you can set
+this<00:04:15.040><c> to</c><00:04:15.200><c> whatever</c><00:04:15.560><c> you</c><00:04:15.720><c> want.</c><00:04:16.720><c> And</c><00:04:16.959><c> that</c><00:04:17.200><c> way</c>
+
+00:04:17.590 --> 00:04:17.600 align:start position:0%
+this to whatever you want. And that way
+ 
+
+00:04:17.600 --> 00:04:19.630 align:start position:0%
+this to whatever you want. And that way
+you're<00:04:17.760><c> not</c><00:04:18.000><c> sending</c><00:04:18.320><c> these</c><00:04:18.560><c> huge</c><00:04:19.200><c> message</c>
+
+00:04:19.630 --> 00:04:19.640 align:start position:0%
+you're not sending these huge message
+ 
+
+00:04:19.640 --> 00:04:23.110 align:start position:0%
+you're not sending these huge message
+histories<00:04:20.680><c> back</c><00:04:21.040><c> to</c><00:04:21.280><c> the</c><00:04:21.640><c> agent</c><00:04:22.520><c> every</c><00:04:22.760><c> single</c>
+
+00:04:23.110 --> 00:04:23.120 align:start position:0%
+histories back to the agent every single
+ 
+
+00:04:23.120 --> 00:04:25.790 align:start position:0%
+histories back to the agent every single
+time<00:04:23.800><c> a</c><00:04:23.880><c> new</c><00:04:24.080><c> message</c><00:04:24.480><c> comes</c><00:04:24.800><c> in.</c><00:04:25.480><c> The</c>
+
+00:04:25.790 --> 00:04:25.800 align:start position:0%
+time a new message comes in. The
+ 
+
+00:04:25.800 --> 00:04:28.230 align:start position:0%
+time a new message comes in. The
+downfall<00:04:26.440><c> of</c><00:04:26.640><c> this,</c><00:04:27.240><c> or</c><00:04:27.400><c> the</c><00:04:27.560><c> trade-off</c><00:04:28.120><c> of</c>
+
+00:04:28.230 --> 00:04:28.240 align:start position:0%
+downfall of this, or the trade-off of
+ 
+
+00:04:28.240 --> 00:04:30.430 align:start position:0%
+downfall of this, or the trade-off of
+this,<00:04:28.480><c> I</c><00:04:28.560><c> should</c><00:04:28.800><c> say,</c><00:04:29.520><c> is</c><00:04:29.760><c> that</c><00:04:30.120><c> you</c><00:04:30.240><c> will</c>
+
+00:04:30.430 --> 00:04:30.440 align:start position:0%
+this, I should say, is that you will
+ 
+
+00:04:30.440 --> 00:04:31.790 align:start position:0%
+this, I should say, is that you will
+lose<00:04:30.800><c> the</c><00:04:30.960><c> message</c><00:04:31.280><c> history</c><00:04:31.600><c> from</c><00:04:31.720><c> the</c>
+
+00:04:31.790 --> 00:04:31.800 align:start position:0%
+lose the message history from the
+ 
+
+00:04:31.800 --> 00:04:33.909 align:start position:0%
+lose the message history from the
+beginning.<00:04:32.800><c> The</c><00:04:33.120><c> way</c><00:04:33.280><c> you</c><00:04:33.400><c> want</c><00:04:33.600><c> to</c><00:04:33.640><c> deal</c><00:04:33.800><c> with</c>
+
+00:04:33.909 --> 00:04:33.919 align:start position:0%
+beginning. The way you want to deal with
+ 
+
+00:04:33.919 --> 00:04:36.070 align:start position:0%
+beginning. The way you want to deal with
+that<00:04:34.280><c> is</c><00:04:34.560><c> you</c><00:04:34.720><c> can</c><00:04:35.000><c> use</c><00:04:35.520><c> uh</c><00:04:35.600><c> some</c><00:04:35.800><c> sort</c><00:04:36.000><c> of</c>
+
+00:04:36.070 --> 00:04:36.080 align:start position:0%
+that is you can use uh some sort of
+ 
+
+00:04:36.080 --> 00:04:38.670 align:start position:0%
+that is you can use uh some sort of
+summarization<00:04:37.040><c> of</c><00:04:37.240><c> the</c><00:04:37.360><c> history</c><00:04:38.320><c> and</c><00:04:38.520><c> then</c>
+
+00:04:38.670 --> 00:04:38.680 align:start position:0%
+summarization of the history and then
+ 
+
+00:04:38.680 --> 00:04:40.950 align:start position:0%
+summarization of the history and then
+put<00:04:38.880><c> that</c><00:04:39.160><c> into</c><00:04:39.400><c> the</c><00:04:39.480><c> context</c><00:04:40.120><c> window.</c><00:04:40.800><c> So,</c>
+
+00:04:40.950 --> 00:04:40.960 align:start position:0%
+put that into the context window. So,
+ 
+
+00:04:40.960 --> 00:04:42.750 align:start position:0%
+put that into the context window. So,
+rather<00:04:41.280><c> than</c><00:04:41.440><c> sending</c><00:04:41.919><c> all</c><00:04:42.120><c> of</c><00:04:42.200><c> it,</c><00:04:42.360><c> you</c><00:04:42.480><c> may</c>
+
+00:04:42.750 --> 00:04:42.760 align:start position:0%
+rather than sending all of it, you may
+ 
+
+00:04:42.760 --> 00:04:45.110 align:start position:0%
+rather than sending all of it, you may
+send<00:04:43.160><c> a</c><00:04:43.280><c> small</c><00:04:43.680><c> amount</c><00:04:44.160><c> once</c><00:04:44.480><c> you</c><00:04:44.640><c> hit</c><00:04:44.880><c> this</c>
+
+00:04:45.110 --> 00:04:45.120 align:start position:0%
+send a small amount once you hit this
+ 
+
+00:04:45.120 --> 00:04:46.710 align:start position:0%
+send a small amount once you hit this
+sliding<00:04:45.560><c> window.</c>
+
+00:04:46.710 --> 00:04:46.720 align:start position:0%
+sliding window.
+ 
+
+00:04:46.720 --> 00:04:50.630 align:start position:0%
+sliding window.
+Uh<00:04:46.960><c> this</c><00:04:47.200><c> will</c><00:04:47.320><c> save</c><00:04:47.560><c> you</c><00:04:47.760><c> a</c><00:04:47.880><c> lot</c><00:04:48.320><c> of</c><00:04:48.440><c> tokens.</c>
+
+00:04:50.630 --> 00:04:50.640 align:start position:0%
+Uh this will save you a lot of tokens.
+ 
+
+00:04:50.640 --> 00:04:53.870 align:start position:0%
+Uh this will save you a lot of tokens.
+So,<00:04:51.200><c> in</c><00:04:51.400><c> conclusion,</c><00:04:52.640><c> we</c><00:04:52.960><c> have</c><00:04:53.160><c> five</c><00:04:53.400><c> things.</c>
+
+00:04:53.870 --> 00:04:53.880 align:start position:0%
+So, in conclusion, we have five things.
+ 
+
+00:04:53.880 --> 00:04:55.990 align:start position:0%
+So, in conclusion, we have five things.
+Cache<00:04:54.240><c> the</c><00:04:54.360><c> system</c><00:04:54.800><c> prompt.</c>
+
+00:04:55.990 --> 00:04:56.000 align:start position:0%
+Cache the system prompt.
+ 
+
+00:04:56.000 --> 00:04:58.070 align:start position:0%
+Cache the system prompt.
+And<00:04:56.400><c> if</c><00:04:56.560><c> you</c><00:04:56.680><c> can,</c><00:04:57.000><c> maybe</c><00:04:57.200><c> the</c><00:04:57.360><c> tool</c><00:04:57.640><c> prompt</c>
+
+00:04:58.070 --> 00:04:58.080 align:start position:0%
+And if you can, maybe the tool prompt
+ 
+
+00:04:58.080 --> 00:05:00.750 align:start position:0%
+And if you can, maybe the tool prompt
+and<00:04:58.160><c> messages.</c><00:04:59.200><c> Route</c><00:04:59.680><c> by</c><00:04:59.840><c> difficulty.</c><00:05:00.480><c> Don't</c>
+
+00:05:00.750 --> 00:05:00.760 align:start position:0%
+and messages. Route by difficulty. Don't
+ 
+
+00:05:00.760 --> 00:05:02.550 align:start position:0%
+and messages. Route by difficulty. Don't
+use<00:05:01.000><c> the</c><00:05:01.120><c> same</c><00:05:01.440><c> expensive</c><00:05:02.000><c> model</c><00:05:02.320><c> for</c>
+
+00:05:02.550 --> 00:05:02.560 align:start position:0%
+use the same expensive model for
+ 
+
+00:05:02.560 --> 00:05:03.870 align:start position:0%
+use the same expensive model for
+everything<00:05:03.160><c> you're</c><00:05:03.320><c> doing,</c><00:05:03.640><c> for</c><00:05:03.720><c> every</c>
+
+00:05:03.870 --> 00:05:03.880 align:start position:0%
+everything you're doing, for every
+ 
+
+00:05:03.880 --> 00:05:06.909 align:start position:0%
+everything you're doing, for every
+single<00:05:04.120><c> task.</c><00:05:05.120><c> Offload</c><00:05:05.720><c> these</c><00:05:06.000><c> big</c><00:05:06.400><c> tool</c>
+
+00:05:06.909 --> 00:05:06.919 align:start position:0%
+single task. Offload these big tool
+ 
+
+00:05:06.919 --> 00:05:09.830 align:start position:0%
+single task. Offload these big tool
+results.<00:05:08.120><c> So,</c><00:05:08.600><c> if</c><00:05:08.840><c> you</c><00:05:08.960><c> have</c><00:05:09.240><c> a</c><00:05:09.320><c> large</c><00:05:09.680><c> tool</c>
+
+00:05:09.830 --> 00:05:09.840 align:start position:0%
+results. So, if you have a large tool
+ 
+
+00:05:09.840 --> 00:05:11.950 align:start position:0%
+results. So, if you have a large tool
+result,<00:05:10.320><c> you</c><00:05:10.440><c> can</c><00:05:10.640><c> summarize</c><00:05:11.200><c> it</c><00:05:11.640><c> and</c><00:05:11.760><c> not</c>
+
+00:05:11.950 --> 00:05:11.960 align:start position:0%
+result, you can summarize it and not
+ 
+
+00:05:11.960 --> 00:05:14.550 align:start position:0%
+result, you can summarize it and not
+have<00:05:12.120><c> it</c><00:05:12.240><c> being</c><00:05:12.400><c> sent</c><00:05:12.840><c> in</c><00:05:13.000><c> the</c><00:05:13.240><c> agent</c><00:05:13.520><c> loop</c><00:05:13.760><c> and</c>
+
+00:05:14.550 --> 00:05:14.560 align:start position:0%
+have it being sent in the agent loop and
+ 
+
+00:05:14.560 --> 00:05:16.950 align:start position:0%
+have it being sent in the agent loop and
+overloading<00:05:15.200><c> your</c><00:05:15.320><c> context.</c><00:05:16.320><c> You</c><00:05:16.520><c> can</c><00:05:16.680><c> cap</c>
+
+00:05:16.950 --> 00:05:16.960 align:start position:0%
+overloading your context. You can cap
+ 
+
+00:05:16.960 --> 00:05:18.390 align:start position:0%
+overloading your context. You can cap
+those<00:05:17.160><c> tool</c><00:05:17.400><c> loops.</c><00:05:17.720><c> Make</c><00:05:17.919><c> sure</c><00:05:18.080><c> you</c><00:05:18.200><c> use</c>
+
+00:05:18.390 --> 00:05:18.400 align:start position:0%
+those tool loops. Make sure you use
+ 
+
+00:05:18.400 --> 00:05:21.310 align:start position:0%
+those tool loops. Make sure you use
+observability<00:05:19.160><c> tools</c><00:05:19.600><c> to</c><00:05:19.720><c> see</c><00:05:20.080><c> how</c><00:05:20.320><c> long</c><00:05:21.080><c> tool</c>
+
+00:05:21.310 --> 00:05:21.320 align:start position:0%
+observability tools to see how long tool
+ 
+
+00:05:21.320 --> 00:05:23.030 align:start position:0%
+observability tools to see how long tool
+calls<00:05:21.600><c> are</c><00:05:21.680><c> taking</c><00:05:22.080><c> and</c><00:05:22.200><c> how</c><00:05:22.400><c> many</c><00:05:22.600><c> loops</c>
+
+00:05:23.030 --> 00:05:23.040 align:start position:0%
+calls are taking and how many loops
+ 
+
+00:05:23.040 --> 00:05:25.190 align:start position:0%
+calls are taking and how many loops
+they're<00:05:23.840><c> they're</c><00:05:24.000><c> doing</c><00:05:24.320><c> and</c><00:05:24.560><c> and</c><00:05:24.720><c> then</c><00:05:24.960><c> try</c>
+
+00:05:25.190 --> 00:05:25.200 align:start position:0%
+they're they're doing and and then try
+ 
+
+00:05:25.200 --> 00:05:27.550 align:start position:0%
+they're they're doing and and then try
+to<00:05:25.880><c> iterate</c><00:05:26.240><c> over</c><00:05:26.400><c> that.</c><00:05:27.000><c> And</c><00:05:27.160><c> then,</c><00:05:27.520><c> of</c>
+
+00:05:27.550 --> 00:05:27.560 align:start position:0%
+to iterate over that. And then, of
+ 
+
+00:05:27.560 --> 00:05:29.230 align:start position:0%
+to iterate over that. And then, of
+course,<00:05:27.880><c> trim</c><00:05:28.080><c> the</c><00:05:28.160><c> history</c><00:05:28.720><c> if</c><00:05:28.880><c> you're</c><00:05:28.960><c> using</c>
+
+00:05:29.230 --> 00:05:29.240 align:start position:0%
+course, trim the history if you're using
+ 
+
+00:05:29.240 --> 00:05:31.470 align:start position:0%
+course, trim the history if you're using
+a<00:05:29.320><c> multi-turn</c><00:05:30.080><c> conversation</c><00:05:31.080><c> with</c><00:05:31.240><c> your</c>
+
+00:05:31.470 --> 00:05:31.480 align:start position:0%
+a multi-turn conversation with your
+ 
+
+00:05:31.480 --> 00:05:32.950 align:start position:0%
+a multi-turn conversation with your
+agent,<00:05:32.040><c> so</c><00:05:32.120><c> that</c><00:05:32.280><c> way</c><00:05:32.520><c> the</c><00:05:32.720><c> whole</c>
+
+00:05:32.950 --> 00:05:32.960 align:start position:0%
+agent, so that way the whole
+ 
+
+00:05:32.960 --> 00:05:34.710 align:start position:0%
+agent, so that way the whole
+conversation<00:05:33.640><c> isn't</c><00:05:33.919><c> being</c><00:05:34.120><c> sent</c><00:05:34.440><c> over</c><00:05:34.600><c> and</c>
+
+00:05:34.710 --> 00:05:34.720 align:start position:0%
+conversation isn't being sent over and
+ 
+
+00:05:34.720 --> 00:05:37.670 align:start position:0%
+conversation isn't being sent over and
+over<00:05:34.880><c> again</c><00:05:35.280><c> for</c><00:05:35.440><c> very</c><00:05:35.680><c> long</c><00:05:35.880><c> conversations.</c>
+
+00:05:37.670 --> 00:05:37.680 align:start position:0%
+over again for very long conversations.
+ 
+
+00:05:37.680 --> 00:05:40.270 align:start position:0%
+over again for very long conversations.
+Thank<00:05:38.040><c> you</c><00:05:38.440><c> for</c><00:05:39.280><c> listening</c><00:05:39.680><c> to</c><00:05:39.840><c> my</c><00:05:40.000><c> very</c>
+
+00:05:40.270 --> 00:05:40.280 align:start position:0%
+Thank you for listening to my very
+ 
+
+00:05:40.280 --> 00:05:42.470 align:start position:0%
+Thank you for listening to my very
+quick,<00:05:40.640><c> almost</c><00:05:41.000><c> lightning</c><00:05:41.360><c> talk</c><00:05:41.680><c> today.</c><00:05:42.320><c> If</c>
+
+00:05:42.470 --> 00:05:42.480 align:start position:0%
+quick, almost lightning talk today. If
+ 
+
+00:05:42.480 --> 00:05:44.030 align:start position:0%
+quick, almost lightning talk today. If
+you<00:05:42.560><c> like</c><00:05:42.760><c> to</c><00:05:42.840><c> go</c><00:05:43.000><c> deeper,</c><00:05:43.360><c> find</c><00:05:43.680><c> me</c><00:05:43.840><c> on</c>
+
+00:05:44.030 --> 00:05:44.040 align:start position:0%
+you like to go deeper, find me on
+ 
+
+00:05:44.040 --> 00:05:46.510 align:start position:0%
+you like to go deeper, find me on
+LinkedIn<00:05:44.560><c> at</c><00:05:44.800><c> Eric</c><00:05:45.040><c> Hanchett.</c><00:05:45.520><c> I</c><00:05:45.640><c> also</c><00:05:46.000><c> blog</c>
+
+00:05:46.510 --> 00:05:46.520 align:start position:0%
+LinkedIn at Eric Hanchett. I also blog
+ 
+
+00:05:46.520 --> 00:05:49.750 align:start position:0%
+LinkedIn at Eric Hanchett. I also blog
+at<00:05:47.120><c> programwitheric.com.</c>
+
+00:05:49.750 --> 00:05:49.760 align:start position:0%
+at programwitheric.com.
+ 
+
+00:05:49.760 --> 00:05:51.350 align:start position:0%
+at programwitheric.com.
+And<00:05:49.920><c> then</c><00:05:50.040><c> you</c><00:05:50.120><c> can</c><00:05:50.240><c> find</c><00:05:50.480><c> me</c><00:05:50.600><c> on</c><00:05:50.720><c> social</c><00:05:51.040><c> media</c>
+
+00:05:51.350 --> 00:05:51.360 align:start position:0%
+And then you can find me on social media
+ 
+
+00:05:51.360 --> 00:05:53.590 align:start position:0%
+And then you can find me on social media
+at<00:05:51.560><c> EricCH.</c><00:05:52.760><c> Love</c><00:05:53.000><c> to</c><00:05:53.080><c> talk</c><00:05:53.280><c> to</c><00:05:53.360><c> you</c><00:05:53.400><c> guys</c>
+
+00:05:53.590 --> 00:05:53.600 align:start position:0%
+at EricCH. Love to talk to you guys
+ 
+
+00:05:53.600 --> 00:05:56.520 align:start position:0%
+at EricCH. Love to talk to you guys
+more.<00:05:54.040><c> Thanks.</c>
+

@@ -1,0 +1,4408 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.839 --> 00:00:04.390 align:start position:0%
+ 
+Hello<00:00:02.080><c> everyone.</c><00:00:02.720><c> My</c><00:00:02.879><c> name</c><00:00:03.040><c> is</c><00:00:03.160><c> Immani.</c><00:00:04.160><c> I'm</c>
+
+00:00:04.390 --> 00:00:04.400 align:start position:0%
+Hello everyone. My name is Immani. I'm
+ 
+
+00:00:04.400 --> 00:00:07.749 align:start position:0%
+Hello everyone. My name is Immani. I'm
+the<00:00:04.560><c> co-founding</c><00:00:05.440><c> head</c><00:00:05.680><c> of</c><00:00:05.839><c> AI</c><00:00:06.240><c> at</c><00:00:06.799><c> Cat.io.</c>
+
+00:00:07.749 --> 00:00:07.759 align:start position:0%
+the co-founding head of AI at Cat.io.
+ 
+
+00:00:07.759 --> 00:00:09.509 align:start position:0%
+the co-founding head of AI at Cat.io.
+Today<00:00:08.000><c> I'm</c><00:00:08.240><c> talking</c><00:00:08.559><c> about</c><00:00:09.120><c> grounded</c>
+
+00:00:09.509 --> 00:00:09.519 align:start position:0%
+Today I'm talking about grounded
+ 
+
+00:00:09.519 --> 00:00:11.430 align:start position:0%
+Today I'm talking about grounded
+reasoning<00:00:10.000><c> systems</c><00:00:10.639><c> uh</c><00:00:10.800><c> for</c><00:00:11.120><c> cloud</c>
+
+00:00:11.430 --> 00:00:11.440 align:start position:0%
+reasoning systems uh for cloud
+ 
+
+00:00:11.440 --> 00:00:13.910 align:start position:0%
+reasoning systems uh for cloud
+architecture<00:00:12.400><c> and</c><00:00:12.880><c> uh</c><00:00:13.040><c> how</c><00:00:13.200><c> we</c><00:00:13.440><c> use</c><00:00:13.599><c> multi-</c>
+
+00:00:13.910 --> 00:00:13.920 align:start position:0%
+architecture and uh how we use multi-
+ 
+
+00:00:13.920 --> 00:00:16.230 align:start position:0%
+architecture and uh how we use multi-
+aent<00:00:14.240><c> orchestration</c><00:00:14.880><c> to</c><00:00:15.120><c> build</c><00:00:15.839><c> an</c><00:00:16.000><c> AI</c>
+
+00:00:16.230 --> 00:00:16.240 align:start position:0%
+aent orchestration to build an AI
+ 
+
+00:00:16.240 --> 00:00:20.150 align:start position:0%
+aent orchestration to build an AI
+copilot<00:00:16.960><c> at</c><00:00:17.640><c> K.O.</c><00:00:18.640><c> But</c><00:00:18.800><c> why</c><00:00:19.119><c> now?</c><00:00:19.600><c> Uh</c><00:00:19.840><c> cloud</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+copilot at K.O. But why now? Uh cloud
+ 
+
+00:00:20.160 --> 00:00:22.550 align:start position:0%
+copilot at K.O. But why now? Uh cloud
+architecture<00:00:21.039><c> needs</c><00:00:21.359><c> reasoning</c><00:00:22.000><c> uh</c><00:00:22.160><c> not</c><00:00:22.320><c> just</c>
+
+00:00:22.550 --> 00:00:22.560 align:start position:0%
+architecture needs reasoning uh not just
+ 
+
+00:00:22.560 --> 00:00:24.950 align:start position:0%
+architecture needs reasoning uh not just
+automation.<00:00:23.439><c> uh</c><00:00:23.519><c> we</c><00:00:24.000><c> see</c><00:00:24.160><c> that</c><00:00:24.320><c> class</c><00:00:24.640><c> system</c>
+
+00:00:24.950 --> 00:00:24.960 align:start position:0%
+automation. uh we see that class system
+ 
+
+00:00:24.960 --> 00:00:29.029 align:start position:0%
+automation. uh we see that class system
+are<00:00:25.439><c> uh</c><00:00:25.760><c> growing</c><00:00:26.080><c> in</c><00:00:26.519><c> complexity</c><00:00:27.760><c> uh</c><00:00:28.480><c> based</c><00:00:28.800><c> on</c>
+
+00:00:29.029 --> 00:00:29.039 align:start position:0%
+are uh growing in complexity uh based on
+ 
+
+00:00:29.039 --> 00:00:32.470 align:start position:0%
+are uh growing in complexity uh based on
+people<00:00:29.920><c> both</c><00:00:30.240><c> users</c><00:00:30.720><c> and</c><00:00:31.039><c> also</c><00:00:31.519><c> developers</c>
+
+00:00:32.470 --> 00:00:32.480 align:start position:0%
+people both users and also developers
+ 
+
+00:00:32.480 --> 00:00:34.630 align:start position:0%
+people both users and also developers
+and<00:00:32.719><c> in</c><00:00:32.960><c> terms</c><00:00:33.120><c> of</c><00:00:33.280><c> tools</c><00:00:33.840><c> and</c><00:00:34.160><c> constraints</c>
+
+00:00:34.630 --> 00:00:34.640 align:start position:0%
+and in terms of tools and constraints
+ 
+
+00:00:34.640 --> 00:00:37.270 align:start position:0%
+and in terms of tools and constraints
+and<00:00:35.040><c> expectations</c><00:00:35.520><c> are</c><00:00:35.760><c> always</c><00:00:36.079><c> on</c><00:00:36.239><c> the</c><00:00:36.399><c> rise</c>
+
+00:00:37.270 --> 00:00:37.280 align:start position:0%
+and expectations are always on the rise
+ 
+
+00:00:37.280 --> 00:00:39.430 align:start position:0%
+and expectations are always on the rise
+uh<00:00:37.600><c> synistic</c><00:00:38.079><c> tools</c><00:00:38.559><c> uh</c><00:00:38.800><c> don't</c><00:00:39.040><c> scale</c><00:00:39.200><c> over</c>
+
+00:00:39.430 --> 00:00:39.440 align:start position:0%
+uh synistic tools uh don't scale over
+ 
+
+00:00:39.440 --> 00:00:41.350 align:start position:0%
+uh synistic tools uh don't scale over
+the<00:00:39.520><c> diversity</c><00:00:40.000><c> of</c><00:00:40.160><c> decisions</c><00:00:40.640><c> that</c><00:00:41.040><c> need</c><00:00:41.200><c> to</c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+the diversity of decisions that need to
+ 
+
+00:00:41.360 --> 00:00:44.069 align:start position:0%
+the diversity of decisions that need to
+be<00:00:41.520><c> made</c><00:00:41.760><c> around</c><00:00:42.239><c> cloud</c><00:00:42.559><c> architecture</c><00:00:43.440><c> I</c><00:00:43.680><c> mean</c>
+
+00:00:44.069 --> 00:00:44.079 align:start position:0%
+be made around cloud architecture I mean
+ 
+
+00:00:44.079 --> 00:00:46.470 align:start position:0%
+be made around cloud architecture I mean
+uh<00:00:44.320><c> need</c><00:00:44.559><c> systems</c><00:00:44.960><c> that</c><00:00:45.280><c> understand</c><00:00:45.920><c> debate</c>
+
+00:00:46.470 --> 00:00:46.480 align:start position:0%
+uh need systems that understand debate
+ 
+
+00:00:46.480 --> 00:00:49.510 align:start position:0%
+uh need systems that understand debate
+and<00:00:46.719><c> justify</c><00:00:47.280><c> and</c><00:00:47.600><c> also</c><00:00:48.000><c> plan</c><00:00:48.719><c> uh</c><00:00:48.879><c> in</c><00:00:49.120><c> order</c><00:00:49.280><c> to</c>
+
+00:00:49.510 --> 00:00:49.520 align:start position:0%
+and justify and also plan uh in order to
+ 
+
+00:00:49.520 --> 00:00:51.430 align:start position:0%
+and justify and also plan uh in order to
+solve<00:00:49.680><c> such</c><00:00:50.000><c> problems</c><00:00:50.640><c> and</c><00:00:50.879><c> this</c><00:00:51.039><c> is</c><00:00:51.200><c> not</c>
+
+00:00:51.430 --> 00:00:51.440 align:start position:0%
+solve such problems and this is not
+ 
+
+00:00:51.440 --> 00:00:53.790 align:start position:0%
+solve such problems and this is not
+automation<00:00:52.160><c> this</c><00:00:52.320><c> is</c><00:00:52.879><c> uh</c>
+
+00:00:53.790 --> 00:00:53.800 align:start position:0%
+automation this is uh
+ 
+
+00:00:53.800 --> 00:00:56.389 align:start position:0%
+automation this is uh
+reasoning.<00:00:54.800><c> Yeah,</c><00:00:55.360><c> architecture</c><00:00:56.000><c> stack</c>
+
+00:00:56.389 --> 00:00:56.399 align:start position:0%
+reasoning. Yeah, architecture stack
+ 
+
+00:00:56.399 --> 00:00:59.750 align:start position:0%
+reasoning. Yeah, architecture stack
+isn't<00:00:57.120><c> uh</c><00:00:57.680><c> just</c><00:00:58.000><c> technical.</c><00:00:58.719><c> It's</c><00:00:58.960><c> also</c><00:00:59.520><c> the</c>
+
+00:00:59.750 --> 00:00:59.760 align:start position:0%
+isn't uh just technical. It's also the
+ 
+
+00:00:59.760 --> 00:01:03.029 align:start position:0%
+isn't uh just technical. It's also the
+very<00:01:00.160><c> cognitive</c><00:01:01.440><c> uh</c><00:01:01.600><c> architects</c><00:01:02.399><c> don't</c><00:01:02.800><c> just</c>
+
+00:01:03.029 --> 00:01:03.039 align:start position:0%
+very cognitive uh architects don't just
+ 
+
+00:01:03.039 --> 00:01:04.869 align:start position:0%
+very cognitive uh architects don't just
+assemble<00:01:03.520><c> infrastructure.</c><00:01:04.320><c> They</c><00:01:04.640><c> are</c>
+
+00:01:04.869 --> 00:01:04.879 align:start position:0%
+assemble infrastructure. They are
+ 
+
+00:01:04.879 --> 00:01:06.950 align:start position:0%
+assemble infrastructure. They are
+constantly<00:01:05.360><c> negotiating</c><00:01:06.000><c> tradeoffs</c><00:01:06.640><c> based</c>
+
+00:01:06.950 --> 00:01:06.960 align:start position:0%
+constantly negotiating tradeoffs based
+ 
+
+00:01:06.960 --> 00:01:09.910 align:start position:0%
+constantly negotiating tradeoffs based
+on<00:01:07.920><c> uh</c><00:01:08.159><c> how</c><00:01:08.479><c> defined</c><00:01:08.799><c> the</c><00:01:09.040><c> requirements</c><00:01:09.600><c> are</c>
+
+00:01:09.910 --> 00:01:09.920 align:start position:0%
+on uh how defined the requirements are
+ 
+
+00:01:09.920 --> 00:01:12.390 align:start position:0%
+on uh how defined the requirements are
+or<00:01:10.560><c> how</c><00:01:10.799><c> much</c><00:01:11.040><c> they</c><00:01:11.280><c> time</c><00:01:11.520><c> they</c><00:01:11.760><c> have</c><00:01:11.920><c> or</c><00:01:12.159><c> what</c>
+
+00:01:12.390 --> 00:01:12.400 align:start position:0%
+or how much they time they have or what
+ 
+
+00:01:12.400 --> 00:01:15.670 align:start position:0%
+or how much they time they have or what
+resources<00:01:12.880><c> are</c><00:01:13.040><c> available</c><00:01:13.920><c> for</c><00:01:14.400><c> building</c><00:01:15.200><c> uh</c>
+
+00:01:15.670 --> 00:01:15.680 align:start position:0%
+resources are available for building uh
+ 
+
+00:01:15.680 --> 00:01:17.830 align:start position:0%
+resources are available for building uh
+the<00:01:16.080><c> application</c><00:01:16.640><c> that</c><00:01:16.960><c> they</c><00:01:17.439><c> are</c><00:01:17.680><c> supposed</c>
+
+00:01:17.830 --> 00:01:17.840 align:start position:0%
+the application that they are supposed
+ 
+
+00:01:17.840 --> 00:01:21.429 align:start position:0%
+the application that they are supposed
+to<00:01:18.080><c> deliver</c><00:01:18.880><c> and</c><00:01:19.360><c> uh</c><00:01:19.720><c> they</c><00:01:20.720><c> rely</c><00:01:21.040><c> on</c><00:01:21.200><c> a</c>
+
+00:01:21.429 --> 00:01:21.439 align:start position:0%
+to deliver and uh they rely on a
+ 
+
+00:01:21.439 --> 00:01:24.230 align:start position:0%
+to deliver and uh they rely on a
+scattered<00:01:22.159><c> and</c><00:01:22.400><c> implicit</c><00:01:23.360><c> uh</c><00:01:23.600><c> context</c><00:01:24.000><c> in</c>
+
+00:01:24.230 --> 00:01:24.240 align:start position:0%
+scattered and implicit uh context in
+ 
+
+00:01:24.240 --> 00:01:25.910 align:start position:0%
+scattered and implicit uh context in
+order<00:01:24.400><c> to</c><00:01:24.560><c> make</c><00:01:24.720><c> this</c><00:01:24.960><c> decision</c><00:01:25.680><c> and</c>
+
+00:01:25.910 --> 00:01:25.920 align:start position:0%
+order to make this decision and
+ 
+
+00:01:25.920 --> 00:01:27.990 align:start position:0%
+order to make this decision and
+capturing<00:01:26.320><c> this</c><00:01:26.560><c> for</c><00:01:26.799><c> AI</c><00:01:27.200><c> requires</c>
+
+00:01:27.990 --> 00:01:28.000 align:start position:0%
+capturing this for AI requires
+ 
+
+00:01:28.000 --> 00:01:31.590 align:start position:0%
+capturing this for AI requires
+understanding<00:01:28.640><c> how</c><00:01:29.040><c> architects</c><00:01:29.920><c> think.</c><00:01:30.560><c> So</c>
+
+00:01:31.590 --> 00:01:31.600 align:start position:0%
+understanding how architects think. So
+ 
+
+00:01:31.600 --> 00:01:34.390 align:start position:0%
+understanding how architects think. So
+uh<00:01:32.079><c> where</c><00:01:32.479><c> AI</c><00:01:32.880><c> meets</c><00:01:33.200><c> architecture</c><00:01:33.840><c> there</c><00:01:34.000><c> are</c>
+
+00:01:34.390 --> 00:01:34.400 align:start position:0%
+uh where AI meets architecture there are
+ 
+
+00:01:34.400 --> 00:01:38.270 align:start position:0%
+uh where AI meets architecture there are
+three<00:01:34.720><c> challenges</c><00:01:35.200><c> that</c><00:01:35.520><c> we</c><00:01:36.400><c> uh</c><00:01:36.880><c> capture</c><00:01:37.520><c> at</c>
+
+00:01:38.270 --> 00:01:38.280 align:start position:0%
+three challenges that we uh capture at
+ 
+
+00:01:38.280 --> 00:01:43.749 align:start position:0%
+three challenges that we uh capture at
+CATO<00:01:39.280><c> at</c><00:01:39.520><c> a</c><00:01:39.680><c> higher</c><00:01:39.920><c> level</c><00:01:40.560><c> in</c><00:01:40.720><c> order</c><00:01:40.960><c> to</c><00:01:41.920><c> uh</c><00:01:43.119><c> uh</c>
+
+00:01:43.749 --> 00:01:43.759 align:start position:0%
+CATO at a higher level in order to uh uh
+ 
+
+00:01:43.759 --> 00:01:46.069 align:start position:0%
+CATO at a higher level in order to uh uh
+solve<00:01:44.159><c> architecture</c><00:01:44.720><c> design</c><00:01:45.119><c> problems.</c><00:01:45.840><c> Uh</c>
+
+00:01:46.069 --> 00:01:46.079 align:start position:0%
+solve architecture design problems. Uh
+ 
+
+00:01:46.079 --> 00:01:48.149 align:start position:0%
+solve architecture design problems. Uh
+one<00:01:46.320><c> is</c><00:01:46.479><c> about</c><00:01:46.720><c> requirement</c><00:01:47.280><c> understanding.</c>
+
+00:01:48.149 --> 00:01:48.159 align:start position:0%
+one is about requirement understanding.
+ 
+
+00:01:48.159 --> 00:01:50.310 align:start position:0%
+one is about requirement understanding.
+So<00:01:48.880><c> uh</c><00:01:49.200><c> where</c><00:01:49.360><c> are</c><00:01:49.520><c> these</c><00:01:49.840><c> requirements</c>
+
+00:01:50.310 --> 00:01:50.320 align:start position:0%
+So uh where are these requirements
+ 
+
+00:01:50.320 --> 00:01:54.469 align:start position:0%
+So uh where are these requirements
+coming<00:01:50.479><c> from</c><00:01:50.880><c> in</c><00:01:51.119><c> what</c><00:01:51.360><c> format?</c><00:01:52.079><c> Uh</c><00:01:52.880><c> and</c><00:01:53.680><c> uh</c>
+
+00:01:54.469 --> 00:01:54.479 align:start position:0%
+coming from in what format? Uh and uh
+ 
+
+00:01:54.479 --> 00:01:56.950 align:start position:0%
+coming from in what format? Uh and uh
+what<00:01:54.640><c> are</c><00:01:54.720><c> the</c><00:01:54.960><c> important</c><00:01:55.280><c> pieces?</c><00:01:56.000><c> how</c><00:01:56.720><c> uh</c>
+
+00:01:56.950 --> 00:01:56.960 align:start position:0%
+what are the important pieces? how uh
+ 
+
+00:01:56.960 --> 00:02:00.709 align:start position:0%
+what are the important pieces? how uh
+global<00:01:57.600><c> or</c><00:01:58.479><c> uh</c><00:01:58.799><c> specific</c><00:01:59.280><c> they</c><00:01:59.520><c> are.</c><00:02:00.159><c> Uh</c><00:02:00.479><c> these</c>
+
+00:02:00.709 --> 00:02:00.719 align:start position:0%
+global or uh specific they are. Uh these
+ 
+
+00:02:00.719 --> 00:02:02.149 align:start position:0%
+global or uh specific they are. Uh these
+are<00:02:00.960><c> the</c><00:02:01.119><c> thing</c><00:02:01.360><c> all</c><00:02:01.520><c> the</c><00:02:01.759><c> things</c><00:02:01.920><c> that</c><00:02:02.079><c> need</c>
+
+00:02:02.149 --> 00:02:02.159 align:start position:0%
+are the thing all the things that need
+ 
+
+00:02:02.159 --> 00:02:04.069 align:start position:0%
+are the thing all the things that need
+to<00:02:02.320><c> be</c><00:02:02.560><c> understood</c><00:02:03.119><c> as</c><00:02:03.520><c> a</c><00:02:03.759><c> value</c>
+
+00:02:04.069 --> 00:02:04.079 align:start position:0%
+to be understood as a value
+ 
+
+00:02:04.079 --> 00:02:05.749 align:start position:0%
+to be understood as a value
+requirements.<00:02:04.719><c> On</c><00:02:04.880><c> the</c><00:02:05.040><c> other</c><00:02:05.200><c> slides</c><00:02:05.520><c> about</c>
+
+00:02:05.749 --> 00:02:05.759 align:start position:0%
+requirements. On the other slides about
+ 
+
+00:02:05.759 --> 00:02:08.309 align:start position:0%
+requirements. On the other slides about
+architecture<00:02:06.320><c> identification</c><00:02:07.759><c> uh</c><00:02:08.000><c> there</c><00:02:08.239><c> are</c>
+
+00:02:08.309 --> 00:02:08.319 align:start position:0%
+architecture identification uh there are
+ 
+
+00:02:08.319 --> 00:02:09.669 align:start position:0%
+architecture identification uh there are
+many<00:02:08.560><c> many</c><00:02:08.800><c> different</c><00:02:09.039><c> components</c><00:02:09.440><c> that</c>
+
+00:02:09.669 --> 00:02:09.679 align:start position:0%
+many many different components that
+ 
+
+00:02:09.679 --> 00:02:12.790 align:start position:0%
+many many different components that
+could<00:02:09.920><c> exist</c><00:02:10.160><c> in</c><00:02:10.319><c> an</c><00:02:10.560><c> architecture.</c><00:02:11.280><c> Uh</c><00:02:12.160><c> but</c>
+
+00:02:12.790 --> 00:02:12.800 align:start position:0%
+could exist in an architecture. Uh but
+ 
+
+00:02:12.800 --> 00:02:14.630 align:start position:0%
+could exist in an architecture. Uh but
+uh<00:02:13.040><c> based</c><00:02:13.360><c> on</c><00:02:13.520><c> the</c><00:02:13.760><c> components</c><00:02:14.080><c> and</c><00:02:14.319><c> based</c><00:02:14.480><c> on</c>
+
+00:02:14.630 --> 00:02:14.640 align:start position:0%
+uh based on the components and based on
+ 
+
+00:02:14.640 --> 00:02:16.229 align:start position:0%
+uh based on the components and based on
+where<00:02:14.959><c> where</c><00:02:15.200><c> they</c><00:02:15.440><c> are</c><00:02:15.760><c> they</c><00:02:15.920><c> could</c><00:02:16.080><c> have</c>
+
+00:02:16.229 --> 00:02:16.239 align:start position:0%
+where where they are they could have
+ 
+
+00:02:16.239 --> 00:02:18.150 align:start position:0%
+where where they are they could have
+very<00:02:16.560><c> different</c><00:02:16.800><c> functions.</c><00:02:17.599><c> In</c><00:02:17.760><c> order</c><00:02:17.920><c> to</c>
+
+00:02:18.150 --> 00:02:18.160 align:start position:0%
+very different functions. In order to
+ 
+
+00:02:18.160 --> 00:02:19.830 align:start position:0%
+very different functions. In order to
+understand<00:02:18.560><c> how</c><00:02:18.800><c> an</c><00:02:18.959><c> architecture</c><00:02:19.440><c> works</c>
+
+00:02:19.830 --> 00:02:19.840 align:start position:0%
+understand how an architecture works
+ 
+
+00:02:19.840 --> 00:02:21.670 align:start position:0%
+understand how an architecture works
+knowing<00:02:20.160><c> different</c><00:02:20.480><c> functionalities</c><00:02:21.120><c> and</c><00:02:21.599><c> uh</c>
+
+00:02:21.670 --> 00:02:21.680 align:start position:0%
+knowing different functionalities and uh
+ 
+
+00:02:21.680 --> 00:02:22.790 align:start position:0%
+knowing different functionalities and uh
+and<00:02:21.920><c> the</c><00:02:22.080><c> functions</c><00:02:22.319><c> that</c><00:02:22.560><c> different</c>
+
+00:02:22.790 --> 00:02:22.800 align:start position:0%
+and the functions that different
+ 
+
+00:02:22.800 --> 00:02:24.390 align:start position:0%
+and the functions that different
+components<00:02:23.120><c> are</c><00:02:23.360><c> playing</c><00:02:23.599><c> is</c><00:02:23.840><c> very</c><00:02:24.080><c> important</c>
+
+00:02:24.390 --> 00:02:24.400 align:start position:0%
+components are playing is very important
+ 
+
+00:02:24.400 --> 00:02:27.190 align:start position:0%
+components are playing is very important
+too.<00:02:25.280><c> And</c><00:02:25.760><c> uh</c><00:02:26.160><c> putting</c><00:02:26.480><c> all</c><00:02:26.640><c> these</c><00:02:26.959><c> things</c>
+
+00:02:27.190 --> 00:02:27.200 align:start position:0%
+too. And uh putting all these things
+ 
+
+00:02:27.200 --> 00:02:29.030 align:start position:0%
+too. And uh putting all these things
+together<00:02:27.520><c> is</c><00:02:27.840><c> about</c><00:02:28.000><c> architecture</c><00:02:28.879><c> uh</c>
+
+00:02:29.030 --> 00:02:29.040 align:start position:0%
+together is about architecture uh
+ 
+
+00:02:29.040 --> 00:02:31.670 align:start position:0%
+together is about architecture uh
+recommendation<00:02:29.920><c> is</c><00:02:30.160><c> that</c><00:02:30.959><c> so</c><00:02:31.120><c> we</c><00:02:31.360><c> know</c><00:02:31.440><c> the</c>
+
+00:02:31.670 --> 00:02:31.680 align:start position:0%
+recommendation is that so we know the
+ 
+
+00:02:31.680 --> 00:02:33.110 align:start position:0%
+recommendation is that so we know the
+requirements<00:02:32.239><c> we</c><00:02:32.480><c> understand</c><00:02:32.800><c> what</c><00:02:32.959><c> the</c>
+
+00:02:33.110 --> 00:02:33.120 align:start position:0%
+requirements we understand what the
+ 
+
+00:02:33.120 --> 00:02:35.270 align:start position:0%
+requirements we understand what the
+architecture<00:02:33.599><c> state</c><00:02:33.920><c> is</c><00:02:34.160><c> today.</c><00:02:34.959><c> what</c><00:02:35.200><c> are</c>
+
+00:02:35.270 --> 00:02:35.280 align:start position:0%
+architecture state is today. what are
+ 
+
+00:02:35.280 --> 00:02:37.110 align:start position:0%
+architecture state is today. what are
+the<00:02:35.440><c> recommendation</c><00:02:36.160><c> that</c><00:02:36.560><c> uh</c><00:02:36.640><c> need</c><00:02:36.800><c> to</c><00:02:36.959><c> be</c>
+
+00:02:37.110 --> 00:02:37.120 align:start position:0%
+the recommendation that uh need to be
+ 
+
+00:02:37.120 --> 00:02:40.630 align:start position:0%
+the recommendation that uh need to be
+pro<00:02:37.519><c> uh</c><00:02:38.000><c> provided</c><00:02:38.560><c> in</c><00:02:38.720><c> order</c><00:02:38.959><c> to</c><00:02:39.920><c> uh</c><00:02:40.080><c> either</c>
+
+00:02:40.630 --> 00:02:40.640 align:start position:0%
+pro uh provided in order to uh either
+ 
+
+00:02:40.640 --> 00:02:42.550 align:start position:0%
+pro uh provided in order to uh either
+match<00:02:41.120><c> requirements</c><00:02:41.680><c> or</c><00:02:42.080><c> improve</c><00:02:42.400><c> the</c>
+
+00:02:42.550 --> 00:02:42.560 align:start position:0%
+match requirements or improve the
+ 
+
+00:02:42.560 --> 00:02:46.550 align:start position:0%
+match requirements or improve the
+architecture<00:02:43.680><c> uh</c><00:02:44.319><c> to</c><00:02:45.280><c> uh</c><00:02:45.440><c> to</c><00:02:45.519><c> to</c><00:02:45.840><c> be</c><00:02:46.319><c> uh</c>
+
+00:02:46.550 --> 00:02:46.560 align:start position:0%
+architecture uh to uh to to be uh
+ 
+
+00:02:46.560 --> 00:02:48.830 align:start position:0%
+architecture uh to uh to to be uh
+matching<00:02:47.120><c> uh</c><00:02:47.280><c> best</c>
+
+00:02:48.830 --> 00:02:48.840 align:start position:0%
+matching uh best
+ 
+
+00:02:48.840 --> 00:02:51.670 align:start position:0%
+matching uh best
+practices.<00:02:49.840><c> Uh</c><00:02:50.239><c> to</c><00:02:50.560><c> turn</c><00:02:50.879><c> these</c><00:02:51.200><c> problems</c>
+
+00:02:51.670 --> 00:02:51.680 align:start position:0%
+practices. Uh to turn these problems
+ 
+
+00:02:51.680 --> 00:02:54.710 align:start position:0%
+practices. Uh to turn these problems
+into<00:02:52.080><c> more</c><00:02:52.319><c> specific</c><00:02:52.800><c> AI</c><00:02:53.120><c> related</c><00:02:53.599><c> challenges</c>
+
+00:02:54.710 --> 00:02:54.720 align:start position:0%
+into more specific AI related challenges
+ 
+
+00:02:54.720 --> 00:02:56.949 align:start position:0%
+into more specific AI related challenges
+uh<00:02:54.879><c> what</c><00:02:55.120><c> we're</c><00:02:55.440><c> dealing</c><00:02:55.680><c> with</c><00:02:56.000><c> is</c><00:02:56.239><c> is</c><00:02:56.560><c> a</c><00:02:56.720><c> mix</c>
+
+00:02:56.949 --> 00:02:56.959 align:start position:0%
+uh what we're dealing with is is a mix
+ 
+
+00:02:56.959 --> 00:02:59.830 align:start position:0%
+uh what we're dealing with is is a mix
+of<00:02:57.200><c> semantic</c><00:02:57.760><c> and</c><00:02:58.000><c> graphics</c><00:02:58.640><c> context.</c><00:02:59.440><c> On</c><00:02:59.680><c> one</c>
+
+00:02:59.830 --> 00:02:59.840 align:start position:0%
+of semantic and graphics context. On one
+ 
+
+00:02:59.840 --> 00:03:01.270 align:start position:0%
+of semantic and graphics context. On one
+side<00:03:00.000><c> we</c><00:03:00.239><c> have</c><00:03:00.319><c> requirements</c><00:03:00.879><c> which</c><00:03:01.120><c> are</c>
+
+00:03:01.270 --> 00:03:01.280 align:start position:0%
+side we have requirements which are
+ 
+
+00:03:01.280 --> 00:03:04.309 align:start position:0%
+side we have requirements which are
+mostly<00:03:01.760><c> text</c><00:03:02.319><c> textual</c><00:03:03.120><c> uh</c><00:03:03.360><c> documents</c><00:03:04.000><c> and</c><00:03:04.159><c> on</c>
+
+00:03:04.309 --> 00:03:04.319 align:start position:0%
+mostly text textual uh documents and on
+ 
+
+00:03:04.319 --> 00:03:05.990 align:start position:0%
+mostly text textual uh documents and on
+the<00:03:04.480><c> other</c><00:03:04.640><c> side</c><00:03:04.800><c> it's</c><00:03:05.040><c> architecture</c><00:03:05.760><c> which</c>
+
+00:03:05.990 --> 00:03:06.000 align:start position:0%
+the other side it's architecture which
+ 
+
+00:03:06.000 --> 00:03:10.550 align:start position:0%
+the other side it's architecture which
+is<00:03:06.159><c> inherently</c><00:03:06.959><c> graph</c><00:03:07.519><c> data.</c><00:03:08.480><c> How</c><00:03:08.720><c> we</c><00:03:09.200><c> can</c><00:03:10.000><c> uh</c>
+
+00:03:10.550 --> 00:03:10.560 align:start position:0%
+is inherently graph data. How we can uh
+ 
+
+00:03:10.560 --> 00:03:13.509 align:start position:0%
+is inherently graph data. How we can uh
+make<00:03:10.959><c> these</c><00:03:11.280><c> two</c><00:03:11.760><c> different</c><00:03:12.480><c> sources</c><00:03:12.879><c> of</c><00:03:13.120><c> data</c>
+
+00:03:13.509 --> 00:03:13.519 align:start position:0%
+make these two different sources of data
+ 
+
+00:03:13.519 --> 00:03:15.509 align:start position:0%
+make these two different sources of data
+to<00:03:13.760><c> come</c><00:03:13.920><c> together</c><00:03:14.480><c> and</c><00:03:14.640><c> and</c><00:03:14.959><c> make</c><00:03:15.120><c> the</c><00:03:15.360><c> right</c>
+
+00:03:15.509 --> 00:03:15.519 align:start position:0%
+to come together and and make the right
+ 
+
+00:03:15.519 --> 00:03:18.309 align:start position:0%
+to come together and and make the right
+connections<00:03:15.920><c> in</c><00:03:16.239><c> order</c><00:03:16.400><c> to</c><00:03:17.200><c> higher</c><00:03:17.840><c> uh</c><00:03:18.080><c> level</c>
+
+00:03:18.309 --> 00:03:18.319 align:start position:0%
+connections in order to higher uh level
+ 
+
+00:03:18.319 --> 00:03:20.630 align:start position:0%
+connections in order to higher uh level
+of<00:03:18.480><c> reasoning</c><00:03:18.879><c> is</c><00:03:19.120><c> very</c><00:03:19.360><c> important</c><00:03:20.159><c> and</c>
+
+00:03:20.630 --> 00:03:20.640 align:start position:0%
+of reasoning is very important and
+ 
+
+00:03:20.640 --> 00:03:23.030 align:start position:0%
+of reasoning is very important and
+through<00:03:20.959><c> that</c><00:03:21.280><c> comes</c><00:03:22.159><c> complex</c><00:03:22.640><c> reasoning</c>
+
+00:03:23.030 --> 00:03:23.040 align:start position:0%
+through that comes complex reasoning
+ 
+
+00:03:23.040 --> 00:03:25.350 align:start position:0%
+through that comes complex reasoning
+scenarios.<00:03:24.000><c> uh</c><00:03:24.239><c> the</c><00:03:24.400><c> the</c><00:03:24.800><c> kind</c><00:03:24.879><c> of</c><00:03:25.040><c> questions</c>
+
+00:03:25.350 --> 00:03:25.360 align:start position:0%
+scenarios. uh the the kind of questions
+ 
+
+00:03:25.360 --> 00:03:27.350 align:start position:0%
+scenarios. uh the the kind of questions
+that<00:03:25.599><c> come</c><00:03:25.760><c> in</c><00:03:26.000><c> could</c><00:03:26.159><c> be</c><00:03:26.319><c> very</c><00:03:26.640><c> complex,</c><00:03:27.120><c> very</c>
+
+00:03:27.350 --> 00:03:27.360 align:start position:0%
+that come in could be very complex, very
+ 
+
+00:03:27.360 --> 00:03:30.949 align:start position:0%
+that come in could be very complex, very
+vague,<00:03:28.000><c> very</c><00:03:28.560><c> broad</c><00:03:29.440><c> and</c><00:03:30.000><c> uh</c><00:03:30.080><c> that</c><00:03:30.480><c> needs</c><00:03:30.720><c> to</c>
+
+00:03:30.949 --> 00:03:30.959 align:start position:0%
+vague, very broad and uh that needs to
+ 
+
+00:03:30.959 --> 00:03:34.149 align:start position:0%
+vague, very broad and uh that needs to
+be<00:03:31.599><c> broken</c><00:03:32.000><c> down</c><00:03:32.239><c> into</c><00:03:32.720><c> different</c><00:03:33.120><c> parts</c><00:03:33.680><c> and</c>
+
+00:03:34.149 --> 00:03:34.159 align:start position:0%
+be broken down into different parts and
+ 
+
+00:03:34.159 --> 00:03:37.350 align:start position:0%
+be broken down into different parts and
+uh<00:03:34.319><c> be</c><00:03:34.560><c> planned</c><00:03:34.879><c> properly</c><00:03:35.360><c> in</c><00:03:35.599><c> order</c><00:03:35.760><c> to</c><00:03:36.239><c> uh</c><00:03:37.040><c> uh</c>
+
+00:03:37.350 --> 00:03:37.360 align:start position:0%
+uh be planned properly in order to uh uh
+ 
+
+00:03:37.360 --> 00:03:40.070 align:start position:0%
+uh be planned properly in order to uh uh
+uh<00:03:37.599><c> get</c><00:03:37.760><c> the</c><00:03:38.159><c> right</c><00:03:38.640><c> answer</c><00:03:38.959><c> to</c><00:03:39.120><c> to</c><00:03:39.440><c> the</c><00:03:39.840><c> uh</c>
+
+00:03:40.070 --> 00:03:40.080 align:start position:0%
+uh get the right answer to to the uh
+ 
+
+00:03:40.080 --> 00:03:42.630 align:start position:0%
+uh get the right answer to to the uh
+question.<00:03:40.959><c> And</c><00:03:41.200><c> above</c><00:03:41.599><c> all</c><00:03:41.760><c> of</c><00:03:41.840><c> these</c><00:03:42.080><c> things,</c>
+
+00:03:42.630 --> 00:03:42.640 align:start position:0%
+question. And above all of these things,
+ 
+
+00:03:42.640 --> 00:03:45.589 align:start position:0%
+question. And above all of these things,
+uh<00:03:42.879><c> how</c><00:03:43.200><c> we</c><00:03:43.519><c> evaluate</c><00:03:44.239><c> and</c><00:03:44.879><c> uh</c><00:03:45.200><c> provide</c>
+
+00:03:45.589 --> 00:03:45.599 align:start position:0%
+uh how we evaluate and uh provide
+ 
+
+00:03:45.599 --> 00:03:49.350 align:start position:0%
+uh how we evaluate and uh provide
+feedback<00:03:46.080><c> to</c><00:03:46.319><c> such</c><00:03:46.560><c> a</c><00:03:47.200><c> uh</c><00:03:47.760><c> uh</c><00:03:48.159><c> large</c><00:03:48.560><c> AI</c><00:03:49.040><c> system</c>
+
+00:03:49.350 --> 00:03:49.360 align:start position:0%
+feedback to such a uh uh large AI system
+ 
+
+00:03:49.360 --> 00:03:52.270 align:start position:0%
+feedback to such a uh uh large AI system
+that<00:03:49.680><c> has</c><00:03:49.920><c> many</c><00:03:50.400><c> uh</c><00:03:50.640><c> different</c><00:03:51.280><c> uh</c><00:03:51.599><c> moving</c>
+
+00:03:52.270 --> 00:03:52.280 align:start position:0%
+that has many uh different uh moving
+ 
+
+00:03:52.280 --> 00:03:57.110 align:start position:0%
+that has many uh different uh moving
+parts.<00:03:53.280><c> Uh</c><00:03:53.680><c> so</c><00:03:54.239><c> uh</c><00:03:54.319><c> we</c><00:03:54.560><c> want</c><00:03:54.640><c> to</c><00:03:54.879><c> go</c><00:03:55.280><c> through</c><00:03:56.159><c> uh</c>
+
+00:03:57.110 --> 00:03:57.120 align:start position:0%
+parts. Uh so uh we want to go through uh
+ 
+
+00:03:57.120 --> 00:03:59.350 align:start position:0%
+parts. Uh so uh we want to go through uh
+uh<00:03:57.200><c> these</c><00:03:57.519><c> challenges</c><00:03:58.159><c> and</c><00:03:58.720><c> share</c><00:03:59.040><c> some</c><00:03:59.200><c> of</c>
+
+00:03:59.350 --> 00:03:59.360 align:start position:0%
+uh these challenges and share some of
+ 
+
+00:03:59.360 --> 00:04:02.869 align:start position:0%
+uh these challenges and share some of
+our<00:03:59.599><c> learnings</c><00:04:00.480><c> uh</c><00:04:01.200><c> uh</c><00:04:01.599><c> what</c><00:04:02.159><c> uh</c><00:04:02.400><c> we</c><00:04:02.640><c> have</c>
+
+00:04:02.869 --> 00:04:02.879 align:start position:0%
+our learnings uh uh what uh we have
+ 
+
+00:04:02.879 --> 00:04:05.509 align:start position:0%
+our learnings uh uh what uh we have
+experienced<00:04:03.439><c> and</c><00:04:04.000><c> uh</c><00:04:04.159><c> what</c><00:04:04.400><c> we</c><00:04:04.560><c> have</c><00:04:04.799><c> done</c><00:04:05.040><c> and</c>
+
+00:04:05.509 --> 00:04:05.519 align:start position:0%
+experienced and uh what we have done and
+ 
+
+00:04:05.519 --> 00:04:07.270 align:start position:0%
+experienced and uh what we have done and
+uh<00:04:05.599><c> and</c><00:04:05.760><c> we</c><00:04:05.920><c> are</c><00:04:06.080><c> what</c><00:04:06.319><c> we</c><00:04:06.480><c> are</c><00:04:06.640><c> doing</c><00:04:06.879><c> in</c><00:04:07.120><c> order</c>
+
+00:04:07.270 --> 00:04:07.280 align:start position:0%
+uh and we are what we are doing in order
+ 
+
+00:04:07.280 --> 00:04:10.470 align:start position:0%
+uh and we are what we are doing in order
+to<00:04:07.680><c> uh</c><00:04:07.840><c> improve</c><00:04:08.239><c> to</c><00:04:08.400><c> to</c><00:04:08.799><c> the</c><00:04:08.959><c> next</c><00:04:09.280><c> uh</c><00:04:09.439><c> level.</c>
+
+00:04:10.470 --> 00:04:10.480 align:start position:0%
+to uh improve to to the next uh level.
+ 
+
+00:04:10.480 --> 00:04:12.630 align:start position:0%
+to uh improve to to the next uh level.
+So<00:04:10.799><c> the</c><00:04:11.040><c> first</c><00:04:11.200><c> one</c><00:04:11.280><c> is</c><00:04:11.519><c> about</c><00:04:12.159><c> about</c>
+
+00:04:12.630 --> 00:04:12.640 align:start position:0%
+So the first one is about about
+ 
+
+00:04:12.640 --> 00:04:14.789 align:start position:0%
+So the first one is about about
+grounding<00:04:13.120><c> age</c><00:04:13.439><c> agents</c><00:04:13.920><c> in</c><00:04:14.239><c> a</c><00:04:14.400><c> specific</c>
+
+00:04:14.789 --> 00:04:14.799 align:start position:0%
+grounding age agents in a specific
+ 
+
+00:04:14.799 --> 00:04:18.310 align:start position:0%
+grounding age agents in a specific
+context.<00:04:15.519><c> So</c><00:04:16.160><c> Ellen</c><00:04:17.040><c> uh</c><00:04:17.359><c> needs</c><00:04:17.759><c> proper</c>
+
+00:04:18.310 --> 00:04:18.320 align:start position:0%
+context. So Ellen uh needs proper
+ 
+
+00:04:18.320 --> 00:04:20.870 align:start position:0%
+context. So Ellen uh needs proper
+context<00:04:19.199><c> uh</c><00:04:19.359><c> about</c><00:04:19.680><c> architecture</c><00:04:20.160><c> tourism</c>
+
+00:04:20.870 --> 00:04:20.880 align:start position:0%
+context uh about architecture tourism
+ 
+
+00:04:20.880 --> 00:04:22.950 align:start position:0%
+context uh about architecture tourism
+effectively<00:04:21.759><c> uh</c><00:04:22.000><c> translating</c><00:04:22.560><c> natural</c>
+
+00:04:22.950 --> 00:04:22.960 align:start position:0%
+effectively uh translating natural
+ 
+
+00:04:22.960 --> 00:04:24.629 align:start position:0%
+effectively uh translating natural
+language<00:04:23.360><c> into</c><00:04:23.680><c> meaningful</c><00:04:24.160><c> architecture</c>
+
+00:04:24.629 --> 00:04:24.639 align:start position:0%
+language into meaningful architecture
+ 
+
+00:04:24.639 --> 00:04:27.030 align:start position:0%
+language into meaningful architecture
+retrieval<00:04:25.120><c> task</c><00:04:25.759><c> isn't</c><00:04:26.320><c> straightforward</c><00:04:26.880><c> and</c>
+
+00:04:27.030 --> 00:04:27.040 align:start position:0%
+retrieval task isn't straightforward and
+ 
+
+00:04:27.040 --> 00:04:28.950 align:start position:0%
+retrieval task isn't straightforward and
+also<00:04:27.280><c> providing</c><00:04:27.680><c> it</c><00:04:27.919><c> fast</c><00:04:28.240><c> makes</c><00:04:28.479><c> it</c><00:04:28.639><c> even</c>
+
+00:04:28.950 --> 00:04:28.960 align:start position:0%
+also providing it fast makes it even
+ 
+
+00:04:28.960 --> 00:04:32.550 align:start position:0%
+also providing it fast makes it even
+harder.<00:04:29.919><c> Uh</c><00:04:30.800><c> so</c><00:04:31.280><c> we</c><00:04:31.440><c> we</c><00:04:31.759><c> tried</c><00:04:32.080><c> multiple</c>
+
+00:04:32.550 --> 00:04:32.560 align:start position:0%
+harder. Uh so we we tried multiple
+ 
+
+00:04:32.560 --> 00:04:34.310 align:start position:0%
+harder. Uh so we we tried multiple
+things<00:04:32.880><c> here</c><00:04:33.199><c> both</c><00:04:33.440><c> on</c><00:04:33.759><c> architecture</c>
+
+00:04:34.310 --> 00:04:34.320 align:start position:0%
+things here both on architecture
+ 
+
+00:04:34.320 --> 00:04:37.189 align:start position:0%
+things here both on architecture
+retrieval<00:04:34.880><c> and</c><00:04:35.080><c> on</c><00:04:36.080><c> requirement</c><00:04:36.639><c> retrieval</c>
+
+00:04:37.189 --> 00:04:37.199 align:start position:0%
+retrieval and on requirement retrieval
+ 
+
+00:04:37.199 --> 00:04:40.790 align:start position:0%
+retrieval and on requirement retrieval
+part.<00:04:38.240><c> uh</c><00:04:38.880><c> one</c><00:04:39.199><c> was</c><00:04:39.520><c> that</c><00:04:40.000><c> uh</c><00:04:40.240><c> it</c><00:04:40.479><c> was</c><00:04:40.560><c> about</c>
+
+00:04:40.790 --> 00:04:40.800 align:start position:0%
+part. uh one was that uh it was about
+ 
+
+00:04:40.800 --> 00:04:43.110 align:start position:0%
+part. uh one was that uh it was about
+semantic<00:04:41.280><c> enrichment</c><00:04:41.840><c> of</c><00:04:42.240><c> architecture</c><00:04:42.800><c> data</c>
+
+00:04:43.110 --> 00:04:43.120 align:start position:0%
+semantic enrichment of architecture data
+ 
+
+00:04:43.120 --> 00:04:45.990 align:start position:0%
+semantic enrichment of architecture data
+for<00:04:43.360><c> each</c><00:04:43.600><c> component.</c><00:04:44.160><c> We</c><00:04:44.560><c> uh</c><00:04:44.960><c> collected</c><00:04:45.759><c> uh</c>
+
+00:04:45.990 --> 00:04:46.000 align:start position:0%
+for each component. We uh collected uh
+ 
+
+00:04:46.000 --> 00:04:48.310 align:start position:0%
+for each component. We uh collected uh
+enough<00:04:46.320><c> relevant</c><00:04:46.800><c> semantic</c><00:04:47.360><c> information</c><00:04:48.000><c> to</c>
+
+00:04:48.310 --> 00:04:48.320 align:start position:0%
+enough relevant semantic information to
+ 
+
+00:04:48.320 --> 00:04:50.629 align:start position:0%
+enough relevant semantic information to
+enrich<00:04:49.120><c> uh</c><00:04:49.199><c> that</c><00:04:49.520><c> component</c><00:04:49.919><c> in</c><00:04:50.160><c> order</c><00:04:50.320><c> to</c>
+
+00:04:50.629 --> 00:04:50.639 align:start position:0%
+enrich uh that component in order to
+ 
+
+00:04:50.639 --> 00:04:54.870 align:start position:0%
+enrich uh that component in order to
+make<00:04:50.800><c> it</c><00:04:51.840><c> uh</c><00:04:52.639><c> more</c><00:04:53.280><c> searchable</c><00:04:53.759><c> and</c><00:04:54.240><c> uh</c><00:04:54.639><c> uh</c>
+
+00:04:54.870 --> 00:04:54.880 align:start position:0%
+make it uh more searchable and uh uh
+ 
+
+00:04:54.880 --> 00:04:57.390 align:start position:0%
+make it uh more searchable and uh uh
+findable<00:04:55.600><c> in</c><00:04:56.240><c> vector</c>
+
+00:04:57.390 --> 00:04:57.400 align:start position:0%
+findable in vector
+ 
+
+00:04:57.400 --> 00:05:00.550 align:start position:0%
+findable in vector
+search.<00:04:58.400><c> Another</c><00:04:58.800><c> part</c><00:04:59.040><c> was</c><00:04:59.440><c> about</c><00:05:00.000><c> uh</c><00:05:00.240><c> graph</c>
+
+00:05:00.550 --> 00:05:00.560 align:start position:0%
+search. Another part was about uh graph
+ 
+
+00:05:00.560 --> 00:05:02.390 align:start position:0%
+search. Another part was about uh graph
+enhance<00:05:01.040><c> component</c><00:05:01.520><c> search.</c><00:05:01.840><c> when</c><00:05:02.160><c> you're</c>
+
+00:05:02.390 --> 00:05:02.400 align:start position:0%
+enhance component search. when you're
+ 
+
+00:05:02.400 --> 00:05:04.870 align:start position:0%
+enhance component search. when you're
+searching<00:05:02.800><c> for</c><00:05:02.960><c> a</c><00:05:03.120><c> specific</c><00:05:03.520><c> component</c><00:05:04.320><c> or</c><00:05:04.639><c> a</c>
+
+00:05:04.870 --> 00:05:04.880 align:start position:0%
+searching for a specific component or a
+ 
+
+00:05:04.880 --> 00:05:06.230 align:start position:0%
+searching for a specific component or a
+type<00:05:05.040><c> of</c><00:05:05.199><c> component</c><00:05:05.680><c> within</c><00:05:06.000><c> an</c>
+
+00:05:06.230 --> 00:05:06.240 align:start position:0%
+type of component within an
+ 
+
+00:05:06.240 --> 00:05:08.310 align:start position:0%
+type of component within an
+architecture.<00:05:07.199><c> Uh</c><00:05:07.520><c> through</c><00:05:07.759><c> graph</c><00:05:08.000><c> search,</c>
+
+00:05:08.310 --> 00:05:08.320 align:start position:0%
+architecture. Uh through graph search,
+ 
+
+00:05:08.320 --> 00:05:12.310 align:start position:0%
+architecture. Uh through graph search,
+we<00:05:08.560><c> also</c><00:05:09.360><c> uh</c><00:05:09.600><c> use</c><00:05:10.080><c> all</c><00:05:10.320><c> sorts</c><00:05:10.560><c> of</c><00:05:10.960><c> graph</c><00:05:11.759><c> uh</c>
+
+00:05:12.310 --> 00:05:12.320 align:start position:0%
+we also uh use all sorts of graph uh
+ 
+
+00:05:12.320 --> 00:05:15.350 align:start position:0%
+we also uh use all sorts of graph uh
+algorithms<00:05:13.039><c> in</c><00:05:13.280><c> order</c><00:05:13.520><c> to</c><00:05:14.320><c> make</c><00:05:14.560><c> sure</c><00:05:14.720><c> that</c><00:05:15.039><c> we</c>
+
+00:05:15.350 --> 00:05:15.360 align:start position:0%
+algorithms in order to make sure that we
+ 
+
+00:05:15.360 --> 00:05:17.189 align:start position:0%
+algorithms in order to make sure that we
+retrieve<00:05:15.759><c> the</c><00:05:16.000><c> right</c><00:05:16.560><c> uh</c><00:05:16.720><c> pieces</c><00:05:17.039><c> of</c>
+
+00:05:17.189 --> 00:05:17.199 align:start position:0%
+retrieve the right uh pieces of
+ 
+
+00:05:17.199 --> 00:05:19.310 align:start position:0%
+retrieve the right uh pieces of
+information<00:05:17.600><c> from</c><00:05:17.840><c> an</c>
+
+00:05:19.310 --> 00:05:19.320 align:start position:0%
+information from an
+ 
+
+00:05:19.320 --> 00:05:22.070 align:start position:0%
+information from an
+architecture.<00:05:20.400><c> Uh</c><00:05:20.960><c> for</c><00:05:21.440><c> requirements</c>
+
+00:05:22.070 --> 00:05:22.080 align:start position:0%
+architecture. Uh for requirements
+ 
+
+00:05:22.080 --> 00:05:24.950 align:start position:0%
+architecture. Uh for requirements
+specifically<00:05:23.280><c> uh</c><00:05:23.360><c> we</c><00:05:23.600><c> did</c><00:05:23.840><c> some</c><00:05:24.160><c> early</c><00:05:24.639><c> score</c>
+
+00:05:24.950 --> 00:05:24.960 align:start position:0%
+specifically uh we did some early score
+ 
+
+00:05:24.960 --> 00:05:27.350 align:start position:0%
+specifically uh we did some early score
+enrichment<00:05:25.759><c> of</c><00:05:26.080><c> requirement</c><00:05:26.560><c> documents</c><00:05:27.039><c> for</c>
+
+00:05:27.350 --> 00:05:27.360 align:start position:0%
+enrichment of requirement documents for
+ 
+
+00:05:27.360 --> 00:05:30.390 align:start position:0%
+enrichment of requirement documents for
+faster<00:05:27.680><c> retrieval</c><00:05:28.320><c> because</c><00:05:29.039><c> uh</c><00:05:29.360><c> requirements</c>
+
+00:05:30.390 --> 00:05:30.400 align:start position:0%
+faster retrieval because uh requirements
+ 
+
+00:05:30.400 --> 00:05:33.350 align:start position:0%
+faster retrieval because uh requirements
+uh<00:05:30.560><c> could</c><00:05:30.800><c> be</c><00:05:30.960><c> about</c><00:05:31.360><c> many</c><00:05:31.680><c> different</c><00:05:32.479><c> topics</c>
+
+00:05:33.350 --> 00:05:33.360 align:start position:0%
+uh could be about many different topics
+ 
+
+00:05:33.360 --> 00:05:38.870 align:start position:0%
+uh could be about many different topics
+and<00:05:34.000><c> uh</c><00:05:35.160><c> uh</c><00:05:36.160><c> if</c><00:05:36.479><c> we</c><00:05:37.199><c> want</c><00:05:37.360><c> to</c><00:05:37.600><c> do</c><00:05:38.479><c> uh</c><00:05:38.639><c> and</c>
+
+00:05:38.870 --> 00:05:38.880 align:start position:0%
+and uh uh if we want to do uh and
+ 
+
+00:05:38.880 --> 00:05:41.350 align:start position:0%
+and uh uh if we want to do uh and
+understand<00:05:39.440><c> a</c><00:05:39.759><c> large</c><00:05:40.000><c> corpus</c><00:05:40.479><c> of</c><00:05:40.800><c> text</c>
+
+00:05:41.350 --> 00:05:41.360 align:start position:0%
+understand a large corpus of text
+ 
+
+00:05:41.360 --> 00:05:43.830 align:start position:0%
+understand a large corpus of text
+properly<00:05:42.080><c> probably</c><00:05:42.479><c> want</c><00:05:42.800><c> to</c><00:05:43.360><c> understand</c>
+
+00:05:43.830 --> 00:05:43.840 align:start position:0%
+properly probably want to understand
+ 
+
+00:05:43.840 --> 00:05:46.550 align:start position:0%
+properly probably want to understand
+different<00:05:44.240><c> concept</c><00:05:44.560><c> that</c><00:05:44.880><c> exists</c><00:05:45.120><c> in</c><00:05:45.360><c> that</c><00:05:45.759><c> uh</c>
+
+00:05:46.550 --> 00:05:46.560 align:start position:0%
+different concept that exists in that uh
+ 
+
+00:05:46.560 --> 00:05:50.230 align:start position:0%
+different concept that exists in that uh
+in<00:05:46.800><c> that</c><00:05:47.039><c> context.</c><00:05:48.000><c> Uh</c><00:05:48.240><c> we</c><00:05:48.479><c> did</c><00:05:49.039><c> uh</c><00:05:49.520><c> something</c>
+
+00:05:50.230 --> 00:05:50.240 align:start position:0%
+in that context. Uh we did uh something
+ 
+
+00:05:50.240 --> 00:05:52.070 align:start position:0%
+in that context. Uh we did uh something
+uh<00:05:50.400><c> a</c><00:05:50.639><c> little</c><00:05:50.960><c> simpler</c><00:05:51.360><c> in</c><00:05:51.680><c> our</c><00:05:51.840><c> first</c>
+
+00:05:52.070 --> 00:05:52.080 align:start position:0%
+uh a little simpler in our first
+ 
+
+00:05:52.080 --> 00:05:55.270 align:start position:0%
+uh a little simpler in our first
+iteration<00:05:53.280><c> uh</c><00:05:53.440><c> which</c><00:05:53.759><c> was</c><00:05:53.919><c> about</c><00:05:54.639><c> uh</c><00:05:54.880><c> figuring</c>
+
+00:05:55.270 --> 00:05:55.280 align:start position:0%
+iteration uh which was about uh figuring
+ 
+
+00:05:55.280 --> 00:05:57.270 align:start position:0%
+iteration uh which was about uh figuring
+out<00:05:55.600><c> what</c><00:05:55.759><c> are</c><00:05:55.840><c> the</c><00:05:56.080><c> important</c><00:05:56.560><c> concepts</c><00:05:57.039><c> and</c>
+
+00:05:57.270 --> 00:05:57.280 align:start position:0%
+out what are the important concepts and
+ 
+
+00:05:57.280 --> 00:05:59.150 align:start position:0%
+out what are the important concepts and
+requirements<00:05:57.840><c> for</c><00:05:58.080><c> us</c><00:05:58.240><c> within</c><00:05:58.639><c> a</c><00:05:58.800><c> large</c>
+
+00:05:59.150 --> 00:05:59.160 align:start position:0%
+requirements for us within a large
+ 
+
+00:05:59.160 --> 00:06:02.350 align:start position:0%
+requirements for us within a large
+organization<00:06:00.160><c> and</c><00:06:00.479><c> based</c><00:06:00.800><c> on</c><00:06:01.039><c> that</c><00:06:01.360><c> we</c><00:06:01.759><c> scored</c>
+
+00:06:02.350 --> 00:06:02.360 align:start position:0%
+organization and based on that we scored
+ 
+
+00:06:02.360 --> 00:06:05.749 align:start position:0%
+organization and based on that we scored
+different<00:06:03.360><c> documents</c><00:06:04.000><c> and</c><00:06:04.400><c> and</c><00:06:04.880><c> through</c><00:06:05.120><c> that</c>
+
+00:06:05.749 --> 00:06:05.759 align:start position:0%
+different documents and and through that
+ 
+
+00:06:05.759 --> 00:06:09.749 align:start position:0%
+different documents and and through that
+uh<00:06:05.919><c> we</c><00:06:06.400><c> made</c><00:06:07.120><c> retrieval</c><00:06:07.600><c> task</c><00:06:08.160><c> uh</c><00:06:08.759><c> faster.</c>
+
+00:06:09.749 --> 00:06:09.759 align:start position:0%
+uh we made retrieval task uh faster.
+ 
+
+00:06:09.759 --> 00:06:11.909 align:start position:0%
+uh we made retrieval task uh faster.
+What<00:06:09.919><c> we</c><00:06:10.080><c> learned</c><00:06:10.319><c> was</c><00:06:10.560><c> that</c><00:06:11.440><c> semantic</c>
+
+00:06:11.909 --> 00:06:11.919 align:start position:0%
+What we learned was that semantic
+ 
+
+00:06:11.919 --> 00:06:14.070 align:start position:0%
+What we learned was that semantic
+grounding<00:06:12.400><c> improves</c><00:06:12.960><c> reasoning</c><00:06:13.440><c> but</c><00:06:13.759><c> doesn't</c>
+
+00:06:14.070 --> 00:06:14.080 align:start position:0%
+grounding improves reasoning but doesn't
+ 
+
+00:06:14.080 --> 00:06:17.909 align:start position:0%
+grounding improves reasoning but doesn't
+always<00:06:14.800><c> uh</c><00:06:15.120><c> work.</c><00:06:16.000><c> uh</c><00:06:16.160><c> we</c><00:06:16.479><c> we</c><00:06:16.560><c> we</c><00:06:17.120><c> saw</c><00:06:17.360><c> some</c>
+
+00:06:17.909 --> 00:06:17.919 align:start position:0%
+always uh work. uh we we we saw some
+ 
+
+00:06:17.919 --> 00:06:19.590 align:start position:0%
+always uh work. uh we we we saw some
+really<00:06:18.240><c> good</c><00:06:18.479><c> results</c><00:06:18.880><c> of</c><00:06:19.199><c> architecture</c>
+
+00:06:19.590 --> 00:06:19.600 align:start position:0%
+really good results of architecture
+ 
+
+00:06:19.600 --> 00:06:23.110 align:start position:0%
+really good results of architecture
+retrieval.<00:06:20.319><c> However,</c><00:06:21.199><c> we</c><00:06:21.440><c> also</c><00:06:21.840><c> saw</c><00:06:22.479><c> uh</c><00:06:22.800><c> where</c>
+
+00:06:23.110 --> 00:06:23.120 align:start position:0%
+retrieval. However, we also saw uh where
+ 
+
+00:06:23.120 --> 00:06:25.990 align:start position:0%
+retrieval. However, we also saw uh where
+it<00:06:23.360><c> falls</c><00:06:23.759><c> short</c><00:06:24.080><c> and</c><00:06:24.319><c> cannot</c><00:06:24.720><c> be</c><00:06:24.960><c> scaled</c><00:06:25.440><c> or</c>
+
+00:06:25.990 --> 00:06:26.000 align:start position:0%
+it falls short and cannot be scaled or
+ 
+
+00:06:26.000 --> 00:06:29.070 align:start position:0%
+it falls short and cannot be scaled or
+gets<00:06:26.560><c> uh</c><00:06:26.720><c> very</c><00:06:27.039><c> detailed</c><00:06:27.759><c> uh</c>
+
+00:06:29.070 --> 00:06:29.080 align:start position:0%
+gets uh very detailed uh
+ 
+
+00:06:29.080 --> 00:06:31.909 align:start position:0%
+gets uh very detailed uh
+responses.<00:06:30.080><c> Wrong</c><00:06:30.400><c> design</c><00:06:30.720><c> is</c><00:06:30.880><c> critical</c><00:06:31.440><c> in</c>
+
+00:06:31.909 --> 00:06:31.919 align:start position:0%
+responses. Wrong design is critical in
+ 
+
+00:06:31.919 --> 00:06:34.070 align:start position:0%
+responses. Wrong design is critical in
+soft<00:06:32.240><c> grounding.</c><00:06:32.880><c> We</c><00:06:33.039><c> we</c><00:06:33.360><c> cannot</c><00:06:33.680><c> always</c>
+
+00:06:34.070 --> 00:06:34.080 align:start position:0%
+soft grounding. We we cannot always
+ 
+
+00:06:34.080 --> 00:06:38.150 align:start position:0%
+soft grounding. We we cannot always
+provide<00:06:35.120><c> uh</c><00:06:35.280><c> the</c><00:06:35.600><c> exact</c><00:06:36.560><c> uh</c><00:06:37.440><c> the</c><00:06:37.680><c> exact</c>
+
+00:06:38.150 --> 00:06:38.160 align:start position:0%
+provide uh the exact uh the exact
+ 
+
+00:06:38.160 --> 00:06:41.830 align:start position:0%
+provide uh the exact uh the exact
+structure<00:06:38.720><c> and</c><00:06:39.199><c> uh</c><00:06:39.600><c> telling</c><00:06:40.160><c> the</c><00:06:40.639><c> agent</c><00:06:41.199><c> to</c><00:06:41.759><c> uh</c>
+
+00:06:41.830 --> 00:06:41.840 align:start position:0%
+structure and uh telling the agent to uh
+ 
+
+00:06:41.840 --> 00:06:44.309 align:start position:0%
+structure and uh telling the agent to uh
+to<00:06:42.160><c> exactly</c><00:06:42.639><c> what</c><00:06:42.880><c> to</c><00:06:43.039><c> focus</c><00:06:43.360><c> on</c><00:06:43.600><c> and</c><00:06:43.840><c> and</c><00:06:44.160><c> what</c>
+
+00:06:44.309 --> 00:06:44.319 align:start position:0%
+to exactly what to focus on and and what
+ 
+
+00:06:44.319 --> 00:06:47.270 align:start position:0%
+to exactly what to focus on and and what
+to<00:06:44.479><c> retrieve</c><00:06:44.800><c> is</c><00:06:45.039><c> very</c><00:06:45.400><c> important</c><00:06:46.400><c> and</c><00:06:46.960><c> uh</c><00:06:47.039><c> the</c>
+
+00:06:47.270 --> 00:06:47.280 align:start position:0%
+to retrieve is very important and uh the
+ 
+
+00:06:47.280 --> 00:06:49.990 align:start position:0%
+to retrieve is very important and uh the
+other<00:06:47.440><c> part</c><00:06:47.600><c> is</c><00:06:48.000><c> that</c><00:06:48.319><c> that</c><00:06:48.960><c> uh</c><00:06:49.199><c> graph</c><00:06:49.520><c> memory</c>
+
+00:06:49.990 --> 00:06:50.000 align:start position:0%
+other part is that that uh graph memory
+ 
+
+00:06:50.000 --> 00:06:52.230 align:start position:0%
+other part is that that uh graph memory
+supports<00:06:50.800><c> uh</c><00:06:51.039><c> continuity</c><00:06:51.680><c> and</c><00:06:51.919><c> not</c><00:06:52.080><c> just</c>
+
+00:06:52.230 --> 00:06:52.240 align:start position:0%
+supports uh continuity and not just
+ 
+
+00:06:52.240 --> 00:06:55.110 align:start position:0%
+supports uh continuity and not just
+accuracy.<00:06:53.280><c> It</c><00:06:53.440><c> is</c><00:06:53.600><c> very</c><00:06:53.840><c> important</c><00:06:54.160><c> that</c><00:06:54.800><c> uh</c>
+
+00:06:55.110 --> 00:06:55.120 align:start position:0%
+accuracy. It is very important that uh
+ 
+
+00:06:55.120 --> 00:06:58.629 align:start position:0%
+accuracy. It is very important that uh
+we<00:06:55.840><c> in</c><00:06:56.080><c> our</c><00:06:56.240><c> graph</c><00:06:56.479><c> searches</c><00:06:56.960><c> we</c><00:06:57.199><c> are</c><00:06:57.280><c> able</c><00:06:57.680><c> to</c>
+
+00:06:58.629 --> 00:06:58.639 align:start position:0%
+we in our graph searches we are able to
+ 
+
+00:06:58.639 --> 00:07:00.710 align:start position:0%
+we in our graph searches we are able to
+uh<00:06:58.880><c> find</c><00:06:59.199><c> different</c><00:06:59.520><c> nodes</c><00:06:59.919><c> within</c><00:07:00.240><c> a</c><00:07:00.400><c> graph</c>
+
+00:07:00.710 --> 00:07:00.720 align:start position:0%
+uh find different nodes within a graph
+ 
+
+00:07:00.720 --> 00:07:03.270 align:start position:0%
+uh find different nodes within a graph
+but<00:07:00.960><c> also</c><00:07:01.360><c> be</c><00:07:01.520><c> able</c><00:07:01.840><c> to</c><00:07:02.560><c> connect</c><00:07:02.960><c> these</c>
+
+00:07:03.270 --> 00:07:03.280 align:start position:0%
+but also be able to connect these
+ 
+
+00:07:03.280 --> 00:07:05.270 align:start position:0%
+but also be able to connect these
+different<00:07:03.520><c> nodes</c><00:07:03.840><c> and</c><00:07:04.080><c> figure</c><00:07:04.319><c> out</c><00:07:04.639><c> why</c><00:07:05.039><c> these</c>
+
+00:07:05.270 --> 00:07:05.280 align:start position:0%
+different nodes and figure out why these
+ 
+
+00:07:05.280 --> 00:07:07.350 align:start position:0%
+different nodes and figure out why these
+we<00:07:05.520><c> have</c><00:07:05.680><c> these</c><00:07:05.919><c> different</c><00:07:06.160><c> nodes</c><00:07:06.880><c> uh</c><00:07:07.120><c> popped</c>
+
+00:07:07.350 --> 00:07:07.360 align:start position:0%
+we have these different nodes uh popped
+ 
+
+00:07:07.360 --> 00:07:09.749 align:start position:0%
+we have these different nodes uh popped
+up<00:07:07.520><c> in</c><00:07:07.680><c> our</c><00:07:07.840><c> searches</c><00:07:08.240><c> and</c><00:07:08.400><c> and</c><00:07:09.120><c> add</c><00:07:09.440><c> more</c>
+
+00:07:09.749 --> 00:07:09.759 align:start position:0%
+up in our searches and and add more
+ 
+
+00:07:09.759 --> 00:07:12.710 align:start position:0%
+up in our searches and and add more
+context<00:07:10.319><c> that</c><00:07:10.560><c> could</c><00:07:10.800><c> help</c><00:07:11.039><c> us</c><00:07:11.280><c> to</c><00:07:12.080><c> do</c><00:07:12.400><c> proper</c>
+
+00:07:12.710 --> 00:07:12.720 align:start position:0%
+context that could help us to do proper
+ 
+
+00:07:12.720 --> 00:07:16.469 align:start position:0%
+context that could help us to do proper
+reasoning<00:07:13.680><c> uh</c><00:07:14.000><c> in</c><00:07:14.160><c> the</c><00:07:14.400><c> next</c><00:07:15.000><c> steps.</c><00:07:16.000><c> So</c><00:07:16.240><c> what</c>
+
+00:07:16.469 --> 00:07:16.479 align:start position:0%
+reasoning uh in the next steps. So what
+ 
+
+00:07:16.479 --> 00:07:18.550 align:start position:0%
+reasoning uh in the next steps. So what
+we<00:07:16.639><c> see</c><00:07:16.800><c> here</c><00:07:17.039><c> for</c><00:07:17.120><c> example</c><00:07:17.599><c> is</c><00:07:18.080><c> one</c><00:07:18.319><c> of</c><00:07:18.400><c> our</c>
+
+00:07:18.550 --> 00:07:18.560 align:start position:0%
+we see here for example is one of our
+ 
+
+00:07:18.560 --> 00:07:21.110 align:start position:0%
+we see here for example is one of our
+early<00:07:18.880><c> designs</c><00:07:19.360><c> on</c><00:07:20.000><c> uh</c><00:07:20.319><c> architecture</c>
+
+00:07:21.110 --> 00:07:21.120 align:start position:0%
+early designs on uh architecture
+ 
+
+00:07:21.120 --> 00:07:22.870 align:start position:0%
+early designs on uh architecture
+retrieval.<00:07:21.680><c> On</c><00:07:21.840><c> the</c><00:07:21.919><c> on</c><00:07:22.080><c> the</c><00:07:22.240><c> left</c><00:07:22.400><c> side</c><00:07:22.639><c> we</c>
+
+00:07:22.870 --> 00:07:22.880 align:start position:0%
+retrieval. On the on the left side we
+ 
+
+00:07:22.880 --> 00:07:26.150 align:start position:0%
+retrieval. On the on the left side we
+have<00:07:24.000><c> um</c><00:07:24.720><c> uh</c><00:07:24.960><c> storing</c><00:07:25.360><c> step</c><00:07:25.599><c> on</c><00:07:25.759><c> the</c><00:07:25.919><c> on</c><00:07:26.080><c> the</c>
+
+00:07:26.150 --> 00:07:26.160 align:start position:0%
+have um uh storing step on the on the
+ 
+
+00:07:26.160 --> 00:07:28.469 align:start position:0%
+have um uh storing step on the on the
+right<00:07:26.400><c> side</c><00:07:26.639><c> you</c><00:07:26.880><c> have</c><00:07:27.039><c> the</c><00:07:27.280><c> query</c><00:07:27.680><c> step</c><00:07:28.000><c> and</c>
+
+00:07:28.469 --> 00:07:28.479 align:start position:0%
+right side you have the query step and
+ 
+
+00:07:28.479 --> 00:07:30.469 align:start position:0%
+right side you have the query step and
+uh<00:07:28.560><c> on</c><00:07:28.720><c> the</c><00:07:28.880><c> left</c><00:07:29.120><c> step</c><00:07:29.680><c> uh</c><00:07:29.759><c> we're</c><00:07:30.080><c> basically</c>
+
+00:07:30.469 --> 00:07:30.479 align:start position:0%
+uh on the left step uh we're basically
+ 
+
+00:07:30.479 --> 00:07:32.550 align:start position:0%
+uh on the left step uh we're basically
+breaking<00:07:31.199><c> the</c><00:07:31.440><c> architecture</c><00:07:32.000><c> down</c><00:07:32.240><c> by</c>
+
+00:07:32.550 --> 00:07:32.560 align:start position:0%
+breaking the architecture down by
+ 
+
+00:07:32.560 --> 00:07:36.629 align:start position:0%
+breaking the architecture down by
+components<00:07:33.520><c> and</c><00:07:34.080><c> turning</c><00:07:34.800><c> the</c><00:07:35.599><c> the</c><00:07:36.000><c> JSON</c><00:07:36.400><c> data</c>
+
+00:07:36.629 --> 00:07:36.639 align:start position:0%
+components and turning the the JSON data
+ 
+
+00:07:36.639 --> 00:07:39.029 align:start position:0%
+components and turning the the JSON data
+into<00:07:36.960><c> natural</c><00:07:37.280><c> language</c><00:07:37.759><c> and</c><00:07:38.000><c> then</c><00:07:38.479><c> enriching</c>
+
+00:07:39.029 --> 00:07:39.039 align:start position:0%
+into natural language and then enriching
+ 
+
+00:07:39.039 --> 00:07:41.430 align:start position:0%
+into natural language and then enriching
+it<00:07:39.599><c> with</c><00:07:39.919><c> connection</c><00:07:40.400><c> data</c><00:07:40.720><c> and</c><00:07:40.960><c> embedding</c><00:07:41.280><c> it</c>
+
+00:07:41.430 --> 00:07:41.440 align:start position:0%
+it with connection data and embedding it
+ 
+
+00:07:41.440 --> 00:07:43.670 align:start position:0%
+it with connection data and embedding it
+and<00:07:41.599><c> putting</c><00:07:41.919><c> into</c><00:07:42.160><c> vector</c><00:07:42.560><c> DB</c><00:07:43.199><c> and</c><00:07:43.360><c> on</c><00:07:43.520><c> the</c>
+
+00:07:43.670 --> 00:07:43.680 align:start position:0%
+and putting into vector DB and on the
+ 
+
+00:07:43.680 --> 00:07:46.870 align:start position:0%
+and putting into vector DB and on the
+other<00:07:43.840><c> side</c><00:07:44.720><c> uh</c><00:07:44.880><c> when</c><00:07:45.280><c> the</c><00:07:45.680><c> search</c><00:07:46.000><c> time</c><00:07:46.240><c> comes</c>
+
+00:07:46.870 --> 00:07:46.880 align:start position:0%
+other side uh when the search time comes
+ 
+
+00:07:46.880 --> 00:07:49.990 align:start position:0%
+other side uh when the search time comes
+a<00:07:47.039><c> query</c><00:07:47.360><c> comes</c><00:07:48.160><c> uh</c><00:07:48.319><c> we</c><00:07:48.560><c> embed</c><00:07:48.960><c> that</c><00:07:49.280><c> search</c><00:07:49.759><c> in</c>
+
+00:07:49.990 --> 00:07:50.000 align:start position:0%
+a query comes uh we embed that search in
+ 
+
+00:07:50.000 --> 00:07:51.830 align:start position:0%
+a query comes uh we embed that search in
+the<00:07:50.080><c> vector</c><00:07:50.800><c> uh</c><00:07:51.039><c> DB</c>
+
+00:07:51.830 --> 00:07:51.840 align:start position:0%
+the vector uh DB
+ 
+
+00:07:51.840 --> 00:07:54.550 align:start position:0%
+the vector uh DB
+and<00:07:52.160><c> find</c><00:07:52.639><c> uh</c><00:07:52.800><c> the</c><00:07:53.039><c> component.</c><00:07:53.919><c> Uh</c><00:07:54.160><c> we</c><00:07:54.400><c> saw</c>
+
+00:07:54.550 --> 00:07:54.560 align:start position:0%
+and find uh the component. Uh we saw
+ 
+
+00:07:54.560 --> 00:07:57.110 align:start position:0%
+and find uh the component. Uh we saw
+some<00:07:55.039><c> uh</c><00:07:55.199><c> good</c><00:07:55.360><c> results</c><00:07:55.680><c> with</c><00:07:56.000><c> this.</c><00:07:56.319><c> But</c><00:07:56.800><c> uh</c>
+
+00:07:57.110 --> 00:07:57.120 align:start position:0%
+some uh good results with this. But uh
+ 
+
+00:07:57.120 --> 00:08:00.950 align:start position:0%
+some uh good results with this. But uh
+as<00:07:57.680><c> as</c><00:07:58.240><c> one</c><00:07:58.479><c> thing</c><00:07:58.639><c> we</c><00:07:59.199><c> uh</c><00:07:59.360><c> we</c><00:07:59.520><c> we</c><00:08:00.160><c> uh</c><00:08:00.319><c> we</c><00:08:00.639><c> found</c>
+
+00:08:00.950 --> 00:08:00.960 align:start position:0%
+as as one thing we uh we we uh we found
+ 
+
+00:08:00.960 --> 00:08:03.830 align:start position:0%
+as as one thing we uh we we uh we found
+was<00:08:01.280><c> that</c><00:08:02.240><c> uh</c><00:08:02.560><c> semantic</c><00:08:03.039><c> search</c><00:08:03.360><c> doesn't</c><00:08:03.680><c> work</c>
+
+00:08:03.830 --> 00:08:03.840 align:start position:0%
+was that uh semantic search doesn't work
+ 
+
+00:08:03.840 --> 00:08:08.110 align:start position:0%
+was that uh semantic search doesn't work
+very<00:08:04.160><c> well</c><00:08:04.400><c> for</c><00:08:05.199><c> uh</c><00:08:06.560><c> uh</c><00:08:06.800><c> this</c><00:08:07.199><c> type</c><00:08:07.440><c> of</c><00:08:07.680><c> graph</c>
+
+00:08:08.110 --> 00:08:08.120 align:start position:0%
+very well for uh uh this type of graph
+ 
+
+00:08:08.120 --> 00:08:11.430 align:start position:0%
+very well for uh uh this type of graph
+data<00:08:09.120><c> and</c><00:08:09.360><c> it</c><00:08:09.599><c> has</c><00:08:09.840><c> its</c><00:08:10.080><c> own</c><00:08:10.280><c> limitation.</c><00:08:11.280><c> And</c>
+
+00:08:11.430 --> 00:08:11.440 align:start position:0%
+data and it has its own limitation. And
+ 
+
+00:08:11.440 --> 00:08:13.589 align:start position:0%
+data and it has its own limitation. And
+that's<00:08:11.680><c> why</c><00:08:12.240><c> uh</c><00:08:12.400><c> from</c><00:08:12.639><c> here</c><00:08:12.879><c> we</c><00:08:13.120><c> went</c><00:08:13.360><c> more</c>
+
+00:08:13.589 --> 00:08:13.599 align:start position:0%
+that's why uh from here we went more
+ 
+
+00:08:13.599 --> 00:08:17.350 align:start position:0%
+that's why uh from here we went more
+towards<00:08:14.479><c> uh</c><00:08:14.800><c> graph-</c><00:08:15.199><c> based</c><00:08:16.080><c> uh</c><00:08:16.560><c> searches.</c>
+
+00:08:17.350 --> 00:08:17.360 align:start position:0%
+towards uh graph- based uh searches.
+ 
+
+00:08:17.360 --> 00:08:19.110 align:start position:0%
+towards uh graph- based uh searches.
+First<00:08:17.599><c> of</c><00:08:17.680><c> all,</c><00:08:17.840><c> enrich</c><00:08:18.319><c> this</c><00:08:18.560><c> approach</c><00:08:18.960><c> with</c>
+
+00:08:19.110 --> 00:08:19.120 align:start position:0%
+First of all, enrich this approach with
+ 
+
+00:08:19.120 --> 00:08:21.350 align:start position:0%
+First of all, enrich this approach with
+with<00:08:19.440><c> some</c><00:08:19.599><c> graph</c><00:08:20.160><c> uh</c><00:08:20.319><c> searches</c><00:08:20.800><c> and</c><00:08:21.039><c> from</c>
+
+00:08:21.350 --> 00:08:21.360 align:start position:0%
+with some graph uh searches and from
+ 
+
+00:08:21.360 --> 00:08:23.749 align:start position:0%
+with some graph uh searches and from
+here<00:08:21.599><c> we</c><00:08:21.759><c> are</c><00:08:21.919><c> moving</c><00:08:22.240><c> towards</c><00:08:23.280><c> uh</c><00:08:23.440><c> making</c>
+
+00:08:23.749 --> 00:08:23.759 align:start position:0%
+here we are moving towards uh making
+ 
+
+00:08:23.759 --> 00:08:27.510 align:start position:0%
+here we are moving towards uh making
+this<00:08:24.080><c> more</c><00:08:24.960><c> uh</c><00:08:25.120><c> based</c><00:08:25.360><c> on</c><00:08:25.840><c> the</c><00:08:26.560><c> graph</c><00:08:27.120><c> uh</c><00:08:27.280><c> a</c>
+
+00:08:27.510 --> 00:08:27.520 align:start position:0%
+this more uh based on the graph uh a
+ 
+
+00:08:27.520 --> 00:08:30.070 align:start position:0%
+this more uh based on the graph uh a
+knowledge<00:08:28.039><c> graph.</c><00:08:29.199><c> This</c><00:08:29.360><c> is</c><00:08:29.520><c> another</c><00:08:29.919><c> design</c>
+
+00:08:30.070 --> 00:08:30.080 align:start position:0%
+knowledge graph. This is another design
+ 
+
+00:08:30.080 --> 00:08:32.230 align:start position:0%
+knowledge graph. This is another design
+that<00:08:30.319><c> we</c><00:08:30.479><c> did</c><00:08:30.639><c> initially</c><00:08:31.199><c> for</c><00:08:32.000><c> uh</c>
+
+00:08:32.230 --> 00:08:32.240 align:start position:0%
+that we did initially for uh
+ 
+
+00:08:32.240 --> 00:08:34.949 align:start position:0%
+that we did initially for uh
+understanding<00:08:32.800><c> requirements</c><00:08:33.680><c> and</c><00:08:34.240><c> uh</c><00:08:34.800><c> uh</c>
+
+00:08:34.949 --> 00:08:34.959 align:start position:0%
+understanding requirements and uh uh
+ 
+
+00:08:34.959 --> 00:08:38.949 align:start position:0%
+understanding requirements and uh uh
+part<00:08:35.279><c> of</c><00:08:35.360><c> it</c><00:08:35.680><c> is</c><00:08:36.159><c> uh</c><00:08:36.479><c> very</c><00:08:37.120><c> uh</c><00:08:37.519><c> familiar</c><00:08:38.560><c> uh</c><00:08:38.719><c> for</c>
+
+00:08:38.949 --> 00:08:38.959 align:start position:0%
+part of it is uh very uh familiar uh for
+ 
+
+00:08:38.959 --> 00:08:41.990 align:start position:0%
+part of it is uh very uh familiar uh for
+most<00:08:39.200><c> of</c><00:08:39.360><c> us</c><00:08:39.680><c> which</c><00:08:39.919><c> is</c><00:08:40.080><c> about</c><00:08:40.959><c> uh</c><00:08:41.120><c> taking</c><00:08:41.599><c> in</c>
+
+00:08:41.990 --> 00:08:42.000 align:start position:0%
+most of us which is about uh taking in
+ 
+
+00:08:42.000 --> 00:08:44.630 align:start position:0%
+most of us which is about uh taking in
+documents<00:08:42.560><c> split</c><00:08:43.440><c> uh</c><00:08:43.599><c> pre-processing</c><00:08:44.320><c> it</c>
+
+00:08:44.630 --> 00:08:44.640 align:start position:0%
+documents split uh pre-processing it
+ 
+
+00:08:44.640 --> 00:08:47.269 align:start position:0%
+documents split uh pre-processing it
+splitting<00:08:45.040><c> it</c><00:08:45.360><c> embedding</c><00:08:45.760><c> it.</c><00:08:46.640><c> uh</c><00:08:46.720><c> what</c><00:08:46.959><c> what</c>
+
+00:08:47.269 --> 00:08:47.279 align:start position:0%
+splitting it embedding it. uh what what
+ 
+
+00:08:47.279 --> 00:08:50.710 align:start position:0%
+splitting it embedding it. uh what what
+we<00:08:47.519><c> did</c><00:08:47.760><c> extra</c><00:08:48.160><c> here</c><00:08:48.480><c> was</c><00:08:49.120><c> uh</c><00:08:49.760><c> coming</c><00:08:50.080><c> up</c><00:08:50.240><c> with</c>
+
+00:08:50.710 --> 00:08:50.720 align:start position:0%
+we did extra here was uh coming up with
+ 
+
+00:08:50.720 --> 00:08:53.110 align:start position:0%
+we did extra here was uh coming up with
+uh<00:08:51.519><c> first</c><00:08:51.680><c> of</c><00:08:51.839><c> all</c><00:08:52.080><c> having</c><00:08:52.560><c> requirement</c>
+
+00:08:53.110 --> 00:08:53.120 align:start position:0%
+uh first of all having requirement
+ 
+
+00:08:53.120 --> 00:08:56.870 align:start position:0%
+uh first of all having requirement
+templates<00:08:54.000><c> uh</c><00:08:54.240><c> that</c><00:08:54.880><c> uh</c><00:08:55.399><c> had</c><00:08:56.399><c> specific</c>
+
+00:08:56.870 --> 00:08:56.880 align:start position:0%
+templates uh that uh had specific
+ 
+
+00:08:56.880 --> 00:08:59.590 align:start position:0%
+templates uh that uh had specific
+structure<00:08:57.200><c> on</c><00:08:57.519><c> what</c><00:08:57.760><c> requirements</c><00:08:58.399><c> are.</c><00:08:59.279><c> Uh</c>
+
+00:08:59.590 --> 00:08:59.600 align:start position:0%
+structure on what requirements are. Uh
+ 
+
+00:08:59.600 --> 00:09:02.870 align:start position:0%
+structure on what requirements are. Uh
+in<00:08:59.839><c> this</c><00:09:00.000><c> way</c><00:09:00.160><c> we</c><00:09:00.399><c> were</c><00:09:00.640><c> able</c><00:09:00.920><c> to</c><00:09:02.080><c> uh</c><00:09:02.320><c> basically</c>
+
+00:09:02.870 --> 00:09:02.880 align:start position:0%
+in this way we were able to uh basically
+ 
+
+00:09:02.880 --> 00:09:04.630 align:start position:0%
+in this way we were able to uh basically
+structure<00:09:03.360><c> what</c><00:09:03.600><c> we</c><00:09:03.760><c> are</c><00:09:03.920><c> extracting</c><00:09:04.399><c> from</c>
+
+00:09:04.630 --> 00:09:04.640 align:start position:0%
+structure what we are extracting from
+ 
+
+00:09:04.640 --> 00:09:08.550 align:start position:0%
+structure what we are extracting from
+the<00:09:04.880><c> documents</c><00:09:05.920><c> uh</c><00:09:06.080><c> in</c><00:09:06.320><c> order</c><00:09:06.560><c> to</c><00:09:07.279><c> the</c><00:09:08.240><c> uh</c><00:09:08.320><c> as</c>
+
+00:09:08.550 --> 00:09:08.560 align:start position:0%
+the documents uh in order to the uh as
+ 
+
+00:09:08.560 --> 00:09:13.030 align:start position:0%
+the documents uh in order to the uh as
+we<00:09:08.720><c> call</c><00:09:08.880><c> it</c><00:09:09.120><c> pods</c><00:09:10.000><c> to</c><00:09:10.720><c> to</c><00:09:11.120><c> make</c><00:09:11.279><c> sure</c><00:09:11.440><c> that</c><00:09:12.080><c> the</c>
+
+00:09:13.030 --> 00:09:13.040 align:start position:0%
+we call it pods to to make sure that the
+ 
+
+00:09:13.040 --> 00:09:15.509 align:start position:0%
+we call it pods to to make sure that the
+the<00:09:13.440><c> extracted</c><00:09:14.000><c> information</c><00:09:14.480><c> is</c><00:09:14.800><c> relevant</c><00:09:15.279><c> to</c>
+
+00:09:15.509 --> 00:09:15.519 align:start position:0%
+the extracted information is relevant to
+ 
+
+00:09:15.519 --> 00:09:17.790 align:start position:0%
+the extracted information is relevant to
+what<00:09:15.760><c> we're</c><00:09:16.000><c> going</c><00:09:16.160><c> to</c><00:09:16.320><c> use</c>
+
+00:09:17.790 --> 00:09:17.800 align:start position:0%
+what we're going to use
+ 
+
+00:09:17.800 --> 00:09:20.389 align:start position:0%
+what we're going to use
+downstream.<00:09:18.800><c> This</c><00:09:19.040><c> helped</c><00:09:19.279><c> us</c><00:09:19.680><c> uh</c><00:09:19.760><c> with</c><00:09:20.080><c> fast</c>
+
+00:09:20.389 --> 00:09:20.399 align:start position:0%
+downstream. This helped us uh with fast
+ 
+
+00:09:20.399 --> 00:09:23.190 align:start position:0%
+downstream. This helped us uh with fast
+retrieval.<00:09:21.120><c> it</c><00:09:21.360><c> has</c><00:09:22.080><c> uh</c><00:09:22.320><c> the</c><00:09:22.720><c> its</c><00:09:23.040><c> own</c>
+
+00:09:23.190 --> 00:09:23.200 align:start position:0%
+retrieval. it has uh the its own
+ 
+
+00:09:23.200 --> 00:09:26.389 align:start position:0%
+retrieval. it has uh the its own
+advantage<00:09:23.920><c> in</c><00:09:24.240><c> terms</c><00:09:24.480><c> of</c><00:09:24.880><c> uh</c><00:09:25.120><c> finding</c><00:09:26.160><c> uh</c>
+
+00:09:26.389 --> 00:09:26.399 align:start position:0%
+advantage in terms of uh finding uh
+ 
+
+00:09:26.399 --> 00:09:27.670 align:start position:0%
+advantage in terms of uh finding uh
+structuring<00:09:26.880><c> the</c><00:09:27.040><c> the</c><00:09:27.440><c> business</c>
+
+00:09:27.670 --> 00:09:27.680 align:start position:0%
+structuring the the business
+ 
+
+00:09:27.680 --> 00:09:29.509 align:start position:0%
+structuring the the business
+requirements<00:09:28.160><c> and</c><00:09:28.480><c> finding</c><00:09:28.800><c> the</c><00:09:29.040><c> the</c><00:09:29.360><c> right</c>
+
+00:09:29.509 --> 00:09:29.519 align:start position:0%
+requirements and finding the the right
+ 
+
+00:09:29.519 --> 00:09:33.990 align:start position:0%
+requirements and finding the the right
+pieces<00:09:30.399><c> uh</c><00:09:30.640><c> for</c><00:09:31.760><c> uh</c><00:09:32.000><c> agents</c><00:09:32.560><c> to</c><00:09:32.800><c> to</c><00:09:33.200><c> do</c><00:09:33.600><c> the</c>
+
+00:09:33.990 --> 00:09:34.000 align:start position:0%
+pieces uh for uh agents to to do the
+ 
+
+00:09:34.000 --> 00:09:37.110 align:start position:0%
+pieces uh for uh agents to to do the
+further<00:09:34.640><c> the</c><00:09:35.360><c> uh</c><00:09:35.600><c> recommendation</c><00:09:36.240><c> tasks.</c><00:09:36.800><c> Uh</c>
+
+00:09:37.110 --> 00:09:37.120 align:start position:0%
+further the uh recommendation tasks. Uh
+ 
+
+00:09:37.120 --> 00:09:39.269 align:start position:0%
+further the uh recommendation tasks. Uh
+however<00:09:37.519><c> we</c><00:09:37.760><c> also</c><00:09:38.080><c> learned</c><00:09:38.320><c> that</c><00:09:38.880><c> this</c><00:09:39.120><c> is</c>
+
+00:09:39.269 --> 00:09:39.279 align:start position:0%
+however we also learned that this is
+ 
+
+00:09:39.279 --> 00:09:41.990 align:start position:0%
+however we also learned that this is
+also<00:09:39.519><c> had</c><00:09:39.839><c> some</c><00:09:40.200><c> limitation</c><00:09:41.200><c> as</c><00:09:41.440><c> we</c><00:09:41.760><c> increase</c>
+
+00:09:41.990 --> 00:09:42.000 align:start position:0%
+also had some limitation as we increase
+ 
+
+00:09:42.000 --> 00:09:44.470 align:start position:0%
+also had some limitation as we increase
+the<00:09:42.320><c> number</c><00:09:42.480><c> of</c><00:09:42.720><c> documents</c><00:09:43.600><c> we</c><00:09:43.839><c> we</c><00:09:44.080><c> see</c><00:09:44.240><c> that</c>
+
+00:09:44.470 --> 00:09:44.480 align:start position:0%
+the number of documents we we see that
+ 
+
+00:09:44.480 --> 00:09:48.070 align:start position:0%
+the number of documents we we see that
+we<00:09:44.640><c> we</c><00:09:44.959><c> sometimes</c><00:09:45.440><c> lose</c><00:09:45.760><c> the</c><00:09:45.920><c> context</c><00:09:46.880><c> u</c><00:09:47.360><c> uh</c><00:09:47.519><c> in</c>
+
+00:09:48.070 --> 00:09:48.080 align:start position:0%
+we we sometimes lose the context u uh in
+ 
+
+00:09:48.080 --> 00:09:52.070 align:start position:0%
+we we sometimes lose the context u uh in
+uh<00:09:48.320><c> in</c><00:09:48.560><c> a</c><00:09:48.720><c> larger</c><00:09:49.519><c> uh</c><00:09:50.120><c> searches.</c><00:09:51.120><c> So</c><00:09:51.600><c> and</c><00:09:51.839><c> here</c>
+
+00:09:52.070 --> 00:09:52.080 align:start position:0%
+uh in a larger uh searches. So and here
+ 
+
+00:09:52.080 --> 00:09:55.870 align:start position:0%
+uh in a larger uh searches. So and here
+is<00:09:52.320><c> another</c><00:09:52.640><c> part</c><00:09:52.880><c> that</c><00:09:53.760><c> uh</c><00:09:54.080><c> finding</c><00:09:54.880><c> uh</c><00:09:55.440><c> the</c>
+
+00:09:55.870 --> 00:09:55.880 align:start position:0%
+is another part that uh finding uh the
+ 
+
+00:09:55.880 --> 00:09:58.470 align:start position:0%
+is another part that uh finding uh the
+right<00:09:56.880><c> context</c><00:09:57.279><c> within</c><00:09:57.680><c> larger</c><00:09:58.000><c> corpus</c>
+
+00:09:58.470 --> 00:09:58.480 align:start position:0%
+right context within larger corpus
+ 
+
+00:09:58.480 --> 00:10:00.550 align:start position:0%
+right context within larger corpus
+becomes<00:09:58.800><c> very</c><00:09:59.040><c> important</c><00:09:59.600><c> and</c><00:10:00.160><c> uh</c><00:10:00.240><c> that's</c>
+
+00:10:00.550 --> 00:10:00.560 align:start position:0%
+becomes very important and uh that's
+ 
+
+00:10:00.560 --> 00:10:03.190 align:start position:0%
+becomes very important and uh that's
+where<00:10:00.800><c> we</c><00:10:00.959><c> see</c><00:10:01.200><c> some</c><00:10:01.600><c> uh</c><00:10:02.080><c> graph</c><00:10:02.320><c> analysis</c>
+
+00:10:03.190 --> 00:10:03.200 align:start position:0%
+where we see some uh graph analysis
+ 
+
+00:10:03.200 --> 00:10:04.910 align:start position:0%
+where we see some uh graph analysis
+could<00:10:03.440><c> also</c><00:10:03.760><c> help</c><00:10:04.000><c> on</c><00:10:04.160><c> this</c>
+
+00:10:04.910 --> 00:10:04.920 align:start position:0%
+could also help on this
+ 
+
+00:10:04.920 --> 00:10:07.269 align:start position:0%
+could also help on this
+side.<00:10:05.920><c> Another</c><00:10:06.320><c> part</c><00:10:06.560><c> is</c><00:10:06.720><c> about</c><00:10:06.959><c> complex</c>
+
+00:10:07.269 --> 00:10:07.279 align:start position:0%
+side. Another part is about complex
+ 
+
+00:10:07.279 --> 00:10:09.430 align:start position:0%
+side. Another part is about complex
+reasoning<00:10:07.880><c> scenarios.</c><00:10:08.880><c> Good</c><00:10:09.200><c> design</c>
+
+00:10:09.430 --> 00:10:09.440 align:start position:0%
+reasoning scenarios. Good design
+ 
+
+00:10:09.440 --> 00:10:11.910 align:start position:0%
+reasoning scenarios. Good design
+involves<00:10:10.640><c> uh</c><00:10:10.959><c> conflicting</c><00:10:11.519><c> goals,</c>
+
+00:10:11.910 --> 00:10:11.920 align:start position:0%
+involves uh conflicting goals,
+ 
+
+00:10:11.920 --> 00:10:13.829 align:start position:0%
+involves uh conflicting goals,
+trade-offs<00:10:12.399><c> and</c><00:10:12.560><c> debates.</c><00:10:13.040><c> That's</c><00:10:13.440><c> part</c><00:10:13.680><c> of</c>
+
+00:10:13.829 --> 00:10:13.839 align:start position:0%
+trade-offs and debates. That's part of
+ 
+
+00:10:13.839 --> 00:10:17.030 align:start position:0%
+trade-offs and debates. That's part of
+the<00:10:14.079><c> architecture</c><00:10:14.800><c> design</c><00:10:15.440><c> world.</c><00:10:15.839><c> Uh</c><00:10:16.720><c> it</c>
+
+00:10:17.030 --> 00:10:17.040 align:start position:0%
+the architecture design world. Uh it
+ 
+
+00:10:17.040 --> 00:10:19.829 align:start position:0%
+the architecture design world. Uh it
+doesn't<00:10:17.519><c> it</c><00:10:17.760><c> never</c><00:10:18.000><c> comes</c><00:10:18.240><c> easy.</c><00:10:19.120><c> Uh</c><00:10:19.360><c> and</c><00:10:19.600><c> we</c>
+
+00:10:19.829 --> 00:10:19.839 align:start position:0%
+doesn't it never comes easy. Uh and we
+ 
+
+00:10:19.839 --> 00:10:21.430 align:start position:0%
+doesn't it never comes easy. Uh and we
+also<00:10:20.079><c> need</c><00:10:20.240><c> the</c><00:10:20.480><c> agents</c><00:10:20.880><c> that</c><00:10:21.200><c> can</c>
+
+00:10:21.430 --> 00:10:21.440 align:start position:0%
+also need the agents that can
+ 
+
+00:10:21.440 --> 00:10:24.470 align:start position:0%
+also need the agents that can
+collaborate,<00:10:22.000><c> argue</c><00:10:22.399><c> and</c><00:10:22.640><c> converge</c><00:10:23.440><c> on</c><00:10:24.160><c> uh</c>
+
+00:10:24.470 --> 00:10:24.480 align:start position:0%
+collaborate, argue and converge on uh
+ 
+
+00:10:24.480 --> 00:10:25.710 align:start position:0%
+collaborate, argue and converge on uh
+justified
+
+00:10:25.710 --> 00:10:25.720 align:start position:0%
+justified
+ 
+
+00:10:25.720 --> 00:10:28.470 align:start position:0%
+justified
+recommendations.<00:10:26.720><c> Uh</c><00:10:27.120><c> so</c><00:10:27.279><c> what</c><00:10:27.519><c> we</c><00:10:27.760><c> tried</c><00:10:28.000><c> was</c>
+
+00:10:28.470 --> 00:10:28.480 align:start position:0%
+recommendations. Uh so what we tried was
+ 
+
+00:10:28.480 --> 00:10:30.870 align:start position:0%
+recommendations. Uh so what we tried was
+uh<00:10:28.640><c> basically</c><00:10:29.120><c> building</c><00:10:29.680><c> a</c><00:10:29.839><c> mass</c><00:10:30.160><c> archite</c>
+
+00:10:30.870 --> 00:10:30.880 align:start position:0%
+uh basically building a mass archite
+ 
+
+00:10:30.880 --> 00:10:33.910 align:start position:0%
+uh basically building a mass archite
+orchestration<00:10:32.160><c> uh</c><00:10:32.560><c> with</c><00:10:33.120><c> ro</c><00:10:33.600><c> specific</c>
+
+00:10:33.910 --> 00:10:33.920 align:start position:0%
+orchestration uh with ro specific
+ 
+
+00:10:33.920 --> 00:10:38.470 align:start position:0%
+orchestration uh with ro specific
+agents.<00:10:34.640><c> This</c><00:10:35.279><c> multi-</c><00:10:35.680><c> aent</c><00:10:36.160><c> system</c><00:10:37.120><c> uh</c><00:10:37.680><c> is</c>
+
+00:10:38.470 --> 00:10:38.480 align:start position:0%
+agents. This multi- aent system uh is
+ 
+
+00:10:38.480 --> 00:10:42.630 align:start position:0%
+agents. This multi- aent system uh is
+able<00:10:39.200><c> to</c><00:10:39.680><c> basically</c><00:10:40.760><c> uh</c><00:10:41.760><c> make</c><00:10:42.079><c> multiple</c>
+
+00:10:42.630 --> 00:10:42.640 align:start position:0%
+able to basically uh make multiple
+ 
+
+00:10:42.640 --> 00:10:45.829 align:start position:0%
+able to basically uh make multiple
+agents<00:10:43.440><c> uh</c><00:10:43.760><c> work</c><00:10:44.480><c> uh</c><00:10:44.880><c> together</c><00:10:45.279><c> at</c><00:10:45.519><c> the</c><00:10:45.680><c> same</c>
+
+00:10:45.829 --> 00:10:45.839 align:start position:0%
+agents uh work uh together at the same
+ 
+
+00:10:45.839 --> 00:10:48.389 align:start position:0%
+agents uh work uh together at the same
+time<00:10:46.720><c> and</c><00:10:47.440><c> uh</c><00:10:47.600><c> give</c><00:10:47.839><c> them</c><00:10:48.000><c> multiple</c>
+
+00:10:48.389 --> 00:10:48.399 align:start position:0%
+time and uh give them multiple
+ 
+
+00:10:48.399 --> 00:10:50.230 align:start position:0%
+time and uh give them multiple
+properties.<00:10:48.959><c> We'll</c><00:10:49.120><c> we'll</c><00:10:49.600><c> cover</c><00:10:49.920><c> more</c><00:10:50.079><c> of</c>
+
+00:10:50.230 --> 00:10:50.240 align:start position:0%
+properties. We'll we'll cover more of
+ 
+
+00:10:50.240 --> 00:10:53.750 align:start position:0%
+properties. We'll we'll cover more of
+that<00:10:50.640><c> and</c><00:10:51.519><c> and</c><00:10:51.760><c> next</c><00:10:52.079><c> slides.</c><00:10:52.959><c> Uh</c><00:10:53.360><c> another</c>
+
+00:10:53.750 --> 00:10:53.760 align:start position:0%
+that and and next slides. Uh another
+ 
+
+00:10:53.760 --> 00:10:55.430 align:start position:0%
+that and and next slides. Uh another
+thing that<00:10:53.920><c> we</c><00:10:54.160><c> tried</c><00:10:54.480><c> was</c><00:10:54.880><c> uh</c><00:10:55.040><c> having</c>
+
+00:10:55.430 --> 00:10:55.440 align:start position:0%
+thing that we tried was uh having
+ 
+
+00:10:55.440 --> 00:10:58.790 align:start position:0%
+thing that we tried was uh having
+structured<00:10:56.079><c> message</c><00:10:56.399><c> format.</c><00:10:57.120><c> Initially</c><00:10:58.000><c> uh</c>
+
+00:10:58.790 --> 00:10:58.800 align:start position:0%
+structured message format. Initially uh
+ 
+
+00:10:58.800 --> 00:11:02.069 align:start position:0%
+structured message format. Initially uh
+that<00:10:59.040><c> we</c><00:10:59.279><c> had</c><00:10:59.440><c> to</c><00:10:59.680><c> start</c><00:10:59.839><c> with</c><00:11:00.600><c> uh</c><00:11:01.600><c> generating</c>
+
+00:11:02.069 --> 00:11:02.079 align:start position:0%
+that we had to start with uh generating
+ 
+
+00:11:02.079 --> 00:11:05.030 align:start position:0%
+that we had to start with uh generating
+XMLs<00:11:02.560><c> and</c><00:11:02.720><c> parsing</c><00:11:03.519><c> XMLs</c><00:11:04.160><c> which</c><00:11:04.320><c> wasn't</c><00:11:04.640><c> fun</c>
+
+00:11:05.030 --> 00:11:05.040 align:start position:0%
+XMLs and parsing XMLs which wasn't fun
+ 
+
+00:11:05.040 --> 00:11:08.310 align:start position:0%
+XMLs and parsing XMLs which wasn't fun
+and<00:11:05.440><c> I'm</c><00:11:05.680><c> glad</c><00:11:06.000><c> those</c><00:11:06.160><c> days</c><00:11:06.399><c> are</c><00:11:06.640><c> gone.</c><00:11:07.120><c> Um</c><00:11:07.839><c> and</c>
+
+00:11:08.310 --> 00:11:08.320 align:start position:0%
+and I'm glad those days are gone. Um and
+ 
+
+00:11:08.320 --> 00:11:11.110 align:start position:0%
+and I'm glad those days are gone. Um and
+uh<00:11:08.480><c> but</c><00:11:09.279><c> having</c><00:11:09.600><c> the</c><00:11:09.839><c> structured</c><00:11:10.320><c> message</c>
+
+00:11:11.110 --> 00:11:11.120 align:start position:0%
+uh but having the structured message
+ 
+
+00:11:11.120 --> 00:11:14.630 align:start position:0%
+uh but having the structured message
+definitely<00:11:11.600><c> helped</c><00:11:12.399><c> uh</c><00:11:12.800><c> with</c><00:11:13.519><c> uh</c><00:11:14.160><c> building</c>
+
+00:11:14.630 --> 00:11:14.640 align:start position:0%
+definitely helped uh with uh building
+ 
+
+00:11:14.640 --> 00:11:17.750 align:start position:0%
+definitely helped uh with uh building
+better<00:11:15.600><c> workflows</c><00:11:16.399><c> and</c><00:11:16.560><c> and</c><00:11:16.959><c> h</c><00:11:17.440><c> having</c>
+
+00:11:17.750 --> 00:11:17.760 align:start position:0%
+better workflows and and h having
+ 
+
+00:11:17.760 --> 00:11:19.829 align:start position:0%
+better workflows and and h having
+multiple<00:11:18.160><c> agents</c><00:11:18.480><c> to</c><00:11:18.640><c> work</c><00:11:18.800><c> with</c><00:11:19.040><c> each</c><00:11:19.200><c> other</c>
+
+00:11:19.829 --> 00:11:19.839 align:start position:0%
+multiple agents to work with each other
+ 
+
+00:11:19.839 --> 00:11:23.509 align:start position:0%
+multiple agents to work with each other
+uh<00:11:20.320><c> and</c><00:11:20.800><c> having</c><00:11:21.200><c> more</c><00:11:21.760><c> agents</c><00:11:22.160><c> also</c><00:11:23.040><c> uh</c><00:11:23.279><c> work</c>
+
+00:11:23.509 --> 00:11:23.519 align:start position:0%
+uh and having more agents also uh work
+ 
+
+00:11:23.519 --> 00:11:25.910 align:start position:0%
+uh and having more agents also uh work
+with<00:11:23.680><c> each</c><00:11:23.839><c> other</c><00:11:24.000><c> in</c><00:11:24.160><c> a</c><00:11:24.240><c> in</c><00:11:24.480><c> a</c><00:11:24.640><c> longer</c><00:11:24.959><c> chain.</c>
+
+00:11:25.910 --> 00:11:25.920 align:start position:0%
+with each other in a in a longer chain.
+ 
+
+00:11:25.920 --> 00:11:28.150 align:start position:0%
+with each other in a in a longer chain.
+Um,<00:11:26.480><c> customer</c><00:11:27.120><c> management</c><00:11:27.440><c> was</c><00:11:27.600><c> a</c><00:11:27.760><c> was</c><00:11:28.000><c> an</c>
+
+00:11:28.150 --> 00:11:28.160 align:start position:0%
+Um, customer management was a was an
+ 
+
+00:11:28.160 --> 00:11:29.910 align:start position:0%
+Um, customer management was a was an
+important<00:11:28.560><c> piece</c><00:11:28.880><c> because</c><00:11:29.200><c> the</c><00:11:29.440><c> way</c><00:11:29.519><c> that</c><00:11:29.680><c> we</c>
+
+00:11:29.910 --> 00:11:29.920 align:start position:0%
+important piece because the way that we
+ 
+
+00:11:29.920 --> 00:11:32.630 align:start position:0%
+important piece because the way that we
+wanted<00:11:30.160><c> to</c><00:11:30.720><c> uh</c><00:11:30.959><c> h</c><00:11:31.279><c> how</c><00:11:31.279><c> have</c><00:11:31.519><c> the</c><00:11:31.760><c> agents</c>
+
+00:11:32.630 --> 00:11:32.640 align:start position:0%
+wanted to uh h how have the agents
+ 
+
+00:11:32.640 --> 00:11:34.550 align:start position:0%
+wanted to uh h how have the agents
+collaborate<00:11:33.120><c> with</c><00:11:33.279><c> each</c><00:11:33.519><c> other</c><00:11:34.240><c> because</c>
+
+00:11:34.550 --> 00:11:34.560 align:start position:0%
+collaborate with each other because
+ 
+
+00:11:34.560 --> 00:11:37.190 align:start position:0%
+collaborate with each other because
+there<00:11:34.800><c> were</c><00:11:34.959><c> multiple</c><00:11:35.839><c> levels</c><00:11:36.320><c> of</c><00:11:36.880><c> uh</c>
+
+00:11:37.190 --> 00:11:37.200 align:start position:0%
+there were multiple levels of uh
+ 
+
+00:11:37.200 --> 00:11:39.590 align:start position:0%
+there were multiple levels of uh
+interaction<00:11:37.760><c> between</c><00:11:38.240><c> agents.</c><00:11:39.040><c> uh</c><00:11:39.120><c> we</c><00:11:39.360><c> wanted</c>
+
+00:11:39.590 --> 00:11:39.600 align:start position:0%
+interaction between agents. uh we wanted
+ 
+
+00:11:39.600 --> 00:11:41.670 align:start position:0%
+interaction between agents. uh we wanted
+to<00:11:39.839><c> sure</c><00:11:40.320><c> make</c><00:11:40.560><c> sure</c><00:11:40.640><c> that</c><00:11:40.959><c> the</c><00:11:41.440><c> uh</c>
+
+00:11:41.670 --> 00:11:41.680 align:start position:0%
+to sure make sure that the uh
+ 
+
+00:11:41.680 --> 00:11:44.470 align:start position:0%
+to sure make sure that the uh
+conversations<00:11:42.320><c> are</c><00:11:42.519><c> isolated</c><00:11:43.519><c> to</c><00:11:44.160><c> first</c><00:11:44.320><c> of</c>
+
+00:11:44.470 --> 00:11:44.480 align:start position:0%
+conversations are isolated to first of
+ 
+
+00:11:44.480 --> 00:11:47.990 align:start position:0%
+conversations are isolated to first of
+all<00:11:44.720><c> make</c><00:11:44.959><c> sure</c><00:11:45.120><c> that</c><00:11:45.839><c> uh</c><00:11:46.240><c> we</c><00:11:47.040><c> don't</c><00:11:47.360><c> waste</c>
+
+00:11:47.990 --> 00:11:48.000 align:start position:0%
+all make sure that uh we don't waste
+ 
+
+00:11:48.000 --> 00:11:51.590 align:start position:0%
+all make sure that uh we don't waste
+tokens<00:11:48.880><c> and</c><00:11:49.279><c> plus</c><00:11:49.760><c> we</c><00:11:50.240><c> have</c><00:11:50.720><c> uh</c><00:11:50.880><c> done</c><00:11:51.200><c> some</c><00:11:51.440><c> we</c>
+
+00:11:51.590 --> 00:11:51.600 align:start position:0%
+tokens and plus we have uh done some we
+ 
+
+00:11:51.600 --> 00:11:54.069 align:start position:0%
+tokens and plus we have uh done some we
+had<00:11:51.760><c> done</c><00:11:51.920><c> some</c><00:11:52.120><c> experimentations</c><00:11:53.120><c> that</c>
+
+00:11:54.069 --> 00:11:54.079 align:start position:0%
+had done some experimentations that
+ 
+
+00:11:54.079 --> 00:11:57.509 align:start position:0%
+had done some experimentations that
+increasing<00:11:54.800><c> the</c><00:11:55.120><c> memory</c><00:11:56.040><c> showed</c><00:11:57.040><c> increase</c><00:11:57.360><c> of</c>
+
+00:11:57.509 --> 00:11:57.519 align:start position:0%
+increasing the memory showed increase of
+ 
+
+00:11:57.519 --> 00:12:00.150 align:start position:0%
+increasing the memory showed increase of
+hostination<00:11:58.320><c> in</c><00:11:58.640><c> the</c><00:11:58.880><c> in</c><00:11:59.120><c> the</c><00:11:59.279><c> results.</c><00:11:59.760><c> So</c><00:11:59.920><c> we</c>
+
+00:12:00.150 --> 00:12:00.160 align:start position:0%
+hostination in the in the results. So we
+ 
+
+00:12:00.160 --> 00:12:03.750 align:start position:0%
+hostination in the in the results. So we
+decided<00:12:00.480><c> to</c><00:12:00.800><c> keep</c><00:12:01.040><c> the</c><00:12:01.440><c> memory</c><00:12:02.160><c> isolated</c><00:12:03.519><c> uh</c>
+
+00:12:03.750 --> 00:12:03.760 align:start position:0%
+decided to keep the memory isolated uh
+ 
+
+00:12:03.760 --> 00:12:05.150 align:start position:0%
+decided to keep the memory isolated uh
+between
+
+00:12:05.150 --> 00:12:05.160 align:start position:0%
+between
+ 
+
+00:12:05.160 --> 00:12:07.990 align:start position:0%
+between
+agents.<00:12:06.160><c> Uh</c><00:12:06.560><c> cloning</c><00:12:06.959><c> of</c><00:12:07.120><c> agents</c><00:12:07.600><c> uh</c><00:12:07.760><c> for</c>
+
+00:12:07.990 --> 00:12:08.000 align:start position:0%
+agents. Uh cloning of agents uh for
+ 
+
+00:12:08.000 --> 00:12:09.910 align:start position:0%
+agents. Uh cloning of agents uh for
+parallel<00:12:08.480><c> processing</c><00:12:09.040><c> for</c><00:12:09.279><c> certain</c><00:12:09.519><c> task</c><00:12:09.760><c> was</c>
+
+00:12:09.910 --> 00:12:09.920 align:start position:0%
+parallel processing for certain task was
+ 
+
+00:12:09.920 --> 00:12:11.750 align:start position:0%
+parallel processing for certain task was
+a<00:12:10.079><c> was</c><00:12:10.320><c> an</c><00:12:10.480><c> important</c><00:12:10.800><c> piece</c><00:12:11.040><c> that</c><00:12:11.200><c> we</c><00:12:11.440><c> did</c><00:12:11.600><c> and</c>
+
+00:12:11.750 --> 00:12:11.760 align:start position:0%
+a was an important piece that we did and
+ 
+
+00:12:11.760 --> 00:12:14.430 align:start position:0%
+a was an important piece that we did and
+and<00:12:12.160><c> helped</c><00:12:12.480><c> us</c><00:12:12.720><c> to</c>
+
+00:12:14.430 --> 00:12:14.440 align:start position:0%
+and helped us to
+ 
+
+00:12:14.440 --> 00:12:18.150 align:start position:0%
+and helped us to
+um<00:12:15.440><c> speed</c><00:12:15.760><c> up</c><00:12:16.160><c> some</c><00:12:16.320><c> of</c><00:12:16.480><c> our</c><00:12:16.639><c> processes.</c><00:12:17.440><c> Um</c>
+
+00:12:18.150 --> 00:12:18.160 align:start position:0%
+um speed up some of our processes. Um
+ 
+
+00:12:18.160 --> 00:12:20.790 align:start position:0%
+um speed up some of our processes. Um
+and<00:12:18.720><c> uh</c><00:12:18.880><c> that</c><00:12:19.279><c> record</c><00:12:19.760><c> also</c><00:12:20.160><c> some</c><00:12:20.480><c> memory</c>
+
+00:12:20.790 --> 00:12:20.800 align:start position:0%
+and uh that record also some memory
+ 
+
+00:12:20.800 --> 00:12:23.269 align:start position:0%
+and uh that record also some memory
+management<00:12:21.360><c> in</c><00:12:21.519><c> order</c><00:12:21.760><c> to</c><00:12:22.079><c> like</c><00:12:22.240><c> what</c><00:12:22.720><c> do</c><00:12:22.959><c> we</c>
+
+00:12:23.269 --> 00:12:23.279 align:start position:0%
+management in order to like what do we
+ 
+
+00:12:23.279 --> 00:12:26.870 align:start position:0%
+management in order to like what do we
+uh<00:12:23.519><c> duplicate</c><00:12:24.079><c> for</c><00:12:24.639><c> uh</c><00:12:24.880><c> agents</c><00:12:25.760><c> uh</c><00:12:26.160><c> from</c><00:12:26.720><c> a</c>
+
+00:12:26.870 --> 00:12:26.880 align:start position:0%
+uh duplicate for uh agents uh from a
+ 
+
+00:12:26.880 --> 00:12:28.310 align:start position:0%
+uh duplicate for uh agents uh from a
+certain<00:12:27.200><c> point</c><00:12:27.360><c> that</c><00:12:27.519><c> decide</c><00:12:27.839><c> to</c><00:12:28.000><c> do</c><00:12:28.160><c> the</c>
+
+00:12:28.310 --> 00:12:28.320 align:start position:0%
+certain point that decide to do the
+ 
+
+00:12:28.320 --> 00:12:31.590 align:start position:0%
+certain point that decide to do the
+cloning<00:12:29.519><c> um</c><00:12:29.600><c> and</c><00:12:30.079><c> how</c><00:12:30.240><c> we</c><00:12:30.399><c> manage</c><00:12:30.720><c> the</c><00:12:30.880><c> memory</c>
+
+00:12:31.590 --> 00:12:31.600 align:start position:0%
+cloning um and how we manage the memory
+ 
+
+00:12:31.600 --> 00:12:34.069 align:start position:0%
+cloning um and how we manage the memory
+as<00:12:31.839><c> that</c><00:12:32.079><c> cloning</c><00:12:32.519><c> point</c><00:12:33.519><c> and</c><00:12:33.680><c> what</c><00:12:33.920><c> we</c>
+
+00:12:34.069 --> 00:12:34.079 align:start position:0%
+as that cloning point and what we
+ 
+
+00:12:34.079 --> 00:12:37.030 align:start position:0%
+as that cloning point and what we
+learned<00:12:34.240><c> was</c><00:12:34.480><c> that</c><00:12:35.680><c> uh</c><00:12:36.000><c> structured</c><00:12:36.480><c> outputs</c>
+
+00:12:37.030 --> 00:12:37.040 align:start position:0%
+learned was that uh structured outputs
+ 
+
+00:12:37.040 --> 00:12:38.870 align:start position:0%
+learned was that uh structured outputs
+improves<00:12:37.519><c> clarity</c><00:12:37.920><c> and</c><00:12:38.079><c> control.</c><00:12:38.480><c> It's</c><00:12:38.639><c> super</c>
+
+00:12:38.870 --> 00:12:38.880 align:start position:0%
+improves clarity and control. It's super
+ 
+
+00:12:38.880 --> 00:12:41.590 align:start position:0%
+improves clarity and control. It's super
+super<00:12:39.200><c> important</c><00:12:39.760><c> to</c><00:12:40.320><c> to</c><00:12:40.880><c> do</c><00:12:41.120><c> structured</c>
+
+00:12:41.590 --> 00:12:41.600 align:start position:0%
+super important to to do structured
+ 
+
+00:12:41.600 --> 00:12:45.670 align:start position:0%
+super important to to do structured
+outputs<00:12:42.720><c> uh</c><00:12:43.040><c> for</c><00:12:43.680><c> better</c><00:12:44.079><c> programming.</c><00:12:44.880><c> Uh</c><00:12:45.279><c> we</c>
+
+00:12:45.670 --> 00:12:45.680 align:start position:0%
+outputs uh for better programming. Uh we
+ 
+
+00:12:45.680 --> 00:12:48.230 align:start position:0%
+outputs uh for better programming. Uh we
+hear<00:12:45.920><c> a</c><00:12:46.240><c> lot</c><00:12:46.399><c> also</c><00:12:46.800><c> about</c><00:12:47.279><c> how</c><00:12:47.680><c> structured</c>
+
+00:12:48.230 --> 00:12:48.240 align:start position:0%
+hear a lot also about how structured
+ 
+
+00:12:48.240 --> 00:12:52.629 align:start position:0%
+hear a lot also about how structured
+output<00:12:48.800><c> could</c><00:12:49.360><c> reduce</c><00:12:50.480><c> uh</c><00:12:50.800><c> the</c><00:12:51.519><c> the</c><00:12:51.639><c> the</c>
+
+00:12:52.629 --> 00:12:52.639 align:start position:0%
+output could reduce uh the the the
+ 
+
+00:12:52.639 --> 00:12:56.190 align:start position:0%
+output could reduce uh the the the
+reasoning<00:12:53.200><c> abilities</c><00:12:53.680><c> of</c><00:12:53.920><c> the</c><00:12:54.079><c> the</c><00:12:54.680><c> model.</c>
+
+00:12:56.190 --> 00:12:56.200 align:start position:0%
+reasoning abilities of the the model.
+ 
+
+00:12:56.200 --> 00:13:00.670 align:start position:0%
+reasoning abilities of the the model.
+Um<00:12:57.200><c> it</c><00:12:57.440><c> is</c><00:12:57.519><c> a</c><00:12:57.760><c> real</c><00:12:58.000><c> trade-off</c><00:12:58.720><c> but</c><00:12:59.040><c> however</c><00:12:59.920><c> uh</c>
+
+00:13:00.670 --> 00:13:00.680 align:start position:0%
+Um it is a real trade-off but however uh
+ 
+
+00:13:00.680 --> 00:13:03.910 align:start position:0%
+Um it is a real trade-off but however uh
+the<00:13:01.680><c> we</c><00:13:02.000><c> are</c><00:13:02.160><c> seeing</c><00:13:02.480><c> very</c><00:13:02.720><c> good</c><00:13:02.959><c> results</c><00:13:03.600><c> with</c>
+
+00:13:03.910 --> 00:13:03.920 align:start position:0%
+the we are seeing very good results with
+ 
+
+00:13:03.920 --> 00:13:05.910 align:start position:0%
+the we are seeing very good results with
+the<00:13:04.240><c> level</c><00:13:04.560><c> of</c><00:13:04.720><c> structured</c><00:13:05.120><c> output</c><00:13:05.519><c> that</c><00:13:05.680><c> we</c>
+
+00:13:05.910 --> 00:13:05.920 align:start position:0%
+the level of structured output that we
+ 
+
+00:13:05.920 --> 00:13:08.150 align:start position:0%
+the level of structured output that we
+have.
+
+00:13:08.150 --> 00:13:08.160 align:start position:0%
+have.
+ 
+
+00:13:08.160 --> 00:13:10.870 align:start position:0%
+have.
+uh<00:13:08.399><c> mass</c><00:13:08.720><c> let</c><00:13:09.200><c> uh</c><00:13:09.519><c> mass</c><00:13:09.839><c> let</c><00:13:10.079><c> agents</c><00:13:10.560><c> resolve</c>
+
+00:13:10.870 --> 00:13:10.880 align:start position:0%
+uh mass let uh mass let agents resolve
+ 
+
+00:13:10.880 --> 00:13:13.190 align:start position:0%
+uh mass let uh mass let agents resolve
+trade-offs<00:13:11.519><c> uh</c><00:13:11.680><c> dynamically</c><00:13:12.240><c> and</c><00:13:12.560><c> not</c><00:13:12.800><c> just</c>
+
+00:13:13.190 --> 00:13:13.200 align:start position:0%
+trade-offs uh dynamically and not just
+ 
+
+00:13:13.200 --> 00:13:17.670 align:start position:0%
+trade-offs uh dynamically and not just
+uh<00:13:13.519><c> execute</c><00:13:14.320><c> static</c><00:13:14.959><c> uh</c><00:13:15.200><c> plans.</c><00:13:15.839><c> Uh</c><00:13:16.240><c> we</c><00:13:16.800><c> we</c><00:13:17.120><c> let</c>
+
+00:13:17.670 --> 00:13:17.680 align:start position:0%
+uh execute static uh plans. Uh we we let
+ 
+
+00:13:17.680 --> 00:13:20.629 align:start position:0%
+uh execute static uh plans. Uh we we let
+we<00:13:17.920><c> give</c><00:13:18.079><c> a</c><00:13:18.320><c> lot</c><00:13:18.399><c> of</c><00:13:18.800><c> uh</c><00:13:19.680><c> uh</c><00:13:19.839><c> we</c><00:13:20.079><c> we</c><00:13:20.240><c> are</c><00:13:20.399><c> working</c>
+
+00:13:20.629 --> 00:13:20.639 align:start position:0%
+we give a lot of uh uh we we are working
+ 
+
+00:13:20.639 --> 00:13:23.110 align:start position:0%
+we give a lot of uh uh we we are working
+also<00:13:20.880><c> on</c><00:13:21.120><c> different</c><00:13:21.440><c> ways</c><00:13:21.760><c> of</c><00:13:22.000><c> orchestration</c>
+
+00:13:23.110 --> 00:13:23.120 align:start position:0%
+also on different ways of orchestration
+ 
+
+00:13:23.120 --> 00:13:26.629 align:start position:0%
+also on different ways of orchestration
+uh<00:13:23.360><c> for</c><00:13:24.000><c> for</c><00:13:24.399><c> agents</c><00:13:25.279><c> and</c><00:13:26.000><c> what</c><00:13:26.240><c> are</c><00:13:26.399><c> they</c>
+
+00:13:26.629 --> 00:13:26.639 align:start position:0%
+uh for for agents and what are they
+ 
+
+00:13:26.639 --> 00:13:28.629 align:start position:0%
+uh for for agents and what are they
+exactly<00:13:27.120><c> doing</c><00:13:27.440><c> each</c><00:13:27.760><c> each</c><00:13:28.160><c> step</c><00:13:28.480><c> that</c>
+
+00:13:28.629 --> 00:13:28.639 align:start position:0%
+exactly doing each each step that
+ 
+
+00:13:28.639 --> 00:13:30.710 align:start position:0%
+exactly doing each each step that
+they're<00:13:28.959><c> taking</c><00:13:29.760><c> uh</c><00:13:30.000><c> as</c><00:13:30.240><c> part</c><00:13:30.399><c> of</c><00:13:30.480><c> their</c>
+
+00:13:30.710 --> 00:13:30.720 align:start position:0%
+they're taking uh as part of their
+ 
+
+00:13:30.720 --> 00:13:33.030 align:start position:0%
+they're taking uh as part of their
+interaction<00:13:31.120><c> with</c><00:13:31.279><c> other</c><00:13:31.519><c> agents.</c>
+
+00:13:33.030 --> 00:13:33.040 align:start position:0%
+interaction with other agents.
+ 
+
+00:13:33.040 --> 00:13:35.829 align:start position:0%
+interaction with other agents.
+uh<00:13:33.440><c> but</c><00:13:34.000><c> uh</c><00:13:34.160><c> we're</c><00:13:34.480><c> learning</c><00:13:34.800><c> that</c><00:13:35.360><c> uh</c><00:13:35.440><c> the</c><00:13:35.519><c> the</c>
+
+00:13:35.829 --> 00:13:35.839 align:start position:0%
+uh but uh we're learning that uh the the
+ 
+
+00:13:35.839 --> 00:13:40.069 align:start position:0%
+uh but uh we're learning that uh the the
+more<00:13:36.160><c> dynamic</c><00:13:36.639><c> we</c><00:13:36.880><c> make</c><00:13:37.040><c> it</c><00:13:37.839><c> uh</c><00:13:38.720><c> the</c><00:13:39.680><c> the</c>
+
+00:13:40.069 --> 00:13:40.079 align:start position:0%
+more dynamic we make it uh the the
+ 
+
+00:13:40.079 --> 00:13:42.550 align:start position:0%
+more dynamic we make it uh the the
+higher<00:13:40.560><c> creativity</c><00:13:41.279><c> showing</c><00:13:41.760><c> and</c><00:13:42.000><c> planning</c>
+
+00:13:42.550 --> 00:13:42.560 align:start position:0%
+higher creativity showing and planning
+ 
+
+00:13:42.560 --> 00:13:45.190 align:start position:0%
+higher creativity showing and planning
+and<00:13:43.040><c> uh</c><00:13:43.200><c> reaching</c><00:13:43.519><c> a</c><00:13:43.760><c> results</c><00:13:44.480><c> and</c><00:13:44.720><c> that's</c><00:13:45.120><c> uh</c>
+
+00:13:45.190 --> 00:13:45.200 align:start position:0%
+and uh reaching a results and that's uh
+ 
+
+00:13:45.200 --> 00:13:47.310 align:start position:0%
+and uh reaching a results and that's uh
+what<00:13:45.360><c> we</c><00:13:45.519><c> are</c><00:13:45.680><c> trying</c><00:13:46.000><c> to</c>
+
+00:13:47.310 --> 00:13:47.320 align:start position:0%
+what we are trying to
+ 
+
+00:13:47.320 --> 00:13:50.069 align:start position:0%
+what we are trying to
+optimize.<00:13:48.320><c> Uh</c><00:13:48.720><c> another</c><00:13:49.200><c> thing</c><00:13:49.600><c> is</c><00:13:49.760><c> that</c>
+
+00:13:50.069 --> 00:13:50.079 align:start position:0%
+optimize. Uh another thing is that
+ 
+
+00:13:50.079 --> 00:13:51.829 align:start position:0%
+optimize. Uh another thing is that
+successful<00:13:50.560><c> mass</c><00:13:50.880><c> orchestration</c><00:13:51.519><c> does</c>
+
+00:13:51.829 --> 00:13:51.839 align:start position:0%
+successful mass orchestration does
+ 
+
+00:13:51.839 --> 00:13:54.710 align:start position:0%
+successful mass orchestration does
+require<00:13:52.320><c> control</c><00:13:52.639><c> flow</c><00:13:53.600><c> uh</c><00:13:53.839><c> control</c><00:13:54.160><c> flows.</c>
+
+00:13:54.710 --> 00:13:54.720 align:start position:0%
+require control flow uh control flows.
+ 
+
+00:13:54.720 --> 00:13:57.389 align:start position:0%
+require control flow uh control flows.
+But<00:13:54.959><c> it's</c><00:13:55.279><c> not</c><00:13:55.680><c> possible</c>
+
+00:13:57.389 --> 00:13:57.399 align:start position:0%
+But it's not possible
+ 
+
+00:13:57.399 --> 00:13:59.829 align:start position:0%
+But it's not possible
+to<00:13:58.399><c> have</c><00:13:58.560><c> multiple</c><00:13:58.880><c> agents</c><00:13:59.279><c> to</c><00:13:59.440><c> just</c><00:13:59.600><c> work</c>
+
+00:13:59.829 --> 00:13:59.839 align:start position:0%
+to have multiple agents to just work
+ 
+
+00:13:59.839 --> 00:14:03.230 align:start position:0%
+to have multiple agents to just work
+with<00:14:00.000><c> each</c><00:14:00.160><c> other</c><00:14:00.480><c> and</c><00:14:01.040><c> uh</c>
+
+00:14:03.230 --> 00:14:03.240 align:start position:0%
+with each other and uh
+ 
+
+00:14:03.240 --> 00:14:05.750 align:start position:0%
+with each other and uh
+uh<00:14:04.240><c> hope</c><00:14:04.480><c> for</c><00:14:04.639><c> the</c><00:14:04.800><c> best</c><00:14:04.959><c> that</c><00:14:05.120><c> that</c><00:14:05.279><c> that</c><00:14:05.600><c> the</c>
+
+00:14:05.750 --> 00:14:05.760 align:start position:0%
+uh hope for the best that that that the
+ 
+
+00:14:05.760 --> 00:14:07.910 align:start position:0%
+uh hope for the best that that that the
+result<00:14:06.000><c> is</c><00:14:06.240><c> going</c><00:14:06.320><c> to</c><00:14:06.480><c> come</c><00:14:06.639><c> at</c><00:14:06.880><c> the</c><00:14:07.040><c> end.</c><00:14:07.360><c> Uh</c>
+
+00:14:07.910 --> 00:14:07.920 align:start position:0%
+result is going to come at the end. Uh
+ 
+
+00:14:07.920 --> 00:14:09.470 align:start position:0%
+result is going to come at the end. Uh
+so
+
+00:14:09.470 --> 00:14:09.480 align:start position:0%
+so
+ 
+
+00:14:09.480 --> 00:14:14.230 align:start position:0%
+so
+uh<00:14:10.480><c> the</c><00:14:11.040><c> major</c><00:14:11.600><c> part</c><00:14:11.920><c> of</c><00:14:12.320><c> our</c><00:14:12.959><c> stack</c><00:14:13.760><c> that</c><00:14:14.000><c> is</c>
+
+00:14:14.230 --> 00:14:14.240 align:start position:0%
+uh the major part of our stack that is
+ 
+
+00:14:14.240 --> 00:14:16.069 align:start position:0%
+uh the major part of our stack that is
+in<00:14:14.480><c> production</c><00:14:15.040><c> and</c><00:14:15.440><c> working</c><00:14:15.839><c> is</c>
+
+00:14:16.069 --> 00:14:16.079 align:start position:0%
+in production and working is
+ 
+
+00:14:16.079 --> 00:14:18.550 align:start position:0%
+in production and working is
+recommendation<00:14:16.880><c> that</c><00:14:17.199><c> is</c><00:14:17.519><c> based</c><00:14:17.839><c> on</c><00:14:18.160><c> multiple</c>
+
+00:14:18.550 --> 00:14:18.560 align:start position:0%
+recommendation that is based on multiple
+ 
+
+00:14:18.560 --> 00:14:21.910 align:start position:0%
+recommendation that is based on multiple
+agent<00:14:18.959><c> systems.</c><00:14:20.320><c> uh</c><00:14:20.560><c> as</c><00:14:20.880><c> we</c><00:14:21.120><c> see</c><00:14:21.519><c> there's</c>
+
+00:14:21.910 --> 00:14:21.920 align:start position:0%
+agent systems. uh as we see there's
+ 
+
+00:14:21.920 --> 00:14:23.430 align:start position:0%
+agent systems. uh as we see there's
+here's<00:14:22.160><c> a</c><00:14:22.240><c> screenshot</c><00:14:22.639><c> of</c><00:14:22.959><c> uh</c><00:14:23.040><c> some</c><00:14:23.199><c> of</c><00:14:23.279><c> the</c>
+
+00:14:23.430 --> 00:14:23.440 align:start position:0%
+here's a screenshot of uh some of the
+ 
+
+00:14:23.440 --> 00:14:26.230 align:start position:0%
+here's a screenshot of uh some of the
+recommendations<00:14:23.920><c> that</c><00:14:24.160><c> we</c><00:14:24.320><c> have</c><00:14:24.399><c> on</c><00:14:24.639><c> some</c><00:14:25.279><c> uh</c>
+
+00:14:26.230 --> 00:14:26.240 align:start position:0%
+recommendations that we have on some uh
+ 
+
+00:14:26.240 --> 00:14:29.910 align:start position:0%
+recommendations that we have on some uh
+mockup<00:14:26.839><c> data</c><00:14:28.000><c> uh</c><00:14:28.240><c> but</c><00:14:28.880><c> everything</c><00:14:29.440><c> else</c><00:14:29.760><c> that</c>
+
+00:14:29.910 --> 00:14:29.920 align:start position:0%
+mockup data uh but everything else that
+ 
+
+00:14:29.920 --> 00:14:31.750 align:start position:0%
+mockup data uh but everything else that
+that<00:14:30.240><c> you</c><00:14:30.399><c> see</c><00:14:30.560><c> here</c><00:14:30.880><c> in</c><00:14:31.120><c> terms</c><00:14:31.360><c> of</c><00:14:31.519><c> the</c>
+
+00:14:31.750 --> 00:14:31.760 align:start position:0%
+that you see here in terms of the
+ 
+
+00:14:31.760 --> 00:14:35.110 align:start position:0%
+that you see here in terms of the
+categories<00:14:32.880><c> uh</c><00:14:33.120><c> that</c><00:14:33.440><c> we</c><00:14:33.680><c> have</c><00:14:34.399><c> for</c><00:14:34.560><c> example</c>
+
+00:14:35.110 --> 00:14:35.120 align:start position:0%
+categories uh that we have for example
+ 
+
+00:14:35.120 --> 00:14:37.350 align:start position:0%
+categories uh that we have for example
+architecture<00:14:35.920><c> architecture</c><00:14:36.639><c> messaging</c><00:14:37.120><c> and</c>
+
+00:14:37.350 --> 00:14:37.360 align:start position:0%
+architecture architecture messaging and
+ 
+
+00:14:37.360 --> 00:14:41.350 align:start position:0%
+architecture architecture messaging and
+queuing<00:14:38.000><c> API</c><00:14:38.560><c> integration</c><00:14:39.519><c> uh</c><00:14:39.600><c> and</c><00:14:39.839><c> so</c><00:14:40.120><c> on</c><00:14:41.120><c> and</c>
+
+00:14:41.350 --> 00:14:41.360 align:start position:0%
+queuing API integration uh and so on and
+ 
+
+00:14:41.360 --> 00:14:44.310 align:start position:0%
+queuing API integration uh and so on and
+for<00:14:41.600><c> each</c><00:14:41.839><c> of</c><00:14:42.000><c> these</c><00:14:42.560><c> uh</c><00:14:43.360><c> the</c><00:14:43.680><c> multi-</c><00:14:44.000><c> aent</c>
+
+00:14:44.310 --> 00:14:44.320 align:start position:0%
+for each of these uh the multi- aent
+ 
+
+00:14:44.320 --> 00:14:47.269 align:start position:0%
+for each of these uh the multi- aent
+system<00:14:44.720><c> comes</c><00:14:45.040><c> up</c><00:14:45.600><c> uh</c><00:14:45.680><c> with</c><00:14:46.079><c> multiple</c><00:14:47.120><c> uh</c>
+
+00:14:47.269 --> 00:14:47.279 align:start position:0%
+system comes up uh with multiple uh
+ 
+
+00:14:47.279 --> 00:14:49.590 align:start position:0%
+system comes up uh with multiple uh
+recommendations<00:14:48.160><c> and</c><00:14:48.399><c> each</c><00:14:48.639><c> recommendation</c>
+
+00:14:49.590 --> 00:14:49.600 align:start position:0%
+recommendations and each recommendation
+ 
+
+00:14:49.600 --> 00:14:51.910 align:start position:0%
+recommendations and each recommendation
+is<00:14:49.839><c> broken</c><00:14:50.240><c> down</c><00:14:50.480><c> into</c><00:14:51.040><c> different</c><00:14:51.440><c> parts</c><00:14:51.760><c> such</c>
+
+00:14:51.910 --> 00:14:51.920 align:start position:0%
+is broken down into different parts such
+ 
+
+00:14:51.920 --> 00:14:54.470 align:start position:0%
+is broken down into different parts such
+as<00:14:52.240><c> description,</c><00:14:52.880><c> target</c><00:14:53.279><c> state,</c><00:14:54.160><c> gap</c>
+
+00:14:54.470 --> 00:14:54.480 align:start position:0%
+as description, target state, gap
+ 
+
+00:14:54.480 --> 00:14:57.350 align:start position:0%
+as description, target state, gap
+analysis<00:14:55.199><c> that</c><00:14:55.440><c> shows</c><00:14:55.920><c> for</c><00:14:56.079><c> example</c><00:14:56.880><c> what</c><00:14:57.120><c> the</c>
+
+00:14:57.350 --> 00:14:57.360 align:start position:0%
+analysis that shows for example what the
+ 
+
+00:14:57.360 --> 00:14:59.829 align:start position:0%
+analysis that shows for example what the
+requirements<00:14:58.000><c> was,</c><00:14:58.480><c> what</c><00:14:58.800><c> did</c><00:14:59.120><c> what</c><00:14:59.680><c> the</c>
+
+00:14:59.829 --> 00:14:59.839 align:start position:0%
+requirements was, what did what the
+ 
+
+00:14:59.839 --> 00:15:01.590 align:start position:0%
+requirements was, what did what the
+agents<00:15:00.320><c> couldn't</c><00:15:00.639><c> find</c><00:15:00.800><c> in</c><00:15:00.880><c> the</c><00:15:01.120><c> architecture</c>
+
+00:15:01.590 --> 00:15:01.600 align:start position:0%
+agents couldn't find in the architecture
+ 
+
+00:15:01.600 --> 00:15:04.069 align:start position:0%
+agents couldn't find in the architecture
+based<00:15:01.839><c> on</c><00:15:02.079><c> their</c><00:15:02.320><c> requirements</c><00:15:03.120><c> and</c><00:15:03.680><c> uh</c><00:15:03.839><c> what</c>
+
+00:15:04.069 --> 00:15:04.079 align:start position:0%
+based on their requirements and uh what
+ 
+
+00:15:04.079 --> 00:15:05.590 align:start position:0%
+based on their requirements and uh what
+are<00:15:04.160><c> the</c><00:15:04.399><c> recommendation</c><00:15:05.040><c> recommended</c>
+
+00:15:05.590 --> 00:15:05.600 align:start position:0%
+are the recommendation recommended
+ 
+
+00:15:05.600 --> 00:15:09.269 align:start position:0%
+are the recommendation recommended
+actions<00:15:06.000><c> in</c><00:15:06.320><c> terms</c><00:15:06.560><c> of</c><00:15:06.800><c> filling</c><00:15:07.279><c> out</c><00:15:08.240><c> uh</c><00:15:08.560><c> the</c>
+
+00:15:09.269 --> 00:15:09.279 align:start position:0%
+actions in terms of filling out uh the
+ 
+
+00:15:09.279 --> 00:15:11.389 align:start position:0%
+actions in terms of filling out uh the
+the<00:15:09.760><c> discovered</c>
+
+00:15:11.389 --> 00:15:11.399 align:start position:0%
+the discovered
+ 
+
+00:15:11.399 --> 00:15:14.150 align:start position:0%
+the discovered
+gaps.<00:15:12.399><c> Um</c><00:15:12.880><c> the</c><00:15:13.199><c> system</c><00:15:13.440><c> that</c><00:15:13.680><c> we</c><00:15:13.839><c> have</c><00:15:14.160><c> that</c>
+
+00:15:14.150 --> 00:15:14.160 align:start position:0%
+gaps. Um the system that we have that
+ 
+
+00:15:14.160 --> 00:15:17.189 align:start position:0%
+gaps. Um the system that we have that
+that<00:15:14.480><c> does</c><00:15:14.720><c> this</c><00:15:15.040><c> is</c><00:15:15.440><c> a</c><00:15:16.160><c> um</c><00:15:16.560><c> has</c><00:15:16.880><c> multiple</c>
+
+00:15:17.189 --> 00:15:17.199 align:start position:0%
+that does this is a um has multiple
+ 
+
+00:15:17.199 --> 00:15:19.110 align:start position:0%
+that does this is a um has multiple
+agents<00:15:17.600><c> in</c><00:15:17.760><c> it.</c><00:15:18.000><c> So</c><00:15:18.399><c> one</c><00:15:18.560><c> is</c><00:15:18.720><c> a</c><00:15:18.880><c> chief</c>
+
+00:15:19.110 --> 00:15:19.120 align:start position:0%
+agents in it. So one is a chief
+ 
+
+00:15:19.120 --> 00:15:21.350 align:start position:0%
+agents in it. So one is a chief
+architect<00:15:19.519><c> that</c><00:15:19.920><c> uh</c><00:15:20.160><c> basically</c><00:15:20.560><c> oversees</c><00:15:21.120><c> and</c>
+
+00:15:21.350 --> 00:15:21.360 align:start position:0%
+architect that uh basically oversees and
+ 
+
+00:15:21.360 --> 00:15:23.750 align:start position:0%
+architect that uh basically oversees and
+coordinates<00:15:22.079><c> uh</c><00:15:22.320><c> higher</c><00:15:22.560><c> level</c><00:15:22.880><c> tasks</c><00:15:23.519><c> and</c>
+
+00:15:23.750 --> 00:15:23.760 align:start position:0%
+coordinates uh higher level tasks and
+ 
+
+00:15:23.760 --> 00:15:27.030 align:start position:0%
+coordinates uh higher level tasks and
+then<00:15:24.399><c> and</c><00:15:24.639><c> there</c><00:15:24.880><c> are</c><00:15:25.120><c> 10</c><00:15:25.839><c> staff</c><00:15:26.160><c> architects</c>
+
+00:15:27.030 --> 00:15:27.040 align:start position:0%
+then and there are 10 staff architects
+ 
+
+00:15:27.040 --> 00:15:29.829 align:start position:0%
+then and there are 10 staff architects
+uh<00:15:27.120><c> each</c><00:15:27.519><c> specialized</c><00:15:28.560><c> uh</c><00:15:28.880><c> in</c><00:15:29.199><c> in</c><00:15:29.360><c> a</c><00:15:29.519><c> certain</c>
+
+00:15:29.829 --> 00:15:29.839 align:start position:0%
+uh each specialized uh in in a certain
+ 
+
+00:15:29.839 --> 00:15:32.710 align:start position:0%
+uh each specialized uh in in a certain
+domain<00:15:30.399><c> for</c><00:15:30.480><c> example</c><00:15:30.800><c> infrastructure</c><00:15:31.680><c> API</c><00:15:32.320><c> IM</c>
+
+00:15:32.710 --> 00:15:32.720 align:start position:0%
+domain for example infrastructure API IM
+ 
+
+00:15:32.720 --> 00:15:36.870 align:start position:0%
+domain for example infrastructure API IM
+and<00:15:32.959><c> so</c><00:15:33.120><c> forth</c><00:15:34.160><c> um</c><00:15:34.720><c> and</c><00:15:34.959><c> then</c><00:15:35.440><c> there</c><00:15:35.920><c> is</c><00:15:36.639><c> uh</c>
+
+00:15:36.870 --> 00:15:36.880 align:start position:0%
+and so forth um and then there is uh
+ 
+
+00:15:36.880 --> 00:15:39.590 align:start position:0%
+and so forth um and then there is uh
+there<00:15:37.120><c> are</c><00:15:37.279><c> two</c><00:15:37.440><c> retrievers</c><00:15:38.639><c> uh</c><00:15:39.120><c> requirement</c>
+
+00:15:39.590 --> 00:15:39.600 align:start position:0%
+there are two retrievers uh requirement
+ 
+
+00:15:39.600 --> 00:15:41.870 align:start position:0%
+there are two retrievers uh requirement
+retriever<00:15:40.240><c> that</c>
+
+00:15:41.870 --> 00:15:41.880 align:start position:0%
+retriever that
+ 
+
+00:15:41.880 --> 00:15:45.350 align:start position:0%
+retriever that
+uh<00:15:42.880><c> basically</c><00:15:43.600><c> has</c><00:15:43.920><c> access</c><00:15:44.320><c> to</c><00:15:44.560><c> requirements</c>
+
+00:15:45.350 --> 00:15:45.360 align:start position:0%
+uh basically has access to requirements
+ 
+
+00:15:45.360 --> 00:15:47.910 align:start position:0%
+uh basically has access to requirements
+data<00:15:46.079><c> and</c><00:15:46.240><c> the</c><00:15:46.480><c> architecture</c><00:15:46.959><c> retriever</c><00:15:47.519><c> that</c>
+
+00:15:47.910 --> 00:15:47.920 align:start position:0%
+data and the architecture retriever that
+ 
+
+00:15:47.920 --> 00:15:49.509 align:start position:0%
+data and the architecture retriever that
+understands<00:15:48.399><c> what's</c><00:15:48.639><c> the</c><00:15:48.880><c> current</c><00:15:49.360><c> uh</c>
+
+00:15:49.509 --> 00:15:49.519 align:start position:0%
+understands what's the current uh
+ 
+
+00:15:49.519 --> 00:15:51.350 align:start position:0%
+understands what's the current uh
+architecture<00:15:50.079><c> state</c><00:15:50.399><c> and</c><00:15:50.720><c> can</c><00:15:50.959><c> answer</c>
+
+00:15:51.350 --> 00:15:51.360 align:start position:0%
+architecture state and can answer
+ 
+
+00:15:51.360 --> 00:15:53.350 align:start position:0%
+architecture state and can answer
+questions<00:15:51.759><c> about</c><00:15:52.480><c> what</c><00:15:52.800><c> components</c><00:15:53.199><c> are</c>
+
+00:15:53.350 --> 00:15:53.360 align:start position:0%
+questions about what components are
+ 
+
+00:15:53.360 --> 00:15:54.749 align:start position:0%
+questions about what components are
+there<00:15:53.600><c> and</c><00:15:53.759><c> so</c>
+
+00:15:54.749 --> 00:15:54.759 align:start position:0%
+there and so
+ 
+
+00:15:54.759 --> 00:15:57.749 align:start position:0%
+there and so
+forth.<00:15:55.759><c> Uh</c><00:15:56.000><c> the</c><00:15:56.240><c> mass</c><00:15:56.560><c> workflow</c><00:15:56.959><c> that</c><00:15:57.120><c> we</c><00:15:57.360><c> have</c>
+
+00:15:57.749 --> 00:15:57.759 align:start position:0%
+forth. Uh the mass workflow that we have
+ 
+
+00:15:57.759 --> 00:16:01.269 align:start position:0%
+forth. Uh the mass workflow that we have
+is<00:15:58.399><c> uh</c><00:15:58.560><c> is</c><00:15:58.880><c> like</c><00:15:59.040><c> this</c><00:15:59.360><c> that</c><00:15:59.920><c> uh</c><00:16:00.480><c> there</c><00:16:00.959><c> are</c>
+
+00:16:01.269 --> 00:16:01.279 align:start position:0%
+is uh is like this that uh there are
+ 
+
+00:16:01.279 --> 00:16:04.470 align:start position:0%
+is uh is like this that uh there are
+basically<00:16:01.839><c> three</c><00:16:02.079><c> main</c><00:16:02.399><c> tasks</c><00:16:02.959><c> that</c><00:16:03.759><c> uh</c><00:16:04.000><c> that</c>
+
+00:16:04.470 --> 00:16:04.480 align:start position:0%
+basically three main tasks that uh that
+ 
+
+00:16:04.480 --> 00:16:09.509 align:start position:0%
+basically three main tasks that uh that
+happen<00:16:04.880><c> in</c><00:16:05.120><c> a</c><00:16:05.839><c> a</c><00:16:06.079><c> sequence</c><00:16:06.639><c> in</c><00:16:06.880><c> order</c><00:16:07.120><c> to</c><00:16:08.519><c> uh</c>
+
+00:16:09.509 --> 00:16:09.519 align:start position:0%
+happen in a a sequence in order to uh
+ 
+
+00:16:09.519 --> 00:16:11.710 align:start position:0%
+happen in a a sequence in order to uh
+generate<00:16:10.000><c> recommendations</c><00:16:10.800><c> at</c><00:16:11.040><c> the</c><00:16:11.199><c> end</c><00:16:11.360><c> of</c>
+
+00:16:11.710 --> 00:16:11.720 align:start position:0%
+generate recommendations at the end of
+ 
+
+00:16:11.720 --> 00:16:14.710 align:start position:0%
+generate recommendations at the end of
+the<00:16:12.720><c> slow.</c><00:16:13.279><c> Uh</c><00:16:13.519><c> one</c><00:16:13.680><c> is</c><00:16:13.920><c> list</c><00:16:14.160><c> generation</c>
+
+00:16:14.710 --> 00:16:14.720 align:start position:0%
+the slow. Uh one is list generation
+ 
+
+00:16:14.720 --> 00:16:18.310 align:start position:0%
+the slow. Uh one is list generation
+where<00:16:15.680><c> uh</c><00:16:16.639><c> at</c><00:16:16.800><c> the</c><00:16:16.959><c> end</c><00:16:17.040><c> of</c><00:16:17.199><c> it</c><00:16:17.440><c> we</c><00:16:17.680><c> have</c><00:16:17.839><c> a</c><00:16:18.079><c> list</c>
+
+00:16:18.310 --> 00:16:18.320 align:start position:0%
+where uh at the end of it we have a list
+ 
+
+00:16:18.320 --> 00:16:20.389 align:start position:0%
+where uh at the end of it we have a list
+of<00:16:18.480><c> possible</c><00:16:19.000><c> recommendations</c><00:16:20.000><c> and</c><00:16:20.240><c> then</c>
+
+00:16:20.389 --> 00:16:20.399 align:start position:0%
+of possible recommendations and then
+ 
+
+00:16:20.399 --> 00:16:22.870 align:start position:0%
+of possible recommendations and then
+there<00:16:20.639><c> is</c><00:16:20.880><c> conflict</c><00:16:21.759><c> conflict</c><00:16:22.240><c> resolution</c>
+
+00:16:22.870 --> 00:16:22.880 align:start position:0%
+there is conflict conflict resolution
+ 
+
+00:16:22.880 --> 00:16:27.910 align:start position:0%
+there is conflict conflict resolution
+which<00:16:23.199><c> is</c><00:16:23.519><c> about</c><00:16:24.399><c> uh</c><00:16:25.440><c> um</c><00:16:25.839><c> having</c><00:16:26.320><c> the</c><00:16:26.639><c> chief</c><00:16:27.519><c> uh</c>
+
+00:16:27.910 --> 00:16:27.920 align:start position:0%
+which is about uh um having the chief uh
+ 
+
+00:16:27.920 --> 00:16:30.870 align:start position:0%
+which is about uh um having the chief uh
+architect<00:16:28.720><c> looking</c><00:16:28.959><c> at</c><00:16:29.279><c> the</c><00:16:30.000><c> uh</c><00:16:30.320><c> generated</c>
+
+00:16:30.870 --> 00:16:30.880 align:start position:0%
+architect looking at the uh generated
+ 
+
+00:16:30.880 --> 00:16:34.470 align:start position:0%
+architect looking at the uh generated
+list<00:16:31.040><c> of</c><00:16:31.279><c> recommendations</c><00:16:32.000><c> in</c><00:16:32.240><c> order</c><00:16:32.480><c> to</c><00:16:33.759><c> um</c>
+
+00:16:34.470 --> 00:16:34.480 align:start position:0%
+list of recommendations in order to um
+ 
+
+00:16:34.480 --> 00:16:36.710 align:start position:0%
+list of recommendations in order to um
+in<00:16:34.720><c> order</c><00:16:34.880><c> to</c><00:16:35.279><c> figure</c><00:16:35.600><c> out</c><00:16:36.000><c> if</c><00:16:36.240><c> they're</c><00:16:36.480><c> in</c>
+
+00:16:36.710 --> 00:16:36.720 align:start position:0%
+in order to figure out if they're in
+ 
+
+00:16:36.720 --> 00:16:39.030 align:start position:0%
+in order to figure out if they're in
+conflict<00:16:37.360><c> or</c><00:16:37.839><c> if</c><00:16:38.000><c> there</c><00:16:38.160><c> are</c><00:16:38.320><c> redundancies</c>
+
+00:16:39.030 --> 00:16:39.040 align:start position:0%
+conflict or if there are redundancies
+ 
+
+00:16:39.040 --> 00:16:43.710 align:start position:0%
+conflict or if there are redundancies
+and<00:16:39.199><c> so</c><00:16:39.839><c> uh</c><00:16:40.240><c> uh</c><00:16:40.480><c> and</c><00:16:40.639><c> so</c><00:16:40.800><c> on.</c><00:16:41.519><c> and</c><00:16:42.079><c> uh</c><00:16:42.720><c> basically</c>
+
+00:16:43.710 --> 00:16:43.720 align:start position:0%
+and so uh uh and so on. and uh basically
+ 
+
+00:16:43.720 --> 00:16:46.949 align:start position:0%
+and so uh uh and so on. and uh basically
+the<00:16:44.720><c> prune</c><00:16:45.120><c> the</c><00:16:45.360><c> list</c><00:16:45.600><c> of</c><00:16:46.160><c> re</c><00:16:46.240><c> recommendations</c>
+
+00:16:46.949 --> 00:16:46.959 align:start position:0%
+the prune the list of re recommendations
+ 
+
+00:16:46.959 --> 00:16:49.509 align:start position:0%
+the prune the list of re recommendations
+in<00:16:47.199><c> order</c><00:16:47.360><c> to</c><00:16:47.920><c> uh</c><00:16:48.320><c> go</c><00:16:48.720><c> further</c><00:16:49.120><c> down</c><00:16:49.279><c> the</c>
+
+00:16:49.509 --> 00:16:49.519 align:start position:0%
+in order to uh go further down the
+ 
+
+00:16:49.519 --> 00:16:52.269 align:start position:0%
+in order to uh go further down the
+workflow.<00:16:50.160><c> And</c><00:16:50.399><c> the</c><00:16:50.639><c> last</c><00:16:50.880><c> step</c><00:16:51.120><c> is</c><00:16:51.680><c> design</c>
+
+00:16:52.269 --> 00:16:52.279 align:start position:0%
+workflow. And the last step is design
+ 
+
+00:16:52.279 --> 00:16:56.550 align:start position:0%
+workflow. And the last step is design
+proposal<00:16:53.279><c> which</c><00:16:53.759><c> uh</c><00:16:54.079><c> is</c><00:16:54.800><c> uh</c><00:16:55.600><c> basically</c>
+
+00:16:56.550 --> 00:16:56.560 align:start position:0%
+proposal which uh is uh basically
+ 
+
+00:16:56.560 --> 00:16:58.949 align:start position:0%
+proposal which uh is uh basically
+writing<00:16:56.959><c> a</c><00:16:57.199><c> full-on</c><00:16:57.920><c> uh</c><00:16:58.160><c> design</c><00:16:58.480><c> proposal</c>
+
+00:16:58.949 --> 00:16:58.959 align:start position:0%
+writing a full-on uh design proposal
+ 
+
+00:16:58.959 --> 00:17:01.829 align:start position:0%
+writing a full-on uh design proposal
+based<00:16:59.279><c> on</c><00:16:59.519><c> each</c><00:17:00.079><c> recommendation</c><00:17:00.800><c> topic</c><00:17:01.519><c> in</c>
+
+00:17:01.829 --> 00:17:01.839 align:start position:0%
+based on each recommendation topic in
+ 
+
+00:17:01.839 --> 00:17:05.029 align:start position:0%
+based on each recommendation topic in
+terms<00:17:02.079><c> of</c><00:17:02.800><c> again</c><00:17:03.600><c> uh</c><00:17:04.000><c> what</c><00:17:04.240><c> are</c><00:17:04.319><c> the</c><00:17:04.480><c> gap</c><00:17:04.880><c> uh</c>
+
+00:17:05.029 --> 00:17:05.039 align:start position:0%
+terms of again uh what are the gap uh
+ 
+
+00:17:05.039 --> 00:17:07.590 align:start position:0%
+terms of again uh what are the gap uh
+analysis<00:17:05.600><c> that</c><00:17:05.839><c> has</c><00:17:06.000><c> been</c><00:17:06.240><c> done</c><00:17:06.959><c> uh</c><00:17:07.199><c> what</c><00:17:07.439><c> are</c>
+
+00:17:07.590 --> 00:17:07.600 align:start position:0%
+analysis that has been done uh what are
+ 
+
+00:17:07.600 --> 00:17:09.990 align:start position:0%
+analysis that has been done uh what are
+the<00:17:08.079><c> proposals</c><00:17:08.880><c> in</c><00:17:09.120><c> terms</c><00:17:09.280><c> of</c><00:17:09.439><c> improvement</c><00:17:09.839><c> of</c>
+
+00:17:09.990 --> 00:17:10.000 align:start position:0%
+the proposals in terms of improvement of
+ 
+
+00:17:10.000 --> 00:17:12.069 align:start position:0%
+the proposals in terms of improvement of
+the<00:17:10.160><c> architecture</c><00:17:10.559><c> and</c><00:17:10.720><c> so</c><00:17:10.880><c> on.</c><00:17:11.679><c> And</c><00:17:11.839><c> the</c><00:17:12.000><c> way</c>
+
+00:17:12.069 --> 00:17:12.079 align:start position:0%
+the architecture and so on. And the way
+ 
+
+00:17:12.079 --> 00:17:15.189 align:start position:0%
+the architecture and so on. And the way
+it<00:17:12.240><c> works</c><00:17:12.480><c> is</c><00:17:12.640><c> that</c><00:17:13.760><c> uh</c><00:17:14.079><c> there</c><00:17:14.559><c> is</c><00:17:14.720><c> a</c><00:17:14.880><c> chief</c>
+
+00:17:15.189 --> 00:17:15.199 align:start position:0%
+it works is that uh there is a chief
+ 
+
+00:17:15.199 --> 00:17:17.270 align:start position:0%
+it works is that uh there is a chief
+architect<00:17:15.919><c> and</c><00:17:16.480><c> the</c><00:17:16.640><c> chief</c><00:17:16.880><c> architect</c>
+
+00:17:17.270 --> 00:17:17.280 align:start position:0%
+architect and the chief architect
+ 
+
+00:17:17.280 --> 00:17:19.510 align:start position:0%
+architect and the chief architect
+requests<00:17:17.600><c> a</c><00:17:17.839><c> list</c><00:17:18.000><c> of</c><00:17:18.160><c> recommendations</c><00:17:18.880><c> from</c>
+
+00:17:19.510 --> 00:17:19.520 align:start position:0%
+requests a list of recommendations from
+ 
+
+00:17:19.520 --> 00:17:23.189 align:start position:0%
+requests a list of recommendations from
+staff<00:17:19.919><c> architect</c><00:17:20.959><c> uh</c><00:17:21.520><c> and</c><00:17:22.319><c> uh</c><00:17:22.559><c> and</c><00:17:22.799><c> the</c><00:17:22.959><c> staff</c>
+
+00:17:23.189 --> 00:17:23.199 align:start position:0%
+staff architect uh and uh and the staff
+ 
+
+00:17:23.199 --> 00:17:24.870 align:start position:0%
+staff architect uh and uh and the staff
+architect<00:17:23.520><c> in</c><00:17:23.679><c> order</c><00:17:23.839><c> to</c><00:17:24.000><c> do</c><00:17:24.079><c> that</c><00:17:24.400><c> it</c><00:17:24.559><c> reaches</c>
+
+00:17:24.870 --> 00:17:24.880 align:start position:0%
+architect in order to do that it reaches
+ 
+
+00:17:24.880 --> 00:17:28.470 align:start position:0%
+architect in order to do that it reaches
+out<00:17:25.120><c> to</c><00:17:26.400><c> uh</c><00:17:26.799><c> sends</c><00:17:27.120><c> requests</c><00:17:27.600><c> to</c><00:17:28.000><c> the</c>
+
+00:17:28.470 --> 00:17:28.480 align:start position:0%
+out to uh sends requests to the
+ 
+
+00:17:28.480 --> 00:17:31.029 align:start position:0%
+out to uh sends requests to the
+architecture<00:17:29.200><c> state</c><00:17:29.520><c> agent</c><00:17:30.160><c> and</c><00:17:30.720><c> the</c>
+
+00:17:31.029 --> 00:17:31.039 align:start position:0%
+architecture state agent and the
+ 
+
+00:17:31.039 --> 00:17:34.549 align:start position:0%
+architecture state agent and the
+requirements<00:17:31.720><c> agent</c><00:17:32.720><c> and</c><00:17:33.280><c> uh</c><00:17:33.600><c> these</c><00:17:34.160><c> calls</c>
+
+00:17:34.549 --> 00:17:34.559 align:start position:0%
+requirements agent and uh these calls
+ 
+
+00:17:34.559 --> 00:17:37.029 align:start position:0%
+requirements agent and uh these calls
+happen<00:17:34.960><c> in</c><00:17:35.120><c> parallel.</c><00:17:35.919><c> uh</c><00:17:36.080><c> they</c><00:17:36.320><c> they</c><00:17:36.720><c> happen</c>
+
+00:17:37.029 --> 00:17:37.039 align:start position:0%
+happen in parallel. uh they they happen
+ 
+
+00:17:37.039 --> 00:17:38.950 align:start position:0%
+happen in parallel. uh they they happen
+a<00:17:37.360><c> number</c><00:17:37.440><c> of</c><00:17:37.600><c> times</c><00:17:37.919><c> based</c><00:17:38.160><c> on</c><00:17:38.320><c> the</c><00:17:38.480><c> budgets</c>
+
+00:17:38.950 --> 00:17:38.960 align:start position:0%
+a number of times based on the budgets
+ 
+
+00:17:38.960 --> 00:17:42.390 align:start position:0%
+a number of times based on the budgets
+that<00:17:39.280><c> exist</c><00:17:40.080><c> and</c><00:17:40.320><c> that</c><00:17:40.720><c> at</c><00:17:40.880><c> some</c><00:17:41.120><c> point</c><00:17:42.000><c> uh</c><00:17:42.160><c> it</c>
+
+00:17:42.390 --> 00:17:42.400 align:start position:0%
+that exist and that at some point uh it
+ 
+
+00:17:42.400 --> 00:17:44.950 align:start position:0%
+that exist and that at some point uh it
+all<00:17:42.559><c> comes</c><00:17:42.799><c> back</c><00:17:42.960><c> to</c><00:17:43.120><c> the</c><00:17:43.280><c> staff</c><00:17:43.600><c> and</c><00:17:43.919><c> staff</c><00:17:44.400><c> uh</c>
+
+00:17:44.950 --> 00:17:44.960 align:start position:0%
+all comes back to the staff and staff uh
+ 
+
+00:17:44.960 --> 00:17:48.750 align:start position:0%
+all comes back to the staff and staff uh
+gets<00:17:45.280><c> back</c><00:17:45.520><c> to</c><00:17:45.679><c> the</c><00:17:46.000><c> chief</c><00:17:46.960><c> with</c><00:17:47.120><c> a</c><00:17:47.360><c> list</c><00:17:47.600><c> of</c><00:17:48.160><c> uh</c>
+
+00:17:48.750 --> 00:17:48.760 align:start position:0%
+gets back to the chief with a list of uh
+ 
+
+00:17:48.760 --> 00:17:52.150 align:start position:0%
+gets back to the chief with a list of uh
+possible<00:17:50.000><c> uh</c><00:17:50.360><c> recommendations.</c><00:17:51.360><c> Um</c><00:17:51.679><c> and</c><00:17:51.919><c> this</c>
+
+00:17:52.150 --> 00:17:52.160 align:start position:0%
+possible uh recommendations. Um and this
+ 
+
+00:17:52.160 --> 00:17:54.950 align:start position:0%
+possible uh recommendations. Um and this
+also<00:17:52.559><c> happens</c><00:17:53.200><c> among</c><00:17:53.919><c> multiple</c><00:17:54.640><c> staff</c>
+
+00:17:54.950 --> 00:17:54.960 align:start position:0%
+also happens among multiple staff
+ 
+
+00:17:54.960 --> 00:17:58.549 align:start position:0%
+also happens among multiple staff
+architects.<00:17:55.760><c> So</c><00:17:56.559><c> uh</c><00:17:57.039><c> this</c><00:17:57.360><c> could</c><00:17:57.600><c> be</c><00:17:58.080><c> tens</c><00:17:58.400><c> of</c>
+
+00:17:58.549 --> 00:17:58.559 align:start position:0%
+architects. So uh this could be tens of
+ 
+
+00:17:58.559 --> 00:18:00.710 align:start position:0%
+architects. So uh this could be tens of
+calls<00:17:58.960><c> that</c><00:17:59.120><c> happen</c><00:17:59.360><c> at</c><00:17:59.520><c> the</c><00:17:59.679><c> same</c><00:17:59.919><c> time.</c><00:18:00.559><c> And</c>
+
+00:18:00.710 --> 00:18:00.720 align:start position:0%
+calls that happen at the same time. And
+ 
+
+00:18:00.720 --> 00:18:03.590 align:start position:0%
+calls that happen at the same time. And
+then<00:18:00.960><c> after</c><00:18:01.840><c> after</c><00:18:02.080><c> resolving</c><00:18:02.559><c> the</c><00:18:02.720><c> conflicts</c>
+
+00:18:03.590 --> 00:18:03.600 align:start position:0%
+then after after resolving the conflicts
+ 
+
+00:18:03.600 --> 00:18:06.950 align:start position:0%
+then after after resolving the conflicts
+uh<00:18:03.840><c> we</c><00:18:04.160><c> go</c><00:18:04.400><c> again</c><00:18:05.280><c> uh</c><00:18:05.840><c> back</c><00:18:06.080><c> to</c><00:18:06.320><c> the</c><00:18:06.559><c> staff</c>
+
+00:18:06.950 --> 00:18:06.960 align:start position:0%
+uh we go again uh back to the staff
+ 
+
+00:18:06.960 --> 00:18:10.070 align:start position:0%
+uh we go again uh back to the staff
+architect<00:18:07.440><c> in</c><00:18:07.679><c> order</c><00:18:07.840><c> to</c><00:18:08.799><c> uh</c><00:18:09.039><c> generate</c><00:18:09.440><c> those</c>
+
+00:18:10.070 --> 00:18:10.080 align:start position:0%
+architect in order to uh generate those
+ 
+
+00:18:10.080 --> 00:18:12.230 align:start position:0%
+architect in order to uh generate those
+design<00:18:10.480><c> proposals</c><00:18:11.120><c> and</c><00:18:11.360><c> again</c><00:18:11.679><c> this</c><00:18:11.919><c> flow</c>
+
+00:18:12.230 --> 00:18:12.240 align:start position:0%
+design proposals and again this flow
+ 
+
+00:18:12.240 --> 00:18:15.270 align:start position:0%
+design proposals and again this flow
+will<00:18:12.559><c> happen.</c><00:18:13.440><c> uh</c><00:18:13.520><c> and</c><00:18:13.760><c> this</c><00:18:14.000><c> time</c><00:18:14.640><c> uh</c><00:18:14.960><c> there</c>
+
+00:18:15.270 --> 00:18:15.280 align:start position:0%
+will happen. uh and this time uh there
+ 
+
+00:18:15.280 --> 00:18:17.110 align:start position:0%
+will happen. uh and this time uh there
+is<00:18:15.440><c> a</c><00:18:15.600><c> cloning</c><00:18:16.080><c> happening</c><00:18:16.480><c> which</c><00:18:16.720><c> is</c><00:18:16.880><c> an</c>
+
+00:18:17.110 --> 00:18:17.120 align:start position:0%
+is a cloning happening which is an
+ 
+
+00:18:17.120 --> 00:18:19.350 align:start position:0%
+is a cloning happening which is an
+important<00:18:17.600><c> part</c><00:18:17.760><c> of</c><00:18:18.160><c> uh</c><00:18:18.320><c> this</c><00:18:18.559><c> whole</c><00:18:18.720><c> flow</c><00:18:19.120><c> is</c>
+
+00:18:19.350 --> 00:18:19.360 align:start position:0%
+important part of uh this whole flow is
+ 
+
+00:18:19.360 --> 00:18:22.789 align:start position:0%
+important part of uh this whole flow is
+that<00:18:20.480><c> um</c><00:18:21.200><c> each</c><00:18:21.600><c> staff</c><00:18:22.000><c> architect</c><00:18:22.400><c> is</c><00:18:22.559><c> going</c><00:18:22.720><c> to</c>
+
+00:18:22.789 --> 00:18:22.799 align:start position:0%
+that um each staff architect is going to
+ 
+
+00:18:22.799 --> 00:18:25.029 align:start position:0%
+that um each staff architect is going to
+be<00:18:22.960><c> cloned</c><00:18:23.919><c> uh</c><00:18:24.160><c> by</c><00:18:24.400><c> the</c><00:18:24.640><c> number</c><00:18:24.799><c> of</c>
+
+00:18:25.029 --> 00:18:25.039 align:start position:0%
+be cloned uh by the number of
+ 
+
+00:18:25.039 --> 00:18:26.710 align:start position:0%
+be cloned uh by the number of
+recommendations<00:18:25.760><c> that's</c><00:18:26.080><c> supposed</c><00:18:26.400><c> to</c>
+
+00:18:26.710 --> 00:18:26.720 align:start position:0%
+recommendations that's supposed to
+ 
+
+00:18:26.720 --> 00:18:29.190 align:start position:0%
+recommendations that's supposed to
+generate<00:18:27.360><c> and</c><00:18:27.840><c> each</c><00:18:28.160><c> clone</c><00:18:28.480><c> has</c><00:18:28.720><c> access</c><00:18:29.039><c> to</c>
+
+00:18:29.190 --> 00:18:29.200 align:start position:0%
+generate and each clone has access to
+ 
+
+00:18:29.200 --> 00:18:32.630 align:start position:0%
+generate and each clone has access to
+the<00:18:29.360><c> past</c><00:18:29.880><c> history</c><00:18:30.880><c> and</c><00:18:31.520><c> uh</c><00:18:31.760><c> generates</c><00:18:32.320><c> its</c>
+
+00:18:32.630 --> 00:18:32.640 align:start position:0%
+the past history and uh generates its
+ 
+
+00:18:32.640 --> 00:18:35.190 align:start position:0%
+the past history and uh generates its
+own<00:18:32.960><c> current</c><00:18:33.280><c> history</c><00:18:34.000><c> which</c><00:18:34.240><c> is</c><00:18:34.480><c> separated</c>
+
+00:18:35.190 --> 00:18:35.200 align:start position:0%
+own current history which is separated
+ 
+
+00:18:35.200 --> 00:18:37.830 align:start position:0%
+own current history which is separated
+from<00:18:35.440><c> the</c><00:18:35.600><c> other</c><00:18:35.840><c> clones</c><00:18:36.240><c> and</c><00:18:36.480><c> this</c><00:18:36.720><c> way</c><00:18:37.600><c> uh</c>
+
+00:18:37.830 --> 00:18:37.840 align:start position:0%
+from the other clones and this way uh
+ 
+
+00:18:37.840 --> 00:18:41.669 align:start position:0%
+from the other clones and this way uh
+the<00:18:38.160><c> agent</c><00:18:38.640><c> has</c><00:18:38.960><c> access</c><00:18:39.480><c> to</c><00:18:40.480><c> all</c><00:18:40.720><c> the</c><00:18:41.200><c> existing</c>
+
+00:18:41.669 --> 00:18:41.679 align:start position:0%
+the agent has access to all the existing
+ 
+
+00:18:41.679 --> 00:18:43.669 align:start position:0%
+the agent has access to all the existing
+knowledge<00:18:42.160><c> in</c><00:18:42.400><c> order</c><00:18:42.559><c> to</c><00:18:42.880><c> make</c><00:18:43.039><c> sure</c><00:18:43.200><c> that</c><00:18:43.520><c> you</c>
+
+00:18:43.669 --> 00:18:43.679 align:start position:0%
+knowledge in order to make sure that you
+ 
+
+00:18:43.679 --> 00:18:46.470 align:start position:0%
+knowledge in order to make sure that you
+know<00:18:43.919><c> it</c><00:18:44.240><c> it</c><00:18:44.559><c> kind</c><00:18:44.799><c> of</c><00:18:44.960><c> writes</c><00:18:45.280><c> up</c><00:18:45.440><c> the</c><00:18:45.679><c> best</c><00:18:46.240><c> uh</c>
+
+00:18:46.470 --> 00:18:46.480 align:start position:0%
+know it it kind of writes up the best uh
+ 
+
+00:18:46.480 --> 00:18:49.870 align:start position:0%
+know it it kind of writes up the best uh
+design<00:18:46.799><c> proposal</c><00:18:47.360><c> at</c><00:18:47.600><c> the</c><00:18:47.760><c> end</c><00:18:47.919><c> of</c><00:18:48.080><c> the</c>
+
+00:18:49.870 --> 00:18:49.880 align:start position:0%
+design proposal at the end of the
+ 
+
+00:18:49.880 --> 00:18:54.110 align:start position:0%
+design proposal at the end of the
+workflow.<00:18:51.080><c> Um</c><00:18:52.080><c> and</c>
+
+00:18:54.110 --> 00:18:54.120 align:start position:0%
+workflow. Um and
+ 
+
+00:18:54.120 --> 00:18:58.150 align:start position:0%
+workflow. Um and
+um<00:18:55.120><c> the</c><00:18:56.000><c> the</c><00:18:56.320><c> last</c><00:18:56.640><c> important</c><00:18:57.120><c> thing</c><00:18:57.360><c> here</c><00:18:57.679><c> is</c>
+
+00:18:58.150 --> 00:18:58.160 align:start position:0%
+um the the last important thing here is
+ 
+
+00:18:58.160 --> 00:19:03.230 align:start position:0%
+um the the last important thing here is
+evaluation<00:18:58.880><c> and</c><00:18:59.120><c> feedback.</c><00:18:59.840><c> Um</c><00:19:00.640><c> and</c>
+
+00:19:03.230 --> 00:19:03.240 align:start position:0%
+ 
+ 
+
+00:19:03.240 --> 00:19:06.470 align:start position:0%
+ 
+uh<00:19:04.240><c> the</c><00:19:04.480><c> challenge</c><00:19:04.960><c> is</c><00:19:05.440><c> uh</c><00:19:05.600><c> how</c><00:19:05.840><c> do</c><00:19:05.919><c> we</c><00:19:06.160><c> know</c><00:19:06.320><c> if</c>
+
+00:19:06.470 --> 00:19:06.480 align:start position:0%
+uh the challenge is uh how do we know if
+ 
+
+00:19:06.480 --> 00:19:09.750 align:start position:0%
+uh the challenge is uh how do we know if
+a<00:19:06.720><c> recommendation</c><00:19:07.280><c> is</c><00:19:07.520><c> good?</c><00:19:08.240><c> uh</c><00:19:08.799><c> we</c><00:19:09.360><c> build</c>
+
+00:19:09.750 --> 00:19:09.760 align:start position:0%
+a recommendation is good? uh we build
+ 
+
+00:19:09.760 --> 00:19:13.190 align:start position:0%
+a recommendation is good? uh we build
+this<00:19:10.559><c> uh</c><00:19:10.960><c> a</c><00:19:11.280><c> multi-</c><00:19:11.520><c> agent</c><00:19:11.840><c> system</c><00:19:12.160><c> that</c><00:19:12.480><c> has</c>
+
+00:19:13.190 --> 00:19:13.200 align:start position:0%
+this uh a multi- agent system that has
+ 
+
+00:19:13.200 --> 00:19:16.549 align:start position:0%
+this uh a multi- agent system that has
+many<00:19:13.520><c> many</c><00:19:13.919><c> engines</c><00:19:14.640><c> and</c><00:19:15.280><c> uh</c><00:19:15.760><c> there</c><00:19:16.080><c> are</c>
+
+00:19:16.549 --> 00:19:16.559 align:start position:0%
+many many engines and uh there are
+ 
+
+00:19:16.559 --> 00:19:18.390 align:start position:0%
+many many engines and uh there are
+rounds<00:19:16.880><c> and</c><00:19:17.120><c> rounds</c><00:19:17.440><c> of</c><00:19:17.600><c> conversations</c><00:19:18.240><c> that</c>
+
+00:19:18.390 --> 00:19:18.400 align:start position:0%
+rounds and rounds of conversations that
+ 
+
+00:19:18.400 --> 00:19:20.630 align:start position:0%
+rounds and rounds of conversations that
+that<00:19:18.720><c> need</c><00:19:18.880><c> to</c><00:19:19.039><c> be</c>
+
+00:19:20.630 --> 00:19:20.640 align:start position:0%
+that need to be
+ 
+
+00:19:20.640 --> 00:19:22.950 align:start position:0%
+that need to be
+uh<00:19:21.280><c> monitored</c><00:19:22.000><c> what's</c><00:19:22.320><c> going</c><00:19:22.480><c> to</c><00:19:22.559><c> work</c><00:19:22.799><c> the</c>
+
+00:19:22.950 --> 00:19:22.960 align:start position:0%
+uh monitored what's going to work the
+ 
+
+00:19:22.960 --> 00:19:26.549 align:start position:0%
+uh monitored what's going to work the
+best<00:19:23.200><c> here</c><00:19:23.679><c> and</c><00:19:24.320><c> uh</c><00:19:25.200><c> we</c><00:19:25.600><c> had</c><00:19:25.840><c> to</c><00:19:26.080><c> close</c><00:19:26.320><c> the</c>
+
+00:19:26.549 --> 00:19:26.559 align:start position:0%
+best here and uh we had to close the
+ 
+
+00:19:26.559 --> 00:19:28.789 align:start position:0%
+best here and uh we had to close the
+loop<00:19:26.799><c> with</c><00:19:27.039><c> human</c><00:19:27.360><c> scoring</c><00:19:27.919><c> and</c><00:19:28.320><c> structured</c>
+
+00:19:28.789 --> 00:19:28.799 align:start position:0%
+loop with human scoring and structured
+ 
+
+00:19:28.799 --> 00:19:32.070 align:start position:0%
+loop with human scoring and structured
+feedback<00:19:29.600><c> and</c><00:19:30.160><c> revision</c><00:19:30.559><c> cycles.</c>
+
+00:19:32.070 --> 00:19:32.080 align:start position:0%
+feedback and revision cycles.
+ 
+
+00:19:32.080 --> 00:19:34.070 align:start position:0%
+feedback and revision cycles.
+uh<00:19:32.400><c> what</c><00:19:32.640><c> we</c><00:19:32.880><c> learned</c><00:19:33.280><c> especially</c><00:19:33.679><c> at</c><00:19:33.840><c> the</c>
+
+00:19:34.070 --> 00:19:34.080 align:start position:0%
+uh what we learned especially at the
+ 
+
+00:19:34.080 --> 00:19:38.430 align:start position:0%
+uh what we learned especially at the
+stage<00:19:34.240><c> that</c><00:19:34.480><c> we</c><00:19:34.640><c> are</c><00:19:35.520><c> uh</c><00:19:36.240><c> the</c><00:19:37.200><c> best</c>
+
+00:19:38.430 --> 00:19:38.440 align:start position:0%
+stage that we are uh the best
+ 
+
+00:19:38.440 --> 00:19:42.870 align:start position:0%
+stage that we are uh the best
+uh<00:19:39.440><c> evaluation</c><00:19:40.240><c> is</c><00:19:40.559><c> human</c><00:19:41.400><c> evaluation.</c><00:19:42.400><c> Uh</c>
+
+00:19:42.870 --> 00:19:42.880 align:start position:0%
+uh evaluation is human evaluation. Uh
+ 
+
+00:19:42.880 --> 00:19:46.950 align:start position:0%
+uh evaluation is human evaluation. Uh
+and<00:19:43.120><c> we</c><00:19:43.440><c> noticed</c><00:19:43.760><c> that</c><00:19:44.400><c> LLM</c><00:19:44.960><c> evaluations</c><00:19:46.240><c> uh</c>
+
+00:19:46.950 --> 00:19:46.960 align:start position:0%
+and we noticed that LLM evaluations uh
+ 
+
+00:19:46.960 --> 00:19:50.390 align:start position:0%
+and we noticed that LLM evaluations uh
+are<00:19:47.679><c> good</c><00:19:48.320><c> but</c><00:19:48.720><c> they</c><00:19:48.960><c> do</c><00:19:49.200><c> not</c><00:19:49.360><c> give</c><00:19:49.600><c> us</c><00:19:49.919><c> what</c><00:19:50.160><c> we</c>
+
+00:19:50.390 --> 00:19:50.400 align:start position:0%
+are good but they do not give us what we
+ 
+
+00:19:50.400 --> 00:19:52.789 align:start position:0%
+are good but they do not give us what we
+want<00:19:50.720><c> in</c><00:19:51.039><c> order</c><00:19:51.200><c> to</c><00:19:51.840><c> make</c><00:19:52.080><c> the</c><00:19:52.240><c> improvements</c>
+
+00:19:52.789 --> 00:19:52.799 align:start position:0%
+want in order to make the improvements
+ 
+
+00:19:52.799 --> 00:19:55.430 align:start position:0%
+want in order to make the improvements
+that<00:19:53.039><c> we</c><00:19:53.200><c> needed</c><00:19:53.520><c> to</c><00:19:53.840><c> to.</c><00:19:54.640><c> Uh</c><00:19:54.960><c> for</c><00:19:55.200><c> that</c>
+
+00:19:55.430 --> 00:19:55.440 align:start position:0%
+that we needed to to. Uh for that
+ 
+
+00:19:55.440 --> 00:19:59.190 align:start position:0%
+that we needed to to. Uh for that
+purpose<00:19:55.840><c> we</c><00:19:56.080><c> built</c><00:19:56.720><c> uh</c><00:19:57.200><c> our</c><00:19:57.520><c> internal</c><00:19:58.200><c> human</c>
+
+00:19:59.190 --> 00:19:59.200 align:start position:0%
+purpose we built uh our internal human
+ 
+
+00:19:59.200 --> 00:20:02.470 align:start position:0%
+purpose we built uh our internal human
+eval<00:19:59.760><c> tool.</c><00:20:00.000><c> We</c><00:20:00.160><c> called</c><00:20:00.240><c> it</c><00:20:00.400><c> eagle</c><00:20:00.799><c> eye</c><00:20:01.600><c> and</c><00:20:02.320><c> uh</c>
+
+00:20:02.470 --> 00:20:02.480 align:start position:0%
+eval tool. We called it eagle eye and uh
+ 
+
+00:20:02.480 --> 00:20:06.950 align:start position:0%
+eval tool. We called it eagle eye and uh
+it<00:20:02.799><c> basically</c><00:20:03.520><c> helps</c><00:20:03.919><c> us</c><00:20:04.240><c> to</c><00:20:05.039><c> look</c><00:20:05.280><c> at</c><00:20:05.960><c> every</c>
+
+00:20:06.950 --> 00:20:06.960 align:start position:0%
+it basically helps us to look at every
+ 
+
+00:20:06.960 --> 00:20:09.190 align:start position:0%
+it basically helps us to look at every
+specific<00:20:07.360><c> case</c><00:20:08.000><c> uh</c><00:20:08.080><c> the</c><00:20:08.320><c> architecture</c><00:20:08.960><c> the</c>
+
+00:20:09.190 --> 00:20:09.200 align:start position:0%
+specific case uh the architecture the
+ 
+
+00:20:09.200 --> 00:20:11.110 align:start position:0%
+specific case uh the architecture the
+requirements<00:20:09.600><c> that</c><00:20:09.760><c> are</c><00:20:09.840><c> extracted</c><00:20:10.720><c> uh</c><00:20:10.880><c> the</c>
+
+00:20:11.110 --> 00:20:11.120 align:start position:0%
+requirements that are extracted uh the
+ 
+
+00:20:11.120 --> 00:20:12.789 align:start position:0%
+requirements that are extracted uh the
+conversations<00:20:11.679><c> between</c><00:20:12.000><c> the</c><00:20:12.160><c> agents</c><00:20:12.559><c> and</c>
+
+00:20:12.789 --> 00:20:12.799 align:start position:0%
+conversations between the agents and
+ 
+
+00:20:12.799 --> 00:20:16.190 align:start position:0%
+conversations between the agents and
+also<00:20:13.120><c> the</c><00:20:14.000><c> uh</c><00:20:14.640><c> generated</c><00:20:15.280><c> require</c><00:20:15.840><c> uh</c>
+
+00:20:16.190 --> 00:20:16.200 align:start position:0%
+also the uh generated require uh
+ 
+
+00:20:16.200 --> 00:20:19.350 align:start position:0%
+also the uh generated require uh
+recommendations<00:20:17.200><c> and</c><00:20:17.440><c> in</c><00:20:17.679><c> this</c><00:20:17.840><c> way</c><00:20:18.720><c> uh</c><00:20:19.039><c> we</c>
+
+00:20:19.350 --> 00:20:19.360 align:start position:0%
+recommendations and in this way uh we
+ 
+
+00:20:19.360 --> 00:20:22.549 align:start position:0%
+recommendations and in this way uh we
+are<00:20:19.520><c> able</c><00:20:20.039><c> to</c><00:20:21.039><c> look</c><00:20:21.200><c> at</c><00:20:21.360><c> them</c><00:20:21.919><c> and</c><00:20:22.400><c> uh</c>
+
+00:20:22.549 --> 00:20:22.559 align:start position:0%
+are able to look at them and uh
+ 
+
+00:20:22.559 --> 00:20:26.870 align:start position:0%
+are able to look at them and uh
+basically<00:20:23.360><c> do</c><00:20:24.400><c> uh</c><00:20:24.640><c> relevance</c><00:20:25.280><c> visibility</c><00:20:26.559><c> uh</c>
+
+00:20:26.870 --> 00:20:26.880 align:start position:0%
+basically do uh relevance visibility uh
+ 
+
+00:20:26.880 --> 00:20:29.830 align:start position:0%
+basically do uh relevance visibility uh
+and<00:20:27.280><c> clarity</c><00:20:27.760><c> studies</c><00:20:28.080><c> and</c><00:20:28.320><c> give</c><00:20:28.640><c> them</c><00:20:28.799><c> scores</c>
+
+00:20:29.830 --> 00:20:29.840 align:start position:0%
+and clarity studies and give them scores
+ 
+
+00:20:29.840 --> 00:20:32.870 align:start position:0%
+and clarity studies and give them scores
+um<00:20:30.320><c> and</c><00:20:30.960><c> uh</c><00:20:31.360><c> and</c><00:20:31.600><c> based</c><00:20:31.919><c> on</c><00:20:32.080><c> that</c><00:20:32.400><c> make</c><00:20:32.640><c> some</c>
+
+00:20:32.870 --> 00:20:32.880 align:start position:0%
+um and uh and based on that make some
+ 
+
+00:20:32.880 --> 00:20:34.789 align:start position:0%
+um and uh and based on that make some
+decisions<00:20:33.440><c> on</c><00:20:33.600><c> in</c><00:20:33.840><c> terms</c><00:20:34.000><c> of</c><00:20:34.159><c> what</c><00:20:34.400><c> we</c><00:20:34.559><c> want</c><00:20:34.640><c> to</c>
+
+00:20:34.789 --> 00:20:34.799 align:start position:0%
+decisions on in terms of what we want to
+ 
+
+00:20:34.799 --> 00:20:35.710 align:start position:0%
+decisions on in terms of what we want to
+focus
+
+00:20:35.710 --> 00:20:35.720 align:start position:0%
+focus
+ 
+
+00:20:35.720 --> 00:20:38.390 align:start position:0%
+focus
+next.<00:20:36.720><c> And</c><00:20:36.880><c> what</c><00:20:37.039><c> we</c><00:20:37.200><c> learned</c><00:20:37.440><c> is</c><00:20:37.600><c> that</c>
+
+00:20:38.390 --> 00:20:38.400 align:start position:0%
+next. And what we learned is that
+ 
+
+00:20:38.400 --> 00:20:41.350 align:start position:0%
+next. And what we learned is that
+confidence<00:20:38.799><c> is</c><00:20:39.039><c> not</c><00:20:39.280><c> correctness.</c><00:20:40.320><c> um</c><00:20:40.960><c> uh</c><00:20:41.120><c> it</c>
+
+00:20:41.350 --> 00:20:41.360 align:start position:0%
+confidence is not correctness. um uh it
+ 
+
+00:20:41.360 --> 00:20:47.029 align:start position:0%
+confidence is not correctness. um uh it
+can<00:20:41.600><c> help</c><00:20:42.159><c> uh</c><00:20:42.320><c> but</c><00:20:42.640><c> it</c><00:20:42.799><c> is</c><00:20:43.039><c> not</c><00:20:43.679><c> uh</c><00:20:43.880><c> the</c><00:20:45.320><c> uh</c><00:20:46.480><c> uh</c>
+
+00:20:47.029 --> 00:20:47.039 align:start position:0%
+can help uh but it is not uh the uh uh
+ 
+
+00:20:47.039 --> 00:20:49.310 align:start position:0%
+can help uh but it is not uh the uh uh
+what<00:20:47.280><c> what</c><00:20:47.520><c> what</c><00:20:47.760><c> can</c><00:20:47.919><c> be</c><00:20:48.080><c> trusted</c><00:20:48.480><c> all</c><00:20:48.720><c> the</c>
+
+00:20:49.310 --> 00:20:49.320 align:start position:0%
+what what what can be trusted all the
+ 
+
+00:20:49.320 --> 00:20:52.549 align:start position:0%
+what what what can be trusted all the
+time<00:20:50.320><c> and</c><00:20:50.640><c> human</c><00:20:51.280><c> uh</c><00:20:51.360><c> feedback</c><00:20:51.760><c> is</c><00:20:52.000><c> essential</c>
+
+00:20:52.549 --> 00:20:52.559 align:start position:0%
+time and human uh feedback is essential
+ 
+
+00:20:52.559 --> 00:20:54.630 align:start position:0%
+time and human uh feedback is essential
+early<00:20:52.880><c> on</c><00:20:53.120><c> when</c><00:20:53.679><c> uh</c><00:20:53.840><c> when</c><00:20:54.080><c> when</c><00:20:54.400><c> we're</c>
+
+00:20:54.630 --> 00:20:54.640 align:start position:0%
+early on when uh when when we're
+ 
+
+00:20:54.640 --> 00:20:56.750 align:start position:0%
+early on when uh when when we're
+building<00:20:54.960><c> such</c><00:20:55.280><c> systems</c><00:20:55.679><c> from</c><00:20:56.159><c> uh</c><00:20:56.320><c> from</c>
+
+00:20:56.750 --> 00:20:56.760 align:start position:0%
+building such systems from uh from
+ 
+
+00:20:56.760 --> 00:21:00.710 align:start position:0%
+building such systems from uh from
+scratch<00:20:57.760><c> and</c><00:20:58.240><c> uh</c><00:20:58.640><c> eval</c><00:20:59.360><c> must</c><00:20:59.679><c> be</c><00:20:59.840><c> baked</c><00:21:00.159><c> into</c>
+
+00:21:00.710 --> 00:21:00.720 align:start position:0%
+scratch and uh eval must be baked into
+ 
+
+00:21:00.720 --> 00:21:03.669 align:start position:0%
+scratch and uh eval must be baked into
+system<00:21:01.120><c> design</c><00:21:01.760><c> not</c><00:21:02.080><c> added</c><00:21:02.480><c> later.</c><00:21:03.120><c> This</c><00:21:03.280><c> is</c><00:21:03.360><c> a</c>
+
+00:21:03.669 --> 00:21:03.679 align:start position:0%
+system design not added later. This is a
+ 
+
+00:21:03.679 --> 00:21:04.830 align:start position:0%
+system design not added later. This is a
+this<00:21:03.840><c> is</c><00:21:04.000><c> that</c>
+
+00:21:04.830 --> 00:21:04.840 align:start position:0%
+this is that
+ 
+
+00:21:04.840 --> 00:21:08.549 align:start position:0%
+this is that
+the<00:21:05.840><c> design</c><00:21:06.320><c> thought</c><00:21:06.640><c> that</c><00:21:06.799><c> that</c><00:21:07.200><c> we</c><00:21:07.919><c> that</c><00:21:08.159><c> we</c>
+
+00:21:08.549 --> 00:21:08.559 align:start position:0%
+the design thought that that we that we
+ 
+
+00:21:08.559 --> 00:21:10.549 align:start position:0%
+the design thought that that we that we
+came<00:21:08.799><c> down</c><00:21:09.039><c> to</c><00:21:09.280><c> that</c><00:21:09.520><c> is</c><00:21:09.840><c> that</c><00:21:10.080><c> is</c><00:21:10.240><c> very</c>
+
+00:21:10.549 --> 00:21:10.559 align:start position:0%
+came down to that is that is very
+ 
+
+00:21:10.559 --> 00:21:13.029 align:start position:0%
+came down to that is that is very
+helpful<00:21:11.360><c> is</c><00:21:11.600><c> that</c><00:21:12.000><c> as</c><00:21:12.240><c> soon</c><00:21:12.400><c> as</c><00:21:12.480><c> we</c><00:21:12.720><c> start</c>
+
+00:21:13.029 --> 00:21:13.039 align:start position:0%
+helpful is that as soon as we start
+ 
+
+00:21:13.039 --> 00:21:17.110 align:start position:0%
+helpful is that as soon as we start
+thinking<00:21:13.360><c> about</c><00:21:14.679><c> uh</c><00:21:15.679><c> designing</c><00:21:16.240><c> a</c><00:21:16.400><c> new</c><00:21:16.799><c> AI</c>
+
+00:21:17.110 --> 00:21:17.120 align:start position:0%
+thinking about uh designing a new AI
+ 
+
+00:21:17.120 --> 00:21:19.590 align:start position:0%
+thinking about uh designing a new AI
+system<00:21:17.520><c> we</c><00:21:17.760><c> also</c><00:21:18.159><c> start</c><00:21:18.400><c> thinking</c><00:21:18.799><c> about</c><00:21:19.360><c> okay</c>
+
+00:21:19.590 --> 00:21:19.600 align:start position:0%
+system we also start thinking about okay
+ 
+
+00:21:19.600 --> 00:21:21.270 align:start position:0%
+system we also start thinking about okay
+what<00:21:19.840><c> are</c><00:21:19.919><c> the</c><00:21:20.080><c> evaluations</c><00:21:20.720><c> are</c><00:21:20.960><c> going</c><00:21:21.039><c> to</c><00:21:21.120><c> be</c>
+
+00:21:21.270 --> 00:21:21.280 align:start position:0%
+what are the evaluations are going to be
+ 
+
+00:21:21.280 --> 00:21:24.950 align:start position:0%
+what are the evaluations are going to be
+around<00:21:21.600><c> it</c><00:21:22.640><c> uh</c><00:21:22.880><c> and</c><00:21:23.200><c> we're</c><00:21:23.520><c> able</c><00:21:23.760><c> to</c><00:21:24.000><c> evaluate</c>
+
+00:21:24.950 --> 00:21:24.960 align:start position:0%
+around it uh and we're able to evaluate
+ 
+
+00:21:24.960 --> 00:21:28.789 align:start position:0%
+around it uh and we're able to evaluate
+whatever<00:21:25.360><c> we</c><00:21:25.600><c> have</c><00:21:26.720><c> um</c><00:21:27.120><c> as</c><00:21:27.440><c> we</c><00:21:27.679><c> go</c><00:21:27.919><c> forward</c><00:21:28.559><c> it</c>
+
+00:21:28.789 --> 00:21:28.799 align:start position:0%
+whatever we have um as we go forward it
+ 
+
+00:21:28.799 --> 00:21:31.590 align:start position:0%
+whatever we have um as we go forward it
+could<00:21:29.039><c> be</c><00:21:29.520><c> a</c><00:21:29.919><c> human</c><00:21:30.240><c> eval</c><00:21:30.640><c> tool</c><00:21:31.039><c> it</c><00:21:31.200><c> could</c><00:21:31.280><c> be</c><00:21:31.360><c> a</c>
+
+00:21:31.590 --> 00:21:31.600 align:start position:0%
+could be a human eval tool it could be a
+ 
+
+00:21:31.600 --> 00:21:34.310 align:start position:0%
+could be a human eval tool it could be a
+monitoring<00:21:32.080><c> dashboard</c><00:21:32.640><c> or</c><00:21:32.880><c> it</c><00:21:33.120><c> could</c><00:21:33.280><c> be</c><00:21:34.159><c> uh</c>
+
+00:21:34.310 --> 00:21:34.320 align:start position:0%
+monitoring dashboard or it could be uh
+ 
+
+00:21:34.320 --> 00:21:38.990 align:start position:0%
+monitoring dashboard or it could be uh
+LM<00:21:34.880><c> based</c><00:21:35.640><c> evaluation</c><00:21:36.880><c> uh</c><00:21:37.520><c> feedback</c>
+
+00:21:38.990 --> 00:21:39.000 align:start position:0%
+LM based evaluation uh feedback
+ 
+
+00:21:39.000 --> 00:21:43.590 align:start position:0%
+LM based evaluation uh feedback
+loops.<00:21:40.000><c> Um</c><00:21:40.640><c> this</c><00:21:41.120><c> uh</c><00:21:41.679><c> is</c><00:21:41.919><c> a</c><00:21:42.159><c> screenshot</c><00:21:42.720><c> of</c><00:21:43.039><c> our</c>
+
+00:21:43.590 --> 00:21:43.600 align:start position:0%
+loops. Um this uh is a screenshot of our
+ 
+
+00:21:43.600 --> 00:21:47.990 align:start position:0%
+loops. Um this uh is a screenshot of our
+uh<00:21:44.480><c> uh</c><00:21:45.440><c> evaluation</c><00:21:46.159><c> tool.</c><00:21:46.720><c> Uh</c><00:21:47.120><c> we</c><00:21:47.600><c> basically</c>
+
+00:21:47.990 --> 00:21:48.000 align:start position:0%
+uh uh evaluation tool. Uh we basically
+ 
+
+00:21:48.000 --> 00:21:51.110 align:start position:0%
+uh uh evaluation tool. Uh we basically
+can<00:21:48.320><c> see</c><00:21:48.720><c> both</c><00:21:49.200><c> uh</c><00:21:49.840><c> various</c><00:21:50.320><c> things</c><00:21:50.640><c> that</c>
+
+00:21:51.110 --> 00:21:51.120 align:start position:0%
+can see both uh various things that
+ 
+
+00:21:51.120 --> 00:21:54.630 align:start position:0%
+can see both uh various things that
+about<00:21:51.919><c> the</c><00:21:52.559><c> interactions</c><00:21:53.280><c> in</c><00:21:53.520><c> the</c><00:21:53.840><c> the</c>
+
+00:21:54.630 --> 00:21:54.640 align:start position:0%
+about the interactions in the the
+ 
+
+00:21:54.640 --> 00:21:58.149 align:start position:0%
+about the interactions in the the
+multient<00:21:55.400><c> system</c><00:21:56.400><c> and</c><00:21:56.960><c> uh</c><00:21:57.360><c> go</c><00:21:57.600><c> through</c><00:21:57.840><c> the</c>
+
+00:21:58.149 --> 00:21:58.159 align:start position:0%
+multient system and uh go through the
+ 
+
+00:21:58.159 --> 00:21:59.990 align:start position:0%
+multient system and uh go through the
+conversations<00:21:58.880><c> and</c><00:21:59.120><c> read</c><00:21:59.360><c> them</c><00:21:59.520><c> and</c><00:21:59.840><c> make</c>
+
+00:21:59.990 --> 00:22:00.000 align:start position:0%
+conversations and read them and make
+ 
+
+00:22:00.000 --> 00:22:02.470 align:start position:0%
+conversations and read them and make
+sure<00:22:00.159><c> that</c><00:22:00.400><c> they</c><00:22:00.640><c> make</c><00:22:00.799><c> sense</c><00:22:01.039><c> or</c><00:22:01.280><c> not.</c>
+
+00:22:02.470 --> 00:22:02.480 align:start position:0%
+sure that they make sense or not.
+ 
+
+00:22:02.480 --> 00:22:05.110 align:start position:0%
+sure that they make sense or not.
+And<00:22:02.960><c> uh</c><00:22:03.440><c> it</c><00:22:03.760><c> actually</c><00:22:04.000><c> helps</c><00:22:04.320><c> to</c><00:22:04.480><c> do</c><00:22:04.640><c> that.</c><00:22:05.039><c> For</c>
+
+00:22:05.110 --> 00:22:05.120 align:start position:0%
+And uh it actually helps to do that. For
+ 
+
+00:22:05.120 --> 00:22:07.750 align:start position:0%
+And uh it actually helps to do that. For
+example,<00:22:05.679><c> this</c><00:22:05.919><c> is</c><00:22:06.000><c> a</c><00:22:06.240><c> case</c><00:22:06.320><c> of</c><00:22:06.559><c> hallucination</c>
+
+00:22:07.750 --> 00:22:07.760 align:start position:0%
+example, this is a case of hallucination
+ 
+
+00:22:07.760 --> 00:22:10.789 align:start position:0%
+example, this is a case of hallucination
+uh<00:22:07.919><c> early</c><00:22:08.240><c> on.</c><00:22:08.720><c> Uh</c><00:22:09.120><c> this</c><00:22:09.440><c> is</c><00:22:09.840><c> uh</c><00:22:10.240><c> a</c><00:22:10.480><c> staff</c>
+
+00:22:10.789 --> 00:22:10.799 align:start position:0%
+uh early on. Uh this is uh a staff
+ 
+
+00:22:10.799 --> 00:22:13.669 align:start position:0%
+uh early on. Uh this is uh a staff
+architect<00:22:11.280><c> network</c><00:22:11.960><c> security</c><00:22:12.960><c> that</c><00:22:13.280><c> sent</c><00:22:13.440><c> a</c>
+
+00:22:13.669 --> 00:22:13.679 align:start position:0%
+architect network security that sent a
+ 
+
+00:22:13.679 --> 00:22:17.710 align:start position:0%
+architect network security that sent a
+message<00:22:13.919><c> to</c><00:22:14.320><c> requirements</c><00:22:14.960><c> retriever</c><00:22:15.840><c> and</c>
+
+00:22:17.710 --> 00:22:17.720 align:start position:0%
+message to requirements retriever and
+ 
+
+00:22:17.720 --> 00:22:21.190 align:start position:0%
+message to requirements retriever and
+uh<00:22:18.720><c> asked</c><00:22:19.039><c> for</c><00:22:19.440><c> to</c><00:22:20.080><c> uh</c><00:22:20.240><c> for</c><00:22:20.559><c> scheduling</c><00:22:21.039><c> a</c>
+
+00:22:21.190 --> 00:22:21.200 align:start position:0%
+uh asked for to uh for scheduling a
+ 
+
+00:22:21.200 --> 00:22:24.149 align:start position:0%
+uh asked for to uh for scheduling a
+workshop<00:22:21.679><c> and</c><00:22:22.240><c> uh</c><00:22:22.400><c> provided</c><00:22:22.960><c> some</c><00:22:23.440><c> uh</c><00:22:23.679><c> dates</c>
+
+00:22:24.149 --> 00:22:24.159 align:start position:0%
+workshop and uh provided some uh dates
+ 
+
+00:22:24.159 --> 00:22:26.950 align:start position:0%
+workshop and uh provided some uh dates
+on<00:22:24.720><c> uh</c><00:22:25.120><c> when</c><00:22:25.520><c> that</c><00:22:25.919><c> workshop</c><00:22:26.400><c> could</c><00:22:26.559><c> be</c><00:22:26.880><c> in</c>
+
+00:22:26.950 --> 00:22:26.960 align:start position:0%
+on uh when that workshop could be in
+ 
+
+00:22:26.960 --> 00:22:29.190 align:start position:0%
+on uh when that workshop could be in
+order<00:22:27.200><c> to</c><00:22:27.520><c> basically</c><00:22:28.000><c> solve</c><00:22:28.240><c> whatever</c><00:22:28.880><c> is</c>
+
+00:22:29.190 --> 00:22:29.200 align:start position:0%
+order to basically solve whatever is
+ 
+
+00:22:29.200 --> 00:22:31.669 align:start position:0%
+order to basically solve whatever is
+trying<00:22:29.360><c> to</c><00:22:29.520><c> solve.</c><00:22:30.480><c> um</c><00:22:30.799><c> handling</c><00:22:31.280><c> these</c><00:22:31.520><c> kind</c>
+
+00:22:31.669 --> 00:22:31.679 align:start position:0%
+trying to solve. um handling these kind
+ 
+
+00:22:31.679 --> 00:22:34.950 align:start position:0%
+trying to solve. um handling these kind
+of<00:22:31.760><c> cases</c><00:22:32.159><c> is</c><00:22:32.320><c> very</c><00:22:32.640><c> important</c><00:22:33.520><c> uh</c><00:22:33.679><c> in</c><00:22:34.000><c> in</c><00:22:34.080><c> in</c>
+
+00:22:34.950 --> 00:22:34.960 align:start position:0%
+of cases is very important uh in in in
+ 
+
+00:22:34.960 --> 00:22:38.190 align:start position:0%
+of cases is very important uh in in in
+the<00:22:35.200><c> problems</c><00:22:35.520><c> and</c><00:22:35.840><c> also</c><00:22:36.799><c> uh</c><00:22:37.120><c> as</c><00:22:37.280><c> part</c><00:22:37.520><c> of</c><00:22:37.679><c> the</c>
+
+00:22:38.190 --> 00:22:38.200 align:start position:0%
+the problems and also uh as part of the
+ 
+
+00:22:38.200 --> 00:22:43.029 align:start position:0%
+the problems and also uh as part of the
+the<00:22:39.360><c> uh</c><00:22:39.679><c> structured</c><00:22:40.480><c> uh</c><00:22:40.960><c> output</c><00:22:41.360><c> that</c><00:22:42.320><c> that</c>
+
+00:22:43.029 --> 00:22:43.039 align:start position:0%
+the uh structured uh output that that
+ 
+
+00:22:43.039 --> 00:22:47.270 align:start position:0%
+the uh structured uh output that that
+each<00:22:44.080><c> uh</c><00:22:44.240><c> give</c><00:22:44.640><c> and</c><00:22:44.960><c> also</c><00:22:45.440><c> it's</c><00:22:45.840><c> it's</c><00:22:46.320><c> fun</c><00:22:47.120><c> uh</c>
+
+00:22:47.270 --> 00:22:47.280 align:start position:0%
+each uh give and also it's it's fun uh
+ 
+
+00:22:47.280 --> 00:22:49.430 align:start position:0%
+each uh give and also it's it's fun uh
+to<00:22:47.679><c> to</c><00:22:48.080><c> come</c><00:22:48.320><c> across</c><00:22:48.799><c> some</c><00:22:49.039><c> of</c><00:22:49.120><c> these</c>
+
+00:22:49.430 --> 00:22:49.440 align:start position:0%
+to to come across some of these
+ 
+
+00:22:49.440 --> 00:22:53.710 align:start position:0%
+to to come across some of these
+hallucinations<00:22:50.480><c> uh</c><00:22:51.360><c> uh</c><00:22:51.760><c> mid</c><00:22:52.159><c> building</c><00:22:52.559><c> such</c>
+
+00:22:53.710 --> 00:22:53.720 align:start position:0%
+hallucinations uh uh mid building such
+ 
+
+00:22:53.720 --> 00:22:57.070 align:start position:0%
+hallucinations uh uh mid building such
+systems.<00:22:54.799><c> Um</c><00:22:55.360><c> so</c><00:22:55.600><c> to</c><00:22:55.840><c> wrap</c><00:22:56.000><c> it</c><00:22:56.159><c> up</c>
+
+00:22:57.070 --> 00:22:57.080 align:start position:0%
+systems. Um so to wrap it up
+ 
+
+00:22:57.080 --> 00:23:00.870 align:start position:0%
+systems. Um so to wrap it up
+uh<00:22:58.080><c> about</c><00:22:58.400><c> reasoning</c><00:22:58.960><c> systems</c><00:22:59.760><c> uh</c><00:23:00.159><c> is</c><00:23:00.480><c> that</c>
+
+00:23:00.870 --> 00:23:00.880 align:start position:0%
+uh about reasoning systems uh is that
+ 
+
+00:23:00.880 --> 00:23:04.310 align:start position:0%
+uh about reasoning systems uh is that
+it's<00:23:01.280><c> just</c><00:23:01.760><c> is</c><00:23:02.240><c> it's</c><00:23:02.559><c> not</c><00:23:02.880><c> assistance</c><00:23:03.840><c> uh</c><00:23:04.000><c> and</c>
+
+00:23:04.310 --> 00:23:04.320 align:start position:0%
+it's just is it's not assistance uh and
+ 
+
+00:23:04.320 --> 00:23:06.430 align:start position:0%
+it's just is it's not assistance uh and
+there<00:23:04.559><c> there</c><00:23:04.799><c> is</c><00:23:04.960><c> a</c><00:23:05.679><c> slight</c><00:23:06.080><c> difference</c>
+
+00:23:06.430 --> 00:23:06.440 align:start position:0%
+there there is a slight difference
+ 
+
+00:23:06.440 --> 00:23:10.230 align:start position:0%
+there there is a slight difference
+there.<00:23:07.440><c> Uh</c><00:23:08.080><c> building</c><00:23:08.400><c> a</c><00:23:08.559><c> copilot</c><00:23:09.360><c> uh</c><00:23:09.520><c> is</c><00:23:09.840><c> not</c>
+
+00:23:10.230 --> 00:23:10.240 align:start position:0%
+there. Uh building a copilot uh is not
+ 
+
+00:23:10.240 --> 00:23:12.549 align:start position:0%
+there. Uh building a copilot uh is not
+generating<00:23:11.039><c> answers.</c><00:23:11.679><c> Uh</c><00:23:11.919><c> it's</c><00:23:12.240><c> about</c>
+
+00:23:12.549 --> 00:23:12.559 align:start position:0%
+generating answers. Uh it's about
+ 
+
+00:23:12.559 --> 00:23:16.230 align:start position:0%
+generating answers. Uh it's about
+designing<00:23:12.960><c> a</c><00:23:13.200><c> system</c><00:23:13.440><c> that</c><00:23:13.760><c> can</c><00:23:14.679><c> reason.</c><00:23:15.760><c> Uh</c>
+
+00:23:16.230 --> 00:23:16.240 align:start position:0%
+designing a system that can reason. Uh
+ 
+
+00:23:16.240 --> 00:23:20.950 align:start position:0%
+designing a system that can reason. Uh
+we<00:23:16.559><c> want</c><00:23:16.720><c> to</c><00:23:16.960><c> build</c><00:23:17.280><c> a</c><00:23:17.760><c> system</c><00:23:18.240><c> that</c><00:23:19.200><c> uh</c><00:23:19.760><c> can</c><00:23:20.640><c> uh</c>
+
+00:23:20.950 --> 00:23:20.960 align:start position:0%
+we want to build a system that uh can uh
+ 
+
+00:23:20.960 --> 00:23:25.669 align:start position:0%
+we want to build a system that uh can uh
+have<00:23:21.679><c> uh</c><00:23:22.559><c> a</c><00:23:22.880><c> good</c><00:23:23.120><c> view</c><00:23:23.520><c> of</c><00:23:23.919><c> a</c><00:23:24.320><c> large</c><00:23:25.120><c> uh</c><00:23:25.280><c> amount</c>
+
+00:23:25.669 --> 00:23:25.679 align:start position:0%
+have uh a good view of a large uh amount
+ 
+
+00:23:25.679 --> 00:23:29.190 align:start position:0%
+have uh a good view of a large uh amount
+of<00:23:25.919><c> data</c><00:23:26.720><c> especially</c><00:23:27.600><c> uh</c><00:23:27.840><c> such</c><00:23:28.080><c> as</c><00:23:28.799><c> uh</c>
+
+00:23:29.190 --> 00:23:29.200 align:start position:0%
+of data especially uh such as uh
+ 
+
+00:23:29.200 --> 00:23:31.630 align:start position:0%
+of data especially uh such as uh
+architecture<00:23:29.840><c> data</c><00:23:30.720><c> where</c><00:23:31.039><c> we're</c><00:23:31.280><c> talking</c>
+
+00:23:31.630 --> 00:23:31.640 align:start position:0%
+architecture data where we're talking
+ 
+
+00:23:31.640 --> 00:23:34.549 align:start position:0%
+architecture data where we're talking
+about<00:23:32.679><c> thousands</c><00:23:33.679><c> or</c><00:23:34.000><c> millions</c><00:23:34.320><c> of</c>
+
+00:23:34.549 --> 00:23:34.559 align:start position:0%
+about thousands or millions of
+ 
+
+00:23:34.559 --> 00:23:37.870 align:start position:0%
+about thousands or millions of
+components<00:23:35.440><c> and</c><00:23:36.159><c> uh</c><00:23:37.039><c> large</c><00:23:37.440><c> number</c><00:23:37.600><c> of</c>
+
+00:23:37.870 --> 00:23:37.880 align:start position:0%
+components and uh large number of
+ 
+
+00:23:37.880 --> 00:23:41.590 align:start position:0%
+components and uh large number of
+documents<00:23:39.039><c> uh</c><00:23:39.200><c> that</c><00:23:39.520><c> need</c><00:23:39.760><c> to</c><00:23:39.919><c> be</c><00:23:40.080><c> in</c><00:23:40.400><c> scope</c><00:23:41.360><c> uh</c>
+
+00:23:41.590 --> 00:23:41.600 align:start position:0%
+documents uh that need to be in scope uh
+ 
+
+00:23:41.600 --> 00:23:44.230 align:start position:0%
+documents uh that need to be in scope uh
+in<00:23:41.840><c> order</c><00:23:42.080><c> to</c><00:23:42.559><c> answer</c><00:23:43.440><c> various</c><00:23:43.840><c> kind</c><00:23:44.080><c> of</c>
+
+00:23:44.230 --> 00:23:44.240 align:start position:0%
+in order to answer various kind of
+ 
+
+00:23:44.240 --> 00:23:47.430 align:start position:0%
+in order to answer various kind of
+questions<00:23:44.720><c> with</c><00:23:45.440><c> various</c><00:23:45.919><c> types</c><00:23:46.320><c> of</c><00:23:47.039><c> uh</c>
+
+00:23:47.430 --> 00:23:47.440 align:start position:0%
+questions with various types of uh
+ 
+
+00:23:47.440 --> 00:23:51.029 align:start position:0%
+questions with various types of uh
+stakeholders<00:23:48.240><c> from</c><00:23:49.120><c> uh</c><00:23:49.520><c> developers</c><00:23:50.640><c> uh</c><00:23:50.720><c> to</c>
+
+00:23:51.029 --> 00:23:51.039 align:start position:0%
+stakeholders from uh developers uh to
+ 
+
+00:23:51.039 --> 00:23:53.909 align:start position:0%
+stakeholders from uh developers uh to
+CTO's<00:23:52.000><c> uh</c><00:23:52.159><c> that</c><00:23:52.480><c> could</c><00:23:52.640><c> be</c><00:23:52.799><c> interacting</c><00:23:53.440><c> with</c>
+
+00:23:53.909 --> 00:23:53.919 align:start position:0%
+CTO's uh that could be interacting with
+ 
+
+00:23:53.919 --> 00:23:57.149 align:start position:0%
+CTO's uh that could be interacting with
+uh<00:23:54.640><c> with</c><00:23:55.200><c> uh</c><00:23:55.360><c> such</c><00:23:55.600><c> a</c>
+
+00:23:57.149 --> 00:23:57.159 align:start position:0%
+uh with uh such a
+ 
+
+00:23:57.159 --> 00:23:59.950 align:start position:0%
+uh with uh such a
+co-pilot.<00:23:58.159><c> Uh</c><00:23:58.720><c> so</c>
+
+00:23:59.950 --> 00:23:59.960 align:start position:0%
+co-pilot. Uh so
+ 
+
+00:23:59.960 --> 00:24:03.990 align:start position:0%
+co-pilot. Uh so
+uh<00:24:00.960><c> and</c><00:24:01.440><c> uh</c><00:24:01.760><c> and</c><00:24:02.000><c> that</c><00:24:02.320><c> takes</c><00:24:03.039><c> uh</c><00:24:03.360><c> roles</c><00:24:03.760><c> that</c>
+
+00:24:03.990 --> 00:24:04.000 align:start position:0%
+uh and uh and that takes uh roles that
+ 
+
+00:24:04.000 --> 00:24:06.630 align:start position:0%
+uh and uh and that takes uh roles that
+takes<00:24:04.480><c> uh</c><00:24:04.799><c> workflows</c><00:24:05.440><c> that</c><00:24:05.600><c> takes</c><00:24:06.240><c> memories</c>
+
+00:24:06.630 --> 00:24:06.640 align:start position:0%
+takes uh workflows that takes memories
+ 
+
+00:24:06.640 --> 00:24:09.750 align:start position:0%
+takes uh workflows that takes memories
+and<00:24:06.960><c> structure</c><00:24:07.440><c> in</c><00:24:07.679><c> order</c><00:24:07.919><c> to</c><00:24:08.720><c> build</c><00:24:09.360><c> such</c><00:24:09.600><c> a</c>
+
+00:24:09.750 --> 00:24:09.760 align:start position:0%
+and structure in order to build such a
+ 
+
+00:24:09.760 --> 00:24:13.669 align:start position:0%
+and structure in order to build such a
+reasoning<00:24:10.159><c> system.</c><00:24:11.039><c> uh</c><00:24:11.520><c> and</c><00:24:12.159><c> uh</c><00:24:12.640><c> and</c><00:24:12.880><c> and</c><00:24:13.039><c> and</c>
+
+00:24:13.669 --> 00:24:13.679 align:start position:0%
+reasoning system. uh and uh and and and
+ 
+
+00:24:13.679 --> 00:24:16.070 align:start position:0%
+reasoning system. uh and uh and and and
+putting<00:24:13.919><c> all</c><00:24:14.080><c> these</c><00:24:14.320><c> things</c><00:24:14.559><c> together</c><00:24:15.760><c> uh</c>
+
+00:24:16.070 --> 00:24:16.080 align:start position:0%
+putting all these things together uh
+ 
+
+00:24:16.080 --> 00:24:18.870 align:start position:0%
+putting all these things together uh
+requires<00:24:17.039><c> uh</c><00:24:17.200><c> a</c><00:24:17.520><c> lot</c><00:24:17.600><c> of</c><00:24:17.760><c> experimentation</c><00:24:18.559><c> in</c>
+
+00:24:18.870 --> 00:24:18.880 align:start position:0%
+requires uh a lot of experimentation in
+ 
+
+00:24:18.880 --> 00:24:21.029 align:start position:0%
+requires uh a lot of experimentation in
+terms<00:24:19.039><c> of</c><00:24:19.440><c> uh</c><00:24:19.600><c> what</c><00:24:19.919><c> works</c><00:24:20.240><c> based</c><00:24:20.480><c> on</c><00:24:20.720><c> data</c>
+
+00:24:21.029 --> 00:24:21.039 align:start position:0%
+terms of uh what works based on data
+ 
+
+00:24:21.039 --> 00:24:23.029 align:start position:0%
+terms of uh what works based on data
+that<00:24:21.279><c> exists.</c><00:24:21.760><c> Uh</c><00:24:22.000><c> we</c><00:24:22.240><c> are</c><00:24:22.400><c> learning</c><00:24:22.720><c> that</c>
+
+00:24:23.029 --> 00:24:23.039 align:start position:0%
+that exists. Uh we are learning that
+ 
+
+00:24:23.039 --> 00:24:25.750 align:start position:0%
+that exists. Uh we are learning that
+based<00:24:23.279><c> on</c><00:24:23.520><c> data</c><00:24:23.840><c> that</c><00:24:24.000><c> we</c><00:24:24.240><c> have</c><00:24:25.200><c> uh</c><00:24:25.360><c> there</c><00:24:25.600><c> are</c>
+
+00:24:25.750 --> 00:24:25.760 align:start position:0%
+based on data that we have uh there are
+ 
+
+00:24:25.760 --> 00:24:28.149 align:start position:0%
+based on data that we have uh there are
+certain<00:24:26.080><c> patterns</c><00:24:26.640><c> that</c><00:24:27.279><c> uh</c><00:24:27.520><c> that</c><00:24:27.840><c> work</c>
+
+00:24:28.149 --> 00:24:28.159 align:start position:0%
+certain patterns that uh that work
+ 
+
+00:24:28.159 --> 00:24:31.110 align:start position:0%
+certain patterns that uh that work
+better<00:24:28.480><c> than</c><00:24:28.720><c> the</c><00:24:28.880><c> others.</c><00:24:29.760><c> Uh</c><00:24:30.320><c> for</c><00:24:30.480><c> example,</c>
+
+00:24:31.110 --> 00:24:31.120 align:start position:0%
+better than the others. Uh for example,
+ 
+
+00:24:31.120 --> 00:24:32.630 align:start position:0%
+better than the others. Uh for example,
+graphs<00:24:31.520><c> are</c><00:24:31.679><c> becoming</c><00:24:32.080><c> more</c><00:24:32.240><c> and</c><00:24:32.480><c> more</c>
+
+00:24:32.630 --> 00:24:32.640 align:start position:0%
+graphs are becoming more and more
+ 
+
+00:24:32.640 --> 00:24:35.510 align:start position:0%
+graphs are becoming more and more
+important<00:24:33.520><c> uh</c><00:24:33.600><c> in</c><00:24:33.840><c> our</c><00:24:34.320><c> uh</c><00:24:34.400><c> in</c><00:24:34.640><c> our</c><00:24:34.880><c> designs</c>
+
+00:24:35.510 --> 00:24:35.520 align:start position:0%
+important uh in our uh in our designs
+ 
+
+00:24:35.520 --> 00:24:39.110 align:start position:0%
+important uh in our uh in our designs
+and<00:24:36.080><c> uh</c><00:24:36.559><c> you</c><00:24:36.720><c> know</c><00:24:36.880><c> the</c><00:24:37.039><c> part</c><00:24:37.200><c> of</c><00:24:37.360><c> it</c><00:24:37.919><c> is</c><00:24:38.480><c> uh</c><00:24:38.640><c> is</c>
+
+00:24:39.110 --> 00:24:39.120 align:start position:0%
+and uh you know the part of it is uh is
+ 
+
+00:24:39.120 --> 00:24:42.549 align:start position:0%
+and uh you know the part of it is uh is
+what<00:24:39.520><c> kind</c><00:24:39.679><c> of</c><00:24:40.640><c> uh</c><00:24:41.200><c> interactions</c><00:24:41.840><c> agents</c><00:24:42.320><c> can</c>
+
+00:24:42.549 --> 00:24:42.559 align:start position:0%
+what kind of uh interactions agents can
+ 
+
+00:24:42.559 --> 00:24:45.990 align:start position:0%
+what kind of uh interactions agents can
+have<00:24:42.720><c> with</c><00:24:42.960><c> each</c><00:24:43.200><c> other</c><00:24:43.520><c> and</c><00:24:44.080><c> uh</c><00:24:44.640><c> and</c><00:24:45.279><c> uh</c><00:24:45.600><c> what</c>
+
+00:24:45.990 --> 00:24:46.000 align:start position:0%
+have with each other and uh and uh what
+ 
+
+00:24:46.000 --> 00:24:48.549 align:start position:0%
+have with each other and uh and uh what
+level<00:24:46.240><c> of</c><00:24:46.799><c> uh</c><00:24:47.039><c> autonomy</c><00:24:47.679><c> we</c><00:24:47.919><c> want</c><00:24:48.000><c> to</c><00:24:48.159><c> give</c><00:24:48.400><c> to</c>
+
+00:24:48.549 --> 00:24:48.559 align:start position:0%
+level of uh autonomy we want to give to
+ 
+
+00:24:48.559 --> 00:24:53.110 align:start position:0%
+level of uh autonomy we want to give to
+each<00:24:49.279><c> u</c><00:24:49.760><c> agent.</c><00:24:50.640><c> Uh</c><00:24:50.960><c> we're</c><00:24:51.279><c> learning</c><00:24:51.600><c> that</c><00:24:52.320><c> uh</c>
+
+00:24:53.110 --> 00:24:53.120 align:start position:0%
+each u agent. Uh we're learning that uh
+ 
+
+00:24:53.120 --> 00:24:55.029 align:start position:0%
+each u agent. Uh we're learning that uh
+now<00:24:53.360><c> we've</c><00:24:53.600><c> experimented</c><00:24:54.320><c> with</c><00:24:54.720><c> uh</c><00:24:54.799><c> with</c>
+
+00:24:55.029 --> 00:24:55.039 align:start position:0%
+now we've experimented with uh with
+ 
+
+00:24:55.039 --> 00:24:56.669 align:start position:0%
+now we've experimented with uh with
+various
+
+00:24:56.669 --> 00:24:56.679 align:start position:0%
+various
+ 
+
+00:24:56.679 --> 00:25:00.630 align:start position:0%
+various
+uh<00:24:57.919><c> uh</c><00:24:58.480><c> uh</c><00:24:59.120><c> frameworks</c><00:24:59.679><c> for</c><00:25:00.000><c> building</c><00:25:00.240><c> multi-</c>
+
+00:25:00.630 --> 00:25:00.640 align:start position:0%
+uh uh uh frameworks for building multi-
+ 
+
+00:25:00.640 --> 00:25:04.710 align:start position:0%
+uh uh uh frameworks for building multi-
+aents<00:25:00.960><c> and</c><00:25:01.200><c> we're</c><00:25:01.520><c> coming</c><00:25:01.760><c> down</c><00:25:02.080><c> to</c><00:25:02.880><c> using</c><00:25:03.760><c> uh</c>
+
+00:25:04.710 --> 00:25:04.720 align:start position:0%
+aents and we're coming down to using uh
+ 
+
+00:25:04.720 --> 00:25:08.149 align:start position:0%
+aents and we're coming down to using uh
+uh<00:25:05.600><c> lang</c><00:25:05.919><c> graph</c><00:25:06.559><c> uh</c><00:25:06.720><c> for</c><00:25:07.039><c> building</c><00:25:07.679><c> uh</c><00:25:07.840><c> some</c><00:25:08.080><c> of</c>
+
+00:25:08.149 --> 00:25:08.159 align:start position:0%
+uh lang graph uh for building uh some of
+ 
+
+00:25:08.159 --> 00:25:10.789 align:start position:0%
+uh lang graph uh for building uh some of
+the<00:25:08.320><c> agent</c><00:25:08.960><c> workflows</c><00:25:09.440><c> and</c><00:25:09.679><c> again</c><00:25:10.080><c> having</c><00:25:10.640><c> uh</c>
+
+00:25:10.789 --> 00:25:10.799 align:start position:0%
+the agent workflows and again having uh
+ 
+
+00:25:10.799 --> 00:25:13.750 align:start position:0%
+the agent workflows and again having uh
+a<00:25:11.120><c> manager</c><00:25:11.520><c> on</c><00:25:11.679><c> top</c><00:25:11.840><c> of</c><00:25:12.000><c> that</c><00:25:12.320><c> in</c><00:25:12.559><c> order</c><00:25:12.799><c> to</c>
+
+00:25:13.750 --> 00:25:13.760 align:start position:0%
+a manager on top of that in order to
+ 
+
+00:25:13.760 --> 00:25:17.230 align:start position:0%
+a manager on top of that in order to
+manage<00:25:14.080><c> these</c><00:25:14.880><c> various</c><00:25:16.000><c> uh</c><00:25:16.640><c> line</c><00:25:16.960><c> graph</c>
+
+00:25:17.230 --> 00:25:17.240 align:start position:0%
+manage these various uh line graph
+ 
+
+00:25:17.240 --> 00:25:20.230 align:start position:0%
+manage these various uh line graph
+workflows.<00:25:18.480><c> uh</c><00:25:18.640><c> and</c><00:25:18.880><c> then</c><00:25:19.360><c> uh</c><00:25:19.520><c> also</c><00:25:19.919><c> using</c>
+
+00:25:20.230 --> 00:25:20.240 align:start position:0%
+workflows. uh and then uh also using
+ 
+
+00:25:20.240 --> 00:25:23.430 align:start position:0%
+workflows. uh and then uh also using
+slide<00:25:21.039><c> uh</c><00:25:21.520><c> to</c><00:25:21.760><c> basically</c><00:25:22.720><c> handle</c><00:25:23.120><c> some</c><00:25:23.279><c> of</c>
+
+00:25:23.430 --> 00:25:23.440 align:start position:0%
+slide uh to basically handle some of
+ 
+
+00:25:23.440 --> 00:25:28.390 align:start position:0%
+slide uh to basically handle some of
+these<00:25:23.919><c> uh</c><00:25:24.559><c> higher</c><00:25:24.880><c> level</c><00:25:26.080><c> uh</c><00:25:26.600><c> management</c><00:25:27.600><c> and</c>
+
+00:25:28.390 --> 00:25:28.400 align:start position:0%
+these uh higher level uh management and
+ 
+
+00:25:28.400 --> 00:25:34.470 align:start position:0%
+these uh higher level uh management and
+uh<00:25:29.360><c> and</c><00:25:30.080><c> and</c><00:25:30.640><c> and</c><00:25:31.200><c> using</c><00:25:32.000><c> uh</c><00:25:33.120><c> uh</c><00:25:33.360><c> graphs</c><00:25:33.919><c> to</c>
+
+00:25:34.470 --> 00:25:34.480 align:start position:0%
+uh and and and using uh uh graphs to
+ 
+
+00:25:34.480 --> 00:25:37.669 align:start position:0%
+uh and and and using uh uh graphs to
+capture<00:25:35.679><c> uh</c><00:25:35.919><c> as</c><00:25:36.159><c> part</c><00:25:36.480><c> as</c><00:25:36.960><c> as</c><00:25:37.279><c> much</c><00:25:37.360><c> of</c><00:25:37.520><c> the</c>
+
+00:25:37.669 --> 00:25:37.679 align:start position:0%
+capture uh as part as as much of the
+ 
+
+00:25:37.679 --> 00:25:40.870 align:start position:0%
+capture uh as part as as much of the
+memory<00:25:38.080><c> as</c><00:25:38.320><c> possible</c><00:25:39.200><c> in</c><00:25:39.440><c> order</c><00:25:39.679><c> to</c><00:25:40.559><c> make</c><00:25:40.720><c> sure</c>
+
+00:25:40.870 --> 00:25:40.880 align:start position:0%
+memory as possible in order to make sure
+ 
+
+00:25:40.880 --> 00:25:43.590 align:start position:0%
+memory as possible in order to make sure
+that<00:25:41.039><c> the</c><00:25:41.279><c> AI</c><00:25:41.760><c> always</c><00:25:42.159><c> has</c><00:25:42.799><c> uh</c><00:25:43.039><c> the</c><00:25:43.279><c> right</c>
+
+00:25:43.590 --> 00:25:43.600 align:start position:0%
+that the AI always has uh the right
+ 
+
+00:25:43.600 --> 00:25:47.190 align:start position:0%
+that the AI always has uh the right
+context<00:25:44.640><c> uh</c><00:25:45.120><c> as</c><00:25:45.840><c> uh</c><00:25:46.080><c> you</c><00:25:46.240><c> know</c><00:25:46.480><c> as</c><00:25:46.640><c> as</c><00:25:46.960><c> per</c>
+
+00:25:47.190 --> 00:25:47.200 align:start position:0%
+context uh as uh you know as as per
+ 
+
+00:25:47.200 --> 00:25:48.870 align:start position:0%
+context uh as uh you know as as per
+task.
+
+00:25:48.870 --> 00:25:48.880 align:start position:0%
+task.
+ 
+
+00:25:48.880 --> 00:25:50.870 align:start position:0%
+task.
+And<00:25:49.200><c> yes</c><00:25:49.440><c> and</c><00:25:49.679><c> we</c><00:25:49.840><c> are</c><00:25:50.000><c> just</c><00:25:50.240><c> getting</c><00:25:50.480><c> started</c>
+
+00:25:50.870 --> 00:25:50.880 align:start position:0%
+And yes and we are just getting started
+ 
+
+00:25:50.880 --> 00:25:54.390 align:start position:0%
+And yes and we are just getting started
+and<00:25:51.039><c> we</c><00:25:51.279><c> believe</c><00:25:51.520><c> this</c><00:25:51.760><c> is</c><00:25:52.240><c> uh</c><00:25:52.960><c> this</c><00:25:53.200><c> is</c><00:25:53.360><c> how</c><00:25:53.919><c> AI</c>
+
+00:25:54.390 --> 00:25:54.400 align:start position:0%
+and we believe this is uh this is how AI
+ 
+
+00:25:54.400 --> 00:25:57.830 align:start position:0%
+and we believe this is uh this is how AI
+will<00:25:54.960><c> uh</c><00:25:55.120><c> design</c><00:25:55.520><c> software</c><00:25:56.000><c> and</c><00:25:56.480><c> uh</c><00:25:57.120><c> if</c><00:25:57.600><c> uh</c>
+
+00:25:57.830 --> 00:25:57.840 align:start position:0%
+will uh design software and uh if uh
+ 
+
+00:25:57.840 --> 00:25:59.669 align:start position:0%
+will uh design software and uh if uh
+there<00:25:58.000><c> is</c><00:25:58.159><c> any</c><00:25:58.480><c> questions</c><00:25:59.039><c> please</c><00:25:59.279><c> feel</c><00:25:59.520><c> free</c>
+
+00:25:59.669 --> 00:25:59.679 align:start position:0%
+there is any questions please feel free
+ 
+
+00:25:59.679 --> 00:26:02.909 align:start position:0%
+there is any questions please feel free
+to<00:25:59.840><c> reach</c><00:26:00.080><c> me</c><00:26:00.799><c> uh</c><00:26:01.279><c> at</c>
+
+00:26:02.909 --> 00:26:02.919 align:start position:0%
+to reach me uh at
+ 
+
+00:26:02.919 --> 00:26:06.880 align:start position:0%
+to reach me uh at
+ammonato.te.<00:26:04.000><c> Thank</c><00:26:04.240><c> you</c><00:26:04.320><c> for</c><00:26:04.480><c> attention.</c>
+

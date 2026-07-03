@@ -1,0 +1,2672 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.399 --> 00:00:05.110 align:start position:0%
+ 
+Hi<00:00:02.639><c> everybody,</c><00:00:03.439><c> my</c><00:00:03.600><c> name</c><00:00:03.760><c> is</c><00:00:03.919><c> Brian</c><00:00:04.319><c> John</c><00:00:04.960><c> and</c>
+
+00:00:05.110 --> 00:00:05.120 align:start position:0%
+Hi everybody, my name is Brian John and
+ 
+
+00:00:05.120 --> 00:00:07.190 align:start position:0%
+Hi everybody, my name is Brian John and
+I'm<00:00:05.359><c> excited</c><00:00:05.680><c> today</c><00:00:05.920><c> to</c><00:00:06.240><c> talk</c><00:00:06.400><c> to</c><00:00:06.560><c> you</c><00:00:06.879><c> about</c>
+
+00:00:07.190 --> 00:00:07.200 align:start position:0%
+I'm excited today to talk to you about
+ 
+
+00:00:07.200 --> 00:00:10.470 align:start position:0%
+I'm excited today to talk to you about
+hacking<00:00:07.600><c> sub</c><00:00:07.839><c> agents</c><00:00:08.240><c> in</c><00:00:08.480><c> the</c><00:00:08.639><c> codeex</c><00:00:09.040><c> CLI.</c><00:00:10.240><c> So</c>
+
+00:00:10.470 --> 00:00:10.480 align:start position:0%
+hacking sub agents in the codeex CLI. So
+ 
+
+00:00:10.480 --> 00:00:13.509 align:start position:0%
+hacking sub agents in the codeex CLI. So
+who<00:00:10.639><c> am</c><00:00:10.800><c> I?</c><00:00:12.160><c> I'm</c><00:00:12.400><c> a</c><00:00:12.559><c> principal</c><00:00:12.880><c> fullstack</c>
+
+00:00:13.509 --> 00:00:13.519 align:start position:0%
+who am I? I'm a principal fullstack
+ 
+
+00:00:13.519 --> 00:00:16.550 align:start position:0%
+who am I? I'm a principal fullstack
+engineer.<00:00:14.639><c> My</c><00:00:14.960><c> current</c><00:00:15.200><c> focus</c><00:00:15.599><c> at</c><00:00:15.839><c> work</c><00:00:16.000><c> is</c><00:00:16.240><c> AI</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+engineer. My current focus at work is AI
+ 
+
+00:00:16.560 --> 00:00:19.670 align:start position:0%
+engineer. My current focus at work is AI
+enablement<00:00:17.039><c> for</c><00:00:17.199><c> R&amp;D.</c><00:00:18.480><c> So</c><00:00:18.720><c> think</c><00:00:19.119><c> helping</c><00:00:19.439><c> our</c>
+
+00:00:19.670 --> 00:00:19.680 align:start position:0%
+enablement for R&amp;D. So think helping our
+ 
+
+00:00:19.680 --> 00:00:22.150 align:start position:0%
+enablement for R&amp;D. So think helping our
+R&amp;D<00:00:20.160><c> team</c><00:00:20.400><c> members</c><00:00:21.359><c> get</c><00:00:21.520><c> their</c><00:00:21.760><c> work</c><00:00:21.920><c> done</c>
+
+00:00:22.150 --> 00:00:22.160 align:start position:0%
+R&amp;D team members get their work done
+ 
+
+00:00:22.160 --> 00:00:25.349 align:start position:0%
+R&amp;D team members get their work done
+faster<00:00:22.560><c> and</c><00:00:22.800><c> with</c><00:00:22.960><c> higher</c><00:00:23.279><c> quality</c><00:00:23.760><c> using</c><00:00:24.160><c> AI.</c>
+
+00:00:25.349 --> 00:00:25.359 align:start position:0%
+faster and with higher quality using AI.
+ 
+
+00:00:25.359 --> 00:00:27.349 align:start position:0%
+faster and with higher quality using AI.
+The<00:00:25.600><c> company</c><00:00:25.840><c> I</c><00:00:26.080><c> work</c><00:00:26.160><c> for</c><00:00:26.400><c> is</c><00:00:26.560><c> BetterUp.</c><00:00:27.199><c> It's</c>
+
+00:00:27.349 --> 00:00:27.359 align:start position:0%
+The company I work for is BetterUp. It's
+ 
+
+00:00:27.359 --> 00:00:29.429 align:start position:0%
+The company I work for is BetterUp. It's
+an<00:00:27.519><c> awesome</c><00:00:27.840><c> place</c><00:00:28.080><c> to</c><00:00:28.240><c> work.</c><00:00:28.960><c> We've</c><00:00:29.279><c> been</c>
+
+00:00:29.429 --> 00:00:29.439 align:start position:0%
+an awesome place to work. We've been
+ 
+
+00:00:29.439 --> 00:00:31.750 align:start position:0%
+an awesome place to work. We've been
+using<00:00:29.679><c> AI</c><00:00:30.080><c> since</c><00:00:30.240><c> the</c><00:00:30.480><c> very</c><00:00:30.720><c> beginning.</c><00:00:31.519><c> I've</c>
+
+00:00:31.750 --> 00:00:31.760 align:start position:0%
+using AI since the very beginning. I've
+ 
+
+00:00:31.760 --> 00:00:33.270 align:start position:0%
+using AI since the very beginning. I've
+been<00:00:31.840><c> there</c><00:00:32.079><c> for</c><00:00:32.320><c> over</c><00:00:32.559><c> eight</c><00:00:32.800><c> years</c><00:00:33.040><c> now,</c>
+
+00:00:33.270 --> 00:00:33.280 align:start position:0%
+been there for over eight years now,
+ 
+
+00:00:33.280 --> 00:00:34.950 align:start position:0%
+been there for over eight years now,
+which<00:00:33.440><c> is</c><00:00:33.600><c> longer</c><00:00:33.840><c> than</c><00:00:34.079><c> any</c><00:00:34.320><c> place</c><00:00:34.559><c> I've</c><00:00:34.800><c> ever</c>
+
+00:00:34.950 --> 00:00:34.960 align:start position:0%
+which is longer than any place I've ever
+ 
+
+00:00:34.960 --> 00:00:37.590 align:start position:0%
+which is longer than any place I've ever
+worked<00:00:35.200><c> before.</c><00:00:36.320><c> And</c><00:00:36.559><c> our</c><00:00:36.800><c> mission</c><00:00:37.200><c> is</c><00:00:37.440><c> to</c>
+
+00:00:37.590 --> 00:00:37.600 align:start position:0%
+worked before. And our mission is to
+ 
+
+00:00:37.600 --> 00:00:39.430 align:start position:0%
+worked before. And our mission is to
+help<00:00:37.840><c> people</c><00:00:38.079><c> everywhere</c><00:00:38.800><c> live</c><00:00:39.040><c> their</c><00:00:39.280><c> lives</c>
+
+00:00:39.430 --> 00:00:39.440 align:start position:0%
+help people everywhere live their lives
+ 
+
+00:00:39.440 --> 00:00:41.030 align:start position:0%
+help people everywhere live their lives
+with<00:00:39.600><c> better</c><00:00:39.920><c> purpose,</c><00:00:40.399><c> clarity,</c><00:00:40.800><c> and</c>
+
+00:00:41.030 --> 00:00:41.040 align:start position:0%
+with better purpose, clarity, and
+ 
+
+00:00:41.040 --> 00:00:43.270 align:start position:0%
+with better purpose, clarity, and
+passion.<00:00:42.079><c> If</c><00:00:42.320><c> that</c><00:00:42.480><c> sounds</c><00:00:42.800><c> interesting</c><00:00:43.040><c> to</c>
+
+00:00:43.270 --> 00:00:43.280 align:start position:0%
+passion. If that sounds interesting to
+ 
+
+00:00:43.280 --> 00:00:45.270 align:start position:0%
+passion. If that sounds interesting to
+you,<00:00:43.840><c> you</c><00:00:44.000><c> work</c><00:00:44.320><c> want</c><00:00:44.480><c> to</c><00:00:44.640><c> work</c><00:00:44.719><c> on</c><00:00:44.960><c> cool</c><00:00:45.120><c> stuff</c>
+
+00:00:45.270 --> 00:00:45.280 align:start position:0%
+you, you work want to work on cool stuff
+ 
+
+00:00:45.280 --> 00:00:47.190 align:start position:0%
+you, you work want to work on cool stuff
+with<00:00:45.520><c> LLMs,</c>
+
+00:00:47.190 --> 00:00:47.200 align:start position:0%
+with LLMs,
+ 
+
+00:00:47.200 --> 00:00:49.430 align:start position:0%
+with LLMs,
+please<00:00:47.440><c> hit</c><00:00:47.680><c> me</c><00:00:47.760><c> up.</c><00:00:48.480><c> I'll</c><00:00:48.719><c> add</c><00:00:48.879><c> my</c><00:00:49.120><c> contact</c>
+
+00:00:49.430 --> 00:00:49.440 align:start position:0%
+please hit me up. I'll add my contact
+ 
+
+00:00:49.440 --> 00:00:52.069 align:start position:0%
+please hit me up. I'll add my contact
+info<00:00:49.840><c> in</c><00:00:50.079><c> the</c><00:00:50.239><c> last</c><00:00:50.480><c> slide.</c>
+
+00:00:52.069 --> 00:00:52.079 align:start position:0%
+info in the last slide.
+ 
+
+00:00:52.079 --> 00:00:55.270 align:start position:0%
+info in the last slide.
+So,<00:00:52.320><c> why</c><00:00:52.480><c> would</c><00:00:52.640><c> we</c><00:00:52.800><c> want</c><00:00:52.960><c> to</c><00:00:53.280><c> hack</c><00:00:53.760><c> sub</c><00:00:54.079><c> agents</c>
+
+00:00:55.270 --> 00:00:55.280 align:start position:0%
+So, why would we want to hack sub agents
+ 
+
+00:00:55.280 --> 00:00:59.430 align:start position:0%
+So, why would we want to hack sub agents
+into<00:00:55.600><c> Codeex</c><00:00:56.000><c> CLI?</c>
+
+00:00:59.430 --> 00:00:59.440 align:start position:0%
+ 
+ 
+
+00:00:59.440 --> 00:01:01.270 align:start position:0%
+ 
+Well,<00:00:59.680><c> I've</c><00:00:59.840><c> been</c><00:00:59.920><c> using</c><00:01:00.239><c> Clog</c><00:01:00.640><c> Code</c><00:01:00.879><c> as</c><00:01:01.120><c> my</c>
+
+00:01:01.270 --> 00:01:01.280 align:start position:0%
+Well, I've been using Clog Code as my
+ 
+
+00:01:01.280 --> 00:01:04.869 align:start position:0%
+Well, I've been using Clog Code as my
+daily<00:01:01.520><c> driver</c><00:01:02.239><c> since</c><00:01:02.480><c> the</c><00:01:02.719><c> very</c><00:01:02.960><c> beginning.</c>
+
+00:01:04.869 --> 00:01:04.879 align:start position:0%
+daily driver since the very beginning.
+ 
+
+00:01:04.879 --> 00:01:06.310 align:start position:0%
+daily driver since the very beginning.
+It's<00:01:05.040><c> a</c><00:01:05.280><c> great</c><00:01:05.360><c> tool.</c><00:01:05.680><c> It's</c><00:01:05.840><c> got</c><00:01:06.000><c> tons</c><00:01:06.240><c> of</c>
+
+00:01:06.310 --> 00:01:06.320 align:start position:0%
+It's a great tool. It's got tons of
+ 
+
+00:01:06.320 --> 00:01:08.070 align:start position:0%
+It's a great tool. It's got tons of
+bells<00:01:06.640><c> and</c><00:01:06.799><c> whistles.</c><00:01:07.439><c> It's</c><00:01:07.680><c> got</c><00:01:07.840><c> great</c>
+
+00:01:08.070 --> 00:01:08.080 align:start position:0%
+bells and whistles. It's got great
+ 
+
+00:01:08.080 --> 00:01:09.830 align:start position:0%
+bells and whistles. It's got great
+models,
+
+00:01:09.830 --> 00:01:09.840 align:start position:0%
+models,
+ 
+
+00:01:09.840 --> 00:01:12.870 align:start position:0%
+models,
+and<00:01:10.000><c> I</c><00:01:10.240><c> use</c><00:01:10.400><c> sub</c><00:01:10.640><c> agents</c><00:01:11.040><c> all</c><00:01:11.280><c> the</c><00:01:11.439><c> time.</c><00:01:12.560><c> But</c><00:01:12.720><c> I</c>
+
+00:01:12.870 --> 00:01:12.880 align:start position:0%
+and I use sub agents all the time. But I
+ 
+
+00:01:12.880 --> 00:01:14.550 align:start position:0%
+and I use sub agents all the time. But I
+don't<00:01:12.960><c> want</c><00:01:13.119><c> to</c><00:01:13.200><c> be</c><00:01:13.280><c> locked</c><00:01:13.600><c> in</c><00:01:13.760><c> to</c><00:01:14.000><c> one</c><00:01:14.240><c> tool,</c>
+
+00:01:14.550 --> 00:01:14.560 align:start position:0%
+don't want to be locked in to one tool,
+ 
+
+00:01:14.560 --> 00:01:16.550 align:start position:0%
+don't want to be locked in to one tool,
+and<00:01:14.799><c> I</c><00:01:14.960><c> really</c><00:01:15.200><c> don't</c><00:01:15.360><c> want</c><00:01:15.520><c> to</c><00:01:15.600><c> be</c><00:01:15.760><c> locked</c><00:01:16.000><c> in</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+and I really don't want to be locked in
+ 
+
+00:01:16.560 --> 00:01:19.429 align:start position:0%
+and I really don't want to be locked in
+to<00:01:16.799><c> one</c><00:01:17.040><c> model</c><00:01:17.360><c> family.</c>
+
+00:01:19.429 --> 00:01:19.439 align:start position:0%
+to one model family.
+ 
+
+00:01:19.439 --> 00:01:21.990 align:start position:0%
+to one model family.
+I<00:01:19.680><c> wanted</c><00:01:19.920><c> to</c><00:01:20.080><c> be</c><00:01:20.159><c> able</c><00:01:20.320><c> to</c><00:01:20.479><c> use</c><00:01:20.960><c> other</c><00:01:21.280><c> tools,</c>
+
+00:01:21.990 --> 00:01:22.000 align:start position:0%
+I wanted to be able to use other tools,
+ 
+
+00:01:22.000 --> 00:01:24.710 align:start position:0%
+I wanted to be able to use other tools,
+particularly<00:01:22.479><c> codec</c><00:01:22.960><c> CLI,</c><00:01:23.439><c> because</c><00:01:24.400><c> the</c>
+
+00:01:24.710 --> 00:01:24.720 align:start position:0%
+particularly codec CLI, because the
+ 
+
+00:01:24.720 --> 00:01:27.510 align:start position:0%
+particularly codec CLI, because the
+models<00:01:25.040><c> look</c><00:01:25.280><c> really</c><00:01:25.600><c> good</c><00:01:26.880><c> and</c><00:01:27.119><c> I</c><00:01:27.280><c> want</c><00:01:27.360><c> to</c><00:01:27.439><c> be</c>
+
+00:01:27.510 --> 00:01:27.520 align:start position:0%
+models look really good and I want to be
+ 
+
+00:01:27.520 --> 00:01:29.190 align:start position:0%
+models look really good and I want to be
+able<00:01:27.680><c> to</c><00:01:27.759><c> still</c><00:01:27.920><c> use</c><00:01:28.080><c> sub</c><00:01:28.320><c> aents</c><00:01:28.640><c> with</c><00:01:28.799><c> them</c><00:01:29.040><c> so</c>
+
+00:01:29.190 --> 00:01:29.200 align:start position:0%
+able to still use sub aents with them so
+ 
+
+00:01:29.200 --> 00:01:31.830 align:start position:0%
+able to still use sub aents with them so
+that<00:01:29.360><c> I</c><00:01:29.520><c> can</c><00:01:29.680><c> use</c><00:01:29.840><c> my</c><00:01:30.080><c> workflows</c>
+
+00:01:31.830 --> 00:01:31.840 align:start position:0%
+that I can use my workflows
+ 
+
+00:01:31.840 --> 00:01:35.109 align:start position:0%
+that I can use my workflows
+with<00:01:32.479><c> other</c><00:01:32.720><c> tools.</c>
+
+00:01:35.109 --> 00:01:35.119 align:start position:0%
+with other tools.
+ 
+
+00:01:35.119 --> 00:01:37.990 align:start position:0%
+with other tools.
+Context<00:01:35.600><c> management.</c><00:01:36.640><c> So,</c><00:01:36.880><c> as</c><00:01:37.040><c> you</c><00:01:37.200><c> all</c><00:01:37.360><c> know,</c>
+
+00:01:37.990 --> 00:01:38.000 align:start position:0%
+Context management. So, as you all know,
+ 
+
+00:01:38.000 --> 00:01:40.469 align:start position:0%
+Context management. So, as you all know,
+sub<00:01:38.320><c> agents</c><00:01:38.720><c> are</c><00:01:38.960><c> amazing</c><00:01:39.759><c> for</c><00:01:40.000><c> context</c>
+
+00:01:40.469 --> 00:01:40.479 align:start position:0%
+sub agents are amazing for context
+ 
+
+00:01:40.479 --> 00:01:43.749 align:start position:0%
+sub agents are amazing for context
+management.<00:01:41.840><c> The</c><00:01:42.079><c> main</c><00:01:42.320><c> agent</c><00:01:43.119><c> can</c><00:01:43.360><c> give</c><00:01:43.520><c> a</c>
+
+00:01:43.749 --> 00:01:43.759 align:start position:0%
+management. The main agent can give a
+ 
+
+00:01:43.759 --> 00:01:46.069 align:start position:0%
+management. The main agent can give a
+problem<00:01:44.240><c> to</c><00:01:44.479><c> a</c><00:01:44.640><c> sub</c><00:01:44.880><c> agent.</c><00:01:45.280><c> It</c><00:01:45.439><c> can</c><00:01:45.600><c> go</c><00:01:45.759><c> off,</c>
+
+00:01:46.069 --> 00:01:46.079 align:start position:0%
+problem to a sub agent. It can go off,
+ 
+
+00:01:46.079 --> 00:01:49.109 align:start position:0%
+problem to a sub agent. It can go off,
+do<00:01:46.240><c> its</c><00:01:46.479><c> work,</c><00:01:47.119><c> use</c><00:01:47.280><c> its</c><00:01:47.520><c> tokens,</c><00:01:48.560><c> and</c><00:01:48.799><c> pass</c>
+
+00:01:49.109 --> 00:01:49.119 align:start position:0%
+do its work, use its tokens, and pass
+ 
+
+00:01:49.119 --> 00:01:51.350 align:start position:0%
+do its work, use its tokens, and pass
+just<00:01:49.360><c> the</c><00:01:49.600><c> answer</c><00:01:50.000><c> back</c><00:01:50.240><c> to</c><00:01:50.320><c> the</c><00:01:50.479><c> main</c><00:01:50.720><c> agent.</c>
+
+00:01:51.350 --> 00:01:51.360 align:start position:0%
+just the answer back to the main agent.
+ 
+
+00:01:51.360 --> 00:01:53.510 align:start position:0%
+just the answer back to the main agent.
+And<00:01:51.600><c> all</c><00:01:51.840><c> that</c><00:01:52.079><c> context</c><00:01:52.640><c> got</c><00:01:52.799><c> used</c><00:01:53.040><c> up</c><00:01:53.280><c> by</c><00:01:53.360><c> the</c>
+
+00:01:53.510 --> 00:01:53.520 align:start position:0%
+And all that context got used up by the
+ 
+
+00:01:53.520 --> 00:01:55.590 align:start position:0%
+And all that context got used up by the
+sub<00:01:53.759><c> agent</c><00:01:54.399><c> doesn't</c><00:01:54.720><c> end</c><00:01:54.880><c> up</c><00:01:55.040><c> in</c><00:01:55.200><c> your</c><00:01:55.360><c> main</c>
+
+00:01:55.590 --> 00:01:55.600 align:start position:0%
+sub agent doesn't end up in your main
+ 
+
+00:01:55.600 --> 00:02:00.870 align:start position:0%
+sub agent doesn't end up in your main
+context<00:01:56.000><c> window,</c><00:01:57.119><c> which</c><00:01:57.280><c> is</c><00:01:57.439><c> incredible.</c>
+
+00:02:00.870 --> 00:02:00.880 align:start position:0%
+ 
+ 
+
+00:02:00.880 --> 00:02:02.069 align:start position:0%
+ 
+And<00:02:01.040><c> I</c><00:02:01.200><c> don't</c><00:02:01.280><c> think</c><00:02:01.360><c> I</c><00:02:01.439><c> have</c><00:02:01.520><c> to</c><00:02:01.600><c> say</c><00:02:01.759><c> any</c><00:02:01.920><c> more</c>
+
+00:02:02.069 --> 00:02:02.079 align:start position:0%
+And I don't think I have to say any more
+ 
+
+00:02:02.079 --> 00:02:03.510 align:start position:0%
+And I don't think I have to say any more
+about<00:02:02.240><c> this</c><00:02:02.399><c> one.</c><00:02:02.640><c> We've</c><00:02:02.880><c> all</c><00:02:02.960><c> seen</c><00:02:03.119><c> this</c><00:02:03.280><c> way</c>
+
+00:02:03.510 --> 00:02:03.520 align:start position:0%
+about this one. We've all seen this way
+ 
+
+00:02:03.520 --> 00:02:06.709 align:start position:0%
+about this one. We've all seen this way
+too<00:02:03.680><c> many</c><00:02:03.920><c> times</c><00:02:04.320><c> and</c><00:02:04.560><c> it</c><00:02:04.719><c> gets</c><00:02:04.880><c> annoying.</c>
+
+00:02:06.709 --> 00:02:06.719 align:start position:0%
+too many times and it gets annoying.
+ 
+
+00:02:06.719 --> 00:02:08.389 align:start position:0%
+too many times and it gets annoying.
+And<00:02:06.880><c> I</c><00:02:07.040><c> have</c><00:02:07.200><c> to</c><00:02:07.280><c> give</c><00:02:07.520><c> credit</c><00:02:07.840><c> where</c><00:02:08.160><c> credit</c>
+
+00:02:08.389 --> 00:02:08.399 align:start position:0%
+And I have to give credit where credit
+ 
+
+00:02:08.399 --> 00:02:12.550 align:start position:0%
+And I have to give credit where credit
+is<00:02:08.640><c> due.</c><00:02:09.599><c> This</c><00:02:09.920><c> talk</c><00:02:10.399><c> by</c><00:02:10.640><c> Dex</c><00:02:10.959><c> Hory</c><00:02:12.239><c> changed</c>
+
+00:02:12.550 --> 00:02:12.560 align:start position:0%
+is due. This talk by Dex Hory changed
+ 
+
+00:02:12.560 --> 00:02:15.910 align:start position:0%
+is due. This talk by Dex Hory changed
+the<00:02:12.800><c> way</c><00:02:12.879><c> that</c><00:02:13.040><c> I</c><00:02:13.280><c> work</c><00:02:13.520><c> with</c><00:02:13.760><c> AI.</c>
+
+00:02:15.910 --> 00:02:15.920 align:start position:0%
+the way that I work with AI.
+ 
+
+00:02:15.920 --> 00:02:18.390 align:start position:0%
+the way that I work with AI.
+The<00:02:16.160><c> workflows</c><00:02:16.640><c> he</c><00:02:16.879><c> proposes</c><00:02:17.280><c> here</c><00:02:18.000><c> I</c><00:02:18.239><c> found</c>
+
+00:02:18.390 --> 00:02:18.400 align:start position:0%
+The workflows he proposes here I found
+ 
+
+00:02:18.400 --> 00:02:22.070 align:start position:0%
+The workflows he proposes here I found
+to<00:02:18.640><c> be</c><00:02:19.760><c> really</c><00:02:20.080><c> effective</c><00:02:21.440><c> especially</c><00:02:21.760><c> in</c>
+
+00:02:22.070 --> 00:02:22.080 align:start position:0%
+to be really effective especially in
+ 
+
+00:02:22.080 --> 00:02:25.030 align:start position:0%
+to be really effective especially in
+working<00:02:22.400><c> with</c><00:02:22.720><c> large</c><00:02:23.120><c> code</c><00:02:23.360><c> bases.</c><00:02:24.720><c> I'd</c>
+
+00:02:25.030 --> 00:02:25.040 align:start position:0%
+working with large code bases. I'd
+ 
+
+00:02:25.040 --> 00:02:27.110 align:start position:0%
+working with large code bases. I'd
+recommend<00:02:25.280><c> you</c><00:02:25.520><c> check</c><00:02:25.599><c> out</c><00:02:25.840><c> this</c><00:02:26.000><c> talk.</c><00:02:26.800><c> He's</c>
+
+00:02:27.110 --> 00:02:27.120 align:start position:0%
+recommend you check out this talk. He's
+ 
+
+00:02:27.120 --> 00:02:29.190 align:start position:0%
+recommend you check out this talk. He's
+also<00:02:27.360><c> talking</c><00:02:27.680><c> at</c><00:02:27.920><c> AI</c><00:02:28.239><c> engineer</c><00:02:28.720><c> code</c><00:02:28.959><c> this</c>
+
+00:02:29.190 --> 00:02:29.200 align:start position:0%
+also talking at AI engineer code this
+ 
+
+00:02:29.200 --> 00:02:31.190 align:start position:0%
+also talking at AI engineer code this
+year<00:02:29.920><c> and</c><00:02:30.160><c> I</c><00:02:30.319><c> recommend</c><00:02:30.560><c> you</c><00:02:30.720><c> check</c><00:02:30.879><c> out</c><00:02:30.959><c> that</c>
+
+00:02:31.190 --> 00:02:31.200 align:start position:0%
+year and I recommend you check out that
+ 
+
+00:02:31.200 --> 00:02:32.390 align:start position:0%
+year and I recommend you check out that
+one<00:02:31.360><c> too</c><00:02:31.520><c> because</c><00:02:31.680><c> I'm</c><00:02:31.920><c> sure</c><00:02:32.000><c> it's</c><00:02:32.239><c> going</c><00:02:32.319><c> to</c>
+
+00:02:32.390 --> 00:02:32.400 align:start position:0%
+one too because I'm sure it's going to
+ 
+
+00:02:32.400 --> 00:02:36.150 align:start position:0%
+one too because I'm sure it's going to
+be<00:02:32.560><c> great.</c>
+
+00:02:36.150 --> 00:02:36.160 align:start position:0%
+ 
+ 
+
+00:02:36.160 --> 00:02:40.229 align:start position:0%
+ 
+All right,<00:02:37.280><c> so</c><00:02:37.599><c> let's</c><00:02:37.840><c> talk</c><00:02:38.000><c> about</c><00:02:38.239><c> design.</c>
+
+00:02:40.229 --> 00:02:40.239 align:start position:0%
+All right, so let's talk about design.
+ 
+
+00:02:40.239 --> 00:02:42.550 align:start position:0%
+All right, so let's talk about design.
+At<00:02:40.480><c> the</c><00:02:40.640><c> end</c><00:02:40.720><c> of</c><00:02:40.800><c> the</c><00:02:40.959><c> day,</c><00:02:41.519><c> a</c><00:02:41.680><c> sub</c><00:02:41.920><c> aent</c><00:02:42.319><c> is</c>
+
+00:02:42.550 --> 00:02:42.560 align:start position:0%
+At the end of the day, a sub aent is
+ 
+
+00:02:42.560 --> 00:02:43.990 align:start position:0%
+At the end of the day, a sub aent is
+really<00:02:42.800><c> simple.</c><00:02:43.360><c> It's</c><00:02:43.599><c> just</c><00:02:43.760><c> another</c>
+
+00:02:43.990 --> 00:02:44.000 align:start position:0%
+really simple. It's just another
+ 
+
+00:02:44.000 --> 00:02:46.390 align:start position:0%
+really simple. It's just another
+instance<00:02:44.319><c> of</c><00:02:44.400><c> the</c><00:02:44.560><c> main</c><00:02:44.800><c> agent.</c><00:02:45.920><c> So</c><00:02:46.160><c> our</c>
+
+00:02:46.390 --> 00:02:46.400 align:start position:0%
+instance of the main agent. So our
+ 
+
+00:02:46.400 --> 00:02:49.350 align:start position:0%
+instance of the main agent. So our
+design<00:02:46.959><c> can</c><00:02:47.120><c> also</c><00:02:47.440><c> be</c><00:02:47.599><c> really</c><00:02:47.840><c> simple.</c>
+
+00:02:49.350 --> 00:02:49.360 align:start position:0%
+design can also be really simple.
+ 
+
+00:02:49.360 --> 00:02:50.630 align:start position:0%
+design can also be really simple.
+In<00:02:49.519><c> this</c><00:02:49.680><c> case,</c><00:02:49.920><c> we're</c><00:02:50.160><c> going</c><00:02:50.160><c> to</c><00:02:50.319><c> have</c><00:02:50.400><c> our</c>
+
+00:02:50.630 --> 00:02:50.640 align:start position:0%
+In this case, we're going to have our
+ 
+
+00:02:50.640 --> 00:02:52.869 align:start position:0%
+In this case, we're going to have our
+parent<00:02:50.959><c> codec</c><00:02:51.360><c> session.</c>
+
+00:02:52.869 --> 00:02:52.879 align:start position:0%
+parent codec session.
+ 
+
+00:02:52.879 --> 00:02:54.710 align:start position:0%
+parent codec session.
+We're<00:02:53.120><c> going</c><00:02:53.200><c> to</c><00:02:53.280><c> have</c><00:02:53.360><c> it</c><00:02:53.680><c> run</c><00:02:53.840><c> a</c><00:02:54.080><c> script.</c>
+
+00:02:54.710 --> 00:02:54.720 align:start position:0%
+We're going to have it run a script.
+ 
+
+00:02:54.720 --> 00:02:56.790 align:start position:0%
+We're going to have it run a script.
+It's<00:02:54.879><c> just</c><00:02:55.040><c> going</c><00:02:55.040><c> to</c><00:02:55.200><c> be</c><00:02:55.280><c> a</c><00:02:55.519><c> wrapper</c><00:02:55.920><c> script</c>
+
+00:02:56.790 --> 00:02:56.800 align:start position:0%
+It's just going to be a wrapper script
+ 
+
+00:02:56.800 --> 00:02:58.229 align:start position:0%
+It's just going to be a wrapper script
+that's<00:02:57.120><c> going</c><00:02:57.200><c> to</c><00:02:57.280><c> kind</c><00:02:57.440><c> of</c><00:02:57.599><c> take</c><00:02:57.760><c> care</c><00:02:58.000><c> of</c>
+
+00:02:58.229 --> 00:02:58.239 align:start position:0%
+that's going to kind of take care of
+ 
+
+00:02:58.239 --> 00:03:00.470 align:start position:0%
+that's going to kind of take care of
+like<00:02:58.480><c> figuring</c><00:02:58.879><c> out</c><00:02:59.040><c> what</c><00:02:59.200><c> agent</c><00:02:59.519><c> to</c><00:02:59.760><c> run.</c>
+
+00:03:00.470 --> 00:03:00.480 align:start position:0%
+like figuring out what agent to run.
+ 
+
+00:03:00.480 --> 00:03:02.869 align:start position:0%
+like figuring out what agent to run.
+It's<00:03:00.720><c> going</c><00:03:00.800><c> to</c><00:03:00.879><c> build</c><00:03:01.120><c> the</c><00:03:01.280><c> prompt,</c><00:03:02.080><c> etc.</c>
+
+00:03:02.869 --> 00:03:02.879 align:start position:0%
+It's going to build the prompt, etc.
+ 
+
+00:03:02.879 --> 00:03:05.509 align:start position:0%
+It's going to build the prompt, etc.
+It's<00:03:03.040><c> going</c><00:03:03.120><c> to</c><00:03:03.280><c> kick</c><00:03:03.440><c> off</c><00:03:03.680><c> codeex</c><00:03:04.239><c> exec.</c><00:03:05.360><c> So</c>
+
+00:03:05.509 --> 00:03:05.519 align:start position:0%
+It's going to kick off codeex exec. So
+ 
+
+00:03:05.519 --> 00:03:07.589 align:start position:0%
+It's going to kick off codeex exec. So
+that<00:03:05.840><c> child</c><00:03:06.239><c> codeex</c><00:03:06.720><c> is</c><00:03:06.879><c> going</c><00:03:06.959><c> to</c><00:03:07.040><c> run</c><00:03:07.280><c> as</c><00:03:07.440><c> the</c>
+
+00:03:07.589 --> 00:03:07.599 align:start position:0%
+that child codeex is going to run as the
+ 
+
+00:03:07.599 --> 00:03:09.110 align:start position:0%
+that child codeex is going to run as the
+sub<00:03:07.840><c> aent.</c><00:03:08.239><c> It's</c><00:03:08.400><c> going</c><00:03:08.480><c> to</c><00:03:08.560><c> respond</c><00:03:08.879><c> to</c><00:03:08.959><c> the</c>
+
+00:03:09.110 --> 00:03:09.120 align:start position:0%
+sub aent. It's going to respond to the
+ 
+
+00:03:09.120 --> 00:03:10.949 align:start position:0%
+sub aent. It's going to respond to the
+prompt.<00:03:09.440><c> It's</c><00:03:09.680><c> going</c><00:03:09.760><c> to</c><00:03:09.840><c> do</c><00:03:09.920><c> its</c><00:03:10.159><c> work</c><00:03:10.800><c> and</c>
+
+00:03:10.949 --> 00:03:10.959 align:start position:0%
+prompt. It's going to do its work and
+ 
+
+00:03:10.959 --> 00:03:12.630 align:start position:0%
+prompt. It's going to do its work and
+it's<00:03:11.120><c> going</c><00:03:11.200><c> to</c><00:03:11.360><c> write</c><00:03:11.599><c> its</c><00:03:11.840><c> answer</c><00:03:12.159><c> into</c><00:03:12.400><c> a</c>
+
+00:03:12.630 --> 00:03:12.640 align:start position:0%
+it's going to write its answer into a
+ 
+
+00:03:12.640 --> 00:03:15.830 align:start position:0%
+it's going to write its answer into a
+file<00:03:13.920><c> and</c><00:03:14.159><c> then</c><00:03:14.319><c> our</c><00:03:14.720><c> wrapper</c><00:03:15.120><c> script</c><00:03:15.599><c> is</c>
+
+00:03:15.830 --> 00:03:15.840 align:start position:0%
+file and then our wrapper script is
+ 
+
+00:03:15.840 --> 00:03:17.190 align:start position:0%
+file and then our wrapper script is
+going<00:03:15.920><c> to</c><00:03:16.080><c> read</c><00:03:16.239><c> that</c><00:03:16.480><c> file</c><00:03:16.720><c> and</c><00:03:16.959><c> it's</c><00:03:17.120><c> going</c>
+
+00:03:17.190 --> 00:03:17.200 align:start position:0%
+going to read that file and it's going
+ 
+
+00:03:17.200 --> 00:03:19.110 align:start position:0%
+going to read that file and it's going
+to<00:03:17.360><c> print</c><00:03:17.519><c> that</c><00:03:17.760><c> result</c><00:03:18.080><c> to</c><00:03:18.159><c> standard</c><00:03:18.560><c> out</c><00:03:18.959><c> and</c>
+
+00:03:19.110 --> 00:03:19.120 align:start position:0%
+to print that result to standard out and
+ 
+
+00:03:19.120 --> 00:03:20.790 align:start position:0%
+to print that result to standard out and
+give<00:03:19.280><c> it</c><00:03:19.440><c> back</c><00:03:19.519><c> to</c><00:03:19.680><c> the</c><00:03:19.760><c> parent</c><00:03:20.080><c> codec</c>
+
+00:03:20.790 --> 00:03:20.800 align:start position:0%
+give it back to the parent codec
+ 
+
+00:03:20.800 --> 00:03:22.470 align:start position:0%
+give it back to the parent codec
+session.
+
+00:03:22.470 --> 00:03:22.480 align:start position:0%
+session.
+ 
+
+00:03:22.480 --> 00:03:26.229 align:start position:0%
+session.
+Pretty<00:03:22.800><c> straightforward.</c>
+
+00:03:26.229 --> 00:03:26.239 align:start position:0%
+ 
+ 
+
+00:03:26.239 --> 00:03:28.070 align:start position:0%
+ 
+Well,<00:03:26.480><c> this</c><00:03:26.640><c> is</c><00:03:26.800><c> simple,</c><00:03:27.360><c> so</c><00:03:27.599><c> it</c><00:03:27.760><c> should</c><00:03:27.920><c> be</c>
+
+00:03:28.070 --> 00:03:28.080 align:start position:0%
+Well, this is simple, so it should be
+ 
+
+00:03:28.080 --> 00:03:30.309 align:start position:0%
+Well, this is simple, so it should be
+easy,<00:03:28.400><c> right?</c><00:03:29.440><c> Well,</c><00:03:29.599><c> that's</c><00:03:29.760><c> what</c><00:03:29.920><c> I</c><00:03:30.080><c> thought</c>
+
+00:03:30.309 --> 00:03:30.319 align:start position:0%
+easy, right? Well, that's what I thought
+ 
+
+00:03:30.319 --> 00:03:32.869 align:start position:0%
+easy, right? Well, that's what I thought
+too.<00:03:31.280><c> And</c><00:03:31.440><c> I</c><00:03:31.599><c> started</c><00:03:31.760><c> to</c><00:03:32.000><c> get</c><00:03:32.159><c> all</c><00:03:32.400><c> these</c>
+
+00:03:32.869 --> 00:03:32.879 align:start position:0%
+too. And I started to get all these
+ 
+
+00:03:32.879 --> 00:03:36.149 align:start position:0%
+too. And I started to get all these
+errors<00:03:33.440><c> from</c><00:03:33.760><c> Codeex</c><00:03:34.319><c> when</c><00:03:34.560><c> I</c><00:03:34.720><c> tried</c><00:03:34.959><c> it.</c>
+
+00:03:36.149 --> 00:03:36.159 align:start position:0%
+errors from Codeex when I tried it.
+ 
+
+00:03:36.159 --> 00:03:39.030 align:start position:0%
+errors from Codeex when I tried it.
+Codex's<00:03:36.720><c> sandbox</c><00:03:37.680><c> really</c><00:03:38.000><c> seems</c><00:03:38.400><c> to</c><00:03:38.640><c> not</c><00:03:38.879><c> want</c>
+
+00:03:39.030 --> 00:03:39.040 align:start position:0%
+Codex's sandbox really seems to not want
+ 
+
+00:03:39.040 --> 00:03:41.030 align:start position:0%
+Codex's sandbox really seems to not want
+to<00:03:39.120><c> let</c><00:03:39.280><c> you</c><00:03:39.519><c> do</c><00:03:39.680><c> this.</c><00:03:40.319><c> Now,</c><00:03:40.560><c> you</c><00:03:40.720><c> can</c><00:03:40.879><c> of</c>
+
+00:03:41.030 --> 00:03:41.040 align:start position:0%
+to let you do this. Now, you can of
+ 
+
+00:03:41.040 --> 00:03:42.630 align:start position:0%
+to let you do this. Now, you can of
+course<00:03:41.280><c> run</c><00:03:41.440><c> it</c><00:03:41.599><c> with</c><00:03:41.760><c> dangerously</c><00:03:42.319><c> skip</c>
+
+00:03:42.630 --> 00:03:42.640 align:start position:0%
+course run it with dangerously skip
+ 
+
+00:03:42.640 --> 00:03:45.030 align:start position:0%
+course run it with dangerously skip
+permissions<00:03:43.040><c> or</c><00:03:43.280><c> whatever.</c><00:03:44.159><c> I</c><00:03:44.400><c> don't</c><00:03:44.799><c> do</c>
+
+00:03:45.030 --> 00:03:45.040 align:start position:0%
+permissions or whatever. I don't do
+ 
+
+00:03:45.040 --> 00:03:47.110 align:start position:0%
+permissions or whatever. I don't do
+that,
+
+00:03:47.110 --> 00:03:47.120 align:start position:0%
+that,
+ 
+
+00:03:47.120 --> 00:03:49.430 align:start position:0%
+that,
+but<00:03:47.360><c> to</c><00:03:47.519><c> get</c><00:03:47.599><c> it</c><00:03:47.760><c> to</c><00:03:47.920><c> work</c><00:03:48.720><c> with</c><00:03:48.959><c> the</c><00:03:49.120><c> normal</c>
+
+00:03:49.430 --> 00:03:49.440 align:start position:0%
+but to get it to work with the normal
+ 
+
+00:03:49.440 --> 00:03:51.990 align:start position:0%
+but to get it to work with the normal
+set<00:03:49.599><c> of</c><00:03:49.760><c> permissions</c><00:03:51.200><c> actually</c><00:03:51.519><c> was</c><00:03:51.760><c> really,</c>
+
+00:03:51.990 --> 00:03:52.000 align:start position:0%
+set of permissions actually was really,
+ 
+
+00:03:52.000 --> 00:03:53.830 align:start position:0%
+set of permissions actually was really,
+really<00:03:52.319><c> hard</c><00:03:52.720><c> and</c><00:03:52.959><c> I</c><00:03:53.120><c> bang</c><00:03:53.360><c> my</c><00:03:53.519><c> head</c><00:03:53.680><c> against</c>
+
+00:03:53.830 --> 00:03:53.840 align:start position:0%
+really hard and I bang my head against
+ 
+
+00:03:53.840 --> 00:03:55.589 align:start position:0%
+really hard and I bang my head against
+the<00:03:54.000><c> wall</c><00:03:54.159><c> a</c><00:03:54.400><c> long</c><00:03:54.560><c> time</c><00:03:54.959><c> trying</c><00:03:55.200><c> to</c><00:03:55.360><c> get</c><00:03:55.440><c> this</c>
+
+00:03:55.589 --> 00:03:55.599 align:start position:0%
+the wall a long time trying to get this
+ 
+
+00:03:55.599 --> 00:03:59.589 align:start position:0%
+the wall a long time trying to get this
+to<00:03:55.840><c> work.</c>
+
+00:03:59.589 --> 00:03:59.599 align:start position:0%
+ 
+ 
+
+00:03:59.599 --> 00:04:01.429 align:start position:0%
+ 
+So,<00:03:59.840><c> figuring</c><00:04:00.239><c> out</c><00:04:00.480><c> the</c><00:04:00.720><c> minimum</c><00:04:01.040><c> required</c>
+
+00:04:01.429 --> 00:04:01.439 align:start position:0%
+So, figuring out the minimum required
+ 
+
+00:04:01.439 --> 00:04:04.229 align:start position:0%
+So, figuring out the minimum required
+permissions<00:04:02.799><c> is</c><00:04:03.120><c> probably</c><00:04:03.439><c> the</c><00:04:03.680><c> hardest</c><00:04:04.080><c> part</c>
+
+00:04:04.229 --> 00:04:04.239 align:start position:0%
+permissions is probably the hardest part
+ 
+
+00:04:04.239 --> 00:04:06.070 align:start position:0%
+permissions is probably the hardest part
+about<00:04:04.480><c> this.</c><00:04:04.799><c> getting</c><00:04:05.040><c> the</c><00:04:05.200><c> combination</c><00:04:05.760><c> just</c>
+
+00:04:06.070 --> 00:04:06.080 align:start position:0%
+about this. getting the combination just
+ 
+
+00:04:06.080 --> 00:04:08.789 align:start position:0%
+about this. getting the combination just
+right.<00:04:07.280><c> On</c><00:04:07.439><c> the</c><00:04:07.599><c> parent,</c><00:04:08.000><c> you</c><00:04:08.159><c> need</c><00:04:08.319><c> at</c><00:04:08.400><c> least</c>
+
+00:04:08.789 --> 00:04:08.799 align:start position:0%
+right. On the parent, you need at least
+ 
+
+00:04:08.799 --> 00:04:10.710 align:start position:0%
+right. On the parent, you need at least
+sandbox<00:04:09.280><c> of</c><00:04:09.439><c> workspace,</c><00:04:10.000><c> right,</c><00:04:10.239><c> to</c><00:04:10.480><c> be</c><00:04:10.560><c> able</c>
+
+00:04:10.710 --> 00:04:10.720 align:start position:0%
+sandbox of workspace, right, to be able
+ 
+
+00:04:10.720 --> 00:04:12.949 align:start position:0%
+sandbox of workspace, right, to be able
+to<00:04:10.799><c> run</c><00:04:10.959><c> the</c><00:04:11.120><c> codeex</c><00:04:11.599><c> command.</c><00:04:12.640><c> You</c><00:04:12.879><c> can</c>
+
+00:04:12.949 --> 00:04:12.959 align:start position:0%
+to run the codeex command. You can
+ 
+
+00:04:12.959 --> 00:04:15.110 align:start position:0%
+to run the codeex command. You can
+always<00:04:13.280><c> run</c><00:04:13.439><c> that</c><00:04:13.680><c> dangerously</c><00:04:14.720><c> whatever</c>
+
+00:04:15.110 --> 00:04:15.120 align:start position:0%
+always run that dangerously whatever
+ 
+
+00:04:15.120 --> 00:04:17.189 align:start position:0%
+always run that dangerously whatever
+whatever<00:04:15.519><c> command</c><00:04:15.920><c> if</c><00:04:16.079><c> you</c><00:04:16.239><c> want.</c><00:04:16.720><c> Again,</c><00:04:17.040><c> I</c>
+
+00:04:17.189 --> 00:04:17.199 align:start position:0%
+whatever command if you want. Again, I
+ 
+
+00:04:17.199 --> 00:04:20.069 align:start position:0%
+whatever command if you want. Again, I
+don't<00:04:17.359><c> really</c><00:04:17.519><c> do</c><00:04:17.680><c> that.</c><00:04:19.040><c> The</c><00:04:19.280><c> child</c><00:04:19.680><c> process</c>
+
+00:04:20.069 --> 00:04:20.079 align:start position:0%
+don't really do that. The child process
+ 
+
+00:04:20.079 --> 00:04:22.629 align:start position:0%
+don't really do that. The child process
+is<00:04:20.239><c> a</c><00:04:20.400><c> little</c><00:04:20.479><c> bit</c><00:04:20.639><c> trickier.</c><00:04:21.680><c> The</c><00:04:21.919><c> sandbox</c>
+
+00:04:22.629 --> 00:04:22.639 align:start position:0%
+is a little bit trickier. The sandbox
+ 
+
+00:04:22.639 --> 00:04:25.510 align:start position:0%
+is a little bit trickier. The sandbox
+prevents<00:04:23.040><c> its</c><00:04:23.360><c> access</c><00:04:24.000><c> to</c><00:04:24.720><c> the</c><00:04:24.960><c> OpenAI</c>
+
+00:04:25.510 --> 00:04:25.520 align:start position:0%
+prevents its access to the OpenAI
+ 
+
+00:04:25.520 --> 00:04:27.350 align:start position:0%
+prevents its access to the OpenAI
+credentials<00:04:26.080><c> in</c><00:04:26.320><c> your</c><00:04:26.479><c> home</c><00:04:26.720><c> directory</c><00:04:27.199><c> since</c>
+
+00:04:27.350 --> 00:04:27.360 align:start position:0%
+credentials in your home directory since
+ 
+
+00:04:27.360 --> 00:04:30.629 align:start position:0%
+credentials in your home directory since
+it's<00:04:27.600><c> outside</c><00:04:27.919><c> of</c><00:04:28.000><c> the</c><00:04:28.160><c> workspace.</c>
+
+00:04:30.629 --> 00:04:30.639 align:start position:0%
+it's outside of the workspace.
+ 
+
+00:04:30.639 --> 00:04:32.950 align:start position:0%
+it's outside of the workspace.
+the<00:04:31.280><c> you</c><00:04:31.440><c> need</c><00:04:31.600><c> at</c><00:04:31.600><c> least</c><00:04:31.919><c> sandbox</c><00:04:32.400><c> workspace</c>
+
+00:04:32.950 --> 00:04:32.960 align:start position:0%
+the you need at least sandbox workspace
+ 
+
+00:04:32.960 --> 00:04:35.030 align:start position:0%
+the you need at least sandbox workspace
+write<00:04:33.280><c> again</c><00:04:33.759><c> so</c><00:04:34.000><c> that</c><00:04:34.240><c> it</c><00:04:34.479><c> can</c><00:04:34.639><c> write</c><00:04:34.800><c> the</c>
+
+00:04:35.030 --> 00:04:35.040 align:start position:0%
+write again so that it can write the
+ 
+
+00:04:35.040 --> 00:04:38.230 align:start position:0%
+write again so that it can write the
+file<00:04:36.080><c> that</c><00:04:36.479><c> the</c><00:04:37.040><c> uh</c><00:04:37.120><c> wrapper</c><00:04:37.600><c> script</c><00:04:37.919><c> is</c><00:04:38.160><c> going</c>
+
+00:04:38.230 --> 00:04:38.240 align:start position:0%
+file that the uh wrapper script is going
+ 
+
+00:04:38.240 --> 00:04:41.430 align:start position:0%
+file that the uh wrapper script is going
+to<00:04:38.320><c> read</c><00:04:39.600><c> and</c><00:04:39.840><c> you</c><00:04:40.000><c> need</c><00:04:40.400><c> to</c><00:04:40.720><c> disable</c><00:04:41.199><c> this</c>
+
+00:04:41.430 --> 00:04:41.440 align:start position:0%
+to read and you need to disable this
+ 
+
+00:04:41.440 --> 00:04:44.070 align:start position:0%
+to read and you need to disable this
+thing<00:04:41.680><c> called</c><00:04:41.840><c> the</c><00:04:42.000><c> rollout</c><00:04:42.479><c> recorder</c>
+
+00:04:44.070 --> 00:04:44.080 align:start position:0%
+thing called the rollout recorder
+ 
+
+00:04:44.080 --> 00:04:46.870 align:start position:0%
+thing called the rollout recorder
+which<00:04:44.320><c> is</c><00:04:44.479><c> like</c><00:04:44.639><c> a</c><00:04:44.960><c> logging</c><00:04:45.440><c> thing</c><00:04:46.160><c> the</c><00:04:46.639><c> just</c>
+
+00:04:46.870 --> 00:04:46.880 align:start position:0%
+which is like a logging thing the just
+ 
+
+00:04:46.880 --> 00:04:48.710 align:start position:0%
+which is like a logging thing the just
+because<00:04:47.120><c> the</c><00:04:47.360><c> parent</c><00:04:47.680><c> sandbox</c><00:04:48.240><c> again</c><00:04:48.479><c> it</c>
+
+00:04:48.710 --> 00:04:48.720 align:start position:0%
+because the parent sandbox again it
+ 
+
+00:04:48.720 --> 00:04:51.189 align:start position:0%
+because the parent sandbox again it
+prevents<00:04:49.600><c> file</c><00:04:50.000><c> system</c><00:04:50.320><c> access</c><00:04:50.720><c> to</c><00:04:50.960><c> any</c>
+
+00:04:51.189 --> 00:04:51.199 align:start position:0%
+prevents file system access to any
+ 
+
+00:04:51.199 --> 00:04:52.870 align:start position:0%
+prevents file system access to any
+subcomands
+
+00:04:52.870 --> 00:04:52.880 align:start position:0%
+subcomands
+ 
+
+00:04:52.880 --> 00:05:00.710 align:start position:0%
+subcomands
+that<00:04:53.120><c> are</c><00:04:53.360><c> outside</c><00:04:53.680><c> of</c><00:04:53.840><c> the</c><00:04:54.000><c> workspace</c>
+
+00:05:00.710 --> 00:05:00.720 align:start position:0%
+ 
+ 
+
+00:05:00.720 --> 00:05:02.790 align:start position:0%
+ 
+All<00:05:00.800><c> right,</c><00:05:01.040><c> before</c><00:05:01.280><c> we</c><00:05:01.440><c> go</c><00:05:01.600><c> any</c><00:05:01.840><c> further,</c><00:05:02.560><c> I</c>
+
+00:05:02.790 --> 00:05:02.800 align:start position:0%
+All right, before we go any further, I
+ 
+
+00:05:02.800 --> 00:05:03.909 align:start position:0%
+All right, before we go any further, I
+have<00:05:02.880><c> to</c><00:05:02.960><c> give</c><00:05:03.120><c> a</c><00:05:03.280><c> quick</c><00:05:03.440><c> note</c><00:05:03.680><c> about</c>
+
+00:05:03.909 --> 00:05:03.919 align:start position:0%
+have to give a quick note about
+ 
+
+00:05:03.919 --> 00:05:05.909 align:start position:0%
+have to give a quick note about
+security.
+
+00:05:05.909 --> 00:05:05.919 align:start position:0%
+security.
+ 
+
+00:05:05.919 --> 00:05:07.830 align:start position:0%
+security.
+Meta<00:05:06.400><c> recently</c><00:05:06.720><c> wrote</c><00:05:06.960><c> a</c><00:05:07.199><c> great</c><00:05:07.360><c> paper</c><00:05:07.680><c> called</c>
+
+00:05:07.830 --> 00:05:07.840 align:start position:0%
+Meta recently wrote a great paper called
+ 
+
+00:05:07.840 --> 00:05:09.430 align:start position:0%
+Meta recently wrote a great paper called
+the<00:05:08.080><c> agents</c><00:05:08.400><c> rule</c><00:05:08.639><c> of</c><00:05:08.800><c> two</c><00:05:08.960><c> that</c><00:05:09.199><c> I</c><00:05:09.280><c> think</c>
+
+00:05:09.430 --> 00:05:09.440 align:start position:0%
+the agents rule of two that I think
+ 
+
+00:05:09.440 --> 00:05:11.990 align:start position:0%
+the agents rule of two that I think
+explains<00:05:09.840><c> this</c><00:05:10.080><c> really,</c><00:05:10.400><c> really</c><00:05:10.720><c> well.</c><00:05:11.840><c> And</c>
+
+00:05:11.990 --> 00:05:12.000 align:start position:0%
+explains this really, really well. And
+ 
+
+00:05:12.000 --> 00:05:13.830 align:start position:0%
+explains this really, really well. And
+what<00:05:12.160><c> it</c><00:05:12.320><c> says</c><00:05:12.479><c> is</c><00:05:12.720><c> there's</c><00:05:12.960><c> three</c><00:05:13.199><c> things</c><00:05:13.600><c> you</c>
+
+00:05:13.830 --> 00:05:13.840 align:start position:0%
+what it says is there's three things you
+ 
+
+00:05:13.840 --> 00:05:15.510 align:start position:0%
+what it says is there's three things you
+need<00:05:14.000><c> to</c><00:05:14.160><c> care</c><00:05:14.320><c> about</c><00:05:14.560><c> with</c><00:05:14.720><c> your</c><00:05:14.880><c> agent</c><00:05:15.280><c> when</c>
+
+00:05:15.510 --> 00:05:15.520 align:start position:0%
+need to care about with your agent when
+ 
+
+00:05:15.520 --> 00:05:17.670 align:start position:0%
+need to care about with your agent when
+it<00:05:15.600><c> comes</c><00:05:15.759><c> to</c><00:05:15.919><c> security.</c><00:05:17.120><c> whether</c><00:05:17.440><c> it's</c>
+
+00:05:17.670 --> 00:05:17.680 align:start position:0%
+it comes to security. whether it's
+ 
+
+00:05:17.680 --> 00:05:20.230 align:start position:0%
+it comes to security. whether it's
+processing<00:05:18.160><c> untrustworthy</c><00:05:18.960><c> input,</c><00:05:19.919><c> whether</c>
+
+00:05:20.230 --> 00:05:20.240 align:start position:0%
+processing untrustworthy input, whether
+ 
+
+00:05:20.240 --> 00:05:22.230 align:start position:0%
+processing untrustworthy input, whether
+it<00:05:20.400><c> has</c><00:05:20.639><c> access</c><00:05:20.960><c> to</c><00:05:21.199><c> sensitive</c><00:05:21.680><c> systems</c><00:05:22.000><c> or</c>
+
+00:05:22.230 --> 00:05:22.240 align:start position:0%
+it has access to sensitive systems or
+ 
+
+00:05:22.240 --> 00:05:24.390 align:start position:0%
+it has access to sensitive systems or
+private<00:05:22.639><c> data,</c><00:05:23.440><c> and</c><00:05:23.680><c> whether</c><00:05:23.840><c> it</c><00:05:24.000><c> can</c><00:05:24.160><c> change</c>
+
+00:05:24.390 --> 00:05:24.400 align:start position:0%
+private data, and whether it can change
+ 
+
+00:05:24.400 --> 00:05:27.510 align:start position:0%
+private data, and whether it can change
+state<00:05:24.720><c> or</c><00:05:24.960><c> communicate</c><00:05:25.440><c> externally.</c>
+
+00:05:27.510 --> 00:05:27.520 align:start position:0%
+state or communicate externally.
+ 
+
+00:05:27.520 --> 00:05:29.189 align:start position:0%
+state or communicate externally.
+In<00:05:27.759><c> our</c><00:05:27.919><c> case,</c><00:05:28.320><c> we're</c><00:05:28.560><c> not</c><00:05:28.720><c> processing</c>
+
+00:05:29.189 --> 00:05:29.199 align:start position:0%
+In our case, we're not processing
+ 
+
+00:05:29.199 --> 00:05:31.510 align:start position:0%
+In our case, we're not processing
+untrustworthy<00:05:29.919><c> inputs.</c>
+
+00:05:31.510 --> 00:05:31.520 align:start position:0%
+untrustworthy inputs.
+ 
+
+00:05:31.520 --> 00:05:33.510 align:start position:0%
+untrustworthy inputs.
+We<00:05:31.840><c> do</c><00:05:32.080><c> have</c><00:05:32.240><c> access</c><00:05:32.560><c> to</c><00:05:32.800><c> sensitive</c><00:05:33.199><c> systems</c>
+
+00:05:33.510 --> 00:05:33.520 align:start position:0%
+We do have access to sensitive systems
+ 
+
+00:05:33.520 --> 00:05:35.110 align:start position:0%
+We do have access to sensitive systems
+or<00:05:33.759><c> private</c><00:05:34.000><c> data</c><00:05:34.320><c> because</c><00:05:34.479><c> we're</c><00:05:34.720><c> probably</c>
+
+00:05:35.110 --> 00:05:35.120 align:start position:0%
+or private data because we're probably
+ 
+
+00:05:35.120 --> 00:05:39.270 align:start position:0%
+or private data because we're probably
+working<00:05:35.360><c> with</c><00:05:35.520><c> a</c><00:05:35.680><c> proprietary</c><00:05:36.240><c> codebase.</c>
+
+00:05:39.270 --> 00:05:39.280 align:start position:0%
+ 
+ 
+
+00:05:39.280 --> 00:05:41.430 align:start position:0%
+ 
+And<00:05:39.440><c> it</c><00:05:39.680><c> can</c><00:05:39.919><c> change</c><00:05:40.240><c> state</c><00:05:40.560><c> and</c><00:05:40.720><c> it</c><00:05:40.960><c> also</c><00:05:41.199><c> can</c>
+
+00:05:41.430 --> 00:05:41.440 align:start position:0%
+And it can change state and it also can
+ 
+
+00:05:41.440 --> 00:05:44.550 align:start position:0%
+And it can change state and it also can
+can<00:05:41.759><c> communicate</c><00:05:42.240><c> externally.</c><00:05:43.680><c> Now</c><00:05:44.320><c> the</c>
+
+00:05:44.550 --> 00:05:44.560 align:start position:0%
+can communicate externally. Now the
+ 
+
+00:05:44.560 --> 00:05:45.749 align:start position:0%
+can communicate externally. Now the
+state<00:05:44.720><c> that</c><00:05:44.880><c> it</c><00:05:45.039><c> can</c><00:05:45.199><c> change</c><00:05:45.360><c> is</c><00:05:45.520><c> really</c><00:05:45.680><c> kind</c>
+
+00:05:45.749 --> 00:05:45.759 align:start position:0%
+state that it can change is really kind
+ 
+
+00:05:45.759 --> 00:05:48.150 align:start position:0%
+state that it can change is really kind
+of<00:05:45.840><c> dependent</c><00:05:46.160><c> on</c><00:05:46.320><c> your</c><00:05:46.560><c> system.</c><00:05:47.199><c> In</c><00:05:47.440><c> my</c><00:05:47.600><c> case,</c>
+
+00:05:48.150 --> 00:05:48.160 align:start position:0%
+of dependent on your system. In my case,
+ 
+
+00:05:48.160 --> 00:05:51.029 align:start position:0%
+of dependent on your system. In my case,
+it's<00:05:48.479><c> really</c><00:05:48.639><c> not</c><00:05:48.880><c> very</c><00:05:49.120><c> high</c><00:05:49.360><c> risk</c><00:05:50.400><c> and</c><00:05:50.800><c> the</c>
+
+00:05:51.029 --> 00:05:51.039 align:start position:0%
+it's really not very high risk and the
+ 
+
+00:05:51.039 --> 00:05:53.189 align:start position:0%
+it's really not very high risk and the
+communication<00:05:51.520><c> it</c><00:05:51.680><c> does</c><00:05:51.919><c> externally</c><00:05:52.720><c> is</c><00:05:53.039><c> just</c>
+
+00:05:53.189 --> 00:05:53.199 align:start position:0%
+communication it does externally is just
+ 
+
+00:05:53.199 --> 00:05:57.909 align:start position:0%
+communication it does externally is just
+to<00:05:53.440><c> OpenAI's</c><00:05:54.800><c> API</c><00:05:55.360><c> endpoint.</c><00:05:56.160><c> So</c><00:05:56.400><c> again,</c>
+
+00:05:57.909 --> 00:05:57.919 align:start position:0%
+to OpenAI's API endpoint. So again,
+ 
+
+00:05:57.919 --> 00:05:59.909 align:start position:0%
+to OpenAI's API endpoint. So again,
+not<00:05:58.160><c> a</c><00:05:58.320><c> major</c><00:05:58.639><c> risk,</c><00:05:59.039><c> I</c><00:05:59.280><c> would</c><00:05:59.360><c> say.</c><00:05:59.600><c> So</c><00:05:59.680><c> that</c>
+
+00:05:59.909 --> 00:05:59.919 align:start position:0%
+not a major risk, I would say. So that
+ 
+
+00:05:59.919 --> 00:06:03.110 align:start position:0%
+not a major risk, I would say. So that
+puts<00:06:00.160><c> us</c><00:06:00.720><c> in</c><00:06:00.960><c> the</c><00:06:01.120><c> lower</c><00:06:01.360><c> risk</c><00:06:01.680><c> category.</c><00:06:02.960><c> But</c>
+
+00:06:03.110 --> 00:06:03.120 align:start position:0%
+puts us in the lower risk category. But
+ 
+
+00:06:03.120 --> 00:06:04.629 align:start position:0%
+puts us in the lower risk category. But
+importantly,
+
+00:06:04.629 --> 00:06:04.639 align:start position:0%
+importantly,
+ 
+
+00:06:04.639 --> 00:06:07.270 align:start position:0%
+importantly,
+lower<00:06:04.960><c> risk</c><00:06:05.600><c> does</c><00:06:05.840><c> not</c><00:06:06.000><c> mean</c><00:06:06.240><c> no</c><00:06:06.479><c> risk.</c><00:06:07.039><c> So</c>
+
+00:06:07.270 --> 00:06:07.280 align:start position:0%
+lower risk does not mean no risk. So
+ 
+
+00:06:07.280 --> 00:06:09.749 align:start position:0%
+lower risk does not mean no risk. So
+your<00:06:07.440><c> mileage</c><00:06:07.840><c> may</c><00:06:08.000><c> vary</c><00:06:08.319><c> here.</c><00:06:09.360><c> you</c><00:06:09.520><c> need</c><00:06:09.680><c> to</c>
+
+00:06:09.749 --> 00:06:09.759 align:start position:0%
+your mileage may vary here. you need to
+ 
+
+00:06:09.759 --> 00:06:11.909 align:start position:0%
+your mileage may vary here. you need to
+make<00:06:09.919><c> your</c><00:06:10.080><c> own</c><00:06:10.240><c> determination</c><00:06:11.280><c> on</c><00:06:11.520><c> if</c><00:06:11.680><c> this</c>
+
+00:06:11.909 --> 00:06:11.919 align:start position:0%
+make your own determination on if this
+ 
+
+00:06:11.919 --> 00:06:15.029 align:start position:0%
+make your own determination on if this
+is<00:06:12.080><c> something</c><00:06:12.400><c> you</c><00:06:12.720><c> feel</c><00:06:12.960><c> comfortable</c><00:06:13.280><c> with.</c>
+
+00:06:15.029 --> 00:06:15.039 align:start position:0%
+is something you feel comfortable with.
+ 
+
+00:06:15.039 --> 00:06:18.469 align:start position:0%
+is something you feel comfortable with.
+With<00:06:15.199><c> that,</c><00:06:15.440><c> let's</c><00:06:15.680><c> move</c><00:06:15.840><c> forward.</c>
+
+00:06:18.469 --> 00:06:18.479 align:start position:0%
+With that, let's move forward.
+ 
+
+00:06:18.479 --> 00:06:20.950 align:start position:0%
+With that, let's move forward.
+All<00:06:18.560><c> right.</c><00:06:18.880><c> So,</c><00:06:19.039><c> to</c><00:06:19.280><c> get</c><00:06:19.759><c> codeex</c><00:06:20.479><c> to</c><00:06:20.639><c> be</c><00:06:20.800><c> able</c>
+
+00:06:20.950 --> 00:06:20.960 align:start position:0%
+All right. So, to get codeex to be able
+ 
+
+00:06:20.960 --> 00:06:23.830 align:start position:0%
+All right. So, to get codeex to be able
+to<00:06:21.039><c> use</c><00:06:21.360><c> sub</c><00:06:21.600><c> agents</c><00:06:23.039><c> with</c><00:06:23.199><c> this</c><00:06:23.440><c> wrapper</c>
+
+00:06:23.830 --> 00:06:23.840 align:start position:0%
+to use sub agents with this wrapper
+ 
+
+00:06:23.840 --> 00:06:25.189 align:start position:0%
+to use sub agents with this wrapper
+script<00:06:24.080><c> and</c><00:06:24.319><c> everything,</c><00:06:24.639><c> we</c><00:06:24.800><c> have</c><00:06:24.880><c> to</c><00:06:25.039><c> tell</c>
+
+00:06:25.189 --> 00:06:25.199 align:start position:0%
+script and everything, we have to tell
+ 
+
+00:06:25.199 --> 00:06:28.629 align:start position:0%
+script and everything, we have to tell
+it<00:06:25.360><c> how</c><00:06:25.520><c> to</c><00:06:25.680><c> run</c><00:06:25.840><c> them.</c><00:06:26.639><c> So</c><00:06:26.880><c> in</c><00:06:27.039><c> our</c><00:06:27.199><c> agents</c><00:06:27.680><c> MD</c>
+
+00:06:28.629 --> 00:06:28.639 align:start position:0%
+it how to run them. So in our agents MD
+ 
+
+00:06:28.639 --> 00:06:30.230 align:start position:0%
+it how to run them. So in our agents MD
+we're<00:06:28.880><c> going</c><00:06:28.960><c> to</c><00:06:29.120><c> have</c><00:06:29.280><c> just</c><00:06:29.520><c> a</c><00:06:29.759><c> little</c><00:06:29.840><c> bit</c><00:06:30.000><c> of</c>
+
+00:06:30.230 --> 00:06:30.240 align:start position:0%
+we're going to have just a little bit of
+ 
+
+00:06:30.240 --> 00:06:32.870 align:start position:0%
+we're going to have just a little bit of
+information<00:06:30.639><c> here</c><00:06:31.039><c> that</c><00:06:31.440><c> tells</c><00:06:31.759><c> codeex</c><00:06:32.639><c> hey</c>
+
+00:06:32.870 --> 00:06:32.880 align:start position:0%
+information here that tells codeex hey
+ 
+
+00:06:32.880 --> 00:06:38.390 align:start position:0%
+information here that tells codeex hey
+when<00:06:33.120><c> I</c><00:06:33.280><c> say</c><00:06:34.319><c> use</c><00:06:34.639><c> the</c><00:06:36.000><c> whatever</c><00:06:36.720><c> sub</c><00:06:36.960><c> agent</c><00:06:38.160><c> go</c>
+
+00:06:38.390 --> 00:06:38.400 align:start position:0%
+when I say use the whatever sub agent go
+ 
+
+00:06:38.400 --> 00:06:41.110 align:start position:0%
+when I say use the whatever sub agent go
+and<00:06:38.639><c> actually</c><00:06:38.800><c> like</c><00:06:39.120><c> run</c><00:06:39.360><c> this</c><00:06:40.000><c> script</c><00:06:40.800><c> and</c>
+
+00:06:41.110 --> 00:06:41.120 align:start position:0%
+and actually like run this script and
+ 
+
+00:06:41.120 --> 00:06:43.430 align:start position:0%
+and actually like run this script and
+you<00:06:41.280><c> know</c><00:06:41.360><c> with</c><00:06:41.520><c> these</c><00:06:41.759><c> commands</c><00:06:42.080><c> or</c><00:06:42.319><c> whatever</c>
+
+00:06:43.430 --> 00:06:43.440 align:start position:0%
+you know with these commands or whatever
+ 
+
+00:06:43.440 --> 00:06:47.430 align:start position:0%
+you know with these commands or whatever
+and<00:06:44.319><c> that's</c><00:06:44.560><c> how</c><00:06:44.720><c> you</c><00:06:44.960><c> do</c><00:06:45.039><c> it.</c>
+
+00:06:47.430 --> 00:06:47.440 align:start position:0%
+and that's how you do it.
+ 
+
+00:06:47.440 --> 00:06:50.070 align:start position:0%
+and that's how you do it.
+Also<00:06:47.759><c> we</c><00:06:47.919><c> have</c><00:06:48.000><c> to</c><00:06:48.080><c> tell</c><00:06:48.240><c> it</c><00:06:48.479><c> when</c><00:06:48.800><c> to</c><00:06:48.960><c> run</c><00:06:49.759><c> sub</c>
+
+00:06:50.070 --> 00:06:50.080 align:start position:0%
+Also we have to tell it when to run sub
+ 
+
+00:06:50.080 --> 00:06:52.070 align:start position:0%
+Also we have to tell it when to run sub
+aents.<00:06:50.720><c> So</c><00:06:50.880><c> that</c><00:06:51.039><c> would</c><00:06:51.199><c> be</c><00:06:51.520><c> you</c><00:06:51.600><c> know</c><00:06:51.759><c> when</c>
+
+00:06:52.070 --> 00:06:52.080 align:start position:0%
+aents. So that would be you know when
+ 
+
+00:06:52.080 --> 00:06:54.390 align:start position:0%
+aents. So that would be you know when
+the<00:06:52.319><c> user</c><00:06:52.639><c> asks</c><00:06:53.199><c> or</c><00:06:53.520><c> just</c><00:06:53.600><c> when</c><00:06:53.840><c> you</c><00:06:53.919><c> think</c>
+
+00:06:54.390 --> 00:06:54.400 align:start position:0%
+the user asks or just when you think
+ 
+
+00:06:54.400 --> 00:06:56.790 align:start position:0%
+the user asks or just when you think
+helpful.<00:06:55.600><c> Then</c><00:06:55.840><c> we</c><00:06:56.000><c> want</c><00:06:56.080><c> to</c><00:06:56.160><c> tell</c><00:06:56.319><c> it</c><00:06:56.479><c> what</c>
+
+00:06:56.790 --> 00:06:56.800 align:start position:0%
+helpful. Then we want to tell it what
+ 
+
+00:06:56.800 --> 00:06:58.790 align:start position:0%
+helpful. Then we want to tell it what
+sub<00:06:57.039><c> aents</c><00:06:57.520><c> are</c><00:06:57.680><c> available</c><00:06:58.160><c> and</c><00:06:58.400><c> what</c><00:06:58.639><c> they</c>
+
+00:06:58.790 --> 00:06:58.800 align:start position:0%
+sub aents are available and what they
+ 
+
+00:06:58.800 --> 00:07:04.070 align:start position:0%
+sub aents are available and what they
+do.
+
+00:07:04.070 --> 00:07:04.080 align:start position:0%
+ 
+ 
+
+00:07:04.080 --> 00:07:06.629 align:start position:0%
+ 
+All<00:07:04.160><c> right,</c><00:07:05.120><c> with</c><00:07:05.360><c> that,</c><00:07:05.919><c> let's</c><00:07:06.160><c> do</c><00:07:06.240><c> a</c><00:07:06.479><c> quick</c>
+
+00:07:06.629 --> 00:07:06.639 align:start position:0%
+All right, with that, let's do a quick
+ 
+
+00:07:06.639 --> 00:07:10.629 align:start position:0%
+All right, with that, let's do a quick
+demo.
+
+00:07:10.629 --> 00:07:10.639 align:start position:0%
+ 
+ 
+
+00:07:10.639 --> 00:07:13.029 align:start position:0%
+ 
+I've<00:07:10.960><c> put</c><00:07:11.120><c> together</c><00:07:12.080><c> a</c><00:07:12.319><c> really</c><00:07:12.639><c> quick</c><00:07:12.800><c> and</c>
+
+00:07:13.029 --> 00:07:13.039 align:start position:0%
+I've put together a really quick and
+ 
+
+00:07:13.039 --> 00:07:16.710 align:start position:0%
+I've put together a really quick and
+small<00:07:14.160><c> proof</c><00:07:14.479><c> of</c><00:07:14.639><c> concept</c><00:07:15.120><c> repository.</c><00:07:16.479><c> It's</c>
+
+00:07:16.710 --> 00:07:16.720 align:start position:0%
+small proof of concept repository. It's
+ 
+
+00:07:16.720 --> 00:07:18.150 align:start position:0%
+small proof of concept repository. It's
+open<00:07:17.039><c> source.</c><00:07:17.440><c> You</c><00:07:17.520><c> can</c><00:07:17.599><c> go</c><00:07:17.680><c> and</c><00:07:17.840><c> take</c><00:07:18.000><c> a</c><00:07:18.080><c> look</c>
+
+00:07:18.150 --> 00:07:18.160 align:start position:0%
+open source. You can go and take a look
+ 
+
+00:07:18.160 --> 00:07:20.309 align:start position:0%
+open source. You can go and take a look
+at<00:07:18.240><c> it</c><00:07:18.400><c> yourself.</c><00:07:18.800><c> I'll</c><00:07:19.039><c> have</c><00:07:19.199><c> the</c><00:07:19.440><c> URL</c><00:07:20.000><c> at</c><00:07:20.240><c> the</c>
+
+00:07:20.309 --> 00:07:20.319 align:start position:0%
+at it yourself. I'll have the URL at the
+ 
+
+00:07:20.319 --> 00:07:22.309 align:start position:0%
+at it yourself. I'll have the URL at the
+end<00:07:20.479><c> of</c><00:07:20.560><c> the</c><00:07:20.720><c> talk.</c><00:07:21.599><c> Let's</c><00:07:21.840><c> just</c><00:07:22.000><c> take</c><00:07:22.080><c> a</c><00:07:22.240><c> look</c>
+
+00:07:22.309 --> 00:07:22.319 align:start position:0%
+end of the talk. Let's just take a look
+ 
+
+00:07:22.319 --> 00:07:24.390 align:start position:0%
+end of the talk. Let's just take a look
+at<00:07:22.479><c> what's</c><00:07:22.639><c> in</c><00:07:22.800><c> here.</c>
+
+00:07:24.390 --> 00:07:24.400 align:start position:0%
+at what's in here.
+ 
+
+00:07:24.400 --> 00:07:26.150 align:start position:0%
+at what's in here.
+So,<00:07:24.800><c> first</c><00:07:24.960><c> of</c><00:07:25.120><c> all,</c><00:07:25.520><c> let's</c><00:07:25.759><c> take</c><00:07:25.840><c> a</c><00:07:26.000><c> look</c><00:07:26.080><c> at</c>
+
+00:07:26.150 --> 00:07:26.160 align:start position:0%
+So, first of all, let's take a look at
+ 
+
+00:07:26.160 --> 00:07:28.390 align:start position:0%
+So, first of all, let's take a look at
+our<00:07:26.319><c> agents.</c>
+
+00:07:28.390 --> 00:07:28.400 align:start position:0%
+our agents.
+ 
+
+00:07:28.400 --> 00:07:30.230 align:start position:0%
+our agents.
+I<00:07:28.560><c> just</c><00:07:28.800><c> created</c><00:07:29.039><c> a</c><00:07:29.199><c> couple</c><00:07:29.360><c> of</c><00:07:29.520><c> toy</c><00:07:29.840><c> agents</c>
+
+00:07:30.230 --> 00:07:30.240 align:start position:0%
+I just created a couple of toy agents
+ 
+
+00:07:30.240 --> 00:07:32.230 align:start position:0%
+I just created a couple of toy agents
+here.<00:07:30.639><c> Let's</c><00:07:30.800><c> go</c><00:07:30.960><c> take</c><00:07:31.120><c> a</c><00:07:31.280><c> look</c><00:07:31.360><c> at</c><00:07:31.520><c> them</c><00:07:32.080><c> how</c>
+
+00:07:32.230 --> 00:07:32.240 align:start position:0%
+here. Let's go take a look at them how
+ 
+
+00:07:32.240 --> 00:07:35.270 align:start position:0%
+here. Let's go take a look at them how
+they're<00:07:32.479><c> defined.</c>
+
+00:07:35.270 --> 00:07:35.280 align:start position:0%
+they're defined.
+ 
+
+00:07:35.280 --> 00:07:38.150 align:start position:0%
+they're defined.
+You<00:07:35.520><c> can</c><00:07:35.680><c> see</c><00:07:35.840><c> here</c><00:07:36.800><c> each</c><00:07:37.039><c> agent</c><00:07:37.360><c> has</c><00:07:37.520><c> a</c><00:07:37.759><c> name.</c>
+
+00:07:38.150 --> 00:07:38.160 align:start position:0%
+You can see here each agent has a name.
+ 
+
+00:07:38.160 --> 00:07:40.469 align:start position:0%
+You can see here each agent has a name.
+It<00:07:38.400><c> also</c><00:07:38.560><c> has</c><00:07:38.720><c> a</c><00:07:38.880><c> reasoning</c><00:07:39.280><c> effort.</c><00:07:40.160><c> So,</c>
+
+00:07:40.469 --> 00:07:40.479 align:start position:0%
+It also has a reasoning effort. So,
+ 
+
+00:07:40.479 --> 00:07:42.150 align:start position:0%
+It also has a reasoning effort. So,
+depending<00:07:40.800><c> on</c><00:07:41.120><c> what</c><00:07:41.360><c> kind</c><00:07:41.520><c> of</c><00:07:41.680><c> work</c><00:07:41.840><c> it's</c>
+
+00:07:42.150 --> 00:07:42.160 align:start position:0%
+depending on what kind of work it's
+ 
+
+00:07:42.160 --> 00:07:44.790 align:start position:0%
+depending on what kind of work it's
+doing,<00:07:42.800><c> you</c><00:07:42.960><c> can</c><00:07:43.039><c> give</c><00:07:43.199><c> it</c><00:07:43.280><c> a</c><00:07:43.520><c> light,</c><00:07:43.759><c> medium,</c>
+
+00:07:44.790 --> 00:07:44.800 align:start position:0%
+doing, you can give it a light, medium,
+ 
+
+00:07:44.800 --> 00:07:47.110 align:start position:0%
+doing, you can give it a light, medium,
+you<00:07:44.960><c> can</c><00:07:45.120><c> give</c><00:07:45.280><c> it</c><00:07:45.520><c> a</c><00:07:45.759><c> high</c><00:07:46.240><c> reasoning</c><00:07:46.639><c> effort,</c>
+
+00:07:47.110 --> 00:07:47.120 align:start position:0%
+you can give it a high reasoning effort,
+ 
+
+00:07:47.120 --> 00:07:49.270 align:start position:0%
+you can give it a high reasoning effort,
+whatever<00:07:47.360><c> you</c><00:07:47.520><c> think</c><00:07:47.680><c> is</c><00:07:47.919><c> appropriate.</c><00:07:49.039><c> Then</c>
+
+00:07:49.270 --> 00:07:49.280 align:start position:0%
+whatever you think is appropriate. Then
+ 
+
+00:07:49.280 --> 00:07:51.670 align:start position:0%
+whatever you think is appropriate. Then
+you<00:07:49.440><c> just</c><00:07:49.599><c> give</c><00:07:49.759><c> it,</c><00:07:50.240><c> you</c><00:07:50.479><c> know,</c><00:07:50.720><c> the</c><00:07:51.199><c> prompt</c>
+
+00:07:51.670 --> 00:07:51.680 align:start position:0%
+you just give it, you know, the prompt
+ 
+
+00:07:51.680 --> 00:07:53.430 align:start position:0%
+you just give it, you know, the prompt
+for<00:07:51.919><c> the</c><00:07:52.080><c> agent.</c><00:07:52.479><c> So</c><00:07:52.720><c> very</c><00:07:52.960><c> similar</c><00:07:53.199><c> to</c><00:07:53.360><c> kind</c>
+
+00:07:53.430 --> 00:07:53.440 align:start position:0%
+for the agent. So very similar to kind
+ 
+
+00:07:53.440 --> 00:07:55.830 align:start position:0%
+for the agent. So very similar to kind
+of<00:07:53.520><c> how</c><00:07:53.759><c> claude</c><00:07:54.160><c> code</c><00:07:54.720><c> sub</c><00:07:54.960><c> aents</c><00:07:55.360><c> work.</c><00:07:55.680><c> In</c>
+
+00:07:55.830 --> 00:07:55.840 align:start position:0%
+of how claude code sub aents work. In
+ 
+
+00:07:55.840 --> 00:07:58.150 align:start position:0%
+of how claude code sub aents work. In
+this<00:07:56.000><c> case,</c><00:07:56.160><c> it's</c><00:07:56.400><c> just</c><00:07:56.560><c> counting</c><00:07:56.960><c> words.</c><00:07:58.000><c> You</c>
+
+00:07:58.150 --> 00:07:58.160 align:start position:0%
+this case, it's just counting words. You
+ 
+
+00:07:58.160 --> 00:07:59.670 align:start position:0%
+this case, it's just counting words. You
+know,<00:07:58.319><c> this</c><00:07:58.479><c> other</c><00:07:58.639><c> one</c><00:07:58.800><c> is</c><00:07:58.960><c> a</c><00:07:59.120><c> file</c><00:07:59.360><c> writer</c>
+
+00:07:59.670 --> 00:07:59.680 align:start position:0%
+know, this other one is a file writer
+ 
+
+00:07:59.680 --> 00:08:01.670 align:start position:0%
+know, this other one is a file writer
+agent.<00:08:00.400><c> Just</c><00:08:00.639><c> going</c><00:08:00.720><c> to</c><00:08:00.879><c> take</c><00:08:01.039><c> some</c><00:08:01.199><c> text</c><00:08:01.440><c> and</c>
+
+00:08:01.670 --> 00:08:01.680 align:start position:0%
+agent. Just going to take some text and
+ 
+
+00:08:01.680 --> 00:08:03.589 align:start position:0%
+agent. Just going to take some text and
+put<00:08:01.759><c> it</c><00:08:01.840><c> in</c><00:08:02.000><c> a</c><00:08:02.160><c> file.</c><00:08:02.960><c> Don't</c><00:08:03.199><c> need</c><00:08:03.360><c> much</c>
+
+00:08:03.589 --> 00:08:03.599 align:start position:0%
+put it in a file. Don't need much
+ 
+
+00:08:03.599 --> 00:08:07.430 align:start position:0%
+put it in a file. Don't need much
+reasoning<00:08:03.919><c> for</c><00:08:04.160><c> that.</c>
+
+00:08:07.430 --> 00:08:07.440 align:start position:0%
+ 
+ 
+
+00:08:07.440 --> 00:08:09.350 align:start position:0%
+ 
+All right.<00:08:08.160><c> So</c><00:08:08.319><c> now</c><00:08:08.479><c> let's</c><00:08:08.720><c> look</c><00:08:08.879><c> at</c><00:08:09.120><c> our</c>
+
+00:08:09.350 --> 00:08:09.360 align:start position:0%
+All right. So now let's look at our
+ 
+
+00:08:09.360 --> 00:08:15.029 align:start position:0%
+All right. So now let's look at our
+wrapper<00:08:09.840><c> script.</c>
+
+00:08:15.029 --> 00:08:15.039 align:start position:0%
+ 
+ 
+
+00:08:15.039 --> 00:08:18.790 align:start position:0%
+ 
+It's<00:08:15.280><c> really</c><00:08:15.599><c> small,</c><00:08:16.560><c> only</c><00:08:16.879><c> 72</c><00:08:17.360><c> lines.</c>
+
+00:08:18.790 --> 00:08:18.800 align:start position:0%
+It's really small, only 72 lines.
+ 
+
+00:08:18.800 --> 00:08:24.309 align:start position:0%
+It's really small, only 72 lines.
+basically<00:08:19.280><c> just</c><00:08:19.840><c> takes</c><00:08:20.160><c> in</c><00:08:21.360><c> the</c><00:08:22.479><c> inputs.</c>
+
+00:08:24.309 --> 00:08:24.319 align:start position:0%
+basically just takes in the inputs.
+ 
+
+00:08:24.319 --> 00:08:26.469 align:start position:0%
+basically just takes in the inputs.
+It's<00:08:24.560><c> going</c><00:08:24.720><c> to</c><00:08:24.879><c> call</c><00:08:25.280><c> this</c><00:08:25.520><c> agent</c><00:08:25.919><c> exeutor</c>
+
+00:08:26.469 --> 00:08:26.479 align:start position:0%
+It's going to call this agent exeutor
+ 
+
+00:08:26.479 --> 00:08:28.150 align:start position:0%
+It's going to call this agent exeutor
+Python<00:08:26.879><c> class,</c><00:08:27.199><c> which</c><00:08:27.360><c> I'll</c><00:08:27.599><c> show</c><00:08:27.759><c> in</c><00:08:27.919><c> just</c><00:08:28.000><c> a</c>
+
+00:08:28.150 --> 00:08:28.160 align:start position:0%
+Python class, which I'll show in just a
+ 
+
+00:08:28.160 --> 00:08:29.909 align:start position:0%
+Python class, which I'll show in just a
+minute.<00:08:28.400><c> Also</c><00:08:28.720><c> very</c><00:08:28.960><c> small,</c><00:08:29.520><c> and</c><00:08:29.599><c> it's</c><00:08:29.840><c> going</c>
+
+00:08:29.909 --> 00:08:29.919 align:start position:0%
+minute. Also very small, and it's going
+ 
+
+00:08:29.919 --> 00:08:34.790 align:start position:0%
+minute. Also very small, and it's going
+to<00:08:30.080><c> return</c><00:08:31.120><c> that</c><00:08:31.759><c> uh</c><00:08:32.959><c> the</c><00:08:33.200><c> agent's</c><00:08:33.839><c> output</c><00:08:34.479><c> to</c>
+
+00:08:34.790 --> 00:08:34.800 align:start position:0%
+to return that uh the agent's output to
+ 
+
+00:08:34.800 --> 00:08:37.430 align:start position:0%
+to return that uh the agent's output to
+standard<00:08:35.200><c> out</c><00:08:35.680><c> so</c><00:08:35.919><c> that</c><00:08:36.159><c> the</c><00:08:36.320><c> main</c><00:08:36.560><c> agent</c><00:08:37.120><c> can</c>
+
+00:08:37.430 --> 00:08:37.440 align:start position:0%
+standard out so that the main agent can
+ 
+
+00:08:37.440 --> 00:08:39.589 align:start position:0%
+standard out so that the main agent can
+see<00:08:37.599><c> it.</c><00:08:38.719><c> Let's</c><00:08:38.880><c> look</c><00:08:39.039><c> at</c><00:08:39.120><c> that</c><00:08:39.279><c> agent</c>
+
+00:08:39.589 --> 00:08:39.599 align:start position:0%
+see it. Let's look at that agent
+ 
+
+00:08:39.599 --> 00:08:42.310 align:start position:0%
+see it. Let's look at that agent
+executive<00:08:40.080><c> class.</c>
+
+00:08:42.310 --> 00:08:42.320 align:start position:0%
+executive class.
+ 
+
+00:08:42.320 --> 00:08:43.430 align:start position:0%
+executive class.
+Not<00:08:42.560><c> going</c><00:08:42.640><c> to</c><00:08:42.800><c> go</c><00:08:42.880><c> through</c><00:08:43.039><c> this</c><00:08:43.279><c> whole</c>
+
+00:08:43.430 --> 00:08:43.440 align:start position:0%
+Not going to go through this whole
+ 
+
+00:08:43.440 --> 00:08:46.070 align:start position:0%
+Not going to go through this whole
+thing.<00:08:44.240><c> Again,</c><00:08:44.480><c> it's</c><00:08:44.720><c> pretty</c><00:08:44.959><c> small.</c>
+
+00:08:46.070 --> 00:08:46.080 align:start position:0%
+thing. Again, it's pretty small.
+ 
+
+00:08:46.080 --> 00:08:48.310 align:start position:0%
+thing. Again, it's pretty small.
+basically<00:08:46.480><c> just</c><00:08:46.720><c> kicks</c><00:08:47.040><c> off</c><00:08:47.440><c> the</c><00:08:47.760><c> child</c><00:08:48.080><c> sub</c>
+
+00:08:48.310 --> 00:08:48.320 align:start position:0%
+basically just kicks off the child sub
+ 
+
+00:08:48.320 --> 00:08:50.870 align:start position:0%
+basically just kicks off the child sub
+agent<00:08:48.640><c> with</c><00:08:48.880><c> the</c><00:08:49.040><c> proper</c><00:08:49.279><c> permissions</c><00:08:50.560><c> and</c>
+
+00:08:50.870 --> 00:08:50.880 align:start position:0%
+agent with the proper permissions and
+ 
+
+00:08:50.880 --> 00:08:53.509 align:start position:0%
+agent with the proper permissions and
+with<00:08:51.120><c> the</c><00:08:51.279><c> right</c><00:08:51.440><c> reasoning</c><00:08:51.920><c> effort</c>
+
+00:08:53.509 --> 00:08:53.519 align:start position:0%
+with the right reasoning effort
+ 
+
+00:08:53.519 --> 00:08:55.350 align:start position:0%
+with the right reasoning effort
+and<00:08:53.680><c> it</c><00:08:53.839><c> disables</c><00:08:54.160><c> the</c><00:08:54.320><c> rollout</c><00:08:54.720><c> recorder</c><00:08:55.200><c> all</c>
+
+00:08:55.350 --> 00:08:55.360 align:start position:0%
+and it disables the rollout recorder all
+ 
+
+00:08:55.360 --> 00:08:56.790 align:start position:0%
+and it disables the rollout recorder all
+that<00:08:55.519><c> kind</c><00:08:55.680><c> of</c><00:08:55.760><c> stuff</c><00:08:56.080><c> just</c><00:08:56.320><c> does</c><00:08:56.480><c> all</c><00:08:56.640><c> that</c>
+
+00:08:56.790 --> 00:08:56.800 align:start position:0%
+that kind of stuff just does all that
+ 
+
+00:08:56.800 --> 00:09:00.949 align:start position:0%
+that kind of stuff just does all that
+for<00:08:56.959><c> you.</c><00:08:57.680><c> So</c><00:08:57.920><c> pretty</c><00:08:58.240><c> handy.</c><00:08:59.600><c> One</c><00:08:59.839><c> thing</c><00:09:00.399><c> that</c>
+
+00:09:00.949 --> 00:09:00.959 align:start position:0%
+for you. So pretty handy. One thing that
+ 
+
+00:09:00.959 --> 00:09:02.790 align:start position:0%
+for you. So pretty handy. One thing that
+I<00:09:01.200><c> think</c><00:09:01.279><c> I</c><00:09:01.519><c> didn't</c><00:09:01.760><c> cover</c><00:09:02.320><c> you</c><00:09:02.480><c> look</c><00:09:02.640><c> at</c>
+
+00:09:02.790 --> 00:09:02.800 align:start position:0%
+I think I didn't cover you look at
+ 
+
+00:09:02.800 --> 00:09:05.110 align:start position:0%
+I think I didn't cover you look at
+agents<00:09:03.440><c> MD</c>
+
+00:09:05.110 --> 00:09:05.120 align:start position:0%
+agents MD
+ 
+
+00:09:05.120 --> 00:09:08.710 align:start position:0%
+agents MD
+is<00:09:06.240><c> it's</c><00:09:06.560><c> kind</c><00:09:06.720><c> of</c><00:09:06.800><c> important</c><00:09:07.279><c> here</c><00:09:08.160><c> is</c><00:09:08.480><c> this</c>
+
+00:09:08.710 --> 00:09:08.720 align:start position:0%
+is it's kind of important here is this
+ 
+
+00:09:08.720 --> 00:09:13.269 align:start position:0%
+is it's kind of important here is this
+part.<00:09:10.160><c> So</c><00:09:11.040><c> when</c><00:09:11.279><c> we're</c><00:09:11.519><c> telling</c><00:09:12.560><c> Codeex</c><00:09:13.120><c> how</c>
+
+00:09:13.269 --> 00:09:13.279 align:start position:0%
+part. So when we're telling Codeex how
+ 
+
+00:09:13.279 --> 00:09:15.509 align:start position:0%
+part. So when we're telling Codeex how
+to<00:09:13.360><c> invoke</c><00:09:13.680><c> the</c><00:09:13.920><c> sub</c><00:09:14.080><c> agent,</c><00:09:15.120><c> we're</c><00:09:15.360><c> going</c><00:09:15.360><c> to</c>
+
+00:09:15.509 --> 00:09:15.519 align:start position:0%
+to invoke the sub agent, we're going to
+ 
+
+00:09:15.519 --> 00:09:17.670 align:start position:0%
+to invoke the sub agent, we're going to
+have<00:09:15.600><c> it</c><00:09:15.760><c> write</c><00:09:16.000><c> the</c><00:09:16.160><c> agent</c><00:09:16.560><c> name</c><00:09:16.880><c> to</c><00:09:17.120><c> a</c><00:09:17.360><c> file.</c>
+
+00:09:17.670 --> 00:09:17.680 align:start position:0%
+have it write the agent name to a file.
+ 
+
+00:09:17.680 --> 00:09:19.190 align:start position:0%
+have it write the agent name to a file.
+We're<00:09:17.839><c> going</c><00:09:17.839><c> to</c><00:09:17.920><c> have</c><00:09:18.080><c> it</c><00:09:18.240><c> write</c><00:09:18.560><c> the</c><00:09:18.800><c> user's</c>
+
+00:09:19.190 --> 00:09:19.200 align:start position:0%
+We're going to have it write the user's
+ 
+
+00:09:19.200 --> 00:09:20.630 align:start position:0%
+We're going to have it write the user's
+query<00:09:19.519><c> to</c><00:09:19.680><c> a</c><00:09:19.839><c> file</c><00:09:20.080><c> and</c><00:09:20.320><c> then</c><00:09:20.399><c> we're</c><00:09:20.560><c> going</c><00:09:20.560><c> to</c>
+
+00:09:20.630 --> 00:09:20.640 align:start position:0%
+query to a file and then we're going to
+ 
+
+00:09:20.640 --> 00:09:22.870 align:start position:0%
+query to a file and then we're going to
+have<00:09:20.800><c> it</c><00:09:20.959><c> run</c><00:09:21.120><c> this</c><00:09:21.360><c> command.</c>
+
+00:09:22.870 --> 00:09:22.880 align:start position:0%
+have it run this command.
+ 
+
+00:09:22.880 --> 00:09:24.630 align:start position:0%
+have it run this command.
+You<00:09:22.959><c> know,</c><00:09:23.360><c> another</c><00:09:23.760><c> alternative</c><00:09:24.240><c> to</c><00:09:24.399><c> this</c>
+
+00:09:24.630 --> 00:09:24.640 align:start position:0%
+You know, another alternative to this
+ 
+
+00:09:24.640 --> 00:09:27.430 align:start position:0%
+You know, another alternative to this
+would<00:09:24.880><c> be</c><00:09:25.040><c> to</c><00:09:25.440><c> actually</c><00:09:25.839><c> pass</c><00:09:26.480><c> the</c><00:09:26.720><c> agent</c><00:09:27.120><c> name</c>
+
+00:09:27.430 --> 00:09:27.440 align:start position:0%
+would be to actually pass the agent name
+ 
+
+00:09:27.440 --> 00:09:30.389 align:start position:0%
+would be to actually pass the agent name
+and<00:09:27.680><c> the</c><00:09:27.839><c> query</c><00:09:28.399><c> as</c><00:09:28.640><c> command</c><00:09:29.040><c> arguments.</c><00:09:30.080><c> The</c>
+
+00:09:30.389 --> 00:09:30.399 align:start position:0%
+and the query as command arguments. The
+ 
+
+00:09:30.399 --> 00:09:32.790 align:start position:0%
+and the query as command arguments. The
+reason<00:09:30.560><c> why</c><00:09:30.800><c> we</c><00:09:30.959><c> don't</c><00:09:31.120><c> want</c><00:09:31.279><c> to</c><00:09:31.440><c> do</c><00:09:31.600><c> that</c><00:09:32.560><c> is</c>
+
+00:09:32.790 --> 00:09:32.800 align:start position:0%
+reason why we don't want to do that is
+ 
+
+00:09:32.800 --> 00:09:36.470 align:start position:0%
+reason why we don't want to do that is
+because<00:09:33.040><c> of</c><00:09:33.200><c> Codex's</c><00:09:33.760><c> permissioning</c><00:09:34.320><c> system.</c>
+
+00:09:36.470 --> 00:09:36.480 align:start position:0%
+because of Codex's permissioning system.
+ 
+
+00:09:36.480 --> 00:09:38.470 align:start position:0%
+because of Codex's permissioning system.
+As<00:09:36.720><c> long</c><00:09:36.880><c> as</c><00:09:37.040><c> the</c><00:09:37.279><c> command</c><00:09:37.600><c> looks</c><00:09:37.839><c> exactly</c><00:09:38.240><c> the</c>
+
+00:09:38.470 --> 00:09:38.480 align:start position:0%
+As long as the command looks exactly the
+ 
+
+00:09:38.480 --> 00:09:42.230 align:start position:0%
+As long as the command looks exactly the
+same,<00:09:39.839><c> you</c><00:09:40.080><c> only</c><00:09:40.320><c> have</c><00:09:40.560><c> to</c><00:09:41.360><c> grant</c><00:09:41.680><c> permission</c>
+
+00:09:42.230 --> 00:09:42.240 align:start position:0%
+same, you only have to grant permission
+ 
+
+00:09:42.240 --> 00:09:44.550 align:start position:0%
+same, you only have to grant permission
+once.<00:09:43.600><c> But</c><00:09:43.760><c> if</c><00:09:44.000><c> you</c><00:09:44.160><c> have</c><00:09:44.240><c> different</c>
+
+00:09:44.550 --> 00:09:44.560 align:start position:0%
+once. But if you have different
+ 
+
+00:09:44.560 --> 00:09:46.389 align:start position:0%
+once. But if you have different
+arguments<00:09:44.959><c> to</c><00:09:45.120><c> the</c><00:09:45.360><c> command,</c><00:09:45.839><c> you</c><00:09:46.080><c> have</c><00:09:46.240><c> to</c>
+
+00:09:46.389 --> 00:09:46.399 align:start position:0%
+arguments to the command, you have to
+ 
+
+00:09:46.399 --> 00:09:49.590 align:start position:0%
+arguments to the command, you have to
+approve<00:09:46.720><c> it</c><00:09:46.959><c> every</c><00:09:47.360><c> time.</c><00:09:48.800><c> So</c><00:09:48.959><c> it</c><00:09:49.200><c> gets</c><00:09:49.440><c> really</c>
+
+00:09:49.590 --> 00:09:49.600 align:start position:0%
+approve it every time. So it gets really
+ 
+
+00:09:49.600 --> 00:09:52.310 align:start position:0%
+approve it every time. So it gets really
+annoying<00:09:50.720><c> if</c><00:09:50.959><c> you</c><00:09:51.200><c> have</c><00:09:51.279><c> to</c><00:09:51.519><c> approve</c><00:09:52.000><c> every</c>
+
+00:09:52.310 --> 00:09:52.320 align:start position:0%
+annoying if you have to approve every
+ 
+
+00:09:52.320 --> 00:09:55.750 align:start position:0%
+annoying if you have to approve every
+time<00:09:53.760><c> that</c><00:09:54.399><c> codeex</c><00:09:54.880><c> wants</c><00:09:55.120><c> to</c><00:09:55.279><c> call</c><00:09:55.519><c> sub</c>
+
+00:09:55.750 --> 00:09:55.760 align:start position:0%
+time that codeex wants to call sub
+ 
+
+00:09:55.760 --> 00:09:57.269 align:start position:0%
+time that codeex wants to call sub
+agent.
+
+00:09:57.269 --> 00:09:57.279 align:start position:0%
+agent.
+ 
+
+00:09:57.279 --> 00:09:58.630 align:start position:0%
+agent.
+So<00:09:57.440><c> in</c><00:09:57.600><c> this</c><00:09:57.760><c> case,</c><00:09:57.920><c> we</c><00:09:58.080><c> make</c><00:09:58.240><c> the</c><00:09:58.399><c> command</c>
+
+00:09:58.630 --> 00:09:58.640 align:start position:0%
+So in this case, we make the command
+ 
+
+00:09:58.640 --> 00:10:00.949 align:start position:0%
+So in this case, we make the command
+look<00:09:58.880><c> exactly</c><00:09:59.200><c> the</c><00:09:59.440><c> same.</c><00:10:00.240><c> Codex</c><00:10:00.640><c> is</c><00:10:00.800><c> just</c>
+
+00:10:00.949 --> 00:10:00.959 align:start position:0%
+look exactly the same. Codex is just
+ 
+
+00:10:00.959 --> 00:10:03.509 align:start position:0%
+look exactly the same. Codex is just
+going<00:10:01.040><c> to</c><00:10:01.120><c> run</c><00:10:01.279><c> it.</c>
+
+00:10:03.509 --> 00:10:03.519 align:start position:0%
+going to run it.
+ 
+
+00:10:03.519 --> 00:10:05.350 align:start position:0%
+going to run it.
+Now,<00:10:03.760><c> if</c><00:10:03.920><c> you</c><00:10:04.080><c> run</c><00:10:04.320><c> again</c><00:10:04.560><c> with</c><00:10:04.800><c> dangerously</c>
+
+00:10:05.350 --> 00:10:05.360 align:start position:0%
+Now, if you run again with dangerously
+ 
+
+00:10:05.360 --> 00:10:06.389 align:start position:0%
+Now, if you run again with dangerously
+skip<00:10:05.519><c> permissions</c><00:10:05.839><c> or</c><00:10:06.000><c> whatever,</c><00:10:06.240><c> you</c><00:10:06.320><c> don't</c>
+
+00:10:06.389 --> 00:10:06.399 align:start position:0%
+skip permissions or whatever, you don't
+ 
+
+00:10:06.399 --> 00:10:09.030 align:start position:0%
+skip permissions or whatever, you don't
+have<00:10:06.480><c> to</c><00:10:06.560><c> worry</c><00:10:06.720><c> about</c><00:10:06.880><c> this.</c>
+
+00:10:09.030 --> 00:10:09.040 align:start position:0%
+have to worry about this.
+ 
+
+00:10:09.040 --> 00:10:10.550 align:start position:0%
+have to worry about this.
+But<00:10:09.200><c> all</c><00:10:09.279><c> right,</c><00:10:09.519><c> let's</c><00:10:09.760><c> go</c><00:10:09.920><c> in.</c><00:10:10.240><c> Oh,</c><00:10:10.480><c> then</c>
+
+00:10:10.550 --> 00:10:10.560 align:start position:0%
+But all right, let's go in. Oh, then
+ 
+
+00:10:10.560 --> 00:10:12.150 align:start position:0%
+But all right, let's go in. Oh, then
+we've<00:10:10.720><c> got</c><00:10:10.880><c> this</c><00:10:11.040><c> also</c><00:10:11.279><c> this</c><00:10:11.440><c> wrapper</c><00:10:11.839><c> script</c>
+
+00:10:12.150 --> 00:10:12.160 align:start position:0%
+we've got this also this wrapper script
+ 
+
+00:10:12.160 --> 00:10:13.750 align:start position:0%
+we've got this also this wrapper script
+around<00:10:12.480><c> codeex.</c><00:10:13.040><c> So,</c><00:10:13.200><c> let's</c><00:10:13.440><c> take</c><00:10:13.519><c> a</c><00:10:13.600><c> look</c><00:10:13.680><c> at</c>
+
+00:10:13.750 --> 00:10:13.760 align:start position:0%
+around codeex. So, let's take a look at
+ 
+
+00:10:13.760 --> 00:10:16.150 align:start position:0%
+around codeex. So, let's take a look at
+that<00:10:14.000><c> real</c><00:10:14.240><c> quick.</c><00:10:14.640><c> Super</c><00:10:14.959><c> simple.</c><00:10:15.680><c> Uh,</c><00:10:15.920><c> what</c>
+
+00:10:16.150 --> 00:10:16.160 align:start position:0%
+that real quick. Super simple. Uh, what
+ 
+
+00:10:16.160 --> 00:10:19.269 align:start position:0%
+that real quick. Super simple. Uh, what
+it<00:10:16.320><c> does</c><00:10:16.640><c> is</c><00:10:16.880><c> it</c><00:10:17.200><c> takes</c><00:10:17.920><c> the</c><00:10:18.399><c> codeex</c><00:10:18.959><c> home</c>
+
+00:10:19.269 --> 00:10:19.279 align:start position:0%
+it does is it takes the codeex home
+ 
+
+00:10:19.279 --> 00:10:20.710 align:start position:0%
+it does is it takes the codeex home
+files<00:10:19.600><c> from</c><00:10:19.760><c> your</c><00:10:19.920><c> home</c><00:10:20.160><c> directory.</c><00:10:20.560><c> It's</c>
+
+00:10:20.710 --> 00:10:20.720 align:start position:0%
+files from your home directory. It's
+ 
+
+00:10:20.720 --> 00:10:23.190 align:start position:0%
+files from your home directory. It's
+going<00:10:20.800><c> to</c><00:10:20.880><c> sync</c><00:10:21.120><c> them</c><00:10:21.680><c> into</c><00:10:22.000><c> a</c><00:10:22.240><c> subdirectory</c>
+
+00:10:23.190 --> 00:10:23.200 align:start position:0%
+going to sync them into a subdirectory
+ 
+
+00:10:23.200 --> 00:10:25.350 align:start position:0%
+going to sync them into a subdirectory
+so<00:10:23.360><c> it</c><00:10:23.600><c> has</c><00:10:23.839><c> access</c><00:10:24.160><c> to</c><00:10:24.320><c> them</c><00:10:24.880><c> and</c><00:10:25.120><c> it's</c><00:10:25.279><c> going</c>
+
+00:10:25.350 --> 00:10:25.360 align:start position:0%
+so it has access to them and it's going
+ 
+
+00:10:25.360 --> 00:10:27.910 align:start position:0%
+so it has access to them and it's going
+to<00:10:25.440><c> set</c><00:10:25.680><c> codeex</c><00:10:26.160><c> home</c><00:10:26.560><c> to</c><00:10:26.800><c> that</c><00:10:27.040><c> directory.</c>
+
+00:10:27.910 --> 00:10:27.920 align:start position:0%
+to set codeex home to that directory.
+ 
+
+00:10:27.920 --> 00:10:29.829 align:start position:0%
+to set codeex home to that directory.
+And<00:10:28.079><c> it's</c><00:10:28.240><c> just</c><00:10:28.320><c> going</c><00:10:28.399><c> to</c><00:10:28.560><c> launch</c><00:10:28.800><c> codeex.</c><00:10:29.600><c> In</c>
+
+00:10:29.829 --> 00:10:29.839 align:start position:0%
+And it's just going to launch codeex. In
+ 
+
+00:10:29.839 --> 00:10:31.190 align:start position:0%
+And it's just going to launch codeex. In
+this<00:10:29.920><c> case,</c><00:10:30.079><c> I'm</c><00:10:30.240><c> launching</c><00:10:30.560><c> in</c><00:10:30.720><c> full</c><00:10:30.880><c> auto</c>
+
+00:10:31.190 --> 00:10:31.200 align:start position:0%
+this case, I'm launching in full auto
+ 
+
+00:10:31.200 --> 00:10:33.910 align:start position:0%
+this case, I'm launching in full auto
+mode,<00:10:31.440><c> which</c><00:10:31.600><c> is</c><00:10:31.760><c> just</c><00:10:31.920><c> like</c><00:10:32.240><c> shorthand</c><00:10:32.880><c> for</c>
+
+00:10:33.910 --> 00:10:33.920 align:start position:0%
+mode, which is just like shorthand for
+ 
+
+00:10:33.920 --> 00:10:36.630 align:start position:0%
+mode, which is just like shorthand for
+workspace,<00:10:34.480><c> write</c><00:10:34.959><c> plus,</c><00:10:35.839><c> I</c><00:10:36.000><c> think,</c><00:10:36.240><c> approval</c>
+
+00:10:36.630 --> 00:10:36.640 align:start position:0%
+workspace, write plus, I think, approval
+ 
+
+00:10:36.640 --> 00:10:38.069 align:start position:0%
+workspace, write plus, I think, approval
+on<00:10:36.800><c> a</c><00:10:36.959><c> request</c><00:10:37.200><c> or</c><00:10:37.440><c> something</c><00:10:37.680><c> like</c><00:10:37.760><c> that.</c><00:10:37.920><c> I</c>
+
+00:10:38.069 --> 00:10:38.079 align:start position:0%
+on a request or something like that. I
+ 
+
+00:10:38.079 --> 00:10:40.630 align:start position:0%
+on a request or something like that. I
+can't<00:10:38.240><c> remember</c><00:10:38.399><c> which</c><00:10:38.640><c> one.</c><00:10:39.519><c> Um,</c><00:10:40.079><c> but</c><00:10:40.399><c> pretty</c>
+
+00:10:40.630 --> 00:10:40.640 align:start position:0%
+can't remember which one. Um, but pretty
+ 
+
+00:10:40.640 --> 00:10:42.790 align:start position:0%
+can't remember which one. Um, but pretty
+straightforward.<00:10:41.279><c> Not</c><00:10:41.440><c> much</c><00:10:41.680><c> going</c><00:10:41.839><c> on</c><00:10:42.000><c> here.</c>
+
+00:10:42.790 --> 00:10:42.800 align:start position:0%
+straightforward. Not much going on here.
+ 
+
+00:10:42.800 --> 00:10:45.350 align:start position:0%
+straightforward. Not much going on here.
+Really<00:10:43.120><c> not</c><00:10:43.360><c> much</c><00:10:43.600><c> code.</c>
+
+00:10:45.350 --> 00:10:45.360 align:start position:0%
+Really not much code.
+ 
+
+00:10:45.360 --> 00:10:46.710 align:start position:0%
+Really not much code.
+All<00:10:45.440><c> right,</c><00:10:45.680><c> let's</c><00:10:45.920><c> go</c><00:10:46.079><c> ahead</c><00:10:46.240><c> and</c><00:10:46.399><c> launch</c>
+
+00:10:46.710 --> 00:10:46.720 align:start position:0%
+All right, let's go ahead and launch
+ 
+
+00:10:46.720 --> 00:10:50.150 align:start position:0%
+All right, let's go ahead and launch
+this.
+
+00:10:50.150 --> 00:10:50.160 align:start position:0%
+ 
+ 
+
+00:10:50.160 --> 00:10:51.670 align:start position:0%
+ 
+Okay,
+
+00:10:51.670 --> 00:10:51.680 align:start position:0%
+Okay,
+ 
+
+00:10:51.680 --> 00:10:54.949 align:start position:0%
+Okay,
+now<00:10:51.920><c> let's</c><00:10:52.160><c> just</c><00:10:52.320><c> give</c><00:10:52.480><c> it</c><00:10:52.880><c> just</c><00:10:53.120><c> a</c><00:10:53.360><c> quick</c>
+
+00:10:54.949 --> 00:10:54.959 align:start position:0%
+now let's just give it just a quick
+ 
+
+00:10:54.959 --> 00:10:56.630 align:start position:0%
+now let's just give it just a quick
+query.
+
+00:10:56.630 --> 00:10:56.640 align:start position:0%
+query.
+ 
+
+00:10:56.640 --> 00:10:57.829 align:start position:0%
+query.
+I'm<00:10:56.720><c> going</c><00:10:56.880><c> to</c><00:10:56.959><c> tell</c><00:10:57.040><c> it</c><00:10:57.200><c> to</c><00:10:57.360><c> use</c><00:10:57.440><c> its</c><00:10:57.600><c> work</c>
+
+00:10:57.829 --> 00:10:57.839 align:start position:0%
+I'm going to tell it to use its work
+ 
+
+00:10:57.839 --> 00:11:00.949 align:start position:0%
+I'm going to tell it to use its work
+counter<00:10:58.160><c> sub</c><00:10:58.399><c> agent.</c><00:10:59.839><c> Have</c><00:11:00.000><c> it</c><00:11:00.160><c> go</c><00:11:00.320><c> off</c><00:11:00.560><c> and</c><00:11:00.800><c> do</c>
+
+00:11:00.949 --> 00:11:00.959 align:start position:0%
+counter sub agent. Have it go off and do
+ 
+
+00:11:00.959 --> 00:11:04.310 align:start position:0%
+counter sub agent. Have it go off and do
+that.
+
+00:11:04.310 --> 00:11:04.320 align:start position:0%
+ 
+ 
+
+00:11:04.320 --> 00:11:06.710 align:start position:0%
+ 
+You're<00:11:04.560><c> going</c><00:11:04.640><c> to</c><00:11:04.800><c> see</c><00:11:04.959><c> it</c>
+
+00:11:06.710 --> 00:11:06.720 align:start position:0%
+You're going to see it
+ 
+
+00:11:06.720 --> 00:11:08.470 align:start position:0%
+You're going to see it
+figure<00:11:07.040><c> out</c><00:11:07.120><c> that</c><00:11:07.279><c> it</c><00:11:07.519><c> needs</c><00:11:07.680><c> to</c><00:11:07.839><c> run</c><00:11:08.079><c> this</c>
+
+00:11:08.470 --> 00:11:08.480 align:start position:0%
+figure out that it needs to run this
+ 
+
+00:11:08.480 --> 00:11:10.310 align:start position:0%
+figure out that it needs to run this
+agent<00:11:08.880><c> exec.</c><00:11:09.360><c> It's</c><00:11:09.600><c> going</c><00:11:09.680><c> to</c><00:11:09.760><c> go</c><00:11:09.920><c> ahead</c><00:11:10.079><c> and</c>
+
+00:11:10.310 --> 00:11:10.320 align:start position:0%
+agent exec. It's going to go ahead and
+ 
+
+00:11:10.320 --> 00:11:12.150 align:start position:0%
+agent exec. It's going to go ahead and
+put<00:11:10.800><c> the</c><00:11:11.040><c> name</c><00:11:11.120><c> of</c><00:11:11.279><c> the</c><00:11:11.360><c> agent</c><00:11:11.600><c> in</c><00:11:11.680><c> a</c><00:11:11.839><c> file.</c>
+
+00:11:12.150 --> 00:11:12.160 align:start position:0%
+put the name of the agent in a file.
+ 
+
+00:11:12.160 --> 00:11:15.030 align:start position:0%
+put the name of the agent in a file.
+It's<00:11:12.320><c> going</c><00:11:12.399><c> to</c><00:11:12.560><c> put</c><00:11:13.120><c> query</c><00:11:13.440><c> in</c><00:11:13.600><c> a</c><00:11:13.760><c> file.</c><00:11:14.880><c> Then</c>
+
+00:11:15.030 --> 00:11:15.040 align:start position:0%
+It's going to put query in a file. Then
+ 
+
+00:11:15.040 --> 00:11:16.470 align:start position:0%
+It's going to put query in a file. Then
+it's<00:11:15.200><c> going</c><00:11:15.279><c> to</c><00:11:15.360><c> ask</c><00:11:15.519><c> me</c><00:11:15.680><c> for</c><00:11:15.920><c> permissions</c><00:11:16.320><c> to</c>
+
+00:11:16.470 --> 00:11:16.480 align:start position:0%
+it's going to ask me for permissions to
+ 
+
+00:11:16.480 --> 00:11:17.910 align:start position:0%
+it's going to ask me for permissions to
+run<00:11:16.640><c> it.</c><00:11:16.880><c> And</c><00:11:17.040><c> it's</c><00:11:17.279><c> really</c><00:11:17.440><c> important</c><00:11:17.760><c> here</c>
+
+00:11:17.910 --> 00:11:17.920 align:start position:0%
+run it. And it's really important here
+ 
+
+00:11:17.920 --> 00:11:19.750 align:start position:0%
+run it. And it's really important here
+that<00:11:18.160><c> I</c><00:11:18.320><c> say</c><00:11:18.560><c> yes</c><00:11:18.800><c> and</c><00:11:19.040><c> don't</c><00:11:19.200><c> ask</c><00:11:19.360><c> again</c><00:11:19.600><c> for</c>
+
+00:11:19.750 --> 00:11:19.760 align:start position:0%
+that I say yes and don't ask again for
+ 
+
+00:11:19.760 --> 00:11:22.150 align:start position:0%
+that I say yes and don't ask again for
+this<00:11:19.920><c> command.</c><00:11:20.800><c> That</c><00:11:21.040><c> way</c><00:11:21.600><c> it's</c><00:11:21.839><c> not</c><00:11:22.000><c> going</c><00:11:22.079><c> to</c>
+
+00:11:22.150 --> 00:11:22.160 align:start position:0%
+this command. That way it's not going to
+ 
+
+00:11:22.160 --> 00:11:25.030 align:start position:0%
+this command. That way it's not going to
+ask<00:11:22.399><c> me</c><00:11:22.560><c> every</c><00:11:22.800><c> time</c><00:11:22.959><c> it</c><00:11:23.120><c> has</c><00:11:23.279><c> to</c><00:11:23.440><c> run</c><00:11:24.560><c> a</c><00:11:24.800><c> sub</c>
+
+00:11:25.030 --> 00:11:25.040 align:start position:0%
+ask me every time it has to run a sub
+ 
+
+00:11:25.040 --> 00:11:26.790 align:start position:0%
+ask me every time it has to run a sub
+agent.
+
+00:11:26.790 --> 00:11:26.800 align:start position:0%
+agent.
+ 
+
+00:11:26.800 --> 00:11:28.069 align:start position:0%
+agent.
+You'll<00:11:27.120><c> notice</c><00:11:27.360><c> that</c><00:11:27.519><c> it's</c><00:11:27.760><c> running</c>
+
+00:11:28.069 --> 00:11:28.079 align:start position:0%
+You'll notice that it's running
+ 
+
+00:11:28.079 --> 00:11:30.630 align:start position:0%
+You'll notice that it's running
+everything<00:11:28.320><c> in</c><00:11:28.560><c> serial</c><00:11:28.959><c> here.</c><00:11:30.000><c> Codeex</c><00:11:30.480><c> does</c>
+
+00:11:30.630 --> 00:11:30.640 align:start position:0%
+everything in serial here. Codeex does
+ 
+
+00:11:30.640 --> 00:11:32.550 align:start position:0%
+everything in serial here. Codeex does
+not<00:11:30.800><c> have</c><00:11:30.880><c> the</c><00:11:31.120><c> ability</c><00:11:31.600><c> to</c><00:11:31.920><c> run</c><00:11:32.160><c> things</c>
+
+00:11:32.550 --> 00:11:32.560 align:start position:0%
+not have the ability to run things
+ 
+
+00:11:32.560 --> 00:11:35.430 align:start position:0%
+not have the ability to run things
+asynchronously<00:11:33.680><c> like</c><00:11:34.000><c> claw</c><00:11:34.399><c> does.</c><00:11:35.040><c> So,</c><00:11:35.279><c> this</c>
+
+00:11:35.430 --> 00:11:35.440 align:start position:0%
+asynchronously like claw does. So, this
+ 
+
+00:11:35.440 --> 00:11:38.069 align:start position:0%
+asynchronously like claw does. So, this
+is<00:11:35.680><c> slower.</c><00:11:36.640><c> And</c><00:11:36.800><c> Codeex</c><00:11:37.279><c> in</c><00:11:37.519><c> general,</c><00:11:37.839><c> if</c>
+
+00:11:38.069 --> 00:11:38.079 align:start position:0%
+is slower. And Codeex in general, if
+ 
+
+00:11:38.079 --> 00:11:39.990 align:start position:0%
+is slower. And Codeex in general, if
+you've<00:11:38.240><c> used</c><00:11:38.399><c> it,</c><00:11:38.640><c> I</c><00:11:38.800><c> think</c><00:11:38.880><c> you</c><00:11:39.120><c> find</c><00:11:39.680><c> it's</c>
+
+00:11:39.990 --> 00:11:40.000 align:start position:0%
+you've used it, I think you find it's
+ 
+
+00:11:40.000 --> 00:11:45.269 align:start position:0%
+you've used it, I think you find it's
+slower<00:11:40.560><c> overall</c><00:11:42.000><c> than</c><00:11:42.640><c> than</c><00:11:44.000><c> Cloud</c><00:11:44.399><c> Code.</c><00:11:45.200><c> But</c>
+
+00:11:45.269 --> 00:11:45.279 align:start position:0%
+slower overall than than Cloud Code. But
+ 
+
+00:11:45.279 --> 00:11:46.470 align:start position:0%
+slower overall than than Cloud Code. But
+I<00:11:45.440><c> think</c><00:11:45.519><c> that's</c><00:11:45.839><c> really</c><00:11:46.160><c> kind</c><00:11:46.320><c> of</c>
+
+00:11:46.470 --> 00:11:46.480 align:start position:0%
+I think that's really kind of
+ 
+
+00:11:46.480 --> 00:11:48.790 align:start position:0%
+I think that's really kind of
+intentional.<00:11:47.600><c> seems</c><00:11:47.839><c> like</c><00:11:48.000><c> Codex</c><00:11:48.480><c> is</c><00:11:48.640><c> really</c>
+
+00:11:48.790 --> 00:11:48.800 align:start position:0%
+intentional. seems like Codex is really
+ 
+
+00:11:48.800 --> 00:11:50.150 align:start position:0%
+intentional. seems like Codex is really
+kind<00:11:48.959><c> of</c><00:11:49.120><c> meant</c><00:11:49.360><c> to</c><00:11:49.519><c> be</c><00:11:49.600><c> more</c><00:11:49.760><c> of</c><00:11:49.920><c> like</c><00:11:50.000><c> a</c>
+
+00:11:50.150 --> 00:11:50.160 align:start position:0%
+kind of meant to be more of like a
+ 
+
+00:11:50.160 --> 00:11:53.110 align:start position:0%
+kind of meant to be more of like a
+hands-off<00:11:50.720><c> unattended</c><00:11:51.440><c> type</c><00:11:51.600><c> of</c><00:11:51.760><c> a</c><00:11:52.399><c> tool</c>
+
+00:11:53.110 --> 00:11:53.120 align:start position:0%
+hands-off unattended type of a tool
+ 
+
+00:11:53.120 --> 00:11:55.269 align:start position:0%
+hands-off unattended type of a tool
+versus<00:11:54.000><c> clog</c><00:11:54.320><c> code</c><00:11:54.560><c> is</c><00:11:54.720><c> meant</c><00:11:54.880><c> to</c><00:11:54.959><c> be</c><00:11:55.120><c> more</c>
+
+00:11:55.269 --> 00:11:55.279 align:start position:0%
+versus clog code is meant to be more
+ 
+
+00:11:55.279 --> 00:11:58.150 align:start position:0%
+versus clog code is meant to be more
+kind<00:11:55.440><c> of</c><00:11:55.519><c> iterative</c><00:11:56.800><c> and</c><00:11:57.040><c> so</c><00:11:57.760><c> you</c><00:11:57.839><c> know</c><00:11:58.000><c> I</c>
+
+00:11:58.150 --> 00:11:58.160 align:start position:0%
+kind of iterative and so you know I
+ 
+
+00:11:58.160 --> 00:11:59.910 align:start position:0%
+kind of iterative and so you know I
+think<00:11:58.240><c> that's</c><00:11:58.480><c> actually</c><00:11:58.880><c> okay.</c><00:11:59.200><c> I</c><00:11:59.440><c> found</c><00:11:59.600><c> this</c>
+
+00:11:59.910 --> 00:11:59.920 align:start position:0%
+think that's actually okay. I found this
+ 
+
+00:11:59.920 --> 00:12:01.829 align:start position:0%
+think that's actually okay. I found this
+okay<00:12:00.160><c> for</c><00:12:00.399><c> me</c><00:12:00.560><c> the</c><00:12:00.800><c> way</c><00:12:00.959><c> that</c><00:12:01.200><c> I've</c><00:12:01.600><c> used</c>
+
+00:12:01.829 --> 00:12:01.839 align:start position:0%
+okay for me the way that I've used
+ 
+
+00:12:01.839 --> 00:12:04.389 align:start position:0%
+okay for me the way that I've used
+codeex.<00:12:03.120><c> All</c><00:12:03.120><c> right</c><00:12:03.360><c> so</c><00:12:03.519><c> we</c><00:12:03.760><c> can</c><00:12:03.839><c> see</c><00:12:04.000><c> we</c><00:12:04.240><c> got</c>
+
+00:12:04.389 --> 00:12:04.399 align:start position:0%
+codeex. All right so we can see we got
+ 
+
+00:12:04.399 --> 00:12:06.389 align:start position:0%
+codeex. All right so we can see we got
+that<00:12:04.640><c> result</c><00:12:04.959><c> back</c><00:12:05.360><c> printed</c><00:12:05.760><c> to</c><00:12:05.839><c> standard</c><00:12:06.160><c> out</c>
+
+00:12:06.389 --> 00:12:06.399 align:start position:0%
+that result back printed to standard out
+ 
+
+00:12:06.399 --> 00:12:09.030 align:start position:0%
+that result back printed to standard out
+here<00:12:07.200><c> and</c><00:12:07.440><c> then</c>
+
+00:12:09.030 --> 00:12:09.040 align:start position:0%
+here and then
+ 
+
+00:12:09.040 --> 00:12:10.949 align:start position:0%
+here and then
+codeex<00:12:09.519><c> just</c><00:12:09.680><c> gave</c><00:12:09.839><c> us</c><00:12:10.000><c> back</c><00:12:10.160><c> the</c><00:12:10.399><c> answer.</c><00:12:10.800><c> So,</c>
+
+00:12:10.949 --> 00:12:10.959 align:start position:0%
+codeex just gave us back the answer. So,
+ 
+
+00:12:10.959 --> 00:12:12.470 align:start position:0%
+codeex just gave us back the answer. So,
+let's<00:12:11.200><c> just</c><00:12:11.360><c> do</c><00:12:11.519><c> one</c><00:12:11.680><c> more</c><00:12:11.839><c> with</c><00:12:12.000><c> this</c><00:12:12.240><c> file</c>
+
+00:12:12.470 --> 00:12:12.480 align:start position:0%
+let's just do one more with this file
+ 
+
+00:12:12.480 --> 00:12:18.870 align:start position:0%
+let's just do one more with this file
+writer<00:12:12.800><c> sub</c><00:12:12.959><c> agent.</c>
+
+00:12:18.870 --> 00:12:18.880 align:start position:0%
+ 
+ 
+
+00:12:18.880 --> 00:12:20.550 align:start position:0%
+ 
+Again,<00:12:19.440><c> it's</c><00:12:19.680><c> going</c><00:12:19.760><c> to</c><00:12:19.839><c> do</c><00:12:20.000><c> the</c><00:12:20.160><c> same</c><00:12:20.320><c> thing.</c>
+
+00:12:20.550 --> 00:12:20.560 align:start position:0%
+Again, it's going to do the same thing.
+ 
+
+00:12:20.560 --> 00:12:22.790 align:start position:0%
+Again, it's going to do the same thing.
+It's<00:12:20.720><c> going</c><00:12:20.800><c> to</c><00:12:20.959><c> write</c><00:12:21.200><c> that</c><00:12:22.000><c> agent</c><00:12:22.399><c> name</c><00:12:22.560><c> into</c>
+
+00:12:22.790 --> 00:12:22.800 align:start position:0%
+It's going to write that agent name into
+ 
+
+00:12:22.800 --> 00:12:25.670 align:start position:0%
+It's going to write that agent name into
+a<00:12:23.040><c> file.</c><00:12:23.680><c> It's</c><00:12:23.920><c> going</c><00:12:24.079><c> to</c><00:12:24.160><c> write</c>
+
+00:12:25.670 --> 00:12:25.680 align:start position:0%
+a file. It's going to write
+ 
+
+00:12:25.680 --> 00:12:28.150 align:start position:0%
+a file. It's going to write
+the<00:12:26.079><c> query</c><00:12:26.399><c> into</c><00:12:26.639><c> a</c><00:12:26.880><c> file.</c><00:12:27.680><c> Then,</c><00:12:27.920><c> it's</c><00:12:28.079><c> going</c>
+
+00:12:28.150 --> 00:12:28.160 align:start position:0%
+the query into a file. Then, it's going
+ 
+
+00:12:28.160 --> 00:12:30.069 align:start position:0%
+the query into a file. Then, it's going
+to<00:12:28.320><c> call</c><00:12:28.560><c> that</c><00:12:28.800><c> same</c><00:12:29.040><c> command.</c><00:12:29.519><c> It</c><00:12:29.760><c> will</c><00:12:29.920><c> not</c>
+
+00:12:30.069 --> 00:12:30.079 align:start position:0%
+to call that same command. It will not
+ 
+
+00:12:30.079 --> 00:12:34.470 align:start position:0%
+to call that same command. It will not
+ask<00:12:30.320><c> for</c><00:12:30.480><c> permissions</c><00:12:30.959><c> this</c><00:12:31.200><c> time.</c>
+
+00:12:34.470 --> 00:12:34.480 align:start position:0%
+ 
+ 
+
+00:12:34.480 --> 00:12:36.470 align:start position:0%
+ 
+Oh,<00:12:34.720><c> and</c><00:12:34.880><c> we're</c><00:12:35.040><c> using</c><00:12:35.120><c> the</c><00:12:35.279><c> timeout</c><00:12:35.839><c> 600</c><00:12:36.240><c> here</c>
+
+00:12:36.470 --> 00:12:36.480 align:start position:0%
+Oh, and we're using the timeout 600 here
+ 
+
+00:12:36.480 --> 00:12:38.629 align:start position:0%
+Oh, and we're using the timeout 600 here
+because<00:12:37.120><c> some</c><00:12:37.360><c> of</c><00:12:37.519><c> these</c><00:12:38.079><c> agents</c><00:12:38.480><c> can</c>
+
+00:12:38.629 --> 00:12:38.639 align:start position:0%
+because some of these agents can
+ 
+
+00:12:38.639 --> 00:12:40.150 align:start position:0%
+because some of these agents can
+actually<00:12:38.800><c> take</c><00:12:38.959><c> a</c><00:12:39.200><c> long</c><00:12:39.360><c> time</c><00:12:39.440><c> to</c><00:12:39.680><c> run.</c><00:12:39.920><c> If</c>
+
+00:12:40.150 --> 00:12:40.160 align:start position:0%
+actually take a long time to run. If
+ 
+
+00:12:40.160 --> 00:12:42.230 align:start position:0%
+actually take a long time to run. If
+you're<00:12:40.240><c> having</c><00:12:40.480><c> it</c><00:12:40.720><c> do</c><00:12:41.120><c> a</c><00:12:41.360><c> big</c><00:12:41.600><c> task</c><00:12:41.920><c> that's</c>
+
+00:12:42.230 --> 00:12:42.240 align:start position:0%
+you're having it do a big task that's
+ 
+
+00:12:42.240 --> 00:12:44.230 align:start position:0%
+you're having it do a big task that's
+going<00:12:42.320><c> to</c><00:12:42.399><c> have</c><00:12:42.560><c> it</c><00:12:42.959><c> look</c><00:12:43.200><c> across</c><00:12:43.519><c> a</c><00:12:43.760><c> whole</c>
+
+00:12:44.230 --> 00:12:44.240 align:start position:0%
+going to have it look across a whole
+ 
+
+00:12:44.240 --> 00:12:46.230 align:start position:0%
+going to have it look across a whole
+codebase<00:12:44.639><c> and</c><00:12:44.800><c> you</c><00:12:44.959><c> have</c><00:12:45.040><c> a</c><00:12:45.200><c> large</c><00:12:45.360><c> codebase,</c>
+
+00:12:46.230 --> 00:12:46.240 align:start position:0%
+codebase and you have a large codebase,
+ 
+
+00:12:46.240 --> 00:12:48.069 align:start position:0%
+codebase and you have a large codebase,
+it<00:12:46.480><c> can</c><00:12:46.560><c> take</c><00:12:46.720><c> up</c><00:12:46.959><c> to</c><00:12:47.120><c> 10</c><00:12:47.360><c> minutes.</c><00:12:47.839><c> I've</c>
+
+00:12:48.069 --> 00:12:48.079 align:start position:0%
+it can take up to 10 minutes. I've
+ 
+
+00:12:48.079 --> 00:12:49.829 align:start position:0%
+it can take up to 10 minutes. I've
+actually<00:12:48.240><c> seen</c><00:12:48.480><c> them</c><00:12:48.639><c> take</c><00:12:48.880><c> longer,</c><00:12:49.200><c> up</c><00:12:49.360><c> to</c><00:12:49.519><c> 20</c>
+
+00:12:49.829 --> 00:12:49.839 align:start position:0%
+actually seen them take longer, up to 20
+ 
+
+00:12:49.839 --> 00:12:52.069 align:start position:0%
+actually seen them take longer, up to 20
+minutes<00:12:50.480><c> sometimes.</c><00:12:51.519><c> So,</c><00:12:51.600><c> you</c><00:12:51.760><c> might</c><00:12:51.920><c> even</c>
+
+00:12:52.069 --> 00:12:52.079 align:start position:0%
+minutes sometimes. So, you might even
+ 
+
+00:12:52.079 --> 00:12:54.069 align:start position:0%
+minutes sometimes. So, you might even
+want<00:12:52.240><c> a</c><00:12:52.399><c> longer</c><00:12:52.639><c> timeout</c><00:12:53.120><c> here.</c><00:12:53.600><c> This</c><00:12:53.839><c> is</c><00:12:54.000><c> what</c>
+
+00:12:54.069 --> 00:12:54.079 align:start position:0%
+want a longer timeout here. This is what
+ 
+
+00:12:54.079 --> 00:12:57.350 align:start position:0%
+want a longer timeout here. This is what
+I<00:12:54.320><c> set</c><00:12:54.560><c> for</c><00:12:55.360><c> this</c><00:12:55.680><c> example.</c><00:12:56.560><c> In</c><00:12:56.800><c> this</c><00:12:57.040><c> case,</c>
+
+00:12:57.350 --> 00:12:57.360 align:start position:0%
+I set for this example. In this case,
+ 
+
+00:12:57.360 --> 00:12:59.190 align:start position:0%
+I set for this example. In this case,
+this<00:12:57.519><c> is</c><00:12:57.600><c> a</c><00:12:57.839><c> pretty</c><00:12:58.079><c> easy</c><00:12:58.320><c> one.</c><00:12:58.639><c> So,</c><00:12:58.800><c> it</c><00:12:59.040><c> only</c>
+
+00:12:59.190 --> 00:12:59.200 align:start position:0%
+this is a pretty easy one. So, it only
+ 
+
+00:12:59.200 --> 00:13:01.910 align:start position:0%
+this is a pretty easy one. So, it only
+took<00:12:59.440><c> about</c><00:12:59.680><c> 40</c><00:12:59.920><c> seconds.</c><00:13:01.279><c> All</c><00:13:01.360><c> right.</c><00:13:01.600><c> So,</c><00:13:01.760><c> it</c>
+
+00:13:01.910 --> 00:13:01.920 align:start position:0%
+took about 40 seconds. All right. So, it
+ 
+
+00:13:01.920 --> 00:13:03.910 align:start position:0%
+took about 40 seconds. All right. So, it
+wrote<00:13:02.160><c> the</c><00:13:02.320><c> file.</c><00:13:02.800><c> Just</c><00:13:03.040><c> go</c><00:13:03.120><c> ahead</c><00:13:03.360><c> and</c><00:13:03.519><c> verify</c>
+
+00:13:03.910 --> 00:13:03.920 align:start position:0%
+wrote the file. Just go ahead and verify
+ 
+
+00:13:03.920 --> 00:13:06.710 align:start position:0%
+wrote the file. Just go ahead and verify
+that.
+
+00:13:06.710 --> 00:13:06.720 align:start position:0%
+that.
+ 
+
+00:13:06.720 --> 00:13:08.710 align:start position:0%
+that.
+All<00:13:06.800><c> right.</c>
+
+00:13:08.710 --> 00:13:08.720 align:start position:0%
+All right.
+ 
+
+00:13:08.720 --> 00:13:11.670 align:start position:0%
+All right.
+All<00:13:08.880><c> right,</c><00:13:09.440><c> that's</c><00:13:09.760><c> all</c><00:13:09.920><c> I</c><00:13:10.160><c> have.</c><00:13:11.360><c> You</c><00:13:11.600><c> can</c>
+
+00:13:11.670 --> 00:13:11.680 align:start position:0%
+All right, that's all I have. You can
+ 
+
+00:13:11.680 --> 00:13:14.550 align:start position:0%
+All right, that's all I have. You can
+find<00:13:11.839><c> the</c><00:13:12.079><c> code</c><00:13:12.480><c> at</c><00:13:12.720><c> that</c><00:13:12.959><c> URL.</c>
+
+00:13:14.550 --> 00:13:14.560 align:start position:0%
+find the code at that URL.
+ 
+
+00:13:14.560 --> 00:13:17.110 align:start position:0%
+find the code at that URL.
+You<00:13:14.720><c> can</c><00:13:14.800><c> find</c><00:13:15.040><c> betterup</c><00:13:15.440><c> at</c><00:13:15.600><c> betterup.com.</c>
+
+00:13:17.110 --> 00:13:17.120 align:start position:0%
+You can find betterup at betterup.com.
+ 
+
+00:13:17.120 --> 00:13:18.790 align:start position:0%
+You can find betterup at betterup.com.
+If<00:13:17.360><c> you</c><00:13:17.440><c> have</c><00:13:17.600><c> any</c><00:13:17.760><c> questions</c><00:13:18.079><c> for</c><00:13:18.320><c> me,</c><00:13:18.720><c> you</c>
+
+00:13:18.790 --> 00:13:18.800 align:start position:0%
+If you have any questions for me, you
+ 
+
+00:13:18.800 --> 00:13:21.190 align:start position:0%
+If you have any questions for me, you
+can<00:13:18.959><c> use</c><00:13:19.120><c> my</c><00:13:19.360><c> email</c><00:13:19.680><c> address</c><00:13:20.480><c> or</c><00:13:20.720><c> you</c><00:13:20.880><c> can</c><00:13:20.959><c> DM</c>
+
+00:13:21.190 --> 00:13:21.200 align:start position:0%
+can use my email address or you can DM
+ 
+
+00:13:21.200 --> 00:13:24.470 align:start position:0%
+can use my email address or you can DM
+me<00:13:21.360><c> on</c><00:13:21.600><c> X.</c><00:13:22.480><c> I</c><00:13:22.720><c> don't</c><00:13:22.880><c> post</c><00:13:23.200><c> anything</c><00:13:23.440><c> on</c><00:13:23.680><c> X,</c><00:13:24.000><c> so</c>
+
+00:13:24.470 --> 00:13:24.480 align:start position:0%
+me on X. I don't post anything on X, so
+ 
+
+00:13:24.480 --> 00:13:26.629 align:start position:0%
+me on X. I don't post anything on X, so
+really<00:13:24.720><c> no</c><00:13:24.959><c> reason</c><00:13:25.120><c> to</c><00:13:25.279><c> follow</c><00:13:25.519><c> me,</c><00:13:26.160><c> but</c><00:13:26.480><c> go</c>
+
+00:13:26.629 --> 00:13:26.639 align:start position:0%
+really no reason to follow me, but go
+ 
+
+00:13:26.639 --> 00:13:29.670 align:start position:0%
+really no reason to follow me, but go
+ahead<00:13:26.880><c> if</c><00:13:27.040><c> you</c><00:13:27.200><c> want.</c><00:13:28.320><c> And</c><00:13:28.959><c> I</c><00:13:29.200><c> hope</c><00:13:29.360><c> this</c><00:13:29.519><c> was</c>
+
+00:13:29.670 --> 00:13:29.680 align:start position:0%
+ahead if you want. And I hope this was
+ 
+
+00:13:29.680 --> 00:13:32.470 align:start position:0%
+ahead if you want. And I hope this was
+helpful<00:13:30.000><c> for</c><00:13:30.240><c> you.</c><00:13:31.120><c> And</c><00:13:31.279><c> again,</c><00:13:31.600><c> if</c><00:13:31.920><c> BetterUp</c>
+
+00:13:32.470 --> 00:13:32.480 align:start position:0%
+helpful for you. And again, if BetterUp
+ 
+
+00:13:32.480 --> 00:13:34.310 align:start position:0%
+helpful for you. And again, if BetterUp
+sounds<00:13:32.720><c> like</c><00:13:32.800><c> an</c><00:13:32.959><c> interesting</c><00:13:33.279><c> place</c><00:13:33.440><c> to</c><00:13:33.680><c> you,</c>
+
+00:13:34.310 --> 00:13:34.320 align:start position:0%
+sounds like an interesting place to you,
+ 
+
+00:13:34.320 --> 00:13:38.959 align:start position:0%
+sounds like an interesting place to you,
+please<00:13:34.480><c> hit</c><00:13:34.720><c> me</c><00:13:34.880><c> up.</c><00:13:35.680><c> Have</c><00:13:35.839><c> a</c><00:13:36.000><c> great</c><00:13:36.240><c> day.</c>
+

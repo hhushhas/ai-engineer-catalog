@@ -1,0 +1,1640 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.350 align:start position:0%
+ 
+An<00:00:00.240><c> agent</c><00:00:00.520><c> opens</c><00:00:00.760><c> a</c><00:00:00.800><c> pull</c><00:00:01.040><c> request.</c><00:00:01.880><c> It</c><00:00:02.000><c> passes</c>
+
+00:00:02.350 --> 00:00:02.360 align:start position:0%
+An agent opens a pull request. It passes
+ 
+
+00:00:02.360 --> 00:00:04.630 align:start position:0%
+An agent opens a pull request. It passes
+the<00:00:02.480><c> tests.</c><00:00:03.080><c> It</c><00:00:03.240><c> updates</c><00:00:03.560><c> the</c><00:00:03.640><c> documentation.</c>
+
+00:00:04.630 --> 00:00:04.640 align:start position:0%
+the tests. It updates the documentation.
+ 
+
+00:00:04.640 --> 00:00:06.430 align:start position:0%
+the tests. It updates the documentation.
+It<00:00:04.760><c> closes</c><00:00:05.120><c> the</c><00:00:05.240><c> issue</c><00:00:05.480><c> and</c><00:00:05.560><c> comments,</c><00:00:06.160><c> "Looks</c>
+
+00:00:06.430 --> 00:00:06.440 align:start position:0%
+It closes the issue and comments, "Looks
+ 
+
+00:00:06.440 --> 00:00:07.630 align:start position:0%
+It closes the issue and comments, "Looks
+done<00:00:06.640><c> to</c><00:00:06.760><c> me."</c>
+
+00:00:07.630 --> 00:00:07.640 align:start position:0%
+done to me."
+ 
+
+00:00:07.640 --> 00:00:09.350 align:start position:0%
+done to me."
+But<00:00:07.800><c> is</c><00:00:07.880><c> it</c><00:00:08.000><c> actually</c><00:00:08.280><c> done?</c>
+
+00:00:09.350 --> 00:00:09.360 align:start position:0%
+But is it actually done?
+ 
+
+00:00:09.360 --> 00:00:11.270 align:start position:0%
+But is it actually done?
+Is<00:00:09.520><c> it</c><00:00:09.600><c> done</c><00:00:09.760><c> enough</c><00:00:10.000><c> to</c><00:00:10.120><c> merge?</c><00:00:10.920><c> Is</c><00:00:11.040><c> it</c><00:00:11.120><c> done</c>
+
+00:00:11.270 --> 00:00:11.280 align:start position:0%
+Is it done enough to merge? Is it done
+ 
+
+00:00:11.280 --> 00:00:13.270 align:start position:0%
+Is it done enough to merge? Is it done
+enough<00:00:11.480><c> to</c><00:00:11.600><c> deploy?</c><00:00:12.600><c> Is</c><00:00:12.720><c> it</c><00:00:12.800><c> done</c><00:00:12.960><c> enough</c><00:00:13.200><c> to</c>
+
+00:00:13.270 --> 00:00:13.280 align:start position:0%
+enough to deploy? Is it done enough to
+ 
+
+00:00:13.280 --> 00:00:15.270 align:start position:0%
+enough to deploy? Is it done enough to
+announce<00:00:13.640><c> to</c><00:00:13.720><c> your</c><00:00:13.840><c> customers?</c><00:00:15.000><c> These</c><00:00:15.200><c> are</c>
+
+00:00:15.270 --> 00:00:15.280 align:start position:0%
+announce to your customers? These are
+ 
+
+00:00:15.280 --> 00:00:16.790 align:start position:0%
+announce to your customers? These are
+fundamentally<00:00:15.880><c> different</c><00:00:16.240><c> operational</c>
+
+00:00:16.790 --> 00:00:16.800 align:start position:0%
+fundamentally different operational
+ 
+
+00:00:16.800 --> 00:00:18.990 align:start position:0%
+fundamentally different operational
+claims,<00:00:17.560><c> and</c><00:00:17.680><c> most</c><00:00:18.120><c> agent</c><00:00:18.440><c> systems</c><00:00:18.800><c> just</c>
+
+00:00:18.990 --> 00:00:19.000 align:start position:0%
+claims, and most agent systems just
+ 
+
+00:00:19.000 --> 00:00:21.470 align:start position:0%
+claims, and most agent systems just
+flatten<00:00:19.320><c> it</c><00:00:19.440><c> to</c><00:00:19.560><c> a</c><00:00:19.600><c> single</c><00:00:19.960><c> green</c><00:00:20.240><c> check</c><00:00:20.480><c> mark.</c>
+
+00:00:21.470 --> 00:00:21.480 align:start position:0%
+flatten it to a single green check mark.
+ 
+
+00:00:21.480 --> 00:00:23.070 align:start position:0%
+flatten it to a single green check mark.
+I'm<00:00:21.720><c> Dota.</c><00:00:22.040><c> I'm</c><00:00:22.160><c> the</c><00:00:22.240><c> creator</c><00:00:22.480><c> of</c><00:00:22.560><c> Paperclip,</c>
+
+00:00:23.070 --> 00:00:23.080 align:start position:0%
+I'm Dota. I'm the creator of Paperclip,
+ 
+
+00:00:23.080 --> 00:00:23.790 align:start position:0%
+I'm Dota. I'm the creator of Paperclip,
+and<00:00:23.200><c> I'm</c><00:00:23.280><c> going</c><00:00:23.400><c> to</c><00:00:23.440><c> give</c><00:00:23.560><c> you</c><00:00:23.640><c> some</c>
+
+00:00:23.790 --> 00:00:23.800 align:start position:0%
+and I'm going to give you some
+ 
+
+00:00:23.800 --> 00:00:25.990 align:start position:0%
+and I'm going to give you some
+hard-earned<00:00:24.600><c> lessons</c><00:00:24.960><c> that</c><00:00:25.120><c> we've</c><00:00:25.360><c> learned</c>
+
+00:00:25.990 --> 00:00:26.000 align:start position:0%
+hard-earned lessons that we've learned
+ 
+
+00:00:26.000 --> 00:00:28.670 align:start position:0%
+hard-earned lessons that we've learned
+in<00:00:26.160><c> creating</c><00:00:26.520><c> Paperclip's</c><00:00:27.400><c> liveness</c><00:00:27.920><c> model.</c>
+
+00:00:28.670 --> 00:00:28.680 align:start position:0%
+in creating Paperclip's liveness model.
+ 
+
+00:00:28.680 --> 00:00:30.790 align:start position:0%
+in creating Paperclip's liveness model.
+What<00:00:28.800><c> does</c><00:00:28.960><c> done</c><00:00:29.280><c> even</c><00:00:29.560><c> mean?</c><00:00:30.440><c> Here's</c><00:00:30.720><c> the</c>
+
+00:00:30.790 --> 00:00:30.800 align:start position:0%
+What does done even mean? Here's the
+ 
+
+00:00:30.800 --> 00:00:33.150 align:start position:0%
+What does done even mean? Here's the
+thing.<00:00:31.040><c> Programming</c><00:00:31.520><c> is</c><00:00:31.600><c> solved,</c><00:00:32.240><c> and</c><00:00:32.480><c> agents</c>
+
+00:00:33.150 --> 00:00:33.160 align:start position:0%
+thing. Programming is solved, and agents
+ 
+
+00:00:33.160 --> 00:00:35.310 align:start position:0%
+thing. Programming is solved, and agents
+can<00:00:33.360><c> now</c><00:00:34.000><c> produce</c><00:00:34.400><c> more</c><00:00:34.720><c> code</c><00:00:35.200><c> and</c>
+
+00:00:35.310 --> 00:00:35.320 align:start position:0%
+can now produce more code and
+ 
+
+00:00:35.320 --> 00:00:37.350 align:start position:0%
+can now produce more code and
+documentation<00:00:36.040><c> faster</c><00:00:36.520><c> than</c><00:00:36.720><c> any</c><00:00:36.960><c> human</c><00:00:37.240><c> can</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+documentation faster than any human can
+ 
+
+00:00:37.360 --> 00:00:38.910 align:start position:0%
+documentation faster than any human can
+ever<00:00:37.560><c> verify.</c>
+
+00:00:38.910 --> 00:00:38.920 align:start position:0%
+ever verify.
+ 
+
+00:00:38.920 --> 00:00:40.630 align:start position:0%
+ever verify.
+And<00:00:39.160><c> this</c><00:00:39.320><c> actually</c><00:00:39.640><c> gives</c><00:00:39.800><c> us</c><00:00:39.920><c> a</c><00:00:40.000><c> new</c><00:00:40.280><c> failure</c>
+
+00:00:40.630 --> 00:00:40.640 align:start position:0%
+And this actually gives us a new failure
+ 
+
+00:00:40.640 --> 00:00:43.030 align:start position:0%
+And this actually gives us a new failure
+mode,<00:00:41.080><c> is</c><00:00:41.200><c> that</c><00:00:41.400><c> agents</c><00:00:41.760><c> can</c><00:00:41.880><c> actually</c><00:00:42.240><c> create</c>
+
+00:00:43.030 --> 00:00:43.040 align:start position:0%
+mode, is that agents can actually create
+ 
+
+00:00:43.040 --> 00:00:45.150 align:start position:0%
+mode, is that agents can actually create
+more<00:00:43.320><c> work</c><00:00:44.080><c> than</c><00:00:44.280><c> humans</c><00:00:44.640><c> have</c><00:00:44.800><c> time</c><00:00:45.040><c> to</c>
+
+00:00:45.150 --> 00:00:45.160 align:start position:0%
+more work than humans have time to
+ 
+
+00:00:45.160 --> 00:00:46.630 align:start position:0%
+more work than humans have time to
+verify.<00:00:45.600><c> So</c><00:00:45.720><c> we</c><00:00:45.800><c> need</c><00:00:45.960><c> a</c><00:00:46.000><c> way</c><00:00:46.080><c> to</c><00:00:46.200><c> verify</c><00:00:46.520><c> that</c>
+
+00:00:46.630 --> 00:00:46.640 align:start position:0%
+verify. So we need a way to verify that
+ 
+
+00:00:46.640 --> 00:00:47.950 align:start position:0%
+verify. So we need a way to verify that
+our<00:00:46.760><c> agents</c><00:00:47.000><c> are</c><00:00:47.080><c> done</c><00:00:47.440><c> more</c><00:00:47.600><c> than</c><00:00:47.720><c> just</c>
+
+00:00:47.950 --> 00:00:47.960 align:start position:0%
+our agents are done more than just
+ 
+
+00:00:47.960 --> 00:00:50.150 align:start position:0%
+our agents are done more than just
+letting<00:00:48.160><c> them</c><00:00:48.280><c> check</c><00:00:48.520><c> a</c><00:00:48.560><c> checkbox.</c>
+
+00:00:50.150 --> 00:00:50.160 align:start position:0%
+letting them check a checkbox.
+ 
+
+00:00:50.160 --> 00:00:52.270 align:start position:0%
+letting them check a checkbox.
+Done<00:00:50.560><c> doesn't</c><00:00:50.880><c> mean</c><00:00:51.080><c> that</c><00:00:51.240><c> an</c><00:00:51.440><c> agent</c><00:00:51.840><c> just</c>
+
+00:00:52.270 --> 00:00:52.280 align:start position:0%
+Done doesn't mean that an agent just
+ 
+
+00:00:52.280 --> 00:00:54.870 align:start position:0%
+Done doesn't mean that an agent just
+changed<00:00:52.680><c> the</c><00:00:52.800><c> status</c><00:00:53.200><c> of</c><00:00:53.280><c> a</c><00:00:53.360><c> task</c><00:00:53.840><c> being</c><00:00:54.040><c> done.</c>
+
+00:00:54.870 --> 00:00:54.880 align:start position:0%
+changed the status of a task being done.
+ 
+
+00:00:54.880 --> 00:00:56.070 align:start position:0%
+changed the status of a task being done.
+Saying<00:00:55.080><c> that</c><00:00:55.160><c> something</c><00:00:55.400><c> is</c><00:00:55.560><c> done</c><00:00:55.880><c> is</c>
+
+00:00:56.070 --> 00:00:56.080 align:start position:0%
+Saying that something is done is
+ 
+
+00:00:56.080 --> 00:00:58.190 align:start position:0%
+Saying that something is done is
+actually<00:00:56.360><c> a</c><00:00:56.440><c> bundle</c><00:00:56.920><c> of</c><00:00:57.040><c> claims.</c><00:00:57.920><c> You're</c>
+
+00:00:58.190 --> 00:00:58.200 align:start position:0%
+actually a bundle of claims. You're
+ 
+
+00:00:58.200 --> 00:01:00.150 align:start position:0%
+actually a bundle of claims. You're
+saying<00:00:58.600><c> that</c><00:00:58.840><c> an</c><00:00:59.000><c> artifact</c><00:00:59.560><c> was</c><00:00:59.720><c> produced,</c>
+
+00:01:00.150 --> 00:01:00.160 align:start position:0%
+saying that an artifact was produced,
+ 
+
+00:01:00.160 --> 00:01:02.990 align:start position:0%
+saying that an artifact was produced,
+that<00:01:00.320><c> you</c><00:01:00.440><c> have</c><00:01:00.720><c> evidence</c><00:01:01.640><c> that</c><00:01:02.000><c> the</c><00:01:02.440><c> task</c><00:01:02.880><c> is</c>
+
+00:01:02.990 --> 00:01:03.000 align:start position:0%
+that you have evidence that the task is
+ 
+
+00:01:03.000 --> 00:01:05.390 align:start position:0%
+that you have evidence that the task is
+actually<00:01:03.320><c> complete,</c><00:01:04.280><c> and</c><00:01:04.400><c> you</c><00:01:04.519><c> have</c><00:01:04.800><c> a</c><00:01:04.920><c> rubric</c>
+
+00:01:05.390 --> 00:01:05.400 align:start position:0%
+actually complete, and you have a rubric
+ 
+
+00:01:05.400 --> 00:01:07.790 align:start position:0%
+actually complete, and you have a rubric
+in<00:01:05.560><c> which</c><00:01:05.760><c> you</c><00:01:05.880><c> can</c><00:01:06.160><c> verify</c><00:01:06.600><c> against.</c><00:01:07.640><c> You</c>
+
+00:01:07.790 --> 00:01:07.800 align:start position:0%
+in which you can verify against. You
+ 
+
+00:01:07.800 --> 00:01:10.030 align:start position:0%
+in which you can verify against. You
+know<00:01:08.160><c> exactly</c><00:01:08.720><c> who</c><00:01:08.960><c> the</c><00:01:09.080><c> owner</c><00:01:09.440><c> is</c><00:01:09.800><c> for</c><00:01:09.920><c> the</c>
+
+00:01:10.030 --> 00:01:10.040 align:start position:0%
+know exactly who the owner is for the
+ 
+
+00:01:10.040 --> 00:01:11.790 align:start position:0%
+know exactly who the owner is for the
+next<00:01:10.440><c> step,</c><00:01:10.840><c> and</c><00:01:10.960><c> you</c><00:01:11.040><c> know</c><00:01:11.160><c> exactly</c><00:01:11.560><c> what</c><00:01:11.680><c> the</c>
+
+00:01:11.790 --> 00:01:11.800 align:start position:0%
+next step, and you know exactly what the
+ 
+
+00:01:11.800 --> 00:01:14.030 align:start position:0%
+next step, and you know exactly what the
+next<00:01:12.040><c> step</c><00:01:12.280><c> is.</c>
+
+00:01:14.030 --> 00:01:14.040 align:start position:0%
+next step is.
+ 
+
+00:01:14.040 --> 00:01:15.670 align:start position:0%
+next step is.
+There's<00:01:14.360><c> different</c><00:01:14.720><c> levels</c><00:01:15.120><c> to</c><00:01:15.200><c> how</c><00:01:15.360><c> done</c>
+
+00:01:15.670 --> 00:01:15.680 align:start position:0%
+There's different levels to how done
+ 
+
+00:01:15.680 --> 00:01:17.550 align:start position:0%
+There's different levels to how done
+something<00:01:16.040><c> is.</c><00:01:16.520><c> The</c><00:01:16.600><c> producer</c><00:01:17.000><c> might</c><00:01:17.240><c> claim</c>
+
+00:01:17.550 --> 00:01:17.560 align:start position:0%
+something is. The producer might claim
+ 
+
+00:01:17.560 --> 00:01:19.750 align:start position:0%
+something is. The producer might claim
+something<00:01:17.880><c> is</c><00:01:18.000><c> complete,</c><00:01:19.040><c> but</c><00:01:19.320><c> you</c><00:01:19.440><c> need</c><00:01:19.640><c> to</c>
+
+00:01:19.750 --> 00:01:19.760 align:start position:0%
+something is complete, but you need to
+ 
+
+00:01:19.760 --> 00:01:21.510 align:start position:0%
+something is complete, but you need to
+have<00:01:20.080><c> a</c><00:01:20.200><c> reviewer,</c><00:01:20.760><c> another</c><00:01:21.080><c> party</c><00:01:21.360><c> that</c>
+
+00:01:21.510 --> 00:01:21.520 align:start position:0%
+have a reviewer, another party that
+ 
+
+00:01:21.520 --> 00:01:23.670 align:start position:0%
+have a reviewer, another party that
+looks<00:01:21.760><c> at</c><00:01:21.880><c> it</c><00:01:21.960><c> and</c><00:01:22.080><c> finds</c><00:01:22.360><c> no</c><00:01:22.520><c> obvious</c><00:01:22.880><c> issues.</c>
+
+00:01:23.670 --> 00:01:23.680 align:start position:0%
+looks at it and finds no obvious issues.
+ 
+
+00:01:23.680 --> 00:01:25.430 align:start position:0%
+looks at it and finds no obvious issues.
+You<00:01:23.800><c> want</c><00:01:23.920><c> to</c><00:01:24.000><c> verify</c><00:01:24.640><c> and</c><00:01:24.800><c> make</c><00:01:25.000><c> sure</c><00:01:25.200><c> that</c>
+
+00:01:25.430 --> 00:01:25.440 align:start position:0%
+You want to verify and make sure that
+ 
+
+00:01:25.440 --> 00:01:27.870 align:start position:0%
+You want to verify and make sure that
+the<00:01:25.640><c> evidence</c><00:01:26.360><c> actually</c><00:01:26.800><c> meets</c><00:01:27.160><c> a</c><00:01:27.240><c> specified</c>
+
+00:01:27.870 --> 00:01:27.880 align:start position:0%
+the evidence actually meets a specified
+ 
+
+00:01:27.880 --> 00:01:30.190 align:start position:0%
+the evidence actually meets a specified
+standard.<00:01:28.840><c> You</c><00:01:28.960><c> want</c><00:01:29.080><c> to</c><00:01:29.160><c> make</c><00:01:29.400><c> sure</c><00:01:29.760><c> that</c><00:01:30.120><c> a</c>
+
+00:01:30.190 --> 00:01:30.200 align:start position:0%
+standard. You want to make sure that a
+ 
+
+00:01:30.200 --> 00:01:32.190 align:start position:0%
+standard. You want to make sure that a
+person<00:01:30.640><c> who</c><00:01:30.800><c> is</c><00:01:31.000><c> authorized</c><00:01:31.600><c> to</c><00:01:31.720><c> approve</c><00:01:32.040><c> it</c>
+
+00:01:32.190 --> 00:01:32.200 align:start position:0%
+person who is authorized to approve it
+ 
+
+00:01:32.200 --> 00:01:34.510 align:start position:0%
+person who is authorized to approve it
+actually<00:01:32.560><c> approves</c><00:01:33.160><c> that</c><00:01:33.280><c> the</c><00:01:33.360><c> work</c><00:01:33.600><c> is</c><00:01:33.720><c> done.</c>
+
+00:01:34.510 --> 00:01:34.520 align:start position:0%
+actually approves that the work is done.
+ 
+
+00:01:34.520 --> 00:01:35.350 align:start position:0%
+actually approves that the work is done.
+And<00:01:34.640><c> you</c><00:01:34.720><c> want</c><00:01:34.840><c> to</c><00:01:34.880><c> make</c><00:01:35.000><c> sure</c><00:01:35.120><c> that</c><00:01:35.240><c> there's</c>
+
+00:01:35.350 --> 00:01:35.360 align:start position:0%
+And you want to make sure that there's
+ 
+
+00:01:35.360 --> 00:01:36.950 align:start position:0%
+And you want to make sure that there's
+somebody<00:01:35.680><c> who</c><00:01:35.800><c> actually</c><00:01:36.120><c> stands</c><00:01:36.600><c> behind</c><00:01:36.880><c> the</c>
+
+00:01:36.950 --> 00:01:36.960 align:start position:0%
+somebody who actually stands behind the
+ 
+
+00:01:36.960 --> 00:01:39.910 align:start position:0%
+somebody who actually stands behind the
+decision.<00:01:37.960><c> And</c><00:01:38.560><c> ideally,</c><00:01:39.160><c> what</c><00:01:39.360><c> you</c><00:01:39.480><c> want</c><00:01:39.760><c> is</c>
+
+00:01:39.910 --> 00:01:39.920 align:start position:0%
+decision. And ideally, what you want is
+ 
+
+00:01:39.920 --> 00:01:42.550 align:start position:0%
+decision. And ideally, what you want is
+that<00:01:40.240><c> the</c><00:01:40.800><c> outcome</c><00:01:41.320><c> has</c><00:01:41.520><c> actually</c><00:01:41.840><c> survived</c>
+
+00:01:42.550 --> 00:01:42.560 align:start position:0%
+that the outcome has actually survived
+ 
+
+00:01:42.560 --> 00:01:44.870 align:start position:0%
+that the outcome has actually survived
+real-world<00:01:43.240><c> conditions.</c>
+
+00:01:44.870 --> 00:01:44.880 align:start position:0%
+real-world conditions.
+ 
+
+00:01:44.880 --> 00:01:47.750 align:start position:0%
+real-world conditions.
+Because<00:01:45.560><c> exhaustive</c><00:01:46.320><c> human</c><00:01:46.640><c> verification</c>
+
+00:01:47.750 --> 00:01:47.760 align:start position:0%
+Because exhaustive human verification
+ 
+
+00:01:47.760 --> 00:01:50.750 align:start position:0%
+Because exhaustive human verification
+fails<00:01:48.400><c> at</c><00:01:48.560><c> high</c><00:01:48.760><c> volume.</c><00:01:49.680><c> You</c><00:01:49.920><c> might</c><00:01:50.240><c> be</c><00:01:50.400><c> able</c>
+
+00:01:50.750 --> 00:01:50.760 align:start position:0%
+fails at high volume. You might be able
+ 
+
+00:01:50.760 --> 00:01:53.870 align:start position:0%
+fails at high volume. You might be able
+to<00:01:51.280><c> verify</c><00:01:52.040><c> a</c><00:01:52.120><c> few</c><00:01:52.400><c> tasks</c><00:01:52.880><c> per</c><00:01:53.040><c> day,</c><00:01:53.720><c> but</c>
+
+00:01:53.870 --> 00:01:53.880 align:start position:0%
+to verify a few tasks per day, but
+ 
+
+00:01:53.880 --> 00:01:56.630 align:start position:0%
+to verify a few tasks per day, but
+essentially,<00:01:54.720><c> if</c><00:01:54.960><c> you</c><00:01:55.360><c> have</c><00:01:55.840><c> humans</c>
+
+00:01:56.630 --> 00:01:56.640 align:start position:0%
+essentially, if you have humans
+ 
+
+00:01:56.640 --> 00:01:58.830 align:start position:0%
+essentially, if you have humans
+verifying<00:01:57.560><c> all</c><00:01:57.800><c> the</c><00:01:57.920><c> tasks</c><00:01:58.440><c> and</c><00:01:58.520><c> they</c><00:01:58.600><c> have</c><00:01:58.760><c> to</c>
+
+00:01:58.830 --> 00:01:58.840 align:start position:0%
+verifying all the tasks and they have to
+ 
+
+00:01:58.840 --> 00:02:00.950 align:start position:0%
+verifying all the tasks and they have to
+sign<00:01:59.160><c> off</c><00:01:59.360><c> on</c><00:01:59.480><c> it,</c><00:01:59.960><c> you</c><00:02:00.200><c> eventually</c><00:02:00.720><c> what</c><00:02:00.880><c> you</c>
+
+00:02:00.950 --> 00:02:00.960 align:start position:0%
+sign off on it, you eventually what you
+ 
+
+00:02:00.960 --> 00:02:03.030 align:start position:0%
+sign off on it, you eventually what you
+just<00:02:01.200><c> get</c><00:02:01.440><c> is</c><00:02:01.560><c> a</c><00:02:01.640><c> form</c><00:02:02.080><c> of</c><00:02:02.360><c> verification</c>
+
+00:02:03.030 --> 00:02:03.040 align:start position:0%
+just get is a form of verification
+ 
+
+00:02:03.040 --> 00:02:05.830 align:start position:0%
+just get is a form of verification
+theater.<00:02:03.600><c> What</c><00:02:03.760><c> you</c><00:02:03.880><c> need</c><00:02:04.080><c> is</c><00:02:04.200><c> a</c><00:02:04.280><c> protocol</c><00:02:05.479><c> for</c>
+
+00:02:05.830 --> 00:02:05.840 align:start position:0%
+theater. What you need is a protocol for
+ 
+
+00:02:05.840 --> 00:02:08.590 align:start position:0%
+theater. What you need is a protocol for
+defining<00:02:06.600><c> how</c><00:02:07.000><c> tasks</c><00:02:07.680><c> actually</c><00:02:08.119><c> progress</c>
+
+00:02:08.590 --> 00:02:08.600 align:start position:0%
+defining how tasks actually progress
+ 
+
+00:02:08.600 --> 00:02:10.630 align:start position:0%
+defining how tasks actually progress
+through<00:02:08.800><c> a</c><00:02:08.840><c> system.</c><00:02:09.840><c> You</c><00:02:09.960><c> want</c><00:02:10.160><c> to</c><00:02:10.200><c> make</c><00:02:10.399><c> sure</c>
+
+00:02:10.630 --> 00:02:10.640 align:start position:0%
+through a system. You want to make sure
+ 
+
+00:02:10.640 --> 00:02:13.270 align:start position:0%
+through a system. You want to make sure
+that<00:02:10.880><c> tasks</c><00:02:11.480><c> are</c><00:02:11.720><c> always</c><00:02:12.200><c> kept</c><00:02:12.480><c> moving,</c><00:02:13.160><c> but</c>
+
+00:02:13.270 --> 00:02:13.280 align:start position:0%
+that tasks are always kept moving, but
+ 
+
+00:02:13.280 --> 00:02:15.150 align:start position:0%
+that tasks are always kept moving, but
+they<00:02:13.400><c> don't</c><00:02:13.560><c> get</c><00:02:13.760><c> stuck</c><00:02:14.280><c> into</c><00:02:14.600><c> invalid</c>
+
+00:02:15.150 --> 00:02:15.160 align:start position:0%
+they don't get stuck into invalid
+ 
+
+00:02:15.160 --> 00:02:18.390 align:start position:0%
+they don't get stuck into invalid
+states.<00:02:16.120><c> You</c><00:02:16.280><c> need</c><00:02:16.840><c> a</c><00:02:16.920><c> control</c><00:02:17.440><c> plane</c><00:02:18.120><c> that</c>
+
+00:02:18.390 --> 00:02:18.400 align:start position:0%
+states. You need a control plane that
+ 
+
+00:02:18.400 --> 00:02:20.949 align:start position:0%
+states. You need a control plane that
+actually<00:02:18.800><c> has</c><00:02:19.080><c> the</c><00:02:19.280><c> execution</c><00:02:19.880><c> of</c><00:02:20.000><c> the</c><00:02:20.120><c> tasks</c>
+
+00:02:20.949 --> 00:02:20.959 align:start position:0%
+actually has the execution of the tasks
+ 
+
+00:02:20.959 --> 00:02:23.910 align:start position:0%
+actually has the execution of the tasks
+being<00:02:21.320><c> tied</c><00:02:21.840><c> to</c><00:02:22.160><c> specific</c><00:02:23.120><c> contracts</c><00:02:23.800><c> and</c>
+
+00:02:23.910 --> 00:02:23.920 align:start position:0%
+being tied to specific contracts and
+ 
+
+00:02:23.920 --> 00:02:25.470 align:start position:0%
+being tied to specific contracts and
+constraints<00:02:24.480><c> about</c><00:02:24.720><c> what</c><00:02:24.840><c> the</c><00:02:24.959><c> system</c><00:02:25.320><c> will</c>
+
+00:02:25.470 --> 00:02:25.480 align:start position:0%
+constraints about what the system will
+ 
+
+00:02:25.480 --> 00:02:26.630 align:start position:0%
+constraints about what the system will
+do
+
+00:02:26.630 --> 00:02:26.640 align:start position:0%
+do
+ 
+
+00:02:26.640 --> 00:02:28.350 align:start position:0%
+do
+and<00:02:26.880><c> what</c><00:02:27.200><c> agents</c><00:02:27.560><c> it</c><00:02:27.680><c> will</c><00:02:27.800><c> hand</c><00:02:28.080><c> off</c><00:02:28.280><c> your</c>
+
+00:02:28.350 --> 00:02:28.360 align:start position:0%
+and what agents it will hand off your
+ 
+
+00:02:28.360 --> 00:02:30.150 align:start position:0%
+and what agents it will hand off your
+next<00:02:28.640><c> task</c><00:02:29.000><c> to.</c>
+
+00:02:30.150 --> 00:02:30.160 align:start position:0%
+next task to.
+ 
+
+00:02:30.160 --> 00:02:32.270 align:start position:0%
+next task to.
+Because<00:02:30.680><c> really</c><00:02:30.959><c> what</c><00:02:31.120><c> you're</c><00:02:31.240><c> trying</c><00:02:31.680><c> to</c>
+
+00:02:32.270 --> 00:02:32.280 align:start position:0%
+Because really what you're trying to
+ 
+
+00:02:32.280 --> 00:02:34.430 align:start position:0%
+Because really what you're trying to
+play<00:02:32.520><c> against</c><00:02:33.000><c> is</c><00:02:33.200><c> this</c><00:02:33.400><c> idea</c><00:02:33.640><c> around</c><00:02:33.959><c> keeping</c>
+
+00:02:34.430 --> 00:02:34.440 align:start position:0%
+play against is this idea around keeping
+ 
+
+00:02:34.440 --> 00:02:36.630 align:start position:0%
+play against is this idea around keeping
+work<00:02:34.720><c> moving,</c><00:02:35.680><c> but</c><00:02:35.920><c> also</c><00:02:36.240><c> having</c><00:02:36.520><c> it</c>
+
+00:02:36.630 --> 00:02:36.640 align:start position:0%
+work moving, but also having it
+ 
+
+00:02:36.640 --> 00:02:38.870 align:start position:0%
+work moving, but also having it
+verified.<00:02:37.520><c> When</c><00:02:37.760><c> a</c><00:02:37.800><c> task</c><00:02:38.240><c> has</c><00:02:38.400><c> been</c><00:02:38.560><c> reviewed</c>
+
+00:02:38.870 --> 00:02:38.880 align:start position:0%
+verified. When a task has been reviewed
+ 
+
+00:02:38.880 --> 00:02:40.550 align:start position:0%
+verified. When a task has been reviewed
+by<00:02:39.080><c> a</c><00:02:39.120><c> human,</c><00:02:39.600><c> you</c><00:02:39.720><c> get</c><00:02:39.880><c> the</c><00:02:40.000><c> assurance</c><00:02:40.440><c> that</c>
+
+00:02:40.550 --> 00:02:40.560 align:start position:0%
+by a human, you get the assurance that
+ 
+
+00:02:40.560 --> 00:02:43.670 align:start position:0%
+by a human, you get the assurance that
+it's<00:02:40.720><c> correct.</c><00:02:41.800><c> But</c><00:02:42.200><c> having</c><00:02:42.520><c> a</c><00:02:42.600><c> human</c><00:02:43.200><c> verify</c>
+
+00:02:43.670 --> 00:02:43.680 align:start position:0%
+it's correct. But having a human verify
+ 
+
+00:02:43.680 --> 00:02:45.590 align:start position:0%
+it's correct. But having a human verify
+it<00:02:43.880><c> means</c><00:02:44.200><c> that</c><00:02:44.320><c> the</c><00:02:44.440><c> task</c><00:02:44.800><c> is</c><00:02:45.080><c> dead</c><00:02:45.320><c> in</c><00:02:45.440><c> its</c>
+
+00:02:45.590 --> 00:02:45.600 align:start position:0%
+it means that the task is dead in its
+ 
+
+00:02:45.600 --> 00:02:47.390 align:start position:0%
+it means that the task is dead in its
+tracks.<00:02:46.640><c> You</c><00:02:46.760><c> also</c><00:02:47.000><c> want</c><00:02:47.120><c> to</c><00:02:47.160><c> keep</c>
+
+00:02:47.390 --> 00:02:47.400 align:start position:0%
+tracks. You also want to keep
+ 
+
+00:02:47.400 --> 00:02:49.150 align:start position:0%
+tracks. You also want to keep
+liveliness.<00:02:48.320><c> Liveliness</c><00:02:48.760><c> means</c><00:02:48.959><c> that</c><00:02:49.080><c> the</c>
+
+00:02:49.150 --> 00:02:49.160 align:start position:0%
+liveliness. Liveliness means that the
+ 
+
+00:02:49.160 --> 00:02:52.350 align:start position:0%
+liveliness. Liveliness means that the
+work<00:02:49.400><c> is</c><00:02:49.480><c> continuing</c><00:02:50.080><c> with</c><00:02:50.240><c> no</c><00:02:50.600><c> blockers.</c>
+
+00:02:52.350 --> 00:02:52.360 align:start position:0%
+work is continuing with no blockers.
+ 
+
+00:02:52.360 --> 00:02:53.350 align:start position:0%
+work is continuing with no blockers.
+And<00:02:52.440><c> you're</c><00:02:52.560><c> always</c><00:02:52.760><c> trying</c><00:02:52.920><c> to</c><00:02:53.000><c> keep</c><00:02:53.160><c> these</c>
+
+00:02:53.350 --> 00:02:53.360 align:start position:0%
+And you're always trying to keep these
+ 
+
+00:02:53.360 --> 00:02:55.710 align:start position:0%
+And you're always trying to keep these
+two<00:02:53.520><c> things</c><00:02:53.800><c> in</c><00:02:53.920><c> balance.</c><00:02:54.680><c> If</c><00:02:54.880><c> you</c><00:02:55.000><c> have</c><00:02:55.280><c> tasks</c>
+
+00:02:55.710 --> 00:02:55.720 align:start position:0%
+two things in balance. If you have tasks
+ 
+
+00:02:55.720 --> 00:02:57.350 align:start position:0%
+two things in balance. If you have tasks
+that<00:02:55.880><c> are</c><00:02:56.000><c> completely</c><00:02:56.440><c> alive</c><00:02:56.959><c> with</c><00:02:57.120><c> no</c>
+
+00:02:57.350 --> 00:02:57.360 align:start position:0%
+that are completely alive with no
+ 
+
+00:02:57.360 --> 00:02:59.390 align:start position:0%
+that are completely alive with no
+approvals,<00:02:58.240><c> then</c><00:02:58.400><c> what</c><00:02:58.560><c> you</c><00:02:58.680><c> get</c><00:02:58.959><c> is</c><00:02:59.200><c> this</c>
+
+00:02:59.390 --> 00:02:59.400 align:start position:0%
+approvals, then what you get is this
+ 
+
+00:02:59.400 --> 00:03:01.630 align:start position:0%
+approvals, then what you get is this
+classic<00:02:59.880><c> AI</c><00:03:00.200><c> slop</c><00:03:00.600><c> because</c><00:03:00.920><c> you're</c><00:03:01.040><c> producing</c>
+
+00:03:01.630 --> 00:03:01.640 align:start position:0%
+classic AI slop because you're producing
+ 
+
+00:03:01.640 --> 00:03:03.910 align:start position:0%
+classic AI slop because you're producing
+a<00:03:01.720><c> lot</c><00:03:01.880><c> of</c><00:03:02.000><c> things</c><00:03:02.680><c> with</c><00:03:02.920><c> kind</c><00:03:03.080><c> of</c><00:03:03.200><c> no</c><00:03:03.440><c> quality</c>
+
+00:03:03.910 --> 00:03:03.920 align:start position:0%
+a lot of things with kind of no quality
+ 
+
+00:03:03.920 --> 00:03:06.350 align:start position:0%
+a lot of things with kind of no quality
+control<00:03:04.800><c> and</c><00:03:05.239><c> it's</c><00:03:05.480><c> worse</c><00:03:05.840><c> than</c><00:03:06.040><c> creating</c>
+
+00:03:06.350 --> 00:03:06.360 align:start position:0%
+control and it's worse than creating
+ 
+
+00:03:06.360 --> 00:03:08.790 align:start position:0%
+control and it's worse than creating
+nothing<00:03:06.800><c> after</c><00:03:07.239><c> a</c><00:03:07.320><c> long</c><00:03:07.560><c> period</c><00:03:07.800><c> of</c><00:03:07.880><c> time.</c><00:03:08.680><c> But</c>
+
+00:03:08.790 --> 00:03:08.800 align:start position:0%
+nothing after a long period of time. But
+ 
+
+00:03:08.800 --> 00:03:12.350 align:start position:0%
+nothing after a long period of time. But
+if<00:03:08.959><c> you</c><00:03:09.080><c> have</c><00:03:09.440><c> peer</c><00:03:09.760><c> review,</c><00:03:10.880><c> um</c><00:03:11.320><c> then</c><00:03:12.000><c> you</c>
+
+00:03:12.350 --> 00:03:12.360 align:start position:0%
+if you have peer review, um then you
+ 
+
+00:03:12.360 --> 00:03:14.750 align:start position:0%
+if you have peer review, um then you
+have<00:03:12.720><c> this</c><00:03:13.280><c> enormous</c><00:03:13.840><c> review</c><00:03:14.200><c> queue</c><00:03:14.640><c> where</c>
+
+00:03:14.750 --> 00:03:14.760 align:start position:0%
+have this enormous review queue where
+ 
+
+00:03:14.760 --> 00:03:16.509 align:start position:0%
+have this enormous review queue where
+humans<00:03:15.080><c> can't</c><00:03:15.400><c> actually</c><00:03:15.680><c> review</c><00:03:15.920><c> it</c><00:03:16.040><c> by</c><00:03:16.160><c> hand</c>
+
+00:03:16.509 --> 00:03:16.519 align:start position:0%
+humans can't actually review it by hand
+ 
+
+00:03:16.519 --> 00:03:19.190 align:start position:0%
+humans can't actually review it by hand
+anyway.<00:03:17.400><c> These</c><00:03:17.680><c> agents</c><00:03:18.239><c> will</c><00:03:18.600><c> be</c><00:03:18.760><c> creating</c>
+
+00:03:19.190 --> 00:03:19.200 align:start position:0%
+anyway. These agents will be creating
+ 
+
+00:03:19.200 --> 00:03:21.110 align:start position:0%
+anyway. These agents will be creating
+far<00:03:19.560><c> more</c><00:03:19.760><c> than</c><00:03:19.920><c> you</c><00:03:20.040><c> can</c><00:03:20.280><c> ever</c><00:03:20.640><c> actually</c>
+
+00:03:21.110 --> 00:03:21.120 align:start position:0%
+far more than you can ever actually
+ 
+
+00:03:21.120 --> 00:03:22.830 align:start position:0%
+far more than you can ever actually
+review,<00:03:21.920><c> and</c><00:03:22.080><c> so</c><00:03:22.160><c> we</c><00:03:22.200><c> have</c><00:03:22.320><c> to</c><00:03:22.400><c> find</c><00:03:22.560><c> a</c><00:03:22.600><c> way</c><00:03:22.720><c> to</c>
+
+00:03:22.830 --> 00:03:22.840 align:start position:0%
+review, and so we have to find a way to
+ 
+
+00:03:22.840 --> 00:03:24.870 align:start position:0%
+review, and so we have to find a way to
+tease<00:03:23.120><c> apart</c><00:03:23.480><c> the</c><00:03:23.560><c> bundle</c><00:03:23.920><c> of</c><00:03:24.040><c> claims</c><00:03:24.760><c> that</c>
+
+00:03:24.870 --> 00:03:24.880 align:start position:0%
+tease apart the bundle of claims that
+ 
+
+00:03:24.880 --> 00:03:27.590 align:start position:0%
+tease apart the bundle of claims that
+are<00:03:24.959><c> involved</c><00:03:25.480><c> in</c><00:03:25.640><c> saying</c><00:03:25.880><c> a</c><00:03:25.920><c> task</c><00:03:26.239><c> is</c><00:03:26.360><c> done.</c>
+
+00:03:27.590 --> 00:03:27.600 align:start position:0%
+are involved in saying a task is done.
+ 
+
+00:03:27.600 --> 00:03:29.190 align:start position:0%
+are involved in saying a task is done.
+With<00:03:27.760><c> Paperclip,</c><00:03:28.239><c> we</c><00:03:28.360><c> have</c><00:03:28.560><c> a</c><00:03:28.640><c> number</c><00:03:29.080><c> of</c>
+
+00:03:29.190 --> 00:03:29.200 align:start position:0%
+With Paperclip, we have a number of
+ 
+
+00:03:29.200 --> 00:03:32.110 align:start position:0%
+With Paperclip, we have a number of
+mechanisms<00:03:30.239><c> to</c><00:03:30.360><c> keep</c><00:03:30.640><c> this</c><00:03:31.040><c> going.</c><00:03:31.840><c> You</c><00:03:31.959><c> might</c>
+
+00:03:32.110 --> 00:03:32.120 align:start position:0%
+mechanisms to keep this going. You might
+ 
+
+00:03:32.120 --> 00:03:33.430 align:start position:0%
+mechanisms to keep this going. You might
+think<00:03:32.320><c> that</c><00:03:32.480><c> you</c><00:03:32.560><c> can</c><00:03:32.760><c> easily</c><00:03:33.040><c> just</c><00:03:33.239><c> write</c><00:03:33.400><c> a</c>
+
+00:03:33.430 --> 00:03:33.440 align:start position:0%
+think that you can easily just write a
+ 
+
+00:03:33.440 --> 00:03:35.470 align:start position:0%
+think that you can easily just write a
+for<00:03:33.720><c> loop</c><00:03:33.959><c> over</c><00:03:34.160><c> your</c><00:03:34.280><c> task</c><00:03:34.680><c> manager</c><00:03:35.200><c> and</c><00:03:35.360><c> have</c>
+
+00:03:35.470 --> 00:03:35.480 align:start position:0%
+for loop over your task manager and have
+ 
+
+00:03:35.480 --> 00:03:37.110 align:start position:0%
+for loop over your task manager and have
+your<00:03:35.680><c> agents</c><00:03:36.040><c> work,</c><00:03:36.360><c> but</c><00:03:36.560><c> quickly</c><00:03:36.920><c> you'll</c>
+
+00:03:37.110 --> 00:03:37.120 align:start position:0%
+your agents work, but quickly you'll
+ 
+
+00:03:37.120 --> 00:03:39.470 align:start position:0%
+your agents work, but quickly you'll
+find<00:03:37.720><c> that</c><00:03:37.959><c> falls</c><00:03:38.239><c> apart.</c><00:03:39.000><c> As</c><00:03:39.120><c> soon</c><00:03:39.280><c> as</c><00:03:39.400><c> you</c>
+
+00:03:39.470 --> 00:03:39.480 align:start position:0%
+find that falls apart. As soon as you
+ 
+
+00:03:39.480 --> 00:03:41.670 align:start position:0%
+find that falls apart. As soon as you
+start<00:03:39.720><c> integrating</c><00:03:40.200><c> task</c><00:03:40.560><c> dependency</c><00:03:41.080><c> trees,</c>
+
+00:03:41.670 --> 00:03:41.680 align:start position:0%
+start integrating task dependency trees,
+ 
+
+00:03:41.680 --> 00:03:44.190 align:start position:0%
+start integrating task dependency trees,
+blockers,<00:03:42.440><c> multiple</c><00:03:43.040><c> agents,</c><00:03:43.560><c> item</c><00:03:43.840><c> potent</c>
+
+00:03:44.190 --> 00:03:44.200 align:start position:0%
+blockers, multiple agents, item potent
+ 
+
+00:03:44.200 --> 00:03:48.190 align:start position:0%
+blockers, multiple agents, item potent
+checkouts,<00:03:45.200><c> like</c><00:03:46.000><c> locks</c><00:03:46.440><c> on</c><00:03:46.600><c> checkouts,</c>
+
+00:03:48.190 --> 00:03:48.200 align:start position:0%
+checkouts, like locks on checkouts,
+ 
+
+00:03:48.200 --> 00:03:50.310 align:start position:0%
+checkouts, like locks on checkouts,
+you<00:03:48.320><c> find</c><00:03:48.560><c> that</c><00:03:48.720><c> this</c><00:03:48.920><c> tension</c><00:03:49.360><c> between</c>
+
+00:03:50.310 --> 00:03:50.320 align:start position:0%
+you find that this tension between
+ 
+
+00:03:50.320 --> 00:03:53.070 align:start position:0%
+you find that this tension between
+liveliness<00:03:50.959><c> and</c><00:03:51.120><c> verification</c><00:03:52.480><c> actually</c>
+
+00:03:53.070 --> 00:03:53.080 align:start position:0%
+liveliness and verification actually
+ 
+
+00:03:53.080 --> 00:03:55.350 align:start position:0%
+liveliness and verification actually
+gets<00:03:53.400><c> quite</c><00:03:53.840><c> complicated.</c>
+
+00:03:55.350 --> 00:03:55.360 align:start position:0%
+gets quite complicated.
+ 
+
+00:03:55.360 --> 00:03:57.670 align:start position:0%
+gets quite complicated.
+There's<00:03:55.640><c> really</c><00:03:55.960><c> three</c><00:03:56.320><c> invariants</c><00:03:57.080><c> that</c><00:03:57.280><c> are</c>
+
+00:03:57.670 --> 00:03:57.680 align:start position:0%
+There's really three invariants that are
+ 
+
+00:03:57.680 --> 00:03:59.350 align:start position:0%
+There's really three invariants that are
+extremely<00:03:58.280><c> important</c><00:03:58.760><c> when</c><00:03:58.880><c> you're</c><00:03:59.000><c> thinking</c>
+
+00:03:59.350 --> 00:03:59.360 align:start position:0%
+extremely important when you're thinking
+ 
+
+00:03:59.360 --> 00:04:01.710 align:start position:0%
+extremely important when you're thinking
+about<00:04:00.080><c> what</c><00:04:00.320><c> you</c><00:04:00.480><c> want</c><00:04:00.880><c> out</c><00:04:01.000><c> of</c><00:04:01.120><c> a</c><00:04:01.200><c> control</c>
+
+00:04:01.710 --> 00:04:01.720 align:start position:0%
+about what you want out of a control
+ 
+
+00:04:01.720 --> 00:04:03.790 align:start position:0%
+about what you want out of a control
+plane<00:04:02.040><c> for</c><00:04:02.160><c> your</c><00:04:02.360><c> agentic</c><00:04:02.840><c> work.</c><00:04:03.520><c> You</c><00:04:03.640><c> want</c><00:04:03.760><c> to</c>
+
+00:04:03.790 --> 00:04:03.800 align:start position:0%
+plane for your agentic work. You want to
+ 
+
+00:04:03.800 --> 00:04:05.950 align:start position:0%
+plane for your agentic work. You want to
+ensure<00:04:04.040><c> that</c><00:04:04.200><c> productive</c><00:04:04.680><c> work</c><00:04:04.840><c> continues.</c>
+
+00:04:05.950 --> 00:04:05.960 align:start position:0%
+ensure that productive work continues.
+ 
+
+00:04:05.960 --> 00:04:07.510 align:start position:0%
+ensure that productive work continues.
+You<00:04:06.080><c> want</c><00:04:06.200><c> to</c><00:04:06.240><c> make</c><00:04:06.400><c> sure</c><00:04:06.520><c> that</c><00:04:06.760><c> only</c><00:04:07.120><c> real</c>
+
+00:04:07.510 --> 00:04:07.520 align:start position:0%
+You want to make sure that only real
+ 
+
+00:04:07.520 --> 00:04:09.790 align:start position:0%
+You want to make sure that only real
+blockers<00:04:08.080><c> stop</c><00:04:08.480><c> work.</c><00:04:09.240><c> And</c><00:04:09.360><c> you</c><00:04:09.440><c> want</c><00:04:09.560><c> to</c><00:04:09.640><c> make</c>
+
+00:04:09.790 --> 00:04:09.800 align:start position:0%
+blockers stop work. And you want to make
+ 
+
+00:04:09.800 --> 00:04:12.310 align:start position:0%
+blockers stop work. And you want to make
+sure<00:04:10.040><c> that</c><00:04:10.280><c> infinite</c><00:04:10.760><c> loops</c><00:04:11.080><c> are</c><00:04:11.240><c> bounded.</c><00:04:11.760><c> In</c>
+
+00:04:12.310 --> 00:04:12.320 align:start position:0%
+sure that infinite loops are bounded. In
+ 
+
+00:04:12.320 --> 00:04:15.030 align:start position:0%
+sure that infinite loops are bounded. In
+Paperclip,<00:04:13.600><c> we</c><00:04:13.959><c> have</c><00:04:14.160><c> built</c><00:04:14.440><c> a</c><00:04:14.480><c> number</c><00:04:14.920><c> of</c>
+
+00:04:15.030 --> 00:04:15.040 align:start position:0%
+Paperclip, we have built a number of
+ 
+
+00:04:15.040 --> 00:04:16.910 align:start position:0%
+Paperclip, we have built a number of
+mechanisms<00:04:15.880><c> to</c><00:04:16.000><c> deal</c><00:04:16.200><c> with</c><00:04:16.320><c> this</c><00:04:16.480><c> problem.</c>
+
+00:04:16.910 --> 00:04:16.920 align:start position:0%
+mechanisms to deal with this problem.
+ 
+
+00:04:16.920 --> 00:04:18.830 align:start position:0%
+mechanisms to deal with this problem.
+So,<00:04:17.160><c> for</c><00:04:17.280><c> example,</c><00:04:18.160><c> every</c><00:04:18.400><c> time</c><00:04:18.560><c> you</c><00:04:18.680><c> have</c><00:04:18.799><c> a</c>
+
+00:04:18.830 --> 00:04:18.840 align:start position:0%
+So, for example, every time you have a
+ 
+
+00:04:18.840 --> 00:04:21.670 align:start position:0%
+So, for example, every time you have a
+task,<00:04:19.280><c> there's</c><00:04:19.640><c> clear</c><00:04:20.000><c> transitions</c><00:04:21.079><c> to</c><00:04:21.440><c> what</c>
+
+00:04:21.670 --> 00:04:21.680 align:start position:0%
+task, there's clear transitions to what
+ 
+
+00:04:21.680 --> 00:04:23.270 align:start position:0%
+task, there's clear transitions to what
+the<00:04:21.760><c> next</c><00:04:22.000><c> state</c><00:04:22.280><c> could</c><00:04:22.400><c> be.</c><00:04:23.000><c> We</c><00:04:23.120><c> have</c>
+
+00:04:23.270 --> 00:04:23.280 align:start position:0%
+the next state could be. We have
+ 
+
+00:04:23.280 --> 00:04:25.470 align:start position:0%
+the next state could be. We have
+first-class<00:04:23.880><c> blockers</c><00:04:24.360><c> between</c><00:04:24.720><c> tasks,</c><00:04:25.360><c> and</c>
+
+00:04:25.470 --> 00:04:25.480 align:start position:0%
+first-class blockers between tasks, and
+ 
+
+00:04:25.480 --> 00:04:27.270 align:start position:0%
+first-class blockers between tasks, and
+the<00:04:25.560><c> control</c><00:04:26.040><c> plane</c><00:04:26.400><c> enforces</c><00:04:27.040><c> those</c>
+
+00:04:27.270 --> 00:04:27.280 align:start position:0%
+the control plane enforces those
+ 
+
+00:04:27.280 --> 00:04:28.470 align:start position:0%
+the control plane enforces those
+blockers.
+
+00:04:28.470 --> 00:04:28.480 align:start position:0%
+blockers.
+ 
+
+00:04:28.480 --> 00:04:30.190 align:start position:0%
+blockers.
+We<00:04:28.600><c> have</c><00:04:28.760><c> moments</c><00:04:29.120><c> of</c><00:04:29.360><c> interactive</c><00:04:29.880><c> human</c>
+
+00:04:30.190 --> 00:04:30.200 align:start position:0%
+We have moments of interactive human
+ 
+
+00:04:30.200 --> 00:04:32.230 align:start position:0%
+We have moments of interactive human
+approval,<00:04:31.040><c> where</c><00:04:31.200><c> human</c><00:04:31.480><c> choices</c><00:04:31.919><c> leave</c><00:04:32.120><c> an</c>
+
+00:04:32.230 --> 00:04:32.240 align:start position:0%
+approval, where human choices leave an
+ 
+
+00:04:32.240 --> 00:04:33.790 align:start position:0%
+approval, where human choices leave an
+audit<00:04:32.480><c> trail.</c>
+
+00:04:33.790 --> 00:04:33.800 align:start position:0%
+audit trail.
+ 
+
+00:04:33.800 --> 00:04:36.310 align:start position:0%
+audit trail.
+You<00:04:33.960><c> can</c><00:04:34.120><c> set</c><00:04:34.480><c> reviewers</c><00:04:35.320><c> and</c><00:04:35.440><c> approvers</c><00:04:36.120><c> on</c>
+
+00:04:36.310 --> 00:04:36.320 align:start position:0%
+You can set reviewers and approvers on
+ 
+
+00:04:36.320 --> 00:04:39.030 align:start position:0%
+You can set reviewers and approvers on
+tasks<00:04:36.919><c> explicitly,</c><00:04:37.880><c> meaning</c><00:04:38.320><c> when</c><00:04:38.520><c> this</c><00:04:38.720><c> task</c>
+
+00:04:39.030 --> 00:04:39.040 align:start position:0%
+tasks explicitly, meaning when this task
+ 
+
+00:04:39.040 --> 00:04:41.470 align:start position:0%
+tasks explicitly, meaning when this task
+completes,<00:04:39.800><c> another</c><00:04:40.160><c> agent</c><00:04:40.440><c> can</c><00:04:40.560><c> review</c><00:04:40.840><c> it.</c>
+
+00:04:41.470 --> 00:04:41.480 align:start position:0%
+completes, another agent can review it.
+ 
+
+00:04:41.480 --> 00:04:43.710 align:start position:0%
+completes, another agent can review it.
+We<00:04:41.680><c> also</c><00:04:41.960><c> have</c><00:04:42.400><c> the</c><00:04:42.520><c> idea</c><00:04:42.760><c> of</c><00:04:42.919><c> watchdogs,</c>
+
+00:04:43.710 --> 00:04:43.720 align:start position:0%
+We also have the idea of watchdogs,
+ 
+
+00:04:43.720 --> 00:04:45.870 align:start position:0%
+We also have the idea of watchdogs,
+which<00:04:43.919><c> is</c><00:04:44.040><c> this</c><00:04:44.280><c> maximizer</c><00:04:45.040><c> mode,</c><00:04:45.640><c> which</c>
+
+00:04:45.870 --> 00:04:45.880 align:start position:0%
+which is this maximizer mode, which
+ 
+
+00:04:45.880 --> 00:04:46.790 align:start position:0%
+which is this maximizer mode, which
+says,
+
+00:04:46.790 --> 00:04:46.800 align:start position:0%
+says,
+ 
+
+00:04:46.800 --> 00:04:49.630 align:start position:0%
+says,
+um,<00:04:47.080><c> try</c><00:04:47.440><c> as</c><00:04:47.600><c> hard</c><00:04:47.919><c> as</c><00:04:48.040><c> you</c><00:04:48.160><c> can</c><00:04:48.840><c> to</c><00:04:49.000><c> make</c><00:04:49.320><c> sure</c>
+
+00:04:49.630 --> 00:04:49.640 align:start position:0%
+um, try as hard as you can to make sure
+ 
+
+00:04:49.640 --> 00:04:51.150 align:start position:0%
+um, try as hard as you can to make sure
+that<00:04:49.800><c> this</c><00:04:50.000><c> happens.</c><00:04:50.720><c> When</c><00:04:50.880><c> you</c><00:04:50.960><c> have</c><00:04:51.080><c> a</c>
+
+00:04:51.150 --> 00:04:51.160 align:start position:0%
+that this happens. When you have a
+ 
+
+00:04:51.160 --> 00:04:53.710 align:start position:0%
+that this happens. When you have a
+watchdog,<00:04:51.800><c> it's</c><00:04:51.960><c> another</c><00:04:52.360><c> agent,</c><00:04:53.120><c> um,</c><00:04:53.400><c> who</c><00:04:53.600><c> is</c>
+
+00:04:53.710 --> 00:04:53.720 align:start position:0%
+watchdog, it's another agent, um, who is
+ 
+
+00:04:53.720 --> 00:04:55.870 align:start position:0%
+watchdog, it's another agent, um, who is
+given<00:04:53.960><c> a</c><00:04:54.040><c> goal,</c><00:04:54.840><c> and</c><00:04:55.080><c> it</c><00:04:55.160><c> enforces</c><00:04:55.640><c> that</c><00:04:55.760><c> all</c>
+
+00:04:55.870 --> 00:04:55.880 align:start position:0%
+given a goal, and it enforces that all
+ 
+
+00:04:55.880 --> 00:04:57.430 align:start position:0%
+given a goal, and it enforces that all
+of<00:04:55.960><c> your</c><00:04:56.120><c> agents</c><00:04:56.440><c> continue</c><00:04:56.840><c> to</c><00:04:57.000><c> work</c><00:04:57.240><c> until</c>
+
+00:04:57.430 --> 00:04:57.440 align:start position:0%
+of your agents continue to work until
+ 
+
+00:04:57.440 --> 00:04:58.870 align:start position:0%
+of your agents continue to work until
+that<00:04:57.600><c> goal</c><00:04:57.840><c> has</c><00:04:57.960><c> been</c><00:04:58.080><c> achieved.</c><00:04:58.800><c> The</c>
+
+00:04:58.870 --> 00:04:58.880 align:start position:0%
+that goal has been achieved. The
+ 
+
+00:04:58.880 --> 00:05:00.790 align:start position:0%
+that goal has been achieved. The
+important<00:04:59.280><c> thing</c><00:04:59.440><c> here</c><00:04:59.800><c> is</c><00:05:00.000><c> that</c><00:05:00.640><c> the</c>
+
+00:05:00.790 --> 00:05:00.800 align:start position:0%
+important thing here is that the
+ 
+
+00:05:00.800 --> 00:05:03.790 align:start position:0%
+important thing here is that the
+watchdog<00:05:01.640><c> within</c><00:05:01.960><c> Paperclip</c><00:05:02.640><c> is</c><00:05:03.360><c> harness</c>
+
+00:05:03.790 --> 00:05:03.800 align:start position:0%
+watchdog within Paperclip is harness
+ 
+
+00:05:03.800 --> 00:05:05.830 align:start position:0%
+watchdog within Paperclip is harness
+agnostic.<00:05:04.560><c> You</c><00:05:04.680><c> can</c><00:05:04.840><c> use</c><00:05:04.960><c> it</c><00:05:05.080><c> with</c><00:05:05.240><c> Pi,</c>
+
+00:05:05.830 --> 00:05:05.840 align:start position:0%
+agnostic. You can use it with Pi,
+ 
+
+00:05:05.840 --> 00:05:08.870 align:start position:0%
+agnostic. You can use it with Pi,
+OpenGL,<00:05:06.480><c> Hermes,</c><00:05:07.400><c> Claude</c><00:05:07.720><c> Code,</c><00:05:08.080><c> Codex,</c>
+
+00:05:08.870 --> 00:05:08.880 align:start position:0%
+OpenGL, Hermes, Claude Code, Codex,
+ 
+
+00:05:08.880 --> 00:05:10.870 align:start position:0%
+OpenGL, Hermes, Claude Code, Codex,
+whatever<00:05:09.240><c> you're</c><00:05:09.440><c> using,</c><00:05:10.440><c> you</c><00:05:10.560><c> have</c><00:05:10.680><c> one</c>
+
+00:05:10.870 --> 00:05:10.880 align:start position:0%
+whatever you're using, you have one
+ 
+
+00:05:10.880 --> 00:05:13.270 align:start position:0%
+whatever you're using, you have one
+consistent<00:05:11.360><c> interface</c><00:05:12.280><c> for</c><00:05:12.480><c> ensuring</c><00:05:13.000><c> that</c>
+
+00:05:13.270 --> 00:05:13.280 align:start position:0%
+consistent interface for ensuring that
+ 
+
+00:05:13.280 --> 00:05:15.150 align:start position:0%
+consistent interface for ensuring that
+goal<00:05:13.680><c> is</c><00:05:13.840><c> complete.</c>
+
+00:05:15.150 --> 00:05:15.160 align:start position:0%
+goal is complete.
+ 
+
+00:05:15.160 --> 00:05:16.750 align:start position:0%
+goal is complete.
+So,<00:05:15.360><c> one</c><00:05:15.480><c> of</c><00:05:15.560><c> the</c><00:05:15.640><c> best</c><00:05:15.840><c> pieces</c><00:05:16.160><c> of</c><00:05:16.280><c> advice</c><00:05:16.640><c> we</c>
+
+00:05:16.750 --> 00:05:16.760 align:start position:0%
+So, one of the best pieces of advice we
+ 
+
+00:05:16.760 --> 00:05:18.790 align:start position:0%
+So, one of the best pieces of advice we
+have<00:05:17.000><c> is</c><00:05:17.120><c> that</c><00:05:17.240><c> you</c><00:05:17.360><c> stop</c><00:05:17.760><c> treating</c><00:05:18.120><c> done</c><00:05:18.520><c> as</c><00:05:18.720><c> a</c>
+
+00:05:18.790 --> 00:05:18.800 align:start position:0%
+have is that you stop treating done as a
+ 
+
+00:05:18.800 --> 00:05:20.270 align:start position:0%
+have is that you stop treating done as a
+Boolean<00:05:19.360><c> and</c><00:05:19.520><c> treat</c><00:05:19.680><c> it</c><00:05:19.800><c> more</c><00:05:20.000><c> like</c><00:05:20.160><c> an</c>
+
+00:05:20.270 --> 00:05:20.280 align:start position:0%
+Boolean and treat it more like an
+ 
+
+00:05:20.280 --> 00:05:21.750 align:start position:0%
+Boolean and treat it more like an
+object.
+
+00:05:21.750 --> 00:05:21.760 align:start position:0%
+object.
+ 
+
+00:05:21.760 --> 00:05:23.870 align:start position:0%
+object.
+This<00:05:21.919><c> isn't</c><00:05:22.120><c> specific</c><00:05:22.520><c> to</c><00:05:22.600><c> Paperclip.</c><00:05:23.680><c> It's</c>
+
+00:05:23.870 --> 00:05:23.880 align:start position:0%
+This isn't specific to Paperclip. It's
+ 
+
+00:05:23.880 --> 00:05:25.870 align:start position:0%
+This isn't specific to Paperclip. It's
+just<00:05:24.120><c> advice</c><00:05:24.640><c> on</c><00:05:24.840><c> how</c><00:05:25.080><c> you</c><00:05:25.240><c> think</c><00:05:25.440><c> about</c><00:05:25.720><c> what</c>
+
+00:05:25.870 --> 00:05:25.880 align:start position:0%
+just advice on how you think about what
+ 
+
+00:05:25.880 --> 00:05:28.270 align:start position:0%
+just advice on how you think about what
+is<00:05:26.080><c> done.</c><00:05:27.040><c> Humans</c><00:05:27.320><c> automatically</c><00:05:27.800><c> paper</c><00:05:28.080><c> over</c>
+
+00:05:28.270 --> 00:05:28.280 align:start position:0%
+is done. Humans automatically paper over
+ 
+
+00:05:28.280 --> 00:05:29.590 align:start position:0%
+is done. Humans automatically paper over
+these<00:05:28.440><c> details,</c><00:05:28.919><c> but</c><00:05:29.040><c> when</c><00:05:29.160><c> we're</c><00:05:29.280><c> building</c>
+
+00:05:29.590 --> 00:05:29.600 align:start position:0%
+these details, but when we're building
+ 
+
+00:05:29.600 --> 00:05:31.630 align:start position:0%
+these details, but when we're building
+agentic<00:05:30.080><c> systems,</c><00:05:30.880><c> it's</c><00:05:31.040><c> important</c><00:05:31.480><c> that</c>
+
+00:05:31.630 --> 00:05:31.640 align:start position:0%
+agentic systems, it's important that
+ 
+
+00:05:31.640 --> 00:05:33.750 align:start position:0%
+agentic systems, it's important that
+your<00:05:31.840><c> agents</c><00:05:32.200><c> can</c><00:05:32.320><c> distinguish</c><00:05:32.960><c> between</c><00:05:33.680><c> the</c>
+
+00:05:33.750 --> 00:05:33.760 align:start position:0%
+your agents can distinguish between the
+ 
+
+00:05:33.760 --> 00:05:34.870 align:start position:0%
+your agents can distinguish between the
+different<00:05:34.080><c> pieces</c><00:05:34.520><c> of</c><00:05:34.600><c> what</c><00:05:34.760><c> they're</c>
+
+00:05:34.870 --> 00:05:34.880 align:start position:0%
+different pieces of what they're
+ 
+
+00:05:34.880 --> 00:05:36.030 align:start position:0%
+different pieces of what they're
+claiming<00:05:35.240><c> when</c><00:05:35.360><c> they</c><00:05:35.480><c> say</c><00:05:35.600><c> something</c><00:05:35.919><c> is</c>
+
+00:05:36.030 --> 00:05:36.040 align:start position:0%
+claiming when they say something is
+ 
+
+00:05:36.040 --> 00:05:37.990 align:start position:0%
+claiming when they say something is
+done.<00:05:36.760><c> The</c><00:05:36.960><c> artifact</c><00:05:37.520><c> that</c><00:05:37.640><c> they're</c><00:05:37.760><c> saying</c>
+
+00:05:37.990 --> 00:05:38.000 align:start position:0%
+done. The artifact that they're saying
+ 
+
+00:05:38.000 --> 00:05:40.550 align:start position:0%
+done. The artifact that they're saying
+is<00:05:38.120><c> complete,</c><00:05:38.800><c> the</c><00:05:38.919><c> scope,</c><00:05:39.800><c> the</c><00:05:40.040><c> rubric</c><00:05:40.480><c> or</c>
+
+00:05:40.550 --> 00:05:40.560 align:start position:0%
+is complete, the scope, the rubric or
+ 
+
+00:05:40.560 --> 00:05:42.630 align:start position:0%
+is complete, the scope, the rubric or
+the<00:05:40.680><c> standard,</c><00:05:41.560><c> the</c><00:05:41.840><c> evidence</c><00:05:42.320><c> that</c><00:05:42.480><c> it's</c>
+
+00:05:42.630 --> 00:05:42.640 align:start position:0%
+the standard, the evidence that it's
+ 
+
+00:05:42.640 --> 00:05:45.150 align:start position:0%
+the standard, the evidence that it's
+done,<00:05:43.160><c> who</c><00:05:43.640><c> verified</c><00:05:44.240><c> the</c><00:05:44.360><c> work,</c><00:05:44.680><c> who</c><00:05:44.840><c> has</c><00:05:45.040><c> the</c>
+
+00:05:45.150 --> 00:05:45.160 align:start position:0%
+done, who verified the work, who has the
+ 
+
+00:05:45.160 --> 00:05:47.550 align:start position:0%
+done, who verified the work, who has the
+authority<00:05:45.760><c> to</c><00:05:45.919><c> sign</c><00:05:46.240><c> off</c><00:05:46.480><c> on</c><00:05:46.560><c> the</c><00:05:46.640><c> work,</c><00:05:47.360><c> And</c>
+
+00:05:47.550 --> 00:05:47.560 align:start position:0%
+authority to sign off on the work, And
+ 
+
+00:05:47.560 --> 00:05:49.350 align:start position:0%
+authority to sign off on the work, And
+what<00:05:47.800><c> risk</c><00:05:48.080><c> might</c><00:05:48.280><c> be</c><00:05:48.440><c> left?</c><00:05:48.920><c> And</c><00:05:49.040><c> really,</c>
+
+00:05:49.350 --> 00:05:49.360 align:start position:0%
+what risk might be left? And really,
+ 
+
+00:05:49.360 --> 00:05:51.670 align:start position:0%
+what risk might be left? And really,
+what's<00:05:49.600><c> the</c><00:05:49.720><c> next</c><00:05:50.120><c> action</c><00:05:50.520><c> going</c><00:05:50.760><c> to</c><00:05:50.840><c> be?</c><00:05:51.600><c> So,</c>
+
+00:05:51.670 --> 00:05:51.680 align:start position:0%
+what's the next action going to be? So,
+ 
+
+00:05:51.680 --> 00:05:52.830 align:start position:0%
+what's the next action going to be? So,
+you<00:05:51.840><c> want</c><00:05:52.000><c> to</c><00:05:52.080><c> make</c><00:05:52.280><c> sure</c><00:05:52.440><c> that</c><00:05:52.600><c> when</c><00:05:52.720><c> you</c>
+
+00:05:52.830 --> 00:05:52.840 align:start position:0%
+you want to make sure that when you
+ 
+
+00:05:52.840 --> 00:05:56.230 align:start position:0%
+you want to make sure that when you
+define<00:05:53.280><c> done,</c><00:05:53.880><c> it's</c><00:05:54.040><c> not</c><00:05:54.240><c> just</c><00:05:54.440><c> a</c><00:05:54.520><c> checkbox.</c>
+
+00:05:56.230 --> 00:05:56.240 align:start position:0%
+define done, it's not just a checkbox.
+ 
+
+00:05:56.240 --> 00:05:57.710 align:start position:0%
+define done, it's not just a checkbox.
+So,<00:05:56.360><c> if</c><00:05:56.480><c> you</c><00:05:56.560><c> want</c><00:05:56.680><c> to</c><00:05:56.720><c> get</c><00:05:56.840><c> 100</c><00:05:57.200><c> times</c><00:05:57.480><c> more</c>
+
+00:05:57.710 --> 00:05:57.720 align:start position:0%
+So, if you want to get 100 times more
+ 
+
+00:05:57.720 --> 00:05:59.430 align:start position:0%
+So, if you want to get 100 times more
+work<00:05:57.960><c> done,</c><00:05:58.720><c> you</c><00:05:58.840><c> should</c><00:05:59.000><c> steal</c><00:05:59.280><c> this</c>
+
+00:05:59.430 --> 00:05:59.440 align:start position:0%
+work done, you should steal this
+ 
+
+00:05:59.440 --> 00:06:01.830 align:start position:0%
+work done, you should steal this
+checklist.<00:06:00.480><c> You</c><00:06:00.600><c> need</c><00:06:00.760><c> to</c><00:06:00.840><c> define</c><00:06:01.280><c> exactly</c>
+
+00:06:01.830 --> 00:06:01.840 align:start position:0%
+checklist. You need to define exactly
+ 
+
+00:06:01.840 --> 00:06:05.310 align:start position:0%
+checklist. You need to define exactly
+what<00:06:02.200><c> does</c><00:06:02.480><c> done</c><00:06:02.840><c> mean</c><00:06:03.240><c> for</c><00:06:03.520><c> this</c><00:06:03.760><c> task.</c>
+
+00:06:05.310 --> 00:06:05.320 align:start position:0%
+what does done mean for this task.
+ 
+
+00:06:05.320 --> 00:06:06.630 align:start position:0%
+what does done mean for this task.
+You<00:06:05.480><c> definitely</c><00:06:05.920><c> want</c><00:06:06.080><c> to</c><00:06:06.160><c> separate</c><00:06:06.520><c> the</c>
+
+00:06:06.630 --> 00:06:06.640 align:start position:0%
+You definitely want to separate the
+ 
+
+00:06:06.640 --> 00:06:08.950 align:start position:0%
+You definitely want to separate the
+verifier<00:06:07.280><c> from</c><00:06:07.480><c> the</c><00:06:07.680><c> author.</c><00:06:08.440><c> Often,</c><00:06:08.800><c> this</c>
+
+00:06:08.950 --> 00:06:08.960 align:start position:0%
+verifier from the author. Often, this
+ 
+
+00:06:08.960 --> 00:06:10.150 align:start position:0%
+verifier from the author. Often, this
+means<00:06:09.200><c> you're</c><00:06:09.280><c> using</c><00:06:09.520><c> a</c><00:06:09.560><c> different</c><00:06:09.880><c> model.</c>
+
+00:06:10.150 --> 00:06:10.160 align:start position:0%
+means you're using a different model.
+ 
+
+00:06:10.160 --> 00:06:12.070 align:start position:0%
+means you're using a different model.
+So,<00:06:10.240><c> if</c><00:06:10.320><c> you're</c><00:06:10.440><c> coding</c><00:06:10.840><c> using</c><00:06:11.120><c> Claude,</c><00:06:11.880><c> have</c>
+
+00:06:12.070 --> 00:06:12.080 align:start position:0%
+So, if you're coding using Claude, have
+ 
+
+00:06:12.080 --> 00:06:14.030 align:start position:0%
+So, if you're coding using Claude, have
+Codex<00:06:12.440><c> verify.</c>
+
+00:06:14.030 --> 00:06:14.040 align:start position:0%
+Codex verify.
+ 
+
+00:06:14.040 --> 00:06:15.750 align:start position:0%
+Codex verify.
+You<00:06:14.120><c> want</c><00:06:14.240><c> to</c><00:06:14.360><c> ask</c><00:06:14.640><c> your</c><00:06:14.800><c> agents</c><00:06:15.120><c> to</c><00:06:15.200><c> provide</c>
+
+00:06:15.750 --> 00:06:15.760 align:start position:0%
+You want to ask your agents to provide
+ 
+
+00:06:15.760 --> 00:06:18.070 align:start position:0%
+You want to ask your agents to provide
+evidence.<00:06:16.640><c> Don't</c><00:06:16.840><c> just</c><00:06:17.120><c> ask</c><00:06:17.440><c> them</c><00:06:17.600><c> to</c><00:06:17.720><c> say,</c>
+
+00:06:18.070 --> 00:06:18.080 align:start position:0%
+evidence. Don't just ask them to say,
+ 
+
+00:06:18.080 --> 00:06:20.510 align:start position:0%
+evidence. Don't just ask them to say,
+"Is<00:06:18.280><c> this</c><00:06:18.520><c> done?"</c><00:06:19.080><c> But,</c><00:06:19.680><c> give</c><00:06:19.919><c> them</c><00:06:20.040><c> the</c><00:06:20.160><c> tools</c>
+
+00:06:20.510 --> 00:06:20.520 align:start position:0%
+"Is this done?" But, give them the tools
+ 
+
+00:06:20.520 --> 00:06:22.110 align:start position:0%
+"Is this done?" But, give them the tools
+they<00:06:20.680><c> need</c><00:06:20.919><c> to</c><00:06:21.040><c> verify</c><00:06:21.440><c> that</c><00:06:21.600><c> the</c><00:06:21.720><c> work</c><00:06:21.960><c> is</c>
+
+00:06:22.110 --> 00:06:22.120 align:start position:0%
+they need to verify that the work is
+ 
+
+00:06:22.120 --> 00:06:23.990 align:start position:0%
+they need to verify that the work is
+done.<00:06:22.680><c> Write</c><00:06:22.960><c> the</c><00:06:23.040><c> code</c><00:06:23.320><c> to</c><00:06:23.400><c> have</c><00:06:23.560><c> the</c><00:06:23.640><c> custom</c>
+
+00:06:23.990 --> 00:06:24.000 align:start position:0%
+done. Write the code to have the custom
+ 
+
+00:06:24.000 --> 00:06:25.510 align:start position:0%
+done. Write the code to have the custom
+browser<00:06:24.400><c> harness.</c>
+
+00:06:25.510 --> 00:06:25.520 align:start position:0%
+browser harness.
+ 
+
+00:06:25.520 --> 00:06:27.630 align:start position:0%
+browser harness.
+Write<00:06:25.800><c> the</c><00:06:25.919><c> code</c><00:06:26.280><c> to</c><00:06:26.360><c> take</c><00:06:26.560><c> the</c><00:06:26.640><c> screenshots.</c>
+
+00:06:27.630 --> 00:06:27.640 align:start position:0%
+Write the code to take the screenshots.
+ 
+
+00:06:27.640 --> 00:06:29.790 align:start position:0%
+Write the code to take the screenshots.
+Make<00:06:27.880><c> sure</c><00:06:28.000><c> they</c><00:06:28.120><c> have</c><00:06:28.320><c> access</c><00:06:28.680><c> to</c><00:06:28.840><c> a</c><00:06:28.880><c> browser.</c>
+
+00:06:29.790 --> 00:06:29.800 align:start position:0%
+Make sure they have access to a browser.
+ 
+
+00:06:29.800 --> 00:06:31.070 align:start position:0%
+Make sure they have access to a browser.
+Make<00:06:29.919><c> sure</c><00:06:30.040><c> that</c><00:06:30.160><c> they</c><00:06:30.240><c> have</c><00:06:30.360><c> custom</c><00:06:30.760><c> agent</c>
+
+00:06:31.070 --> 00:06:31.080 align:start position:0%
+Make sure that they have custom agent
+ 
+
+00:06:31.080 --> 00:06:32.830 align:start position:0%
+Make sure that they have custom agent
+hooks<00:06:31.320><c> or</c><00:06:31.400><c> custom</c><00:06:31.760><c> agent</c><00:06:32.040><c> tooling</c><00:06:32.720><c> to</c>
+
+00:06:32.830 --> 00:06:32.840 align:start position:0%
+hooks or custom agent tooling to
+ 
+
+00:06:32.840 --> 00:06:34.510 align:start position:0%
+hooks or custom agent tooling to
+actually<00:06:33.240><c> run</c><00:06:33.640><c> through</c><00:06:34.000><c> and</c><00:06:34.120><c> click</c><00:06:34.400><c> the</c>
+
+00:06:34.510 --> 00:06:34.520 align:start position:0%
+actually run through and click the
+ 
+
+00:06:34.520 --> 00:06:36.310 align:start position:0%
+actually run through and click the
+buttons<00:06:35.000><c> and</c><00:06:35.120><c> try</c><00:06:35.360><c> it</c><00:06:35.480><c> out</c><00:06:35.600><c> themselves</c><00:06:36.120><c> and</c>
+
+00:06:36.310 --> 00:06:36.320 align:start position:0%
+buttons and try it out themselves and
+ 
+
+00:06:36.320 --> 00:06:39.870 align:start position:0%
+buttons and try it out themselves and
+verify<00:06:37.240><c> that</c><00:06:37.400><c> the</c><00:06:37.520><c> work</c><00:06:37.840><c> is</c><00:06:38.080><c> truly</c><00:06:38.560><c> done.</c>
+
+00:06:39.870 --> 00:06:39.880 align:start position:0%
+verify that the work is truly done.
+ 
+
+00:06:39.880 --> 00:06:41.590 align:start position:0%
+verify that the work is truly done.
+Make<00:06:40.040><c> sure</c><00:06:40.200><c> you</c><00:06:40.320><c> have</c><00:06:40.480><c> a</c><00:06:40.560><c> clear</c><00:06:41.160><c> chain</c><00:06:41.480><c> of</c>
+
+00:06:41.590 --> 00:06:41.600 align:start position:0%
+Make sure you have a clear chain of
+ 
+
+00:06:41.600 --> 00:06:43.790 align:start position:0%
+Make sure you have a clear chain of
+custody,<00:06:42.440><c> that</c><00:06:42.600><c> every</c><00:06:42.880><c> agent</c><00:06:43.240><c> knows</c><00:06:43.520><c> that</c><00:06:43.680><c> as</c>
+
+00:06:43.790 --> 00:06:43.800 align:start position:0%
+custody, that every agent knows that as
+ 
+
+00:06:43.800 --> 00:06:45.390 align:start position:0%
+custody, that every agent knows that as
+soon<00:06:44.000><c> as</c><00:06:44.080><c> they're</c><00:06:44.240><c> done,</c><00:06:45.000><c> who</c><00:06:45.200><c> they're</c>
+
+00:06:45.390 --> 00:06:45.400 align:start position:0%
+soon as they're done, who they're
+ 
+
+00:06:45.400 --> 00:06:48.750 align:start position:0%
+soon as they're done, who they're
+supposed<00:06:45.840><c> to</c><00:06:45.960><c> give</c><00:06:46.600><c> the</c><00:06:46.720><c> work</c><00:06:47.040><c> to</c><00:06:47.200><c> next.</c>
+
+00:06:48.750 --> 00:06:48.760 align:start position:0%
+supposed to give the work to next.
+ 
+
+00:06:48.760 --> 00:06:50.230 align:start position:0%
+supposed to give the work to next.
+It<00:06:48.840><c> can</c><00:06:48.960><c> be</c><00:06:49.120><c> easy</c><00:06:49.360><c> to</c><00:06:49.480><c> just</c><00:06:49.720><c> fire</c><00:06:50.040><c> off</c><00:06:50.200><c> a</c>
+
+00:06:50.230 --> 00:06:50.240 align:start position:0%
+It can be easy to just fire off a
+ 
+
+00:06:50.240 --> 00:06:53.030 align:start position:0%
+It can be easy to just fire off a
+single-line<00:06:50.880><c> instruction</c><00:06:52.120><c> and</c><00:06:52.560><c> vibe</c><00:06:52.880><c> with</c>
+
+00:06:53.030 --> 00:06:53.040 align:start position:0%
+single-line instruction and vibe with
+ 
+
+00:06:53.040 --> 00:06:54.950 align:start position:0%
+single-line instruction and vibe with
+whatever<00:06:53.360><c> comes</c><00:06:53.640><c> back.</c><00:06:54.560><c> But,</c><00:06:54.640><c> if</c><00:06:54.720><c> you</c><00:06:54.800><c> have</c>
+
+00:06:54.950 --> 00:06:54.960 align:start position:0%
+whatever comes back. But, if you have
+ 
+
+00:06:54.960 --> 00:06:56.430 align:start position:0%
+whatever comes back. But, if you have
+serious<00:06:55.440><c> work</c><00:06:55.640><c> that</c><00:06:55.800><c> you're</c><00:06:55.919><c> accountable</c>
+
+00:06:56.430 --> 00:06:56.440 align:start position:0%
+serious work that you're accountable
+ 
+
+00:06:56.440 --> 00:06:58.830 align:start position:0%
+serious work that you're accountable
+for,<00:06:57.000><c> it's</c><00:06:57.200><c> very</c><00:06:57.600><c> important</c><00:06:58.080><c> that</c><00:06:58.200><c> you</c><00:06:58.320><c> define</c>
+
+00:06:58.830 --> 00:06:58.840 align:start position:0%
+for, it's very important that you define
+ 
+
+00:06:58.840 --> 00:07:01.030 align:start position:0%
+for, it's very important that you define
+what<00:06:59.080><c> done</c><00:06:59.440><c> really</c><00:06:59.720><c> means</c><00:07:00.160><c> in</c><00:07:00.280><c> as</c><00:07:00.400><c> much</c><00:07:00.640><c> detail</c>
+
+00:07:01.030 --> 00:07:01.040 align:start position:0%
+what done really means in as much detail
+ 
+
+00:07:01.040 --> 00:07:03.150 align:start position:0%
+what done really means in as much detail
+as<00:07:01.160><c> possible,</c><00:07:02.280><c> and</c><00:07:02.600><c> that</c><00:07:02.760><c> you</c><00:07:02.880><c> have</c><00:07:03.080><c> a</c>
+
+00:07:03.150 --> 00:07:03.160 align:start position:0%
+as possible, and that you have a
+ 
+
+00:07:03.160 --> 00:07:05.710 align:start position:0%
+as possible, and that you have a
+structure<00:07:04.080><c> for</c><00:07:04.200><c> your</c><00:07:04.480><c> agents,</c><00:07:05.240><c> so</c><00:07:05.360><c> that</c><00:07:05.600><c> way</c>
+
+00:07:05.710 --> 00:07:05.720 align:start position:0%
+structure for your agents, so that way
+ 
+
+00:07:05.720 --> 00:07:08.110 align:start position:0%
+structure for your agents, so that way
+they<00:07:05.919><c> can</c><00:07:06.120><c> verify</c><00:07:07.000><c> that</c><00:07:07.240><c> all</c><00:07:07.480><c> of</c><00:07:07.560><c> the</c><00:07:07.680><c> claims</c>
+
+00:07:08.110 --> 00:07:08.120 align:start position:0%
+they can verify that all of the claims
+ 
+
+00:07:08.120 --> 00:07:09.390 align:start position:0%
+they can verify that all of the claims
+that<00:07:08.200><c> are</c><00:07:08.240><c> involved</c><00:07:08.680><c> with</c><00:07:08.800><c> something</c><00:07:09.120><c> being</c>
+
+00:07:09.390 --> 00:07:09.400 align:start position:0%
+that are involved with something being
+ 
+
+00:07:09.400 --> 00:07:13.560 align:start position:0%
+that are involved with something being
+done<00:07:09.840><c> are</c><00:07:10.000><c> actually</c><00:07:10.360><c> met.</c><00:07:11.200><c> Thank</c><00:07:11.360><c> you.</c>
+

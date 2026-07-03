@@ -1,0 +1,2392 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.160 --> 00:00:04.030 align:start position:0%
+ 
+Hi<00:00:01.280><c> everyone.</c><00:00:02.080><c> My</c><00:00:02.200><c> name</c><00:00:02.400><c> is</c><00:00:02.560><c> Rishi</c><00:00:02.800><c> Desai.</c>
+
+00:00:04.030 --> 00:00:04.040 align:start position:0%
+Hi everyone. My name is Rishi Desai.
+ 
+
+00:00:04.040 --> 00:00:07.030 align:start position:0%
+Hi everyone. My name is Rishi Desai.
+I'm<00:00:04.200><c> an</c><00:00:04.320><c> ML</c><00:00:04.600><c> engineer</c><00:00:05.200><c> at</c><00:00:05.600><c> Abundant</c><00:00:06.040><c> AI,</c><00:00:06.880><c> where</c>
+
+00:00:07.030 --> 00:00:07.040 align:start position:0%
+I'm an ML engineer at Abundant AI, where
+ 
+
+00:00:07.040 --> 00:00:08.590 align:start position:0%
+I'm an ML engineer at Abundant AI, where
+we<00:00:07.160><c> build</c><00:00:07.600><c> reinforcement</c><00:00:08.200><c> learning</c>
+
+00:00:08.590 --> 00:00:08.600 align:start position:0%
+we build reinforcement learning
+ 
+
+00:00:08.600 --> 00:00:11.910 align:start position:0%
+we build reinforcement learning
+environments<00:00:09.720><c> for</c><00:00:09.880><c> Frontier</c><00:00:10.320><c> Labs.</c>
+
+00:00:11.910 --> 00:00:11.920 align:start position:0%
+environments for Frontier Labs.
+ 
+
+00:00:11.920 --> 00:00:13.310 align:start position:0%
+environments for Frontier Labs.
+Today,<00:00:12.200><c> I'm</c><00:00:12.320><c> going</c><00:00:12.440><c> to</c><00:00:12.480><c> talk</c><00:00:12.720><c> about</c><00:00:13.000><c> SWE</c>
+
+00:00:13.310 --> 00:00:13.320 align:start position:0%
+Today, I'm going to talk about SWE
+ 
+
+00:00:13.320 --> 00:00:15.750 align:start position:0%
+Today, I'm going to talk about SWE
+Marathon,<00:00:14.440><c> a</c><00:00:14.520><c> benchmark</c><00:00:15.120><c> that</c><00:00:15.320><c> answers</c><00:00:15.680><c> a</c>
+
+00:00:15.750 --> 00:00:15.760 align:start position:0%
+Marathon, a benchmark that answers a
+ 
+
+00:00:15.760 --> 00:00:17.270 align:start position:0%
+Marathon, a benchmark that answers a
+question<00:00:16.240><c> that</c><00:00:16.400><c> is</c><00:00:16.480><c> starting</c><00:00:16.840><c> to</c><00:00:16.920><c> matter</c><00:00:17.240><c> a</c>
+
+00:00:17.270 --> 00:00:17.280 align:start position:0%
+question that is starting to matter a
+ 
+
+00:00:17.280 --> 00:00:18.870 align:start position:0%
+question that is starting to matter a
+lot<00:00:17.560><c> more.</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+lot more.
+ 
+
+00:00:18.880 --> 00:00:21.070 align:start position:0%
+lot more.
+Can<00:00:19.080><c> coding</c><00:00:19.480><c> agents</c><00:00:19.840><c> stay</c><00:00:20.080><c> coherent</c><00:00:20.640><c> over</c><00:00:21.000><c> a</c>
+
+00:00:21.070 --> 00:00:21.080 align:start position:0%
+Can coding agents stay coherent over a
+ 
+
+00:00:21.080 --> 00:00:23.590 align:start position:0%
+Can coding agents stay coherent over a
+billion<00:00:21.560><c> token</c><00:00:21.920><c> budget?</c>
+
+00:00:23.590 --> 00:00:23.600 align:start position:0%
+billion token budget?
+ 
+
+00:00:23.600 --> 00:00:26.550 align:start position:0%
+billion token budget?
+Can<00:00:23.760><c> they</c><00:00:23.880><c> build</c><00:00:24.400><c> Slack</c><00:00:24.800><c> from</c><00:00:24.960><c> scratch?</c>
+
+00:00:26.550 --> 00:00:26.560 align:start position:0%
+Can they build Slack from scratch?
+ 
+
+00:00:26.560 --> 00:00:28.830 align:start position:0%
+Can they build Slack from scratch?
+Can<00:00:26.720><c> they</c><00:00:26.840><c> rewrite</c><00:00:27.320><c> an</c><00:00:27.440><c> entire</c><00:00:27.920><c> JAX</c><00:00:28.320><c> code</c><00:00:28.520><c> base</c>
+
+00:00:28.830 --> 00:00:28.840 align:start position:0%
+Can they rewrite an entire JAX code base
+ 
+
+00:00:28.840 --> 00:00:30.790 align:start position:0%
+Can they rewrite an entire JAX code base
+in<00:00:29.000><c> PyTorch?</c>
+
+00:00:30.790 --> 00:00:30.800 align:start position:0%
+in PyTorch?
+ 
+
+00:00:30.800 --> 00:00:34.430 align:start position:0%
+in PyTorch?
+Can<00:00:30.880><c> they</c><00:00:31.000><c> build</c><00:00:31.280><c> a</c><00:00:31.360><c> C</c><00:00:31.520><c> compiler</c><00:00:32.000><c> in</c><00:00:32.160><c> Rust?</c>
+
+00:00:34.430 --> 00:00:34.440 align:start position:0%
+Can they build a C compiler in Rust?
+ 
+
+00:00:34.440 --> 00:00:35.870 align:start position:0%
+Can they build a C compiler in Rust?
+This<00:00:34.560><c> is</c><00:00:34.680><c> what</c><00:00:34.880><c> SWE</c><00:00:35.120><c> Marathon</c><00:00:35.520><c> is</c><00:00:35.600><c> trying</c><00:00:35.800><c> to</c>
+
+00:00:35.870 --> 00:00:35.880 align:start position:0%
+This is what SWE Marathon is trying to
+ 
+
+00:00:35.880 --> 00:00:37.990 align:start position:0%
+This is what SWE Marathon is trying to
+measure.<00:00:36.680><c> What</c><00:00:36.880><c> happens</c><00:00:37.240><c> when</c><00:00:37.360><c> coding</c><00:00:37.640><c> agents</c>
+
+00:00:37.990 --> 00:00:38.000 align:start position:0%
+measure. What happens when coding agents
+ 
+
+00:00:38.000 --> 00:00:40.670 align:start position:0%
+measure. What happens when coding agents
+move<00:00:38.280><c> from</c><00:00:38.880><c> fixing</c><00:00:39.280><c> bugs</c><00:00:39.720><c> to</c><00:00:39.960><c> owning</c><00:00:40.280><c> entire</c>
+
+00:00:40.670 --> 00:00:40.680 align:start position:0%
+move from fixing bugs to owning entire
+ 
+
+00:00:40.680 --> 00:00:47.630 align:start position:0%
+move from fixing bugs to owning entire
+projects<00:00:41.600><c> end</c><00:00:41.800><c> to</c><00:00:41.920><c> end?</c>
+
+00:00:47.630 --> 00:00:47.640 align:start position:0%
+ 
+ 
+
+00:00:47.640 --> 00:00:48.910 align:start position:0%
+ 
+There's<00:00:47.800><c> been</c><00:00:47.960><c> a</c><00:00:48.000><c> tremendous</c><00:00:48.520><c> amount</c><00:00:48.800><c> of</c>
+
+00:00:48.910 --> 00:00:48.920 align:start position:0%
+There's been a tremendous amount of
+ 
+
+00:00:48.920 --> 00:00:52.550 align:start position:0%
+There's been a tremendous amount of
+interest<00:00:49.520><c> in</c><00:00:49.800><c> autonomous</c><00:00:50.480><c> agent</c><00:00:50.760><c> systems.</c>
+
+00:00:52.550 --> 00:00:52.560 align:start position:0%
+interest in autonomous agent systems.
+ 
+
+00:00:52.560 --> 00:00:55.670 align:start position:0%
+interest in autonomous agent systems.
+Anthropic<00:00:53.080><c> has</c><00:00:53.240><c> explored</c><00:00:53.920><c> teams</c><00:00:54.360><c> of</c><00:00:54.600><c> agents</c>
+
+00:00:55.670 --> 00:00:55.680 align:start position:0%
+Anthropic has explored teams of agents
+ 
+
+00:00:55.680 --> 00:00:57.830 align:start position:0%
+Anthropic has explored teams of agents
+building<00:00:56.040><c> a</c><00:00:56.120><c> C</c><00:00:56.280><c> compiler.</c>
+
+00:00:57.830 --> 00:00:57.840 align:start position:0%
+building a C compiler.
+ 
+
+00:00:57.840 --> 00:01:01.270 align:start position:0%
+building a C compiler.
+Cloudflare<00:00:58.440><c> rebuilt</c><00:00:59.360><c> the</c><00:00:59.440><c> entire</c><00:00:59.960><c> Next.js</c><00:01:01.080><c> on</c>
+
+00:01:01.270 --> 00:01:01.280 align:start position:0%
+Cloudflare rebuilt the entire Next.js on
+ 
+
+00:01:01.280 --> 00:01:04.790 align:start position:0%
+Cloudflare rebuilt the entire Next.js on
+Vite,<00:01:02.000><c> completely</c><00:01:02.600><c> hands-off</c><00:01:03.040><c> with</c><00:01:03.160><c> agents.</c>
+
+00:01:04.790 --> 00:01:04.800 align:start position:0%
+Vite, completely hands-off with agents.
+ 
+
+00:01:04.800 --> 00:01:06.270 align:start position:0%
+Vite, completely hands-off with agents.
+And<00:01:04.960><c> Cursor</c><00:01:05.320><c> has</c><00:01:05.440><c> experimented</c><00:01:06.040><c> with</c><00:01:06.120><c> their</c>
+
+00:01:06.270 --> 00:01:06.280 align:start position:0%
+And Cursor has experimented with their
+ 
+
+00:01:06.280 --> 00:01:07.910 align:start position:0%
+And Cursor has experimented with their
+days-long
+
+00:01:07.910 --> 00:01:07.920 align:start position:0%
+days-long
+ 
+
+00:01:07.920 --> 00:01:11.430 align:start position:0%
+days-long
+running<00:01:08.640><c> autonomous</c><00:01:09.200><c> agent</c><00:01:09.480><c> harness.</c>
+
+00:01:11.430 --> 00:01:11.440 align:start position:0%
+running autonomous agent harness.
+ 
+
+00:01:11.440 --> 00:01:13.510 align:start position:0%
+running autonomous agent harness.
+The<00:01:11.520><c> pattern</c><00:01:11.960><c> is</c><00:01:12.080><c> that</c><00:01:12.680><c> coding</c><00:01:13.040><c> agents</c><00:01:13.400><c> are</c>
+
+00:01:13.510 --> 00:01:13.520 align:start position:0%
+The pattern is that coding agents are
+ 
+
+00:01:13.520 --> 00:01:16.470 align:start position:0%
+The pattern is that coding agents are
+being<00:01:14.320><c> pointed</c><00:01:14.640><c> at</c><00:01:14.880><c> whole</c><00:01:15.200><c> projects,</c><00:01:16.240><c> not</c>
+
+00:01:16.470 --> 00:01:16.480 align:start position:0%
+being pointed at whole projects, not
+ 
+
+00:01:16.480 --> 00:01:20.550 align:start position:0%
+being pointed at whole projects, not
+just<00:01:16.760><c> GitHub</c><00:01:17.120><c> issues</c><00:01:17.640><c> or</c><00:01:17.800><c> linear</c><00:01:18.120><c> tickets.</c>
+
+00:01:20.550 --> 00:01:20.560 align:start position:0%
+just GitHub issues or linear tickets.
+ 
+
+00:01:20.560 --> 00:01:22.470 align:start position:0%
+just GitHub issues or linear tickets.
+My<00:01:20.640><c> question</c><00:01:21.000><c> is,</c><00:01:21.280><c> can</c><00:01:21.480><c> we</c><00:01:21.600><c> turn</c><00:01:22.160><c> some</c><00:01:22.400><c> of</c>
+
+00:01:22.470 --> 00:01:22.480 align:start position:0%
+My question is, can we turn some of
+ 
+
+00:01:22.480 --> 00:01:24.870 align:start position:0%
+My question is, can we turn some of
+these<00:01:22.720><c> Frontier</c><00:01:23.120><c> Labs</c><00:01:23.400><c> style</c><00:01:23.840><c> case</c><00:01:24.080><c> studies</c>
+
+00:01:24.870 --> 00:01:24.880 align:start position:0%
+these Frontier Labs style case studies
+ 
+
+00:01:24.880 --> 00:01:32.710 align:start position:0%
+these Frontier Labs style case studies
+into<00:01:25.440><c> reproducible</c><00:01:26.480><c> eval</c><00:01:26.760><c> tasks?</c>
+
+00:01:32.710 --> 00:01:32.720 align:start position:0%
+ 
+ 
+
+00:01:32.720 --> 00:01:34.510 align:start position:0%
+ 
+Let's<00:01:32.920><c> talk</c><00:01:33.120><c> about</c><00:01:33.280><c> the</c><00:01:33.400><c> SWE</c><00:01:33.880><c> benchmark</c>
+
+00:01:34.510 --> 00:01:34.520 align:start position:0%
+Let's talk about the SWE benchmark
+ 
+
+00:01:34.520 --> 00:01:36.670 align:start position:0%
+Let's talk about the SWE benchmark
+lineage.
+
+00:01:36.670 --> 00:01:36.680 align:start position:0%
+lineage.
+ 
+
+00:01:36.680 --> 00:01:39.070 align:start position:0%
+lineage.
+Human<00:01:37.040><c> Eval</c><00:01:37.600><c> asked</c><00:01:38.160><c> whether</c><00:01:38.520><c> models</c><00:01:38.880><c> could</c>
+
+00:01:39.070 --> 00:01:39.080 align:start position:0%
+Human Eval asked whether models could
+ 
+
+00:01:39.080 --> 00:01:43.030 align:start position:0%
+Human Eval asked whether models could
+write<00:01:39.440><c> individual</c><00:01:40.080><c> Python</c><00:01:40.440><c> functions.</c>
+
+00:01:43.030 --> 00:01:43.040 align:start position:0%
+write individual Python functions.
+ 
+
+00:01:43.040 --> 00:01:45.710 align:start position:0%
+write individual Python functions.
+SWE-bench<00:01:43.680><c> was</c><00:01:43.840><c> a</c><00:01:43.920><c> big</c><00:01:44.240><c> jump</c><00:01:44.840><c> to</c><00:01:45.040><c> real</c><00:01:45.360><c> GitHub</c>
+
+00:01:45.710 --> 00:01:45.720 align:start position:0%
+SWE-bench was a big jump to real GitHub
+ 
+
+00:01:45.720 --> 00:01:49.150 align:start position:0%
+SWE-bench was a big jump to real GitHub
+issues,<00:01:46.760><c> where</c><00:01:47.440><c> agents</c><00:01:47.800><c> had</c><00:01:48.200><c> to</c><00:01:48.560><c> inspect</c><00:01:49.080><c> a</c>
+
+00:01:49.150 --> 00:01:49.160 align:start position:0%
+issues, where agents had to inspect a
+ 
+
+00:01:49.160 --> 00:01:52.390 align:start position:0%
+issues, where agents had to inspect a
+repository,<00:01:50.320><c> make</c><00:01:50.560><c> a</c><00:01:50.640><c> patch,</c><00:01:51.400><c> and</c><00:01:51.600><c> patch</c><00:01:51.920><c> some</c>
+
+00:01:52.390 --> 00:01:52.400 align:start position:0%
+repository, make a patch, and patch some
+ 
+
+00:01:52.400 --> 00:01:54.830 align:start position:0%
+repository, make a patch, and patch some
+unit<00:01:52.720><c> tests.</c>
+
+00:01:54.830 --> 00:01:54.840 align:start position:0%
+unit tests.
+ 
+
+00:01:54.840 --> 00:01:56.950 align:start position:0%
+unit tests.
+Terminal-bench<00:01:55.520><c> pushed</c><00:01:56.040><c> this</c><00:01:56.280><c> even</c><00:01:56.560><c> further</c>
+
+00:01:56.950 --> 00:01:56.960 align:start position:0%
+Terminal-bench pushed this even further
+ 
+
+00:01:56.960 --> 00:01:59.710 align:start position:0%
+Terminal-bench pushed this even further
+by<00:01:57.120><c> making</c><00:01:57.560><c> each</c><00:01:57.800><c> task</c><00:01:58.800><c> a</c><00:01:58.920><c> full</c><00:01:59.200><c> environment</c>
+
+00:01:59.710 --> 00:01:59.720 align:start position:0%
+by making each task a full environment
+ 
+
+00:01:59.720 --> 00:02:02.910 align:start position:0%
+by making each task a full environment
+with<00:01:59.840><c> a</c><00:01:59.920><c> verifier.</c><00:02:01.160><c> So,</c><00:02:02.120><c> agents</c><00:02:02.520><c> could</c><00:02:02.720><c> use</c><00:02:02.840><c> a</c>
+
+00:02:02.910 --> 00:02:02.920 align:start position:0%
+with a verifier. So, agents could use a
+ 
+
+00:02:02.920 --> 00:02:05.910 align:start position:0%
+with a verifier. So, agents could use a
+terminal,<00:02:03.760><c> run</c><00:02:04.120><c> bash</c><00:02:04.479><c> commands,</c>
+
+00:02:05.910 --> 00:02:05.920 align:start position:0%
+terminal, run bash commands,
+ 
+
+00:02:05.920 --> 00:02:08.070 align:start position:0%
+terminal, run bash commands,
+inspect<00:02:06.360><c> files,</c><00:02:06.840><c> and</c><00:02:07.040><c> leave</c><00:02:07.280><c> behind</c><00:02:07.680><c> a</c><00:02:07.760><c> final</c>
+
+00:02:08.070 --> 00:02:08.080 align:start position:0%
+inspect files, and leave behind a final
+ 
+
+00:02:08.080 --> 00:02:10.790 align:start position:0%
+inspect files, and leave behind a final
+container<00:02:08.479><c> state.</c>
+
+00:02:10.790 --> 00:02:10.800 align:start position:0%
+container state.
+ 
+
+00:02:10.800 --> 00:02:13.430 align:start position:0%
+container state.
+SWE<00:02:11.080><c> Marathon</c><00:02:12.000><c> takes</c><00:02:12.360><c> that</c><00:02:12.600><c> environment</c><00:02:13.160><c> plus</c>
+
+00:02:13.430 --> 00:02:13.440 align:start position:0%
+SWE Marathon takes that environment plus
+ 
+
+00:02:13.440 --> 00:02:15.830 align:start position:0%
+SWE Marathon takes that environment plus
+verifier<00:02:13.920><c> framing</c><00:02:15.040><c> and</c><00:02:15.320><c> stretches</c><00:02:15.760><c> the</c>
+
+00:02:15.830 --> 00:02:15.840 align:start position:0%
+verifier framing and stretches the
+ 
+
+00:02:15.840 --> 00:02:18.949 align:start position:0%
+verifier framing and stretches the
+horizon<00:02:16.320><c> to</c><00:02:16.480><c> project</c><00:02:16.880><c> scale</c><00:02:17.160><c> work.</c>
+
+00:02:18.949 --> 00:02:18.959 align:start position:0%
+horizon to project scale work.
+ 
+
+00:02:18.959 --> 00:02:20.949 align:start position:0%
+horizon to project scale work.
+Multi-hour<00:02:19.560><c> trajectories</c><00:02:20.200><c> and</c><00:02:20.400><c> coordinated</c>
+
+00:02:20.949 --> 00:02:20.959 align:start position:0%
+Multi-hour trajectories and coordinated
+ 
+
+00:02:20.959 --> 00:02:23.790 align:start position:0%
+Multi-hour trajectories and coordinated
+changes<00:02:21.320><c> across</c><00:02:21.600><c> many,</c><00:02:21.920><c> many</c><00:02:22.120><c> components.</c>
+
+00:02:23.790 --> 00:02:23.800 align:start position:0%
+changes across many, many components.
+ 
+
+00:02:23.800 --> 00:02:26.270 align:start position:0%
+changes across many, many components.
+These<00:02:23.959><c> are</c><00:02:24.160><c> literally</c><00:02:24.680><c> hundreds</c><00:02:25.200><c> of</c><00:02:25.360><c> hours</c><00:02:25.800><c> of</c>
+
+00:02:26.270 --> 00:02:26.280 align:start position:0%
+These are literally hundreds of hours of
+ 
+
+00:02:26.280 --> 00:02:28.750 align:start position:0%
+These are literally hundreds of hours of
+human<00:02:26.680><c> work</c><00:02:27.320><c> compressed</c><00:02:27.959><c> into</c><00:02:28.240><c> a</c><00:02:28.320><c> single</c>
+
+00:02:28.750 --> 00:02:28.760 align:start position:0%
+human work compressed into a single
+ 
+
+00:02:28.760 --> 00:02:33.990 align:start position:0%
+human work compressed into a single
+agent<00:02:29.040><c> rollout.</c>
+
+00:02:33.990 --> 00:02:34.000 align:start position:0%
+ 
+ 
+
+00:02:34.000 --> 00:02:37.390 align:start position:0%
+ 
+But,<00:02:34.560><c> once</c><00:02:34.840><c> you</c><00:02:34.959><c> make</c><00:02:35.320><c> tasks</c><00:02:36.000><c> this</c><00:02:36.320><c> long,</c><00:02:37.280><c> a</c>
+
+00:02:37.390 --> 00:02:37.400 align:start position:0%
+But, once you make tasks this long, a
+ 
+
+00:02:37.400 --> 00:02:39.510 align:start position:0%
+But, once you make tasks this long, a
+big<00:02:37.640><c> problem</c><00:02:38.080><c> shows</c><00:02:38.400><c> up.</c>
+
+00:02:39.510 --> 00:02:39.520 align:start position:0%
+big problem shows up.
+ 
+
+00:02:39.520 --> 00:02:42.630 align:start position:0%
+big problem shows up.
+Verification.
+
+00:02:42.630 --> 00:02:42.640 align:start position:0%
+ 
+ 
+
+00:02:42.640 --> 00:02:45.630 align:start position:0%
+ 
+In<00:02:42.720><c> a</c><00:02:42.760><c> short</c><00:02:43.080><c> benchmark,</c><00:02:43.880><c> a</c><00:02:44.000><c> weak</c><00:02:44.320><c> test</c>
+
+00:02:45.630 --> 00:02:45.640 align:start position:0%
+In a short benchmark, a weak test
+ 
+
+00:02:45.640 --> 00:02:48.110 align:start position:0%
+In a short benchmark, a weak test
+could<00:02:45.800><c> just</c><00:02:46.000><c> be</c><00:02:46.400><c> considered</c><00:02:46.800><c> as</c><00:02:46.920><c> noise.</c>
+
+00:02:48.110 --> 00:02:48.120 align:start position:0%
+could just be considered as noise.
+ 
+
+00:02:48.120 --> 00:02:49.630 align:start position:0%
+could just be considered as noise.
+But,
+
+00:02:49.630 --> 00:02:49.640 align:start position:0%
+But,
+ 
+
+00:02:49.640 --> 00:02:51.550 align:start position:0%
+But,
+in<00:02:49.800><c> a</c><00:02:49.880><c> multi-hour</c><00:02:50.560><c> environment,</c><00:02:51.200><c> a</c><00:02:51.280><c> weak</c>
+
+00:02:51.550 --> 00:02:51.560 align:start position:0%
+in a multi-hour environment, a weak
+ 
+
+00:02:51.560 --> 00:02:54.990 align:start position:0%
+in a multi-hour environment, a weak
+verifier<00:02:52.400><c> becomes</c><00:02:52.920><c> an</c><00:02:53.000><c> attack</c><00:02:53.320><c> surface.</c>
+
+00:02:54.990 --> 00:02:55.000 align:start position:0%
+verifier becomes an attack surface.
+ 
+
+00:02:55.000 --> 00:02:58.230 align:start position:0%
+verifier becomes an attack surface.
+The<00:02:55.080><c> agent</c><00:02:55.400><c> has</c><00:02:55.959><c> hours,</c><00:02:56.600><c> a</c><00:02:56.720><c> file</c><00:02:57.000><c> system,</c>
+
+00:02:58.230 --> 00:02:58.240 align:start position:0%
+The agent has hours, a file system,
+ 
+
+00:02:58.240 --> 00:03:00.750 align:start position:0%
+The agent has hours, a file system,
+unrestricted<00:02:58.920><c> network</c><00:02:59.280><c> access</c><00:02:59.640><c> potentially,</c>
+
+00:03:00.750 --> 00:03:00.760 align:start position:0%
+unrestricted network access potentially,
+ 
+
+00:03:00.760 --> 00:03:03.990 align:start position:0%
+unrestricted network access potentially,
+and<00:03:01.239><c> a</c><00:03:01.320><c> reward</c><00:03:01.680><c> signal.</c><00:03:02.360><c> So,</c><00:03:02.560><c> it</c><00:03:02.680><c> could</c><00:03:02.800><c> spend</c>
+
+00:03:03.990 --> 00:03:04.000 align:start position:0%
+and a reward signal. So, it could spend
+ 
+
+00:03:04.000 --> 00:03:06.270 align:start position:0%
+and a reward signal. So, it could spend
+hours<00:03:04.480><c> probing</c><00:03:04.959><c> the</c><00:03:05.040><c> verifier</c><00:03:05.640><c> instead</c><00:03:06.200><c> of</c>
+
+00:03:06.270 --> 00:03:06.280 align:start position:0%
+hours probing the verifier instead of
+ 
+
+00:03:06.280 --> 00:03:08.110 align:start position:0%
+hours probing the verifier instead of
+actually<00:03:06.680><c> doing</c><00:03:07.040><c> the</c><00:03:07.120><c> intended</c><00:03:07.640><c> engineering</c>
+
+00:03:08.110 --> 00:03:08.120 align:start position:0%
+actually doing the intended engineering
+ 
+
+00:03:08.120 --> 00:03:09.670 align:start position:0%
+actually doing the intended engineering
+work.
+
+00:03:09.670 --> 00:03:09.680 align:start position:0%
+work.
+ 
+
+00:03:09.680 --> 00:03:12.030 align:start position:0%
+work.
+That's<00:03:09.840><c> a</c><00:03:09.880><c> big</c><00:03:10.120><c> reason</c><00:03:10.440><c> why</c><00:03:11.400><c> SWE</c><00:03:11.680><c> Marathon</c>
+
+00:03:12.030 --> 00:03:12.040 align:start position:0%
+That's a big reason why SWE Marathon
+ 
+
+00:03:12.040 --> 00:03:15.949 align:start position:0%
+That's a big reason why SWE Marathon
+uses<00:03:12.400><c> multiple</c><00:03:13.040><c> independent</c><00:03:13.519><c> checks.</c>
+
+00:03:15.949 --> 00:03:15.959 align:start position:0%
+uses multiple independent checks.
+ 
+
+00:03:15.959 --> 00:03:17.550 align:start position:0%
+uses multiple independent checks.
+We<00:03:16.040><c> have</c><00:03:16.160><c> hidden</c><00:03:16.480><c> tests,</c>
+
+00:03:17.550 --> 00:03:17.560 align:start position:0%
+We have hidden tests,
+ 
+
+00:03:17.560 --> 00:03:19.710 align:start position:0%
+We have hidden tests,
+reference<00:03:18.160><c> parity</c><00:03:18.519><c> checks,</c>
+
+00:03:19.710 --> 00:03:19.720 align:start position:0%
+reference parity checks,
+ 
+
+00:03:19.720 --> 00:03:21.630 align:start position:0%
+reference parity checks,
+computer<00:03:20.120><c> use</c><00:03:20.400><c> agent</c><00:03:20.880><c> checks</c><00:03:21.239><c> for</c><00:03:21.519><c> the</c>
+
+00:03:21.630 --> 00:03:21.640 align:start position:0%
+computer use agent checks for the
+ 
+
+00:03:21.640 --> 00:03:24.070 align:start position:0%
+computer use agent checks for the
+product<00:03:22.000><c> clone</c><00:03:22.200><c> tasks,</c><00:03:23.200><c> and</c><00:03:23.519><c> anti-cheating</c>
+
+00:03:24.070 --> 00:03:24.080 align:start position:0%
+product clone tasks, and anti-cheating
+ 
+
+00:03:24.080 --> 00:03:26.350 align:start position:0%
+product clone tasks, and anti-cheating
+tests.
+
+00:03:26.350 --> 00:03:26.360 align:start position:0%
+tests.
+ 
+
+00:03:26.360 --> 00:03:28.910 align:start position:0%
+tests.
+We<00:03:26.560><c> wanted</c><00:03:27.560><c> independent</c><00:03:28.120><c> verified</c><00:03:28.560><c> channels</c>
+
+00:03:28.910 --> 00:03:28.920 align:start position:0%
+We wanted independent verified channels
+ 
+
+00:03:28.920 --> 00:03:32.070 align:start position:0%
+We wanted independent verified channels
+that<00:03:29.120><c> fail</c><00:03:29.480><c> in</c><00:03:29.720><c> different</c><00:03:30.160><c> ways.</c>
+
+00:03:32.070 --> 00:03:32.080 align:start position:0%
+that fail in different ways.
+ 
+
+00:03:32.080 --> 00:03:34.229 align:start position:0%
+that fail in different ways.
+I'll<00:03:32.320><c> first</c><00:03:32.800><c> show</c><00:03:33.000><c> you</c><00:03:33.160><c> the</c><00:03:33.640><c> computer</c><00:03:34.040><c> use</c>
+
+00:03:34.229 --> 00:03:34.239 align:start position:0%
+I'll first show you the computer use
+ 
+
+00:03:34.239 --> 00:03:36.630 align:start position:0%
+I'll first show you the computer use
+agent<00:03:34.560><c> verification</c><00:03:35.120><c> example,</c><00:03:36.000><c> and</c><00:03:36.120><c> then</c>
+
+00:03:36.630 --> 00:03:36.640 align:start position:0%
+agent verification example, and then
+ 
+
+00:03:36.640 --> 00:03:39.150 align:start position:0%
+agent verification example, and then
+later<00:03:37.160><c> the</c><00:03:37.360><c> failure</c><00:03:37.840><c> case</c>
+
+00:03:39.150 --> 00:03:39.160 align:start position:0%
+later the failure case
+ 
+
+00:03:39.160 --> 00:03:40.670 align:start position:0%
+later the failure case
+where
+
+00:03:40.670 --> 00:03:40.680 align:start position:0%
+where
+ 
+
+00:03:40.680 --> 00:03:42.509 align:start position:0%
+where
+an<00:03:40.880><c> agent</c><00:03:41.160><c> tries</c><00:03:41.360><c> to</c><00:03:41.480><c> solve</c><00:03:41.840><c> the</c><00:03:41.920><c> C</c><00:03:42.120><c> compiler</c>
+
+00:03:42.509 --> 00:03:42.519 align:start position:0%
+an agent tries to solve the C compiler
+ 
+
+00:03:42.519 --> 00:03:49.870 align:start position:0%
+an agent tries to solve the C compiler
+task<00:03:42.920><c> by</c><00:03:43.080><c> secretly</c><00:03:43.640><c> calling</c><00:03:44.120><c> GCC.</c>
+
+00:03:49.870 --> 00:03:49.880 align:start position:0%
+ 
+ 
+
+00:03:49.880 --> 00:03:51.270 align:start position:0%
+ 
+You<00:03:50.000><c> You</c><00:03:50.160><c> have</c><00:03:50.320><c> noticed</c><00:03:50.720><c> that</c><00:03:50.959><c> there</c><00:03:51.080><c> are</c>
+
+00:03:51.270 --> 00:03:51.280 align:start position:0%
+You You have noticed that there are
+ 
+
+00:03:51.280 --> 00:03:53.950 align:start position:0%
+You You have noticed that there are
+basically<00:03:51.800><c> no</c><00:03:52.240><c> full</c><00:03:52.520><c> stack</c><00:03:53.200><c> product</c><00:03:53.680><c> clone</c>
+
+00:03:53.950 --> 00:03:53.960 align:start position:0%
+basically no full stack product clone
+ 
+
+00:03:53.960 --> 00:03:56.030 align:start position:0%
+basically no full stack product clone
+tasks<00:03:54.560><c> in</c><00:03:54.920><c> any</c><00:03:55.240><c> long</c><00:03:55.480><c> horizon</c><00:03:55.840><c> three</c>
+
+00:03:56.030 --> 00:03:56.040 align:start position:0%
+tasks in any long horizon three
+ 
+
+00:03:56.040 --> 00:03:57.670 align:start position:0%
+tasks in any long horizon three
+benchmark<00:03:56.520><c> out</c><00:03:56.680><c> there.</c>
+
+00:03:57.670 --> 00:03:57.680 align:start position:0%
+benchmark out there.
+ 
+
+00:03:57.680 --> 00:04:01.590 align:start position:0%
+benchmark out there.
+And<00:03:57.960><c> the</c><00:03:58.080><c> reason</c><00:03:58.400><c> is</c><00:03:58.600><c> verification.</c>
+
+00:04:01.590 --> 00:04:01.600 align:start position:0%
+ 
+ 
+
+00:04:01.600 --> 00:04:05.270 align:start position:0%
+ 
+Unit<00:04:01.880><c> test</c><00:04:02.120><c> can</c><00:04:02.280><c> pass,</c><00:04:03.280><c> but</c><00:04:03.920><c> the</c><00:04:04.080><c> product</c><00:04:05.040><c> is</c>
+
+00:04:05.270 --> 00:04:05.280 align:start position:0%
+Unit test can pass, but the product is
+ 
+
+00:04:05.280 --> 00:04:07.630 align:start position:0%
+Unit test can pass, but the product is
+probably<00:04:05.680><c> still</c><00:04:06.000><c> unusable</c><00:04:07.080><c> and</c><00:04:07.280><c> the</c><00:04:07.400><c> front</c>
+
+00:04:07.630 --> 00:04:07.640 align:start position:0%
+probably still unusable and the front
+ 
+
+00:04:07.640 --> 00:04:10.670 align:start position:0%
+probably still unusable and the front
+end<00:04:08.000><c> looks</c><00:04:08.200><c> terrible.</c>
+
+00:04:10.670 --> 00:04:10.680 align:start position:0%
+end looks terrible.
+ 
+
+00:04:10.680 --> 00:04:12.550 align:start position:0%
+end looks terrible.
+Sweet<00:04:10.920><c> marathon</c><00:04:11.280><c> is</c><00:04:11.400><c> the</c><00:04:11.480><c> first</c><00:04:11.880><c> benchmark</c><00:04:12.400><c> to</c>
+
+00:04:12.550 --> 00:04:12.560 align:start position:0%
+Sweet marathon is the first benchmark to
+ 
+
+00:04:12.560 --> 00:04:16.030 align:start position:0%
+Sweet marathon is the first benchmark to
+use<00:04:12.959><c> a</c><00:04:13.040><c> computer</c><00:04:13.440><c> use</c><00:04:13.600><c> agent</c><00:04:14.040><c> or</c><00:04:14.200><c> CUA</c><00:04:14.920><c> verifier</c>
+
+00:04:16.030 --> 00:04:16.040 align:start position:0%
+use a computer use agent or CUA verifier
+ 
+
+00:04:16.040 --> 00:04:18.949 align:start position:0%
+use a computer use agent or CUA verifier
+for<00:04:16.320><c> these</c><00:04:16.880><c> full</c><00:04:17.079><c> stack</c><00:04:17.440><c> tasks.</c>
+
+00:04:18.949 --> 00:04:18.959 align:start position:0%
+for these full stack tasks.
+ 
+
+00:04:18.959 --> 00:04:21.069 align:start position:0%
+for these full stack tasks.
+For<00:04:19.040><c> the</c><00:04:19.200><c> clone</c><00:04:19.600><c> slack</c><00:04:19.959><c> task,</c><00:04:20.640><c> we</c><00:04:20.760><c> have</c>
+
+00:04:21.069 --> 00:04:21.079 align:start position:0%
+For the clone slack task, we have
+ 
+
+00:04:21.079 --> 00:04:22.670 align:start position:0%
+For the clone slack task, we have
+deterministic<00:04:21.799><c> unit</c><00:04:22.000><c> tests</c><00:04:22.280><c> to</c><00:04:22.360><c> check</c><00:04:22.560><c> the</c>
+
+00:04:22.670 --> 00:04:22.680 align:start position:0%
+deterministic unit tests to check the
+ 
+
+00:04:22.680 --> 00:04:26.830 align:start position:0%
+deterministic unit tests to check the
+API<00:04:23.760><c> and</c><00:04:23.880><c> the</c><00:04:23.960><c> back</c><00:04:24.240><c> end</c><00:04:24.440><c> functionality.</c>
+
+00:04:26.830 --> 00:04:26.840 align:start position:0%
+API and the back end functionality.
+ 
+
+00:04:26.840 --> 00:04:28.870 align:start position:0%
+API and the back end functionality.
+But<00:04:27.000><c> then</c><00:04:27.280><c> a</c><00:04:27.360><c> computer</c><00:04:27.840><c> use</c><00:04:28.040><c> agent</c><00:04:28.400><c> uses</c><00:04:28.760><c> the</c>
+
+00:04:28.870 --> 00:04:28.880 align:start position:0%
+But then a computer use agent uses the
+ 
+
+00:04:28.880 --> 00:04:31.390 align:start position:0%
+But then a computer use agent uses the
+browser<00:04:29.440><c> like</c><00:04:29.680><c> a</c><00:04:29.720><c> human.</c>
+
+00:04:31.390 --> 00:04:31.400 align:start position:0%
+browser like a human.
+ 
+
+00:04:31.400 --> 00:04:33.670 align:start position:0%
+browser like a human.
+That's<00:04:31.560><c> what</c><00:04:31.680><c> you're</c><00:04:31.800><c> seeing</c><00:04:32.040><c> in</c><00:04:32.160><c> this</c><00:04:32.360><c> GIF.</c>
+
+00:04:33.670 --> 00:04:33.680 align:start position:0%
+That's what you're seeing in this GIF.
+ 
+
+00:04:33.680 --> 00:04:35.909 align:start position:0%
+That's what you're seeing in this GIF.
+The<00:04:33.800><c> verifier</c><00:04:34.240><c> isn't</c><00:04:34.600><c> reading</c><00:04:34.919><c> code</c><00:04:35.360><c> or</c>
+
+00:04:35.909 --> 00:04:35.919 align:start position:0%
+The verifier isn't reading code or
+ 
+
+00:04:35.919 --> 00:04:38.590 align:start position:0%
+The verifier isn't reading code or
+calling<00:04:36.360><c> an</c><00:04:36.440><c> API</c><00:04:36.720><c> directly.</c>
+
+00:04:38.590 --> 00:04:38.600 align:start position:0%
+calling an API directly.
+ 
+
+00:04:38.600 --> 00:04:41.670 align:start position:0%
+calling an API directly.
+It's<00:04:39.440><c> driving</c><00:04:39.880><c> the</c><00:04:40.000><c> submitted</c><00:04:40.520><c> slack</c><00:04:40.800><c> clone</c>
+
+00:04:41.670 --> 00:04:41.680 align:start position:0%
+It's driving the submitted slack clone
+ 
+
+00:04:41.680 --> 00:04:43.550 align:start position:0%
+It's driving the submitted slack clone
+through<00:04:42.320><c> the</c><00:04:42.440><c> UI.</c>
+
+00:04:43.550 --> 00:04:43.560 align:start position:0%
+through the UI.
+ 
+
+00:04:43.560 --> 00:04:45.590 align:start position:0%
+through the UI.
+So<00:04:43.680><c> it's</c><00:04:43.840><c> logging</c><00:04:44.200><c> in,</c>
+
+00:04:45.590 --> 00:04:45.600 align:start position:0%
+So it's logging in,
+ 
+
+00:04:45.600 --> 00:04:48.070 align:start position:0%
+So it's logging in,
+creating<00:04:45.960><c> channels,</c><00:04:46.520><c> posting</c><00:04:46.840><c> messages,</c>
+
+00:04:48.070 --> 00:04:48.080 align:start position:0%
+creating channels, posting messages,
+ 
+
+00:04:48.080 --> 00:04:50.270 align:start position:0%
+creating channels, posting messages,
+reacting<00:04:48.520><c> with</c><00:04:48.680><c> emotes,</c><00:04:49.240><c> and</c><00:04:49.600><c> checking</c><00:04:50.120><c> that</c>
+
+00:04:50.270 --> 00:04:50.280 align:start position:0%
+reacting with emotes, and checking that
+ 
+
+00:04:50.280 --> 00:04:54.110 align:start position:0%
+reacting with emotes, and checking that
+the<00:04:50.400><c> app</c><00:04:50.720><c> actually</c><00:04:51.040><c> works</c><00:04:51.360><c> with</c><00:04:51.440><c> the</c><00:04:51.560><c> rubric.</c>
+
+00:04:54.110 --> 00:04:54.120 align:start position:0%
+the app actually works with the rubric.
+ 
+
+00:04:54.120 --> 00:04:55.870 align:start position:0%
+the app actually works with the rubric.
+The<00:04:54.200><c> big</c><00:04:54.440><c> takeaway</c><00:04:54.800><c> is</c><00:04:54.919><c> that</c><00:04:55.240><c> full</c><00:04:55.480><c> stack</c>
+
+00:04:55.870 --> 00:04:55.880 align:start position:0%
+The big takeaway is that full stack
+ 
+
+00:04:55.880 --> 00:04:58.190 align:start position:0%
+The big takeaway is that full stack
+eval's<00:04:56.200><c> are</c><00:04:56.320><c> hard</c><00:04:56.600><c> because</c><00:04:57.640><c> correctness</c><00:04:58.080><c> is</c>
+
+00:04:58.190 --> 00:04:58.200 align:start position:0%
+eval's are hard because correctness is
+ 
+
+00:04:58.200 --> 00:05:00.750 align:start position:0%
+eval's are hard because correctness is
+not<00:04:58.600><c> just</c><00:04:58.919><c> an</c><00:04:59.000><c> API</c><00:04:59.280><c> contract.</c><00:05:00.320><c> It's</c><00:05:00.480><c> whether</c>
+
+00:05:00.750 --> 00:05:00.760 align:start position:0%
+not just an API contract. It's whether
+ 
+
+00:05:00.760 --> 00:05:03.030 align:start position:0%
+not just an API contract. It's whether
+the<00:05:00.919><c> user</c><00:05:01.200><c> can</c><00:05:01.919><c> actually</c><00:05:02.280><c> complete</c><00:05:02.880><c> the</c>
+
+00:05:03.030 --> 00:05:03.040 align:start position:0%
+the user can actually complete the
+ 
+
+00:05:03.040 --> 00:05:09.670 align:start position:0%
+the user can actually complete the
+product's<00:05:03.520><c> intended</c><00:05:03.919><c> workflow.</c>
+
+00:05:09.670 --> 00:05:09.680 align:start position:0%
+ 
+ 
+
+00:05:09.680 --> 00:05:12.270 align:start position:0%
+ 
+Sweet<00:05:10.000><c> marathon</c><00:05:10.440><c> has</c><00:05:11.160><c> 20</c><00:05:11.600><c> project</c><00:05:12.040><c> scale</c>
+
+00:05:12.270 --> 00:05:12.280 align:start position:0%
+Sweet marathon has 20 project scale
+ 
+
+00:05:12.280 --> 00:05:15.350 align:start position:0%
+Sweet marathon has 20 project scale
+tasks<00:05:12.760><c> across</c><00:05:13.320><c> four</c><00:05:13.560><c> families.</c>
+
+00:05:15.350 --> 00:05:15.360 align:start position:0%
+tasks across four families.
+ 
+
+00:05:15.360 --> 00:05:18.030 align:start position:0%
+tasks across four families.
+There<00:05:15.600><c> are</c><00:05:16.000><c> library</c><00:05:16.600><c> clones,</c><00:05:17.520><c> full</c><00:05:17.760><c> stack</c>
+
+00:05:18.030 --> 00:05:18.040 align:start position:0%
+There are library clones, full stack
+ 
+
+00:05:18.040 --> 00:05:19.630 align:start position:0%
+There are library clones, full stack
+product<00:05:18.360><c> clones,</c>
+
+00:05:19.630 --> 00:05:19.640 align:start position:0%
+product clones,
+ 
+
+00:05:19.640 --> 00:05:23.310 align:start position:0%
+product clones,
+ML<00:05:20.040><c> engineering,</c><00:05:20.960><c> and</c><00:05:21.240><c> algorithmic</c><00:05:21.760><c> tasks.</c>
+
+00:05:23.310 --> 00:05:23.320 align:start position:0%
+ML engineering, and algorithmic tasks.
+ 
+
+00:05:23.320 --> 00:05:24.630 align:start position:0%
+ML engineering, and algorithmic tasks.
+And<00:05:23.480><c> some</c><00:05:23.640><c> of</c><00:05:23.720><c> these</c><00:05:23.880><c> tasks</c><00:05:24.240><c> even</c><00:05:24.480><c> use</c>
+
+00:05:24.630 --> 00:05:24.640 align:start position:0%
+And some of these tasks even use
+ 
+
+00:05:24.640 --> 00:05:26.750 align:start position:0%
+And some of these tasks even use
+external<00:05:25.160><c> APIs.</c><00:05:25.720><c> For</c><00:05:25.880><c> example,</c><00:05:26.440><c> we</c><00:05:26.560><c> have</c><00:05:26.680><c> a</c>
+
+00:05:26.750 --> 00:05:26.760 align:start position:0%
+external APIs. For example, we have a
+ 
+
+00:05:26.760 --> 00:05:29.190 align:start position:0%
+external APIs. For example, we have a
+post<00:05:27.160><c> train</c><00:05:27.440><c> task</c><00:05:28.120><c> where</c><00:05:28.240><c> the</c><00:05:28.400><c> agent</c><00:05:28.919><c> must</c>
+
+00:05:29.190 --> 00:05:29.200 align:start position:0%
+post train task where the agent must
+ 
+
+00:05:29.200 --> 00:05:31.230 align:start position:0%
+post train task where the agent must
+post<00:05:29.480><c> train</c><00:05:29.760><c> a</c><00:05:29.880><c> language</c><00:05:30.200><c> model</c><00:05:30.840><c> using</c><00:05:31.160><c> the</c>
+
+00:05:31.230 --> 00:05:31.240 align:start position:0%
+post train a language model using the
+ 
+
+00:05:31.240 --> 00:05:34.470 align:start position:0%
+post train a language model using the
+tinker<00:05:31.600><c> API.</c>
+
+00:05:34.470 --> 00:05:34.480 align:start position:0%
+ 
+ 
+
+00:05:34.480 --> 00:05:36.510 align:start position:0%
+ 
+Expert<00:05:34.960><c> contributors</c><00:05:35.800><c> from</c><00:05:36.080><c> the</c><00:05:36.200><c> eval's</c>
+
+00:05:36.510 --> 00:05:36.520 align:start position:0%
+Expert contributors from the eval's
+ 
+
+00:05:36.520 --> 00:05:38.909 align:start position:0%
+Expert contributors from the eval's
+community<00:05:37.320><c> propose</c><00:05:37.840><c> the</c><00:05:37.919><c> tasks</c><00:05:38.760><c> and</c>
+
+00:05:38.909 --> 00:05:38.919 align:start position:0%
+community propose the tasks and
+ 
+
+00:05:38.919 --> 00:05:41.230 align:start position:0%
+community propose the tasks and
+reference<00:05:39.280><c> solutions.</c><00:05:40.400><c> And</c><00:05:40.520><c> then</c><00:05:40.760><c> we</c><00:05:41.040><c> work</c>
+
+00:05:41.230 --> 00:05:41.240 align:start position:0%
+reference solutions. And then we work
+ 
+
+00:05:41.240 --> 00:05:42.710 align:start position:0%
+reference solutions. And then we work
+together<00:05:41.640><c> to</c><00:05:41.760><c> standardize</c><00:05:42.280><c> them</c><00:05:42.520><c> into</c>
+
+00:05:42.710 --> 00:05:42.720 align:start position:0%
+together to standardize them into
+ 
+
+00:05:42.720 --> 00:05:45.270 align:start position:0%
+together to standardize them into
+executable<00:05:43.360><c> environments</c><00:05:44.360><c> with</c><00:05:45.200><c> the</c>
+
+00:05:45.270 --> 00:05:45.280 align:start position:0%
+executable environments with the
+ 
+
+00:05:45.280 --> 00:05:47.950 align:start position:0%
+executable environments with the
+multi-layer<00:05:45.880><c> verifier</c><00:05:46.360><c> suites.</c>
+
+00:05:47.950 --> 00:05:47.960 align:start position:0%
+multi-layer verifier suites.
+ 
+
+00:05:47.960 --> 00:05:52.430 align:start position:0%
+multi-layer verifier suites.
+Tasks<00:05:48.920><c> all</c><00:05:49.200><c> follow</c><00:05:49.520><c> the</c><00:05:49.600><c> harbor</c><00:05:49.880><c> format.</c>
+
+00:05:52.430 --> 00:05:52.440 align:start position:0%
+Tasks all follow the harbor format.
+ 
+
+00:05:52.440 --> 00:05:55.310 align:start position:0%
+Tasks all follow the harbor format.
+A<00:05:52.600><c> lot</c><00:05:52.800><c> of</c><00:05:52.880><c> my</c><00:05:53.000><c> work</c><00:05:53.480><c> was</c><00:05:53.880><c> spent</c><00:05:54.240><c> on</c><00:05:54.480><c> the</c><00:05:54.560><c> QA</c><00:05:55.160><c> and</c>
+
+00:05:55.310 --> 00:05:55.320 align:start position:0%
+A lot of my work was spent on the QA and
+ 
+
+00:05:55.320 --> 00:05:57.550 align:start position:0%
+A lot of my work was spent on the QA and
+the<00:05:55.400><c> hardening</c><00:05:55.760><c> layer.</c><00:05:56.080><c> So,</c>
+
+00:05:57.550 --> 00:05:57.560 align:start position:0%
+the hardening layer. So,
+ 
+
+00:05:57.560 --> 00:05:59.390 align:start position:0%
+the hardening layer. So,
+running<00:05:57.920><c> the</c><00:05:58.040><c> agent</c><00:05:58.360><c> trials,</c><00:05:58.880><c> inspecting</c><00:05:59.320><c> the</c>
+
+00:05:59.390 --> 00:05:59.400 align:start position:0%
+running the agent trials, inspecting the
+ 
+
+00:05:59.400 --> 00:06:01.070 align:start position:0%
+running the agent trials, inspecting the
+failure<00:05:59.680><c> modes,</c>
+
+00:06:01.070 --> 00:06:01.080 align:start position:0%
+failure modes,
+ 
+
+00:06:01.080 --> 00:06:02.430 align:start position:0%
+failure modes,
+patching<00:06:01.520><c> the</c><00:06:01.600><c> shortcuts,</c><00:06:02.080><c> patching</c><00:06:02.360><c> the</c>
+
+00:06:02.430 --> 00:06:02.440 align:start position:0%
+patching the shortcuts, patching the
+ 
+
+00:06:02.440 --> 00:06:04.350 align:start position:0%
+patching the shortcuts, patching the
+verifier,<00:06:03.360><c> and</c><00:06:03.480><c> then</c><00:06:03.640><c> rerunning</c><00:06:04.040><c> until</c><00:06:04.280><c> the</c>
+
+00:06:04.350 --> 00:06:04.360 align:start position:0%
+verifier, and then rerunning until the
+ 
+
+00:06:04.360 --> 00:06:07.230 align:start position:0%
+verifier, and then rerunning until the
+tasks<00:06:04.960><c> were</c><00:06:05.280><c> both</c><00:06:05.800><c> solvable,</c>
+
+00:06:07.230 --> 00:06:07.240 align:start position:0%
+tasks were both solvable,
+ 
+
+00:06:07.240 --> 00:06:15.350 align:start position:0%
+tasks were both solvable,
+but<00:06:07.520><c> also</c><00:06:07.840><c> hard</c><00:06:08.160><c> to</c><00:06:08.320><c> game.</c>
+
+00:06:15.350 --> 00:06:15.360 align:start position:0%
+ 
+ 
+
+00:06:15.360 --> 00:06:18.150 align:start position:0%
+ 
+This<00:06:15.640><c> is</c><00:06:15.760><c> the</c><00:06:15.840><c> main</c><00:06:16.280><c> leaderboard</c><00:06:16.800><c> result.</c><00:06:17.919><c> The</c>
+
+00:06:18.150 --> 00:06:18.160 align:start position:0%
+This is the main leaderboard result. The
+ 
+
+00:06:18.160 --> 00:06:20.750 align:start position:0%
+This is the main leaderboard result. The
+best<00:06:18.360><c> configuration</c><00:06:19.080><c> here</c><00:06:19.360><c> is</c><00:06:19.800><c> Claude</c><00:06:20.160><c> Opus</c>
+
+00:06:20.750 --> 00:06:20.760 align:start position:0%
+best configuration here is Claude Opus
+ 
+
+00:06:20.760 --> 00:06:23.470 align:start position:0%
+best configuration here is Claude Opus
+4.8<00:06:21.360><c> with</c><00:06:21.480><c> Claude</c><00:06:21.760><c> Code,</c><00:06:22.520><c> and</c><00:06:23.120><c> it</c><00:06:23.280><c> only</c>
+
+00:06:23.470 --> 00:06:23.480 align:start position:0%
+4.8 with Claude Code, and it only
+ 
+
+00:06:23.480 --> 00:06:26.830 align:start position:0%
+4.8 with Claude Code, and it only
+achieves<00:06:23.919><c> a</c><00:06:24.000><c> 26%</c><00:06:24.840><c> resolution</c><00:06:25.360><c> rate.</c>
+
+00:06:26.830 --> 00:06:26.840 align:start position:0%
+achieves a 26% resolution rate.
+ 
+
+00:06:26.840 --> 00:06:28.870 align:start position:0%
+achieves a 26% resolution rate.
+So,<00:06:27.280><c> even</c><00:06:27.520><c> with</c><00:06:27.640><c> the</c><00:06:27.760><c> strongest</c><00:06:28.320><c> agent</c><00:06:28.560><c> setup</c>
+
+00:06:28.870 --> 00:06:28.880 align:start position:0%
+So, even with the strongest agent setup
+ 
+
+00:06:28.880 --> 00:06:32.270 align:start position:0%
+So, even with the strongest agent setup
+we<00:06:29.440><c> evaluated,</c><00:06:30.840><c> it's</c><00:06:31.080><c> only</c><00:06:31.320><c> solving</c><00:06:31.880><c> like</c><00:06:32.080><c> one</c>
+
+00:06:32.270 --> 00:06:32.280 align:start position:0%
+we evaluated, it's only solving like one
+ 
+
+00:06:32.280 --> 00:06:35.870 align:start position:0%
+we evaluated, it's only solving like one
+in<00:06:32.400><c> four</c><00:06:32.600><c> tasks.</c>
+
+00:06:35.870 --> 00:06:35.880 align:start position:0%
+ 
+ 
+
+00:06:35.880 --> 00:06:37.670 align:start position:0%
+ 
+The<00:06:36.080><c> important</c><00:06:36.440><c> thing</c><00:06:36.600><c> is</c><00:06:36.640><c> that</c><00:06:36.840><c> these</c><00:06:37.080><c> aren't</c>
+
+00:06:37.670 --> 00:06:37.680 align:start position:0%
+The important thing is that these aren't
+ 
+
+00:06:37.680 --> 00:06:40.070 align:start position:0%
+The important thing is that these aren't
+shallow<00:06:38.120><c> failures.</c><00:06:38.680><c> The</c><00:06:38.800><c> average</c><00:06:39.160><c> trial</c><00:06:39.600><c> used</c>
+
+00:06:40.070 --> 00:06:40.080 align:start position:0%
+shallow failures. The average trial used
+ 
+
+00:06:40.080 --> 00:06:42.390 align:start position:0%
+shallow failures. The average trial used
+31<00:06:40.720><c> million</c><00:06:41.040><c> tokens,</c><00:06:41.600><c> and</c><00:06:41.720><c> the</c><00:06:41.800><c> longest</c>
+
+00:06:42.390 --> 00:06:42.400 align:start position:0%
+31 million tokens, and the longest
+ 
+
+00:06:42.400 --> 00:06:43.710 align:start position:0%
+31 million tokens, and the longest
+rollout
+
+00:06:43.710 --> 00:06:43.720 align:start position:0%
+rollout
+ 
+
+00:06:43.720 --> 00:06:46.990 align:start position:0%
+rollout
+consumed<00:06:44.360><c> 877</c><00:06:45.640><c> million</c><00:06:45.760><c> tokens.</c><00:06:46.360><c> So,</c><00:06:46.880><c> the</c>
+
+00:06:46.990 --> 00:06:47.000 align:start position:0%
+consumed 877 million tokens. So, the
+ 
+
+00:06:47.000 --> 00:06:49.670 align:start position:0%
+consumed 877 million tokens. So, the
+agents<00:06:47.280><c> are</c><00:06:47.360><c> exploring,</c><00:06:47.960><c> editing,</c><00:06:49.000><c> testing,</c>
+
+00:06:49.670 --> 00:06:49.680 align:start position:0%
+agents are exploring, editing, testing,
+ 
+
+00:06:49.680 --> 00:06:52.270 align:start position:0%
+agents are exploring, editing, testing,
+getting<00:06:49.919><c> stuck,</c><00:06:50.400><c> recovering,</c><00:06:51.720><c> running</c><00:06:52.080><c> for</c>
+
+00:06:52.270 --> 00:06:52.280 align:start position:0%
+getting stuck, recovering, running for
+ 
+
+00:06:52.280 --> 00:06:55.470 align:start position:0%
+getting stuck, recovering, running for
+hours.
+
+00:06:55.470 --> 00:06:55.480 align:start position:0%
+ 
+ 
+
+00:06:55.480 --> 00:06:58.110 align:start position:0%
+ 
+So,<00:06:55.840><c> the</c><00:06:55.960><c> takeaway</c><00:06:56.320><c> is</c><00:06:56.440><c> that</c><00:06:57.280><c> current</c><00:06:57.640><c> agents</c>
+
+00:06:58.110 --> 00:06:58.120 align:start position:0%
+So, the takeaway is that current agents
+ 
+
+00:06:58.120 --> 00:07:00.550 align:start position:0%
+So, the takeaway is that current agents
+are<00:06:58.720><c> very</c><00:06:58.960><c> impressive,</c><00:06:59.600><c> but</c><00:07:00.080><c> end-to-end</c>
+
+00:07:00.550 --> 00:07:00.560 align:start position:0%
+are very impressive, but end-to-end
+ 
+
+00:07:00.560 --> 00:07:03.590 align:start position:0%
+are very impressive, but end-to-end
+project<00:07:01.400><c> ownership</c><00:07:02.000><c> ownership</c><00:07:02.640><c> is</c><00:07:03.240><c> still</c>
+
+00:07:03.590 --> 00:07:03.600 align:start position:0%
+project ownership ownership is still
+ 
+
+00:07:03.600 --> 00:07:10.230 align:start position:0%
+project ownership ownership is still
+very<00:07:03.840><c> far</c><00:07:04.120><c> from</c><00:07:04.240><c> being</c><00:07:04.400><c> solved.</c>
+
+00:07:10.230 --> 00:07:10.240 align:start position:0%
+ 
+ 
+
+00:07:10.240 --> 00:07:13.310 align:start position:0%
+ 
+This<00:07:10.560><c> plot</c><00:07:10.880><c> puts</c><00:07:11.560><c> cost</c><00:07:12.200><c> on</c><00:07:12.320><c> the</c><00:07:12.400><c> x-axis</c><00:07:13.080><c> and</c>
+
+00:07:13.310 --> 00:07:13.320 align:start position:0%
+This plot puts cost on the x-axis and
+ 
+
+00:07:13.320 --> 00:07:15.670 align:start position:0%
+This plot puts cost on the x-axis and
+resolution<00:07:13.880><c> rate</c><00:07:14.080><c> on</c><00:07:14.200><c> the</c><00:07:14.320><c> y-axis.</c>
+
+00:07:15.670 --> 00:07:15.680 align:start position:0%
+resolution rate on the y-axis.
+ 
+
+00:07:15.680 --> 00:07:17.030 align:start position:0%
+resolution rate on the y-axis.
+So,
+
+00:07:17.030 --> 00:07:17.040 align:start position:0%
+So,
+ 
+
+00:07:17.040 --> 00:07:18.870 align:start position:0%
+So,
+higher<00:07:17.440><c> success</c><00:07:17.880><c> rate</c><00:07:18.120><c> for</c><00:07:18.280><c> less</c><00:07:18.520><c> money</c><00:07:18.760><c> is</c>
+
+00:07:18.870 --> 00:07:18.880 align:start position:0%
+higher success rate for less money is
+ 
+
+00:07:18.880 --> 00:07:21.590 align:start position:0%
+higher success rate for less money is
+always<00:07:19.080><c> better.</c>
+
+00:07:21.590 --> 00:07:21.600 align:start position:0%
+ 
+ 
+
+00:07:21.600 --> 00:07:24.550 align:start position:0%
+ 
+Claude<00:07:22.000><c> Opus</c><00:07:22.280><c> 4.8</c><00:07:23.320><c> is</c><00:07:23.680><c> the</c><00:07:23.800><c> top</c><00:07:24.040><c> point.</c><00:07:24.440><c> It</c>
+
+00:07:24.550 --> 00:07:24.560 align:start position:0%
+Claude Opus 4.8 is the top point. It
+ 
+
+00:07:24.560 --> 00:07:27.390 align:start position:0%
+Claude Opus 4.8 is the top point. It
+gets<00:07:24.800><c> 26%,</c><00:07:25.640><c> but</c><00:07:25.919><c> it's</c><00:07:26.120><c> also</c><00:07:26.520><c> the</c><00:07:26.680><c> most</c>
+
+00:07:27.390 --> 00:07:27.400 align:start position:0%
+gets 26%, but it's also the most
+ 
+
+00:07:27.400 --> 00:07:29.630 align:start position:0%
+gets 26%, but it's also the most
+expensive<00:07:28.480><c> configurations,</c><00:07:29.280><c> or</c><00:07:29.400><c> one</c><00:07:29.560><c> of</c>
+
+00:07:29.630 --> 00:07:29.640 align:start position:0%
+expensive configurations, or one of
+ 
+
+00:07:29.640 --> 00:07:30.510 align:start position:0%
+expensive configurations, or one of
+them.
+
+00:07:30.510 --> 00:07:30.520 align:start position:0%
+them.
+ 
+
+00:07:30.520 --> 00:07:32.750 align:start position:0%
+them.
+Whereas<00:07:31.000><c> GPT</c><00:07:31.280><c> 4.5</c>
+
+00:07:32.750 --> 00:07:32.760 align:start position:0%
+Whereas GPT 4.5
+ 
+
+00:07:32.760 --> 00:07:35.230 align:start position:0%
+Whereas GPT 4.5
+with<00:07:33.000><c> Codex</c><00:07:33.480><c> is</c><00:07:34.040><c> far</c><00:07:34.280><c> cheaper</c><00:07:34.720><c> and</c><00:07:34.840><c> only</c><00:07:35.000><c> gets</c>
+
+00:07:35.230 --> 00:07:35.240 align:start position:0%
+with Codex is far cheaper and only gets
+ 
+
+00:07:35.240 --> 00:07:38.870 align:start position:0%
+with Codex is far cheaper and only gets
+12%.
+
+00:07:38.870 --> 00:07:38.880 align:start position:0%
+ 
+ 
+
+00:07:38.880 --> 00:07:40.870 align:start position:0%
+ 
+So,<00:07:39.280><c> the</c><00:07:39.400><c> model</c><00:07:39.760><c> isn't</c><00:07:40.200><c> just</c><00:07:40.600><c> the</c><00:07:40.680><c> full</c>
+
+00:07:40.870 --> 00:07:40.880 align:start position:0%
+So, the model isn't just the full
+ 
+
+00:07:40.880 --> 00:07:42.950 align:start position:0%
+So, the model isn't just the full
+picture.<00:07:41.280><c> The</c><00:07:41.440><c> agent</c><00:07:41.760><c> scaffold</c><00:07:42.360><c> makes</c><00:07:42.600><c> a</c><00:07:42.640><c> huge</c>
+
+00:07:42.950 --> 00:07:42.960 align:start position:0%
+picture. The agent scaffold makes a huge
+ 
+
+00:07:42.960 --> 00:07:44.270 align:start position:0%
+picture. The agent scaffold makes a huge
+difference
+
+00:07:44.270 --> 00:07:44.280 align:start position:0%
+difference
+ 
+
+00:07:44.280 --> 00:07:47.790 align:start position:0%
+difference
+uh<00:07:44.560><c> how</c><00:07:44.800><c> the</c><00:07:45.240><c> how</c><00:07:45.400><c> it</c><00:07:45.520><c> plans,</c><00:07:46.040><c> uses</c><00:07:46.320><c> tools,</c>
+
+00:07:47.790 --> 00:07:47.800 align:start position:0%
+uh how the how it plans, uses tools,
+ 
+
+00:07:47.800 --> 00:07:49.590 align:start position:0%
+uh how the how it plans, uses tools,
+um<00:07:48.040><c> summarizes</c><00:07:48.560><c> context,</c><00:07:49.040><c> and</c><00:07:49.120><c> decides</c><00:07:49.520><c> on</c>
+
+00:07:49.590 --> 00:07:49.600 align:start position:0%
+um summarizes context, and decides on
+ 
+
+00:07:49.600 --> 00:07:51.230 align:start position:0%
+um summarizes context, and decides on
+when<00:07:49.760><c> to</c><00:07:49.840><c> test.</c>
+
+00:07:51.230 --> 00:07:51.240 align:start position:0%
+when to test.
+ 
+
+00:07:51.240 --> 00:07:52.710 align:start position:0%
+when to test.
+I<00:07:51.280><c> won't</c><00:07:51.480><c> get</c><00:07:51.680><c> too</c><00:07:51.840><c> deep</c><00:07:52.160><c> into</c><00:07:52.360><c> the</c><00:07:52.440><c> cost</c>
+
+00:07:52.710 --> 00:07:52.720 align:start position:0%
+I won't get too deep into the cost
+ 
+
+00:07:52.720 --> 00:07:54.590 align:start position:0%
+I won't get too deep into the cost
+analysis<00:07:53.080><c> here,</c><00:07:53.360><c> but</c><00:07:53.760><c> the</c><00:07:53.880><c> paper</c><00:07:54.240><c> has</c><00:07:54.520><c> the</c>
+
+00:07:54.590 --> 00:07:54.600 align:start position:0%
+analysis here, but the paper has the
+ 
+
+00:07:54.600 --> 00:08:00.550 align:start position:0%
+analysis here, but the paper has the
+full<00:07:54.800><c> details.</c>
+
+00:08:00.550 --> 00:08:00.560 align:start position:0%
+ 
+ 
+
+00:08:00.560 --> 00:08:03.070 align:start position:0%
+ 
+I<00:08:00.640><c> wanted</c><00:08:00.920><c> to</c><00:08:01.000><c> show</c><00:08:01.600><c> you</c><00:08:02.000><c> what</c><00:08:02.360><c> a</c><00:08:02.520><c> full</c>
+
+00:08:03.070 --> 00:08:03.080 align:start position:0%
+I wanted to show you what a full
+ 
+
+00:08:03.080 --> 00:08:06.550 align:start position:0%
+I wanted to show you what a full
+marathon<00:08:03.600><c> rollout</c><00:08:04.080><c> actually</c><00:08:04.480><c> looks</c><00:08:04.720><c> like.</c>
+
+00:08:06.550 --> 00:08:06.560 align:start position:0%
+marathon rollout actually looks like.
+ 
+
+00:08:06.560 --> 00:08:11.030 align:start position:0%
+marathon rollout actually looks like.
+This<00:08:06.720><c> is</c><00:08:06.880><c> one</c><00:08:07.080><c> I</c><00:08:07.160><c> picked</c><00:08:07.800><c> with</c><00:08:08.160><c> GLM</c><00:08:08.560><c> 5.2</c><00:08:09.840><c> on</c><00:08:10.960><c> the</c>
+
+00:08:11.030 --> 00:08:11.040 align:start position:0%
+This is one I picked with GLM 5.2 on the
+ 
+
+00:08:11.040 --> 00:08:13.790 align:start position:0%
+This is one I picked with GLM 5.2 on the
+Next.js<00:08:11.760><c> fight</c><00:08:12.160><c> rewrite</c><00:08:12.520><c> task.</c>
+
+00:08:13.790 --> 00:08:13.800 align:start position:0%
+Next.js fight rewrite task.
+ 
+
+00:08:13.800 --> 00:08:16.310 align:start position:0%
+Next.js fight rewrite task.
+So,<00:08:13.880><c> there's</c><00:08:14.200><c> over,</c><00:08:14.840><c> you</c><00:08:14.919><c> know,</c><00:08:15.040><c> 356</c><00:08:16.040><c> million</c>
+
+00:08:16.310 --> 00:08:16.320 align:start position:0%
+So, there's over, you know, 356 million
+ 
+
+00:08:16.320 --> 00:08:17.670 align:start position:0%
+So, there's over, you know, 356 million
+tokens
+
+00:08:17.670 --> 00:08:17.680 align:start position:0%
+tokens
+ 
+
+00:08:17.680 --> 00:08:20.950 align:start position:0%
+tokens
+uh<00:08:17.960><c> over</c><00:08:18.200><c> 9</c><00:08:18.440><c> hours</c><00:08:18.919><c> and</c><00:08:19.200><c> over</c><00:08:19.480><c> 800</c><00:08:20.520><c> trajectory</c>
+
+00:08:20.950 --> 00:08:20.960 align:start position:0%
+uh over 9 hours and over 800 trajectory
+ 
+
+00:08:20.960 --> 00:08:23.830 align:start position:0%
+uh over 9 hours and over 800 trajectory
+steps<00:08:21.360><c> and</c><00:08:21.640><c> and</c><00:08:21.800><c> tool</c><00:08:22.000><c> actions.</c>
+
+00:08:23.830 --> 00:08:23.840 align:start position:0%
+steps and and tool actions.
+ 
+
+00:08:23.840 --> 00:08:25.909 align:start position:0%
+steps and and tool actions.
+So,<00:08:24.160><c> for</c><00:08:24.320><c> the</c><00:08:24.480><c> top</c><00:08:24.800><c> half,</c><00:08:25.320><c> you</c><00:08:25.400><c> can</c><00:08:25.560><c> see</c><00:08:25.680><c> the</c>
+
+00:08:25.909 --> 00:08:25.919 align:start position:0%
+So, for the top half, you can see the
+ 
+
+00:08:25.919 --> 00:08:28.909 align:start position:0%
+So, for the top half, you can see the
+the<00:08:26.000><c> agent</c><00:08:26.320><c> starts</c><00:08:26.640><c> by</c><00:08:27.280><c> exploring</c><00:08:28.480><c> the</c><00:08:28.600><c> repo</c>
+
+00:08:28.909 --> 00:08:28.919 align:start position:0%
+the agent starts by exploring the repo
+ 
+
+00:08:28.919 --> 00:08:30.350 align:start position:0%
+the agent starts by exploring the repo
+and<00:08:29.040><c> the</c><00:08:29.080><c> fixtures,</c>
+
+00:08:30.350 --> 00:08:30.360 align:start position:0%
+and the fixtures,
+ 
+
+00:08:30.360 --> 00:08:31.350 align:start position:0%
+and the fixtures,
+um
+
+00:08:31.350 --> 00:08:31.360 align:start position:0%
+um
+ 
+
+00:08:31.360 --> 00:08:33.870 align:start position:0%
+um
+gets<00:08:31.720><c> its</c><00:08:32.000><c> first</c><00:08:32.400><c> full</c><00:08:32.760><c> test</c><00:08:33.039><c> suite</c><00:08:33.240><c> at</c><00:08:33.400><c> zero</c>
+
+00:08:33.870 --> 00:08:33.880 align:start position:0%
+gets its first full test suite at zero
+ 
+
+00:08:33.880 --> 00:08:34.750 align:start position:0%
+gets its first full test suite at zero
+of
+
+00:08:34.750 --> 00:08:34.760 align:start position:0%
+of
+ 
+
+00:08:34.760 --> 00:08:37.550 align:start position:0%
+of
+zero<00:08:35.039><c> out</c><00:08:35.159><c> of</c><00:08:35.280><c> 325</c><00:08:36.080><c> test</c><00:08:36.280><c> passing,</c><00:08:37.320><c> and</c><00:08:37.400><c> then</c>
+
+00:08:37.550 --> 00:08:37.560 align:start position:0%
+zero out of 325 test passing, and then
+ 
+
+00:08:37.560 --> 00:08:39.029 align:start position:0%
+zero out of 325 test passing, and then
+spends<00:08:37.919><c> the</c><00:08:38.000><c> next</c><00:08:38.240><c> few</c><00:08:38.360><c> hours</c><00:08:38.680><c> pushing</c>
+
+00:08:39.029 --> 00:08:39.039 align:start position:0%
+spends the next few hours pushing
+ 
+
+00:08:39.039 --> 00:08:40.469 align:start position:0%
+spends the next few hours pushing
+through
+
+00:08:40.469 --> 00:08:40.479 align:start position:0%
+through
+ 
+
+00:08:40.479 --> 00:08:42.550 align:start position:0%
+through
+routing,<00:08:41.039><c> hydration,</c>
+
+00:08:42.550 --> 00:08:42.560 align:start position:0%
+routing, hydration,
+ 
+
+00:08:42.560 --> 00:08:44.430 align:start position:0%
+routing, hydration,
+uh<00:08:42.640><c> server</c><00:08:43.000><c> actions,</c><00:08:43.599><c> middleware,</c><00:08:44.080><c> and</c><00:08:44.200><c> cache</c>
+
+00:08:44.430 --> 00:08:44.440 align:start position:0%
+uh server actions, middleware, and cache
+ 
+
+00:08:44.440 --> 00:08:47.670 align:start position:0%
+uh server actions, middleware, and cache
+behavior.
+
+00:08:47.670 --> 00:08:47.680 align:start position:0%
+ 
+ 
+
+00:08:47.680 --> 00:08:49.790 align:start position:0%
+ 
+The<00:08:47.760><c> bottom</c><00:08:48.080><c> part</c><00:08:48.400><c> of</c><00:08:48.480><c> the</c><00:08:48.600><c> chart</c><00:08:49.000><c> shows</c><00:08:49.640><c> the</c>
+
+00:08:49.790 --> 00:08:49.800 align:start position:0%
+The bottom part of the chart shows the
+ 
+
+00:08:49.800 --> 00:08:52.070 align:start position:0%
+The bottom part of the chart shows the
+work<00:08:50.040><c> pattern</c><00:08:50.320><c> over</c><00:08:50.480><c> time.</c><00:08:51.400><c> So,</c><00:08:51.680><c> you</c><00:08:51.800><c> can</c><00:08:51.920><c> see</c>
+
+00:08:52.070 --> 00:08:52.080 align:start position:0%
+work pattern over time. So, you can see
+ 
+
+00:08:52.080 --> 00:08:53.550 align:start position:0%
+work pattern over time. So, you can see
+like<00:08:52.240><c> lots</c><00:08:52.520><c> of</c><00:08:52.680><c> reading</c><00:08:53.040><c> and</c><00:08:53.200><c> searching</c>
+
+00:08:53.550 --> 00:08:53.560 align:start position:0%
+like lots of reading and searching
+ 
+
+00:08:53.560 --> 00:08:56.829 align:start position:0%
+like lots of reading and searching
+early,<00:08:54.280><c> then</c><00:08:55.040><c> huge</c><00:08:55.360><c> waves</c><00:08:55.680><c> of</c><00:08:56.000><c> like</c><00:08:56.200><c> editing,</c>
+
+00:08:56.829 --> 00:08:56.839 align:start position:0%
+early, then huge waves of like editing,
+ 
+
+00:08:56.839 --> 00:08:59.470 align:start position:0%
+early, then huge waves of like editing,
+building,<00:08:57.200><c> testing,</c><00:08:57.640><c> and</c><00:08:57.720><c> debugging.</c>
+
+00:08:59.470 --> 00:08:59.480 align:start position:0%
+building, testing, and debugging.
+ 
+
+00:08:59.480 --> 00:09:01.430 align:start position:0%
+building, testing, and debugging.
+The<00:08:59.560><c> key</c><00:08:59.720><c> intuition</c><00:09:00.200><c> is</c><00:09:00.400><c> that</c>
+
+00:09:01.430 --> 00:09:01.440 align:start position:0%
+The key intuition is that
+ 
+
+00:09:01.440 --> 00:09:03.510 align:start position:0%
+The key intuition is that
+these<00:09:01.600><c> are</c><00:09:01.720><c> like</c><00:09:02.000><c> long</c><00:09:02.520><c> engineering</c><00:09:03.120><c> loops.</c>
+
+00:09:03.510 --> 00:09:03.520 align:start position:0%
+these are like long engineering loops.
+ 
+
+00:09:03.520 --> 00:09:10.550 align:start position:0%
+these are like long engineering loops.
+They're<00:09:03.680><c> not</c><00:09:03.920><c> simple</c><00:09:04.200><c> coding</c><00:09:04.480><c> tasks.</c>
+
+00:09:10.550 --> 00:09:10.560 align:start position:0%
+ 
+ 
+
+00:09:10.560 --> 00:09:13.150 align:start position:0%
+ 
+Reward<00:09:10.880><c> hacking</c><00:09:11.320><c> is</c><00:09:11.640><c> an</c><00:09:11.760><c> arms</c><00:09:12.000><c> race</c><00:09:12.680><c> between</c>
+
+00:09:13.150 --> 00:09:13.160 align:start position:0%
+Reward hacking is an arms race between
+ 
+
+00:09:13.160 --> 00:09:16.270 align:start position:0%
+Reward hacking is an arms race between
+coding<00:09:13.480><c> agents</c><00:09:13.800><c> and</c><00:09:13.920><c> our</c><00:09:14.120><c> environment.</c>
+
+00:09:16.270 --> 00:09:16.280 align:start position:0%
+coding agents and our environment.
+ 
+
+00:09:16.280 --> 00:09:17.829 align:start position:0%
+coding agents and our environment.
+This<00:09:16.400><c> is</c><00:09:16.480><c> why</c><00:09:16.600><c> strong</c><00:09:16.960><c> verifiers</c><00:09:17.480><c> are</c><00:09:17.720><c> are</c>
+
+00:09:17.829 --> 00:09:17.839 align:start position:0%
+This is why strong verifiers are are
+ 
+
+00:09:17.839 --> 00:09:20.070 align:start position:0%
+This is why strong verifiers are are
+central<00:09:18.280><c> to</c><00:09:18.400><c> Sweep</c><00:09:18.600><c> Marathon's</c><00:09:19.040><c> task</c><00:09:19.320><c> design</c>
+
+00:09:20.070 --> 00:09:20.080 align:start position:0%
+central to Sweep Marathon's task design
+ 
+
+00:09:20.080 --> 00:09:23.270 align:start position:0%
+central to Sweep Marathon's task design
+and<00:09:20.760><c> not</c><00:09:21.000><c> an</c><00:09:21.120><c> afterthought.</c>
+
+00:09:23.270 --> 00:09:23.280 align:start position:0%
+and not an afterthought.
+ 
+
+00:09:23.280 --> 00:09:24.790 align:start position:0%
+and not an afterthought.
+This<00:09:23.480><c> chart</c>
+
+00:09:24.790 --> 00:09:24.800 align:start position:0%
+This chart
+ 
+
+00:09:24.800 --> 00:09:26.750 align:start position:0%
+This chart
+has<00:09:25.120><c> two</c><00:09:25.320><c> levels</c><00:09:25.640><c> of</c><00:09:25.760><c> behavior.</c><00:09:26.360><c> The</c><00:09:26.480><c> lighter</c>
+
+00:09:26.750 --> 00:09:26.760 align:start position:0%
+has two levels of behavior. The lighter
+ 
+
+00:09:26.760 --> 00:09:28.310 align:start position:0%
+has two levels of behavior. The lighter
+bars
+
+00:09:28.310 --> 00:09:28.320 align:start position:0%
+bars
+ 
+
+00:09:28.320 --> 00:09:30.829 align:start position:0%
+bars
+are<00:09:28.680><c> the</c><00:09:28.800><c> suspicious</c><00:09:29.839><c> suspicious</c><00:09:30.680><c> uh</c>
+
+00:09:30.829 --> 00:09:30.839 align:start position:0%
+are the suspicious suspicious uh
+ 
+
+00:09:30.839 --> 00:09:32.750 align:start position:0%
+are the suspicious suspicious uh
+shortcut<00:09:31.200><c> behavior.</c><00:09:32.120><c> So,</c><00:09:32.320><c> things</c><00:09:32.600><c> like</c>
+
+00:09:32.750 --> 00:09:32.760 align:start position:0%
+shortcut behavior. So, things like
+ 
+
+00:09:32.760 --> 00:09:34.950 align:start position:0%
+shortcut behavior. So, things like
+looking<00:09:33.040><c> for</c><00:09:33.200><c> solution</c><00:09:33.600><c> files,</c><00:09:34.480><c> messing</c><00:09:34.800><c> with</c>
+
+00:09:34.950 --> 00:09:34.960 align:start position:0%
+looking for solution files, messing with
+ 
+
+00:09:34.960 --> 00:09:37.870 align:start position:0%
+looking for solution files, messing with
+data,<00:09:35.920><c> messing</c><00:09:36.200><c> with</c><00:09:36.280><c> the</c><00:09:36.320><c> configs.</c>
+
+00:09:37.870 --> 00:09:37.880 align:start position:0%
+data, messing with the configs.
+ 
+
+00:09:37.880 --> 00:09:40.110 align:start position:0%
+data, messing with the configs.
+Whereas<00:09:38.240><c> the</c><00:09:38.360><c> darker</c><00:09:38.720><c> bar</c><00:09:39.000><c> is</c><00:09:39.240><c> like</c><00:09:39.480><c> a</c><00:09:39.560><c> clear</c>
+
+00:09:40.110 --> 00:09:40.120 align:start position:0%
+Whereas the darker bar is like a clear
+ 
+
+00:09:40.120 --> 00:09:42.070 align:start position:0%
+Whereas the darker bar is like a clear
+exploit<00:09:40.600><c> that</c><00:09:40.760><c> has</c><00:09:40.920><c> actually</c><00:09:41.240><c> gotten</c><00:09:41.480><c> shipped</c>
+
+00:09:42.070 --> 00:09:42.080 align:start position:0%
+exploit that has actually gotten shipped
+ 
+
+00:09:42.080 --> 00:09:44.790 align:start position:0%
+exploit that has actually gotten shipped
+in<00:09:42.160><c> the</c><00:09:42.240><c> final</c><00:09:42.520><c> submission.</c>
+
+00:09:44.790 --> 00:09:44.800 align:start position:0%
+in the final submission.
+ 
+
+00:09:44.800 --> 00:09:47.590 align:start position:0%
+in the final submission.
+And<00:09:45.040><c> across</c><00:09:45.480><c> the</c><00:09:45.640><c> 1,400</c><00:09:46.240><c> rollouts,</c>
+
+00:09:47.590 --> 00:09:47.600 align:start position:0%
+And across the 1,400 rollouts,
+ 
+
+00:09:47.600 --> 00:09:50.190 align:start position:0%
+And across the 1,400 rollouts,
+um<00:09:47.840><c> we</c><00:09:47.960><c> found</c><00:09:48.640><c> 12.8%</c><00:09:49.520><c> had</c><00:09:49.760><c> suspicious</c>
+
+00:09:50.190 --> 00:09:50.200 align:start position:0%
+um we found 12.8% had suspicious
+ 
+
+00:09:50.200 --> 00:09:53.710 align:start position:0%
+um we found 12.8% had suspicious
+shortcut<00:09:50.440><c> behavior,</c><00:09:51.560><c> and</c><00:09:51.960><c> 9%</c><00:09:52.520><c> had</c><00:09:53.120><c> the</c><00:09:53.280><c> clear</c>
+
+00:09:53.710 --> 00:09:53.720 align:start position:0%
+shortcut behavior, and 9% had the clear
+ 
+
+00:09:53.720 --> 00:09:55.990 align:start position:0%
+shortcut behavior, and 9% had the clear
+verifier<00:09:54.200><c> bypass.</c>
+
+00:09:55.990 --> 00:09:56.000 align:start position:0%
+verifier bypass.
+ 
+
+00:09:56.000 --> 00:09:58.910 align:start position:0%
+verifier bypass.
+So,<00:09:56.120><c> if</c><00:09:56.240><c> these</c><00:09:56.600><c> verifiers</c><00:09:57.280><c> were</c><00:09:57.560><c> weak,</c><00:09:58.520><c> these</c>
+
+00:09:58.910 --> 00:09:58.920 align:start position:0%
+So, if these verifiers were weak, these
+ 
+
+00:09:58.920 --> 00:10:00.830 align:start position:0%
+So, if these verifiers were weak, these
+wouldn't<00:09:59.280><c> just</c><00:09:59.600><c> be</c>
+
+00:10:00.830 --> 00:10:00.840 align:start position:0%
+wouldn't just be
+ 
+
+00:10:00.840 --> 00:10:02.830 align:start position:0%
+wouldn't just be
+amusing<00:10:01.280><c> failure</c><00:10:01.600><c> cases,</c><00:10:02.200><c> they</c><00:10:02.360><c> would</c>
+
+00:10:02.830 --> 00:10:02.840 align:start position:0%
+amusing failure cases, they would
+ 
+
+00:10:02.840 --> 00:10:05.590 align:start position:0%
+amusing failure cases, they would
+actually<00:10:03.200><c> delegitimize</c><00:10:03.960><c> the</c><00:10:04.040><c> benchmark.</c>
+
+00:10:05.590 --> 00:10:05.600 align:start position:0%
+actually delegitimize the benchmark.
+ 
+
+00:10:05.600 --> 00:10:08.350 align:start position:0%
+actually delegitimize the benchmark.
+And<00:10:05.720><c> the</c><00:10:05.800><c> important</c><00:10:06.200><c> number</c><00:10:06.520><c> is</c><00:10:06.920><c> the</c><00:10:07.040><c> zero.</c>
+
+00:10:08.350 --> 00:10:08.360 align:start position:0%
+And the important number is the zero.
+ 
+
+00:10:08.360 --> 00:10:10.590 align:start position:0%
+And the important number is the zero.
+Zero<00:10:08.720><c> rollouts</c><00:10:09.240><c> earned</c><00:10:09.720><c> reward</c><00:10:10.200><c> through</c><00:10:10.480><c> an</c>
+
+00:10:10.590 --> 00:10:10.600 align:start position:0%
+Zero rollouts earned reward through an
+ 
+
+00:10:10.600 --> 00:10:12.550 align:start position:0%
+Zero rollouts earned reward through an
+exploit,<00:10:11.360><c> because</c><00:10:11.800><c> our</c><00:10:11.960><c> defenses</c><00:10:12.360><c> caught</c>
+
+00:10:12.550 --> 00:10:12.560 align:start position:0%
+exploit, because our defenses caught
+ 
+
+00:10:12.560 --> 00:10:13.710 align:start position:0%
+exploit, because our defenses caught
+them.
+
+00:10:13.710 --> 00:10:13.720 align:start position:0%
+them.
+ 
+
+00:10:13.720 --> 00:10:16.030 align:start position:0%
+them.
+That<00:10:13.880><c> should</c><00:10:14.040><c> be</c><00:10:14.120><c> the</c><00:10:14.240><c> bar</c><00:10:14.520><c> for</c><00:10:15.360><c> long-horizon</c>
+
+00:10:16.030 --> 00:10:16.040 align:start position:0%
+That should be the bar for long-horizon
+ 
+
+00:10:16.040 --> 00:10:20.190 align:start position:0%
+That should be the bar for long-horizon
+evals.
+
+00:10:20.190 --> 00:10:20.200 align:start position:0%
+ 
+ 
+
+00:10:20.200 --> 00:10:22.710 align:start position:0%
+ 
+This<00:10:20.360><c> is</c><00:10:20.480><c> my</c><00:10:20.600><c> favorite</c><00:10:21.600><c> concrete</c><00:10:22.360><c> reward</c>
+
+00:10:22.710 --> 00:10:22.720 align:start position:0%
+This is my favorite concrete reward
+ 
+
+00:10:22.720 --> 00:10:25.550 align:start position:0%
+This is my favorite concrete reward
+hacking<00:10:23.040><c> example.</c>
+
+00:10:25.550 --> 00:10:25.560 align:start position:0%
+hacking example.
+ 
+
+00:10:25.560 --> 00:10:27.350 align:start position:0%
+hacking example.
+The<00:10:25.640><c> task</c><00:10:25.960><c> is</c><00:10:26.080><c> to</c><00:10:26.200><c> build</c><00:10:26.480><c> a</c><00:10:26.560><c> C</c><00:10:26.720><c> compiler</c><00:10:27.200><c> in</c>
+
+00:10:27.350 --> 00:10:27.360 align:start position:0%
+The task is to build a C compiler in
+ 
+
+00:10:27.360 --> 00:10:29.270 align:start position:0%
+The task is to build a C compiler in
+Rust<00:10:27.680><c> from</c><00:10:27.800><c> scratch.</c><00:10:28.600><c> The</c><00:10:28.720><c> lexer,</c><00:10:29.160><c> the</c>
+
+00:10:29.270 --> 00:10:29.280 align:start position:0%
+Rust from scratch. The lexer, the
+ 
+
+00:10:29.280 --> 00:10:31.830 align:start position:0%
+Rust from scratch. The lexer, the
+parser,<00:10:29.840><c> semantic</c><00:10:30.240><c> analysis,</c>
+
+00:10:31.830 --> 00:10:31.840 align:start position:0%
+parser, semantic analysis,
+ 
+
+00:10:31.840 --> 00:10:35.630 align:start position:0%
+parser, semantic analysis,
+codegen,<00:10:32.440><c> the</c><00:10:32.520><c> whole</c><00:10:32.760><c> thing.</c>
+
+00:10:35.630 --> 00:10:35.640 align:start position:0%
+ 
+ 
+
+00:10:35.640 --> 00:10:37.950 align:start position:0%
+ 
+But<00:10:36.000><c> Gemini</c><00:10:36.360><c> found</c><00:10:36.800><c> a</c><00:10:37.000><c> much</c><00:10:37.600><c> shorter</c>
+
+00:10:37.950 --> 00:10:37.960 align:start position:0%
+But Gemini found a much shorter
+ 
+
+00:10:37.960 --> 00:10:39.870 align:start position:0%
+But Gemini found a much shorter
+implementation<00:10:38.560><c> strategy,</c>
+
+00:10:39.870 --> 00:10:39.880 align:start position:0%
+implementation strategy,
+ 
+
+00:10:39.880 --> 00:10:43.030 align:start position:0%
+implementation strategy,
+which<00:10:40.080><c> is</c><00:10:40.400><c> call</c><00:10:40.960><c> GCC</c><00:10:41.520><c> from</c><00:10:41.720><c> inside</c>
+
+00:10:43.030 --> 00:10:43.040 align:start position:0%
+which is call GCC from inside
+ 
+
+00:10:43.040 --> 00:10:45.190 align:start position:0%
+which is call GCC from inside
+the<00:10:43.160><c> Rust</c><00:10:43.440><c> program.</c>
+
+00:10:45.190 --> 00:10:45.200 align:start position:0%
+the Rust program.
+ 
+
+00:10:45.200 --> 00:10:46.390 align:start position:0%
+the Rust program.
+So,
+
+00:10:46.390 --> 00:10:46.400 align:start position:0%
+So,
+ 
+
+00:10:46.400 --> 00:10:48.390 align:start position:0%
+So,
+under<00:10:46.680><c> a</c><00:10:46.720><c> weak</c><00:10:46.960><c> verifier,</c><00:10:47.440><c> this</c><00:10:47.960><c> task</c><00:10:48.320><c> would</c>
+
+00:10:48.390 --> 00:10:48.400 align:start position:0%
+under a weak verifier, this task would
+ 
+
+00:10:48.400 --> 00:10:50.390 align:start position:0%
+under a weak verifier, this task would
+look<00:10:48.600><c> almost</c><00:10:48.839><c> solved,</c><00:10:49.440><c> because</c><00:10:49.839><c> the</c><00:10:49.920><c> compiler</c>
+
+00:10:50.390 --> 00:10:50.400 align:start position:0%
+look almost solved, because the compiler
+ 
+
+00:10:50.400 --> 00:10:52.110 align:start position:0%
+look almost solved, because the compiler
+outputs<00:10:50.839><c> match</c><00:10:51.120><c> the</c><00:10:51.200><c> reference</c><00:10:51.520><c> behavior</c>
+
+00:10:52.110 --> 00:10:52.120 align:start position:0%
+outputs match the reference behavior
+ 
+
+00:10:52.120 --> 00:10:53.790 align:start position:0%
+outputs match the reference behavior
+behavior.
+
+00:10:53.790 --> 00:10:53.800 align:start position:0%
+behavior.
+ 
+
+00:10:53.800 --> 00:10:55.350 align:start position:0%
+behavior.
+But<00:10:54.040><c> obviously</c><00:10:54.320><c> it's</c><00:10:54.440><c> not</c><00:10:54.680><c> a</c><00:10:54.720><c> real</c><00:10:54.920><c> compiler</c>
+
+00:10:55.350 --> 00:10:55.360 align:start position:0%
+But obviously it's not a real compiler
+ 
+
+00:10:55.360 --> 00:10:57.630 align:start position:0%
+But obviously it's not a real compiler
+in<00:10:55.440><c> Rust.</c>
+
+00:10:57.630 --> 00:10:57.640 align:start position:0%
+in Rust.
+ 
+
+00:10:57.640 --> 00:11:00.230 align:start position:0%
+in Rust.
+The<00:10:57.760><c> anti-cheat</c><00:10:58.280><c> layers</c><00:10:58.880><c> ca-</c><00:10:59.520><c> uh</c><00:10:59.600><c> catch</c><00:10:59.920><c> this</c>
+
+00:11:00.230 --> 00:11:00.240 align:start position:0%
+The anti-cheat layers ca- uh catch this
+ 
+
+00:11:00.240 --> 00:11:02.910 align:start position:0%
+The anti-cheat layers ca- uh catch this
+by<00:11:00.400><c> using</c><00:11:00.800><c> S</c><00:11:01.000><c> trace</c><00:11:01.760><c> to</c><00:11:01.880><c> find</c><00:11:02.240><c> the</c><00:11:02.320><c> forbidden</c>
+
+00:11:02.910 --> 00:11:02.920 align:start position:0%
+by using S trace to find the forbidden
+ 
+
+00:11:02.920 --> 00:11:04.630 align:start position:0%
+by using S trace to find the forbidden
+subprocesses
+
+00:11:04.630 --> 00:11:04.640 align:start position:0%
+subprocesses
+ 
+
+00:11:04.640 --> 00:11:07.950 align:start position:0%
+subprocesses
+um<00:11:05.040><c> called</c><00:11:05.360><c> like</c><00:11:05.520><c> GCC.</c>
+
+00:11:07.950 --> 00:11:07.960 align:start position:0%
+um called like GCC.
+ 
+
+00:11:07.960 --> 00:11:09.990 align:start position:0%
+um called like GCC.
+So,<00:11:08.360><c> even</c><00:11:08.560><c> though</c><00:11:08.640><c> the</c><00:11:08.760><c> partial</c><00:11:09.160><c> scores</c><00:11:09.720><c> look</c>
+
+00:11:09.990 --> 00:11:10.000 align:start position:0%
+So, even though the partial scores look
+ 
+
+00:11:10.000 --> 00:11:14.590 align:start position:0%
+So, even though the partial scores look
+high,<00:11:10.320><c> the</c><00:11:10.520><c> final</c><00:11:11.000><c> reward</c><00:11:11.920><c> is</c><00:11:12.120><c> zero.</c>
+
+00:11:14.590 --> 00:11:14.600 align:start position:0%
+high, the final reward is zero.
+ 
+
+00:11:14.600 --> 00:11:16.910 align:start position:0%
+high, the final reward is zero.
+I<00:11:14.680><c> have</c><00:11:14.839><c> the</c><00:11:14.960><c> full</c><00:11:15.520><c> failure</c><00:11:15.920><c> mode</c><00:11:16.240><c> taxonomy</c><00:11:16.800><c> in</c>
+
+00:11:16.910 --> 00:11:16.920 align:start position:0%
+I have the full failure mode taxonomy in
+ 
+
+00:11:16.920 --> 00:11:18.950 align:start position:0%
+I have the full failure mode taxonomy in
+the<00:11:17.000><c> paper,</c><00:11:18.040><c> um</c><00:11:18.200><c> which</c><00:11:18.400><c> I</c><00:11:18.440><c> hope</c><00:11:18.600><c> you</c><00:11:18.680><c> guys</c><00:11:18.839><c> will</c>
+
+00:11:18.950 --> 00:11:18.960 align:start position:0%
+the paper, um which I hope you guys will
+ 
+
+00:11:18.960 --> 00:11:25.590 align:start position:0%
+the paper, um which I hope you guys will
+check<00:11:19.200><c> out.</c>
+
+00:11:25.590 --> 00:11:25.600 align:start position:0%
+ 
+ 
+
+00:11:25.600 --> 00:11:26.950 align:start position:0%
+ 
+If<00:11:25.720><c> you</c><00:11:25.800><c> remember</c><00:11:26.080><c> one</c><00:11:26.280><c> thing</c><00:11:26.560><c> from</c><00:11:26.839><c> this</c>
+
+00:11:26.950 --> 00:11:26.960 align:start position:0%
+If you remember one thing from this
+ 
+
+00:11:26.960 --> 00:11:30.190 align:start position:0%
+If you remember one thing from this
+video,<00:11:27.560><c> it's</c><00:11:28.480><c> that</c><00:11:28.720><c> the</c><00:11:28.800><c> future</c><00:11:29.120><c> of</c><00:11:29.240><c> SWE</c><00:11:29.560><c> evals</c>
+
+00:11:30.190 --> 00:11:30.200 align:start position:0%
+video, it's that the future of SWE evals
+ 
+
+00:11:30.200 --> 00:11:32.670 align:start position:0%
+video, it's that the future of SWE evals
+is<00:11:30.560><c> not</c><00:11:30.800><c> just</c><00:11:31.000><c> harder</c><00:11:31.280><c> unit</c><00:11:31.600><c> tests.</c>
+
+00:11:32.670 --> 00:11:32.680 align:start position:0%
+is not just harder unit tests.
+ 
+
+00:11:32.680 --> 00:11:36.190 align:start position:0%
+is not just harder unit tests.
+Once<00:11:33.080><c> agents</c><00:11:33.800><c> run</c><00:11:34.120><c> for</c><00:11:34.320><c> hours,</c>
+
+00:11:36.190 --> 00:11:36.200 align:start position:0%
+Once agents run for hours,
+ 
+
+00:11:36.200 --> 00:11:38.870 align:start position:0%
+Once agents run for hours,
+each<00:11:36.480><c> task</c><00:11:36.920><c> becomes</c><00:11:37.400><c> a</c><00:11:37.480><c> complex</c><00:11:37.880><c> environment,</c>
+
+00:11:38.870 --> 00:11:38.880 align:start position:0%
+each task becomes a complex environment,
+ 
+
+00:11:38.880 --> 00:11:40.470 align:start position:0%
+each task becomes a complex environment,
+and<00:11:39.280><c> agents</c><00:11:39.560><c> not</c><00:11:39.680><c> only</c><00:11:39.840><c> trying</c><00:11:40.080><c> to</c><00:11:40.200><c> write</c>
+
+00:11:40.470 --> 00:11:40.480 align:start position:0%
+and agents not only trying to write
+ 
+
+00:11:40.480 --> 00:11:43.070 align:start position:0%
+and agents not only trying to write
+code,<00:11:40.800><c> it's</c><00:11:40.920><c> also</c><00:11:41.160><c> navigating</c><00:11:41.680><c> tools,</c><00:11:42.120><c> tests,</c>
+
+00:11:43.070 --> 00:11:43.080 align:start position:0%
+code, it's also navigating tools, tests,
+ 
+
+00:11:43.080 --> 00:11:45.150 align:start position:0%
+code, it's also navigating tools, tests,
+your<00:11:43.280><c> hidden</c><00:11:43.720><c> assumptions,</c><00:11:44.600><c> and</c><00:11:45.040><c> the</c>
+
+00:11:45.150 --> 00:11:45.160 align:start position:0%
+your hidden assumptions, and the
+ 
+
+00:11:45.160 --> 00:11:47.990 align:start position:0%
+your hidden assumptions, and the
+verifier<00:11:45.640><c> itself.</c>
+
+00:11:47.990 --> 00:11:48.000 align:start position:0%
+verifier itself.
+ 
+
+00:11:48.000 --> 00:11:52.470 align:start position:0%
+verifier itself.
+So,<00:11:48.600><c> the</c><00:11:48.760><c> two</c><00:11:48.920><c> big</c><00:11:49.080><c> takeaways</c><00:11:49.680><c> are</c><00:11:50.720><c> first,</c>
+
+00:11:52.470 --> 00:11:52.480 align:start position:0%
+So, the two big takeaways are first,
+ 
+
+00:11:52.480 --> 00:11:56.590 align:start position:0%
+So, the two big takeaways are first,
+long<00:11:52.760><c> horizons</c><00:11:53.360><c> we</c><00:11:53.880><c> is</c><00:11:54.040><c> still</c><00:11:54.400><c> unsolved.</c>
+
+00:11:56.590 --> 00:11:56.600 align:start position:0%
+long horizons we is still unsolved.
+ 
+
+00:11:56.600 --> 00:11:58.710 align:start position:0%
+long horizons we is still unsolved.
+The<00:11:56.720><c> best</c><00:11:57.000><c> agents</c><00:11:57.400><c> only</c><00:11:57.600><c> at</c><00:11:57.680><c> 26%.</c><00:11:58.480><c> There's</c>
+
+00:11:58.710 --> 00:11:58.720 align:start position:0%
+The best agents only at 26%. There's
+ 
+
+00:11:58.720 --> 00:12:01.070 align:start position:0%
+The best agents only at 26%. There's
+plenty<00:11:59.080><c> of</c><00:11:59.200><c> headroom</c><00:11:59.640><c> left.</c>
+
+00:12:01.070 --> 00:12:01.080 align:start position:0%
+plenty of headroom left.
+ 
+
+00:12:01.080 --> 00:12:04.270 align:start position:0%
+plenty of headroom left.
+Second,<00:12:02.120><c> the</c><00:12:02.240><c> big</c><00:12:02.520><c> bottleneck</c><00:12:03.560><c> is</c><00:12:03.880><c> robust</c>
+
+00:12:04.270 --> 00:12:04.280 align:start position:0%
+Second, the big bottleneck is robust
+ 
+
+00:12:04.280 --> 00:12:06.150 align:start position:0%
+Second, the big bottleneck is robust
+verification.
+
+00:12:06.150 --> 00:12:06.160 align:start position:0%
+verification.
+ 
+
+00:12:06.160 --> 00:12:08.870 align:start position:0%
+verification.
+At<00:12:06.480><c> hour</c><00:12:06.800><c> and</c><00:12:06.960><c> day</c><00:12:07.200><c> scale</c><00:12:07.560><c> length</c><00:12:07.840><c> tasks,</c><00:12:08.760><c> we</c>
+
+00:12:08.870 --> 00:12:08.880 align:start position:0%
+At hour and day scale length tasks, we
+ 
+
+00:12:08.880 --> 00:12:10.550 align:start position:0%
+At hour and day scale length tasks, we
+need<00:12:09.360><c> the</c><00:12:09.440><c> multi-channel</c><00:12:10.120><c> checks,</c>
+
+00:12:10.550 --> 00:12:10.560 align:start position:0%
+need the multi-channel checks,
+ 
+
+00:12:10.560 --> 00:12:12.230 align:start position:0%
+need the multi-channel checks,
+anti-cheat<00:12:11.080><c> hardening,</c>
+
+00:12:12.230 --> 00:12:12.240 align:start position:0%
+anti-cheat hardening,
+ 
+
+00:12:12.240 --> 00:12:20.590 align:start position:0%
+anti-cheat hardening,
+product<00:12:12.800><c> style</c><00:12:13.280><c> validation.</c>
+
+00:12:20.590 --> 00:12:20.600 align:start position:0%
+ 
+ 
+
+00:12:20.600 --> 00:12:22.910 align:start position:0%
+ 
+The<00:12:20.720><c> tasks,</c><00:12:21.280><c> the</c><00:12:21.400><c> code,</c><00:12:21.840><c> the</c><00:12:21.920><c> paper,</c><00:12:22.800><c> the</c>
+
+00:12:22.910 --> 00:12:22.920 align:start position:0%
+The tasks, the code, the paper, the
+ 
+
+00:12:22.920 --> 00:12:24.590 align:start position:0%
+The tasks, the code, the paper, the
+logs,<00:12:23.400><c> and</c><00:12:23.560><c> the</c><00:12:23.680><c> trajectories</c><00:12:24.240><c> are</c><00:12:24.440><c> all</c>
+
+00:12:24.590 --> 00:12:24.600 align:start position:0%
+logs, and the trajectories are all
+ 
+
+00:12:24.600 --> 00:12:26.110 align:start position:0%
+logs, and the trajectories are all
+public.
+
+00:12:26.110 --> 00:12:26.120 align:start position:0%
+public.
+ 
+
+00:12:26.120 --> 00:12:29.550 align:start position:0%
+public.
+I've<00:12:26.480><c> released</c><00:12:26.960><c> 320</c><00:12:27.640><c> GB</c><00:12:28.120><c> of</c><00:12:28.280><c> trajectories</c>
+
+00:12:29.550 --> 00:12:29.560 align:start position:0%
+I've released 320 GB of trajectories
+ 
+
+00:12:29.560 --> 00:12:31.190 align:start position:0%
+I've released 320 GB of trajectories
+that<00:12:30.040><c> are</c>
+
+00:12:31.190 --> 00:12:31.200 align:start position:0%
+that are
+ 
+
+00:12:31.200 --> 00:12:32.990 align:start position:0%
+that are
+especially<00:12:31.720><c> important</c><00:12:32.120><c> because</c><00:12:32.480><c> they</c><00:12:32.640><c> make</c>
+
+00:12:32.990 --> 00:12:33.000 align:start position:0%
+especially important because they make
+ 
+
+00:12:33.000 --> 00:12:34.870 align:start position:0%
+especially important because they make
+SWE-bench<00:12:33.560><c> fully</c><00:12:33.920><c> inspectable</c><00:12:34.680><c> and</c>
+
+00:12:34.870 --> 00:12:34.880 align:start position:0%
+SWE-bench fully inspectable and
+ 
+
+00:12:34.880 --> 00:12:36.870 align:start position:0%
+SWE-bench fully inspectable and
+transparent.
+
+00:12:36.870 --> 00:12:36.880 align:start position:0%
+transparent.
+ 
+
+00:12:36.880 --> 00:12:38.510 align:start position:0%
+transparent.
+I<00:12:37.120><c> also</c><00:12:37.320><c> want</c><00:12:37.440><c> to</c><00:12:37.520><c> thank</c><00:12:38.080><c> all</c><00:12:38.280><c> of</c><00:12:38.400><c> my</c>
+
+00:12:38.510 --> 00:12:38.520 align:start position:0%
+I also want to thank all of my
+ 
+
+00:12:38.520 --> 00:12:40.710 align:start position:0%
+I also want to thank all of my
+collaborators<00:12:39.120><c> on</c><00:12:39.240><c> this</c><00:12:39.360><c> project,</c><00:12:40.320><c> all</c><00:12:40.600><c> of</c>
+
+00:12:40.710 --> 00:12:40.720 align:start position:0%
+collaborators on this project, all of
+ 
+
+00:12:40.720 --> 00:12:42.790 align:start position:0%
+collaborators on this project, all of
+whom<00:12:41.000><c> are</c><00:12:41.120><c> listed</c><00:12:41.520><c> here.</c>
+
+00:12:42.790 --> 00:12:42.800 align:start position:0%
+whom are listed here.
+ 
+
+00:12:42.800 --> 00:12:44.270 align:start position:0%
+whom are listed here.
+SWE-bench<00:12:43.440><c> was</c><00:12:43.800><c> very</c><00:12:44.040><c> much</c><00:12:44.200><c> a</c>
+
+00:12:44.270 --> 00:12:44.280 align:start position:0%
+SWE-bench was very much a
+ 
+
+00:12:44.280 --> 00:12:46.670 align:start position:0%
+SWE-bench was very much a
+community-driven<00:12:45.080><c> effort</c><00:12:45.440><c> across</c><00:12:46.360><c> task</c>
+
+00:12:46.670 --> 00:12:46.680 align:start position:0%
+community-driven effort across task
+ 
+
+00:12:46.680 --> 00:12:49.110 align:start position:0%
+community-driven effort across task
+contributors,<00:12:47.280><c> advisors,</c><00:12:48.360><c> and</c><00:12:48.800><c> paper</c>
+
+00:12:49.110 --> 00:12:49.120 align:start position:0%
+contributors, advisors, and paper
+ 
+
+00:12:49.120 --> 00:12:50.510 align:start position:0%
+contributors, advisors, and paper
+writing.
+
+00:12:50.510 --> 00:12:50.520 align:start position:0%
+writing.
+ 
+
+00:12:50.520 --> 00:12:51.910 align:start position:0%
+writing.
+You<00:12:50.560><c> can</c><00:12:50.680><c> find</c><00:12:51.040><c> everything</c><00:12:51.560><c> at</c>
+
+00:12:51.910 --> 00:12:51.920 align:start position:0%
+You can find everything at
+ 
+
+00:12:51.920 --> 00:12:54.950 align:start position:0%
+You can find everything at
+swe-bench.org.
+
+00:12:54.950 --> 00:12:54.960 align:start position:0%
+ 
+ 
+
+00:12:54.960 --> 00:12:57.480 align:start position:0%
+ 
+Thank<00:12:55.160><c> you.</c>
+

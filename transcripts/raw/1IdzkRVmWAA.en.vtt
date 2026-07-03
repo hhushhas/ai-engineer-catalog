@@ -1,0 +1,2832 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.470 align:start position:0%
+ 
+Hey,<00:00:00.680><c> today</c><00:00:00.880><c> we're</c><00:00:01.000><c> going</c><00:00:01.120><c> to</c><00:00:01.200><c> talk</c><00:00:01.440><c> about</c><00:00:02.400><c> how</c>
+
+00:00:02.470 --> 00:00:02.480 align:start position:0%
+Hey, today we're going to talk about how
+ 
+
+00:00:02.480 --> 00:00:05.190 align:start position:0%
+Hey, today we're going to talk about how
+we<00:00:02.600><c> taught</c><00:00:02.920><c> agents</c><00:00:03.400><c> to</c><00:00:03.720><c> use</c><00:00:04.040><c> good</c><00:00:04.200><c> retrieval</c>
+
+00:00:05.190 --> 00:00:05.200 align:start position:0%
+we taught agents to use good retrieval
+ 
+
+00:00:05.200 --> 00:00:07.390 align:start position:0%
+we taught agents to use good retrieval
+or<00:00:05.320><c> how</c><00:00:05.440><c> we</c><00:00:05.520><c> call</c><00:00:05.720><c> it</c><00:00:05.800><c> internally</c><00:00:06.920><c> closing</c><00:00:07.280><c> the</c>
+
+00:00:07.390 --> 00:00:07.400 align:start position:0%
+or how we call it internally closing the
+ 
+
+00:00:07.400 --> 00:00:10.630 align:start position:0%
+or how we call it internally closing the
+Oracle<00:00:07.760><c> gap</c><00:00:08.120><c> with</c><00:00:08.680><c> knowledge</c><00:00:09.040><c> agents.</c>
+
+00:00:10.630 --> 00:00:10.640 align:start position:0%
+Oracle gap with knowledge agents.
+ 
+
+00:00:10.640 --> 00:00:13.110 align:start position:0%
+Oracle gap with knowledge agents.
+&gt;&gt; I'm<00:00:11.000><c> Hannah.</c><00:00:11.680><c> I'm</c><00:00:11.920><c> an</c><00:00:12.080><c> AI</c><00:00:12.360><c> engineer</c><00:00:12.800><c> at</c><00:00:12.920><c> Mix</c>
+
+00:00:13.110 --> 00:00:13.120 align:start position:0%
+&gt;&gt; I'm Hannah. I'm an AI engineer at Mix
+ 
+
+00:00:13.120 --> 00:00:15.910 align:start position:0%
+&gt;&gt; I'm Hannah. I'm an AI engineer at Mix
+bread<00:00:13.560><c> and</c><00:00:13.720><c> I'm</c><00:00:13.880><c> leading</c><00:00:14.200><c> the</c><00:00:14.600><c> agentic</c><00:00:15.120><c> search</c>
+
+00:00:15.910 --> 00:00:15.920 align:start position:0%
+bread and I'm leading the agentic search
+ 
+
+00:00:15.920 --> 00:00:16.990 align:start position:0%
+bread and I'm leading the agentic search
+at<00:00:16.120><c> Mix</c><00:00:16.360><c> bread.</c>
+
+00:00:16.990 --> 00:00:17.000 align:start position:0%
+at Mix bread.
+ 
+
+00:00:17.000 --> 00:00:18.630 align:start position:0%
+at Mix bread.
+&gt;&gt; Yeah,<00:00:17.360><c> I'm</c><00:00:17.560><c> Amir.</c><00:00:18.000><c> I'm</c><00:00:18.120><c> the</c><00:00:18.200><c> co-founder</c><00:00:18.560><c> of</c>
+
+00:00:18.630 --> 00:00:18.640 align:start position:0%
+&gt;&gt; Yeah, I'm Amir. I'm the co-founder of
+ 
+
+00:00:18.640 --> 00:00:22.110 align:start position:0%
+&gt;&gt; Yeah, I'm Amir. I'm the co-founder of
+Mix<00:00:18.800><c> bread</c><00:00:19.480><c> and</c><00:00:19.720><c> let's</c><00:00:20.120><c> jump</c><00:00:20.440><c> into</c><00:00:20.760><c> it.</c><00:00:21.480><c> So,</c><00:00:22.000><c> we</c>
+
+00:00:22.110 --> 00:00:22.120 align:start position:0%
+Mix bread and let's jump into it. So, we
+ 
+
+00:00:22.120 --> 00:00:24.510 align:start position:0%
+Mix bread and let's jump into it. So, we
+have<00:00:22.280><c> seen</c><00:00:22.520><c> over</c><00:00:22.760><c> the</c><00:00:22.920><c> past</c><00:00:23.400><c> years</c><00:00:23.960><c> with</c><00:00:24.160><c> the</c>
+
+00:00:24.510 --> 00:00:24.520 align:start position:0%
+have seen over the past years with the
+ 
+
+00:00:24.520 --> 00:00:27.230 align:start position:0%
+have seen over the past years with the
+LLMs<00:00:25.080><c> just</c><00:00:25.320><c> getting</c><00:00:25.640><c> better</c><00:00:25.920><c> and</c><00:00:26.040><c> better</c><00:00:26.960><c> that</c>
+
+00:00:27.230 --> 00:00:27.240 align:start position:0%
+LLMs just getting better and better that
+ 
+
+00:00:27.240 --> 00:00:30.110 align:start position:0%
+LLMs just getting better and better that
+the<00:00:27.400><c> reasoning</c><00:00:27.800><c> capabilities</c><00:00:28.960><c> of</c><00:00:29.080><c> the</c><00:00:29.200><c> models</c>
+
+00:00:30.110 --> 00:00:30.120 align:start position:0%
+the reasoning capabilities of the models
+ 
+
+00:00:30.120 --> 00:00:32.030 align:start position:0%
+the reasoning capabilities of the models
+is<00:00:30.280><c> growing</c><00:00:30.520><c> exponentially.</c><00:00:31.240><c> So,</c><00:00:31.600><c> just</c><00:00:31.840><c> think</c>
+
+00:00:32.030 --> 00:00:32.040 align:start position:0%
+is growing exponentially. So, just think
+ 
+
+00:00:32.040 --> 00:00:35.510 align:start position:0%
+is growing exponentially. So, just think
+back<00:00:32.800><c> how</c><00:00:33.000><c> good</c><00:00:33.240><c> GPT-3.5</c><00:00:34.280><c> was</c><00:00:35.000><c> and</c><00:00:35.160><c> how</c><00:00:35.280><c> good</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+back how good GPT-3.5 was and how good
+ 
+
+00:00:35.520 --> 00:00:38.150 align:start position:0%
+back how good GPT-3.5 was and how good
+GPT-5.5<00:00:36.640><c> was,</c><00:00:36.880><c> right?</c><00:00:37.480><c> So,</c><00:00:37.560><c> I</c><00:00:37.600><c> can</c><00:00:37.880><c> clearly</c>
+
+00:00:38.150 --> 00:00:38.160 align:start position:0%
+GPT-5.5 was, right? So, I can clearly
+ 
+
+00:00:38.160 --> 00:00:40.870 align:start position:0%
+GPT-5.5 was, right? So, I can clearly
+exponential<00:00:38.680><c> curve.</c><00:00:39.480><c> But,</c><00:00:39.920><c> if</c><00:00:40.080><c> you</c><00:00:40.200><c> look</c><00:00:40.640><c> at</c>
+
+00:00:40.870 --> 00:00:40.880 align:start position:0%
+exponential curve. But, if you look at
+ 
+
+00:00:40.880 --> 00:00:44.110 align:start position:0%
+exponential curve. But, if you look at
+search<00:00:41.720><c> over</c><00:00:41.880><c> the</c><00:00:42.000><c> last</c><00:00:42.480><c> 20</c><00:00:42.800><c> years</c><00:00:43.040><c> basically,</c>
+
+00:00:44.110 --> 00:00:44.120 align:start position:0%
+search over the last 20 years basically,
+ 
+
+00:00:44.120 --> 00:00:45.670 align:start position:0%
+search over the last 20 years basically,
+we<00:00:44.240><c> see</c><00:00:44.480><c> that</c>
+
+00:00:45.670 --> 00:00:45.680 align:start position:0%
+we see that
+ 
+
+00:00:45.680 --> 00:00:48.390 align:start position:0%
+we see that
+it's<00:00:46.400><c> improving,</c><00:00:47.280><c> but</c><00:00:47.440><c> it's</c><00:00:47.600><c> improving</c><00:00:48.120><c> very</c>
+
+00:00:48.390 --> 00:00:48.400 align:start position:0%
+it's improving, but it's improving very
+ 
+
+00:00:48.400 --> 00:00:49.710 align:start position:0%
+it's improving, but it's improving very
+very<00:00:48.640><c> slowly.</c>
+
+00:00:49.710 --> 00:00:49.720 align:start position:0%
+very slowly.
+ 
+
+00:00:49.720 --> 00:00:53.350 align:start position:0%
+very slowly.
+So,<00:00:50.120><c> there's</c><00:00:50.520><c> a</c><00:00:50.560><c> huge</c><00:00:51.040><c> gap</c><00:00:51.840><c> between</c><00:00:52.480><c> how</c>
+
+00:00:53.350 --> 00:00:53.360 align:start position:0%
+So, there's a huge gap between how
+ 
+
+00:00:53.360 --> 00:00:55.630 align:start position:0%
+So, there's a huge gap between how
+basically<00:00:54.240><c> LLMs</c><00:00:54.880><c> and</c><00:00:55.040><c> the</c><00:00:55.160><c> reasoning</c><00:00:55.520><c> is</c>
+
+00:00:55.630 --> 00:00:55.640 align:start position:0%
+basically LLMs and the reasoning is
+ 
+
+00:00:55.640 --> 00:00:59.110 align:start position:0%
+basically LLMs and the reasoning is
+evolving<00:00:56.480><c> and</c><00:00:56.840><c> how</c><00:00:57.120><c> retrieval</c><00:00:57.560><c> is</c><00:00:57.720><c> evolving.</c>
+
+00:00:59.110 --> 00:00:59.120 align:start position:0%
+evolving and how retrieval is evolving.
+ 
+
+00:00:59.120 --> 00:01:02.990 align:start position:0%
+evolving and how retrieval is evolving.
+But,<00:00:59.800><c> the</c><00:00:59.920><c> retrieval</c><00:01:00.400><c> tools</c><00:01:01.520><c> are</c><00:01:01.760><c> the</c><00:01:01.920><c> main</c>
+
+00:01:02.990 --> 00:01:03.000 align:start position:0%
+But, the retrieval tools are the main
+ 
+
+00:01:03.000 --> 00:01:05.830 align:start position:0%
+But, the retrieval tools are the main
+access<00:01:03.600><c> pattern</c><00:01:04.519><c> for</c><00:01:04.720><c> this</c><00:01:04.920><c> reasoning</c><00:01:05.239><c> there</c>
+
+00:01:05.830 --> 00:01:05.840 align:start position:0%
+access pattern for this reasoning there
+ 
+
+00:01:05.840 --> 00:01:07.630 align:start position:0%
+access pattern for this reasoning there
+to<00:01:05.960><c> get</c><00:01:06.160><c> the</c><00:01:06.240><c> right</c><00:01:06.520><c> knowledge</c><00:01:07.200><c> and</c><00:01:07.400><c> to</c><00:01:07.520><c> be</c>
+
+00:01:07.630 --> 00:01:07.640 align:start position:0%
+to get the right knowledge and to be
+ 
+
+00:01:07.640 --> 00:01:10.830 align:start position:0%
+to get the right knowledge and to be
+truly<00:01:08.040><c> useful</c><00:01:09.000><c> beyond</c><00:01:09.560><c> code</c><00:01:09.880><c> like</c><00:01:10.400><c> in</c><00:01:10.520><c> legal</c>
+
+00:01:10.830 --> 00:01:10.840 align:start position:0%
+truly useful beyond code like in legal
+ 
+
+00:01:10.840 --> 00:01:12.430 align:start position:0%
+truly useful beyond code like in legal
+work,<00:01:11.120><c> in</c><00:01:11.240><c> finance</c><00:01:11.680><c> work</c><00:01:11.920><c> and</c><00:01:12.040><c> so</c><00:01:12.160><c> on</c><00:01:12.240><c> and</c><00:01:12.360><c> so</c>
+
+00:01:12.430 --> 00:01:12.440 align:start position:0%
+work, in finance work and so on and so
+ 
+
+00:01:12.440 --> 00:01:14.630 align:start position:0%
+work, in finance work and so on and so
+forth.<00:01:13.080><c> Internally,</c><00:01:13.680><c> we</c><00:01:13.880><c> call</c><00:01:14.120><c> this</c><00:01:14.280><c> gap</c>
+
+00:01:14.630 --> 00:01:14.640 align:start position:0%
+forth. Internally, we call this gap
+ 
+
+00:01:14.640 --> 00:01:16.550 align:start position:0%
+forth. Internally, we call this gap
+happening<00:01:15.000><c> right</c><00:01:15.240><c> now</c><00:01:15.880><c> between</c><00:01:16.200><c> reasoning</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+happening right now between reasoning
+ 
+
+00:01:16.560 --> 00:01:19.310 align:start position:0%
+happening right now between reasoning
+and<00:01:16.720><c> search</c><00:01:17.480><c> the</c><00:01:17.600><c> knowledge</c><00:01:17.960><c> gap.</c><00:01:18.880><c> And</c><00:01:19.160><c> it's</c>
+
+00:01:19.310 --> 00:01:19.320 align:start position:0%
+and search the knowledge gap. And it's
+ 
+
+00:01:19.320 --> 00:01:22.350 align:start position:0%
+and search the knowledge gap. And it's
+not<00:01:19.440><c> just</c><00:01:19.920><c> one</c><00:01:20.400><c> obscure</c><00:01:20.800><c> theory</c><00:01:21.240><c> of</c><00:01:21.520><c> ours.</c><00:01:22.240><c> We</c>
+
+00:01:22.350 --> 00:01:22.360 align:start position:0%
+not just one obscure theory of ours. We
+ 
+
+00:01:22.360 --> 00:01:24.110 align:start position:0%
+not just one obscure theory of ours. We
+see<00:01:22.480><c> that</c><00:01:22.600><c> actually</c><00:01:23.080><c> with</c><00:01:23.320><c> real</c><00:01:23.520><c> benchmarks</c>
+
+00:01:24.110 --> 00:01:24.120 align:start position:0%
+see that actually with real benchmarks
+ 
+
+00:01:24.120 --> 00:01:26.870 align:start position:0%
+see that actually with real benchmarks
+and<00:01:24.280><c> real</c><00:01:24.480><c> tasks</c><00:01:25.480><c> that</c><00:01:25.800><c> this</c><00:01:25.960><c> gap</c><00:01:26.280><c> exists</c><00:01:26.680><c> in</c>
+
+00:01:26.870 --> 00:01:26.880 align:start position:0%
+and real tasks that this gap exists in
+ 
+
+00:01:26.880 --> 00:01:29.470 align:start position:0%
+and real tasks that this gap exists in
+real<00:01:27.080><c> world</c><00:01:27.320><c> as</c><00:01:27.480><c> well.</c><00:01:28.280><c> Let's</c><00:01:28.560><c> take</c>
+
+00:01:29.470 --> 00:01:29.480 align:start position:0%
+real world as well. Let's take
+ 
+
+00:01:29.480 --> 00:01:31.590 align:start position:0%
+real world as well. Let's take
+two<00:01:29.680><c> benchmarks</c><00:01:30.240><c> here,</c><00:01:30.560><c> BroSque</c><00:01:31.000><c> Plus</c><00:01:31.400><c> and</c>
+
+00:01:31.590 --> 00:01:31.600 align:start position:0%
+two benchmarks here, BroSque Plus and
+ 
+
+00:01:31.600 --> 00:01:35.830 align:start position:0%
+two benchmarks here, BroSque Plus and
+Office<00:01:31.880><c> QA</c><00:01:32.160><c> Pro.</c><00:01:33.080><c> BroSque</c><00:01:33.480><c> Plus</c><00:01:34.360><c> is</c><00:01:34.560><c> like</c><00:01:34.880><c> a</c>
+
+00:01:35.830 --> 00:01:35.840 align:start position:0%
+Office QA Pro. BroSque Plus is like a
+ 
+
+00:01:35.840 --> 00:01:37.950 align:start position:0%
+Office QA Pro. BroSque Plus is like a
+browsing<00:01:36.520><c> benchmark</c><00:01:37.440><c> where</c><00:01:37.600><c> we</c><00:01:37.720><c> have</c>
+
+00:01:37.950 --> 00:01:37.960 align:start position:0%
+browsing benchmark where we have
+ 
+
+00:01:37.960 --> 00:01:39.910 align:start position:0%
+browsing benchmark where we have
+pre-complex<00:01:38.720><c> queries</c><00:01:39.200><c> and</c><00:01:39.320><c> a</c><00:01:39.400><c> corpus</c><00:01:39.760><c> of</c>
+
+00:01:39.910 --> 00:01:39.920 align:start position:0%
+pre-complex queries and a corpus of
+ 
+
+00:01:39.920 --> 00:01:42.750 align:start position:0%
+pre-complex queries and a corpus of
+100,000<00:01:40.480><c> documents</c><00:01:41.560><c> and</c><00:01:41.960><c> we</c><00:01:42.040><c> just</c><00:01:42.320><c> try</c><00:01:42.520><c> to</c>
+
+00:01:42.750 --> 00:01:42.760 align:start position:0%
+100,000 documents and we just try to
+ 
+
+00:01:42.760 --> 00:01:45.750 align:start position:0%
+100,000 documents and we just try to
+answer<00:01:43.000><c> these</c><00:01:43.240><c> questions.</c><00:01:44.400><c> It's</c><00:01:44.640><c> like</c><00:01:45.240><c> real</c>
+
+00:01:45.750 --> 00:01:45.760 align:start position:0%
+answer these questions. It's like real
+ 
+
+00:01:45.760 --> 00:01:49.030 align:start position:0%
+answer these questions. It's like real
+world<00:01:46.280><c> deep</c><00:01:46.600><c> search</c><00:01:47.400><c> task</c><00:01:47.880><c> basically</c><00:01:48.840><c> and</c>
+
+00:01:49.030 --> 00:01:49.040 align:start position:0%
+world deep search task basically and
+ 
+
+00:01:49.040 --> 00:01:50.790 align:start position:0%
+world deep search task basically and
+Office<00:01:49.320><c> QA</c><00:01:49.600><c> Pro</c>
+
+00:01:50.790 --> 00:01:50.800 align:start position:0%
+Office QA Pro
+ 
+
+00:01:50.800 --> 00:01:52.710 align:start position:0%
+Office QA Pro
+which<00:01:51.040><c> has</c><00:01:51.200><c> the</c><00:01:51.320><c> treasuries</c><00:01:52.000><c> of</c><00:01:52.320><c> the</c><00:01:52.440><c> US</c>
+
+00:01:52.710 --> 00:01:52.720 align:start position:0%
+which has the treasuries of the US
+ 
+
+00:01:52.720 --> 00:01:54.510 align:start position:0%
+which has the treasuries of the US
+treasuries<00:01:53.120><c> of</c><00:01:53.240><c> the</c><00:01:53.360><c> past</c>
+
+00:01:54.510 --> 00:01:54.520 align:start position:0%
+treasuries of the past
+ 
+
+00:01:54.520 --> 00:01:55.070 align:start position:0%
+treasuries of the past
+um
+
+00:01:55.070 --> 00:01:55.080 align:start position:0%
+um
+ 
+
+00:01:55.080 --> 00:01:57.910 align:start position:0%
+um
+100<00:01:55.440><c> years</c><00:01:56.400><c> basically</c>
+
+00:01:57.910 --> 00:01:57.920 align:start position:0%
+100 years basically
+ 
+
+00:01:57.920 --> 00:02:00.310 align:start position:0%
+100 years basically
+and<00:01:58.520><c> we</c><00:01:58.760><c> ask</c><00:01:59.240><c> really</c><00:01:59.440><c> complex</c><00:01:59.800><c> question</c><00:02:00.120><c> over</c>
+
+00:02:00.310 --> 00:02:00.320 align:start position:0%
+and we ask really complex question over
+ 
+
+00:02:00.320 --> 00:02:02.030 align:start position:0%
+and we ask really complex question over
+this.<00:02:00.880><c> Office</c><00:02:01.120><c> QA</c><00:02:01.320><c> Pro</c><00:02:01.520><c> was</c><00:02:01.720><c> created</c><00:02:01.960><c> by</c>
+
+00:02:02.030 --> 00:02:02.040 align:start position:0%
+this. Office QA Pro was created by
+ 
+
+00:02:02.040 --> 00:02:04.350 align:start position:0%
+this. Office QA Pro was created by
+Databricks<00:02:02.880><c> and</c><00:02:03.000><c> BrowseComp</c><00:02:03.840><c> was</c><00:02:04.000><c> created</c><00:02:04.240><c> by</c>
+
+00:02:04.350 --> 00:02:04.360 align:start position:0%
+Databricks and BrowseComp was created by
+ 
+
+00:02:04.360 --> 00:02:07.310 align:start position:0%
+Databricks and BrowseComp was created by
+OpenAI<00:02:05.240><c> and</c><00:02:05.360><c> BrowseComp</c><00:02:05.720><c> Plus</c><00:02:06.080><c> is</c><00:02:06.320><c> a</c><00:02:07.040><c> version</c>
+
+00:02:07.310 --> 00:02:07.320 align:start position:0%
+OpenAI and BrowseComp Plus is a version
+ 
+
+00:02:07.320 --> 00:02:09.109 align:start position:0%
+OpenAI and BrowseComp Plus is a version
+of<00:02:07.479><c> it</c><00:02:07.600><c> with</c><00:02:07.720><c> a</c><00:02:07.800><c> fixed</c><00:02:08.119><c> size</c><00:02:08.320><c> corpus</c><00:02:08.920><c> while</c>
+
+00:02:09.109 --> 00:02:09.119 align:start position:0%
+of it with a fixed size corpus while
+ 
+
+00:02:09.119 --> 00:02:11.550 align:start position:0%
+of it with a fixed size corpus while
+BrowseComp<00:02:09.759><c> was</c><00:02:10.000><c> over</c><00:02:10.200><c> the</c><00:02:10.320><c> open</c><00:02:10.600><c> web.</c>
+
+00:02:11.550 --> 00:02:11.560 align:start position:0%
+BrowseComp was over the open web.
+ 
+
+00:02:11.560 --> 00:02:14.230 align:start position:0%
+BrowseComp was over the open web.
+And<00:02:12.120><c> we</c><00:02:12.240><c> see</c><00:02:12.680><c> here's</c><00:02:12.959><c> a</c><00:02:13.280><c> Oracle</c><00:02:13.640><c> performance</c>
+
+00:02:14.230 --> 00:02:14.240 align:start position:0%
+And we see here's a Oracle performance
+ 
+
+00:02:14.240 --> 00:02:17.990 align:start position:0%
+And we see here's a Oracle performance
+in<00:02:14.600><c> dotted</c><00:02:14.920><c> lines</c><00:02:15.680><c> and</c><00:02:15.840><c> Oracle</c><00:02:16.200><c> means</c><00:02:16.880><c> what</c><00:02:17.840><c> is</c>
+
+00:02:17.990 --> 00:02:18.000 align:start position:0%
+in dotted lines and Oracle means what is
+ 
+
+00:02:18.000 --> 00:02:19.830 align:start position:0%
+in dotted lines and Oracle means what is
+the<00:02:18.120><c> maximum</c><00:02:18.720><c> theoretical</c><00:02:19.240><c> performance</c><00:02:19.720><c> of</c>
+
+00:02:19.830 --> 00:02:19.840 align:start position:0%
+the maximum theoretical performance of
+ 
+
+00:02:19.840 --> 00:02:22.790 align:start position:0%
+the maximum theoretical performance of
+the<00:02:19.959><c> models</c><00:02:20.800><c> if</c><00:02:21.000><c> you</c><00:02:21.080><c> would</c><00:02:21.320><c> put</c><00:02:21.640><c> in</c><00:02:22.440><c> the</c><00:02:22.560><c> right</c>
+
+00:02:22.790 --> 00:02:22.800 align:start position:0%
+the models if you would put in the right
+ 
+
+00:02:22.800 --> 00:02:24.990 align:start position:0%
+the models if you would put in the right
+documents<00:02:23.640><c> with</c><00:02:23.760><c> the</c><00:02:24.000><c> question</c><00:02:24.440><c> with</c><00:02:24.840><c> with</c>
+
+00:02:24.990 --> 00:02:25.000 align:start position:0%
+documents with the question with with
+ 
+
+00:02:25.000 --> 00:02:27.430 align:start position:0%
+documents with the question with with
+the<00:02:25.120><c> question.</c><00:02:25.880><c> We</c><00:02:26.040><c> see</c><00:02:26.200><c> for</c>
+
+00:02:27.430 --> 00:02:27.440 align:start position:0%
+the question. We see for
+ 
+
+00:02:27.440 --> 00:02:31.070 align:start position:0%
+the question. We see for
+Office<00:02:28.160><c> for</c><00:02:28.320><c> BrowseComp</c><00:02:28.840><c> it's</c><00:02:29.320><c> 93%</c>
+
+00:02:31.070 --> 00:02:31.080 align:start position:0%
+Office for BrowseComp it's 93%
+ 
+
+00:02:31.080 --> 00:02:34.190 align:start position:0%
+Office for BrowseComp it's 93%
+and<00:02:31.320><c> for</c><00:02:31.480><c> Office</c><00:02:31.720><c> QA</c><00:02:32.080><c> Pro</c><00:02:32.440><c> it's</c><00:02:32.560><c> 64%.</c>
+
+00:02:34.190 --> 00:02:34.200 align:start position:0%
+and for Office QA Pro it's 64%.
+ 
+
+00:02:34.200 --> 00:02:36.750 align:start position:0%
+and for Office QA Pro it's 64%.
+And<00:02:34.400><c> now</c><00:02:34.600><c> we</c><00:02:34.720><c> take</c><00:02:35.000><c> something</c><00:02:35.360><c> like</c><00:02:35.800><c> Codex</c>
+
+00:02:36.750 --> 00:02:36.760 align:start position:0%
+And now we take something like Codex
+ 
+
+00:02:36.760 --> 00:02:38.590 align:start position:0%
+And now we take something like Codex
+with<00:02:36.920><c> its</c><00:02:37.160><c> default</c><00:02:37.600><c> tools</c>
+
+00:02:38.590 --> 00:02:38.600 align:start position:0%
+with its default tools
+ 
+
+00:02:38.600 --> 00:02:39.949 align:start position:0%
+with its default tools
+and<00:02:38.800><c> want</c><00:02:38.959><c> to</c><00:02:39.040><c> see</c><00:02:39.400><c> hey,</c><00:02:39.600><c> what</c><00:02:39.760><c> is</c><00:02:39.880><c> the</c>
+
+00:02:39.949 --> 00:02:39.959 align:start position:0%
+and want to see hey, what is the
+ 
+
+00:02:39.959 --> 00:02:42.150 align:start position:0%
+and want to see hey, what is the
+performance<00:02:40.640><c> this</c><00:02:40.840><c> tools</c><00:02:41.120><c> get</c><00:02:41.320><c> right</c><00:02:41.480><c> now?</c>
+
+00:02:42.150 --> 00:02:42.160 align:start position:0%
+performance this tools get right now?
+ 
+
+00:02:42.160 --> 00:02:45.949 align:start position:0%
+performance this tools get right now?
+And<00:02:42.280><c> you</c><00:02:42.400><c> see</c><00:02:42.520><c> there's</c><00:02:42.840><c> a</c><00:02:43.160><c> sharp</c><00:02:43.560><c> drop</c><00:02:44.320><c> in</c><00:02:45.160><c> the</c>
+
+00:02:45.949 --> 00:02:45.959 align:start position:0%
+And you see there's a sharp drop in the
+ 
+
+00:02:45.959 --> 00:02:48.750 align:start position:0%
+And you see there's a sharp drop in the
+quality<00:02:46.560><c> of</c><00:02:46.720><c> the</c><00:02:46.840><c> answers</c><00:02:47.480><c> Codex</c><00:02:47.880><c> produces.</c>
+
+00:02:48.750 --> 00:02:48.760 align:start position:0%
+quality of the answers Codex produces.
+ 
+
+00:02:48.760 --> 00:02:50.790 align:start position:0%
+quality of the answers Codex produces.
+For<00:02:48.920><c> BrowseComp</c><00:02:49.400><c> it's</c><00:02:49.600><c> nine</c><00:02:49.840><c> points</c><00:02:50.520><c> and</c><00:02:50.680><c> for</c>
+
+00:02:50.790 --> 00:02:50.800 align:start position:0%
+For BrowseComp it's nine points and for
+ 
+
+00:02:50.800 --> 00:02:53.230 align:start position:0%
+For BrowseComp it's nine points and for
+Office<00:02:51.080><c> QA</c><00:02:51.320><c> Pro</c><00:02:51.920><c> it's</c><00:02:52.160><c> eight</c><00:02:52.320><c> points.</c><00:02:53.000><c> So</c><00:02:53.120><c> we</c>
+
+00:02:53.230 --> 00:02:53.240 align:start position:0%
+Office QA Pro it's eight points. So we
+ 
+
+00:02:53.240 --> 00:02:55.070 align:start position:0%
+Office QA Pro it's eight points. So we
+see<00:02:53.480><c> that</c><00:02:53.959><c> the</c><00:02:54.040><c> models</c><00:02:54.440><c> are</c><00:02:54.600><c> extremely</c>
+
+00:02:55.070 --> 00:02:55.080 align:start position:0%
+see that the models are extremely
+ 
+
+00:02:55.080 --> 00:02:56.990 align:start position:0%
+see that the models are extremely
+capable<00:02:56.040><c> if</c><00:02:56.280><c> they</c><00:02:56.440><c> would</c><00:02:56.600><c> get</c><00:02:56.800><c> the</c><00:02:56.840><c> right</c>
+
+00:02:56.990 --> 00:02:57.000 align:start position:0%
+capable if they would get the right
+ 
+
+00:02:57.000 --> 00:03:00.990 align:start position:0%
+capable if they would get the right
+documents<00:02:58.000><c> but</c><00:02:58.320><c> if</c><00:02:58.480><c> you</c><00:02:58.600><c> put</c><00:02:58.800><c> them</c><00:02:59.560><c> into</c>
+
+00:03:00.990 --> 00:03:01.000 align:start position:0%
+documents but if you put them into
+ 
+
+00:03:01.000 --> 00:03:04.670 align:start position:0%
+documents but if you put them into
+the<00:03:01.480><c> noisy</c><00:03:02.040><c> corpus</c><00:03:03.120><c> the</c><00:03:03.239><c> performance</c><00:03:04.120><c> drops</c>
+
+00:03:04.670 --> 00:03:04.680 align:start position:0%
+the noisy corpus the performance drops
+ 
+
+00:03:04.680 --> 00:03:05.910 align:start position:0%
+the noisy corpus the performance drops
+sharply.
+
+00:03:05.910 --> 00:03:05.920 align:start position:0%
+sharply.
+ 
+
+00:03:05.920 --> 00:03:08.790 align:start position:0%
+sharply.
+Meaning<00:03:06.560><c> that</c><00:03:06.800><c> actually</c><00:03:07.440><c> the</c><00:03:07.560><c> bottleneck</c>
+
+00:03:08.790 --> 00:03:08.800 align:start position:0%
+Meaning that actually the bottleneck
+ 
+
+00:03:08.800 --> 00:03:12.110 align:start position:0%
+Meaning that actually the bottleneck
+here<00:03:09.280><c> is</c><00:03:09.440><c> not</c><00:03:10.239><c> the</c><00:03:10.600><c> reasoning.</c><00:03:11.400><c> It's</c><00:03:11.600><c> actually</c>
+
+00:03:12.110 --> 00:03:12.120 align:start position:0%
+here is not the reasoning. It's actually
+ 
+
+00:03:12.120 --> 00:03:14.630 align:start position:0%
+here is not the reasoning. It's actually
+the<00:03:12.239><c> access</c><00:03:13.040><c> to</c><00:03:13.160><c> the</c><00:03:13.280><c> right</c><00:03:14.120><c> knowledge</c><00:03:14.519><c> it</c>
+
+00:03:14.630 --> 00:03:14.640 align:start position:0%
+the access to the right knowledge it
+ 
+
+00:03:14.640 --> 00:03:17.030 align:start position:0%
+the access to the right knowledge it
+needs<00:03:15.160><c> to</c><00:03:15.400><c> answer</c><00:03:15.680><c> this</c><00:03:15.800><c> question.</c><00:03:16.600><c> So</c><00:03:16.720><c> we</c><00:03:16.840><c> see</c>
+
+00:03:17.030 --> 00:03:17.040 align:start position:0%
+needs to answer this question. So we see
+ 
+
+00:03:17.040 --> 00:03:21.430 align:start position:0%
+needs to answer this question. So we see
+this<00:03:17.880><c> knowledge</c><00:03:18.200><c> gap</c><00:03:18.560><c> in</c><00:03:18.680><c> real</c><00:03:18.920><c> world.</c>
+
+00:03:21.430 --> 00:03:21.440 align:start position:0%
+ 
+ 
+
+00:03:21.440 --> 00:03:23.430 align:start position:0%
+ 
+And<00:03:21.800><c> if</c><00:03:21.920><c> you</c><00:03:22.000><c> would</c><00:03:22.160><c> just</c><00:03:22.360><c> drop</c><00:03:22.640><c> in</c><00:03:23.000><c> way</c><00:03:23.200><c> better</c>
+
+00:03:23.430 --> 00:03:23.440 align:start position:0%
+And if you would just drop in way better
+ 
+
+00:03:23.440 --> 00:03:26.590 align:start position:0%
+And if you would just drop in way better
+search<00:03:23.920><c> using</c><00:03:24.200><c> Mixbread</c><00:03:24.880><c> with</c><00:03:25.000><c> just</c><00:03:25.519><c> a</c><00:03:25.600><c> search</c>
+
+00:03:26.590 --> 00:03:26.600 align:start position:0%
+search using Mixbread with just a search
+ 
+
+00:03:26.600 --> 00:03:29.070 align:start position:0%
+search using Mixbread with just a search
+tool<00:03:27.160><c> using</c><00:03:27.480><c> latent</c><00:03:27.800><c> interaction</c><00:03:28.760><c> we</c><00:03:28.880><c> can</c>
+
+00:03:29.070 --> 00:03:29.080 align:start position:0%
+tool using latent interaction we can
+ 
+
+00:03:29.080 --> 00:03:30.990 align:start position:0%
+tool using latent interaction we can
+recover<00:03:29.519><c> most</c><00:03:29.840><c> of</c><00:03:29.920><c> the</c><00:03:30.040><c> performance.</c><00:03:30.640><c> So</c><00:03:30.840><c> for</c>
+
+00:03:30.990 --> 00:03:31.000 align:start position:0%
+recover most of the performance. So for
+ 
+
+00:03:31.000 --> 00:03:33.030 align:start position:0%
+recover most of the performance. So for
+BrowseComp<00:03:31.959><c> the</c><00:03:32.040><c> difference</c><00:03:32.440><c> between</c><00:03:32.920><c> the</c>
+
+00:03:33.030 --> 00:03:33.040 align:start position:0%
+BrowseComp the difference between the
+ 
+
+00:03:33.040 --> 00:03:34.949 align:start position:0%
+BrowseComp the difference between the
+Oracle<00:03:33.680><c> and</c><00:03:33.959><c> the</c>
+
+00:03:34.949 --> 00:03:34.959 align:start position:0%
+Oracle and the
+ 
+
+00:03:34.959 --> 00:03:37.229 align:start position:0%
+Oracle and the
+uh<00:03:35.320><c> GPT-5</c><00:03:35.959><c> with</c><00:03:36.120><c> Mixbread</c><00:03:36.560><c> is</c><00:03:36.680><c> just</c><00:03:37.000><c> three</c>
+
+00:03:37.229 --> 00:03:37.239 align:start position:0%
+uh GPT-5 with Mixbread is just three
+ 
+
+00:03:37.239 --> 00:03:39.630 align:start position:0%
+uh GPT-5 with Mixbread is just three
+point<00:03:37.920><c> and</c><00:03:38.040><c> for</c><00:03:38.280><c> Office</c><00:03:38.600><c> QA</c><00:03:38.800><c> Pro</c><00:03:39.040><c> we</c><00:03:39.160><c> even</c>
+
+00:03:39.630 --> 00:03:39.640 align:start position:0%
+point and for Office QA Pro we even
+ 
+
+00:03:39.640 --> 00:03:41.790 align:start position:0%
+point and for Office QA Pro we even
+almost<00:03:39.959><c> completely</c><00:03:40.480><c> closed</c><00:03:40.800><c> the</c><00:03:40.880><c> gap.</c><00:03:41.600><c> With</c>
+
+00:03:41.790 --> 00:03:41.800 align:start position:0%
+almost completely closed the gap. With
+ 
+
+00:03:41.800 --> 00:03:43.949 align:start position:0%
+almost completely closed the gap. With
+giving<00:03:42.080><c> the</c><00:03:42.200><c> model</c><00:03:42.680><c> better</c><00:03:42.920><c> search</c><00:03:43.239><c> tool</c><00:03:43.840><c> we</c>
+
+00:03:43.949 --> 00:03:43.959 align:start position:0%
+giving the model better search tool we
+ 
+
+00:03:43.959 --> 00:03:47.110 align:start position:0%
+giving the model better search tool we
+can<00:03:44.640><c> recover</c><00:03:45.160><c> most</c><00:03:45.480><c> of</c><00:03:45.600><c> the</c><00:03:45.680><c> knowledge</c><00:03:46.000><c> gap.</c>
+
+00:03:47.110 --> 00:03:47.120 align:start position:0%
+can recover most of the knowledge gap.
+ 
+
+00:03:47.120 --> 00:03:49.870 align:start position:0%
+can recover most of the knowledge gap.
+But<00:03:48.040><c> looking</c><00:03:48.519><c> at</c><00:03:48.680><c> the</c><00:03:48.800><c> queries</c><00:03:49.400><c> the</c><00:03:49.519><c> model</c>
+
+00:03:49.870 --> 00:03:49.880 align:start position:0%
+But looking at the queries the model
+ 
+
+00:03:49.880 --> 00:03:52.430 align:start position:0%
+But looking at the queries the model
+asks<00:03:50.440><c> or</c><00:03:50.640><c> writes</c><00:03:51.000><c> right</c><00:03:51.239><c> now</c><00:03:51.840><c> to</c><00:03:52.000><c> the</c><00:03:52.120><c> search</c>
+
+00:03:52.430 --> 00:03:52.440 align:start position:0%
+asks or writes right now to the search
+ 
+
+00:03:52.440 --> 00:03:53.630 align:start position:0%
+asks or writes right now to the search
+system,
+
+00:03:53.630 --> 00:03:53.640 align:start position:0%
+system,
+ 
+
+00:03:53.640 --> 00:03:55.790 align:start position:0%
+system,
+it<00:03:53.800><c> gets</c><00:03:54.120><c> super</c><00:03:54.360><c> super</c><00:03:54.600><c> interesting.</c>
+
+00:03:55.790 --> 00:03:55.800 align:start position:0%
+it gets super super interesting.
+ 
+
+00:03:55.800 --> 00:03:58.830 align:start position:0%
+it gets super super interesting.
+So,<00:03:56.120><c> here's</c><00:03:56.360><c> an</c><00:03:56.440><c> example</c><00:03:56.880><c> query</c><00:03:57.280><c> we</c><00:03:57.440><c> found</c>
+
+00:03:58.830 --> 00:03:58.840 align:start position:0%
+So, here's an example query we found
+ 
+
+00:03:58.840 --> 00:04:00.510 align:start position:0%
+So, here's an example query we found
+uh<00:03:58.960><c> during</c><00:03:59.240><c> some</c><00:03:59.440><c> benchmarking,</c><00:04:00.200><c> which</c><00:04:00.360><c> is</c>
+
+00:04:00.510 --> 00:04:00.520 align:start position:0%
+uh during some benchmarking, which is
+ 
+
+00:04:00.520 --> 00:04:03.230 align:start position:0%
+uh during some benchmarking, which is
+senator<00:04:01.320><c> woman</c><00:04:01.680><c> questions</c><00:04:02.160><c> billionaires</c><00:04:03.080><c> not</c>
+
+00:04:03.230 --> 00:04:03.240 align:start position:0%
+senator woman questions billionaires not
+ 
+
+00:04:03.240 --> 00:04:05.670 align:start position:0%
+senator woman questions billionaires not
+a<00:04:03.280><c> company</c><00:04:03.840><c> then</c><00:04:04.080><c> okay</c><00:04:04.760><c> thank</c><00:04:05.000><c> you</c><00:04:05.080><c> staff</c><00:04:05.520><c> will</c>
+
+00:04:05.670 --> 00:04:05.680 align:start position:0%
+a company then okay thank you staff will
+ 
+
+00:04:05.680 --> 00:04:07.110 align:start position:0%
+a company then okay thank you staff will
+check<00:04:05.960><c> hearing.</c>
+
+00:04:07.110 --> 00:04:07.120 align:start position:0%
+check hearing.
+ 
+
+00:04:07.120 --> 00:04:08.630 align:start position:0%
+check hearing.
+It's<00:04:07.160><c> basically</c><00:04:07.560><c> gibberish,</c><00:04:08.000><c> right?</c><00:04:08.520><c> If</c><00:04:08.600><c> you</c>
+
+00:04:08.630 --> 00:04:08.640 align:start position:0%
+It's basically gibberish, right? If you
+ 
+
+00:04:08.640 --> 00:04:10.949 align:start position:0%
+It's basically gibberish, right? If you
+have<00:04:08.760><c> a</c><00:04:08.800><c> search</c><00:04:09.120><c> system</c><00:04:09.600><c> which</c><00:04:10.280><c> wants</c><00:04:10.600><c> to</c><00:04:10.720><c> have</c>
+
+00:04:10.949 --> 00:04:10.959 align:start position:0%
+have a search system which wants to have
+ 
+
+00:04:10.959 --> 00:04:13.150 align:start position:0%
+have a search system which wants to have
+neural<00:04:11.280><c> questions</c><00:04:11.840><c> or</c><00:04:11.920><c> semantic</c><00:04:12.320><c> question</c>
+
+00:04:13.150 --> 00:04:13.160 align:start position:0%
+neural questions or semantic question
+ 
+
+00:04:13.160 --> 00:04:15.110 align:start position:0%
+neural questions or semantic question
+and<00:04:13.240><c> just</c><00:04:13.400><c> gets</c><00:04:13.600><c> these</c><00:04:13.880><c> keywords</c><00:04:14.880><c> over</c>
+
+00:04:15.110 --> 00:04:15.120 align:start position:0%
+and just gets these keywords over
+ 
+
+00:04:15.120 --> 00:04:16.550 align:start position:0%
+and just gets these keywords over
+keywords,
+
+00:04:16.550 --> 00:04:16.560 align:start position:0%
+keywords,
+ 
+
+00:04:16.560 --> 00:04:19.590 align:start position:0%
+keywords,
+it<00:04:16.720><c> gets</c><00:04:16.920><c> confused.</c><00:04:18.120><c> And</c><00:04:18.799><c> the</c><00:04:18.920><c> reason</c><00:04:19.239><c> why</c><00:04:19.359><c> the</c>
+
+00:04:19.590 --> 00:04:19.600 align:start position:0%
+it gets confused. And the reason why the
+ 
+
+00:04:19.600 --> 00:04:22.550 align:start position:0%
+it gets confused. And the reason why the
+models<00:04:20.640><c> write</c><00:04:20.880><c> these</c><00:04:21.040><c> type</c><00:04:21.239><c> of</c><00:04:21.400><c> queries</c><00:04:21.799><c> is</c>
+
+00:04:22.550 --> 00:04:22.560 align:start position:0%
+models write these type of queries is
+ 
+
+00:04:22.560 --> 00:04:24.990 align:start position:0%
+models write these type of queries is
+they're<00:04:22.680><c> mostly</c><00:04:23.200><c> trained</c><00:04:23.720><c> for</c><00:04:24.080><c> coding</c><00:04:24.480><c> task,</c>
+
+00:04:24.990 --> 00:04:25.000 align:start position:0%
+they're mostly trained for coding task,
+ 
+
+00:04:25.000 --> 00:04:26.909 align:start position:0%
+they're mostly trained for coding task,
+like<00:04:25.200><c> for</c><00:04:25.320><c> coding</c><00:04:25.680><c> agents,</c><00:04:26.480><c> which</c><00:04:26.680><c> are</c><00:04:26.760><c> then</c>
+
+00:04:26.909 --> 00:04:26.919 align:start position:0%
+like for coding agents, which are then
+ 
+
+00:04:26.919 --> 00:04:29.350 align:start position:0%
+like for coding agents, which are then
+optimized<00:04:27.440><c> for</c><00:04:28.160><c> code</c><00:04:28.400><c> base</c><00:04:28.560><c> exploration</c>
+
+00:04:29.350 --> 00:04:29.360 align:start position:0%
+optimized for code base exploration
+ 
+
+00:04:29.360 --> 00:04:32.870 align:start position:0%
+optimized for code base exploration
+using<00:04:29.680><c> tools</c><00:04:29.960><c> like</c><00:04:30.680><c> grep.</c><00:04:31.680><c> And</c><00:04:31.880><c> grep</c>
+
+00:04:32.870 --> 00:04:32.880 align:start position:0%
+using tools like grep. And grep
+ 
+
+00:04:32.880 --> 00:04:35.310 align:start position:0%
+using tools like grep. And grep
+just<00:04:33.240><c> tries</c><00:04:33.600><c> to</c><00:04:33.800><c> find</c><00:04:34.440><c> regular</c><00:04:34.760><c> expressions,</c>
+
+00:04:35.310 --> 00:04:35.320 align:start position:0%
+just tries to find regular expressions,
+ 
+
+00:04:35.320 --> 00:04:37.510 align:start position:0%
+just tries to find regular expressions,
+right?<00:04:36.000><c> So,</c><00:04:36.160><c> the</c><00:04:36.280><c> model</c><00:04:36.680><c> tries</c><00:04:36.960><c> to</c><00:04:37.080><c> just</c><00:04:37.240><c> write</c>
+
+00:04:37.510 --> 00:04:37.520 align:start position:0%
+right? So, the model tries to just write
+ 
+
+00:04:37.520 --> 00:04:39.870 align:start position:0%
+right? So, the model tries to just write
+as<00:04:37.680><c> many</c><00:04:38.040><c> expression</c><00:04:38.760><c> it</c><00:04:38.880><c> thinks</c><00:04:39.640><c> are</c><00:04:39.720><c> in</c><00:04:39.800><c> the</c>
+
+00:04:39.870 --> 00:04:39.880 align:start position:0%
+as many expression it thinks are in the
+ 
+
+00:04:39.880 --> 00:04:42.070 align:start position:0%
+as many expression it thinks are in the
+document<00:04:40.640><c> to</c><00:04:40.760><c> find</c><00:04:41.000><c> the</c><00:04:41.080><c> right</c><00:04:41.320><c> thing.</c><00:04:41.960><c> The</c>
+
+00:04:42.070 --> 00:04:42.080 align:start position:0%
+document to find the right thing. The
+ 
+
+00:04:42.080 --> 00:04:44.510 align:start position:0%
+document to find the right thing. The
+second<00:04:42.440><c> thing</c><00:04:42.680><c> is</c><00:04:43.200><c> the</c><00:04:43.320><c> models</c><00:04:43.640><c> are</c><00:04:43.760><c> trained</c>
+
+00:04:44.510 --> 00:04:44.520 align:start position:0%
+second thing is the models are trained
+ 
+
+00:04:44.520 --> 00:04:47.030 align:start position:0%
+second thing is the models are trained
+to<00:04:44.640><c> use</c><00:04:44.840><c> the</c><00:04:44.960><c> web</c><00:04:45.440><c> pretty</c><00:04:45.680><c> efficiently.</c>
+
+00:04:47.030 --> 00:04:47.040 align:start position:0%
+to use the web pretty efficiently.
+ 
+
+00:04:47.040 --> 00:04:48.150 align:start position:0%
+to use the web pretty efficiently.
+And
+
+00:04:48.150 --> 00:04:48.160 align:start position:0%
+And
+ 
+
+00:04:48.160 --> 00:04:50.670 align:start position:0%
+And
+to<00:04:48.480><c> use</c><00:04:48.720><c> the</c><00:04:48.840><c> web</c><00:04:49.040><c> tools</c><00:04:49.280><c> properly,</c><00:04:50.040><c> which</c><00:04:50.240><c> are</c>
+
+00:04:50.670 --> 00:04:50.680 align:start position:0%
+to use the web tools properly, which are
+ 
+
+00:04:50.680 --> 00:04:52.950 align:start position:0%
+to use the web tools properly, which are
+highly<00:04:50.960><c> optimized</c><00:04:51.400><c> for</c><00:04:51.520><c> humans,</c><00:04:52.280><c> they</c><00:04:52.360><c> try</c><00:04:52.600><c> to</c>
+
+00:04:52.950 --> 00:04:52.960 align:start position:0%
+highly optimized for humans, they try to
+ 
+
+00:04:52.960 --> 00:04:55.230 align:start position:0%
+highly optimized for humans, they try to
+mimic<00:04:53.520><c> human-like</c><00:04:54.160><c> query</c><00:04:54.400><c> patterns.</c><00:04:55.120><c> So,</c>
+
+00:04:55.230 --> 00:04:55.240 align:start position:0%
+mimic human-like query patterns. So,
+ 
+
+00:04:55.240 --> 00:04:57.590 align:start position:0%
+mimic human-like query patterns. So,
+just<00:04:55.560><c> keyword</c><00:04:55.960><c> on</c><00:04:56.080><c> keyword</c><00:04:56.440><c> on</c><00:04:56.520><c> keyword.</c><00:04:57.480><c> And</c>
+
+00:04:57.590 --> 00:04:57.600 align:start position:0%
+just keyword on keyword on keyword. And
+ 
+
+00:04:57.600 --> 00:04:59.070 align:start position:0%
+just keyword on keyword on keyword. And
+number<00:04:57.800><c> three,</c><00:04:58.120><c> obviously,</c><00:04:58.840><c> is</c><00:04:58.960><c> the</c>
+
+00:04:59.070 --> 00:04:59.080 align:start position:0%
+number three, obviously, is the
+ 
+
+00:04:59.080 --> 00:05:01.350 align:start position:0%
+number three, obviously, is the
+benchmark<00:04:59.480><c> bias.</c><00:05:00.400><c> Most</c><00:05:00.680><c> benchmarks</c><00:05:01.120><c> we</c><00:05:01.200><c> have</c>
+
+00:05:01.350 --> 00:05:01.360 align:start position:0%
+benchmark bias. Most benchmarks we have
+ 
+
+00:05:01.360 --> 00:05:03.830 align:start position:0%
+benchmark bias. Most benchmarks we have
+right<00:05:01.560><c> now,</c><00:05:01.720><c> like</c><00:05:02.040><c> Beer,</c><00:05:02.360><c> Nano</c><00:05:02.720><c> Beer,</c><00:05:03.480><c> use</c>
+
+00:05:03.830 --> 00:05:03.840 align:start position:0%
+right now, like Beer, Nano Beer, use
+ 
+
+00:05:03.840 --> 00:05:05.990 align:start position:0%
+right now, like Beer, Nano Beer, use
+Caveman's<00:05:04.480><c> style</c><00:05:04.800><c> queries,</c><00:05:05.640><c> which</c><00:05:05.840><c> are</c>
+
+00:05:05.990 --> 00:05:06.000 align:start position:0%
+Caveman's style queries, which are
+ 
+
+00:05:06.000 --> 00:05:08.590 align:start position:0%
+Caveman's style queries, which are
+entity-based<00:05:07.440><c> queries</c>
+
+00:05:08.590 --> 00:05:08.600 align:start position:0%
+entity-based queries
+ 
+
+00:05:08.600 --> 00:05:11.750 align:start position:0%
+entity-based queries
+that<00:05:08.960><c> structurally</c><00:05:09.440><c> favor</c><00:05:09.800><c> heavily</c><00:05:10.160><c> BM25.</c>
+
+00:05:11.750 --> 00:05:11.760 align:start position:0%
+that structurally favor heavily BM25.
+ 
+
+00:05:11.760 --> 00:05:14.870 align:start position:0%
+that structurally favor heavily BM25.
+So,<00:05:12.400><c> right</c><00:05:12.680><c> now,</c><00:05:13.360><c> the</c><00:05:13.560><c> agent</c><00:05:14.040><c> guesses</c><00:05:14.760><c> the</c>
+
+00:05:14.870 --> 00:05:14.880 align:start position:0%
+So, right now, the agent guesses the
+ 
+
+00:05:14.880 --> 00:05:17.070 align:start position:0%
+So, right now, the agent guesses the
+keywords<00:05:16.080><c> to</c><00:05:16.240><c> actually</c><00:05:16.600><c> increase</c><00:05:16.960><c> the</c>
+
+00:05:17.070 --> 00:05:17.080 align:start position:0%
+keywords to actually increase the
+ 
+
+00:05:17.080 --> 00:05:19.390 align:start position:0%
+keywords to actually increase the
+overlap<00:05:17.600><c> between</c><00:05:17.880><c> the</c><00:05:18.000><c> query</c><00:05:18.280><c> and</c><00:05:18.400><c> documents</c>
+
+00:05:19.390 --> 00:05:19.400 align:start position:0%
+overlap between the query and documents
+ 
+
+00:05:19.400 --> 00:05:21.830 align:start position:0%
+overlap between the query and documents
+and<00:05:19.560><c> can't</c><00:05:19.960><c> really</c><00:05:20.600><c> use</c><00:05:20.800><c> powerful</c><00:05:21.560><c> search</c>
+
+00:05:21.830 --> 00:05:21.840 align:start position:0%
+and can't really use powerful search
+ 
+
+00:05:21.840 --> 00:05:23.190 align:start position:0%
+and can't really use powerful search
+tools<00:05:22.080><c> properly.</c>
+
+00:05:23.190 --> 00:05:23.200 align:start position:0%
+tools properly.
+ 
+
+00:05:23.200 --> 00:05:26.390 align:start position:0%
+tools properly.
+&gt;&gt; This<00:05:23.400><c> motivated</c><00:05:24.200><c> us</c><00:05:24.720><c> to</c><00:05:25.000><c> make</c><00:05:25.320><c> our</c><00:05:25.640><c> own</c><00:05:25.919><c> search</c>
+
+00:05:26.390 --> 00:05:26.400 align:start position:0%
+&gt;&gt; This motivated us to make our own search
+ 
+
+00:05:26.400 --> 00:05:29.470 align:start position:0%
+&gt;&gt; This motivated us to make our own search
+agent,<00:05:27.440><c> to</c><00:05:27.560><c> teach</c><00:05:27.919><c> it</c><00:05:28.440><c> to</c><00:05:28.600><c> use</c><00:05:28.880><c> powerful</c>
+
+00:05:29.470 --> 00:05:29.480 align:start position:0%
+agent, to teach it to use powerful
+ 
+
+00:05:29.480 --> 00:05:32.070 align:start position:0%
+agent, to teach it to use powerful
+search<00:05:29.960><c> properly,</c><00:05:30.680><c> especially</c><00:05:31.320><c> to</c><00:05:31.480><c> use</c><00:05:31.760><c> the</c>
+
+00:05:32.070 --> 00:05:32.080 align:start position:0%
+search properly, especially to use the
+ 
+
+00:05:32.080 --> 00:05:34.510 align:start position:0%
+search properly, especially to use the
+right<00:05:32.560><c> search</c><00:05:33.040><c> tools</c><00:05:33.600><c> for</c><00:05:33.800><c> different</c><00:05:34.320><c> use</c>
+
+00:05:34.510 --> 00:05:34.520 align:start position:0%
+right search tools for different use
+ 
+
+00:05:34.520 --> 00:05:35.750 align:start position:0%
+right search tools for different use
+cases.
+
+00:05:35.750 --> 00:05:35.760 align:start position:0%
+cases.
+ 
+
+00:05:35.760 --> 00:05:38.790 align:start position:0%
+cases.
+Um<00:05:36.600><c> and</c><00:05:36.800><c> to</c><00:05:36.960><c> work</c><00:05:37.320><c> beyond</c><00:05:37.800><c> code</c><00:05:38.160><c> search</c><00:05:38.640><c> for</c>
+
+00:05:38.790 --> 00:05:38.800 align:start position:0%
+Um and to work beyond code search for
+ 
+
+00:05:38.800 --> 00:05:41.390 align:start position:0%
+Um and to work beyond code search for
+knowledge<00:05:39.280><c> work.</c><00:05:40.200><c> And</c><00:05:40.320><c> most</c><00:05:40.480><c> importantly,</c>
+
+00:05:41.390 --> 00:05:41.400 align:start position:0%
+knowledge work. And most importantly,
+ 
+
+00:05:41.400 --> 00:05:43.590 align:start position:0%
+knowledge work. And most importantly,
+the<00:05:41.520><c> agent</c><00:05:41.840><c> should</c><00:05:42.040><c> be</c><00:05:42.240><c> precise,</c><00:05:43.000><c> fast,</c><00:05:43.440><c> and</c>
+
+00:05:43.590 --> 00:05:43.600 align:start position:0%
+the agent should be precise, fast, and
+ 
+
+00:05:43.600 --> 00:05:45.830 align:start position:0%
+the agent should be precise, fast, and
+cheap.<00:05:44.440><c> The</c><00:05:44.520><c> first</c><00:05:44.800><c> step</c><00:05:45.120><c> for</c><00:05:45.280><c> building</c><00:05:45.600><c> this</c>
+
+00:05:45.830 --> 00:05:45.840 align:start position:0%
+cheap. The first step for building this
+ 
+
+00:05:45.840 --> 00:05:48.750 align:start position:0%
+cheap. The first step for building this
+agent<00:05:46.360><c> was</c><00:05:46.760><c> to</c><00:05:47.480><c> define</c><00:05:47.920><c> a</c><00:05:48.000><c> very</c><00:05:48.240><c> powerful</c>
+
+00:05:48.750 --> 00:05:48.760 align:start position:0%
+agent was to define a very powerful
+ 
+
+00:05:48.760 --> 00:05:50.110 align:start position:0%
+agent was to define a very powerful
+harness.
+
+00:05:50.110 --> 00:05:50.120 align:start position:0%
+harness.
+ 
+
+00:05:50.120 --> 00:05:51.350 align:start position:0%
+harness.
+Um<00:05:50.428><c> [clears throat]</c><00:05:50.480><c> our</c><00:05:50.680><c> harness</c><00:05:51.000><c> is</c><00:05:51.120><c> fully</c>
+
+00:05:51.350 --> 00:05:51.360 align:start position:0%
+Um [clears throat] our harness is fully
+ 
+
+00:05:51.360 --> 00:05:53.870 align:start position:0%
+Um [clears throat] our harness is fully
+built<00:05:51.680><c> on</c><00:05:51.880><c> a</c><00:05:51.920><c> mixed</c><00:05:52.200><c> back</c><00:05:52.360><c> platform.</c>
+
+00:05:53.870 --> 00:05:53.880 align:start position:0%
+built on a mixed back platform.
+ 
+
+00:05:53.880 --> 00:05:56.710 align:start position:0%
+built on a mixed back platform.
+Our<00:05:54.160><c> agent</c><00:05:54.600><c> has</c><00:05:55.040><c> four</c><00:05:55.360><c> main</c><00:05:55.680><c> search</c><00:05:56.160><c> tools,</c>
+
+00:05:56.710 --> 00:05:56.720 align:start position:0%
+Our agent has four main search tools,
+ 
+
+00:05:56.720 --> 00:05:59.230 align:start position:0%
+Our agent has four main search tools,
+which<00:05:57.080><c> are</c><00:05:57.520><c> overview</c><00:05:57.960><c> search.</c>
+
+00:05:59.230 --> 00:05:59.240 align:start position:0%
+which are overview search.
+ 
+
+00:05:59.240 --> 00:06:01.830 align:start position:0%
+which are overview search.
+This<00:05:59.480><c> is</c><00:05:59.960><c> used</c><00:06:00.320><c> as</c><00:06:00.480><c> a</c><00:06:00.560><c> very</c><00:06:00.840><c> wide</c><00:06:01.240><c> semantic</c>
+
+00:06:01.830 --> 00:06:01.840 align:start position:0%
+This is used as a very wide semantic
+ 
+
+00:06:01.840 --> 00:06:05.270 align:start position:0%
+This is used as a very wide semantic
+search<00:06:02.360><c> where</c><00:06:02.600><c> the</c><00:06:02.760><c> agent</c><00:06:03.120><c> receives</c><00:06:03.840><c> up</c><00:06:04.040><c> to</c><00:06:04.680><c> 50</c>
+
+00:06:05.270 --> 00:06:05.280 align:start position:0%
+search where the agent receives up to 50
+ 
+
+00:06:05.280 --> 00:06:07.070 align:start position:0%
+search where the agent receives up to 50
+retrieve<00:06:05.840><c> chunks.</c>
+
+00:06:07.070 --> 00:06:07.080 align:start position:0%
+retrieve chunks.
+ 
+
+00:06:07.080 --> 00:06:09.350 align:start position:0%
+retrieve chunks.
+Um<00:06:07.320><c> and</c><00:06:07.440><c> it</c><00:06:07.560><c> sees</c><00:06:08.040><c> only</c><00:06:08.360><c> summaries</c><00:06:09.120><c> of</c><00:06:09.240><c> the</c>
+
+00:06:09.350 --> 00:06:09.360 align:start position:0%
+Um and it sees only summaries of the
+ 
+
+00:06:09.360 --> 00:06:11.190 align:start position:0%
+Um and it sees only summaries of the
+chunk<00:06:09.680><c> contents</c>
+
+00:06:11.190 --> 00:06:11.200 align:start position:0%
+chunk contents
+ 
+
+00:06:11.200 --> 00:06:13.510 align:start position:0%
+chunk contents
+to<00:06:11.440><c> really</c><00:06:11.760><c> have</c><00:06:12.240><c> just</c><00:06:12.480><c> like</c><00:06:12.600><c> an</c><00:06:12.760><c> overview</c><00:06:13.320><c> of</c>
+
+00:06:13.510 --> 00:06:13.520 align:start position:0%
+to really have just like an overview of
+ 
+
+00:06:13.520 --> 00:06:15.430 align:start position:0%
+to really have just like an overview of
+the<00:06:13.640><c> corpus</c><00:06:14.360><c> every</c>
+
+00:06:15.430 --> 00:06:15.440 align:start position:0%
+the corpus every
+ 
+
+00:06:15.440 --> 00:06:18.150 align:start position:0%
+the corpus every
+uh<00:06:15.720><c> what</c><00:06:15.920><c> exists</c><00:06:16.880><c> and</c><00:06:17.200><c> to</c><00:06:17.360><c> not</c><00:06:17.680><c> fill</c><00:06:17.919><c> up</c><00:06:18.080><c> the</c>
+
+00:06:18.150 --> 00:06:18.160 align:start position:0%
+uh what exists and to not fill up the
+ 
+
+00:06:18.160 --> 00:06:19.870 align:start position:0%
+uh what exists and to not fill up the
+context<00:06:18.760><c> too</c><00:06:18.840><c> much.</c>
+
+00:06:19.870 --> 00:06:19.880 align:start position:0%
+context too much.
+ 
+
+00:06:19.880 --> 00:06:21.470 align:start position:0%
+context too much.
+Then<00:06:20.040><c> there</c><00:06:20.200><c> is</c><00:06:20.320><c> the</c><00:06:20.440><c> main</c><00:06:20.680><c> semantic</c><00:06:21.120><c> search</c>
+
+00:06:21.470 --> 00:06:21.480 align:start position:0%
+Then there is the main semantic search
+ 
+
+00:06:21.480 --> 00:06:23.870 align:start position:0%
+Then there is the main semantic search
+tool<00:06:21.880><c> where</c><00:06:22.560><c> the</c><00:06:22.680><c> agent</c><00:06:23.000><c> gets</c><00:06:23.240><c> the</c><00:06:23.640><c> full</c>
+
+00:06:23.870 --> 00:06:23.880 align:start position:0%
+tool where the agent gets the full
+ 
+
+00:06:23.880 --> 00:06:25.270 align:start position:0%
+tool where the agent gets the full
+payload<00:06:24.360><c> of</c>
+
+00:06:25.270 --> 00:06:25.280 align:start position:0%
+payload of
+ 
+
+00:06:25.280 --> 00:06:27.830 align:start position:0%
+payload of
+the<00:06:25.480><c> top</c><00:06:25.800><c> 10</c><00:06:26.040><c> retrieve</c><00:06:26.480><c> chunks.</c>
+
+00:06:27.830 --> 00:06:27.840 align:start position:0%
+the top 10 retrieve chunks.
+ 
+
+00:06:27.840 --> 00:06:28.950 align:start position:0%
+the top 10 retrieve chunks.
+Um
+
+00:06:28.950 --> 00:06:28.960 align:start position:0%
+Um
+ 
+
+00:06:28.960 --> 00:06:31.350 align:start position:0%
+Um
+it<00:06:29.080><c> has</c><00:06:29.200><c> a</c><00:06:29.280><c> filter</c><00:06:29.680><c> chunks</c><00:06:30.160><c> tool</c><00:06:30.520><c> where</c><00:06:30.720><c> it</c><00:06:30.880><c> can</c>
+
+00:06:31.350 --> 00:06:31.360 align:start position:0%
+it has a filter chunks tool where it can
+ 
+
+00:06:31.360 --> 00:06:34.350 align:start position:0%
+it has a filter chunks tool where it can
+sort<00:06:32.280><c> sort</c><00:06:32.600><c> and</c><00:06:32.760><c> find</c><00:06:33.120><c> chunks</c><00:06:33.560><c> based</c><00:06:34.080><c> on</c>
+
+00:06:34.350 --> 00:06:34.360 align:start position:0%
+sort sort and find chunks based on
+ 
+
+00:06:34.360 --> 00:06:37.110 align:start position:0%
+sort sort and find chunks based on
+metadata<00:06:35.000><c> facets.</c><00:06:36.200><c> And</c><00:06:36.400><c> of</c><00:06:36.520><c> course</c><00:06:36.760><c> we</c><00:06:36.840><c> also</c>
+
+00:06:37.110 --> 00:06:37.120 align:start position:0%
+metadata facets. And of course we also
+ 
+
+00:06:37.120 --> 00:06:39.510 align:start position:0%
+metadata facets. And of course we also
+have<00:06:37.280><c> a</c><00:06:37.360><c> grep</c><00:06:37.720><c> tool</c><00:06:38.040><c> for</c><00:06:38.360><c> the</c><00:06:38.480><c> keyword</c><00:06:39.000><c> match</c>
+
+00:06:39.510 --> 00:06:39.520 align:start position:0%
+have a grep tool for the keyword match
+ 
+
+00:06:39.520 --> 00:06:40.990 align:start position:0%
+have a grep tool for the keyword match
+searches.
+
+00:06:40.990 --> 00:06:41.000 align:start position:0%
+searches.
+ 
+
+00:06:41.000 --> 00:06:44.590 align:start position:0%
+searches.
+Our<00:06:41.720><c> um</c><00:06:42.040><c> agent</c><00:06:42.600><c> loop,</c><00:06:42.919><c> the</c><00:06:43.040><c> harness</c><00:06:43.440><c> itself</c><00:06:44.240><c> is</c>
+
+00:06:44.590 --> 00:06:44.600 align:start position:0%
+Our um agent loop, the harness itself is
+ 
+
+00:06:44.600 --> 00:06:47.350 align:start position:0%
+Our um agent loop, the harness itself is
+very<00:06:44.960><c> simple</c><00:06:45.520><c> and</c><00:06:45.720><c> short</c><00:06:46.680><c> cuz</c><00:06:46.919><c> the</c><00:06:47.040><c> agent</c>
+
+00:06:47.350 --> 00:06:47.360 align:start position:0%
+very simple and short cuz the agent
+ 
+
+00:06:47.360 --> 00:06:48.830 align:start position:0%
+very simple and short cuz the agent
+should<00:06:47.520><c> be</c><00:06:47.680><c> fast.</c>
+
+00:06:48.830 --> 00:06:48.840 align:start position:0%
+should be fast.
+ 
+
+00:06:48.840 --> 00:06:51.590 align:start position:0%
+should be fast.
+But<00:06:49.080><c> we</c><00:06:49.200><c> still</c><00:06:49.440><c> wanted</c><00:06:49.840><c> it</c><00:06:50.000><c> to</c><00:06:50.800><c> uh</c>
+
+00:06:51.590 --> 00:06:51.600 align:start position:0%
+But we still wanted it to uh
+ 
+
+00:06:51.600 --> 00:06:54.790 align:start position:0%
+But we still wanted it to uh
+have<00:06:51.840><c> a</c><00:06:51.880><c> lot</c><00:06:52.120><c> of</c><00:06:52.240><c> exploration</c><00:06:53.320><c> possibilities.</c>
+
+00:06:54.790 --> 00:06:54.800 align:start position:0%
+have a lot of exploration possibilities.
+ 
+
+00:06:54.800 --> 00:06:58.470 align:start position:0%
+have a lot of exploration possibilities.
+That's<00:06:55.120><c> why</c><00:06:55.280><c> we</c><00:06:55.400><c> decided</c><00:06:56.080><c> to</c><00:06:57.040><c> um</c><00:06:57.400><c> define</c><00:06:58.280><c> that</c>
+
+00:06:58.470 --> 00:06:58.480 align:start position:0%
+That's why we decided to um define that
+ 
+
+00:06:58.480 --> 00:07:01.870 align:start position:0%
+That's why we decided to um define that
+it<00:06:58.640><c> has</c><00:06:58.880><c> a</c><00:06:59.040><c> maximum</c><00:06:59.960><c> four</c><00:07:00.440><c> search</c><00:07:01.040><c> rounds,</c><00:07:01.600><c> but</c>
+
+00:07:01.870 --> 00:07:01.880 align:start position:0%
+it has a maximum four search rounds, but
+ 
+
+00:07:01.880 --> 00:07:04.470 align:start position:0%
+it has a maximum four search rounds, but
+within<00:07:02.400><c> each</c><00:07:02.760><c> search</c><00:07:03.200><c> round</c><00:07:03.560><c> it</c><00:07:03.720><c> can</c><00:07:03.880><c> have</c>
+
+00:07:04.470 --> 00:07:04.480 align:start position:0%
+within each search round it can have
+ 
+
+00:07:04.480 --> 00:07:06.710 align:start position:0%
+within each search round it can have
+parallel<00:07:05.200><c> searches.</c>
+
+00:07:06.710 --> 00:07:06.720 align:start position:0%
+parallel searches.
+ 
+
+00:07:06.720 --> 00:07:08.830 align:start position:0%
+parallel searches.
+So<00:07:06.919><c> it</c><00:07:07.040><c> can</c><00:07:07.200><c> start</c><00:07:07.520><c> several</c><00:07:07.919><c> search</c><00:07:08.320><c> at</c><00:07:08.440><c> that</c>
+
+00:07:08.830 --> 00:07:08.840 align:start position:0%
+So it can start several search at that
+ 
+
+00:07:08.840 --> 00:07:10.710 align:start position:0%
+So it can start several search at that
+searches<00:07:09.280><c> at</c><00:07:09.440><c> once.</c>
+
+00:07:10.710 --> 00:07:10.720 align:start position:0%
+searches at once.
+ 
+
+00:07:10.720 --> 00:07:13.190 align:start position:0%
+searches at once.
+Um<00:07:11.600><c> initially</c><00:07:12.200><c> our</c>
+
+00:07:13.190 --> 00:07:13.200 align:start position:0%
+Um initially our
+ 
+
+00:07:13.200 --> 00:07:15.670 align:start position:0%
+Um initially our
+agent<00:07:13.720><c> sees</c><00:07:14.000><c> the</c><00:07:14.080><c> user</c><00:07:14.400><c> query,</c><00:07:14.880><c> but</c><00:07:15.120><c> also</c>
+
+00:07:15.670 --> 00:07:15.680 align:start position:0%
+agent sees the user query, but also
+ 
+
+00:07:15.680 --> 00:07:17.150 align:start position:0%
+agent sees the user query, but also
+already<00:07:16.600><c> um</c>
+
+00:07:17.150 --> 00:07:17.160 align:start position:0%
+already um
+ 
+
+00:07:17.160 --> 00:07:19.430 align:start position:0%
+already um
+results<00:07:17.760><c> from</c><00:07:17.960><c> an</c><00:07:18.080><c> initial</c><00:07:18.560><c> semantic</c><00:07:19.040><c> search</c>
+
+00:07:19.430 --> 00:07:19.440 align:start position:0%
+results from an initial semantic search
+ 
+
+00:07:19.440 --> 00:07:22.990 align:start position:0%
+results from an initial semantic search
+on<00:07:19.600><c> the</c><00:07:19.680><c> user</c><00:07:20.040><c> query</c><00:07:21.000><c> plus</c><00:07:21.800><c> um</c><00:07:22.280><c> hints</c><00:07:22.600><c> on</c><00:07:22.760><c> which</c>
+
+00:07:22.990 --> 00:07:23.000 align:start position:0%
+on the user query plus um hints on which
+ 
+
+00:07:23.000 --> 00:07:25.350 align:start position:0%
+on the user query plus um hints on which
+metadata<00:07:23.520><c> facets</c><00:07:23.960><c> are</c><00:07:24.080><c> available.</c>
+
+00:07:25.350 --> 00:07:25.360 align:start position:0%
+metadata facets are available.
+ 
+
+00:07:25.360 --> 00:07:27.790 align:start position:0%
+metadata facets are available.
+Um<00:07:25.680><c> so</c><00:07:25.840><c> that</c><00:07:26.080><c> based</c><00:07:26.480><c> on</c><00:07:26.640><c> this</c><00:07:26.919><c> preview</c><00:07:27.480><c> of</c><00:07:27.680><c> the</c>
+
+00:07:27.790 --> 00:07:27.800 align:start position:0%
+Um so that based on this preview of the
+ 
+
+00:07:27.800 --> 00:07:29.110 align:start position:0%
+Um so that based on this preview of the
+corpus
+
+00:07:29.110 --> 00:07:29.120 align:start position:0%
+corpus
+ 
+
+00:07:29.120 --> 00:07:31.670 align:start position:0%
+corpus
+the<00:07:29.240><c> agent</c><00:07:29.520><c> can</c><00:07:29.680><c> start</c><00:07:30.080><c> its</c><00:07:30.360><c> search</c><00:07:30.720><c> planning.</c>
+
+00:07:31.670 --> 00:07:31.680 align:start position:0%
+the agent can start its search planning.
+ 
+
+00:07:31.680 --> 00:07:34.870 align:start position:0%
+the agent can start its search planning.
+It<00:07:31.960><c> splits</c><00:07:32.520><c> its</c><00:07:33.080><c> search</c><00:07:33.480><c> intent</c><00:07:34.000><c> into</c><00:07:34.360><c> maximum</c>
+
+00:07:34.870 --> 00:07:34.880 align:start position:0%
+It splits its search intent into maximum
+ 
+
+00:07:34.880 --> 00:07:36.830 align:start position:0%
+It splits its search intent into maximum
+four<00:07:35.120><c> queries</c>
+
+00:07:36.830 --> 00:07:36.840 align:start position:0%
+four queries
+ 
+
+00:07:36.840 --> 00:07:41.870 align:start position:0%
+four queries
+um<00:07:37.880><c> which</c><00:07:38.760><c> cover</c><00:07:39.600><c> separate</c><00:07:40.280><c> aspects.</c><00:07:41.520><c> And</c>
+
+00:07:41.870 --> 00:07:41.880 align:start position:0%
+um which cover separate aspects. And
+ 
+
+00:07:41.880 --> 00:07:43.990 align:start position:0%
+um which cover separate aspects. And
+then<00:07:42.080><c> for</c><00:07:42.360><c> each</c><00:07:42.720><c> query</c><00:07:43.160><c> and</c><00:07:43.440><c> each</c><00:07:43.640><c> search</c>
+
+00:07:43.990 --> 00:07:44.000 align:start position:0%
+then for each query and each search
+ 
+
+00:07:44.000 --> 00:07:45.630 align:start position:0%
+then for each query and each search
+intent,<00:07:44.600><c> it</c><00:07:44.800><c> will</c>
+
+00:07:45.630 --> 00:07:45.640 align:start position:0%
+intent, it will
+ 
+
+00:07:45.640 --> 00:07:48.990 align:start position:0%
+intent, it will
+pick<00:07:45.920><c> the</c><00:07:46.040><c> best</c><00:07:47.040><c> tool.</c>
+
+00:07:48.990 --> 00:07:49.000 align:start position:0%
+pick the best tool.
+ 
+
+00:07:49.000 --> 00:07:51.070 align:start position:0%
+pick the best tool.
+Um<00:07:49.560><c> as</c><00:07:49.720><c> you</c><00:07:49.800><c> can</c><00:07:49.960><c> see</c><00:07:50.080><c> like</c><00:07:50.280><c> an</c><00:07:50.360><c> example</c><00:07:50.880><c> here</c>
+
+00:07:51.070 --> 00:07:51.080 align:start position:0%
+Um as you can see like an example here
+ 
+
+00:07:51.080 --> 00:07:52.990 align:start position:0%
+Um as you can see like an example here
+on<00:07:51.200><c> the</c><00:07:51.320><c> right.</c>
+
+00:07:52.990 --> 00:07:53.000 align:start position:0%
+on the right.
+ 
+
+00:07:53.000 --> 00:07:55.670 align:start position:0%
+on the right.
+Then<00:07:53.440><c> when</c><00:07:54.360><c> um</c><00:07:54.440><c> the</c>
+
+00:07:55.670 --> 00:07:55.680 align:start position:0%
+Then when um the
+ 
+
+00:07:55.680 --> 00:07:57.630 align:start position:0%
+Then when um the
+results<00:07:56.120><c> of</c><00:07:56.240><c> the</c><00:07:56.400><c> tools</c><00:07:56.800><c> are</c><00:07:56.960><c> returned</c><00:07:57.320><c> to</c><00:07:57.440><c> the</c>
+
+00:07:57.630 --> 00:07:57.640 align:start position:0%
+results of the tools are returned to the
+ 
+
+00:07:57.640 --> 00:08:00.510 align:start position:0%
+results of the tools are returned to the
+agent<00:07:58.200><c> via</c><00:07:58.680><c> deduplicating</c><00:07:59.640><c> chunks,</c><00:08:00.160><c> so</c><00:08:00.320><c> that</c>
+
+00:08:00.510 --> 00:08:00.520 align:start position:0%
+agent via deduplicating chunks, so that
+ 
+
+00:08:00.520 --> 00:08:03.470 align:start position:0%
+agent via deduplicating chunks, so that
+it's<00:08:00.760><c> never</c><00:08:01.040><c> seeing</c><00:08:01.920><c> several</c><00:08:02.360><c> chunks</c>
+
+00:08:03.470 --> 00:08:03.480 align:start position:0%
+it's never seeing several chunks
+ 
+
+00:08:03.480 --> 00:08:05.670 align:start position:0%
+it's never seeing several chunks
+um<00:08:03.880><c> several</c><00:08:04.320><c> times</c><00:08:04.920><c> to</c><00:08:05.040><c> not</c><00:08:05.240><c> fill</c><00:08:05.440><c> up</c><00:08:05.560><c> the</c>
+
+00:08:05.670 --> 00:08:05.680 align:start position:0%
+um several times to not fill up the
+ 
+
+00:08:05.680 --> 00:08:06.660 align:start position:0%
+um several times to not fill up the
+context.
+
+00:08:06.660 --> 00:08:06.670 align:start position:0%
+context.
+ 
+
+00:08:06.670 --> 00:08:07.230 align:start position:0%
+context.
+&gt;&gt; [snorts]
+
+00:08:07.230 --> 00:08:07.240 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:08:07.240 --> 00:08:08.430 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; Um
+
+00:08:08.430 --> 00:08:08.440 align:start position:0%
+&gt;&gt; Um
+ 
+
+00:08:08.440 --> 00:08:11.390 align:start position:0%
+&gt;&gt; Um
+and<00:08:09.360><c> yeah,</c><00:08:09.560><c> the</c><00:08:09.720><c> next</c><00:08:10.160><c> search</c><00:08:10.440><c> one</c><00:08:10.640><c> can</c><00:08:10.800><c> start,</c>
+
+00:08:11.390 --> 00:08:11.400 align:start position:0%
+and yeah, the next search one can start,
+ 
+
+00:08:11.400 --> 00:08:13.550 align:start position:0%
+and yeah, the next search one can start,
+and<00:08:11.520><c> as</c><00:08:11.640><c> soon</c><00:08:11.880><c> as</c><00:08:12.080><c> the</c><00:08:12.240><c> agent</c><00:08:12.880><c> has</c><00:08:13.160><c> enough</c>
+
+00:08:13.550 --> 00:08:13.560 align:start position:0%
+and as soon as the agent has enough
+ 
+
+00:08:13.560 --> 00:08:15.790 align:start position:0%
+and as soon as the agent has enough
+evidence<00:08:14.200><c> to</c><00:08:14.400><c> answer</c><00:08:14.760><c> the</c><00:08:14.880><c> user</c><00:08:15.200><c> query,</c><00:08:15.640><c> it</c>
+
+00:08:15.790 --> 00:08:15.800 align:start position:0%
+evidence to answer the user query, it
+ 
+
+00:08:15.800 --> 00:08:19.030 align:start position:0%
+evidence to answer the user query, it
+submits<00:08:16.480><c> its</c><00:08:16.720><c> ranking.</c><00:08:17.840><c> Um</c><00:08:18.600><c> yeah,</c><00:08:18.800><c> we</c><00:08:18.960><c> are</c>
+
+00:08:19.030 --> 00:08:19.040 align:start position:0%
+submits its ranking. Um yeah, we are
+ 
+
+00:08:19.040 --> 00:08:21.510 align:start position:0%
+submits its ranking. Um yeah, we are
+just<00:08:19.440><c> outputs</c><00:08:19.960><c> all</c><00:08:20.160><c> the</c><00:08:20.560><c> chunks</c><00:08:20.960><c> that</c><00:08:21.360><c> are</c>
+
+00:08:21.510 --> 00:08:21.520 align:start position:0%
+just outputs all the chunks that are
+ 
+
+00:08:21.520 --> 00:08:23.750 align:start position:0%
+just outputs all the chunks that are
+relevant<00:08:22.080><c> to</c><00:08:22.160><c> the</c><00:08:22.360><c> query</c><00:08:22.840><c> in</c><00:08:23.080><c> a</c><00:08:23.160><c> plausible</c>
+
+00:08:23.750 --> 00:08:23.760 align:start position:0%
+relevant to the query in a plausible
+ 
+
+00:08:23.760 --> 00:08:25.430 align:start position:0%
+relevant to the query in a plausible
+ranking.
+
+00:08:25.430 --> 00:08:25.440 align:start position:0%
+ranking.
+ 
+
+00:08:25.440 --> 00:08:27.790 align:start position:0%
+ranking.
+So,<00:08:25.680><c> why</c><00:08:25.840><c> does</c><00:08:26.160><c> this</c><00:08:26.400><c> harness</c><00:08:26.919><c> encourages</c>
+
+00:08:27.790 --> 00:08:27.800 align:start position:0%
+So, why does this harness encourages
+ 
+
+00:08:27.800 --> 00:08:30.230 align:start position:0%
+So, why does this harness encourages
+better<00:08:28.120><c> semantics</c><00:08:28.960><c> queries</c><00:08:29.520><c> and</c><00:08:29.680><c> like</c><00:08:29.919><c> better</c>
+
+00:08:30.230 --> 00:08:30.240 align:start position:0%
+better semantics queries and like better
+ 
+
+00:08:30.240 --> 00:08:32.630 align:start position:0%
+better semantics queries and like better
+use<00:08:30.680><c> of</c><00:08:31.000><c> search</c><00:08:31.400><c> tools?</c>
+
+00:08:32.630 --> 00:08:32.640 align:start position:0%
+use of search tools?
+ 
+
+00:08:32.640 --> 00:08:35.070 align:start position:0%
+use of search tools?
+Um<00:08:33.159><c> there</c><00:08:33.320><c> are</c><00:08:33.400><c> five</c><00:08:33.719><c> more</c><00:08:34.200><c> main</c><00:08:34.479><c> points</c><00:08:34.919><c> for</c>
+
+00:08:35.070 --> 00:08:35.080 align:start position:0%
+Um there are five more main points for
+ 
+
+00:08:35.080 --> 00:08:35.909 align:start position:0%
+Um there are five more main points for
+this,
+
+00:08:35.909 --> 00:08:35.919 align:start position:0%
+this,
+ 
+
+00:08:35.919 --> 00:08:38.230 align:start position:0%
+this,
+which<00:08:36.159><c> is</c><00:08:36.360><c> first</c><00:08:36.640><c> the</c><00:08:36.760><c> goal</c><00:08:37.039><c> framing.</c><00:08:38.080><c> The</c>
+
+00:08:38.230 --> 00:08:38.240 align:start position:0%
+which is first the goal framing. The
+ 
+
+00:08:38.240 --> 00:08:41.029 align:start position:0%
+which is first the goal framing. The
+agent<00:08:38.560><c> has</c><00:08:38.880><c> to</c><00:08:39.240><c> articulate</c><00:08:40.080><c> articulate</c><00:08:40.680><c> what</c>
+
+00:08:41.029 --> 00:08:41.039 align:start position:0%
+agent has to articulate articulate what
+ 
+
+00:08:41.039 --> 00:08:43.790 align:start position:0%
+agent has to articulate articulate what
+evidence<00:08:41.640><c> it</c><00:08:41.919><c> needs</c><00:08:42.680><c> before</c><00:08:43.240><c> writing</c><00:08:43.680><c> the</c>
+
+00:08:43.790 --> 00:08:43.800 align:start position:0%
+evidence it needs before writing the
+ 
+
+00:08:43.800 --> 00:08:45.270 align:start position:0%
+evidence it needs before writing the
+query.
+
+00:08:45.270 --> 00:08:45.280 align:start position:0%
+query.
+ 
+
+00:08:45.280 --> 00:08:48.150 align:start position:0%
+query.
+Um<00:08:46.240><c> then</c><00:08:46.480><c> the</c><00:08:46.880><c> different</c><00:08:47.400><c> tools</c><00:08:47.839><c> are</c><00:08:47.920><c> very</c>
+
+00:08:48.150 --> 00:08:48.160 align:start position:0%
+Um then the different tools are very
+ 
+
+00:08:48.160 --> 00:08:50.550 align:start position:0%
+Um then the different tools are very
+important,<00:08:48.800><c> so</c><00:08:48.920><c> it</c><00:08:49.080><c> can</c><00:08:49.240><c> really</c><00:08:49.600><c> use</c><00:08:50.000><c> semantic</c>
+
+00:08:50.550 --> 00:08:50.560 align:start position:0%
+important, so it can really use semantic
+ 
+
+00:08:50.560 --> 00:08:53.230 align:start position:0%
+important, so it can really use semantic
+search<00:08:50.920><c> only</c><00:08:51.280><c> if</c><00:08:51.480><c> it</c><00:08:51.680><c> needs</c><00:08:52.000><c> aspects,</c><00:08:53.000><c> and</c>
+
+00:08:53.230 --> 00:08:53.240 align:start position:0%
+search only if it needs aspects, and
+ 
+
+00:08:53.240 --> 00:08:55.790 align:start position:0%
+search only if it needs aspects, and
+also<00:08:53.680><c> only</c><00:08:54.040><c> use</c><00:08:54.280><c> a</c><00:08:54.440><c> scrap</c><00:08:55.160><c> when</c><00:08:55.400><c> it</c><00:08:55.560><c> needs</c>
+
+00:08:55.790 --> 00:08:55.800 align:start position:0%
+also only use a scrap when it needs
+ 
+
+00:08:55.800 --> 00:08:58.710 align:start position:0%
+also only use a scrap when it needs
+exact<00:08:56.240><c> keyword</c><00:08:56.680><c> matching.</c>
+
+00:08:58.710 --> 00:08:58.720 align:start position:0%
+exact keyword matching.
+ 
+
+00:08:58.720 --> 00:08:59.630 align:start position:0%
+exact keyword matching.
+Um
+
+00:08:59.630 --> 00:08:59.640 align:start position:0%
+Um
+ 
+
+00:08:59.640 --> 00:09:00.870 align:start position:0%
+Um
+then<00:08:59.960><c> the</c>
+
+00:09:00.870 --> 00:09:00.880 align:start position:0%
+then the
+ 
+
+00:09:00.880 --> 00:09:05.030 align:start position:0%
+then the
+way<00:09:01.280><c> in</c><00:09:01.440><c> which</c><00:09:01.680><c> we</c><00:09:01.800><c> frame</c><00:09:02.360><c> the</c><00:09:02.520><c> task</c><00:09:03.080><c> of</c><00:09:03.839><c> query</c>
+
+00:09:05.030 --> 00:09:05.040 align:start position:0%
+way in which we frame the task of query
+ 
+
+00:09:05.040 --> 00:09:07.190 align:start position:0%
+way in which we frame the task of query
+uh<00:09:05.400><c> writing</c><00:09:05.960><c> is</c><00:09:06.120><c> an</c><00:09:06.200><c> important</c><00:09:06.800><c> point.</c><00:09:07.080><c> We</c>
+
+00:09:07.190 --> 00:09:07.200 align:start position:0%
+uh writing is an important point. We
+ 
+
+00:09:07.200 --> 00:09:10.550 align:start position:0%
+uh writing is an important point. We
+kind<00:09:07.440><c> of</c><00:09:07.640><c> trick</c><00:09:08.120><c> the</c><00:09:08.760><c> um</c><00:09:09.080><c> model</c><00:09:09.480><c> into</c><00:09:09.800><c> not</c>
+
+00:09:10.550 --> 00:09:10.560 align:start position:0%
+kind of trick the um model into not
+ 
+
+00:09:10.560 --> 00:09:12.950 align:start position:0%
+kind of trick the um model into not
+thinking<00:09:11.120><c> it</c><00:09:11.320><c> has</c><00:09:11.600><c> to</c><00:09:11.720><c> write</c><00:09:12.080><c> the</c><00:09:12.240><c> typical</c>
+
+00:09:12.950 --> 00:09:12.960 align:start position:0%
+thinking it has to write the typical
+ 
+
+00:09:12.960 --> 00:09:16.510 align:start position:0%
+thinking it has to write the typical
+BM25<00:09:14.000><c> base</c><00:09:14.320><c> query</c><00:09:15.160><c> by</c><00:09:15.320><c> just</c><00:09:15.600><c> instructing</c><00:09:16.240><c> it</c>
+
+00:09:16.510 --> 00:09:16.520 align:start position:0%
+BM25 base query by just instructing it
+ 
+
+00:09:16.520 --> 00:09:19.230 align:start position:0%
+BM25 base query by just instructing it
+to<00:09:16.760><c> write</c><00:09:17.200><c> one</c><00:09:17.400><c> concise</c><00:09:18.000><c> sentence</c><00:09:18.600><c> describing</c>
+
+00:09:19.230 --> 00:09:19.240 align:start position:0%
+to write one concise sentence describing
+ 
+
+00:09:19.240 --> 00:09:21.110 align:start position:0%
+to write one concise sentence describing
+what<00:09:19.440><c> it</c><00:09:19.600><c> wants</c><00:09:19.880><c> to</c><00:09:20.000><c> find,</c>
+
+00:09:21.110 --> 00:09:21.120 align:start position:0%
+what it wants to find,
+ 
+
+00:09:21.120 --> 00:09:23.430 align:start position:0%
+what it wants to find,
+instead<00:09:21.520><c> of</c><00:09:21.640><c> directly</c><00:09:22.320><c> instructing</c><00:09:23.120><c> write</c><00:09:23.360><c> a</c>
+
+00:09:23.430 --> 00:09:23.440 align:start position:0%
+instead of directly instructing write a
+ 
+
+00:09:23.440 --> 00:09:25.710 align:start position:0%
+instead of directly instructing write a
+search<00:09:23.839><c> query,</c><00:09:24.520><c> so</c><00:09:24.640><c> it</c><00:09:24.760><c> cannot</c><00:09:25.160><c> fall</c><00:09:25.480><c> into</c>
+
+00:09:25.710 --> 00:09:25.720 align:start position:0%
+search query, so it cannot fall into
+ 
+
+00:09:25.720 --> 00:09:27.590 align:start position:0%
+search query, so it cannot fall into
+this<00:09:25.920><c> old</c><00:09:26.200><c> pattern.</c>
+
+00:09:27.590 --> 00:09:27.600 align:start position:0%
+this old pattern.
+ 
+
+00:09:27.600 --> 00:09:29.030 align:start position:0%
+this old pattern.
+Um
+
+00:09:29.030 --> 00:09:29.040 align:start position:0%
+Um
+ 
+
+00:09:29.040 --> 00:09:31.230 align:start position:0%
+Um
+then<00:09:29.200><c> we</c><00:09:29.320><c> put</c><00:09:29.640><c> also</c><00:09:29.880><c> provide</c><00:09:30.360><c> examples</c><00:09:31.040><c> in</c><00:09:31.160><c> a</c>
+
+00:09:31.230 --> 00:09:31.240 align:start position:0%
+then we put also provide examples in a
+ 
+
+00:09:31.240 --> 00:09:33.590 align:start position:0%
+then we put also provide examples in a
+prompt<00:09:31.680><c> just</c><00:09:31.920><c> to</c><00:09:32.000><c> show</c><00:09:32.240><c> the</c><00:09:32.839><c> a</c><00:09:32.960><c> few</c><00:09:33.320><c> good</c>
+
+00:09:33.590 --> 00:09:33.600 align:start position:0%
+prompt just to show the a few good
+ 
+
+00:09:33.600 --> 00:09:36.990 align:start position:0%
+prompt just to show the a few good
+queries<00:09:34.200><c> and</c><00:09:34.400><c> also</c><00:09:34.720><c> how</c><00:09:34.920><c> to</c><00:09:35.120><c> divide</c><00:09:35.880><c> an</c><00:09:36.520><c> input</c>
+
+00:09:36.990 --> 00:09:37.000 align:start position:0%
+queries and also how to divide an input
+ 
+
+00:09:37.000 --> 00:09:41.270 align:start position:0%
+queries and also how to divide an input
+query<00:09:37.560><c> into</c><00:09:37.840><c> different</c><00:09:38.400><c> aspects</c><00:09:39.200><c> to</c><00:09:39.520><c> explore</c>
+
+00:09:41.270 --> 00:09:41.280 align:start position:0%
+query into different aspects to explore
+ 
+
+00:09:41.280 --> 00:09:43.510 align:start position:0%
+query into different aspects to explore
+um<00:09:42.200><c> the</c><00:09:42.320><c> corpus.</c>
+
+00:09:43.510 --> 00:09:43.520 align:start position:0%
+um the corpus.
+ 
+
+00:09:43.520 --> 00:09:44.470 align:start position:0%
+um the corpus.
+Yeah.
+
+00:09:44.470 --> 00:09:44.480 align:start position:0%
+Yeah.
+ 
+
+00:09:44.480 --> 00:09:46.910 align:start position:0%
+Yeah.
+What<00:09:44.800><c> also</c><00:09:45.120><c> helps</c><00:09:45.520><c> is</c><00:09:45.760><c> that</c><00:09:45.960><c> we</c><00:09:46.080><c> provide</c><00:09:46.560><c> the</c>
+
+00:09:46.910 --> 00:09:46.920 align:start position:0%
+What also helps is that we provide the
+ 
+
+00:09:46.920 --> 00:09:50.270 align:start position:0%
+What also helps is that we provide the
+original<00:09:48.240><c> original</c><00:09:48.800><c> query</c><00:09:49.440><c> semantic</c><00:09:49.960><c> search</c>
+
+00:09:50.270 --> 00:09:50.280 align:start position:0%
+original original query semantic search
+ 
+
+00:09:50.280 --> 00:09:52.870 align:start position:0%
+original original query semantic search
+results.<00:09:51.280><c> So,</c><00:09:51.440><c> it</c><00:09:51.560><c> can</c><00:09:51.800><c> see</c><00:09:52.080><c> what</c><00:09:52.240><c> the</c><00:09:52.360><c> corpus</c>
+
+00:09:52.870 --> 00:09:52.880 align:start position:0%
+results. So, it can see what the corpus
+ 
+
+00:09:52.880 --> 00:09:56.270 align:start position:0%
+results. So, it can see what the corpus
+is<00:09:53.080><c> about</c><00:09:53.720><c> and</c><00:09:53.920><c> really</c><00:09:54.480><c> define</c><00:09:55.160><c> um</c><00:09:56.000><c> see</c><00:09:56.160><c> the</c>
+
+00:09:56.270 --> 00:09:56.280 align:start position:0%
+is about and really define um see the
+ 
+
+00:09:56.280 --> 00:09:59.950 align:start position:0%
+is about and really define um see the
+language,<00:09:57.320><c> define</c><00:09:58.200><c> where</c><00:09:58.480><c> to</c><00:09:59.000><c> dig</c><00:09:59.320><c> deeper</c><00:09:59.840><c> in</c>
+
+00:09:59.950 --> 00:09:59.960 align:start position:0%
+language, define where to dig deeper in
+ 
+
+00:09:59.960 --> 00:10:01.430 align:start position:0%
+language, define where to dig deeper in
+which<00:10:00.240><c> aspect.</c>
+
+00:10:01.430 --> 00:10:01.440 align:start position:0%
+which aspect.
+ 
+
+00:10:01.440 --> 00:10:03.350 align:start position:0%
+which aspect.
+The<00:10:01.600><c> second</c><00:10:01.920><c> important</c><00:10:02.400><c> step</c><00:10:02.800><c> into</c><00:10:03.040><c> building</c>
+
+00:10:03.350 --> 00:10:03.360 align:start position:0%
+The second important step into building
+ 
+
+00:10:03.360 --> 00:10:06.110 align:start position:0%
+The second important step into building
+our<00:10:04.080><c> own</c><00:10:04.360><c> search</c><00:10:04.760><c> agent</c><00:10:05.240><c> was</c><00:10:05.480><c> of</c><00:10:05.680><c> course</c><00:10:05.960><c> the</c>
+
+00:10:06.110 --> 00:10:06.120 align:start position:0%
+our own search agent was of course the
+ 
+
+00:10:06.120 --> 00:10:08.470 align:start position:0%
+our own search agent was of course the
+training<00:10:06.640><c> itself.</c>
+
+00:10:08.470 --> 00:10:08.480 align:start position:0%
+training itself.
+ 
+
+00:10:08.480 --> 00:10:11.030 align:start position:0%
+training itself.
+So,<00:10:09.160><c> here</c><00:10:09.400><c> for</c><00:10:09.600><c> training,</c><00:10:10.120><c> we</c><00:10:10.240><c> just</c><00:10:10.480><c> decided</c>
+
+00:10:11.030 --> 00:10:11.040 align:start position:0%
+So, here for training, we just decided
+ 
+
+00:10:11.040 --> 00:10:14.230 align:start position:0%
+So, here for training, we just decided
+to<00:10:11.200><c> have</c><00:10:11.480><c> a</c><00:10:11.560><c> very</c><00:10:11.960><c> small</c><00:10:12.600><c> LLM</c><00:10:13.280><c> to</c><00:10:13.800><c> make</c><00:10:14.040><c> the</c>
+
+00:10:14.230 --> 00:10:14.240 align:start position:0%
+to have a very small LLM to make the
+ 
+
+00:10:14.240 --> 00:10:16.030 align:start position:0%
+to have a very small LLM to make the
+agent<00:10:14.600><c> even</c><00:10:14.840><c> faster.</c>
+
+00:10:16.030 --> 00:10:16.040 align:start position:0%
+agent even faster.
+ 
+
+00:10:16.040 --> 00:10:19.510 align:start position:0%
+agent even faster.
+So,<00:10:16.400><c> we</c><00:10:16.600><c> are</c><00:10:16.760><c> training</c><00:10:17.400><c> the</c><00:10:17.680><c> small</c><00:10:18.240><c> agent</c><00:10:19.320><c> um</c>
+
+00:10:19.510 --> 00:10:19.520 align:start position:0%
+So, we are training the small agent um
+ 
+
+00:10:19.520 --> 00:10:22.150 align:start position:0%
+So, we are training the small agent um
+to<00:10:19.800><c> optimize</c><00:10:20.360><c> the</c><00:10:20.480><c> search</c><00:10:20.920><c> strategy</c><00:10:21.480><c> itself</c>
+
+00:10:22.150 --> 00:10:22.160 align:start position:0%
+to optimize the search strategy itself
+ 
+
+00:10:22.160 --> 00:10:24.590 align:start position:0%
+to optimize the search strategy itself
+to<00:10:22.240><c> have</c><00:10:22.440><c> better</c><00:10:22.720><c> tool</c><00:10:23.240><c> choice,</c>
+
+00:10:24.590 --> 00:10:24.600 align:start position:0%
+to have better tool choice,
+ 
+
+00:10:24.600 --> 00:10:27.510 align:start position:0%
+to have better tool choice,
+um<00:10:25.080><c> higher</c><00:10:25.440><c> quality</c><00:10:26.000><c> of</c><00:10:26.160><c> semantic</c><00:10:26.640><c> queries,</c>
+
+00:10:27.510 --> 00:10:27.520 align:start position:0%
+um higher quality of semantic queries,
+ 
+
+00:10:27.520 --> 00:10:29.750 align:start position:0%
+um higher quality of semantic queries,
+more<00:10:27.720><c> exploration</c><00:10:28.560><c> ranking,</c><00:10:29.120><c> and</c><00:10:29.320><c> to</c><00:10:29.400><c> be</c><00:10:29.520><c> more</c>
+
+00:10:29.750 --> 00:10:29.760 align:start position:0%
+more exploration ranking, and to be more
+ 
+
+00:10:29.760 --> 00:10:31.550 align:start position:0%
+more exploration ranking, and to be more
+efficient.
+
+00:10:31.550 --> 00:10:31.560 align:start position:0%
+efficient.
+ 
+
+00:10:31.560 --> 00:10:33.710 align:start position:0%
+efficient.
+So,<00:10:31.720><c> the</c><00:10:31.800><c> first</c><00:10:32.040><c> step</c><00:10:32.240><c> in</c><00:10:32.320><c> training</c><00:10:32.840><c> is</c><00:10:33.520><c> um</c>
+
+00:10:33.710 --> 00:10:33.720 align:start position:0%
+So, the first step in training is um
+ 
+
+00:10:33.720 --> 00:10:35.910 align:start position:0%
+So, the first step in training is um
+supervised<00:10:34.240><c> fine-tuning</c><00:10:34.960><c> with</c><00:10:35.160><c> a</c><00:10:35.280><c> larger</c>
+
+00:10:35.910 --> 00:10:35.920 align:start position:0%
+supervised fine-tuning with a larger
+ 
+
+00:10:35.920 --> 00:10:37.750 align:start position:0%
+supervised fine-tuning with a larger
+teacher<00:10:36.280><c> LLM.</c>
+
+00:10:37.750 --> 00:10:37.760 align:start position:0%
+teacher LLM.
+ 
+
+00:10:37.760 --> 00:10:39.790 align:start position:0%
+teacher LLM.
+And<00:10:38.080><c> then</c><00:10:38.760><c> we</c>
+
+00:10:39.790 --> 00:10:39.800 align:start position:0%
+And then we
+ 
+
+00:10:39.800 --> 00:10:41.910 align:start position:0%
+And then we
+uh<00:10:39.880><c> did</c><00:10:40.120><c> on-policy</c><00:10:40.760><c> reinforcement</c><00:10:41.440><c> learning</c>
+
+00:10:41.910 --> 00:10:41.920 align:start position:0%
+uh did on-policy reinforcement learning
+ 
+
+00:10:41.920 --> 00:10:45.550 align:start position:0%
+uh did on-policy reinforcement learning
+with<00:10:42.400><c> an</c><00:10:43.160><c> own</c><00:10:43.640><c> search</c><00:10:44.040><c> reward.</c>
+
+00:10:45.550 --> 00:10:45.560 align:start position:0%
+with an own search reward.
+ 
+
+00:10:45.560 --> 00:10:47.510 align:start position:0%
+with an own search reward.
+Our<00:10:45.839><c> search</c><00:10:46.200><c> reward</c>
+
+00:10:47.510 --> 00:10:47.520 align:start position:0%
+Our search reward
+ 
+
+00:10:47.520 --> 00:10:50.630 align:start position:0%
+Our search reward
+is<00:10:48.120><c> a</c><00:10:48.320><c> combination</c><00:10:48.960><c> of</c><00:10:49.200><c> both</c><00:10:49.800><c> of</c><00:10:50.000><c> a</c><00:10:50.120><c> retrieval</c>
+
+00:10:50.630 --> 00:10:50.640 align:start position:0%
+is a combination of both of a retrieval
+ 
+
+00:10:50.640 --> 00:10:54.270 align:start position:0%
+is a combination of both of a retrieval
+reward<00:10:51.520><c> and</c><00:10:51.680><c> a</c><00:10:51.720><c> trajectory</c><00:10:52.400><c> reward.</c>
+
+00:10:54.270 --> 00:10:54.280 align:start position:0%
+reward and a trajectory reward.
+ 
+
+00:10:54.280 --> 00:10:56.430 align:start position:0%
+reward and a trajectory reward.
+The<00:10:54.560><c> retrieval</c><00:10:55.080><c> reward</c><00:10:55.839><c> um</c>
+
+00:10:56.430 --> 00:10:56.440 align:start position:0%
+The retrieval reward um
+ 
+
+00:10:56.440 --> 00:11:00.030 align:start position:0%
+The retrieval reward um
+is<00:10:57.120><c> based</c><00:10:57.560><c> on</c><00:10:57.800><c> like</c><00:10:58.240><c> the</c><00:10:58.360><c> metric</c><00:10:59.360><c> result,</c>
+
+00:11:00.030 --> 00:11:00.040 align:start position:0%
+is based on like the metric result,
+ 
+
+00:11:00.040 --> 00:11:02.270 align:start position:0%
+is based on like the metric result,
+typical<00:11:00.440><c> retrieval</c><00:11:00.800><c> metric</c><00:11:01.280><c> results</c><00:11:01.839><c> like</c><00:11:02.160><c> we</c>
+
+00:11:02.270 --> 00:11:02.280 align:start position:0%
+typical retrieval metric results like we
+ 
+
+00:11:02.280 --> 00:11:05.910 align:start position:0%
+typical retrieval metric results like we
+call<00:11:02.520><c> it</c><00:11:02.640><c> NDCG,</c><00:11:03.480><c> that's</c><00:11:03.880><c> the</c><00:11:04.520><c> agent's</c><00:11:05.160><c> final</c>
+
+00:11:05.910 --> 00:11:05.920 align:start position:0%
+call it NDCG, that's the agent's final
+ 
+
+00:11:05.920 --> 00:11:08.150 align:start position:0%
+call it NDCG, that's the agent's final
+ranked<00:11:06.320><c> list</c><00:11:06.720><c> achieves.</c>
+
+00:11:08.150 --> 00:11:08.160 align:start position:0%
+ranked list achieves.
+ 
+
+00:11:08.160 --> 00:11:09.790 align:start position:0%
+ranked list achieves.
+Plus<00:11:08.480><c> also</c><00:11:09.160><c> um</c>
+
+00:11:09.790 --> 00:11:09.800 align:start position:0%
+Plus also um
+ 
+
+00:11:09.800 --> 00:11:13.070 align:start position:0%
+Plus also um
+an<00:11:09.960><c> LLM</c><00:11:10.680><c> retrieval</c><00:11:11.360><c> judging.</c>
+
+00:11:13.070 --> 00:11:13.080 align:start position:0%
+an LLM retrieval judging.
+ 
+
+00:11:13.080 --> 00:11:14.790 align:start position:0%
+an LLM retrieval judging.
+We<00:11:13.280><c> had</c><00:11:13.520><c> thought</c><00:11:13.800><c> like</c><00:11:14.000><c> it</c><00:11:14.120><c> gets</c><00:11:14.320><c> several</c>
+
+00:11:14.790 --> 00:11:14.800 align:start position:0%
+We had thought like it gets several
+ 
+
+00:11:14.800 --> 00:11:17.350 align:start position:0%
+We had thought like it gets several
+rubrics<00:11:15.440><c> where</c><00:11:15.640><c> it</c><00:11:15.720><c> decides</c><00:11:16.760><c> um</c>
+
+00:11:17.350 --> 00:11:17.360 align:start position:0%
+rubrics where it decides um
+ 
+
+00:11:17.360 --> 00:11:19.950 align:start position:0%
+rubrics where it decides um
+if<00:11:17.560><c> the</c><00:11:17.720><c> rubrics</c><00:11:18.560><c> is</c><00:11:18.800><c> hit</c><00:11:19.080><c> or</c><00:11:19.200><c> not,</c><00:11:19.560><c> the</c><00:11:19.680><c> rubric</c>
+
+00:11:19.950 --> 00:11:19.960 align:start position:0%
+if the rubrics is hit or not, the rubric
+ 
+
+00:11:19.960 --> 00:11:22.110 align:start position:0%
+if the rubrics is hit or not, the rubric
+is<00:11:20.080><c> hit</c><00:11:20.280><c> or</c><00:11:20.360><c> not,</c><00:11:20.960><c> which</c><00:11:21.240><c> are</c>
+
+00:11:22.110 --> 00:11:22.120 align:start position:0%
+is hit or not, which are
+ 
+
+00:11:22.120 --> 00:11:24.150 align:start position:0%
+is hit or not, which are
+if<00:11:22.320><c> the</c><00:11:22.440><c> agent</c><00:11:22.760><c> result</c><00:11:23.200><c> relevant</c><00:11:23.760><c> for</c><00:11:23.920><c> this</c>
+
+00:11:24.150 --> 00:11:24.160 align:start position:0%
+if the agent result relevant for this
+ 
+
+00:11:24.160 --> 00:11:27.829 align:start position:0%
+if the agent result relevant for this
+query,<00:11:24.960><c> are</c><00:11:25.320><c> all</c><00:11:25.640><c> chunks</c><00:11:26.200><c> relevant,</c>
+
+00:11:27.829 --> 00:11:27.839 align:start position:0%
+query, are all chunks relevant,
+ 
+
+00:11:27.839 --> 00:11:31.070 align:start position:0%
+query, are all chunks relevant,
+and<00:11:28.200><c> is</c><00:11:28.400><c> the</c><00:11:28.520><c> ranking</c><00:11:28.960><c> itself</c><00:11:29.440><c> plausible.</c>
+
+00:11:31.070 --> 00:11:31.080 align:start position:0%
+and is the ranking itself plausible.
+ 
+
+00:11:31.080 --> 00:11:33.350 align:start position:0%
+and is the ranking itself plausible.
+For<00:11:31.240><c> the</c><00:11:31.360><c> trajectory</c><00:11:32.120><c> reward,</c><00:11:32.600><c> we</c><00:11:32.800><c> also</c><00:11:33.040><c> using</c>
+
+00:11:33.350 --> 00:11:33.360 align:start position:0%
+For the trajectory reward, we also using
+ 
+
+00:11:33.360 --> 00:11:36.430 align:start position:0%
+For the trajectory reward, we also using
+an<00:11:33.480><c> LLM</c><00:11:34.040><c> judge</c><00:11:34.640><c> and</c><00:11:34.880><c> here</c><00:11:35.680><c> um</c>
+
+00:11:36.430 --> 00:11:36.440 align:start position:0%
+an LLM judge and here um
+ 
+
+00:11:36.440 --> 00:11:38.750 align:start position:0%
+an LLM judge and here um
+is<00:11:36.680><c> the</c><00:11:36.800><c> point</c><00:11:37.160><c> to</c><00:11:37.280><c> like</c><00:11:37.560><c> really</c><00:11:37.800><c> improve</c><00:11:38.320><c> the</c>
+
+00:11:38.750 --> 00:11:38.760 align:start position:0%
+is the point to like really improve the
+ 
+
+00:11:38.760 --> 00:11:40.950 align:start position:0%
+is the point to like really improve the
+tool<00:11:38.960><c> queries,</c><00:11:39.480><c> make</c><00:11:39.680><c> it</c><00:11:39.800><c> more</c><00:11:40.000><c> efficient</c><00:11:40.600><c> and</c>
+
+00:11:40.950 --> 00:11:40.960 align:start position:0%
+tool queries, make it more efficient and
+ 
+
+00:11:40.960 --> 00:11:42.870 align:start position:0%
+tool queries, make it more efficient and
+to<00:11:41.760><c> um</c>
+
+00:11:42.870 --> 00:11:42.880 align:start position:0%
+to um
+ 
+
+00:11:42.880 --> 00:11:46.110 align:start position:0%
+to um
+improve<00:11:43.280><c> the</c><00:11:43.520><c> quality</c><00:11:44.160><c> of</c><00:11:44.360><c> the</c><00:11:44.480><c> queries.</c>
+
+00:11:46.110 --> 00:11:46.120 align:start position:0%
+improve the quality of the queries.
+ 
+
+00:11:46.120 --> 00:11:48.670 align:start position:0%
+improve the quality of the queries.
+Of<00:11:46.160><c> course,</c><00:11:46.400><c> like</c><00:11:46.960><c> we</c><00:11:47.080><c> have</c><00:11:47.320><c> rubrics</c><00:11:47.840><c> that</c><00:11:48.120><c> are</c>
+
+00:11:48.670 --> 00:11:48.680 align:start position:0%
+Of course, like we have rubrics that are
+ 
+
+00:11:48.680 --> 00:11:51.030 align:start position:0%
+Of course, like we have rubrics that are
+where<00:11:48.840><c> the</c><00:11:49.080><c> judge</c><00:11:49.560><c> is</c><00:11:49.880><c> deciding</c><00:11:50.400><c> if</c><00:11:50.560><c> the</c><00:11:50.680><c> query</c>
+
+00:11:51.030 --> 00:11:51.040 align:start position:0%
+where the judge is deciding if the query
+ 
+
+00:11:51.040 --> 00:11:53.630 align:start position:0%
+where the judge is deciding if the query
+is<00:11:51.200><c> really</c><00:11:51.480><c> a</c><00:11:51.520><c> natural</c><00:11:52.120><c> sentence.</c><00:11:53.200><c> Also,</c><00:11:53.520><c> if</c>
+
+00:11:53.630 --> 00:11:53.640 align:start position:0%
+is really a natural sentence. Also, if
+ 
+
+00:11:53.640 --> 00:11:56.150 align:start position:0%
+is really a natural sentence. Also, if
+the<00:11:53.760><c> amount</c><00:11:54.040><c> of</c><00:11:54.160><c> exploration</c><00:11:55.040><c> is</c>
+
+00:11:56.150 --> 00:11:56.160 align:start position:0%
+the amount of exploration is
+ 
+
+00:11:56.160 --> 00:11:59.590 align:start position:0%
+the amount of exploration is
+sufficient,<00:11:56.880><c> is</c><00:11:57.080><c> it</c><00:11:57.240><c> too</c><00:11:57.520><c> much</c><00:11:58.040><c> or</c><00:11:58.240><c> too</c><00:11:58.480><c> less.</c>
+
+00:11:59.590 --> 00:11:59.600 align:start position:0%
+sufficient, is it too much or too less.
+ 
+
+00:11:59.600 --> 00:12:03.950 align:start position:0%
+sufficient, is it too much or too less.
+Here<00:11:59.680><c> you</c><00:11:59.800><c> can</c><00:12:00.040><c> see</c><00:12:00.480><c> an</c><00:12:00.920><c> example</c><00:12:01.520><c> trajectory.</c>
+
+00:12:03.950 --> 00:12:03.960 align:start position:0%
+Here you can see an example trajectory.
+ 
+
+00:12:03.960 --> 00:12:05.390 align:start position:0%
+Here you can see an example trajectory.
+You<00:12:04.080><c> see</c><00:12:04.280><c> that</c><00:12:04.480><c> in</c><00:12:04.560><c> the</c><00:12:04.640><c> beginning</c><00:12:05.040><c> we</c><00:12:05.160><c> have</c>
+
+00:12:05.390 --> 00:12:05.400 align:start position:0%
+You see that in the beginning we have
+ 
+
+00:12:05.400 --> 00:12:07.870 align:start position:0%
+You see that in the beginning we have
+the<00:12:05.880><c> initial</c><00:12:06.320><c> search</c><00:12:06.800><c> and</c><00:12:07.080><c> the</c><00:12:07.200><c> initial</c>
+
+00:12:07.870 --> 00:12:07.880 align:start position:0%
+the initial search and the initial
+ 
+
+00:12:07.880 --> 00:12:09.430 align:start position:0%
+the initial search and the initial
+metadata<00:12:08.440><c> hints.</c>
+
+00:12:09.430 --> 00:12:09.440 align:start position:0%
+metadata hints.
+ 
+
+00:12:09.440 --> 00:12:11.350 align:start position:0%
+metadata hints.
+Um<00:12:09.760><c> then</c><00:12:10.000><c> the</c><00:12:10.160><c> agent</c><00:12:10.480><c> did</c><00:12:10.640><c> four</c><00:12:10.880><c> parallel</c>
+
+00:12:11.350 --> 00:12:11.360 align:start position:0%
+Um then the agent did four parallel
+ 
+
+00:12:11.360 --> 00:12:14.030 align:start position:0%
+Um then the agent did four parallel
+searches<00:12:11.960><c> in</c><00:12:12.040><c> the</c><00:12:12.120><c> first</c><00:12:12.560><c> round</c><00:12:13.040><c> and</c><00:12:13.240><c> then</c><00:12:13.480><c> a</c>
+
+00:12:14.030 --> 00:12:14.040 align:start position:0%
+searches in the first round and then a
+ 
+
+00:12:14.040 --> 00:12:16.870 align:start position:0%
+searches in the first round and then a
+second<00:12:14.520><c> round</c><00:12:14.880><c> just</c><00:12:15.160><c> a</c><00:12:15.200><c> simple</c><00:12:15.640><c> grep</c><00:12:15.960><c> tool.</c>
+
+00:12:16.870 --> 00:12:16.880 align:start position:0%
+second round just a simple grep tool.
+ 
+
+00:12:16.880 --> 00:12:19.350 align:start position:0%
+second round just a simple grep tool.
+And<00:12:17.200><c> here's</c><00:12:17.520><c> an</c><00:12:17.800><c> extract</c><00:12:18.560><c> of</c><00:12:19.160><c> um</c><00:12:19.320><c> a</c>
+
+00:12:19.350 --> 00:12:19.360 align:start position:0%
+And here's an extract of um a
+ 
+
+00:12:19.360 --> 00:12:21.190 align:start position:0%
+And here's an extract of um a
+trajectory.
+
+00:12:21.190 --> 00:12:21.200 align:start position:0%
+trajectory.
+ 
+
+00:12:21.200 --> 00:12:24.750 align:start position:0%
+trajectory.
+Here<00:12:21.360><c> we</c><00:12:21.880><c> see</c><00:12:22.200><c> the</c><00:12:22.840><c> agent</c><00:12:23.320><c> queries.</c>
+
+00:12:24.750 --> 00:12:24.760 align:start position:0%
+Here we see the agent queries.
+ 
+
+00:12:24.760 --> 00:12:27.950 align:start position:0%
+Here we see the agent queries.
+Um<00:12:25.760><c> the</c><00:12:26.280><c> input</c><00:12:26.640><c> query</c><00:12:26.960><c> is</c><00:12:27.120><c> on</c><00:12:27.240><c> the</c><00:12:27.400><c> left.</c><00:12:27.800><c> This</c>
+
+00:12:27.950 --> 00:12:27.960 align:start position:0%
+Um the input query is on the left. This
+ 
+
+00:12:27.960 --> 00:12:30.990 align:start position:0%
+Um the input query is on the left. This
+is<00:12:28.160><c> a</c><00:12:28.280><c> very</c><00:12:28.720><c> long</c><00:12:29.000><c> query</c><00:12:29.520><c> typical</c>
+
+00:12:30.990 --> 00:12:31.000 align:start position:0%
+is a very long query typical
+ 
+
+00:12:31.000 --> 00:12:33.510 align:start position:0%
+is a very long query typical
+rambling<00:12:31.800><c> style</c><00:12:32.280><c> query</c><00:12:32.720><c> from</c><00:12:32.960><c> the</c><00:12:33.120><c> Oblique</c>
+
+00:12:33.510 --> 00:12:33.520 align:start position:0%
+rambling style query from the Oblique
+ 
+
+00:12:33.520 --> 00:12:35.950 align:start position:0%
+rambling style query from the Oblique
+Congress<00:12:34.120><c> benchmark.</c>
+
+00:12:35.950 --> 00:12:35.960 align:start position:0%
+Congress benchmark.
+ 
+
+00:12:35.960 --> 00:12:38.829 align:start position:0%
+Congress benchmark.
+And<00:12:36.880><c> yeah,</c><00:12:37.080><c> we</c><00:12:37.240><c> see</c><00:12:37.560><c> the</c><00:12:37.800><c> agent</c><00:12:38.200><c> queries</c><00:12:38.680><c> here</c>
+
+00:12:38.829 --> 00:12:38.839 align:start position:0%
+And yeah, we see the agent queries here
+ 
+
+00:12:38.839 --> 00:12:41.110 align:start position:0%
+And yeah, we see the agent queries here
+for<00:12:39.000><c> the</c><00:12:39.120><c> first</c><00:12:39.440><c> semantic</c><00:12:39.880><c> search</c><00:12:40.240><c> tool.</c><00:12:40.880><c> It's</c>
+
+00:12:41.110 --> 00:12:41.120 align:start position:0%
+for the first semantic search tool. It's
+ 
+
+00:12:41.120 --> 00:12:43.070 align:start position:0%
+for the first semantic search tool. It's
+really<00:12:41.320><c> a</c><00:12:41.400><c> sentence</c><00:12:41.880><c> describing</c><00:12:42.640><c> what</c><00:12:42.880><c> it</c>
+
+00:12:43.070 --> 00:12:43.080 align:start position:0%
+really a sentence describing what it
+ 
+
+00:12:43.080 --> 00:12:46.990 align:start position:0%
+really a sentence describing what it
+wants<00:12:43.360><c> to</c><00:12:43.480><c> find</c><00:12:44.080><c> and</c><00:12:44.360><c> not</c><00:12:45.160><c> a</c><00:12:45.320><c> weird</c><00:12:46.120><c> keywordy</c>
+
+00:12:46.990 --> 00:12:47.000 align:start position:0%
+wants to find and not a weird keywordy
+ 
+
+00:12:47.000 --> 00:12:49.590 align:start position:0%
+wants to find and not a weird keywordy
+added<00:12:47.800><c> behind</c><00:12:48.200><c> each</c><00:12:48.480><c> other</c>
+
+00:12:49.590 --> 00:12:49.600 align:start position:0%
+added behind each other
+ 
+
+00:12:49.600 --> 00:12:52.270 align:start position:0%
+added behind each other
+formulation.
+
+00:12:52.270 --> 00:12:52.280 align:start position:0%
+formulation.
+ 
+
+00:12:52.280 --> 00:12:54.270 align:start position:0%
+formulation.
+The<00:12:52.440><c> grep</c><00:12:52.839><c> tools</c><00:12:53.240><c> of</c><00:12:53.440><c> course</c><00:12:53.839><c> are</c><00:12:54.000><c> like</c>
+
+00:12:54.270 --> 00:12:54.280 align:start position:0%
+The grep tools of course are like
+ 
+
+00:12:54.280 --> 00:12:56.150 align:start position:0%
+The grep tools of course are like
+typical<00:12:54.680><c> keyword</c><00:12:55.160><c> patterns,</c><00:12:55.760><c> which</c><00:12:55.960><c> is</c>
+
+00:12:56.150 --> 00:12:56.160 align:start position:0%
+typical keyword patterns, which is
+ 
+
+00:12:56.160 --> 00:12:58.630 align:start position:0%
+typical keyword patterns, which is
+exactly<00:12:56.800><c> as</c><00:12:57.040><c> intended.</c>
+
+00:12:58.630 --> 00:12:58.640 align:start position:0%
+exactly as intended.
+ 
+
+00:12:58.640 --> 00:13:01.150 align:start position:0%
+exactly as intended.
+Our<00:12:58.839><c> trained</c><00:12:59.320><c> agent</c><00:12:59.800><c> is</c><00:13:00.160><c> not</c><00:13:00.480><c> released</c><00:13:00.920><c> yet,</c>
+
+00:13:01.150 --> 00:13:01.160 align:start position:0%
+Our trained agent is not released yet,
+ 
+
+00:13:01.160 --> 00:13:03.590 align:start position:0%
+Our trained agent is not released yet,
+unfortunately.<00:13:02.200><c> However,</c><00:13:02.720><c> we</c><00:13:02.880><c> have</c><00:13:03.160><c> some</c>
+
+00:13:03.590 --> 00:13:03.600 align:start position:0%
+unfortunately. However, we have some
+ 
+
+00:13:03.600 --> 00:13:05.630 align:start position:0%
+unfortunately. However, we have some
+intermediate<00:13:04.320><c> results.</c>
+
+00:13:05.630 --> 00:13:05.640 align:start position:0%
+intermediate results.
+ 
+
+00:13:05.640 --> 00:13:07.270 align:start position:0%
+intermediate results.
+Here<00:13:05.720><c> on</c><00:13:05.800><c> the</c><00:13:05.920><c> left</c><00:13:06.280><c> side</c><00:13:06.520><c> for</c><00:13:06.720><c> the</c><00:13:06.880><c> Oblique</c>
+
+00:13:07.270 --> 00:13:07.280 align:start position:0%
+Here on the left side for the Oblique
+ 
+
+00:13:07.280 --> 00:13:09.110 align:start position:0%
+Here on the left side for the Oblique
+Congress<00:13:07.720><c> benchmark,</c>
+
+00:13:09.110 --> 00:13:09.120 align:start position:0%
+Congress benchmark,
+ 
+
+00:13:09.120 --> 00:13:11.990 align:start position:0%
+Congress benchmark,
+we<00:13:09.240><c> see</c><00:13:09.440><c> that</c><00:13:09.720><c> we</c><00:13:09.839><c> achieved</c><00:13:10.200><c> an</c><00:13:10.280><c> NDCG</c><00:13:10.880><c> of</c><00:13:11.040><c> 10</c><00:13:11.800><c> at</c>
+
+00:13:11.990 --> 00:13:12.000 align:start position:0%
+we see that we achieved an NDCG of 10 at
+ 
+
+00:13:12.000 --> 00:13:16.470 align:start position:0%
+we see that we achieved an NDCG of 10 at
+10<00:13:12.320><c> of</c><00:13:12.800><c> 0.4,</c><00:13:14.280><c> which</c><00:13:14.480><c> is</c><00:13:14.600><c> a</c><00:13:14.640><c> huge</c><00:13:15.160><c> jump</c><00:13:15.880><c> um</c>
+
+00:13:16.470 --> 00:13:16.480 align:start position:0%
+10 of 0.4, which is a huge jump um
+ 
+
+00:13:16.480 --> 00:13:19.550 align:start position:0%
+10 of 0.4, which is a huge jump um
+towards<00:13:17.160><c> the</c><00:13:17.839><c> model</c><00:13:18.240><c> that</c><00:13:18.560><c> performed</c><00:13:19.040><c> best</c><00:13:19.440><c> on</c>
+
+00:13:19.550 --> 00:13:19.560 align:start position:0%
+towards the model that performed best on
+ 
+
+00:13:19.560 --> 00:13:21.670 align:start position:0%
+towards the model that performed best on
+the<00:13:19.720><c> paper</c><00:13:20.240><c> of</c><00:13:20.440><c> this</c><00:13:20.600><c> benchmark,</c><00:13:21.280><c> which</c><00:13:21.520><c> is</c>
+
+00:13:21.670 --> 00:13:21.680 align:start position:0%
+the paper of this benchmark, which is
+ 
+
+00:13:21.680 --> 00:13:24.230 align:start position:0%
+the paper of this benchmark, which is
+the<00:13:21.839><c> GPT</c><00:13:22.320><c> multi-hop</c><00:13:22.880><c> agent,</c>
+
+00:13:24.230 --> 00:13:24.240 align:start position:0%
+the GPT multi-hop agent,
+ 
+
+00:13:24.240 --> 00:13:26.270 align:start position:0%
+the GPT multi-hop agent,
+and<00:13:24.480><c> which</c><00:13:24.640><c> achieves</c><00:13:25.120><c> 0.</c>
+
+00:13:26.270 --> 00:13:26.280 align:start position:0%
+and which achieves 0.
+ 
+
+00:13:26.280 --> 00:13:28.590 align:start position:0%
+and which achieves 0.
+18.
+
+00:13:28.590 --> 00:13:28.600 align:start position:0%
+18.
+ 
+
+00:13:28.600 --> 00:13:30.110 align:start position:0%
+18.
+On<00:13:28.720><c> the</c><00:13:28.880><c> right</c><00:13:29.200><c> side,</c><00:13:29.560><c> you</c><00:13:29.640><c> can</c><00:13:29.840><c> see</c><00:13:30.000><c> the</c>
+
+00:13:30.110 --> 00:13:30.120 align:start position:0%
+On the right side, you can see the
+ 
+
+00:13:30.120 --> 00:13:32.790 align:start position:0%
+On the right side, you can see the
+result<00:13:30.560><c> of</c><00:13:30.800><c> our</c><00:13:31.080><c> beta</c><00:13:31.480><c> version</c><00:13:32.120><c> of</c><00:13:32.280><c> the</c><00:13:32.400><c> search</c>
+
+00:13:32.790 --> 00:13:32.800 align:start position:0%
+result of our beta version of the search
+ 
+
+00:13:32.800 --> 00:13:35.110 align:start position:0%
+result of our beta version of the search
+agent,<00:13:33.600><c> which</c><00:13:33.800><c> we</c><00:13:33.920><c> have</c><00:13:34.680><c> right</c><00:13:34.880><c> now</c><00:13:35.040><c> in</c>
+
+00:13:35.110 --> 00:13:35.120 align:start position:0%
+agent, which we have right now in
+ 
+
+00:13:35.120 --> 00:13:37.230 align:start position:0%
+agent, which we have right now in
+production.<00:13:36.160><c> It's</c><00:13:36.520><c> the</c><00:13:36.760><c> mixed</c><00:13:37.040><c> better</c>
+
+00:13:37.230 --> 00:13:37.240 align:start position:0%
+production. It's the mixed better
+ 
+
+00:13:37.240 --> 00:13:39.310 align:start position:0%
+production. It's the mixed better
+genetic<00:13:37.720><c> search.</c>
+
+00:13:39.310 --> 00:13:39.320 align:start position:0%
+genetic search.
+ 
+
+00:13:39.320 --> 00:13:42.390 align:start position:0%
+genetic search.
+And<00:13:39.760><c> this</c><00:13:40.120><c> agent</c><00:13:40.600><c> is</c><00:13:41.280><c> top</c><00:13:41.520><c> one</c><00:13:41.840><c> on</c><00:13:42.000><c> the</c>
+
+00:13:42.390 --> 00:13:42.400 align:start position:0%
+And this agent is top one on the
+ 
+
+00:13:42.400 --> 00:13:45.390 align:start position:0%
+And this agent is top one on the
+snowflakes<00:13:43.200><c> match</c><00:13:43.480><c> QA</c><00:13:43.760><c> benchmark,</c><00:13:44.920><c> achieving</c>
+
+00:13:45.390 --> 00:13:45.400 align:start position:0%
+snowflakes match QA benchmark, achieving
+ 
+
+00:13:45.400 --> 00:13:48.430 align:start position:0%
+snowflakes match QA benchmark, achieving
+an<00:13:45.520><c> accuracy</c><00:13:46.280><c> of</c><00:13:46.800><c> 93.4</c>
+
+00:13:48.430 --> 00:13:48.440 align:start position:0%
+an accuracy of 93.4
+ 
+
+00:13:48.440 --> 00:13:52.470 align:start position:0%
+an accuracy of 93.4
+when<00:13:48.640><c> we</c><00:13:49.240><c> give</c><00:13:49.480><c> the</c><00:13:49.600><c> Gemini</c><00:13:50.160><c> 3.5</c><00:13:51.080><c> flash</c><00:13:51.440><c> model</c>
+
+00:13:52.470 --> 00:13:52.480 align:start position:0%
+when we give the Gemini 3.5 flash model
+ 
+
+00:13:52.480 --> 00:13:55.430 align:start position:0%
+when we give the Gemini 3.5 flash model
+our<00:13:52.680><c> genetic</c><00:13:53.120><c> search</c><00:13:53.560><c> as</c><00:13:53.800><c> search</c><00:13:54.160><c> tool.</c>
+
+00:13:55.430 --> 00:13:55.440 align:start position:0%
+our genetic search as search tool.
+ 
+
+00:13:55.440 --> 00:13:57.070 align:start position:0%
+our genetic search as search tool.
+And<00:13:55.960><c> this</c>
+
+00:13:57.070 --> 00:13:57.080 align:start position:0%
+And this
+ 
+
+00:13:57.080 --> 00:13:58.390 align:start position:0%
+And this
+uh
+
+00:13:58.390 --> 00:13:58.400 align:start position:0%
+uh
+ 
+
+00:13:58.400 --> 00:14:00.510 align:start position:0%
+uh
+this<00:13:58.520><c> performance</c><00:13:59.160><c> was</c><00:13:59.360><c> also</c><00:13:59.720><c> achieved</c><00:14:00.240><c> while</c>
+
+00:14:00.510 --> 00:14:00.520 align:start position:0%
+this performance was also achieved while
+ 
+
+00:14:00.520 --> 00:14:03.750 align:start position:0%
+this performance was also achieved while
+having<00:14:00.960><c> way</c><00:14:01.200><c> less</c><00:14:01.480><c> effort</c><00:14:01.960><c> than</c><00:14:02.200><c> comparable</c>
+
+00:14:03.750 --> 00:14:03.760 align:start position:0%
+having way less effort than comparable
+ 
+
+00:14:03.760 --> 00:14:06.870 align:start position:0%
+having way less effort than comparable
+LLMs<00:14:04.480><c> with</c><00:14:04.720><c> other</c><00:14:05.000><c> search</c><00:14:05.360><c> agents.</c><00:14:06.360><c> You</c><00:14:06.520><c> can</c>
+
+00:14:06.870 --> 00:14:06.880 align:start position:0%
+LLMs with other search agents. You can
+ 
+
+00:14:06.880 --> 00:14:09.390 align:start position:0%
+LLMs with other search agents. You can
+check<00:14:07.160><c> out</c><00:14:07.320><c> the</c><00:14:07.440><c> match</c><00:14:07.680><c> QA</c><00:14:07.920><c> leaderboard.</c>
+
+00:14:09.390 --> 00:14:09.400 align:start position:0%
+check out the match QA leaderboard.
+ 
+
+00:14:09.400 --> 00:14:10.990 align:start position:0%
+check out the match QA leaderboard.
+These<00:14:09.560><c> results</c><00:14:10.000><c> show</c><00:14:10.280><c> that</c><00:14:10.480><c> there's</c><00:14:10.680><c> still</c><00:14:10.920><c> a</c>
+
+00:14:10.990 --> 00:14:11.000 align:start position:0%
+These results show that there's still a
+ 
+
+00:14:11.000 --> 00:14:13.030 align:start position:0%
+These results show that there's still a
+lot<00:14:11.200><c> of</c><00:14:11.440><c> room</c><00:14:11.680><c> for</c><00:14:11.920><c> improvement</c><00:14:12.760><c> when</c><00:14:12.920><c> it</c>
+
+00:14:13.030 --> 00:14:13.040 align:start position:0%
+lot of room for improvement when it
+ 
+
+00:14:13.040 --> 00:14:15.630 align:start position:0%
+lot of room for improvement when it
+comes<00:14:13.440><c> to</c><00:14:13.640><c> huge</c><00:14:14.120><c> language</c><00:14:14.560><c> models</c>
+
+00:14:15.630 --> 00:14:15.640 align:start position:0%
+comes to huge language models
+ 
+
+00:14:15.640 --> 00:14:18.150 align:start position:0%
+comes to huge language models
+and<00:14:15.960><c> their</c><00:14:16.200><c> search</c><00:14:16.680><c> tools.</c>
+
+00:14:18.150 --> 00:14:18.160 align:start position:0%
+and their search tools.
+ 
+
+00:14:18.160 --> 00:14:20.150 align:start position:0%
+and their search tools.
+And<00:14:18.440><c> if</c><00:14:18.600><c> you</c><00:14:18.680><c> want</c><00:14:18.880><c> to</c><00:14:18.960><c> be</c><00:14:19.120><c> part</c><00:14:19.560><c> of</c><00:14:19.760><c> pushing</c>
+
+00:14:20.150 --> 00:14:20.160 align:start position:0%
+And if you want to be part of pushing
+ 
+
+00:14:20.160 --> 00:14:22.230 align:start position:0%
+And if you want to be part of pushing
+the<00:14:20.280><c> boundaries</c><00:14:21.120><c> of</c><00:14:21.320><c> retrieval</c><00:14:21.960><c> even</c>
+
+00:14:22.230 --> 00:14:22.240 align:start position:0%
+the boundaries of retrieval even
+ 
+
+00:14:22.240 --> 00:14:23.390 align:start position:0%
+the boundaries of retrieval even
+further,
+
+00:14:23.390 --> 00:14:23.400 align:start position:0%
+further,
+ 
+
+00:14:23.400 --> 00:14:25.150 align:start position:0%
+further,
+um<00:14:23.640><c> we</c><00:14:23.800><c> are</c><00:14:23.880><c> happy</c><00:14:24.240><c> awaiting</c><00:14:24.800><c> your</c>
+
+00:14:25.150 --> 00:14:25.160 align:start position:0%
+um we are happy awaiting your
+ 
+
+00:14:25.160 --> 00:14:27.720 align:start position:0%
+um we are happy awaiting your
+application.
+

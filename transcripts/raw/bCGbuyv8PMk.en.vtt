@@ -1,0 +1,2840 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.720 --> 00:00:15.270 align:start position:0%
+ 
+[Music]
+
+00:00:15.270 --> 00:00:15.280 align:start position:0%
+ 
+ 
+
+00:00:15.280 --> 00:00:17.029 align:start position:0%
+ 
+Right.<00:00:15.599><c> Good</c><00:00:15.759><c> afternoon</c><00:00:16.080><c> everyone</c><00:00:16.640><c> and</c>
+
+00:00:17.029 --> 00:00:17.039 align:start position:0%
+Right. Good afternoon everyone and
+ 
+
+00:00:17.039 --> 00:00:18.630 align:start position:0%
+Right. Good afternoon everyone and
+really<00:00:17.279><c> excited</c><00:00:17.520><c> to</c><00:00:17.680><c> be</c><00:00:17.840><c> here</c><00:00:18.000><c> today.</c><00:00:18.400><c> Really</c>
+
+00:00:18.630 --> 00:00:18.640 align:start position:0%
+really excited to be here today. Really
+ 
+
+00:00:18.640 --> 00:00:20.710 align:start position:0%
+really excited to be here today. Really
+exciting<00:00:19.039><c> stuff</c><00:00:19.199><c> so</c><00:00:19.439><c> far.</c><00:00:19.840><c> So</c><00:00:20.080><c> many</c><00:00:20.240><c> models,</c>
+
+00:00:20.710 --> 00:00:20.720 align:start position:0%
+exciting stuff so far. So many models,
+ 
+
+00:00:20.720 --> 00:00:23.990 align:start position:0%
+exciting stuff so far. So many models,
+so<00:00:20.880><c> many</c><00:00:21.439><c> new</c><00:00:21.760><c> ideas</c><00:00:22.320><c> and</c><00:00:23.119><c> today</c><00:00:23.439><c> I</c><00:00:23.680><c> want</c><00:00:23.840><c> to</c>
+
+00:00:23.990 --> 00:00:24.000 align:start position:0%
+so many new ideas and today I want to
+ 
+
+00:00:24.000 --> 00:00:26.150 align:start position:0%
+so many new ideas and today I want to
+talk<00:00:24.160><c> about</c><00:00:24.640><c> what</c><00:00:24.960><c> happens</c><00:00:25.439><c> between</c><00:00:25.920><c> the</c>
+
+00:00:26.150 --> 00:00:26.160 align:start position:0%
+talk about what happens between the
+ 
+
+00:00:26.160 --> 00:00:28.070 align:start position:0%
+talk about what happens between the
+controller<00:00:26.560><c> and</c><00:00:26.800><c> the</c><00:00:26.960><c> wire.</c><00:00:27.599><c> Now</c><00:00:27.840><c> we</c><00:00:28.000><c> have</c>
+
+00:00:28.070 --> 00:00:28.080 align:start position:0%
+controller and the wire. Now we have
+ 
+
+00:00:28.080 --> 00:00:29.669 align:start position:0%
+controller and the wire. Now we have
+seen<00:00:28.240><c> so</c><00:00:28.480><c> many</c><00:00:28.640><c> policies</c><00:00:29.039><c> that</c><00:00:29.279><c> work</c><00:00:29.439><c> that</c>
+
+00:00:29.669 --> 00:00:29.679 align:start position:0%
+seen so many policies that work that
+ 
+
+00:00:29.679 --> 00:00:32.709 align:start position:0%
+seen so many policies that work that
+control<00:00:30.080><c> robots</c><00:00:30.880><c> but</c><00:00:31.199><c> again</c><00:00:32.000><c> we</c><00:00:32.239><c> that</c><00:00:32.480><c> we</c><00:00:32.640><c> need</c>
+
+00:00:32.709 --> 00:00:32.719 align:start position:0%
+control robots but again we that we need
+ 
+
+00:00:32.719 --> 00:00:34.470 align:start position:0%
+control robots but again we that we need
+to<00:00:32.880><c> get</c><00:00:33.040><c> that</c><00:00:33.200><c> data</c><00:00:33.440><c> to</c><00:00:33.680><c> the</c><00:00:33.840><c> actuators</c><00:00:34.320><c> we</c>
+
+00:00:34.470 --> 00:00:34.480 align:start position:0%
+to get that data to the actuators we
+ 
+
+00:00:34.480 --> 00:00:36.069 align:start position:0%
+to get that data to the actuators we
+need<00:00:34.559><c> to</c><00:00:34.640><c> get</c><00:00:34.800><c> that</c><00:00:34.960><c> data</c><00:00:35.200><c> from</c><00:00:35.440><c> sensors</c><00:00:35.840><c> and</c>
+
+00:00:36.069 --> 00:00:36.079 align:start position:0%
+need to get that data from sensors and
+ 
+
+00:00:36.079 --> 00:00:38.069 align:start position:0%
+need to get that data from sensors and
+feed<00:00:36.320><c> the</c><00:00:36.480><c> whole</c><00:00:36.640><c> system</c><00:00:37.360><c> and</c><00:00:37.520><c> what</c><00:00:37.760><c> happens</c>
+
+00:00:38.069 --> 00:00:38.079 align:start position:0%
+feed the whole system and what happens
+ 
+
+00:00:38.079 --> 00:00:40.150 align:start position:0%
+feed the whole system and what happens
+if<00:00:38.239><c> your</c><00:00:38.480><c> carefully</c><00:00:38.960><c> crafted</c><00:00:39.360><c> policy</c><00:00:39.920><c> does</c>
+
+00:00:40.150 --> 00:00:40.160 align:start position:0%
+if your carefully crafted policy does
+ 
+
+00:00:40.160 --> 00:00:42.150 align:start position:0%
+if your carefully crafted policy does
+not<00:00:40.399><c> work</c><00:00:40.640><c> as</c><00:00:40.879><c> expected</c><00:00:41.280><c> like</c><00:00:41.520><c> is</c><00:00:41.680><c> this</c><00:00:41.920><c> issue</c>
+
+00:00:42.150 --> 00:00:42.160 align:start position:0%
+not work as expected like is this issue
+ 
+
+00:00:42.160 --> 00:00:44.069 align:start position:0%
+not work as expected like is this issue
+in<00:00:42.320><c> the</c><00:00:42.399><c> policy</c><00:00:43.040><c> or</c><00:00:43.280><c> is</c><00:00:43.360><c> it</c><00:00:43.520><c> in</c><00:00:43.680><c> the</c><00:00:43.840><c> software</c>
+
+00:00:44.069 --> 00:00:44.079 align:start position:0%
+in the policy or is it in the software
+ 
+
+00:00:44.079 --> 00:00:46.470 align:start position:0%
+in the policy or is it in the software
+system.<00:00:44.879><c> So</c><00:00:45.120><c> today</c><00:00:45.360><c> we</c><00:00:45.600><c> look</c><00:00:45.760><c> at</c><00:00:45.840><c> a</c><00:00:46.079><c> lot</c><00:00:46.239><c> of</c>
+
+00:00:46.470 --> 00:00:46.480 align:start position:0%
+system. So today we look at a lot of
+ 
+
+00:00:46.480 --> 00:00:48.470 align:start position:0%
+system. So today we look at a lot of
+instances<00:00:47.120><c> where</c><00:00:47.360><c> the</c><00:00:47.600><c> issue</c><00:00:47.920><c> will</c><00:00:48.079><c> look</c><00:00:48.239><c> like</c>
+
+00:00:48.470 --> 00:00:48.480 align:start position:0%
+instances where the issue will look like
+ 
+
+00:00:48.480 --> 00:00:49.990 align:start position:0%
+instances where the issue will look like
+it's<00:00:48.719><c> the</c><00:00:48.879><c> policy</c><00:00:49.200><c> but</c><00:00:49.440><c> it's</c><00:00:49.600><c> actually</c><00:00:49.760><c> the</c>
+
+00:00:49.990 --> 00:00:50.000 align:start position:0%
+it's the policy but it's actually the
+ 
+
+00:00:50.000 --> 00:00:51.990 align:start position:0%
+it's the policy but it's actually the
+software<00:00:50.320><c> system</c><00:00:50.960><c> and</c><00:00:51.200><c> along</c><00:00:51.440><c> the</c><00:00:51.600><c> way</c><00:00:51.760><c> we'll</c>
+
+00:00:51.990 --> 00:00:52.000 align:start position:0%
+software system and along the way we'll
+ 
+
+00:00:52.000 --> 00:00:54.549 align:start position:0%
+software system and along the way we'll
+try<00:00:52.160><c> to</c><00:00:52.320><c> design</c><00:00:52.559><c> a</c><00:00:52.800><c> very</c><00:00:53.440><c> small</c><00:00:53.760><c> toy</c><00:00:54.079><c> robotics</c>
+
+00:00:54.549 --> 00:00:54.559 align:start position:0%
+try to design a very small toy robotics
+ 
+
+00:00:54.559 --> 00:00:57.270 align:start position:0%
+try to design a very small toy robotics
+robot.<00:00:55.920><c> So</c><00:00:56.079><c> why</c><00:00:56.320><c> this</c><00:00:56.559><c> talk</c><00:00:56.719><c> again?</c><00:00:57.039><c> Well,</c>
+
+00:00:57.270 --> 00:00:57.280 align:start position:0%
+robot. So why this talk again? Well,
+ 
+
+00:00:57.280 --> 00:00:59.510 align:start position:0%
+robot. So why this talk again? Well,
+robots<00:00:57.600><c> are</c><00:00:57.760><c> complex.</c><00:00:58.399><c> So</c><00:00:58.640><c> many</c><00:00:58.800><c> systems,</c><00:00:59.359><c> so</c>
+
+00:00:59.510 --> 00:00:59.520 align:start position:0%
+robots are complex. So many systems, so
+ 
+
+00:00:59.520 --> 00:01:01.590 align:start position:0%
+robots are complex. So many systems, so
+many<00:00:59.760><c> different</c><00:01:00.000><c> software</c><00:01:00.320><c> components,</c><00:01:01.359><c> and</c>
+
+00:01:01.590 --> 00:01:01.600 align:start position:0%
+many different software components, and
+ 
+
+00:01:01.600 --> 00:01:04.390 align:start position:0%
+many different software components, and
+yet<00:01:02.160><c> you're</c><00:01:02.399><c> focused</c><00:01:02.719><c> on</c><00:01:02.960><c> like</c><00:01:03.840><c> one</c><00:01:04.159><c> big</c>
+
+00:01:04.390 --> 00:01:04.400 align:start position:0%
+yet you're focused on like one big
+ 
+
+00:01:04.400 --> 00:01:06.469 align:start position:0%
+yet you're focused on like one big
+question.<00:01:05.360><c> When</c><00:01:05.600><c> things</c><00:01:05.840><c> go</c><00:01:06.000><c> wrong</c><00:01:06.159><c> on</c><00:01:06.320><c> the</c>
+
+00:01:06.469 --> 00:01:06.479 align:start position:0%
+question. When things go wrong on the
+ 
+
+00:01:06.479 --> 00:01:08.230 align:start position:0%
+question. When things go wrong on the
+robot,<00:01:06.960><c> when</c><00:01:07.200><c> you</c><00:01:07.360><c> don't</c><00:01:07.520><c> see</c><00:01:07.680><c> that</c><00:01:07.920><c> motor</c>
+
+00:01:08.230 --> 00:01:08.240 align:start position:0%
+robot, when you don't see that motor
+ 
+
+00:01:08.240 --> 00:01:10.630 align:start position:0%
+robot, when you don't see that motor
+move,<00:01:09.280><c> what's</c><00:01:09.520><c> the</c><00:01:09.680><c> root</c><00:01:09.920><c> cause?</c><00:01:10.240><c> Is</c><00:01:10.479><c> the</c>
+
+00:01:10.630 --> 00:01:10.640 align:start position:0%
+move, what's the root cause? Is the
+ 
+
+00:01:10.640 --> 00:01:13.030 align:start position:0%
+move, what's the root cause? Is the
+policy<00:01:11.119><c> that</c><00:01:11.360><c> is</c><00:01:11.520><c> not</c><00:01:11.840><c> giving</c><00:01:12.080><c> the</c><00:01:12.240><c> command</c><00:01:12.799><c> or</c>
+
+00:01:13.030 --> 00:01:13.040 align:start position:0%
+policy that is not giving the command or
+ 
+
+00:01:13.040 --> 00:01:15.350 align:start position:0%
+policy that is not giving the command or
+is<00:01:13.200><c> it</c><00:01:13.360><c> the</c><00:01:13.520><c> software</c><00:01:13.840><c> system?</c><00:01:14.720><c> And</c><00:01:14.960><c> this</c><00:01:15.119><c> is</c><00:01:15.200><c> a</c>
+
+00:01:15.350 --> 00:01:15.360 align:start position:0%
+is it the software system? And this is a
+ 
+
+00:01:15.360 --> 00:01:16.710 align:start position:0%
+is it the software system? And this is a
+question<00:01:15.520><c> that</c><00:01:15.760><c> I</c><00:01:15.920><c> grapple</c><00:01:16.240><c> almost</c><00:01:16.560><c> every</c>
+
+00:01:16.710 --> 00:01:16.720 align:start position:0%
+question that I grapple almost every
+ 
+
+00:01:16.720 --> 00:01:18.469 align:start position:0%
+question that I grapple almost every
+day.<00:01:17.119><c> And</c><00:01:17.280><c> so</c><00:01:17.439><c> I</c><00:01:17.600><c> want</c><00:01:17.759><c> to</c><00:01:17.840><c> talk</c><00:01:18.000><c> about</c><00:01:18.240><c> what</c>
+
+00:01:18.469 --> 00:01:18.479 align:start position:0%
+day. And so I want to talk about what
+ 
+
+00:01:18.479 --> 00:01:21.030 align:start position:0%
+day. And so I want to talk about what
+I've<00:01:18.720><c> seen</c><00:01:18.960><c> so</c><00:01:19.280><c> far</c><00:01:20.000><c> and</c><00:01:20.320><c> how</c><00:01:20.479><c> to</c><00:01:20.640><c> diagnose</c>
+
+00:01:21.030 --> 00:01:21.040 align:start position:0%
+I've seen so far and how to diagnose
+ 
+
+00:01:21.040 --> 00:01:23.350 align:start position:0%
+I've seen so far and how to diagnose
+these<00:01:21.360><c> issues</c><00:01:21.680><c> on</c><00:01:21.920><c> the</c><00:01:22.080><c> robot.</c><00:01:22.880><c> So</c><00:01:23.040><c> let's</c><00:01:23.200><c> go</c>
+
+00:01:23.350 --> 00:01:23.360 align:start position:0%
+these issues on the robot. So let's go
+ 
+
+00:01:23.360 --> 00:01:25.030 align:start position:0%
+these issues on the robot. So let's go
+into<00:01:23.520><c> the</c><00:01:23.600><c> buildup.</c><00:01:24.000><c> Let's</c><00:01:24.159><c> try</c><00:01:24.400><c> build</c><00:01:24.640><c> a</c><00:01:24.799><c> very</c>
+
+00:01:25.030 --> 00:01:25.040 align:start position:0%
+into the buildup. Let's try build a very
+ 
+
+00:01:25.040 --> 00:01:26.630 align:start position:0%
+into the buildup. Let's try build a very
+small<00:01:25.520><c> uh</c><00:01:25.600><c> toy</c><00:01:25.920><c> robotics</c><00:01:26.320><c> general</c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+small uh toy robotics general
+ 
+
+00:01:26.640 --> 00:01:27.749 align:start position:0%
+small uh toy robotics general
+architecture,<00:01:27.040><c> right?</c><00:01:27.200><c> Like</c><00:01:27.360><c> this</c><00:01:27.439><c> is</c><00:01:27.520><c> what</c><00:01:27.600><c> a</c>
+
+00:01:27.749 --> 00:01:27.759 align:start position:0%
+architecture, right? Like this is what a
+ 
+
+00:01:27.759 --> 00:01:29.350 align:start position:0%
+architecture, right? Like this is what a
+general<00:01:28.080><c> robot</c><00:01:28.320><c> would</c><00:01:28.560><c> look</c><00:01:28.720><c> like.</c><00:01:29.119><c> You'd</c>
+
+00:01:29.350 --> 00:01:29.360 align:start position:0%
+general robot would look like. You'd
+ 
+
+00:01:29.360 --> 00:01:31.270 align:start position:0%
+general robot would look like. You'd
+have<00:01:29.520><c> some</c><00:01:29.759><c> actuators,</c><00:01:30.240><c> a</c><00:01:30.400><c> CPU,</c><00:01:30.960><c> maybe</c><00:01:31.119><c> a</c>
+
+00:01:31.270 --> 00:01:31.280 align:start position:0%
+have some actuators, a CPU, maybe a
+ 
+
+00:01:31.280 --> 00:01:34.310 align:start position:0%
+have some actuators, a CPU, maybe a
+hybrid<00:01:31.600><c> accelerator</c><00:01:32.560><c> and</c><00:01:32.799><c> then</c><00:01:32.960><c> a</c><00:01:33.200><c> sensor.</c>
+
+00:01:34.310 --> 00:01:34.320 align:start position:0%
+hybrid accelerator and then a sensor.
+ 
+
+00:01:34.320 --> 00:01:36.550 align:start position:0%
+hybrid accelerator and then a sensor.
+Perfect.<00:01:35.200><c> Now,</c><00:01:35.600><c> one</c><00:01:35.840><c> of</c><00:01:35.920><c> the</c><00:01:36.079><c> most</c><00:01:36.240><c> critical</c>
+
+00:01:36.550 --> 00:01:36.560 align:start position:0%
+Perfect. Now, one of the most critical
+ 
+
+00:01:36.560 --> 00:01:39.190 align:start position:0%
+Perfect. Now, one of the most critical
+aspects<00:01:37.040><c> is</c><00:01:37.280><c> the</c><00:01:37.520><c> communication</c><00:01:38.079><c> protocol.</c>
+
+00:01:39.190 --> 00:01:39.200 align:start position:0%
+aspects is the communication protocol.
+ 
+
+00:01:39.200 --> 00:01:42.149 align:start position:0%
+aspects is the communication protocol.
+So<00:01:39.439><c> for</c><00:01:39.680><c> our</c><00:01:40.000><c> our</c><00:01:40.240><c> talk,</c><00:01:40.560><c> we'll</c><00:01:40.799><c> use</c><00:01:41.040><c> CAN.</c><00:01:41.840><c> CAN</c>
+
+00:01:42.149 --> 00:01:42.159 align:start position:0%
+So for our our talk, we'll use CAN. CAN
+ 
+
+00:01:42.159 --> 00:01:44.149 align:start position:0%
+So for our our talk, we'll use CAN. CAN
+is<00:01:42.320><c> great.</c><00:01:42.560><c> CAN</c><00:01:42.880><c> is</c><00:01:43.040><c> open</c><00:01:43.280><c> source.</c><00:01:43.840><c> Everyone</c>
+
+00:01:44.149 --> 00:01:44.159 align:start position:0%
+is great. CAN is open source. Everyone
+ 
+
+00:01:44.159 --> 00:01:45.590 align:start position:0%
+is great. CAN is open source. Everyone
+can<00:01:44.320><c> use</c><00:01:44.479><c> CAN.</c><00:01:44.880><c> It's</c><00:01:45.119><c> cheap.</c><00:01:45.439><c> It's</c>
+
+00:01:45.590 --> 00:01:45.600 align:start position:0%
+can use CAN. It's cheap. It's
+ 
+
+00:01:45.600 --> 00:01:48.389 align:start position:0%
+can use CAN. It's cheap. It's
+affordable.<00:01:46.640><c> And</c><00:01:47.040><c> it</c><00:01:47.280><c> has</c><00:01:47.520><c> enough</c><00:01:47.759><c> data</c><00:01:48.000><c> rate</c>
+
+00:01:48.389 --> 00:01:48.399 align:start position:0%
+affordable. And it has enough data rate
+ 
+
+00:01:48.399 --> 00:01:50.230 align:start position:0%
+affordable. And it has enough data rate
+and<00:01:48.720><c> enough</c><00:01:49.040><c> compatibility</c><00:01:49.600><c> for</c><00:01:49.840><c> a</c><00:01:50.000><c> lot</c><00:01:50.079><c> of</c>
+
+00:01:50.230 --> 00:01:50.240 align:start position:0%
+and enough compatibility for a lot of
+ 
+
+00:01:50.240 --> 00:01:52.149 align:start position:0%
+and enough compatibility for a lot of
+components<00:01:50.640><c> out</c><00:01:50.880><c> there.</c><00:01:51.439><c> So</c><00:01:51.600><c> we'll</c><00:01:51.840><c> stick</c><00:01:51.920><c> to</c>
+
+00:01:52.149 --> 00:01:52.159 align:start position:0%
+components out there. So we'll stick to
+ 
+
+00:01:52.159 --> 00:01:54.389 align:start position:0%
+components out there. So we'll stick to
+can<00:01:52.880><c> and</c><00:01:53.280><c> uh</c><00:01:53.360><c> we'll</c><00:01:53.600><c> see</c><00:01:53.759><c> how</c><00:01:53.920><c> that</c><00:01:54.079><c> influence</c>
+
+00:01:54.389 --> 00:01:54.399 align:start position:0%
+can and uh we'll see how that influence
+ 
+
+00:01:54.399 --> 00:01:55.990 align:start position:0%
+can and uh we'll see how that influence
+a<00:01:54.560><c> lot</c><00:01:54.640><c> of</c><00:01:54.720><c> the</c><00:01:54.799><c> design</c><00:01:55.200><c> design</c><00:01:55.520><c> decisions</c>
+
+00:01:55.990 --> 00:01:56.000 align:start position:0%
+a lot of the design design decisions
+ 
+
+00:01:56.000 --> 00:01:59.109 align:start position:0%
+a lot of the design design decisions
+down<00:01:56.240><c> the</c><00:01:56.479><c> line.</c><00:01:57.600><c> All</c><00:01:57.680><c> right.</c><00:01:58.479><c> So</c><00:01:58.640><c> let's</c><00:01:58.880><c> also</c>
+
+00:01:59.109 --> 00:01:59.119 align:start position:0%
+down the line. All right. So let's also
+ 
+
+00:01:59.119 --> 00:02:01.030 align:start position:0%
+down the line. All right. So let's also
+start<00:01:59.360><c> simple</c><00:01:59.600><c> with</c><00:01:59.759><c> the</c><00:01:59.920><c> code.</c><00:02:00.560><c> We'll</c><00:02:00.880><c> start</c>
+
+00:02:01.030 --> 00:02:01.040 align:start position:0%
+start simple with the code. We'll start
+ 
+
+00:02:01.040 --> 00:02:03.270 align:start position:0%
+start simple with the code. We'll start
+with<00:02:01.360><c> receiving</c><00:02:01.680><c> the</c><00:02:01.920><c> data</c><00:02:02.719><c> giving</c><00:02:02.960><c> that</c><00:02:03.119><c> to</c>
+
+00:02:03.270 --> 00:02:03.280 align:start position:0%
+with receiving the data giving that to
+ 
+
+00:02:03.280 --> 00:02:05.670 align:start position:0%
+with receiving the data giving that to
+the<00:02:03.439><c> policy</c><00:02:04.320><c> and</c><00:02:04.640><c> basically</c><00:02:05.040><c> sending</c><00:02:05.280><c> it</c><00:02:05.439><c> back</c>
+
+00:02:05.670 --> 00:02:05.680 align:start position:0%
+the policy and basically sending it back
+ 
+
+00:02:05.680 --> 00:02:07.429 align:start position:0%
+the policy and basically sending it back
+out.<00:02:06.320><c> Nothing</c><00:02:06.640><c> nothing</c><00:02:06.880><c> happening</c><00:02:07.280><c> nothing</c>
+
+00:02:07.429 --> 00:02:07.439 align:start position:0%
+out. Nothing nothing happening nothing
+ 
+
+00:02:07.439 --> 00:02:09.830 align:start position:0%
+out. Nothing nothing happening nothing
+fancy<00:02:07.920><c> right.</c><00:02:08.399><c> And</c><00:02:08.640><c> let's</c><00:02:08.959><c> assume</c><00:02:09.200><c> that</c><00:02:09.599><c> we</c>
+
+00:02:09.830 --> 00:02:09.840 align:start position:0%
+fancy right. And let's assume that we
+ 
+
+00:02:09.840 --> 00:02:11.910 align:start position:0%
+fancy right. And let's assume that we
+have<00:02:10.000><c> approximately</c><00:02:10.640><c> 2</c><00:02:10.800><c> milliseconds</c><00:02:11.680><c> for</c>
+
+00:02:11.910 --> 00:02:11.920 align:start position:0%
+have approximately 2 milliseconds for
+ 
+
+00:02:11.920 --> 00:02:15.190 align:start position:0%
+have approximately 2 milliseconds for
+our<00:02:12.160><c> policy.</c><00:02:13.200><c> And</c><00:02:14.160><c> this</c><00:02:14.400><c> is</c><00:02:14.640><c> what</c><00:02:14.879><c> we</c><00:02:15.040><c> should</c>
+
+00:02:15.190 --> 00:02:15.200 align:start position:0%
+our policy. And this is what we should
+ 
+
+00:02:15.200 --> 00:02:17.190 align:start position:0%
+our policy. And this is what we should
+expect<00:02:15.440><c> to</c><00:02:15.599><c> see,</c><00:02:16.080><c> right?</c><00:02:16.239><c> Our</c><00:02:16.480><c> loops</c><00:02:16.800><c> running.</c>
+
+00:02:17.190 --> 00:02:17.200 align:start position:0%
+expect to see, right? Our loops running.
+ 
+
+00:02:17.200 --> 00:02:18.790 align:start position:0%
+expect to see, right? Our loops running.
+Every<00:02:17.520><c> 2</c><00:02:17.680><c> millisecond</c><00:02:18.160><c> we</c><00:02:18.319><c> are</c><00:02:18.400><c> able</c><00:02:18.560><c> to</c><00:02:18.720><c> see</c>
+
+00:02:18.790 --> 00:02:18.800 align:start position:0%
+Every 2 millisecond we are able to see
+ 
+
+00:02:18.800 --> 00:02:20.869 align:start position:0%
+Every 2 millisecond we are able to see
+our<00:02:18.959><c> policy</c><00:02:19.280><c> output.</c><00:02:19.840><c> We</c><00:02:20.080><c> read</c><00:02:20.239><c> data.</c><00:02:20.560><c> We</c><00:02:20.720><c> send</c>
+
+00:02:20.869 --> 00:02:20.879 align:start position:0%
+our policy output. We read data. We send
+ 
+
+00:02:20.879 --> 00:02:23.510 align:start position:0%
+our policy output. We read data. We send
+it<00:02:21.040><c> out.</c><00:02:21.840><c> Standard.</c><00:02:22.400><c> But</c><00:02:22.879><c> as</c><00:02:23.120><c> soon</c><00:02:23.280><c> as</c><00:02:23.360><c> we</c>
+
+00:02:23.510 --> 00:02:23.520 align:start position:0%
+it out. Standard. But as soon as we
+ 
+
+00:02:23.520 --> 00:02:25.830 align:start position:0%
+it out. Standard. But as soon as we
+deploy<00:02:23.680><c> it</c><00:02:23.840><c> on</c><00:02:24.000><c> the</c><00:02:24.160><c> robot,</c><00:02:25.280><c> this</c><00:02:25.440><c> is</c><00:02:25.599><c> what</c>
+
+00:02:25.830 --> 00:02:25.840 align:start position:0%
+deploy it on the robot, this is what
+ 
+
+00:02:25.840 --> 00:02:28.869 align:start position:0%
+deploy it on the robot, this is what
+happens.<00:02:27.120><c> There's</c><00:02:27.280><c> a</c><00:02:27.440><c> gap.</c><00:02:28.400><c> Every</c><00:02:28.640><c> two</c>
+
+00:02:28.869 --> 00:02:28.879 align:start position:0%
+happens. There's a gap. Every two
+ 
+
+00:02:28.879 --> 00:02:30.790 align:start position:0%
+happens. There's a gap. Every two
+milliseconds,<00:02:29.360><c> there's</c><00:02:29.520><c> a</c><00:02:29.680><c> gap.</c><00:02:30.480><c> Wait,</c>
+
+00:02:30.790 --> 00:02:30.800 align:start position:0%
+milliseconds, there's a gap. Wait,
+ 
+
+00:02:30.800 --> 00:02:32.949 align:start position:0%
+milliseconds, there's a gap. Wait,
+what's<00:02:31.040><c> going</c><00:02:31.200><c> on?</c><00:02:32.160><c> Well,</c><00:02:32.400><c> let's</c><00:02:32.560><c> look</c><00:02:32.720><c> at</c><00:02:32.800><c> the</c>
+
+00:02:32.949 --> 00:02:32.959 align:start position:0%
+what's going on? Well, let's look at the
+ 
+
+00:02:32.959 --> 00:02:35.350 align:start position:0%
+what's going on? Well, let's look at the
+loop<00:02:33.200><c> again.</c><00:02:33.599><c> So,</c><00:02:33.920><c> at</c><00:02:34.160><c> the</c><00:02:34.319><c> edge</c><00:02:34.480><c> of</c><00:02:34.560><c> the</c><00:02:34.720><c> loop,</c>
+
+00:02:35.350 --> 00:02:35.360 align:start position:0%
+loop again. So, at the edge of the loop,
+ 
+
+00:02:35.360 --> 00:02:36.949 align:start position:0%
+loop again. So, at the edge of the loop,
+we<00:02:35.599><c> have</c><00:02:35.760><c> question</c><00:02:36.080><c> marks.</c><00:02:36.400><c> We</c><00:02:36.560><c> see</c><00:02:36.720><c> that</c>
+
+00:02:36.949 --> 00:02:36.959 align:start position:0%
+we have question marks. We see that
+ 
+
+00:02:36.959 --> 00:02:38.470 align:start position:0%
+we have question marks. We see that
+we're<00:02:37.200><c> transmitting</c><00:02:37.680><c> and</c><00:02:37.840><c> receiving</c><00:02:38.160><c> CAN</c>
+
+00:02:38.470 --> 00:02:38.480 align:start position:0%
+we're transmitting and receiving CAN
+ 
+
+00:02:38.480 --> 00:02:40.390 align:start position:0%
+we're transmitting and receiving CAN
+data.<00:02:39.280><c> So,</c><00:02:39.440><c> let's</c><00:02:39.599><c> look</c><00:02:39.760><c> at</c><00:02:39.840><c> the</c><00:02:40.000><c> canvas.</c>
+
+00:02:40.390 --> 00:02:40.400 align:start position:0%
+data. So, let's look at the canvas.
+ 
+
+00:02:40.400 --> 00:02:42.949 align:start position:0%
+data. So, let's look at the canvas.
+Maybe<00:02:40.640><c> we'll</c><00:02:40.800><c> find</c><00:02:40.959><c> some</c><00:02:41.120><c> hints</c><00:02:41.440><c> there.</c>
+
+00:02:42.949 --> 00:02:42.959 align:start position:0%
+Maybe we'll find some hints there.
+ 
+
+00:02:42.959 --> 00:02:45.670 align:start position:0%
+Maybe we'll find some hints there.
+Okay.<00:02:43.920><c> So,</c><00:02:44.080><c> let's</c><00:02:44.319><c> say</c><00:02:44.480><c> we</c><00:02:44.720><c> have</c><00:02:44.800><c> 100</c><00:02:45.120><c> bits</c><00:02:45.440><c> per</c>
+
+00:02:45.670 --> 00:02:45.680 align:start position:0%
+Okay. So, let's say we have 100 bits per
+ 
+
+00:02:45.680 --> 00:02:47.670 align:start position:0%
+Okay. So, let's say we have 100 bits per
+message<00:02:46.160><c> and</c><00:02:46.400><c> we</c><00:02:46.640><c> have</c><00:02:46.720><c> about</c><00:02:46.959><c> 10</c><00:02:47.200><c> messages.</c>
+
+00:02:47.670 --> 00:02:47.680 align:start position:0%
+message and we have about 10 messages.
+ 
+
+00:02:47.680 --> 00:02:49.110 align:start position:0%
+message and we have about 10 messages.
+Five<00:02:47.920><c> to</c><00:02:48.080><c> be</c><00:02:48.160><c> sent</c><00:02:48.400><c> out,</c><00:02:48.640><c> five</c><00:02:48.800><c> to</c><00:02:48.959><c> be</c>
+
+00:02:49.110 --> 00:02:49.120 align:start position:0%
+Five to be sent out, five to be
+ 
+
+00:02:49.120 --> 00:02:51.030 align:start position:0%
+Five to be sent out, five to be
+received.<00:02:50.000><c> That</c><00:02:50.239><c> gives</c><00:02:50.400><c> us</c><00:02:50.560><c> a</c><00:02:50.720><c> total</c><00:02:50.959><c> of</c>
+
+00:02:51.030 --> 00:02:51.040 align:start position:0%
+received. That gives us a total of
+ 
+
+00:02:51.040 --> 00:02:53.589 align:start position:0%
+received. That gives us a total of
+thousand<00:02:51.440><c> bits.</c><00:02:52.319><c> And</c><00:02:52.480><c> for</c><00:02:52.720><c> a</c><00:02:52.879><c> canvas</c><00:02:53.360><c> that's</c>
+
+00:02:53.589 --> 00:02:53.599 align:start position:0%
+thousand bits. And for a canvas that's
+ 
+
+00:02:53.599 --> 00:02:55.750 align:start position:0%
+thousand bits. And for a canvas that's
+operating<00:02:53.920><c> at</c><00:02:54.160><c> 1</c><00:02:54.400><c> megabit</c><00:02:54.879><c> per</c><00:02:55.120><c> second,</c>
+
+00:02:55.750 --> 00:02:55.760 align:start position:0%
+operating at 1 megabit per second,
+ 
+
+00:02:55.760 --> 00:02:57.589 align:start position:0%
+operating at 1 megabit per second,
+that's<00:02:56.000><c> about</c><00:02:56.400><c> 0.1</c><00:02:56.879><c> milliseconds</c><00:02:57.360><c> per</c>
+
+00:02:57.589 --> 00:02:57.599 align:start position:0%
+that's about 0.1 milliseconds per
+ 
+
+00:02:57.599 --> 00:02:59.589 align:start position:0%
+that's about 0.1 milliseconds per
+message<00:02:58.080><c> or</c><00:02:58.400><c> 1</c><00:02:58.640><c> milliseconds</c><00:02:59.200><c> for</c><00:02:59.360><c> 10</c>
+
+00:02:59.589 --> 00:02:59.599 align:start position:0%
+message or 1 milliseconds for 10
+ 
+
+00:02:59.599 --> 00:03:01.750 align:start position:0%
+message or 1 milliseconds for 10
+message.<00:03:00.480><c> You</c><00:03:00.720><c> can</c><00:03:00.800><c> see</c><00:03:00.959><c> like</c><00:03:01.200><c> how</c><00:03:01.360><c> even</c><00:03:01.519><c> a</c>
+
+00:03:01.750 --> 00:03:01.760 align:start position:0%
+message. You can see like how even a
+ 
+
+00:03:01.760 --> 00:03:03.509 align:start position:0%
+message. You can see like how even a
+small<00:03:02.000><c> number</c><00:03:02.159><c> of</c><00:03:02.319><c> messages</c><00:03:02.720><c> are</c><00:03:03.040><c> saturating</c>
+
+00:03:03.509 --> 00:03:03.519 align:start position:0%
+small number of messages are saturating
+ 
+
+00:03:03.519 --> 00:03:06.070 align:start position:0%
+small number of messages are saturating
+the<00:03:03.680><c> canvas</c><00:03:04.080><c> to</c><00:03:04.239><c> the</c><00:03:04.400><c> point</c><00:03:04.560><c> that</c><00:03:05.280><c> the</c><00:03:05.760><c> loop</c>
+
+00:03:06.070 --> 00:03:06.080 align:start position:0%
+the canvas to the point that the loop
+ 
+
+00:03:06.080 --> 00:03:07.910 align:start position:0%
+the canvas to the point that the loop
+time<00:03:06.480><c> the</c><00:03:06.640><c> how</c><00:03:06.800><c> much</c><00:03:06.959><c> our</c><00:03:07.200><c> system</c><00:03:07.440><c> takes</c><00:03:07.760><c> to</c>
+
+00:03:07.910 --> 00:03:07.920 align:start position:0%
+time the how much our system takes to
+ 
+
+00:03:07.920 --> 00:03:09.750 align:start position:0%
+time the how much our system takes to
+run<00:03:08.239><c> is</c><00:03:08.480><c> on</c><00:03:08.720><c> the</c><00:03:08.879><c> same</c><00:03:09.040><c> order</c><00:03:09.360><c> as</c><00:03:09.519><c> the</c>
+
+00:03:09.750 --> 00:03:09.760 align:start position:0%
+run is on the same order as the
+ 
+
+00:03:09.760 --> 00:03:11.990 align:start position:0%
+run is on the same order as the
+transmission<00:03:10.239><c> time.</c><00:03:11.120><c> And</c><00:03:11.360><c> this</c><00:03:11.519><c> explains</c><00:03:11.840><c> the</c>
+
+00:03:11.990 --> 00:03:12.000 align:start position:0%
+transmission time. And this explains the
+ 
+
+00:03:12.000 --> 00:03:14.630 align:start position:0%
+transmission time. And this explains the
+1<00:03:12.159><c> millcond</c><00:03:12.640><c> gap.</c><00:03:12.959><c> So</c><00:03:13.200><c> great,</c><00:03:14.000><c> but</c><00:03:14.239><c> then</c><00:03:14.480><c> what</c>
+
+00:03:14.630 --> 00:03:14.640 align:start position:0%
+1 millcond gap. So great, but then what
+ 
+
+00:03:14.640 --> 00:03:16.790 align:start position:0%
+1 millcond gap. So great, but then what
+to<00:03:14.720><c> do</c><00:03:14.879><c> about</c><00:03:15.040><c> it?</c><00:03:15.680><c> It's</c><00:03:15.920><c> like</c><00:03:16.319><c> it's</c><00:03:16.560><c> almost</c>
+
+00:03:16.790 --> 00:03:16.800 align:start position:0%
+to do about it? It's like it's almost
+ 
+
+00:03:16.800 --> 00:03:18.630 align:start position:0%
+to do about it? It's like it's almost
+unavoidable,<00:03:17.440><c> right?</c><00:03:17.760><c> we</c><00:03:18.000><c> cannot</c><00:03:18.239><c> go</c><00:03:18.400><c> around</c>
+
+00:03:18.630 --> 00:03:18.640 align:start position:0%
+unavoidable, right? we cannot go around
+ 
+
+00:03:18.640 --> 00:03:21.350 align:start position:0%
+unavoidable, right? we cannot go around
+this<00:03:18.800><c> 1</c><00:03:19.040><c> millcond</c><00:03:19.440><c> gap.</c><00:03:20.480><c> Well,</c><00:03:20.959><c> that's</c>
+
+00:03:21.350 --> 00:03:21.360 align:start position:0%
+this 1 millcond gap. Well, that's
+ 
+
+00:03:21.360 --> 00:03:23.110 align:start position:0%
+this 1 millcond gap. Well, that's
+solution<00:03:21.840><c> number</c><00:03:22.000><c> one.</c><00:03:22.319><c> We</c><00:03:22.560><c> just</c><00:03:22.720><c> accept</c><00:03:22.959><c> the</c>
+
+00:03:23.110 --> 00:03:23.120 align:start position:0%
+solution number one. We just accept the
+ 
+
+00:03:23.120 --> 00:03:25.110 align:start position:0%
+solution number one. We just accept the
+delay.<00:03:23.519><c> Hopefully,</c><00:03:23.840><c> it's</c><00:03:24.159><c> 3</c><00:03:24.319><c> millonds</c><00:03:24.879><c> and</c>
+
+00:03:25.110 --> 00:03:25.120 align:start position:0%
+delay. Hopefully, it's 3 millonds and
+ 
+
+00:03:25.120 --> 00:03:27.589 align:start position:0%
+delay. Hopefully, it's 3 millonds and
+that's<00:03:25.360><c> not</c><00:03:25.519><c> too</c><00:03:25.760><c> bad.</c><00:03:26.720><c> But</c><00:03:26.959><c> again,</c><00:03:27.200><c> a</c><00:03:27.440><c> system</c>
+
+00:03:27.589 --> 00:03:27.599 align:start position:0%
+that's not too bad. But again, a system
+ 
+
+00:03:27.599 --> 00:03:29.110 align:start position:0%
+that's not too bad. But again, a system
+would<00:03:27.840><c> not</c><00:03:27.920><c> be</c><00:03:28.080><c> high</c><00:03:28.239><c> performance</c><00:03:28.640><c> if</c><00:03:28.800><c> we</c><00:03:28.959><c> let</c>
+
+00:03:29.110 --> 00:03:29.120 align:start position:0%
+would not be high performance if we let
+ 
+
+00:03:29.120 --> 00:03:31.990 align:start position:0%
+would not be high performance if we let
+that<00:03:29.280><c> stop</c><00:03:29.519><c> us.</c><00:03:30.480><c> So,</c><00:03:30.959><c> we'll</c><00:03:31.200><c> multi</c><00:03:31.519><c> thread</c><00:03:31.840><c> and</c>
+
+00:03:31.990 --> 00:03:32.000 align:start position:0%
+that stop us. So, we'll multi thread and
+ 
+
+00:03:32.000 --> 00:03:34.149 align:start position:0%
+that stop us. So, we'll multi thread and
+we'll<00:03:32.239><c> pipeline.</c><00:03:33.040><c> We'll</c><00:03:33.360><c> try</c><00:03:33.519><c> to</c><00:03:33.599><c> figure</c><00:03:33.840><c> out</c>
+
+00:03:34.149 --> 00:03:34.159 align:start position:0%
+we'll pipeline. We'll try to figure out
+ 
+
+00:03:34.159 --> 00:03:35.430 align:start position:0%
+we'll pipeline. We'll try to figure out
+how<00:03:34.400><c> we</c><00:03:34.560><c> can</c><00:03:34.720><c> work</c><00:03:34.879><c> around</c><00:03:35.040><c> that</c><00:03:35.280><c> 1</c>
+
+00:03:35.430 --> 00:03:35.440 align:start position:0%
+how we can work around that 1
+ 
+
+00:03:35.440 --> 00:03:37.990 align:start position:0%
+how we can work around that 1
+milliseconds<00:03:36.480><c> and</c><00:03:36.799><c> see</c><00:03:36.959><c> how</c><00:03:37.200><c> we</c><00:03:37.440><c> can</c><00:03:37.680><c> sort</c><00:03:37.920><c> of</c>
+
+00:03:37.990 --> 00:03:38.000 align:start position:0%
+milliseconds and see how we can sort of
+ 
+
+00:03:38.000 --> 00:03:40.229 align:start position:0%
+milliseconds and see how we can sort of
+organize<00:03:38.480><c> our</c><00:03:38.640><c> tasks</c><00:03:39.040><c> differently</c><00:03:39.760><c> to</c><00:03:40.000><c> still</c>
+
+00:03:40.229 --> 00:03:40.239 align:start position:0%
+organize our tasks differently to still
+ 
+
+00:03:40.239 --> 00:03:42.149 align:start position:0%
+organize our tasks differently to still
+get<00:03:40.319><c> that</c><00:03:40.560><c> 2</c><00:03:40.799><c> millisecond</c><00:03:41.200><c> loop</c><00:03:41.440><c> time.</c><00:03:41.920><c> So</c>
+
+00:03:42.149 --> 00:03:42.159 align:start position:0%
+get that 2 millisecond loop time. So
+ 
+
+00:03:42.159 --> 00:03:43.830 align:start position:0%
+get that 2 millisecond loop time. So
+here<00:03:42.400><c> we'll</c><00:03:42.640><c> take</c><00:03:42.720><c> a</c><00:03:42.959><c> take</c><00:03:43.120><c> a</c><00:03:43.280><c> moment</c><00:03:43.440><c> to</c><00:03:43.599><c> pause</c>
+
+00:03:43.830 --> 00:03:43.840 align:start position:0%
+here we'll take a take a moment to pause
+ 
+
+00:03:43.840 --> 00:03:45.750 align:start position:0%
+here we'll take a take a moment to pause
+and<00:03:44.000><c> see</c><00:03:44.159><c> that</c><00:03:44.400><c> you</c><00:03:44.560><c> know</c><00:03:44.640><c> the</c><00:03:44.879><c> loop</c><00:03:45.360><c> it</c><00:03:45.519><c> has</c>
+
+00:03:45.750 --> 00:03:45.760 align:start position:0%
+and see that you know the loop it has
+ 
+
+00:03:45.760 --> 00:03:47.270 align:start position:0%
+and see that you know the loop it has
+multiple<00:03:46.080><c> components</c><00:03:46.560><c> broken</c><00:03:46.879><c> down</c><00:03:47.040><c> into</c>
+
+00:03:47.270 --> 00:03:47.280 align:start position:0%
+multiple components broken down into
+ 
+
+00:03:47.280 --> 00:03:50.229 align:start position:0%
+multiple components broken down into
+three<00:03:47.519><c> now</c><00:03:48.080><c> TX</c><00:03:48.080><c> px</c><00:03:48.480><c> RX</c><00:03:48.799><c> and</c><00:03:48.959><c> the</c><00:03:49.120><c> policy</c><00:03:50.000><c> and</c>
+
+00:03:50.229 --> 00:03:50.239 align:start position:0%
+three now TX px RX and the policy and
+ 
+
+00:03:50.239 --> 00:03:51.589 align:start position:0%
+three now TX px RX and the policy and
+we're<00:03:50.480><c> running</c><00:03:50.720><c> the</c><00:03:50.959><c> communication</c><00:03:51.360><c> in</c>
+
+00:03:51.589 --> 00:03:51.599 align:start position:0%
+we're running the communication in
+ 
+
+00:03:51.599 --> 00:03:53.350 align:start position:0%
+we're running the communication in
+different<00:03:51.840><c> thread</c><00:03:52.319><c> and</c><00:03:52.560><c> the</c><00:03:52.720><c> policy</c><00:03:53.040><c> in</c><00:03:53.200><c> a</c>
+
+00:03:53.350 --> 00:03:53.360 align:start position:0%
+different thread and the policy in a
+ 
+
+00:03:53.360 --> 00:03:54.949 align:start position:0%
+different thread and the policy in a
+different<00:03:53.519><c> thread</c><00:03:54.159><c> and</c><00:03:54.319><c> now</c><00:03:54.480><c> we'll</c><00:03:54.720><c> see</c><00:03:54.879><c> how</c>
+
+00:03:54.949 --> 00:03:54.959 align:start position:0%
+different thread and now we'll see how
+ 
+
+00:03:54.959 --> 00:03:56.869 align:start position:0%
+different thread and now we'll see how
+we'll<00:03:55.200><c> take</c><00:03:55.360><c> the</c><00:03:55.599><c> simple</c><00:03:55.840><c> building</c><00:03:56.159><c> block</c><00:03:56.560><c> and</c>
+
+00:03:56.869 --> 00:03:56.879 align:start position:0%
+we'll take the simple building block and
+ 
+
+00:03:56.879 --> 00:03:58.390 align:start position:0%
+we'll take the simple building block and
+stagger<00:03:57.280><c> it</c><00:03:57.439><c> so</c><00:03:57.680><c> that</c><00:03:57.840><c> we</c><00:03:58.000><c> can</c><00:03:58.159><c> actually</c>
+
+00:03:58.390 --> 00:03:58.400 align:start position:0%
+stagger it so that we can actually
+ 
+
+00:03:58.400 --> 00:04:01.350 align:start position:0%
+stagger it so that we can actually
+achieve<00:03:58.879><c> faster</c><00:03:59.280><c> loop</c><00:03:59.519><c> times</c><00:04:00.799><c> and</c><00:04:01.040><c> this</c><00:04:01.200><c> is</c>
+
+00:04:01.350 --> 00:04:01.360 align:start position:0%
+achieve faster loop times and this is
+ 
+
+00:04:01.360 --> 00:04:04.070 align:start position:0%
+achieve faster loop times and this is
+it.<00:04:02.080><c> So</c><00:04:02.319><c> what</c><00:04:02.480><c> we</c><00:04:02.640><c> do</c><00:04:02.799><c> we</c><00:04:03.040><c> seed</c><00:04:03.280><c> the</c><00:04:03.439><c> policy</c><00:04:03.840><c> the</c>
+
+00:04:04.070 --> 00:04:04.080 align:start position:0%
+it. So what we do we seed the policy the
+ 
+
+00:04:04.080 --> 00:04:06.229 align:start position:0%
+it. So what we do we seed the policy the
+first<00:04:04.239><c> time</c><00:04:04.640><c> we</c><00:04:04.879><c> get</c><00:04:05.120><c> some</c><00:04:05.280><c> data</c><00:04:05.760><c> we</c><00:04:05.920><c> feed</c><00:04:06.080><c> it</c>
+
+00:04:06.229 --> 00:04:06.239 align:start position:0%
+first time we get some data we feed it
+ 
+
+00:04:06.239 --> 00:04:08.869 align:start position:0%
+first time we get some data we feed it
+to<00:04:06.319><c> the</c><00:04:06.480><c> policy</c><00:04:07.360><c> but</c><00:04:07.680><c> before</c><00:04:08.000><c> we</c><00:04:08.400><c> conclude</c><00:04:08.720><c> the</c>
+
+00:04:08.869 --> 00:04:08.879 align:start position:0%
+to the policy but before we conclude the
+ 
+
+00:04:08.879 --> 00:04:10.550 align:start position:0%
+to the policy but before we conclude the
+policy<00:04:09.280><c> we</c><00:04:09.519><c> start</c><00:04:09.680><c> receiving</c><00:04:10.080><c> the</c><00:04:10.239><c> next</c><00:04:10.400><c> set</c>
+
+00:04:10.550 --> 00:04:10.560 align:start position:0%
+policy we start receiving the next set
+ 
+
+00:04:10.560 --> 00:04:12.149 align:start position:0%
+policy we start receiving the next set
+of<00:04:10.720><c> data</c><00:04:11.280><c> and</c><00:04:11.439><c> that's</c><00:04:11.680><c> for</c><00:04:11.840><c> the</c><00:04:12.000><c> next</c>
+
+00:04:12.149 --> 00:04:12.159 align:start position:0%
+of data and that's for the next
+ 
+
+00:04:12.159 --> 00:04:14.949 align:start position:0%
+of data and that's for the next
+iteration<00:04:13.360><c> when</c><00:04:13.599><c> the</c><00:04:13.760><c> next</c><00:04:13.920><c> iteration</c><00:04:14.400><c> starts</c>
+
+00:04:14.949 --> 00:04:14.959 align:start position:0%
+iteration when the next iteration starts
+ 
+
+00:04:14.959 --> 00:04:16.789 align:start position:0%
+iteration when the next iteration starts
+we<00:04:15.360><c> transmit</c><00:04:15.840><c> the</c><00:04:16.000><c> data</c><00:04:16.239><c> from</c><00:04:16.400><c> the</c><00:04:16.560><c> last</c>
+
+00:04:16.789 --> 00:04:16.799 align:start position:0%
+we transmit the data from the last
+ 
+
+00:04:16.799 --> 00:04:19.430 align:start position:0%
+we transmit the data from the last
+policy<00:04:17.680><c> and</c><00:04:17.919><c> we</c><00:04:18.160><c> continue</c><00:04:18.959><c> the</c><00:04:19.280><c> this</c>
+
+00:04:19.430 --> 00:04:19.440 align:start position:0%
+policy and we continue the this
+ 
+
+00:04:19.440 --> 00:04:21.990 align:start position:0%
+policy and we continue the this
+iteration<00:04:19.840><c> of</c><00:04:20.079><c> this</c><00:04:20.320><c> policy</c><00:04:21.440><c> essentially</c><00:04:21.840><c> we</c>
+
+00:04:21.990 --> 00:04:22.000 align:start position:0%
+iteration of this policy essentially we
+ 
+
+00:04:22.000 --> 00:04:24.629 align:start position:0%
+iteration of this policy essentially we
+have<00:04:22.160><c> parallelized</c><00:04:22.639><c> our</c><00:04:22.800><c> RX</c><00:04:23.120><c> and</c><00:04:23.280><c> TX</c><00:04:24.240><c> but</c>
+
+00:04:24.629 --> 00:04:24.639 align:start position:0%
+have parallelized our RX and TX but
+ 
+
+00:04:24.639 --> 00:04:26.310 align:start position:0%
+have parallelized our RX and TX but
+we're<00:04:24.880><c> still</c><00:04:25.040><c> receiving</c><00:04:25.440><c> data</c><00:04:25.759><c> for</c><00:04:26.000><c> the</c><00:04:26.240><c> same</c>
+
+00:04:26.310 --> 00:04:26.320 align:start position:0%
+we're still receiving data for the same
+ 
+
+00:04:26.320 --> 00:04:28.950 align:start position:0%
+we're still receiving data for the same
+policy<00:04:26.639><c> at</c><00:04:26.880><c> the</c><00:04:27.040><c> same</c><00:04:27.120><c> cadence</c><00:04:28.400><c> so</c><00:04:28.639><c> this</c><00:04:28.800><c> is</c>
+
+00:04:28.950 --> 00:04:28.960 align:start position:0%
+policy at the same cadence so this is
+ 
+
+00:04:28.960 --> 00:04:32.070 align:start position:0%
+policy at the same cadence so this is
+great<00:04:29.680><c> we</c><00:04:29.840><c> might</c><00:04:30.000><c> have</c><00:04:30.160><c> solved</c><00:04:30.400><c> our</c><00:04:30.560><c> problems</c>
+
+00:04:32.070 --> 00:04:32.080 align:start position:0%
+great we might have solved our problems
+ 
+
+00:04:32.080 --> 00:04:34.870 align:start position:0%
+great we might have solved our problems
+Let's<00:04:32.320><c> move</c><00:04:32.560><c> on.</c><00:04:33.840><c> So,</c><00:04:34.000><c> we</c><00:04:34.160><c> deploy</c><00:04:34.479><c> the</c><00:04:34.639><c> system</c>
+
+00:04:34.870 --> 00:04:34.880 align:start position:0%
+Let's move on. So, we deploy the system
+ 
+
+00:04:34.880 --> 00:04:37.350 align:start position:0%
+Let's move on. So, we deploy the system
+on<00:04:35.040><c> the</c><00:04:35.199><c> robot</c><00:04:36.080><c> and</c><00:04:36.320><c> now</c><00:04:36.479><c> we</c><00:04:36.720><c> see</c><00:04:37.040><c> new</c>
+
+00:04:37.350 --> 00:04:37.360 align:start position:0%
+on the robot and now we see new
+ 
+
+00:04:37.360 --> 00:04:39.749 align:start position:0%
+on the robot and now we see new
+problems.<00:04:38.000><c> Our</c><00:04:38.240><c> system</c><00:04:38.479><c> is</c><00:04:38.720><c> stuttering.</c><00:04:39.520><c> Our</c>
+
+00:04:39.749 --> 00:04:39.759 align:start position:0%
+problems. Our system is stuttering. Our
+ 
+
+00:04:39.759 --> 00:04:41.510 align:start position:0%
+problems. Our system is stuttering. Our
+actuators<00:04:40.240><c> are</c><00:04:40.479><c> making</c><00:04:40.960><c> sounds</c><00:04:41.280><c> like</c>
+
+00:04:41.510 --> 00:04:41.520 align:start position:0%
+actuators are making sounds like
+ 
+
+00:04:41.520 --> 00:04:43.749 align:start position:0%
+actuators are making sounds like
+catching<00:04:41.840><c> up</c><00:04:42.000><c> or</c><00:04:42.240><c> like</c><00:04:42.479><c> we're</c><00:04:42.800><c> seeing</c><00:04:43.360><c> weird</c>
+
+00:04:43.749 --> 00:04:43.759 align:start position:0%
+catching up or like we're seeing weird
+ 
+
+00:04:43.759 --> 00:04:45.909 align:start position:0%
+catching up or like we're seeing weird
+motions<00:04:44.080><c> on</c><00:04:44.240><c> the</c><00:04:44.320><c> actuator.</c><00:04:45.280><c> This</c><00:04:45.440><c> has</c><00:04:45.600><c> to</c><00:04:45.759><c> be</c>
+
+00:04:45.909 --> 00:04:45.919 align:start position:0%
+motions on the actuator. This has to be
+ 
+
+00:04:45.919 --> 00:04:47.270 align:start position:0%
+motions on the actuator. This has to be
+policy.<00:04:46.320><c> There's</c><00:04:46.560><c> no</c><00:04:46.639><c> way</c><00:04:46.800><c> this</c><00:04:46.960><c> can</c><00:04:47.120><c> be</c>
+
+00:04:47.270 --> 00:04:47.280 align:start position:0%
+policy. There's no way this can be
+ 
+
+00:04:47.280 --> 00:04:50.070 align:start position:0%
+policy. There's no way this can be
+software.<00:04:48.400><c> Well,</c><00:04:49.040><c> let's</c><00:04:49.280><c> investigate</c><00:04:49.840><c> more.</c>
+
+00:04:50.070 --> 00:04:50.080 align:start position:0%
+software. Well, let's investigate more.
+ 
+
+00:04:50.080 --> 00:04:51.270 align:start position:0%
+software. Well, let's investigate more.
+Let's<00:04:50.240><c> get</c><00:04:50.400><c> some</c><00:04:50.560><c> more</c><00:04:50.720><c> data</c><00:04:50.960><c> from</c><00:04:51.120><c> the</c>
+
+00:04:51.270 --> 00:04:51.280 align:start position:0%
+Let's get some more data from the
+ 
+
+00:04:51.280 --> 00:04:52.950 align:start position:0%
+Let's get some more data from the
+canvas.
+
+00:04:52.950 --> 00:04:52.960 align:start position:0%
+canvas.
+ 
+
+00:04:52.960 --> 00:04:55.909 align:start position:0%
+canvas.
+So,<00:04:54.240><c> again,</c><00:04:54.560><c> like</c><00:04:54.800><c> here</c><00:04:54.960><c> we</c><00:04:55.199><c> have</c><00:04:55.280><c> our</c><00:04:55.520><c> canvas</c>
+
+00:04:55.909 --> 00:04:55.919 align:start position:0%
+So, again, like here we have our canvas
+ 
+
+00:04:55.919 --> 00:04:58.310 align:start position:0%
+So, again, like here we have our canvas
+again<00:04:56.400><c> and</c><00:04:56.639><c> we</c><00:04:56.800><c> see</c><00:04:56.960><c> our</c><00:04:57.120><c> CPU,</c><00:04:57.520><c> GPU,</c><00:04:58.000><c> all</c><00:04:58.160><c> our</c>
+
+00:04:58.310 --> 00:04:58.320 align:start position:0%
+again and we see our CPU, GPU, all our
+ 
+
+00:04:58.320 --> 00:05:00.870 align:start position:0%
+again and we see our CPU, GPU, all our
+accelerators.<00:04:59.759><c> And</c><00:05:00.000><c> what</c><00:05:00.240><c> we'll</c><00:05:00.400><c> try</c><00:05:00.560><c> to</c><00:05:00.720><c> do</c>
+
+00:05:00.870 --> 00:05:00.880 align:start position:0%
+accelerators. And what we'll try to do
+ 
+
+00:05:00.880 --> 00:05:02.870 align:start position:0%
+accelerators. And what we'll try to do
+is<00:05:01.199><c> get</c><00:05:01.360><c> an</c><00:05:01.600><c> external</c><00:05:02.000><c> transceiver.</c><00:05:02.639><c> These</c>
+
+00:05:02.870 --> 00:05:02.880 align:start position:0%
+is get an external transceiver. These
+ 
+
+00:05:02.880 --> 00:05:04.390 align:start position:0%
+is get an external transceiver. These
+are<00:05:03.040><c> again</c><00:05:03.280><c> very</c><00:05:03.520><c> cheap,</c><00:05:03.759><c> very</c><00:05:03.919><c> open</c><00:05:04.160><c> source</c>
+
+00:05:04.390 --> 00:05:04.400 align:start position:0%
+are again very cheap, very open source
+ 
+
+00:05:04.400 --> 00:05:06.310 align:start position:0%
+are again very cheap, very open source
+products<00:05:04.720><c> that</c><00:05:04.880><c> you</c><00:05:05.040><c> can</c><00:05:05.120><c> get</c><00:05:05.360><c> anywhere.</c><00:05:06.160><c> And</c>
+
+00:05:06.310 --> 00:05:06.320 align:start position:0%
+products that you can get anywhere. And
+ 
+
+00:05:06.320 --> 00:05:08.310 align:start position:0%
+products that you can get anywhere. And
+we<00:05:06.479><c> connect</c><00:05:06.720><c> it</c><00:05:06.800><c> to</c><00:05:06.960><c> the</c><00:05:07.120><c> canvas</c><00:05:07.759><c> and</c><00:05:08.000><c> we</c><00:05:08.160><c> get</c>
+
+00:05:08.310 --> 00:05:08.320 align:start position:0%
+we connect it to the canvas and we get
+ 
+
+00:05:08.320 --> 00:05:10.950 align:start position:0%
+we connect it to the canvas and we get
+data<00:05:08.720><c> off</c><00:05:08.800><c> the</c><00:05:08.960><c> canvas.</c><00:05:10.080><c> We</c><00:05:10.240><c> take</c><00:05:10.479><c> this</c><00:05:10.639><c> data,</c>
+
+00:05:10.950 --> 00:05:10.960 align:start position:0%
+data off the canvas. We take this data,
+ 
+
+00:05:10.960 --> 00:05:12.469 align:start position:0%
+data off the canvas. We take this data,
+we<00:05:11.120><c> feed</c><00:05:11.280><c> it</c><00:05:11.360><c> to</c><00:05:11.520><c> another</c><00:05:11.759><c> host</c><00:05:12.080><c> computer,</c>
+
+00:05:12.469 --> 00:05:12.479 align:start position:0%
+we feed it to another host computer,
+ 
+
+00:05:12.479 --> 00:05:14.550 align:start position:0%
+we feed it to another host computer,
+let's<00:05:12.639><c> say</c><00:05:12.720><c> a</c><00:05:12.880><c> laptop.</c><00:05:13.680><c> And</c><00:05:13.840><c> on</c><00:05:14.080><c> there</c><00:05:14.240><c> we</c><00:05:14.479><c> can</c>
+
+00:05:14.550 --> 00:05:14.560 align:start position:0%
+let's say a laptop. And on there we can
+ 
+
+00:05:14.560 --> 00:05:16.469 align:start position:0%
+let's say a laptop. And on there we can
+run<00:05:14.800><c> utilities</c><00:05:15.199><c> like</c><00:05:15.440><c> can</c><00:05:15.680><c> dump</c><00:05:16.080><c> which</c><00:05:16.240><c> will</c>
+
+00:05:16.469 --> 00:05:16.479 align:start position:0%
+run utilities like can dump which will
+ 
+
+00:05:16.479 --> 00:05:18.070 align:start position:0%
+run utilities like can dump which will
+actually<00:05:16.720><c> give</c><00:05:16.880><c> you</c><00:05:16.960><c> a</c><00:05:17.120><c> timestamp</c><00:05:17.680><c> data</c><00:05:17.919><c> of</c>
+
+00:05:18.070 --> 00:05:18.080 align:start position:0%
+actually give you a timestamp data of
+ 
+
+00:05:18.080 --> 00:05:20.790 align:start position:0%
+actually give you a timestamp data of
+what<00:05:18.320><c> message</c><00:05:18.720><c> was</c><00:05:18.960><c> seen</c><00:05:19.120><c> at</c><00:05:19.360><c> what</c><00:05:19.520><c> time.</c><00:05:20.639><c> So</c>
+
+00:05:20.790 --> 00:05:20.800 align:start position:0%
+what message was seen at what time. So
+ 
+
+00:05:20.800 --> 00:05:23.590 align:start position:0%
+what message was seen at what time. So
+once<00:05:21.039><c> we</c><00:05:21.199><c> get</c><00:05:21.280><c> this</c><00:05:21.520><c> raw</c><00:05:21.759><c> data</c><00:05:22.240><c> off</c><00:05:22.320><c> the</c><00:05:22.560><c> bus,</c>
+
+00:05:23.590 --> 00:05:23.600 align:start position:0%
+once we get this raw data off the bus,
+ 
+
+00:05:23.600 --> 00:05:25.670 align:start position:0%
+once we get this raw data off the bus,
+we<00:05:23.840><c> can</c><00:05:24.000><c> start</c><00:05:24.160><c> plotting</c><00:05:24.560><c> it.</c><00:05:25.199><c> And</c><00:05:25.440><c> this</c><00:05:25.600><c> is</c>
+
+00:05:25.670 --> 00:05:25.680 align:start position:0%
+we can start plotting it. And this is
+ 
+
+00:05:25.680 --> 00:05:27.670 align:start position:0%
+we can start plotting it. And this is
+what<00:05:25.919><c> we</c><00:05:26.080><c> should</c><00:05:26.240><c> expect</c><00:05:26.880><c> that</c><00:05:27.199><c> every</c><00:05:27.440><c> 2</c>
+
+00:05:27.670 --> 00:05:27.680 align:start position:0%
+what we should expect that every 2
+ 
+
+00:05:27.680 --> 00:05:29.749 align:start position:0%
+what we should expect that every 2
+milliseconds<00:05:28.400><c> we</c><00:05:28.720><c> have</c><00:05:28.880><c> a</c><00:05:29.120><c> message</c><00:05:29.360><c> on</c><00:05:29.600><c> the</c>
+
+00:05:29.749 --> 00:05:29.759 align:start position:0%
+milliseconds we have a message on the
+ 
+
+00:05:29.759 --> 00:05:32.310 align:start position:0%
+milliseconds we have a message on the
+bus<00:05:30.080><c> that</c><00:05:30.320><c> is</c><00:05:30.400><c> being</c><00:05:30.639><c> sent</c><00:05:30.800><c> out</c><00:05:31.680><c> right</c><00:05:32.160><c> should</c>
+
+00:05:32.310 --> 00:05:32.320 align:start position:0%
+bus that is being sent out right should
+ 
+
+00:05:32.320 --> 00:05:34.469 align:start position:0%
+bus that is being sent out right should
+be<00:05:32.400><c> very</c><00:05:32.720><c> nicely</c><00:05:33.039><c> spaced</c><00:05:33.840><c> and</c><00:05:34.080><c> it</c><00:05:34.320><c> should</c>
+
+00:05:34.469 --> 00:05:34.479 align:start position:0%
+be very nicely spaced and it should
+ 
+
+00:05:34.479 --> 00:05:36.629 align:start position:0%
+be very nicely spaced and it should
+reach<00:05:34.639><c> the</c><00:05:34.800><c> actuators</c><00:05:35.280><c> in</c><00:05:35.440><c> time</c><00:05:35.840><c> and</c><00:05:36.320><c> this</c><00:05:36.560><c> is</c>
+
+00:05:36.629 --> 00:05:36.639 align:start position:0%
+reach the actuators in time and this is
+ 
+
+00:05:36.639 --> 00:05:38.070 align:start position:0%
+reach the actuators in time and this is
+if<00:05:36.800><c> they</c><00:05:36.960><c> see</c><00:05:37.120><c> this</c><00:05:37.280><c> on</c><00:05:37.360><c> the</c><00:05:37.520><c> bus</c><00:05:37.680><c> we're</c><00:05:37.919><c> really</c>
+
+00:05:38.070 --> 00:05:38.080 align:start position:0%
+if they see this on the bus we're really
+ 
+
+00:05:38.080 --> 00:05:40.310 align:start position:0%
+if they see this on the bus we're really
+happy.<00:05:39.039><c> Now</c><00:05:39.280><c> what</c><00:05:39.520><c> happens</c><00:05:39.759><c> a</c><00:05:40.000><c> lot</c><00:05:40.080><c> of</c><00:05:40.160><c> the</c>
+
+00:05:40.310 --> 00:05:40.320 align:start position:0%
+happy. Now what happens a lot of the
+ 
+
+00:05:40.320 --> 00:05:42.870 align:start position:0%
+happy. Now what happens a lot of the
+times<00:05:40.560><c> in</c><00:05:40.800><c> systems</c><00:05:41.199><c> is</c><00:05:41.440><c> you'll</c><00:05:41.759><c> not</c><00:05:41.919><c> see</c><00:05:42.080><c> this</c>
+
+00:05:42.870 --> 00:05:42.880 align:start position:0%
+times in systems is you'll not see this
+ 
+
+00:05:42.880 --> 00:05:45.350 align:start position:0%
+times in systems is you'll not see this
+you'll<00:05:43.120><c> see</c><00:05:43.280><c> something</c><00:05:43.520><c> like</c><00:05:43.759><c> this</c><00:05:45.039><c> here</c>
+
+00:05:45.350 --> 00:05:45.360 align:start position:0%
+you'll see something like this here
+ 
+
+00:05:45.360 --> 00:05:46.870 align:start position:0%
+you'll see something like this here
+we'll<00:05:45.600><c> see</c><00:05:45.759><c> like</c><00:05:46.000><c> between</c><00:05:46.320><c> message</c><00:05:46.720><c> number</c>
+
+00:05:46.870 --> 00:05:46.880 align:start position:0%
+we'll see like between message number
+ 
+
+00:05:46.880 --> 00:05:49.749 align:start position:0%
+we'll see like between message number
+three<00:05:47.120><c> and</c><00:05:47.360><c> four</c><00:05:47.759><c> there's</c><00:05:48.160><c> almost</c><00:05:48.560><c> no</c><00:05:48.800><c> gap.</c>
+
+00:05:49.749 --> 00:05:49.759 align:start position:0%
+three and four there's almost no gap.
+ 
+
+00:05:49.759 --> 00:05:51.830 align:start position:0%
+three and four there's almost no gap.
+What<00:05:50.000><c> happened</c><00:05:50.240><c> there?</c><00:05:50.960><c> And</c><00:05:51.120><c> between</c><00:05:51.440><c> two</c><00:05:51.680><c> and</c>
+
+00:05:51.830 --> 00:05:51.840 align:start position:0%
+What happened there? And between two and
+ 
+
+00:05:51.840 --> 00:05:54.310 align:start position:0%
+What happened there? And between two and
+three<00:05:52.320><c> there's</c><00:05:52.639><c> four</c><00:05:52.960><c> milliseconds</c><00:05:53.440><c> of</c><00:05:53.600><c> gap.</c>
+
+00:05:54.310 --> 00:05:54.320 align:start position:0%
+three there's four milliseconds of gap.
+ 
+
+00:05:54.320 --> 00:05:55.830 align:start position:0%
+three there's four milliseconds of gap.
+It's<00:05:54.560><c> almost</c><00:05:54.800><c> like</c><00:05:55.039><c> message</c><00:05:55.360><c> number</c><00:05:55.600><c> three</c>
+
+00:05:55.830 --> 00:05:55.840 align:start position:0%
+It's almost like message number three
+ 
+
+00:05:55.840 --> 00:05:58.629 align:start position:0%
+It's almost like message number three
+was<00:05:56.080><c> just</c><00:05:56.639><c> late</c><00:05:57.280><c> and</c><00:05:57.600><c> four</c><00:05:57.919><c> was</c><00:05:58.080><c> on</c><00:05:58.240><c> time</c><00:05:58.400><c> and</c>
+
+00:05:58.629 --> 00:05:58.639 align:start position:0%
+was just late and four was on time and
+ 
+
+00:05:58.639 --> 00:06:01.430 align:start position:0%
+was just late and four was on time and
+because<00:05:58.880><c> of</c><00:05:59.039><c> that</c><00:05:59.680><c> we</c><00:05:59.919><c> had</c><00:06:00.080><c> this</c><00:06:00.320><c> weird</c><00:06:01.120><c> weird</c>
+
+00:06:01.430 --> 00:06:01.440 align:start position:0%
+because of that we had this weird weird
+ 
+
+00:06:01.440 --> 00:06:03.110 align:start position:0%
+because of that we had this weird weird
+jitter<00:06:01.759><c> where</c><00:06:02.000><c> the</c><00:06:02.240><c> actuator</c><00:06:02.639><c> would</c><00:06:02.800><c> try</c><00:06:02.960><c> to</c>
+
+00:06:03.110 --> 00:06:03.120 align:start position:0%
+jitter where the actuator would try to
+ 
+
+00:06:03.120 --> 00:06:05.590 align:start position:0%
+jitter where the actuator would try to
+catch<00:06:03.360><c> up</c><00:06:03.600><c> or</c><00:06:04.240><c> have</c><00:06:04.560><c> try</c><00:06:04.720><c> to</c><00:06:04.880><c> command</c><00:06:05.199><c> like</c><00:06:05.360><c> try</c>
+
+00:06:05.590 --> 00:06:05.600 align:start position:0%
+catch up or have try to command like try
+ 
+
+00:06:05.600 --> 00:06:08.390 align:start position:0%
+catch up or have try to command like try
+to<00:06:05.680><c> follow</c><00:06:05.919><c> two</c><00:06:06.160><c> commands</c><00:06:06.479><c> at</c><00:06:06.720><c> the</c><00:06:06.880><c> same</c><00:06:07.039><c> time.</c>
+
+00:06:08.390 --> 00:06:08.400 align:start position:0%
+to follow two commands at the same time.
+ 
+
+00:06:08.400 --> 00:06:09.990 align:start position:0%
+to follow two commands at the same time.
+Okay,<00:06:08.720><c> same</c><00:06:08.960><c> thing</c><00:06:09.120><c> happened</c><00:06:09.360><c> with</c><00:06:09.520><c> seven</c><00:06:09.759><c> and</c>
+
+00:06:09.990 --> 00:06:10.000 align:start position:0%
+Okay, same thing happened with seven and
+ 
+
+00:06:10.000 --> 00:06:12.150 align:start position:0%
+Okay, same thing happened with seven and
+eight.<00:06:10.639><c> So</c><00:06:10.800><c> let's</c><00:06:11.039><c> take</c><00:06:11.120><c> a</c><00:06:11.280><c> deeper</c><00:06:11.600><c> look</c><00:06:11.840><c> but</c>
+
+00:06:12.150 --> 00:06:12.160 align:start position:0%
+eight. So let's take a deeper look but
+ 
+
+00:06:12.160 --> 00:06:14.469 align:start position:0%
+eight. So let's take a deeper look but
+first<00:06:12.479><c> let's</c><00:06:12.800><c> try</c><00:06:13.120><c> plot</c><00:06:13.440><c> this</c><00:06:13.680><c> differently.</c>
+
+00:06:14.469 --> 00:06:14.479 align:start position:0%
+first let's try plot this differently.
+ 
+
+00:06:14.479 --> 00:06:16.070 align:start position:0%
+first let's try plot this differently.
+So<00:06:14.720><c> there's</c><00:06:14.960><c> this</c><00:06:15.120><c> plot</c><00:06:15.440><c> called</c><00:06:15.680><c> the</c><00:06:15.759><c> cycle</c>
+
+00:06:16.070 --> 00:06:16.080 align:start position:0%
+So there's this plot called the cycle
+ 
+
+00:06:16.080 --> 00:06:18.870 align:start position:0%
+So there's this plot called the cycle
+time<00:06:16.319><c> plot</c><00:06:16.880><c> and</c><00:06:17.280><c> where</c><00:06:17.520><c> what</c><00:06:17.680><c> we</c><00:06:17.840><c> plot</c><00:06:18.160><c> here</c><00:06:18.560><c> is</c>
+
+00:06:18.870 --> 00:06:18.880 align:start position:0%
+time plot and where what we plot here is
+ 
+
+00:06:18.880 --> 00:06:21.909 align:start position:0%
+time plot and where what we plot here is
+the<00:06:19.199><c> time</c><00:06:19.440><c> since</c><00:06:19.840><c> last</c><00:06:20.160><c> message.</c><00:06:21.280><c> time</c><00:06:21.600><c> since</c>
+
+00:06:21.909 --> 00:06:21.919 align:start position:0%
+the time since last message. time since
+ 
+
+00:06:21.919 --> 00:06:24.550 align:start position:0%
+the time since last message. time since
+last<00:06:22.080><c> message</c><00:06:22.639><c> is</c><00:06:22.960><c> just</c><00:06:23.520><c> a</c><00:06:23.759><c> way</c><00:06:23.919><c> to</c><00:06:24.160><c> say</c><00:06:24.319><c> like</c>
+
+00:06:24.550 --> 00:06:24.560 align:start position:0%
+last message is just a way to say like
+ 
+
+00:06:24.560 --> 00:06:26.309 align:start position:0%
+last message is just a way to say like
+hey<00:06:25.199><c> last</c><00:06:25.440><c> message</c><00:06:25.759><c> came</c><00:06:25.919><c> in</c><00:06:26.000><c> at</c><00:06:26.160><c> 2</c>
+
+00:06:26.309 --> 00:06:26.319 align:start position:0%
+hey last message came in at 2
+ 
+
+00:06:26.319 --> 00:06:27.909 align:start position:0%
+hey last message came in at 2
+milliseconds<00:06:26.960><c> interval</c><00:06:27.440><c> this</c><00:06:27.600><c> one</c><00:06:27.759><c> should</c>
+
+00:06:27.909 --> 00:06:27.919 align:start position:0%
+milliseconds interval this one should
+ 
+
+00:06:27.919 --> 00:06:29.430 align:start position:0%
+milliseconds interval this one should
+also<00:06:28.080><c> come</c><00:06:28.160><c> at</c><00:06:28.319><c> 2</c><00:06:28.479><c> milliseconds</c><00:06:28.960><c> so</c><00:06:29.039><c> we</c><00:06:29.199><c> should</c>
+
+00:06:29.430 --> 00:06:29.440 align:start position:0%
+also come at 2 milliseconds so we should
+ 
+
+00:06:29.440 --> 00:06:30.790 align:start position:0%
+also come at 2 milliseconds so we should
+see<00:06:29.600><c> a</c><00:06:29.759><c> straight</c><00:06:30.000><c> line</c><00:06:30.160><c> around</c><00:06:30.400><c> the</c><00:06:30.560><c> 2</c>
+
+00:06:30.790 --> 00:06:30.800 align:start position:0%
+see a straight line around the 2
+ 
+
+00:06:30.800 --> 00:06:33.510 align:start position:0%
+see a straight line around the 2
+millisecond<00:06:31.280><c> mark</c><00:06:32.240><c> but</c><00:06:32.479><c> here</c><00:06:32.720><c> we</c><00:06:32.960><c> see</c><00:06:33.199><c> some</c>
+
+00:06:33.510 --> 00:06:33.520 align:start position:0%
+millisecond mark but here we see some
+ 
+
+00:06:33.520 --> 00:06:35.909 align:start position:0%
+millisecond mark but here we see some
+messages<00:06:34.000><c> jump</c><00:06:34.319><c> at</c><00:06:34.639><c> 4</c><00:06:34.880><c> milliseconds</c><00:06:35.520><c> and</c><00:06:35.759><c> the</c>
+
+00:06:35.909 --> 00:06:35.919 align:start position:0%
+messages jump at 4 milliseconds and the
+ 
+
+00:06:35.919 --> 00:06:38.070 align:start position:0%
+messages jump at 4 milliseconds and the
+one<00:06:36.080><c> after</c><00:06:36.319><c> that</c><00:06:36.479><c> comes</c><00:06:36.720><c> to</c><00:06:36.880><c> zero</c><00:06:37.759><c> this</c><00:06:37.919><c> is</c>
+
+00:06:38.070 --> 00:06:38.080 align:start position:0%
+one after that comes to zero this is
+ 
+
+00:06:38.080 --> 00:06:40.950 align:start position:0%
+one after that comes to zero this is
+expected<00:06:39.120><c> because</c><00:06:39.680><c> if</c><00:06:39.919><c> a</c><00:06:40.160><c> message</c><00:06:40.400><c> is</c><00:06:40.560><c> delayed</c>
+
+00:06:40.950 --> 00:06:40.960 align:start position:0%
+expected because if a message is delayed
+ 
+
+00:06:40.960 --> 00:06:42.790 align:start position:0%
+expected because if a message is delayed
+the<00:06:41.199><c> cycle</c><00:06:41.440><c> time</c><00:06:41.600><c> for</c><00:06:41.840><c> that</c><00:06:42.000><c> would</c><00:06:42.160><c> be</c><00:06:42.240><c> late</c>
+
+00:06:42.790 --> 00:06:42.800 align:start position:0%
+the cycle time for that would be late
+ 
+
+00:06:42.800 --> 00:06:44.309 align:start position:0%
+the cycle time for that would be late
+but<00:06:42.960><c> then</c><00:06:43.120><c> then</c><00:06:43.280><c> for</c><00:06:43.440><c> the</c><00:06:43.600><c> next</c><00:06:43.759><c> one</c><00:06:44.000><c> it</c><00:06:44.160><c> would</c>
+
+00:06:44.309 --> 00:06:44.319 align:start position:0%
+but then then for the next one it would
+ 
+
+00:06:44.319 --> 00:06:46.550 align:start position:0%
+but then then for the next one it would
+be<00:06:44.479><c> much</c><00:06:44.800><c> closer</c><00:06:45.199><c> to</c><00:06:45.440><c> zero</c><00:06:45.759><c> because</c><00:06:46.080><c> that</c><00:06:46.319><c> one</c>
+
+00:06:46.550 --> 00:06:46.560 align:start position:0%
+be much closer to zero because that one
+ 
+
+00:06:46.560 --> 00:06:48.070 align:start position:0%
+be much closer to zero because that one
+was<00:06:46.720><c> not</c><00:06:46.880><c> late</c><00:06:47.199><c> and</c><00:06:47.360><c> the</c><00:06:47.520><c> difference</c><00:06:47.759><c> between</c>
+
+00:06:48.070 --> 00:06:48.080 align:start position:0%
+was not late and the difference between
+ 
+
+00:06:48.080 --> 00:06:49.909 align:start position:0%
+was not late and the difference between
+the<00:06:48.240><c> last</c><00:06:48.479><c> message</c><00:06:48.720><c> and</c><00:06:48.880><c> the</c><00:06:49.120><c> current</c><00:06:49.280><c> one</c><00:06:49.520><c> is</c>
+
+00:06:49.909 --> 00:06:49.919 align:start position:0%
+the last message and the current one is
+ 
+
+00:06:49.919 --> 00:06:52.309 align:start position:0%
+the last message and the current one is
+basically<00:06:50.479><c> nothing.</c><00:06:51.440><c> Okay,</c><00:06:51.759><c> so</c><00:06:52.000><c> now</c><00:06:52.160><c> we</c>
+
+00:06:52.309 --> 00:06:52.319 align:start position:0%
+basically nothing. Okay, so now we
+ 
+
+00:06:52.319 --> 00:06:54.390 align:start position:0%
+basically nothing. Okay, so now we
+characterize<00:06:52.800><c> the</c><00:06:53.039><c> system.</c><00:06:53.840><c> We</c><00:06:54.000><c> know</c><00:06:54.160><c> what's</c>
+
+00:06:54.390 --> 00:06:54.400 align:start position:0%
+characterize the system. We know what's
+ 
+
+00:06:54.400 --> 00:06:57.430 align:start position:0%
+characterize the system. We know what's
+going<00:06:54.560><c> on</c><00:06:54.880><c> and</c><00:06:55.120><c> we</c><00:06:55.280><c> can</c><00:06:55.440><c> start</c><00:06:55.680><c> solving</c><00:06:56.000><c> it.</c>
+
+00:06:57.430 --> 00:06:57.440 align:start position:0%
+going on and we can start solving it.
+ 
+
+00:06:57.440 --> 00:06:59.909 align:start position:0%
+going on and we can start solving it.
+But<00:06:58.240><c> this</c><00:06:58.479><c> is</c><00:06:58.639><c> what's</c><00:06:58.960><c> going</c><00:06:59.120><c> on</c><00:06:59.199><c> with</c><00:06:59.360><c> the</c><00:06:59.520><c> TX</c>
+
+00:06:59.909 --> 00:06:59.919 align:start position:0%
+But this is what's going on with the TX
+ 
+
+00:06:59.919 --> 00:07:02.469 align:start position:0%
+But this is what's going on with the TX
+side.<00:07:00.639><c> So</c><00:07:00.800><c> let's</c><00:07:01.039><c> see.</c><00:07:01.599><c> So</c><00:07:01.759><c> we</c><00:07:01.919><c> miss</c><00:07:02.240><c> sending</c>
+
+00:07:02.469 --> 00:07:02.479 align:start position:0%
+side. So let's see. So we miss sending
+ 
+
+00:07:02.479 --> 00:07:04.469 align:start position:0%
+side. So let's see. So we miss sending
+the<00:07:02.720><c> data</c><00:07:02.880><c> and</c><00:07:03.120><c> cued</c><00:07:03.440><c> it.</c><00:07:03.840><c> Why</c><00:07:04.080><c> would</c><00:07:04.240><c> that</c>
+
+00:07:04.469 --> 00:07:04.479 align:start position:0%
+the data and cued it. Why would that
+ 
+
+00:07:04.479 --> 00:07:07.589 align:start position:0%
+the data and cued it. Why would that
+happen?<00:07:05.440><c> Well,</c><00:07:05.759><c> policies</c><00:07:06.319><c> are</c><00:07:06.639><c> not</c><00:07:06.960><c> very</c><00:07:07.280><c> real</c>
+
+00:07:07.589 --> 00:07:07.599 align:start position:0%
+happen? Well, policies are not very real
+ 
+
+00:07:07.599 --> 00:07:09.189 align:start position:0%
+happen? Well, policies are not very real
+time.<00:07:07.840><c> At</c><00:07:08.000><c> times</c><00:07:08.240><c> they</c><00:07:08.479><c> can</c><00:07:08.560><c> take</c><00:07:08.720><c> longer,</c>
+
+00:07:09.189 --> 00:07:09.199 align:start position:0%
+time. At times they can take longer,
+ 
+
+00:07:09.199 --> 00:07:11.189 align:start position:0%
+time. At times they can take longer,
+times<00:07:09.440><c> they</c><00:07:09.599><c> can</c><00:07:09.680><c> take</c><00:07:09.919><c> shorter.</c><00:07:10.800><c> And</c><00:07:10.960><c> what</c>
+
+00:07:11.189 --> 00:07:11.199 align:start position:0%
+times they can take shorter. And what
+ 
+
+00:07:11.199 --> 00:07:13.189 align:start position:0%
+times they can take shorter. And what
+happens<00:07:11.440><c> if</c><00:07:11.599><c> a</c><00:07:11.759><c> policy</c><00:07:12.080><c> takes</c><00:07:12.319><c> longer?</c><00:07:12.960><c> Well,</c>
+
+00:07:13.189 --> 00:07:13.199 align:start position:0%
+happens if a policy takes longer? Well,
+ 
+
+00:07:13.199 --> 00:07:14.870 align:start position:0%
+happens if a policy takes longer? Well,
+you<00:07:13.360><c> miss</c><00:07:13.759><c> the</c><00:07:14.000><c> time</c><00:07:14.160><c> when</c><00:07:14.400><c> you're</c><00:07:14.639><c> supposed</c>
+
+00:07:14.870 --> 00:07:14.880 align:start position:0%
+you miss the time when you're supposed
+ 
+
+00:07:14.880 --> 00:07:17.029 align:start position:0%
+you miss the time when you're supposed
+to<00:07:15.039><c> send</c><00:07:15.199><c> it</c><00:07:15.440><c> out.</c><00:07:16.080><c> So</c><00:07:16.240><c> all</c><00:07:16.400><c> you</c><00:07:16.560><c> can</c><00:07:16.720><c> do</c><00:07:16.800><c> is</c>
+
+00:07:17.029 --> 00:07:17.039 align:start position:0%
+to send it out. So all you can do is
+ 
+
+00:07:17.039 --> 00:07:18.870 align:start position:0%
+to send it out. So all you can do is
+just<00:07:17.199><c> cue</c><00:07:17.440><c> it</c><00:07:17.599><c> somewhere.</c><00:07:18.000><c> you</c><00:07:18.160><c> can</c><00:07:18.319><c> store</c><00:07:18.479><c> it,</c>
+
+00:07:18.870 --> 00:07:18.880 align:start position:0%
+just cue it somewhere. you can store it,
+ 
+
+00:07:18.880 --> 00:07:21.430 align:start position:0%
+just cue it somewhere. you can store it,
+but<00:07:19.120><c> that</c><00:07:19.360><c> cannot</c><00:07:19.680><c> be</c><00:07:19.759><c> sent</c><00:07:20.000><c> out</c><00:07:20.160><c> anymore.</c><00:07:21.280><c> And</c>
+
+00:07:21.430 --> 00:07:21.440 align:start position:0%
+but that cannot be sent out anymore. And
+ 
+
+00:07:21.440 --> 00:07:23.749 align:start position:0%
+but that cannot be sent out anymore. And
+when<00:07:21.680><c> the</c><00:07:21.840><c> next</c><00:07:22.000><c> iteration</c><00:07:22.560><c> comes</c><00:07:22.720><c> around,</c>
+
+00:07:23.749 --> 00:07:23.759 align:start position:0%
+when the next iteration comes around,
+ 
+
+00:07:23.759 --> 00:07:25.350 align:start position:0%
+when the next iteration comes around,
+that's<00:07:24.000><c> when</c><00:07:24.160><c> you</c><00:07:24.319><c> send</c><00:07:24.560><c> both</c><00:07:24.880><c> the</c><00:07:25.120><c> last</c>
+
+00:07:25.350 --> 00:07:25.360 align:start position:0%
+that's when you send both the last
+ 
+
+00:07:25.360 --> 00:07:27.270 align:start position:0%
+that's when you send both the last
+message<00:07:25.680><c> and</c><00:07:26.000><c> the</c><00:07:26.160><c> current</c><00:07:26.479><c> message.</c><00:07:27.120><c> So</c>
+
+00:07:27.270 --> 00:07:27.280 align:start position:0%
+message and the current message. So
+ 
+
+00:07:27.280 --> 00:07:28.950 align:start position:0%
+message and the current message. So
+you'll<00:07:27.520><c> see</c><00:07:27.680><c> two</c><00:07:27.919><c> messages</c><00:07:28.319><c> just</c><00:07:28.560><c> go</c><00:07:28.639><c> on</c><00:07:28.800><c> the</c>
+
+00:07:28.950 --> 00:07:28.960 align:start position:0%
+you'll see two messages just go on the
+ 
+
+00:07:28.960 --> 00:07:31.270 align:start position:0%
+you'll see two messages just go on the
+bus<00:07:29.199><c> at</c><00:07:29.360><c> the</c><00:07:29.520><c> same</c><00:07:29.680><c> time.</c><00:07:30.479><c> And</c><00:07:30.639><c> this</c><00:07:30.880><c> can</c><00:07:31.039><c> also</c>
+
+00:07:31.270 --> 00:07:31.280 align:start position:0%
+bus at the same time. And this can also
+ 
+
+00:07:31.280 --> 00:07:33.270 align:start position:0%
+bus at the same time. And this can also
+happen<00:07:31.440><c> if</c><00:07:31.759><c> our</c><00:07:32.080><c> TX</c><00:07:32.400><c> and</c><00:07:32.560><c> RX</c><00:07:32.880><c> thread</c><00:07:33.120><c> start</c>
+
+00:07:33.270 --> 00:07:33.280 align:start position:0%
+happen if our TX and RX thread start
+ 
+
+00:07:33.280 --> 00:07:35.189 align:start position:0%
+happen if our TX and RX thread start
+desynchronizing.<00:07:34.160><c> But</c><00:07:34.479><c> this</c><00:07:34.720><c> is</c><00:07:34.800><c> one</c><00:07:34.960><c> of</c><00:07:35.039><c> the</c>
+
+00:07:35.189 --> 00:07:35.199 align:start position:0%
+desynchronizing. But this is one of the
+ 
+
+00:07:35.199 --> 00:07:36.710 align:start position:0%
+desynchronizing. But this is one of the
+issues<00:07:35.440><c> that</c><00:07:35.599><c> is</c><00:07:35.759><c> very</c><00:07:35.919><c> commonly</c><00:07:36.319><c> seen</c><00:07:36.479><c> with</c>
+
+00:07:36.710 --> 00:07:36.720 align:start position:0%
+issues that is very commonly seen with
+ 
+
+00:07:36.720 --> 00:07:38.469 align:start position:0%
+issues that is very commonly seen with
+like<00:07:36.800><c> a</c><00:07:36.960><c> multi-threaded</c><00:07:37.599><c> system.</c><00:07:38.080><c> And</c><00:07:38.240><c> it's</c>
+
+00:07:38.469 --> 00:07:38.479 align:start position:0%
+like a multi-threaded system. And it's
+ 
+
+00:07:38.479 --> 00:07:39.589 align:start position:0%
+like a multi-threaded system. And it's
+very<00:07:38.720><c> important</c><00:07:38.960><c> to</c><00:07:39.120><c> have</c><00:07:39.440><c> uh</c>
+
+00:07:39.589 --> 00:07:39.599 align:start position:0%
+very important to have uh
+ 
+
+00:07:39.599 --> 00:07:41.830 align:start position:0%
+very important to have uh
+synchronization<00:07:40.160><c> in</c><00:07:40.319><c> the</c><00:07:40.560><c> systems.</c><00:07:41.599><c> But</c>
+
+00:07:41.830 --> 00:07:41.840 align:start position:0%
+synchronization in the systems. But
+ 
+
+00:07:41.840 --> 00:07:44.710 align:start position:0%
+synchronization in the systems. But
+let's<00:07:42.080><c> say</c><00:07:42.240><c> we</c><00:07:42.400><c> do</c><00:07:42.639><c> synchronize</c><00:07:43.120><c> it</c><00:07:44.080><c> and</c><00:07:44.479><c> we</c>
+
+00:07:44.710 --> 00:07:44.720 align:start position:0%
+let's say we do synchronize it and we
+ 
+
+00:07:44.720 --> 00:07:47.830 align:start position:0%
+let's say we do synchronize it and we
+are<00:07:44.880><c> able</c><00:07:45.039><c> to</c><00:07:45.199><c> fix</c><00:07:45.440><c> our</c><00:07:45.599><c> TX</c><00:07:46.000><c> side.</c><00:07:47.120><c> Well,</c><00:07:47.599><c> we</c>
+
+00:07:47.830 --> 00:07:47.840 align:start position:0%
+are able to fix our TX side. Well, we
+ 
+
+00:07:47.840 --> 00:07:50.550 align:start position:0%
+are able to fix our TX side. Well, we
+see<00:07:48.000><c> some</c><00:07:48.240><c> improvement.</c><00:07:49.120><c> We</c><00:07:49.360><c> don't</c><00:07:49.599><c> see</c><00:07:49.759><c> that</c>
+
+00:07:50.550 --> 00:07:50.560 align:start position:0%
+see some improvement. We don't see that
+ 
+
+00:07:50.560 --> 00:07:51.990 align:start position:0%
+see some improvement. We don't see that
+like<00:07:50.800><c> everything</c><00:07:51.039><c> is</c><00:07:51.199><c> solved.</c><00:07:51.520><c> We</c><00:07:51.680><c> see</c><00:07:51.840><c> some</c>
+
+00:07:51.990 --> 00:07:52.000 align:start position:0%
+like everything is solved. We see some
+ 
+
+00:07:52.000 --> 00:07:54.629 align:start position:0%
+like everything is solved. We see some
+improvement.<00:07:53.120><c> Okay.</c><00:07:53.599><c> But</c><00:07:53.919><c> now</c><00:07:54.160><c> this</c><00:07:54.400><c> has</c><00:07:54.560><c> to</c>
+
+00:07:54.629 --> 00:07:54.639 align:start position:0%
+improvement. Okay. But now this has to
+ 
+
+00:07:54.639 --> 00:07:56.550 align:start position:0%
+improvement. Okay. But now this has to
+be<00:07:54.800><c> policy.</c><00:07:55.120><c> Our</c><00:07:55.280><c> graphs</c><00:07:55.599><c> are</c><00:07:55.759><c> looking</c><00:07:56.000><c> fine.</c>
+
+00:07:56.550 --> 00:07:56.560 align:start position:0%
+be policy. Our graphs are looking fine.
+ 
+
+00:07:56.560 --> 00:07:58.070 align:start position:0%
+be policy. Our graphs are looking fine.
+Everything<00:07:56.800><c> is</c><00:07:56.960><c> on</c><00:07:57.120><c> the</c><00:07:57.280><c> bus</c><00:07:57.440><c> is</c><00:07:57.599><c> fine.</c><00:07:57.919><c> This</c>
+
+00:07:58.070 --> 00:07:58.080 align:start position:0%
+Everything is on the bus is fine. This
+ 
+
+00:07:58.080 --> 00:07:59.510 align:start position:0%
+Everything is on the bus is fine. This
+has<00:07:58.240><c> to</c><00:07:58.319><c> be</c><00:07:58.400><c> policy.</c><00:07:58.800><c> There's</c><00:07:58.960><c> no</c><00:07:59.120><c> way</c><00:07:59.280><c> the</c>
+
+00:07:59.510 --> 00:07:59.520 align:start position:0%
+has to be policy. There's no way the
+ 
+
+00:07:59.520 --> 00:08:01.909 align:start position:0%
+has to be policy. There's no way the
+systems.<00:08:00.479><c> Well,</c><00:08:00.720><c> there's</c><00:08:00.960><c> one</c><00:08:01.120><c> last</c><00:08:01.440><c> one</c><00:08:01.759><c> last</c>
+
+00:08:01.909 --> 00:08:01.919 align:start position:0%
+systems. Well, there's one last one last
+ 
+
+00:08:01.919 --> 00:08:05.189 align:start position:0%
+systems. Well, there's one last one last
+issue<00:08:02.160><c> that</c><00:08:02.400><c> we</c><00:08:02.560><c> have</c><00:08:02.639><c> to</c><00:08:03.440><c> check</c><00:08:04.319><c> and</c><00:08:04.560><c> that</c><00:08:04.720><c> is</c>
+
+00:08:05.189 --> 00:08:05.199 align:start position:0%
+issue that we have to check and that is
+ 
+
+00:08:05.199 --> 00:08:06.869 align:start position:0%
+issue that we have to check and that is
+what<00:08:05.440><c> happens</c><00:08:05.680><c> if</c><00:08:05.840><c> we</c><00:08:06.000><c> desynchronize</c><00:08:06.639><c> in</c><00:08:06.800><c> the</c>
+
+00:08:06.869 --> 00:08:06.879 align:start position:0%
+what happens if we desynchronize in the
+ 
+
+00:08:06.879 --> 00:08:09.189 align:start position:0%
+what happens if we desynchronize in the
+RX<00:08:07.280><c> side.</c><00:08:08.080><c> What</c><00:08:08.240><c> happens</c><00:08:08.479><c> if</c><00:08:08.639><c> our</c><00:08:08.800><c> thread</c><00:08:09.039><c> is</c>
+
+00:08:09.189 --> 00:08:09.199 align:start position:0%
+RX side. What happens if our thread is
+ 
+
+00:08:09.199 --> 00:08:11.749 align:start position:0%
+RX side. What happens if our thread is
+delayed?<00:08:10.080><c> Well,</c><00:08:10.319><c> now</c><00:08:10.560><c> our</c><00:08:10.879><c> policy</c><00:08:11.199><c> will</c><00:08:11.599><c> not</c>
+
+00:08:11.749 --> 00:08:11.759 align:start position:0%
+delayed? Well, now our policy will not
+ 
+
+00:08:11.759 --> 00:08:13.670 align:start position:0%
+delayed? Well, now our policy will not
+get<00:08:11.919><c> the</c><00:08:12.080><c> new</c><00:08:12.319><c> data</c><00:08:12.639><c> and</c><00:08:12.879><c> it'll</c><00:08:13.120><c> work</c><00:08:13.280><c> with</c><00:08:13.440><c> the</c>
+
+00:08:13.670 --> 00:08:13.680 align:start position:0%
+get the new data and it'll work with the
+ 
+
+00:08:13.680 --> 00:08:16.070 align:start position:0%
+get the new data and it'll work with the
+last<00:08:13.919><c> data</c><00:08:14.639><c> and</c><00:08:14.879><c> because</c><00:08:15.120><c> of</c><00:08:15.199><c> that</c><00:08:15.520><c> the</c><00:08:15.680><c> output</c>
+
+00:08:16.070 --> 00:08:16.080 align:start position:0%
+last data and because of that the output
+ 
+
+00:08:16.080 --> 00:08:18.629 align:start position:0%
+last data and because of that the output
+will<00:08:16.319><c> also</c><00:08:16.560><c> be</c><00:08:16.800><c> based</c><00:08:17.039><c> on</c><00:08:17.199><c> the</c><00:08:17.360><c> last</c><00:08:17.599><c> data</c><00:08:18.400><c> and</c>
+
+00:08:18.629 --> 00:08:18.639 align:start position:0%
+will also be based on the last data and
+ 
+
+00:08:18.639 --> 00:08:20.629 align:start position:0%
+will also be based on the last data and
+so<00:08:18.800><c> in</c><00:08:19.039><c> policy</c><00:08:19.440><c> number</c><00:08:19.599><c> two</c><00:08:19.840><c> or</c><00:08:20.080><c> iteration</c>
+
+00:08:20.629 --> 00:08:20.639 align:start position:0%
+so in policy number two or iteration
+ 
+
+00:08:20.639 --> 00:08:22.469 align:start position:0%
+so in policy number two or iteration
+number<00:08:20.800><c> two</c><00:08:21.360><c> we'll</c><00:08:21.680><c> actually</c><00:08:21.919><c> have</c><00:08:22.000><c> an</c><00:08:22.240><c> old</c>
+
+00:08:22.469 --> 00:08:22.479 align:start position:0%
+number two we'll actually have an old
+ 
+
+00:08:22.479 --> 00:08:24.550 align:start position:0%
+number two we'll actually have an old
+command<00:08:22.879><c> still</c><00:08:23.599><c> like</c><00:08:23.759><c> which</c><00:08:24.000><c> is</c><00:08:24.160><c> relatively</c>
+
+00:08:24.550 --> 00:08:24.560 align:start position:0%
+command still like which is relatively
+ 
+
+00:08:24.560 --> 00:08:26.390 align:start position:0%
+command still like which is relatively
+older<00:08:24.879><c> and</c><00:08:25.039><c> in</c><00:08:25.199><c> policy</c><00:08:25.599><c> number</c><00:08:25.840><c> three</c><00:08:26.160><c> we'll</c>
+
+00:08:26.390 --> 00:08:26.400 align:start position:0%
+older and in policy number three we'll
+ 
+
+00:08:26.400 --> 00:08:28.869 align:start position:0%
+older and in policy number three we'll
+directly<00:08:26.879><c> jump</c><00:08:27.280><c> we'll</c><00:08:27.520><c> skip</c><00:08:28.080><c> one</c><00:08:28.319><c> of</c><00:08:28.400><c> the</c><00:08:28.560><c> data</c>
+
+00:08:28.869 --> 00:08:28.879 align:start position:0%
+directly jump we'll skip one of the data
+ 
+
+00:08:28.879 --> 00:08:31.189 align:start position:0%
+directly jump we'll skip one of the data
+processings<00:08:29.759><c> and</c><00:08:29.919><c> because</c><00:08:30.240><c> of</c><00:08:30.400><c> that</c><00:08:30.879><c> we'll</c>
+
+00:08:31.189 --> 00:08:31.199 align:start position:0%
+processings and because of that we'll
+ 
+
+00:08:31.199 --> 00:08:32.949 align:start position:0%
+processings and because of that we'll
+see<00:08:31.360><c> a</c><00:08:31.599><c> sort</c><00:08:31.759><c> of</c><00:08:31.919><c> skip</c><00:08:32.240><c> a</c><00:08:32.479><c> catching</c><00:08:32.800><c> up</c>
+
+00:08:32.949 --> 00:08:32.959 align:start position:0%
+see a sort of skip a catching up
+ 
+
+00:08:32.959 --> 00:08:34.469 align:start position:0%
+see a sort of skip a catching up
+behavior<00:08:33.279><c> on</c><00:08:33.440><c> the</c><00:08:33.599><c> motors</c><00:08:33.919><c> which</c><00:08:34.159><c> will</c><00:08:34.320><c> sound</c>
+
+00:08:34.469 --> 00:08:34.479 align:start position:0%
+behavior on the motors which will sound
+ 
+
+00:08:34.479 --> 00:08:36.949 align:start position:0%
+behavior on the motors which will sound
+like<00:08:34.800><c> almost</c><00:08:35.120><c> like</c><00:08:35.279><c> a</c><00:08:35.440><c> jitter.</c>
+
+00:08:36.949 --> 00:08:36.959 align:start position:0%
+like almost like a jitter.
+ 
+
+00:08:36.959 --> 00:08:38.870 align:start position:0%
+like almost like a jitter.
+Okay,<00:08:37.599><c> so</c><00:08:37.839><c> how</c><00:08:38.000><c> do</c><00:08:38.080><c> we</c><00:08:38.240><c> resolve</c><00:08:38.479><c> these</c><00:08:38.719><c> two</c>
+
+00:08:38.870 --> 00:08:38.880 align:start position:0%
+Okay, so how do we resolve these two
+ 
+
+00:08:38.880 --> 00:08:40.949 align:start position:0%
+Okay, so how do we resolve these two
+things?<00:08:39.360><c> Well,</c><00:08:39.919><c> there</c><00:08:40.159><c> are</c><00:08:40.320><c> synchronization</c>
+
+00:08:40.949 --> 00:08:40.959 align:start position:0%
+things? Well, there are synchronization
+ 
+
+00:08:40.959 --> 00:08:42.550 align:start position:0%
+things? Well, there are synchronization
+primitives<00:08:41.440><c> looking</c><00:08:41.760><c> you</c><00:08:42.000><c> can</c><00:08:42.240><c> wait</c>
+
+00:08:42.550 --> 00:08:42.560 align:start position:0%
+primitives looking you can wait
+ 
+
+00:08:42.560 --> 00:08:44.790 align:start position:0%
+primitives looking you can wait
+conditional<00:08:42.959><c> variables</c><00:08:43.519><c> semifers.</c><00:08:44.560><c> These</c>
+
+00:08:44.790 --> 00:08:44.800 align:start position:0%
+conditional variables semifers. These
+ 
+
+00:08:44.800 --> 00:08:46.230 align:start position:0%
+conditional variables semifers. These
+are<00:08:44.880><c> like</c><00:08:45.040><c> very</c><00:08:45.200><c> low-level</c><00:08:45.680><c> system</c><00:08:46.000><c> things</c>
+
+00:08:46.230 --> 00:08:46.240 align:start position:0%
+are like very low-level system things
+ 
+
+00:08:46.240 --> 00:08:48.389 align:start position:0%
+are like very low-level system things
+that<00:08:46.560><c> are</c><00:08:46.880><c> widely</c><00:08:47.200><c> used</c><00:08:47.360><c> in</c><00:08:47.519><c> robotics</c><00:08:48.000><c> and</c>
+
+00:08:48.389 --> 00:08:48.399 align:start position:0%
+that are widely used in robotics and
+ 
+
+00:08:48.399 --> 00:08:49.910 align:start position:0%
+that are widely used in robotics and
+should<00:08:48.640><c> be</c><00:08:48.800><c> used</c><00:08:48.959><c> as</c><00:08:49.120><c> well</c><00:08:49.200><c> for</c><00:08:49.360><c> this</c><00:08:49.519><c> toy</c>
+
+00:08:49.910 --> 00:08:49.920 align:start position:0%
+should be used as well for this toy
+ 
+
+00:08:49.920 --> 00:08:52.310 align:start position:0%
+should be used as well for this toy
+system.<00:08:51.040><c> But</c><00:08:51.279><c> again,</c><00:08:51.519><c> if</c><00:08:51.760><c> these</c><00:08:52.000><c> are</c><00:08:52.160><c> not</c>
+
+00:08:52.310 --> 00:08:52.320 align:start position:0%
+system. But again, if these are not
+ 
+
+00:08:52.320 --> 00:08:54.070 align:start position:0%
+system. But again, if these are not
+available,<00:08:52.720><c> which</c><00:08:52.959><c> is</c><00:08:53.200><c> sometimes</c><00:08:53.600><c> the</c><00:08:53.839><c> case</c>
+
+00:08:54.070 --> 00:08:54.080 align:start position:0%
+available, which is sometimes the case
+ 
+
+00:08:54.080 --> 00:08:55.910 align:start position:0%
+available, which is sometimes the case
+like<00:08:54.320><c> we're</c><00:08:54.560><c> not</c><00:08:54.720><c> working</c><00:08:54.959><c> with</c><00:08:55.279><c> Linux</c><00:08:55.680><c> based</c>
+
+00:08:55.910 --> 00:08:55.920 align:start position:0%
+like we're not working with Linux based
+ 
+
+00:08:55.920 --> 00:08:57.509 align:start position:0%
+like we're not working with Linux based
+system,<00:08:56.160><c> we'll</c><00:08:56.399><c> work</c><00:08:56.480><c> with</c><00:08:56.640><c> like</c><00:08:56.800><c> a</c><00:08:57.120><c> real-time</c>
+
+00:08:57.509 --> 00:08:57.519 align:start position:0%
+system, we'll work with like a real-time
+ 
+
+00:08:57.519 --> 00:08:59.269 align:start position:0%
+system, we'll work with like a real-time
+OS<00:08:57.839><c> or</c><00:08:58.000><c> like</c><00:08:58.080><c> a</c><00:08:58.240><c> microcontroller</c><00:08:58.959><c> where</c><00:08:59.120><c> we</c>
+
+00:08:59.269 --> 00:08:59.279 align:start position:0%
+OS or like a microcontroller where we
+ 
+
+00:08:59.279 --> 00:09:01.829 align:start position:0%
+OS or like a microcontroller where we
+may<00:08:59.519><c> not</c><00:08:59.839><c> have</c><00:09:00.080><c> all</c><00:09:00.240><c> these</c><00:09:00.640><c> offers.</c><00:09:01.440><c> We</c><00:09:01.680><c> can</c>
+
+00:09:01.829 --> 00:09:01.839 align:start position:0%
+may not have all these offers. We can
+ 
+
+00:09:01.839 --> 00:09:04.790 align:start position:0%
+may not have all these offers. We can
+just<00:09:02.000><c> add</c><00:09:02.160><c> padding</c><00:09:03.279><c> just</c><00:09:03.760><c> have</c><00:09:04.000><c> some</c><00:09:04.160><c> cushion,</c>
+
+00:09:04.790 --> 00:09:04.800 align:start position:0%
+just add padding just have some cushion,
+ 
+
+00:09:04.800 --> 00:09:06.310 align:start position:0%
+just add padding just have some cushion,
+right?<00:09:05.040><c> like</c><00:09:05.279><c> have</c><00:09:05.440><c> some</c><00:09:05.600><c> cushion</c><00:09:05.839><c> so</c><00:09:06.000><c> that</c><00:09:06.160><c> if</c>
+
+00:09:06.310 --> 00:09:06.320 align:start position:0%
+right? like have some cushion so that if
+ 
+
+00:09:06.320 --> 00:09:08.070 align:start position:0%
+right? like have some cushion so that if
+some<00:09:06.480><c> desynchronization</c><00:09:07.279><c> happens</c><00:09:07.680><c> you</c><00:09:07.839><c> still</c>
+
+00:09:08.070 --> 00:09:08.080 align:start position:0%
+some desynchronization happens you still
+ 
+
+00:09:08.080 --> 00:09:09.990 align:start position:0%
+some desynchronization happens you still
+have<00:09:08.399><c> the</c><00:09:08.640><c> same</c><00:09:08.880><c> RX</c><00:09:09.279><c> going</c><00:09:09.440><c> into</c><00:09:09.600><c> the</c><00:09:09.760><c> right</c>
+
+00:09:09.990 --> 00:09:10.000 align:start position:0%
+have the same RX going into the right
+ 
+
+00:09:10.000 --> 00:09:12.630 align:start position:0%
+have the same RX going into the right
+policy<00:09:10.320><c> and</c><00:09:10.560><c> coming</c><00:09:10.800><c> out</c><00:09:11.120><c> the</c><00:09:11.440><c> other</c><00:09:11.600><c> way</c><00:09:12.399><c> in</c>
+
+00:09:12.630 --> 00:09:12.640 align:start position:0%
+policy and coming out the other way in
+ 
+
+00:09:12.640 --> 00:09:14.230 align:start position:0%
+policy and coming out the other way in
+like<00:09:12.800><c> in</c><00:09:12.959><c> a</c><00:09:13.120><c> timely</c><00:09:13.360><c> manner</c><00:09:13.680><c> we</c><00:09:13.839><c> don't</c><00:09:14.000><c> miss</c>
+
+00:09:14.230 --> 00:09:14.240 align:start position:0%
+like in a timely manner we don't miss
+ 
+
+00:09:14.240 --> 00:09:18.150 align:start position:0%
+like in a timely manner we don't miss
+messages<00:09:15.279><c> okay</c><00:09:15.600><c> perfect</c><00:09:16.560><c> so</c><00:09:16.880><c> this</c><00:09:17.440><c> this</c><00:09:17.760><c> this</c>
+
+00:09:18.150 --> 00:09:18.160 align:start position:0%
+messages okay perfect so this this this
+ 
+
+00:09:18.160 --> 00:09:19.829 align:start position:0%
+messages okay perfect so this this this
+makes<00:09:18.320><c> a</c><00:09:18.480><c> system</c><00:09:18.720><c> fairly</c><00:09:19.040><c> robust</c><00:09:19.440><c> fairly</c><00:09:19.680><c> high</c>
+
+00:09:19.829 --> 00:09:19.839 align:start position:0%
+makes a system fairly robust fairly high
+ 
+
+00:09:19.839 --> 00:09:21.750 align:start position:0%
+makes a system fairly robust fairly high
+performant<00:09:20.480><c> but</c><00:09:21.040><c> there</c><00:09:21.279><c> are</c><00:09:21.440><c> few</c><00:09:21.600><c> other</c>
+
+00:09:21.750 --> 00:09:21.760 align:start position:0%
+performant but there are few other
+ 
+
+00:09:21.760 --> 00:09:23.269 align:start position:0%
+performant but there are few other
+relative<00:09:22.240><c> problems</c><00:09:22.560><c> which</c><00:09:22.800><c> will</c><00:09:22.959><c> happen</c><00:09:23.120><c> with</c>
+
+00:09:23.269 --> 00:09:23.279 align:start position:0%
+relative problems which will happen with
+ 
+
+00:09:23.279 --> 00:09:25.030 align:start position:0%
+relative problems which will happen with
+a<00:09:23.440><c> system</c><00:09:23.680><c> like</c><00:09:23.839><c> this</c><00:09:24.000><c> which</c><00:09:24.240><c> we</c><00:09:24.480><c> should</c><00:09:24.640><c> also</c>
+
+00:09:25.030 --> 00:09:25.040 align:start position:0%
+a system like this which we should also
+ 
+
+00:09:25.040 --> 00:09:28.070 align:start position:0%
+a system like this which we should also
+talk<00:09:25.200><c> about</c><00:09:26.399><c> so</c><00:09:26.640><c> let's</c><00:09:26.880><c> talk</c><00:09:27.040><c> about</c><00:09:27.200><c> logging</c>
+
+00:09:28.070 --> 00:09:28.080 align:start position:0%
+talk about so let's talk about logging
+ 
+
+00:09:28.080 --> 00:09:30.550 align:start position:0%
+talk about so let's talk about logging
+logging<00:09:28.480><c> is</c><00:09:28.640><c> benign</c><00:09:29.200><c> right</c><00:09:29.360><c> we</c><00:09:29.519><c> just</c><00:09:29.680><c> log</c><00:09:30.000><c> that</c>
+
+00:09:30.550 --> 00:09:30.560 align:start position:0%
+logging is benign right we just log that
+ 
+
+00:09:30.560 --> 00:09:32.710 align:start position:0%
+logging is benign right we just log that
+hey<00:09:30.959><c> the</c><00:09:31.279><c> message</c><00:09:31.519><c> is</c><00:09:31.760><c> coming</c><00:09:31.839><c> in</c><00:09:32.160><c> we</c><00:09:32.480><c> want</c><00:09:32.640><c> to</c>
+
+00:09:32.710 --> 00:09:32.720 align:start position:0%
+hey the message is coming in we want to
+ 
+
+00:09:32.720 --> 00:09:34.070 align:start position:0%
+hey the message is coming in we want to
+just<00:09:32.880><c> log</c><00:09:33.120><c> that</c><00:09:33.279><c> this</c><00:09:33.440><c> is</c><00:09:33.519><c> the</c><00:09:33.680><c> data</c><00:09:33.839><c> that</c><00:09:34.000><c> we</c>
+
+00:09:34.070 --> 00:09:34.080 align:start position:0%
+just log that this is the data that we
+ 
+
+00:09:34.080 --> 00:09:36.150 align:start position:0%
+just log that this is the data that we
+got<00:09:34.320><c> this</c><00:09:34.399><c> is</c><00:09:34.480><c> the</c><00:09:34.640><c> output</c><00:09:35.040><c> it's</c><00:09:35.279><c> fine</c><00:09:35.519><c> right</c>
+
+00:09:36.150 --> 00:09:36.160 align:start position:0%
+got this is the output it's fine right
+ 
+
+00:09:36.160 --> 00:09:38.630 align:start position:0%
+got this is the output it's fine right
+well<00:09:36.320><c> if</c><00:09:36.560><c> we</c><00:09:36.640><c> log</c><00:09:36.959><c> too</c><00:09:37.200><c> much</c><00:09:37.760><c> at</c><00:09:38.000><c> some</c><00:09:38.240><c> point</c><00:09:38.399><c> we</c>
+
+00:09:38.630 --> 00:09:38.640 align:start position:0%
+well if we log too much at some point we
+ 
+
+00:09:38.640 --> 00:09:41.110 align:start position:0%
+well if we log too much at some point we
+have<00:09:38.800><c> to</c><00:09:38.880><c> send</c><00:09:39.120><c> those</c><00:09:39.279><c> logs</c><00:09:39.600><c> to</c><00:09:39.760><c> disk</c><00:09:40.560><c> and</c><00:09:40.880><c> that</c>
+
+00:09:41.110 --> 00:09:41.120 align:start position:0%
+have to send those logs to disk and that
+ 
+
+00:09:41.120 --> 00:09:43.750 align:start position:0%
+have to send those logs to disk and that
+is<00:09:41.360><c> very</c><00:09:41.680><c> costly</c><00:09:42.640><c> imagine</c><00:09:43.120><c> what</c><00:09:43.279><c> happens</c><00:09:43.519><c> if</c>
+
+00:09:43.750 --> 00:09:43.760 align:start position:0%
+is very costly imagine what happens if
+ 
+
+00:09:43.760 --> 00:09:45.350 align:start position:0%
+is very costly imagine what happens if
+your<00:09:43.920><c> main</c><00:09:44.160><c> control</c><00:09:44.399><c> loop</c><00:09:44.720><c> starts</c><00:09:44.959><c> logging</c>
+
+00:09:45.350 --> 00:09:45.360 align:start position:0%
+your main control loop starts logging
+ 
+
+00:09:45.360 --> 00:09:47.509 align:start position:0%
+your main control loop starts logging
+and<00:09:45.600><c> decides</c><00:09:46.080><c> just</c><00:09:46.320><c> one</c><00:09:46.560><c> day</c><00:09:46.720><c> that</c><00:09:47.040><c> hey</c><00:09:47.279><c> I'm</c>
+
+00:09:47.509 --> 00:09:47.519 align:start position:0%
+and decides just one day that hey I'm
+ 
+
+00:09:47.519 --> 00:09:49.030 align:start position:0%
+and decides just one day that hey I'm
+done<00:09:47.760><c> I'll</c><00:09:48.000><c> just</c><00:09:48.160><c> start</c><00:09:48.320><c> putting</c><00:09:48.560><c> this</c><00:09:48.720><c> on</c><00:09:48.880><c> the</c>
+
+00:09:49.030 --> 00:09:49.040 align:start position:0%
+done I'll just start putting this on the
+ 
+
+00:09:49.040 --> 00:09:51.030 align:start position:0%
+done I'll just start putting this on the
+on<00:09:49.279><c> the</c><00:09:49.440><c> hard</c><00:09:49.600><c> disk</c><00:09:50.160><c> well</c><00:09:50.399><c> your</c><00:09:50.560><c> robot</c><00:09:50.880><c> would</c>
+
+00:09:51.030 --> 00:09:51.040 align:start position:0%
+on the hard disk well your robot would
+ 
+
+00:09:51.040 --> 00:09:52.949 align:start position:0%
+on the hard disk well your robot would
+stay<00:09:51.279><c> frozen</c><00:09:51.600><c> for</c><00:09:51.760><c> 30</c><00:09:52.080><c> milliseconds</c><00:09:52.640><c> as</c><00:09:52.880><c> we</c>
+
+00:09:52.949 --> 00:09:52.959 align:start position:0%
+stay frozen for 30 milliseconds as we
+ 
+
+00:09:52.959 --> 00:09:55.670 align:start position:0%
+stay frozen for 30 milliseconds as we
+saw<00:09:53.120><c> on</c><00:09:53.279><c> a</c><00:09:53.360><c> Raspberry</c><00:09:53.680><c> Pi</c><00:09:53.920><c> with</c><00:09:54.080><c> an</c><00:09:54.240><c> SD</c><00:09:54.480><c> card</c><00:09:55.279><c> so</c>
+
+00:09:55.670 --> 00:09:55.680 align:start position:0%
+saw on a Raspberry Pi with an SD card so
+ 
+
+00:09:55.680 --> 00:09:58.470 align:start position:0%
+saw on a Raspberry Pi with an SD card so
+well<00:09:55.920><c> that's</c><00:09:56.160><c> bad</c><00:09:56.560><c> how</c><00:09:56.800><c> do</c><00:09:56.880><c> we</c><00:09:57.040><c> fix</c><00:09:57.279><c> that</c><00:09:58.160><c> well</c>
+
+00:09:58.470 --> 00:09:58.480 align:start position:0%
+well that's bad how do we fix that well
+ 
+
+00:09:58.480 --> 00:10:00.389 align:start position:0%
+well that's bad how do we fix that well
+we<00:09:58.640><c> just</c><00:09:58.800><c> throw</c><00:09:59.040><c> more</c><00:09:59.200><c> CPU</c><00:09:59.519><c> at</c><00:09:59.680><c> it</c><00:09:59.839><c> we</c><00:10:00.080><c> just</c><00:10:00.160><c> add</c>
+
+00:10:00.389 --> 00:10:00.399 align:start position:0%
+we just throw more CPU at it we just add
+ 
+
+00:10:00.399 --> 00:10:02.790 align:start position:0%
+we just throw more CPU at it we just add
+another<00:10:00.640><c> CPU</c><00:10:01.279><c> and</c><00:10:01.519><c> now</c><00:10:01.920><c> all</c><00:10:02.160><c> our</c><00:10:02.320><c> logging</c><00:10:02.640><c> is</c>
+
+00:10:02.790 --> 00:10:02.800 align:start position:0%
+another CPU and now all our logging is
+ 
+
+00:10:02.800 --> 00:10:04.550 align:start position:0%
+another CPU and now all our logging is
+handled<00:10:03.040><c> by</c><00:10:03.200><c> that</c><00:10:03.360><c> third</c><00:10:03.519><c> CPU</c>
+
+00:10:04.550 --> 00:10:04.560 align:start position:0%
+handled by that third CPU
+ 
+
+00:10:04.560 --> 00:10:06.790 align:start position:0%
+handled by that third CPU
+Cool.<00:10:05.360><c> Okay.</c><00:10:05.680><c> So</c><00:10:05.839><c> now</c><00:10:06.000><c> we</c><00:10:06.160><c> have</c><00:10:06.320><c> like</c><00:10:06.560><c> we're</c>
+
+00:10:06.790 --> 00:10:06.800 align:start position:0%
+Cool. Okay. So now we have like we're
+ 
+
+00:10:06.800 --> 00:10:08.230 align:start position:0%
+Cool. Okay. So now we have like we're
+seeing<00:10:06.959><c> how</c><00:10:07.120><c> multi-threaded</c><00:10:07.760><c> is</c><00:10:08.000><c> slowly</c>
+
+00:10:08.230 --> 00:10:08.240 align:start position:0%
+seeing how multi-threaded is slowly
+ 
+
+00:10:08.240 --> 00:10:09.910 align:start position:0%
+seeing how multi-threaded is slowly
+getting<00:10:08.480><c> baked</c><00:10:08.800><c> into</c><00:10:09.040><c> the</c><00:10:09.200><c> system.</c><00:10:09.600><c> How</c><00:10:09.760><c> the</c>
+
+00:10:09.910 --> 00:10:09.920 align:start position:0%
+getting baked into the system. How the
+ 
+
+00:10:09.920 --> 00:10:11.190 align:start position:0%
+getting baked into the system. How the
+robot<00:10:10.160><c> is</c><00:10:10.320><c> operating</c><00:10:10.560><c> in</c><00:10:10.720><c> a</c><00:10:10.880><c> real-time</c>
+
+00:10:11.190 --> 00:10:11.200 align:start position:0%
+robot is operating in a real-time
+ 
+
+00:10:11.200 --> 00:10:13.350 align:start position:0%
+robot is operating in a real-time
+deadline<00:10:11.680><c> guarantee</c><00:10:12.480><c> and</c><00:10:12.640><c> how</c><00:10:12.880><c> we</c><00:10:13.040><c> are</c><00:10:13.120><c> able</c>
+
+00:10:13.350 --> 00:10:13.360 align:start position:0%
+deadline guarantee and how we are able
+ 
+
+00:10:13.360 --> 00:10:16.230 align:start position:0%
+deadline guarantee and how we are able
+to<00:10:13.440><c> like</c><00:10:13.680><c> avoid</c><00:10:14.000><c> the</c><00:10:14.160><c> pitfalls.</c><00:10:15.519><c> Perfect.</c>
+
+00:10:16.230 --> 00:10:16.240 align:start position:0%
+to like avoid the pitfalls. Perfect.
+ 
+
+00:10:16.240 --> 00:10:17.670 align:start position:0%
+to like avoid the pitfalls. Perfect.
+Let's<00:10:16.560><c> talk</c><00:10:16.720><c> about</c><00:10:16.959><c> something</c><00:10:17.200><c> a</c><00:10:17.440><c> little</c><00:10:17.519><c> more</c>
+
+00:10:17.670 --> 00:10:17.680 align:start position:0%
+Let's talk about something a little more
+ 
+
+00:10:17.680 --> 00:10:19.990 align:start position:0%
+Let's talk about something a little more
+low-level<00:10:18.160><c> again</c><00:10:18.480><c> like</c><00:10:18.720><c> microcontrollers.</c>
+
+00:10:19.990 --> 00:10:20.000 align:start position:0%
+low-level again like microcontrollers.
+ 
+
+00:10:20.000 --> 00:10:22.389 align:start position:0%
+low-level again like microcontrollers.
+Microcontrollers<00:10:20.800><c> are</c><00:10:20.959><c> fairly</c><00:10:21.279><c> simple</c><00:10:21.920><c> and</c>
+
+00:10:22.389 --> 00:10:22.399 align:start position:0%
+Microcontrollers are fairly simple and
+ 
+
+00:10:22.399 --> 00:10:23.829 align:start position:0%
+Microcontrollers are fairly simple and
+their<00:10:22.640><c> logging</c><00:10:23.120><c> doesn't</c><00:10:23.360><c> actually</c><00:10:23.600><c> go</c>
+
+00:10:23.829 --> 00:10:23.839 align:start position:0%
+their logging doesn't actually go
+ 
+
+00:10:23.839 --> 00:10:25.750 align:start position:0%
+their logging doesn't actually go
+through<00:10:24.000><c> a</c><00:10:24.240><c> whole</c><00:10:24.640><c> disk</c><00:10:24.959><c> and</c><00:10:25.200><c> file</c><00:10:25.440><c> system</c>
+
+00:10:25.750 --> 00:10:25.760 align:start position:0%
+through a whole disk and file system
+ 
+
+00:10:25.760 --> 00:10:27.670 align:start position:0%
+through a whole disk and file system
+way.<00:10:26.079><c> They</c><00:10:26.320><c> just</c><00:10:26.640><c> log</c><00:10:26.959><c> to</c><00:10:27.200><c> some</c><00:10:27.440><c> other</c>
+
+00:10:27.670 --> 00:10:27.680 align:start position:0%
+way. They just log to some other
+ 
+
+00:10:27.680 --> 00:10:30.630 align:start position:0%
+way. They just log to some other
+peripheral<00:10:28.800><c> that</c><00:10:29.120><c> takes</c><00:10:29.360><c> time.</c><00:10:30.160><c> In</c><00:10:30.320><c> fact,</c><00:10:30.480><c> for</c>
+
+00:10:30.630 --> 00:10:30.640 align:start position:0%
+peripheral that takes time. In fact, for
+ 
+
+00:10:30.640 --> 00:10:31.990 align:start position:0%
+peripheral that takes time. In fact, for
+you<00:10:30.800><c> art,</c><00:10:31.040><c> it</c><00:10:31.200><c> can</c><00:10:31.360><c> be</c><00:10:31.440><c> on</c><00:10:31.600><c> the</c><00:10:31.680><c> order</c><00:10:31.839><c> of</c>
+
+00:10:31.990 --> 00:10:32.000 align:start position:0%
+you art, it can be on the order of
+ 
+
+00:10:32.000 --> 00:10:33.350 align:start position:0%
+you art, it can be on the order of
+millisecond<00:10:32.480><c> depending</c><00:10:32.720><c> on</c><00:10:32.880><c> how</c><00:10:33.040><c> much</c><00:10:33.200><c> we're</c>
+
+00:10:33.350 --> 00:10:33.360 align:start position:0%
+millisecond depending on how much we're
+ 
+
+00:10:33.360 --> 00:10:35.350 align:start position:0%
+millisecond depending on how much we're
+logging.<00:10:34.240><c> So,</c><00:10:34.560><c> here's</c><00:10:34.800><c> an</c><00:10:34.959><c> interesting</c>
+
+00:10:35.350 --> 00:10:35.360 align:start position:0%
+logging. So, here's an interesting
+ 
+
+00:10:35.360 --> 00:10:38.389 align:start position:0%
+logging. So, here's an interesting
+problem.<00:10:36.399><c> Let's</c><00:10:36.560><c> say</c><00:10:36.800><c> we</c><00:10:36.959><c> drop</c><00:10:37.200><c> a</c><00:10:37.680><c> packet</c><00:10:38.160><c> and</c>
+
+00:10:38.389 --> 00:10:38.399 align:start position:0%
+problem. Let's say we drop a packet and
+ 
+
+00:10:38.399 --> 00:10:41.030 align:start position:0%
+problem. Let's say we drop a packet and
+we<00:10:38.560><c> log</c><00:10:38.880><c> that</c><00:10:39.120><c> hey,</c><00:10:39.279><c> we</c><00:10:39.440><c> dropped</c><00:10:39.680><c> the</c><00:10:39.839><c> packet.</c>
+
+00:10:41.030 --> 00:10:41.040 align:start position:0%
+we log that hey, we dropped the packet.
+ 
+
+00:10:41.040 --> 00:10:43.030 align:start position:0%
+we log that hey, we dropped the packet.
+Well,<00:10:41.200><c> that</c><00:10:41.440><c> log</c><00:10:41.760><c> itself</c><00:10:42.240><c> would</c><00:10:42.560><c> take</c><00:10:42.720><c> enough</c>
+
+00:10:43.030 --> 00:10:43.040 align:start position:0%
+Well, that log itself would take enough
+ 
+
+00:10:43.040 --> 00:10:45.350 align:start position:0%
+Well, that log itself would take enough
+time<00:10:43.200><c> that</c><00:10:43.440><c> will</c><00:10:43.680><c> drop</c><00:10:43.839><c> the</c><00:10:44.000><c> next</c><00:10:44.160><c> packet</c><00:10:45.120><c> and</c>
+
+00:10:45.350 --> 00:10:45.360 align:start position:0%
+time that will drop the next packet and
+ 
+
+00:10:45.360 --> 00:10:46.949 align:start position:0%
+time that will drop the next packet and
+then<00:10:45.519><c> you</c><00:10:45.680><c> will</c><00:10:45.839><c> keep</c><00:10:46.000><c> drop</c><00:10:46.320><c> because</c><00:10:46.560><c> you</c><00:10:46.800><c> drop</c>
+
+00:10:46.949 --> 00:10:46.959 align:start position:0%
+then you will keep drop because you drop
+ 
+
+00:10:46.959 --> 00:10:48.949 align:start position:0%
+then you will keep drop because you drop
+the<00:10:47.120><c> next</c><00:10:47.200><c> packet,</c><00:10:47.519><c> you</c><00:10:47.680><c> log</c><00:10:47.920><c> again.</c><00:10:48.640><c> And</c><00:10:48.800><c> so,</c>
+
+00:10:48.949 --> 00:10:48.959 align:start position:0%
+the next packet, you log again. And so,
+ 
+
+00:10:48.959 --> 00:10:50.949 align:start position:0%
+the next packet, you log again. And so,
+basically,<00:10:49.279><c> you</c><00:10:49.440><c> just</c><00:10:49.600><c> keep</c><00:10:49.760><c> logging</c><00:10:50.560><c> and</c><00:10:50.800><c> you</c>
+
+00:10:50.949 --> 00:10:50.959 align:start position:0%
+basically, you just keep logging and you
+ 
+
+00:10:50.959 --> 00:10:53.350 align:start position:0%
+basically, you just keep logging and you
+see<00:10:51.120><c> a</c><00:10:51.360><c> complete</c><00:10:51.600><c> blackout</c><00:10:52.160><c> on</c><00:10:52.399><c> the</c><00:10:52.560><c> canvas</c>
+
+00:10:53.350 --> 00:10:53.360 align:start position:0%
+see a complete blackout on the canvas
+ 
+
+00:10:53.360 --> 00:10:55.110 align:start position:0%
+see a complete blackout on the canvas
+and<00:10:53.600><c> it's</c><00:10:53.760><c> very</c><00:10:53.920><c> hard</c><00:10:54.079><c> to</c><00:10:54.240><c> debug</c><00:10:54.560><c> like</c><00:10:54.800><c> why</c><00:10:54.959><c> am</c>
+
+00:10:55.110 --> 00:10:55.120 align:start position:0%
+and it's very hard to debug like why am
+ 
+
+00:10:55.120 --> 00:10:56.630 align:start position:0%
+and it's very hard to debug like why am
+I<00:10:55.279><c> getting</c><00:10:55.440><c> logs</c><00:10:55.680><c> and</c><00:10:55.839><c> seeing</c><00:10:56.079><c> packet</c><00:10:56.399><c> drops</c>
+
+00:10:56.630 --> 00:10:56.640 align:start position:0%
+I getting logs and seeing packet drops
+ 
+
+00:10:56.640 --> 00:10:58.870 align:start position:0%
+I getting logs and seeing packet drops
+but<00:10:56.959><c> no</c><00:10:57.120><c> data.</c><00:10:57.920><c> So</c><00:10:58.079><c> these</c><00:10:58.240><c> are</c><00:10:58.399><c> mysterious</c>
+
+00:10:58.870 --> 00:10:58.880 align:start position:0%
+but no data. So these are mysterious
+ 
+
+00:10:58.880 --> 00:11:01.269 align:start position:0%
+but no data. So these are mysterious
+things<00:10:59.120><c> that</c><00:10:59.920><c> and</c><00:11:00.079><c> in</c><00:11:00.240><c> my</c><00:11:00.480><c> experience</c><00:11:00.959><c> like</c>
+
+00:11:01.269 --> 00:11:01.279 align:start position:0%
+things that and in my experience like
+ 
+
+00:11:01.279 --> 00:11:02.710 align:start position:0%
+things that and in my experience like
+it's<00:11:01.600><c> really</c><00:11:01.839><c> good</c><00:11:02.000><c> to</c><00:11:02.160><c> like</c><00:11:02.320><c> know</c><00:11:02.480><c> about</c><00:11:02.560><c> the</c>
+
+00:11:02.710 --> 00:11:02.720 align:start position:0%
+it's really good to like know about the
+ 
+
+00:11:02.720 --> 00:11:04.310 align:start position:0%
+it's really good to like know about the
+pitfalls<00:11:03.120><c> beforehand</c><00:11:03.600><c> before</c><00:11:03.839><c> we</c><00:11:04.000><c> dive</c><00:11:04.160><c> in</c>
+
+00:11:04.310 --> 00:11:04.320 align:start position:0%
+pitfalls beforehand before we dive in
+ 
+
+00:11:04.320 --> 00:11:06.069 align:start position:0%
+pitfalls beforehand before we dive in
+the<00:11:04.480><c> system</c><00:11:04.640><c> and</c><00:11:04.880><c> really</c><00:11:05.200><c> figure</c><00:11:05.360><c> out</c><00:11:05.519><c> that</c>
+
+00:11:06.069 --> 00:11:06.079 align:start position:0%
+the system and really figure out that
+ 
+
+00:11:06.079 --> 00:11:07.990 align:start position:0%
+the system and really figure out that
+hey<00:11:06.399><c> this</c><00:11:06.640><c> can</c><00:11:06.880><c> also</c><00:11:07.040><c> be</c><00:11:07.200><c> a</c><00:11:07.360><c> problem</c><00:11:07.680><c> just</c><00:11:07.839><c> a</c>
+
+00:11:07.990 --> 00:11:08.000 align:start position:0%
+hey this can also be a problem just a
+ 
+
+00:11:08.000 --> 00:11:10.230 align:start position:0%
+hey this can also be a problem just a
+log<00:11:08.240><c> statement.</c>
+
+00:11:10.230 --> 00:11:10.240 align:start position:0%
+log statement.
+ 
+
+00:11:10.240 --> 00:11:12.310 align:start position:0%
+log statement.
+Finally<00:11:10.720><c> there's</c><00:11:10.959><c> also</c><00:11:11.200><c> priority</c><00:11:11.600><c> inversion.</c>
+
+00:11:12.310 --> 00:11:12.320 align:start position:0%
+Finally there's also priority inversion.
+ 
+
+00:11:12.320 --> 00:11:14.550 align:start position:0%
+Finally there's also priority inversion.
+So<00:11:12.560><c> in</c><00:11:12.720><c> the</c><00:11:12.880><c> kernel</c><00:11:13.200><c> in</c><00:11:13.360><c> the</c><00:11:13.440><c> Linux</c><00:11:13.760><c> kernel</c>
+
+00:11:14.550 --> 00:11:14.560 align:start position:0%
+So in the kernel in the Linux kernel
+ 
+
+00:11:14.560 --> 00:11:16.470 align:start position:0%
+So in the kernel in the Linux kernel
+there<00:11:14.720><c> are</c><00:11:14.880><c> ways</c><00:11:15.200><c> in</c><00:11:15.360><c> which</c><00:11:15.600><c> data</c><00:11:15.920><c> is</c><00:11:16.160><c> received</c>
+
+00:11:16.470 --> 00:11:16.480 align:start position:0%
+there are ways in which data is received
+ 
+
+00:11:16.480 --> 00:11:18.069 align:start position:0%
+there are ways in which data is received
+by<00:11:16.560><c> the</c><00:11:16.720><c> user</c><00:11:16.959><c> process.</c><00:11:17.440><c> It's</c><00:11:17.600><c> not</c><00:11:17.760><c> direct</c>
+
+00:11:18.069 --> 00:11:18.079 align:start position:0%
+by the user process. It's not direct
+ 
+
+00:11:18.079 --> 00:11:19.509 align:start position:0%
+by the user process. It's not direct
+like<00:11:18.320><c> it</c><00:11:18.480><c> takes</c><00:11:18.640><c> a</c><00:11:18.800><c> while</c><00:11:19.040><c> between</c><00:11:19.279><c> the</c>
+
+00:11:19.509 --> 00:11:19.519 align:start position:0%
+like it takes a while between the
+ 
+
+00:11:19.519 --> 00:11:21.430 align:start position:0%
+like it takes a while between the
+interrupt<00:11:19.920><c> the</c><00:11:20.079><c> kernel</c><00:11:20.399><c> process</c><00:11:20.800><c> handling</c>
+
+00:11:21.430 --> 00:11:21.440 align:start position:0%
+interrupt the kernel process handling
+ 
+
+00:11:21.440 --> 00:11:23.910 align:start position:0%
+interrupt the kernel process handling
+and<00:11:21.680><c> then</c><00:11:21.839><c> it</c><00:11:22.000><c> goes</c><00:11:22.160><c> to</c><00:11:22.320><c> the</c><00:11:22.399><c> user</c><00:11:22.720><c> process.</c><00:11:23.680><c> In</c>
+
+00:11:23.910 --> 00:11:23.920 align:start position:0%
+and then it goes to the user process. In
+ 
+
+00:11:23.920 --> 00:11:25.750 align:start position:0%
+and then it goes to the user process. In
+robotics,<00:11:24.480><c> we</c><00:11:24.640><c> tend</c><00:11:24.800><c> to</c><00:11:24.959><c> just</c><00:11:25.200><c> boost</c><00:11:25.519><c> the</c>
+
+00:11:25.750 --> 00:11:25.760 align:start position:0%
+robotics, we tend to just boost the
+ 
+
+00:11:25.760 --> 00:11:27.910 align:start position:0%
+robotics, we tend to just boost the
+priority<00:11:26.079><c> of</c><00:11:26.320><c> all</c><00:11:26.560><c> our</c><00:11:26.720><c> processes</c><00:11:27.279><c> so</c><00:11:27.519><c> high</c>
+
+00:11:27.910 --> 00:11:27.920 align:start position:0%
+priority of all our processes so high
+ 
+
+00:11:27.920 --> 00:11:30.069 align:start position:0%
+priority of all our processes so high
+that<00:11:28.240><c> we</c><00:11:28.480><c> start</c><00:11:28.880><c> just</c><00:11:29.200><c> blocking</c><00:11:29.600><c> the</c><00:11:29.760><c> kernel</c>
+
+00:11:30.069 --> 00:11:30.079 align:start position:0%
+that we start just blocking the kernel
+ 
+
+00:11:30.079 --> 00:11:32.630 align:start position:0%
+that we start just blocking the kernel
+almost.<00:11:30.959><c> Like</c><00:11:31.120><c> if</c><00:11:31.279><c> the</c><00:11:31.440><c> kernel</c><00:11:31.760><c> doesn't</c><00:11:32.079><c> run,</c>
+
+00:11:32.630 --> 00:11:32.640 align:start position:0%
+almost. Like if the kernel doesn't run,
+ 
+
+00:11:32.640 --> 00:11:34.470 align:start position:0%
+almost. Like if the kernel doesn't run,
+we<00:11:32.880><c> won't</c><00:11:33.120><c> get</c><00:11:33.200><c> the</c><00:11:33.440><c> data.</c><00:11:34.000><c> But</c><00:11:34.079><c> we're</c><00:11:34.320><c> trying</c>
+
+00:11:34.470 --> 00:11:34.480 align:start position:0%
+we won't get the data. But we're trying
+ 
+
+00:11:34.480 --> 00:11:35.910 align:start position:0%
+we won't get the data. But we're trying
+to<00:11:34.640><c> get</c><00:11:34.720><c> the</c><00:11:34.880><c> data</c><00:11:35.040><c> and</c><00:11:35.279><c> we're</c><00:11:35.440><c> blocking</c><00:11:35.760><c> the</c>
+
+00:11:35.910 --> 00:11:35.920 align:start position:0%
+to get the data and we're blocking the
+ 
+
+00:11:35.920 --> 00:11:38.069 align:start position:0%
+to get the data and we're blocking the
+very<00:11:36.160><c> thing</c><00:11:36.320><c> that</c><00:11:36.480><c> will</c><00:11:36.720><c> give</c><00:11:36.800><c> us</c><00:11:36.959><c> the</c><00:11:37.120><c> data.</c>
+
+00:11:38.069 --> 00:11:38.079 align:start position:0%
+very thing that will give us the data.
+ 
+
+00:11:38.079 --> 00:11:39.990 align:start position:0%
+very thing that will give us the data.
+Well,<00:11:38.240><c> this</c><00:11:38.399><c> is</c><00:11:38.480><c> inversion</c><00:11:38.959><c> in</c><00:11:39.200><c> action.</c><00:11:39.839><c> And</c>
+
+00:11:39.990 --> 00:11:40.000 align:start position:0%
+Well, this is inversion in action. And
+ 
+
+00:11:40.000 --> 00:11:41.670 align:start position:0%
+Well, this is inversion in action. And
+it<00:11:40.240><c> will</c><00:11:40.399><c> see</c><00:11:40.560><c> your</c><00:11:40.720><c> system</c><00:11:40.959><c> again</c><00:11:41.200><c> drop</c><00:11:41.440><c> out</c>
+
+00:11:41.670 --> 00:11:41.680 align:start position:0%
+it will see your system again drop out
+ 
+
+00:11:41.680 --> 00:11:44.630 align:start position:0%
+it will see your system again drop out
+for<00:11:41.839><c> like</c><00:11:42.160><c> seconds</c><00:11:42.480><c> almost</c><00:11:42.800><c> at</c><00:11:42.959><c> a</c><00:11:43.200><c> time.</c><00:11:44.399><c> So</c>
+
+00:11:44.630 --> 00:11:44.640 align:start position:0%
+for like seconds almost at a time. So
+ 
+
+00:11:44.640 --> 00:11:46.470 align:start position:0%
+for like seconds almost at a time. So
+again,<00:11:45.040><c> this</c><00:11:45.200><c> is</c><00:11:45.360><c> something</c><00:11:45.600><c> we</c><00:11:45.839><c> we</c><00:11:46.079><c> fix</c><00:11:46.320><c> by</c>
+
+00:11:46.470 --> 00:11:46.480 align:start position:0%
+again, this is something we we fix by
+ 
+
+00:11:46.480 --> 00:11:47.990 align:start position:0%
+again, this is something we we fix by
+just<00:11:46.640><c> making</c><00:11:46.880><c> sure</c><00:11:47.120><c> we</c><00:11:47.279><c> know</c><00:11:47.440><c> the</c><00:11:47.680><c> parts</c><00:11:47.839><c> of</c>
+
+00:11:47.990 --> 00:11:48.000 align:start position:0%
+just making sure we know the parts of
+ 
+
+00:11:48.000 --> 00:11:49.509 align:start position:0%
+just making sure we know the parts of
+the<00:11:48.160><c> pipeline.</c><00:11:48.800><c> we</c><00:11:49.040><c> fix</c><00:11:49.279><c> the</c><00:11:49.440><c> right</c>
+
+00:11:49.509 --> 00:11:49.519 align:start position:0%
+the pipeline. we fix the right
+ 
+
+00:11:49.519 --> 00:11:51.269 align:start position:0%
+the pipeline. we fix the right
+priorities<00:11:49.920><c> and</c><00:11:50.079><c> we</c><00:11:50.320><c> make</c><00:11:50.480><c> sure</c><00:11:50.560><c> that</c><00:11:51.040><c> our</c>
+
+00:11:51.269 --> 00:11:51.279 align:start position:0%
+priorities and we make sure that our
+ 
+
+00:11:51.279 --> 00:11:52.870 align:start position:0%
+priorities and we make sure that our
+whole<00:11:51.519><c> system</c><00:11:51.680><c> as</c><00:11:51.920><c> a</c><00:11:52.000><c> whole</c><00:11:52.240><c> like</c><00:11:52.480><c> it</c><00:11:52.640><c> works</c>
+
+00:11:52.870 --> 00:11:52.880 align:start position:0%
+whole system as a whole like it works
+ 
+
+00:11:52.880 --> 00:11:55.190 align:start position:0%
+whole system as a whole like it works
+together<00:11:53.200><c> well.</c><00:11:54.079><c> So</c><00:11:54.320><c> this</c><00:11:54.480><c> is</c><00:11:54.640><c> how</c><00:11:54.880><c> like</c>
+
+00:11:55.190 --> 00:11:55.200 align:start position:0%
+together well. So this is how like
+ 
+
+00:11:55.200 --> 00:11:56.790 align:start position:0%
+together well. So this is how like
+software<00:11:55.519><c> and</c><00:11:55.839><c> robotics</c><00:11:56.320><c> have</c><00:11:56.480><c> to</c><00:11:56.640><c> work</c>
+
+00:11:56.790 --> 00:11:56.800 align:start position:0%
+software and robotics have to work
+ 
+
+00:11:56.800 --> 00:11:58.550 align:start position:0%
+software and robotics have to work
+together.<00:11:57.120><c> We</c><00:11:57.360><c> have</c><00:11:57.440><c> to</c><00:11:57.600><c> talk</c><00:11:57.760><c> about</c><00:11:57.920><c> hardware</c>
+
+00:11:58.550 --> 00:11:58.560 align:start position:0%
+together. We have to talk about hardware
+ 
+
+00:11:58.560 --> 00:12:00.389 align:start position:0%
+together. We have to talk about hardware
+the<00:11:58.800><c> various</c><00:11:59.279><c> profiling</c><00:11:59.839><c> the</c><00:12:00.000><c> various</c>
+
+00:12:00.389 --> 00:12:00.399 align:start position:0%
+the various profiling the various
+ 
+
+00:12:00.399 --> 00:12:03.430 align:start position:0%
+the various profiling the various
+priority<00:12:00.880><c> stuff</c><00:12:01.760><c> and</c><00:12:02.720><c> actually</c><00:12:03.040><c> just</c><00:12:03.200><c> take</c><00:12:03.279><c> a</c>
+
+00:12:03.430 --> 00:12:03.440 align:start position:0%
+priority stuff and actually just take a
+ 
+
+00:12:03.440 --> 00:12:05.190 align:start position:0%
+priority stuff and actually just take a
+recap<00:12:03.680><c> from</c><00:12:03.839><c> the</c><00:12:04.000><c> top.</c><00:12:04.399><c> So</c><00:12:04.560><c> we</c><00:12:04.720><c> went</c><00:12:04.880><c> over</c>
+
+00:12:05.190 --> 00:12:05.200 align:start position:0%
+recap from the top. So we went over
+ 
+
+00:12:05.200 --> 00:12:07.430 align:start position:0%
+recap from the top. So we went over
+pipeline.<00:12:05.920><c> We</c><00:12:06.079><c> saw</c><00:12:06.320><c> how</c><00:12:06.639><c> to</c><00:12:06.800><c> reduce</c><00:12:07.120><c> cycle</c>
+
+00:12:07.430 --> 00:12:07.440 align:start position:0%
+pipeline. We saw how to reduce cycle
+ 
+
+00:12:07.440 --> 00:12:10.550 align:start position:0%
+pipeline. We saw how to reduce cycle
+time<00:12:07.760><c> beat</c><00:12:08.480><c> how</c><00:12:08.800><c> the</c><00:12:09.120><c> communication</c><00:12:09.680><c> delays.</c>
+
+00:12:10.550 --> 00:12:10.560 align:start position:0%
+time beat how the communication delays.
+ 
+
+00:12:10.560 --> 00:12:12.550 align:start position:0%
+time beat how the communication delays.
+We<00:12:10.800><c> saw</c><00:12:11.040><c> how</c><00:12:11.279><c> synchronization</c><00:12:12.079><c> can</c><00:12:12.320><c> actually</c>
+
+00:12:12.550 --> 00:12:12.560 align:start position:0%
+We saw how synchronization can actually
+ 
+
+00:12:12.560 --> 00:12:14.389 align:start position:0%
+We saw how synchronization can actually
+cause<00:12:12.800><c> some</c><00:12:12.959><c> unexpected</c><00:12:13.519><c> jitter</c><00:12:13.920><c> which</c><00:12:14.240><c> are</c>
+
+00:12:14.389 --> 00:12:14.399 align:start position:0%
+cause some unexpected jitter which are
+ 
+
+00:12:14.399 --> 00:12:15.990 align:start position:0%
+cause some unexpected jitter which are
+hard<00:12:14.560><c> to</c><00:12:14.720><c> diagnose.</c><00:12:15.200><c> Could</c><00:12:15.360><c> be</c><00:12:15.440><c> the</c><00:12:15.600><c> policy,</c>
+
+00:12:15.990 --> 00:12:16.000 align:start position:0%
+hard to diagnose. Could be the policy,
+ 
+
+00:12:16.000 --> 00:12:17.829 align:start position:0%
+hard to diagnose. Could be the policy,
+could<00:12:16.160><c> be</c><00:12:16.320><c> the</c><00:12:16.560><c> system.</c><00:12:17.200><c> So</c><00:12:17.360><c> we</c><00:12:17.519><c> want</c><00:12:17.600><c> to</c><00:12:17.760><c> make</c>
+
+00:12:17.829 --> 00:12:17.839 align:start position:0%
+could be the system. So we want to make
+ 
+
+00:12:17.839 --> 00:12:19.750 align:start position:0%
+could be the system. So we want to make
+sure<00:12:18.000><c> that</c><00:12:18.160><c> that</c><00:12:18.399><c> doesn't</c><00:12:18.720><c> happen.</c><00:12:19.360><c> Logging</c>
+
+00:12:19.750 --> 00:12:19.760 align:start position:0%
+sure that that doesn't happen. Logging
+ 
+
+00:12:19.760 --> 00:12:21.110 align:start position:0%
+sure that that doesn't happen. Logging
+strategies<00:12:20.160><c> so</c><00:12:20.320><c> that</c><00:12:20.480><c> we</c><00:12:20.639><c> don't</c><00:12:20.720><c> block</c><00:12:20.959><c> the</c>
+
+00:12:21.110 --> 00:12:21.120 align:start position:0%
+strategies so that we don't block the
+ 
+
+00:12:21.120 --> 00:12:22.550 align:start position:0%
+strategies so that we don't block the
+system<00:12:21.360><c> while</c><00:12:21.600><c> we're</c><00:12:21.760><c> trying</c><00:12:21.920><c> to</c><00:12:22.079><c> tell</c><00:12:22.320><c> the</c>
+
+00:12:22.550 --> 00:12:22.560 align:start position:0%
+system while we're trying to tell the
+ 
+
+00:12:22.560 --> 00:12:24.470 align:start position:0%
+system while we're trying to tell the
+user<00:12:22.720><c> that</c><00:12:22.959><c> hey</c><00:12:23.200><c> this</c><00:12:23.360><c> is</c><00:12:23.519><c> happening.</c><00:12:24.320><c> And</c>
+
+00:12:24.470 --> 00:12:24.480 align:start position:0%
+user that hey this is happening. And
+ 
+
+00:12:24.480 --> 00:12:26.230 align:start position:0%
+user that hey this is happening. And
+finally<00:12:24.880><c> priority</c><00:12:25.279><c> inversion</c><00:12:25.680><c> to</c><00:12:25.920><c> avoid</c>
+
+00:12:26.230 --> 00:12:26.240 align:start position:0%
+finally priority inversion to avoid
+ 
+
+00:12:26.240 --> 00:12:28.230 align:start position:0%
+finally priority inversion to avoid
+starvation.<00:12:27.360><c> And</c><00:12:27.519><c> that's</c><00:12:27.760><c> how</c><00:12:27.920><c> we</c><00:12:28.079><c> start</c>
+
+00:12:28.230 --> 00:12:28.240 align:start position:0%
+starvation. And that's how we start
+ 
+
+00:12:28.240 --> 00:12:29.750 align:start position:0%
+starvation. And that's how we start
+designing<00:12:28.639><c> high</c><00:12:28.880><c> performance</c><00:12:29.279><c> robotic</c>
+
+00:12:29.750 --> 00:12:29.760 align:start position:0%
+designing high performance robotic
+ 
+
+00:12:29.760 --> 00:12:32.069 align:start position:0%
+designing high performance robotic
+systems<00:12:30.160><c> at</c><00:12:30.160><c> least</c><00:12:30.399><c> on</c><00:12:30.560><c> a</c><00:12:30.720><c> very</c><00:12:30.880><c> basic</c><00:12:31.200><c> level.</c>
+
+00:12:32.069 --> 00:12:32.079 align:start position:0%
+systems at least on a very basic level.
+ 
+
+00:12:32.079 --> 00:12:33.910 align:start position:0%
+systems at least on a very basic level.
+And<00:12:32.399><c> that's</c><00:12:32.800><c> my</c><00:12:32.959><c> talk</c><00:12:33.200><c> for</c><00:12:33.360><c> today.</c><00:12:33.600><c> And</c><00:12:33.760><c> thank</c>
+
+00:12:33.910 --> 00:12:33.920 align:start position:0%
+And that's my talk for today. And thank
+ 
+
+00:12:33.920 --> 00:12:37.940 align:start position:0%
+And that's my talk for today. And thank
+you<00:12:34.079><c> so</c><00:12:34.240><c> much</c><00:12:34.320><c> for</c><00:12:34.720><c> being</c><00:12:34.959><c> here</c><00:12:35.200><c> listening.</c>
+
+00:12:37.940 --> 00:12:37.950 align:start position:0%
+you so much for being here listening.
+ 
+
+00:12:37.950 --> 00:12:43.930 align:start position:0%
+you so much for being here listening.
+[Music]
+

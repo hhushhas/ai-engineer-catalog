@@ -1,0 +1,4304 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.330 --> 00:00:14.870 align:start position:0%
+ 
+[Music]
+
+00:00:14.870 --> 00:00:14.880 align:start position:0%
+ 
+ 
+
+00:00:14.880 --> 00:00:16.630 align:start position:0%
+ 
+We<00:00:15.120><c> are</c><00:00:15.280><c> talking</c><00:00:15.519><c> about</c><00:00:15.759><c> graph</c><00:00:16.080><c> rack</c><00:00:16.320><c> today.</c>
+
+00:00:16.630 --> 00:00:16.640 align:start position:0%
+We are talking about graph rack today.
+ 
+
+00:00:16.640 --> 00:00:18.470 align:start position:0%
+We are talking about graph rack today.
+That's<00:00:16.800><c> the</c><00:00:16.960><c> graph</c><00:00:17.279><c> rack</c><00:00:17.520><c> trick</c><00:00:17.920><c> of</c><00:00:18.160><c> course.</c>
+
+00:00:18.470 --> 00:00:18.480 align:start position:0%
+That's the graph rack trick of course.
+ 
+
+00:00:18.480 --> 00:00:20.630 align:start position:0%
+That's the graph rack trick of course.
+Uh<00:00:19.039><c> and</c><00:00:19.279><c> we</c><00:00:19.520><c> want</c><00:00:19.600><c> to</c><00:00:19.760><c> look</c><00:00:19.840><c> at</c><00:00:20.000><c> patterns</c><00:00:20.400><c> for</c>
+
+00:00:20.630 --> 00:00:20.640 align:start position:0%
+Uh and we want to look at patterns for
+ 
+
+00:00:20.640 --> 00:00:24.550 align:start position:0%
+Uh and we want to look at patterns for
+successful<00:00:21.039><c> graph</c><00:00:21.520><c> applications</c><00:00:22.960><c> uh</c><00:00:23.199><c> for</c><00:00:23.840><c> um</c>
+
+00:00:24.550 --> 00:00:24.560 align:start position:0%
+successful graph applications uh for um
+ 
+
+00:00:24.560 --> 00:00:26.310 align:start position:0%
+successful graph applications uh for um
+making<00:00:24.960><c> LLMs</c><00:00:25.439><c> a</c><00:00:25.600><c> little</c><00:00:25.680><c> bit</c><00:00:25.840><c> smarter</c><00:00:26.080><c> by</c>
+
+00:00:26.310 --> 00:00:26.320 align:start position:0%
+making LLMs a little bit smarter by
+ 
+
+00:00:26.320 --> 00:00:27.349 align:start position:0%
+making LLMs a little bit smarter by
+putting<00:00:26.480><c> knowledge</c><00:00:26.800><c> graph</c><00:00:27.039><c> into</c><00:00:27.199><c> the</c>
+
+00:00:27.349 --> 00:00:27.359 align:start position:0%
+putting knowledge graph into the
+ 
+
+00:00:27.359 --> 00:00:28.710 align:start position:0%
+putting knowledge graph into the
+picture.<00:00:27.599><c> My</c><00:00:27.760><c> name</c><00:00:27.840><c> is</c><00:00:27.920><c> Michael</c><00:00:28.240><c> Hunga.</c><00:00:28.560><c> I'm</c>
+
+00:00:28.710 --> 00:00:28.720 align:start position:0%
+picture. My name is Michael Hunga. I'm
+ 
+
+00:00:28.720 --> 00:00:31.990 align:start position:0%
+picture. My name is Michael Hunga. I'm
+VP<00:00:28.960><c> at</c><00:00:29.199><c> of</c><00:00:29.840><c> product</c><00:00:30.080><c> innovation</c><00:00:30.480><c> at</c><00:00:30.560><c> Neo</c><00:00:30.800><c> Forj.</c>
+
+00:00:31.990 --> 00:00:32.000 align:start position:0%
+VP at of product innovation at Neo Forj.
+ 
+
+00:00:32.000 --> 00:00:33.990 align:start position:0%
+VP at of product innovation at Neo Forj.
+My<00:00:32.160><c> name</c><00:00:32.239><c> is</c><00:00:32.399><c> Steven</c><00:00:32.719><c> Shin.</c><00:00:33.200><c> I</c><00:00:33.440><c> lead</c><00:00:33.600><c> the</c>
+
+00:00:33.990 --> 00:00:34.000 align:start position:0%
+My name is Steven Shin. I lead the
+ 
+
+00:00:34.000 --> 00:00:36.790 align:start position:0%
+My name is Steven Shin. I lead the
+developer<00:00:34.399><c> relations</c><00:00:34.800><c> at</c><00:00:34.960><c> Neo</c><00:00:35.280><c> Forj.</c><00:00:36.160><c> And</c><00:00:36.640><c> um</c>
+
+00:00:36.790 --> 00:00:36.800 align:start position:0%
+developer relations at Neo Forj. And um
+ 
+
+00:00:36.800 --> 00:00:39.670 align:start position:0%
+developer relations at Neo Forj. And um
+actually<00:00:37.280><c> we're</c><00:00:37.520><c> we're</c><00:00:37.920><c> both</c><00:00:38.399><c> co-authoring.</c>
+
+00:00:39.670 --> 00:00:39.680 align:start position:0%
+actually we're we're both co-authoring.
+ 
+
+00:00:39.680 --> 00:00:41.270 align:start position:0%
+actually we're we're both co-authoring.
+This<00:00:39.920><c> is</c><00:00:40.079><c> fun</c><00:00:40.239><c> because</c><00:00:40.399><c> we're</c><00:00:40.640><c> both</c><00:00:40.879><c> already</c>
+
+00:00:41.270 --> 00:00:41.280 align:start position:0%
+This is fun because we're both already
+ 
+
+00:00:41.280 --> 00:00:43.110 align:start position:0%
+This is fun because we're both already
+authors<00:00:41.760><c> and</c><00:00:42.160><c> finally</c><00:00:42.480><c> we've</c><00:00:42.800><c> been</c><00:00:42.879><c> friends</c>
+
+00:00:43.110 --> 00:00:43.120 align:start position:0%
+authors and finally we've been friends
+ 
+
+00:00:43.120 --> 00:00:44.869 align:start position:0%
+authors and finally we've been friends
+for<00:00:43.280><c> years</c><00:00:43.440><c> and</c><00:00:43.680><c> we</c><00:00:43.840><c> finally</c><00:00:44.160><c> get</c><00:00:44.399><c> to</c>
+
+00:00:44.869 --> 00:00:44.879 align:start position:0%
+for years and we finally get to
+ 
+
+00:00:44.879 --> 00:00:46.470 align:start position:0%
+for years and we finally get to
+co-author<00:00:45.360><c> a</c><00:00:45.520><c> book.</c><00:00:45.680><c> We're</c><00:00:45.840><c> co-authoring</c>
+
+00:00:46.470 --> 00:00:46.480 align:start position:0%
+co-author a book. We're co-authoring
+ 
+
+00:00:46.480 --> 00:00:48.549 align:start position:0%
+co-author a book. We're co-authoring
+Graph<00:00:46.800><c> Ragg,</c><00:00:47.120><c> the</c><00:00:47.280><c> definitive</c><00:00:47.760><c> guide</c>
+
+00:00:48.549 --> 00:00:48.559 align:start position:0%
+Graph Ragg, the definitive guide
+ 
+
+00:00:48.559 --> 00:00:50.950 align:start position:0%
+Graph Ragg, the definitive guide
+for<00:00:48.800><c> O'Reilly.</c><00:00:49.520><c> So</c><00:00:50.239><c> basically</c><00:00:50.559><c> we</c><00:00:50.800><c> didn't</c>
+
+00:00:50.950 --> 00:00:50.960 align:start position:0%
+for O'Reilly. So basically we didn't
+ 
+
+00:00:50.960 --> 00:00:52.310 align:start position:0%
+for O'Reilly. So basically we didn't
+sleep<00:00:51.200><c> this</c><00:00:51.440><c> past</c><00:00:51.600><c> weekend</c><00:00:51.840><c> because</c><00:00:52.000><c> we</c><00:00:52.160><c> had</c><00:00:52.239><c> a</c>
+
+00:00:52.310 --> 00:00:52.320 align:start position:0%
+sleep this past weekend because we had a
+ 
+
+00:00:52.320 --> 00:00:53.830 align:start position:0%
+sleep this past weekend because we had a
+book<00:00:52.480><c> deadline.</c>
+
+00:00:53.830 --> 00:00:53.840 align:start position:0%
+book deadline.
+ 
+
+00:00:53.840 --> 00:00:55.430 align:start position:0%
+book deadline.
+Yep.
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+Yep.
+ 
+
+00:00:55.440 --> 00:00:57.350 align:start position:0%
+Yep.
+So,<00:00:55.920><c> um,</c><00:00:56.239><c> I'm</c><00:00:56.480><c> going</c><00:00:56.640><c> to</c><00:00:56.719><c> talk</c><00:00:56.879><c> a</c><00:00:57.039><c> little</c><00:00:57.120><c> bit</c>
+
+00:00:57.350 --> 00:00:57.360 align:start position:0%
+So, um, I'm going to talk a little bit
+ 
+
+00:00:57.360 --> 00:01:00.069 align:start position:0%
+So, um, I'm going to talk a little bit
+about<00:00:57.760><c> kind</c><00:00:58.000><c> of</c><00:00:58.399><c> at</c><00:00:58.640><c> a</c><00:00:58.800><c> high</c><00:00:59.039><c> level</c><00:00:59.280><c> what</c><00:00:59.520><c> graph</c>
+
+00:01:00.069 --> 00:01:00.079 align:start position:0%
+about kind of at a high level what graph
+ 
+
+00:01:00.079 --> 00:01:01.750 align:start position:0%
+about kind of at a high level what graph
+is,<00:01:00.480><c> why</c><00:01:00.719><c> it's</c><00:01:00.960><c> important,</c><00:01:01.520><c> what</c><00:01:01.680><c> we're</c>
+
+00:01:01.750 --> 00:01:01.760 align:start position:0%
+is, why it's important, what we're
+ 
+
+00:01:01.760 --> 00:01:04.229 align:start position:0%
+is, why it's important, what we're
+seeing<00:01:01.920><c> in</c><00:01:02.079><c> the</c><00:01:02.160><c> media,</c><00:01:02.879><c> and</c><00:01:03.120><c> then</c><00:01:03.760><c> Michael's</c>
+
+00:01:04.229 --> 00:01:04.239 align:start position:0%
+seeing in the media, and then Michael's
+ 
+
+00:01:04.239 --> 00:01:05.590 align:start position:0%
+seeing in the media, and then Michael's
+going<00:01:04.320><c> to</c><00:01:04.400><c> drill</c><00:01:04.720><c> down</c><00:01:04.879><c> into</c><00:01:05.119><c> all</c><00:01:05.280><c> of</c><00:01:05.439><c> the</c>
+
+00:01:05.590 --> 00:01:05.600 align:start position:0%
+going to drill down into all of the
+ 
+
+00:01:05.600 --> 00:01:07.270 align:start position:0%
+going to drill down into all of the
+details<00:01:05.920><c> and</c><00:01:06.240><c> patterns,</c><00:01:06.640><c> and</c><00:01:06.880><c> give</c><00:01:07.040><c> you</c><00:01:07.119><c> a</c>
+
+00:01:07.270 --> 00:01:07.280 align:start position:0%
+details and patterns, and give you a
+ 
+
+00:01:07.280 --> 00:01:08.550 align:start position:0%
+details and patterns, and give you a
+bunch<00:01:07.439><c> of</c><00:01:07.520><c> takeaways</c><00:01:07.920><c> and</c><00:01:08.080><c> things</c><00:01:08.240><c> you</c><00:01:08.400><c> can</c>
+
+00:01:08.550 --> 00:01:08.560 align:start position:0%
+bunch of takeaways and things you can
+ 
+
+00:01:08.560 --> 00:01:11.190 align:start position:0%
+bunch of takeaways and things you can
+do.<00:01:09.119><c> This</c><00:01:09.360><c> is</c><00:01:09.600><c> probably</c><00:01:10.159><c> if</c><00:01:10.320><c> if</c><00:01:10.640><c> you</c><00:01:10.880><c> want</c><00:01:11.040><c> to</c>
+
+00:01:11.190 --> 00:01:11.200 align:start position:0%
+do. This is probably if if you want to
+ 
+
+00:01:11.200 --> 00:01:13.910 align:start position:0%
+do. This is probably if if you want to
+know<00:01:11.360><c> how</c><00:01:11.439><c> to</c><00:01:11.600><c> do</c><00:01:11.760><c> graph</c><00:01:12.159><c> rag,</c><00:01:13.200><c> Michael's</c>
+
+00:01:13.910 --> 00:01:13.920 align:start position:0%
+know how to do graph rag, Michael's
+ 
+
+00:01:13.920 --> 00:01:17.109 align:start position:0%
+know how to do graph rag, Michael's
+quick<00:01:15.040><c> dive</c><00:01:15.920><c> on</c><00:01:16.080><c> this</c><00:01:16.320><c> is</c><00:01:16.560><c> the</c><00:01:16.799><c> best</c>
+
+00:01:17.109 --> 00:01:17.119 align:start position:0%
+quick dive on this is the best
+ 
+
+00:01:17.119 --> 00:01:18.870 align:start position:0%
+quick dive on this is the best
+introduction<00:01:17.600><c> you</c><00:01:17.840><c> can</c><00:01:17.920><c> get.</c><00:01:18.159><c> So,</c><00:01:18.320><c> I'm</c><00:01:18.560><c> also</c>
+
+00:01:18.870 --> 00:01:18.880 align:start position:0%
+introduction you can get. So, I'm also
+ 
+
+00:01:18.880 --> 00:01:19.510 align:start position:0%
+introduction you can get. So, I'm also
+excited.
+
+00:01:19.510 --> 00:01:19.520 align:start position:0%
+excited.
+ 
+
+00:01:19.520 --> 00:01:22.310 align:start position:0%
+excited.
+Awesome.<00:01:19.920><c> Let's</c><00:01:20.159><c> get</c><00:01:20.320><c> going.</c><00:01:20.799><c> Okay,</c><00:01:21.280><c> so</c><00:01:21.920><c> the</c>
+
+00:01:22.310 --> 00:01:22.320 align:start position:0%
+Awesome. Let's get going. Okay, so the
+ 
+
+00:01:22.320 --> 00:01:24.070 align:start position:0%
+Awesome. Let's get going. Okay, so the
+case<00:01:22.560><c> for</c><00:01:22.799><c> graph</c><00:01:23.200><c> rag</c><00:01:23.439><c> is</c><00:01:23.680><c> where</c><00:01:23.840><c> we're</c><00:01:24.000><c> going</c>
+
+00:01:24.070 --> 00:01:24.080 align:start position:0%
+case for graph rag is where we're going
+ 
+
+00:01:24.080 --> 00:01:27.910 align:start position:0%
+case for graph rag is where we're going
+to<00:01:24.159><c> start.</c><00:01:24.960><c> And</c><00:01:25.840><c> the</c><00:01:26.159><c> challenge</c><00:01:26.640><c> with</c><00:01:27.200><c> using</c>
+
+00:01:27.910 --> 00:01:27.920 align:start position:0%
+to start. And the challenge with using
+ 
+
+00:01:27.920 --> 00:01:30.550 align:start position:0%
+to start. And the challenge with using
+LMS<00:01:28.880><c> and</c><00:01:29.119><c> using</c><00:01:29.439><c> other</c><00:01:29.600><c> patterns</c><00:01:29.920><c> for</c><00:01:30.080><c> this</c><00:01:30.240><c> is</c>
+
+00:01:30.550 --> 00:01:30.560 align:start position:0%
+LMS and using other patterns for this is
+ 
+
+00:01:30.560 --> 00:01:31.990 align:start position:0%
+LMS and using other patterns for this is
+basically<00:01:30.960><c> they</c><00:01:31.200><c> they</c><00:01:31.600><c> don't</c><00:01:31.759><c> have</c><00:01:31.840><c> the</c>
+
+00:01:31.990 --> 00:01:32.000 align:start position:0%
+basically they they don't have the
+ 
+
+00:01:32.000 --> 00:01:33.670 align:start position:0%
+basically they they don't have the
+enterprise<00:01:32.479><c> domain</c><00:01:32.799><c> knowledge.</c><00:01:33.200><c> They</c><00:01:33.439><c> don't</c>
+
+00:01:33.670 --> 00:01:33.680 align:start position:0%
+enterprise domain knowledge. They don't
+ 
+
+00:01:33.680 --> 00:01:35.830 align:start position:0%
+enterprise domain knowledge. They don't
+verify<00:01:34.079><c> or</c><00:01:34.240><c> explain</c><00:01:34.479><c> the</c><00:01:34.720><c> answers.</c><00:01:35.200><c> They're</c>
+
+00:01:35.830 --> 00:01:35.840 align:start position:0%
+verify or explain the answers. They're
+ 
+
+00:01:35.840 --> 00:01:38.149 align:start position:0%
+verify or explain the answers. They're
+subject<00:01:36.159><c> to</c><00:01:36.400><c> hallucinations.</c>
+
+00:01:38.149 --> 00:01:38.159 align:start position:0%
+subject to hallucinations.
+ 
+
+00:01:38.159 --> 00:01:40.069 align:start position:0%
+subject to hallucinations.
+Um,<00:01:38.479><c> and</c><00:01:38.720><c> they</c><00:01:38.880><c> have</c><00:01:38.960><c> ethical</c><00:01:39.280><c> and</c><00:01:39.439><c> data</c><00:01:39.759><c> bias</c>
+
+00:01:40.069 --> 00:01:40.079 align:start position:0%
+Um, and they have ethical and data bias
+ 
+
+00:01:40.079 --> 00:01:42.710 align:start position:0%
+Um, and they have ethical and data bias
+concerns.<00:01:40.640><c> And</c><00:01:41.040><c> you</c><00:01:41.280><c> can</c><00:01:41.439><c> see</c><00:01:41.600><c> that</c><00:01:42.240><c> very</c><00:01:42.560><c> much</c>
+
+00:01:42.710 --> 00:01:42.720 align:start position:0%
+concerns. And you can see that very much
+ 
+
+00:01:42.720 --> 00:01:45.510 align:start position:0%
+concerns. And you can see that very much
+like<00:01:42.960><c> our</c><00:01:43.119><c> our</c><00:01:43.439><c> friendly</c><00:01:43.759><c> parrot</c><00:01:44.159><c> here.</c><00:01:45.040><c> Um,</c>
+
+00:01:45.510 --> 00:01:45.520 align:start position:0%
+like our our friendly parrot here. Um,
+ 
+
+00:01:45.520 --> 00:01:47.429 align:start position:0%
+like our our friendly parrot here. Um,
+they<00:01:45.759><c> are</c><00:01:45.920><c> all</c><00:01:46.159><c> the</c><00:01:46.320><c> things</c><00:01:46.560><c> which</c><00:01:46.880><c> parrots</c>
+
+00:01:47.429 --> 00:01:47.439 align:start position:0%
+they are all the things which parrots
+ 
+
+00:01:47.439 --> 00:01:50.950 align:start position:0%
+they are all the things which parrots
+behave<00:01:47.759><c> and</c><00:01:48.000><c> act</c><00:01:48.240><c> like</c><00:01:48.880><c> except</c><00:01:49.119><c> a</c><00:01:49.360><c> cute</c><00:01:49.600><c> bird.</c>
+
+00:01:50.950 --> 00:01:50.960 align:start position:0%
+behave and act like except a cute bird.
+ 
+
+00:01:50.960 --> 00:01:52.789 align:start position:0%
+behave and act like except a cute bird.
+So<00:01:51.280><c> we</c><00:01:51.520><c> want</c><00:01:51.600><c> to</c><00:01:51.680><c> do</c><00:01:51.840><c> better</c><00:01:52.000><c> than</c><00:01:52.159><c> this</c><00:01:52.479><c> with</c>
+
+00:01:52.789 --> 00:01:52.799 align:start position:0%
+So we want to do better than this with
+ 
+
+00:01:52.799 --> 00:01:54.950 align:start position:0%
+So we want to do better than this with
+graph<00:01:53.200><c> rag</c><00:01:53.600><c> and</c><00:01:53.920><c> figure</c><00:01:54.159><c> out</c><00:01:54.320><c> how</c><00:01:54.479><c> we</c><00:01:54.640><c> can</c><00:01:54.720><c> use</c>
+
+00:01:54.950 --> 00:01:54.960 align:start position:0%
+graph rag and figure out how we can use
+ 
+
+00:01:54.960 --> 00:01:57.429 align:start position:0%
+graph rag and figure out how we can use
+domain<00:01:55.360><c> specific</c><00:01:55.759><c> knowledge</c><00:01:56.640><c> accurate</c>
+
+00:01:57.429 --> 00:01:57.439 align:start position:0%
+domain specific knowledge accurate
+ 
+
+00:01:57.439 --> 00:02:00.469 align:start position:0%
+domain specific knowledge accurate
+contextual<00:01:58.079><c> and</c><00:01:58.320><c> explainable</c><00:01:59.040><c> answers.</c><00:02:00.000><c> And</c>
+
+00:02:00.469 --> 00:02:00.479 align:start position:0%
+contextual and explainable answers. And
+ 
+
+00:02:00.479 --> 00:02:02.310 align:start position:0%
+contextual and explainable answers. And
+really<00:02:00.719><c> I</c><00:02:00.960><c> think</c><00:02:01.119><c> like</c><00:02:01.360><c> what</c><00:02:01.520><c> a</c><00:02:01.759><c> lot</c><00:02:01.840><c> of</c>
+
+00:02:02.310 --> 00:02:02.320 align:start position:0%
+really I think like what a lot of
+ 
+
+00:02:02.320 --> 00:02:03.830 align:start position:0%
+really I think like what a lot of
+companies<00:02:02.799><c> and</c><00:02:03.040><c> what</c><00:02:03.200><c> the</c><00:02:03.360><c> industry</c><00:02:03.600><c> is</c>
+
+00:02:03.830 --> 00:02:03.840 align:start position:0%
+companies and what the industry is
+ 
+
+00:02:03.840 --> 00:02:05.429 align:start position:0%
+companies and what the industry is
+figuring<00:02:04.079><c> out</c><00:02:04.320><c> is</c><00:02:04.560><c> it's</c><00:02:04.799><c> really</c><00:02:04.960><c> a</c><00:02:05.200><c> data</c>
+
+00:02:05.429 --> 00:02:05.439 align:start position:0%
+figuring out is it's really a data
+ 
+
+00:02:05.439 --> 00:02:07.830 align:start position:0%
+figuring out is it's really a data
+problem.<00:02:06.159><c> You</c><00:02:06.399><c> you</c><00:02:06.719><c> need</c><00:02:06.960><c> good</c><00:02:07.280><c> data.</c><00:02:07.680><c> You</c>
+
+00:02:07.830 --> 00:02:07.840 align:start position:0%
+problem. You you need good data. You
+ 
+
+00:02:07.840 --> 00:02:09.510 align:start position:0%
+problem. You you need good data. You
+need<00:02:08.000><c> to</c><00:02:08.160><c> have</c><00:02:08.239><c> data</c><00:02:08.560><c> you</c><00:02:08.800><c> can</c><00:02:08.959><c> power</c><00:02:09.200><c> your</c>
+
+00:02:09.510 --> 00:02:09.520 align:start position:0%
+need to have data you can power your
+ 
+
+00:02:09.520 --> 00:02:11.910 align:start position:0%
+need to have data you can power your
+system<00:02:09.759><c> with.</c><00:02:10.560><c> Um</c><00:02:11.039><c> one</c><00:02:11.200><c> of</c><00:02:11.280><c> the</c><00:02:11.440><c> patterns</c><00:02:11.760><c> you</c>
+
+00:02:11.910 --> 00:02:11.920 align:start position:0%
+system with. Um one of the patterns you
+ 
+
+00:02:11.920 --> 00:02:13.670 align:start position:0%
+system with. Um one of the patterns you
+can<00:02:12.000><c> do</c><00:02:12.080><c> this</c><00:02:12.160><c> with</c><00:02:12.319><c> is</c><00:02:12.480><c> rag.</c><00:02:12.959><c> So</c><00:02:13.120><c> you</c><00:02:13.280><c> can</c>
+
+00:02:13.670 --> 00:02:13.680 align:start position:0%
+can do this with is rag. So you can
+ 
+
+00:02:13.680 --> 00:02:15.750 align:start position:0%
+can do this with is rag. So you can
+stick<00:02:13.920><c> your</c><00:02:14.080><c> external</c><00:02:14.480><c> data</c><00:02:14.720><c> into</c><00:02:14.959><c> a</c><00:02:15.120><c> into</c><00:02:15.599><c> a</c>
+
+00:02:15.750 --> 00:02:15.760 align:start position:0%
+stick your external data into a into a
+ 
+
+00:02:15.760 --> 00:02:18.390 align:start position:0%
+stick your external data into a into a
+rag<00:02:16.239><c> system.</c><00:02:16.640><c> you</c><00:02:16.959><c> can</c><00:02:17.440><c> get</c><00:02:17.680><c> stuff</c><00:02:17.920><c> back</c><00:02:18.160><c> from</c>
+
+00:02:18.390 --> 00:02:18.400 align:start position:0%
+rag system. you can get stuff back from
+ 
+
+00:02:18.400 --> 00:02:21.830 align:start position:0%
+rag system. you can get stuff back from
+a<00:02:18.879><c> um</c><00:02:19.040><c> a</c><00:02:19.360><c> database</c><00:02:20.000><c> for</c><00:02:20.239><c> the</c><00:02:20.480><c> pattern,</c><00:02:21.200><c> but</c>
+
+00:02:21.830 --> 00:02:21.840 align:start position:0%
+a um a database for the pattern, but
+ 
+
+00:02:21.840 --> 00:02:24.390 align:start position:0%
+a um a database for the pattern, but
+vector<00:02:22.319><c> databases</c><00:02:22.959><c> and</c><00:02:23.120><c> rag</c><00:02:23.599><c> fall</c><00:02:23.920><c> short</c>
+
+00:02:24.390 --> 00:02:24.400 align:start position:0%
+vector databases and rag fall short
+ 
+
+00:02:24.400 --> 00:02:27.910 align:start position:0%
+vector databases and rag fall short
+because<00:02:25.280><c> it's</c><00:02:26.000><c> it's</c><00:02:26.560><c> lacking</c><00:02:27.360><c> kind</c><00:02:27.599><c> of</c><00:02:27.680><c> your</c>
+
+00:02:27.910 --> 00:02:27.920 align:start position:0%
+because it's it's lacking kind of your
+ 
+
+00:02:27.920 --> 00:02:29.830 align:start position:0%
+because it's it's lacking kind of your
+full<00:02:28.239><c> data</c><00:02:28.480><c> set.</c><00:02:28.800><c> It's</c><00:02:29.120><c> it's</c><00:02:29.360><c> only</c><00:02:29.599><c> pulling</c>
+
+00:02:29.830 --> 00:02:29.840 align:start position:0%
+full data set. It's it's only pulling
+ 
+
+00:02:29.840 --> 00:02:31.350 align:start position:0%
+full data set. It's it's only pulling
+back<00:02:30.000><c> a</c><00:02:30.239><c> fraction</c><00:02:30.480><c> of</c><00:02:30.560><c> the</c><00:02:30.800><c> information</c><00:02:31.120><c> by</c>
+
+00:02:31.350 --> 00:02:31.360 align:start position:0%
+back a fraction of the information by
+ 
+
+00:02:31.360 --> 00:02:33.750 align:start position:0%
+back a fraction of the information by
+vector<00:02:31.599><c> similarity</c><00:02:32.080><c> algorithms.</c><00:02:33.360><c> Typically,</c>
+
+00:02:33.750 --> 00:02:33.760 align:start position:0%
+vector similarity algorithms. Typically,
+ 
+
+00:02:33.760 --> 00:02:35.830 align:start position:0%
+vector similarity algorithms. Typically,
+a<00:02:33.920><c> lot</c><00:02:34.000><c> of</c><00:02:34.080><c> the</c><00:02:34.480><c> especially</c><00:02:34.959><c> modern</c><00:02:35.440><c> vector</c>
+
+00:02:35.830 --> 00:02:35.840 align:start position:0%
+a lot of the especially modern vector
+ 
+
+00:02:35.840 --> 00:02:37.430 align:start position:0%
+a lot of the especially modern vector
+databases<00:02:36.480><c> which</c><00:02:36.720><c> everyone's</c><00:02:37.120><c> using,</c>
+
+00:02:37.430 --> 00:02:37.440 align:start position:0%
+databases which everyone's using,
+ 
+
+00:02:37.440 --> 00:02:38.470 align:start position:0%
+databases which everyone's using,
+they're<00:02:37.599><c> they're</c><00:02:37.920><c> easy</c><00:02:38.080><c> to</c><00:02:38.160><c> get</c><00:02:38.319><c> started</c>
+
+00:02:38.470 --> 00:02:38.480 align:start position:0%
+they're they're easy to get started
+ 
+
+00:02:38.480 --> 00:02:39.670 align:start position:0%
+they're they're easy to get started
+with,<00:02:38.640><c> but</c><00:02:38.879><c> they're</c><00:02:39.040><c> not</c><00:02:39.120><c> robust.</c><00:02:39.519><c> They're</c>
+
+00:02:39.670 --> 00:02:39.680 align:start position:0%
+with, but they're not robust. They're
+ 
+
+00:02:39.680 --> 00:02:41.430 align:start position:0%
+with, but they're not robust. They're
+not<00:02:39.840><c> mature.</c><00:02:40.480><c> They're</c><00:02:40.720><c> not</c><00:02:40.959><c> something</c><00:02:41.120><c> which</c>
+
+00:02:41.430 --> 00:02:41.440 align:start position:0%
+not mature. They're not something which
+ 
+
+00:02:41.440 --> 00:02:44.470 align:start position:0%
+not mature. They're not something which
+has<00:02:41.840><c> scalability</c><00:02:42.560><c> and</c><00:02:42.959><c> fallback</c><00:02:43.599><c> and</c><00:02:44.239><c> gives</c>
+
+00:02:44.470 --> 00:02:44.480 align:start position:0%
+has scalability and fallback and gives
+ 
+
+00:02:44.480 --> 00:02:46.710 align:start position:0%
+has scalability and fallback and gives
+you<00:02:44.640><c> that</c><00:02:45.200><c> what</c><00:02:45.440><c> you</c><00:02:45.599><c> need</c><00:02:45.760><c> to</c><00:02:45.920><c> get</c><00:02:46.080><c> into</c><00:02:46.480><c> build</c>
+
+00:02:46.710 --> 00:02:46.720 align:start position:0%
+you that what you need to get into build
+ 
+
+00:02:46.720 --> 00:02:49.750 align:start position:0%
+you that what you need to get into build
+a<00:02:46.959><c> strong</c><00:02:47.360><c> robust</c><00:02:48.080><c> um</c><00:02:48.319><c> enterprise</c><00:02:48.800><c> system</c><00:02:49.519><c> and</c>
+
+00:02:49.750 --> 00:02:49.760 align:start position:0%
+a strong robust um enterprise system and
+ 
+
+00:02:49.760 --> 00:02:51.509 align:start position:0%
+a strong robust um enterprise system and
+vector<00:02:50.160><c> similarity</c><00:02:50.640><c> is</c><00:02:50.879><c> not</c><00:02:51.040><c> the</c><00:02:51.200><c> same</c><00:02:51.280><c> as</c>
+
+00:02:51.509 --> 00:02:51.519 align:start position:0%
+vector similarity is not the same as
+ 
+
+00:02:51.519 --> 00:02:54.869 align:start position:0%
+vector similarity is not the same as
+relevance.<00:02:52.800><c> So</c><00:02:53.519><c> results</c><00:02:53.920><c> you</c><00:02:54.160><c> get</c><00:02:54.319><c> back</c><00:02:54.560><c> from</c>
+
+00:02:54.869 --> 00:02:54.879 align:start position:0%
+relevance. So results you get back from
+ 
+
+00:02:54.879 --> 00:02:57.190 align:start position:0%
+relevance. So results you get back from
+using<00:02:55.120><c> a</c><00:02:55.280><c> basic</c><00:02:55.519><c> rag</c><00:02:56.000><c> system.</c><00:02:56.640><c> They're</c><00:02:56.959><c> they</c>
+
+00:02:57.190 --> 00:02:57.200 align:start position:0%
+using a basic rag system. They're they
+ 
+
+00:02:57.200 --> 00:02:58.550 align:start position:0%
+using a basic rag system. They're they
+give<00:02:57.360><c> you</c><00:02:57.519><c> back</c><00:02:57.760><c> things</c><00:02:57.920><c> which</c><00:02:58.080><c> are</c><00:02:58.319><c> related</c>
+
+00:02:58.550 --> 00:02:58.560 align:start position:0%
+give you back things which are related
+ 
+
+00:02:58.560 --> 00:03:01.910 align:start position:0%
+give you back things which are related
+to<00:02:58.720><c> the</c><00:02:58.959><c> topic</c><00:02:59.760><c> but</c><00:03:00.160><c> it's</c><00:03:00.480><c> not</c><00:03:00.800><c> complete</c><00:03:01.680><c> and</c>
+
+00:03:01.910 --> 00:03:01.920 align:start position:0%
+to the topic but it's not complete and
+ 
+
+00:03:01.920 --> 00:03:04.710 align:start position:0%
+to the topic but it's not complete and
+it's<00:03:02.319><c> typically</c><00:03:02.879><c> also</c><00:03:03.280><c> not</c><00:03:03.440><c> very</c><00:03:03.760><c> relevant.</c>
+
+00:03:04.710 --> 00:03:04.720 align:start position:0%
+it's typically also not very relevant.
+ 
+
+00:03:04.720 --> 00:03:06.470 align:start position:0%
+it's typically also not very relevant.
+And<00:03:04.879><c> then</c><00:03:05.280><c> it's</c><00:03:05.599><c> very</c><00:03:05.840><c> hard</c><00:03:06.000><c> to</c><00:03:06.159><c> explain</c>
+
+00:03:06.470 --> 00:03:06.480 align:start position:0%
+And then it's very hard to explain
+ 
+
+00:03:06.480 --> 00:03:08.710 align:start position:0%
+And then it's very hard to explain
+what's<00:03:06.720><c> coming</c><00:03:06.959><c> out</c><00:03:07.120><c> of</c><00:03:07.200><c> the</c><00:03:07.360><c> system.</c><00:03:07.760><c> So</c><00:03:08.480><c> we</c>
+
+00:03:08.710 --> 00:03:08.720 align:start position:0%
+what's coming out of the system. So we
+ 
+
+00:03:08.720 --> 00:03:11.030 align:start position:0%
+what's coming out of the system. So we
+need<00:03:08.959><c> answer</c><00:03:10.080><c> lifeline.</c>
+
+00:03:11.030 --> 00:03:11.040 align:start position:0%
+need answer lifeline.
+ 
+
+00:03:11.040 --> 00:03:11.670 align:start position:0%
+need answer lifeline.
+Yeah.
+
+00:03:11.670 --> 00:03:11.680 align:start position:0%
+Yeah.
+ 
+
+00:03:11.680 --> 00:03:12.869 align:start position:0%
+Yeah.
+Graph<00:03:12.000><c> rag.</c>
+
+00:03:12.869 --> 00:03:12.879 align:start position:0%
+Graph rag.
+ 
+
+00:03:12.879 --> 00:03:16.710 align:start position:0%
+Graph rag.
+And<00:03:13.280><c> what</c><00:03:13.519><c> graph</c><00:03:13.920><c> rag</c><00:03:14.159><c> is</c><00:03:14.239><c> is</c><00:03:14.560><c> we're</c><00:03:14.800><c> bringing</c>
+
+00:03:16.710 --> 00:03:16.720 align:start position:0%
+And what graph rag is is we're bringing
+ 
+
+00:03:16.720 --> 00:03:18.790 align:start position:0%
+And what graph rag is is we're bringing
+the<00:03:17.040><c> re</c><00:03:17.360><c> we're</c><00:03:17.599><c> bringing</c><00:03:17.840><c> the</c><00:03:18.080><c> knowledge</c><00:03:18.640><c> and</c>
+
+00:03:18.790 --> 00:03:18.800 align:start position:0%
+the re we're bringing the knowledge and
+ 
+
+00:03:18.800 --> 00:03:20.550 align:start position:0%
+the re we're bringing the knowledge and
+the<00:03:18.959><c> context</c><00:03:19.200><c> in</c><00:03:19.440><c> the</c><00:03:19.599><c> environment</c><00:03:20.080><c> to</c><00:03:20.319><c> what</c>
+
+00:03:20.550 --> 00:03:20.560 align:start position:0%
+the context in the environment to what
+ 
+
+00:03:20.560 --> 00:03:22.070 align:start position:0%
+the context in the environment to what
+LM<00:03:21.040><c> are</c><00:03:21.120><c> good</c><00:03:21.280><c> at.</c><00:03:21.440><c> So</c><00:03:21.519><c> you</c><00:03:21.680><c> can</c><00:03:21.760><c> think</c><00:03:21.840><c> of</c><00:03:21.920><c> this</c>
+
+00:03:22.070 --> 00:03:22.080 align:start position:0%
+LM are good at. So you can think of this
+ 
+
+00:03:22.080 --> 00:03:24.070 align:start position:0%
+LM are good at. So you can think of this
+kind<00:03:22.159><c> of</c><00:03:22.239><c> like</c><00:03:22.400><c> the</c><00:03:22.560><c> human</c><00:03:22.800><c> brain.</c><00:03:23.120><c> Our</c><00:03:23.440><c> our</c>
+
+00:03:24.070 --> 00:03:24.080 align:start position:0%
+kind of like the human brain. Our our
+ 
+
+00:03:24.080 --> 00:03:26.550 align:start position:0%
+kind of like the human brain. Our our
+left<00:03:24.319><c> brain</c><00:03:24.640><c> is</c><00:03:25.280><c> um</c><00:03:25.519><c> our</c><00:03:25.760><c> right</c><00:03:26.000><c> brain</c><00:03:26.239><c> is</c><00:03:26.400><c> more</c>
+
+00:03:26.550 --> 00:03:26.560 align:start position:0%
+left brain is um our right brain is more
+ 
+
+00:03:26.560 --> 00:03:29.430 align:start position:0%
+left brain is um our right brain is more
+creative.<00:03:27.040><c> It</c><00:03:27.280><c> does</c><00:03:27.440><c> more</c><00:03:28.000><c> like</c><00:03:28.560><c> like</c>
+
+00:03:29.430 --> 00:03:29.440 align:start position:0%
+creative. It does more like like
+ 
+
+00:03:29.440 --> 00:03:31.270 align:start position:0%
+creative. It does more like like
+building<00:03:29.840><c> things.</c><00:03:30.239><c> It</c><00:03:30.480><c> does</c><00:03:30.720><c> more</c><00:03:31.200><c> um</c>
+
+00:03:31.270 --> 00:03:31.280 align:start position:0%
+building things. It does more um
+ 
+
+00:03:31.280 --> 00:03:33.350 align:start position:0%
+building things. It does more um
+extrapolation<00:03:32.000><c> of</c><00:03:32.239><c> information.</c><00:03:33.120><c> Whereas</c>
+
+00:03:33.350 --> 00:03:33.360 align:start position:0%
+extrapolation of information. Whereas
+ 
+
+00:03:33.360 --> 00:03:35.350 align:start position:0%
+extrapolation of information. Whereas
+our<00:03:33.599><c> left</c><00:03:33.840><c> brain</c><00:03:34.159><c> is</c><00:03:34.319><c> the</c><00:03:34.560><c> logical</c><00:03:35.040><c> part.</c>
+
+00:03:35.350 --> 00:03:35.360 align:start position:0%
+our left brain is the logical part.
+ 
+
+00:03:35.360 --> 00:03:37.110 align:start position:0%
+our left brain is the logical part.
+That's<00:03:35.599><c> what</c><00:03:35.840><c> actually</c><00:03:36.080><c> has</c><00:03:36.319><c> reasoning,</c><00:03:36.799><c> has</c>
+
+00:03:37.110 --> 00:03:37.120 align:start position:0%
+That's what actually has reasoning, has
+ 
+
+00:03:37.120 --> 00:03:39.830 align:start position:0%
+That's what actually has reasoning, has
+facts,<00:03:37.519><c> and</c><00:03:37.760><c> can</c><00:03:37.920><c> enrich</c><00:03:38.319><c> data.</c><00:03:39.200><c> And</c><00:03:39.360><c> it's</c>
+
+00:03:39.830 --> 00:03:39.840 align:start position:0%
+facts, and can enrich data. And it's
+ 
+
+00:03:39.840 --> 00:03:42.229 align:start position:0%
+facts, and can enrich data. And it's
+built<00:03:40.159><c> off</c><00:03:40.400><c> of</c><00:03:40.560><c> knowledge</c><00:03:41.040><c> graphs.</c><00:03:41.760><c> So,</c><00:03:42.080><c> a</c>
+
+00:03:42.229 --> 00:03:42.239 align:start position:0%
+built off of knowledge graphs. So, a
+ 
+
+00:03:42.239 --> 00:03:43.670 align:start position:0%
+built off of knowledge graphs. So, a
+knowledge<00:03:42.640><c> graph</c><00:03:42.879><c> is</c><00:03:43.040><c> a</c><00:03:43.280><c> collection</c><00:03:43.519><c> of</c>
+
+00:03:43.670 --> 00:03:43.680 align:start position:0%
+knowledge graph is a collection of
+ 
+
+00:03:43.680 --> 00:03:47.190 align:start position:0%
+knowledge graph is a collection of
+nodes,<00:03:44.640><c> relationships,</c><00:03:45.840><c> and</c><00:03:46.159><c> properties.</c>
+
+00:03:47.190 --> 00:03:47.200 align:start position:0%
+nodes, relationships, and properties.
+ 
+
+00:03:47.200 --> 00:03:48.630 align:start position:0%
+nodes, relationships, and properties.
+Here's<00:03:47.519><c> a</c><00:03:47.680><c> really</c><00:03:47.840><c> simple</c><00:03:48.080><c> example</c><00:03:48.319><c> of</c><00:03:48.480><c> a</c>
+
+00:03:48.630 --> 00:03:48.640 align:start position:0%
+Here's a really simple example of a
+ 
+
+00:03:48.640 --> 00:03:50.229 align:start position:0%
+Here's a really simple example of a
+knowledge<00:03:48.959><c> graph</c><00:03:49.280><c> where</c><00:03:49.680><c> you</c><00:03:49.840><c> have</c><00:03:50.000><c> two</c>
+
+00:03:50.229 --> 00:03:50.239 align:start position:0%
+knowledge graph where you have two
+ 
+
+00:03:50.239 --> 00:03:52.229 align:start position:0%
+knowledge graph where you have two
+people.<00:03:50.640><c> They</c><00:03:50.799><c> they</c><00:03:51.040><c> live</c><00:03:51.280><c> together,</c><00:03:52.000><c> you</c>
+
+00:03:52.229 --> 00:03:52.239 align:start position:0%
+people. They they live together, you
+ 
+
+00:03:52.239 --> 00:03:53.910 align:start position:0%
+people. They they live together, you
+have<00:03:52.319><c> a</c><00:03:52.480><c> car,</c><00:03:52.959><c> but</c><00:03:53.200><c> when</c><00:03:53.360><c> you</c><00:03:53.440><c> look</c><00:03:53.519><c> into</c><00:03:53.760><c> the</c>
+
+00:03:53.910 --> 00:03:53.920 align:start position:0%
+have a car, but when you look into the
+ 
+
+00:03:53.920 --> 00:03:55.830 align:start position:0%
+have a car, but when you look into the
+details,<00:03:54.400><c> it's</c><00:03:54.640><c> actually</c><00:03:54.959><c> like</c><00:03:55.120><c> a</c><00:03:55.360><c> little</c><00:03:55.519><c> bit</c>
+
+00:03:55.830 --> 00:03:55.840 align:start position:0%
+details, it's actually like a little bit
+ 
+
+00:03:55.840 --> 00:03:57.509 align:start position:0%
+details, it's actually like a little bit
+more<00:03:56.159><c> complex</c><00:03:56.480><c> than</c><00:03:56.640><c> it</c><00:03:56.799><c> seems</c><00:03:57.040><c> at</c><00:03:57.280><c> first</c>
+
+00:03:57.509 --> 00:03:57.519 align:start position:0%
+more complex than it seems at first
+ 
+
+00:03:57.519 --> 00:04:01.190 align:start position:0%
+more complex than it seems at first
+because<00:03:58.879><c> they</c><00:03:59.120><c> they</c><00:03:59.439><c> both</c><00:03:59.680><c> have</c><00:03:59.840><c> a</c><00:04:00.080><c> car,</c><00:04:00.799><c> but</c>
+
+00:04:01.190 --> 00:04:01.200 align:start position:0%
+because they they both have a car, but
+ 
+
+00:04:01.200 --> 00:04:02.949 align:start position:0%
+because they they both have a car, but
+the<00:04:01.519><c> owner</c><00:04:01.760><c> of</c><00:04:01.920><c> the</c><00:04:02.080><c> car</c><00:04:02.239><c> is</c><00:04:02.480><c> not</c><00:04:02.640><c> the</c><00:04:02.799><c> person</c>
+
+00:04:02.949 --> 00:04:02.959 align:start position:0%
+the owner of the car is not the person
+ 
+
+00:04:02.959 --> 00:04:05.030 align:start position:0%
+the owner of the car is not the person
+who<00:04:03.200><c> drives</c><00:04:03.519><c> it.</c><00:04:04.080><c> This</c><00:04:04.319><c> this</c><00:04:04.560><c> is</c><00:04:04.720><c> kind</c><00:04:04.799><c> of</c><00:04:04.879><c> like</c>
+
+00:04:05.030 --> 00:04:05.040 align:start position:0%
+who drives it. This this is kind of like
+ 
+
+00:04:05.040 --> 00:04:07.990 align:start position:0%
+who drives it. This this is kind of like
+my<00:04:05.280><c> family.</c><00:04:06.640><c> My</c><00:04:06.959><c> wife</c><00:04:07.200><c> does</c><00:04:07.360><c> all</c><00:04:07.439><c> the</c><00:04:07.599><c> bills,</c>
+
+00:04:07.990 --> 00:04:08.000 align:start position:0%
+my family. My wife does all the bills,
+ 
+
+00:04:08.000 --> 00:04:10.070 align:start position:0%
+my family. My wife does all the bills,
+but<00:04:08.319><c> then</c><00:04:08.879><c> she</c><00:04:09.120><c> hands</c><00:04:09.360><c> me</c><00:04:09.519><c> the</c><00:04:09.680><c> keys</c><00:04:09.840><c> whenever</c>
+
+00:04:10.070 --> 00:04:10.080 align:start position:0%
+but then she hands me the keys whenever
+ 
+
+00:04:10.080 --> 00:04:11.509 align:start position:0%
+but then she hands me the keys whenever
+we<00:04:10.239><c> get</c><00:04:10.319><c> on</c><00:04:10.400><c> the</c><00:04:10.480><c> freeway.</c><00:04:10.799><c> She</c><00:04:10.959><c> she</c><00:04:11.200><c> hates</c>
+
+00:04:11.509 --> 00:04:11.519 align:start position:0%
+we get on the freeway. She she hates
+ 
+
+00:04:11.519 --> 00:04:14.149 align:start position:0%
+we get on the freeway. She she hates
+driving.<00:04:12.480><c> So,</c><00:04:12.879><c> knowledge</c><00:04:13.280><c> graphs</c><00:04:13.599><c> also</c><00:04:13.840><c> are</c><00:04:14.000><c> a</c>
+
+00:04:14.149 --> 00:04:14.159 align:start position:0%
+driving. So, knowledge graphs also are a
+ 
+
+00:04:14.159 --> 00:04:16.550 align:start position:0%
+driving. So, knowledge graphs also are a
+great<00:04:14.319><c> way</c><00:04:14.480><c> of</c><00:04:14.720><c> getting</c><00:04:15.120><c> really</c><00:04:15.519><c> rich</c><00:04:15.840><c> data.</c>
+
+00:04:16.550 --> 00:04:16.560 align:start position:0%
+great way of getting really rich data.
+ 
+
+00:04:16.560 --> 00:04:18.310 align:start position:0%
+great way of getting really rich data.
+Um,<00:04:16.959><c> here's</c><00:04:17.199><c> an</c><00:04:17.359><c> example</c><00:04:17.680><c> of</c><00:04:17.840><c> the</c><00:04:18.000><c> Stack</c>
+
+00:04:18.310 --> 00:04:18.320 align:start position:0%
+Um, here's an example of the Stack
+ 
+
+00:04:18.320 --> 00:04:19.990 align:start position:0%
+Um, here's an example of the Stack
+Overflow<00:04:18.799><c> graph</c><00:04:19.040><c> built</c><00:04:19.359><c> into</c><00:04:19.519><c> a</c><00:04:19.680><c> knowledge</c>
+
+00:04:19.990 --> 00:04:20.000 align:start position:0%
+Overflow graph built into a knowledge
+ 
+
+00:04:20.000 --> 00:04:21.749 align:start position:0%
+Overflow graph built into a knowledge
+graph<00:04:20.239><c> where</c><00:04:20.400><c> you</c><00:04:20.560><c> can</c><00:04:20.720><c> see</c><00:04:20.959><c> all</c><00:04:21.199><c> of</c><00:04:21.280><c> the</c><00:04:21.440><c> rich</c>
+
+00:04:21.749 --> 00:04:21.759 align:start position:0%
+graph where you can see all of the rich
+ 
+
+00:04:21.759 --> 00:04:23.590 align:start position:0%
+graph where you can see all of the rich
+metadata<00:04:22.400><c> and</c><00:04:22.639><c> the</c><00:04:22.800><c> complexity</c><00:04:23.280><c> of</c><00:04:23.440><c> the</c>
+
+00:04:23.590 --> 00:04:23.600 align:start position:0%
+metadata and the complexity of the
+ 
+
+00:04:23.600 --> 00:04:25.990 align:start position:0%
+metadata and the complexity of the
+results.<00:04:24.560><c> And</c><00:04:24.800><c> we</c><00:04:25.040><c> can</c><00:04:25.199><c> use</c><00:04:25.360><c> this</c><00:04:25.520><c> to</c><00:04:25.680><c> evolve</c>
+
+00:04:25.990 --> 00:04:26.000 align:start position:0%
+results. And we can use this to evolve
+ 
+
+00:04:26.000 --> 00:04:28.310 align:start position:0%
+results. And we can use this to evolve
+rag<00:04:26.479><c> into</c><00:04:26.720><c> a</c><00:04:26.960><c> more</c><00:04:27.199><c> complex</c><00:04:27.600><c> system,</c>
+
+00:04:28.310 --> 00:04:28.320 align:start position:0%
+rag into a more complex system,
+ 
+
+00:04:28.320 --> 00:04:30.310 align:start position:0%
+rag into a more complex system,
+basically<00:04:28.800><c> graph</c><00:04:29.120><c> rag,</c><00:04:29.440><c> where</c><00:04:29.680><c> we</c><00:04:29.840><c> get</c><00:04:30.000><c> better</c>
+
+00:04:30.310 --> 00:04:30.320 align:start position:0%
+basically graph rag, where we get better
+ 
+
+00:04:30.320 --> 00:04:32.230 align:start position:0%
+basically graph rag, where we get better
+relevancy.<00:04:31.040><c> We're</c><00:04:31.199><c> getting</c><00:04:31.600><c> more</c><00:04:31.840><c> relevant</c>
+
+00:04:32.230 --> 00:04:32.240 align:start position:0%
+relevancy. We're getting more relevant
+ 
+
+00:04:32.240 --> 00:04:34.790 align:start position:0%
+relevancy. We're getting more relevant
+results.<00:04:32.880><c> we</c><00:04:33.199><c> get</c><00:04:33.360><c> more</c><00:04:33.600><c> context</c><00:04:34.240><c> because</c><00:04:34.560><c> now</c>
+
+00:04:34.790 --> 00:04:34.800 align:start position:0%
+results. we get more context because now
+ 
+
+00:04:34.800 --> 00:04:36.550 align:start position:0%
+results. we get more context because now
+we<00:04:35.040><c> can</c><00:04:35.199><c> actually</c><00:04:35.520><c> pull</c><00:04:35.840><c> back</c><00:04:36.080><c> all</c><00:04:36.320><c> of</c><00:04:36.400><c> the</c>
+
+00:04:36.550 --> 00:04:36.560 align:start position:0%
+we can actually pull back all of the
+ 
+
+00:04:36.560 --> 00:04:38.469 align:start position:0%
+we can actually pull back all of the
+related<00:04:36.960><c> information</c><00:04:37.360><c> by</c><00:04:37.680><c> graph</c><00:04:38.080><c> closeness</c>
+
+00:04:38.469 --> 00:04:38.479 align:start position:0%
+related information by graph closeness
+ 
+
+00:04:38.479 --> 00:04:40.790 align:start position:0%
+related information by graph closeness
+algorithms.<00:04:39.680><c> We</c><00:04:39.919><c> can</c><00:04:40.080><c> explain</c><00:04:40.400><c> what's</c><00:04:40.720><c> going</c>
+
+00:04:40.790 --> 00:04:40.800 align:start position:0%
+algorithms. We can explain what's going
+ 
+
+00:04:40.800 --> 00:04:43.670 align:start position:0%
+algorithms. We can explain what's going
+on<00:04:41.120><c> because</c><00:04:41.520><c> it's</c><00:04:41.840><c> no</c><00:04:42.000><c> longer</c><00:04:42.320><c> just</c><00:04:42.960><c> um</c>
+
+00:04:43.670 --> 00:04:43.680 align:start position:0%
+on because it's no longer just um
+ 
+
+00:04:43.680 --> 00:04:45.430 align:start position:0%
+on because it's no longer just um
+vectors.<00:04:44.240><c> It's</c><00:04:44.479><c> no</c><00:04:44.639><c> longer</c><00:04:44.880><c> statistical</c>
+
+00:04:45.430 --> 00:04:45.440 align:start position:0%
+vectors. It's no longer statistical
+ 
+
+00:04:45.440 --> 00:04:46.870 align:start position:0%
+vectors. It's no longer statistical
+probabilities<00:04:46.080><c> coming</c><00:04:46.240><c> out</c><00:04:46.479><c> of</c><00:04:46.560><c> vector</c>
+
+00:04:46.870 --> 00:04:46.880 align:start position:0%
+probabilities coming out of vector
+ 
+
+00:04:46.880 --> 00:04:48.550 align:start position:0%
+probabilities coming out of vector
+database.<00:04:47.280><c> We</c><00:04:47.520><c> actually</c><00:04:47.680><c> have</c><00:04:47.919><c> nodes.</c><00:04:48.400><c> We</c>
+
+00:04:48.550 --> 00:04:48.560 align:start position:0%
+database. We actually have nodes. We
+ 
+
+00:04:48.560 --> 00:04:50.230 align:start position:0%
+database. We actually have nodes. We
+have<00:04:48.639><c> structure.</c><00:04:49.120><c> We</c><00:04:49.280><c> have</c><00:04:49.360><c> semantics</c><00:04:49.919><c> we</c><00:04:50.080><c> can</c>
+
+00:04:50.230 --> 00:04:50.240 align:start position:0%
+have structure. We have semantics we can
+ 
+
+00:04:50.240 --> 00:04:52.950 align:start position:0%
+have structure. We have semantics we can
+look<00:04:50.320><c> at</c><00:04:50.880><c> and</c><00:04:51.120><c> we</c><00:04:51.280><c> can</c><00:04:51.440><c> add</c><00:04:51.680><c> in</c><00:04:52.400><c> security</c><00:04:52.800><c> and</c>
+
+00:04:52.950 --> 00:04:52.960 align:start position:0%
+look at and we can add in security and
+ 
+
+00:04:52.960 --> 00:04:54.710 align:start position:0%
+look at and we can add in security and
+role-based<00:04:53.520><c> access</c><00:04:53.840><c> on</c><00:04:54.080><c> top</c><00:04:54.240><c> of</c><00:04:54.320><c> this.</c><00:04:54.560><c> So</c>
+
+00:04:54.710 --> 00:04:54.720 align:start position:0%
+role-based access on top of this. So
+ 
+
+00:04:54.720 --> 00:04:57.110 align:start position:0%
+role-based access on top of this. So
+it's<00:04:55.040><c> contextrich,</c><00:04:55.840><c> it's</c><00:04:56.080><c> grounded.</c><00:04:56.960><c> This</c>
+
+00:04:57.110 --> 00:04:57.120 align:start position:0%
+it's contextrich, it's grounded. This
+ 
+
+00:04:57.120 --> 00:04:59.909 align:start position:0%
+it's contextrich, it's grounded. This
+gives<00:04:57.360><c> us</c><00:04:57.520><c> a</c><00:04:57.759><c> lot</c><00:04:57.840><c> of</c><00:04:58.000><c> power</c><00:04:59.120><c> and</c><00:04:59.440><c> it</c><00:04:59.680><c> gives</c><00:04:59.840><c> us</c>
+
+00:04:59.909 --> 00:04:59.919 align:start position:0%
+gives us a lot of power and it gives us
+ 
+
+00:04:59.919 --> 00:05:01.670 align:start position:0%
+gives us a lot of power and it gives us
+the<00:05:00.160><c> ability</c><00:05:00.400><c> to</c><00:05:00.560><c> start</c><00:05:00.880><c> explaining</c><00:05:01.440><c> what</c>
+
+00:05:01.670 --> 00:05:01.680 align:start position:0%
+the ability to start explaining what
+ 
+
+00:05:01.680 --> 00:05:03.430 align:start position:0%
+the ability to start explaining what
+we're<00:05:01.919><c> doing.</c><00:05:02.160><c> where</c><00:05:02.479><c> now</c><00:05:02.639><c> we</c><00:05:02.800><c> can</c><00:05:03.040><c> we</c><00:05:03.280><c> can</c>
+
+00:05:03.430 --> 00:05:03.440 align:start position:0%
+we're doing. where now we can we can
+ 
+
+00:05:03.440 --> 00:05:05.270 align:start position:0%
+we're doing. where now we can we can
+visualize<00:05:03.840><c> it,</c><00:05:04.080><c> we</c><00:05:04.240><c> can</c><00:05:04.400><c> analyze</c><00:05:04.800><c> it</c><00:05:04.960><c> and</c><00:05:05.120><c> we</c>
+
+00:05:05.270 --> 00:05:05.280 align:start position:0%
+visualize it, we can analyze it and we
+ 
+
+00:05:05.280 --> 00:05:07.749 align:start position:0%
+visualize it, we can analyze it and we
+can<00:05:05.360><c> log</c><00:05:05.600><c> all</c><00:05:05.759><c> of</c><00:05:05.840><c> this.</c><00:05:06.400><c> Now</c><00:05:06.880><c> um</c><00:05:07.280><c> this</c><00:05:07.520><c> is</c><00:05:07.600><c> one</c>
+
+00:05:07.749 --> 00:05:07.759 align:start position:0%
+can log all of this. Now um this is one
+ 
+
+00:05:07.759 --> 00:05:09.830 align:start position:0%
+can log all of this. Now um this is one
+of<00:05:07.840><c> the</c><00:05:07.919><c> the</c><00:05:08.240><c> initial</c><00:05:08.639><c> papers</c><00:05:09.120><c> the</c><00:05:09.280><c> the</c><00:05:09.520><c> graph</c>
+
+00:05:09.830 --> 00:05:09.840 align:start position:0%
+of the the initial papers the the graph
+ 
+
+00:05:09.840 --> 00:05:11.909 align:start position:0%
+of the the initial papers the the graph
+rag<00:05:10.160><c> paper</c><00:05:10.400><c> from</c><00:05:10.720><c> Microsoft</c><00:05:11.280><c> research</c><00:05:11.680><c> where</c>
+
+00:05:11.909 --> 00:05:11.919 align:start position:0%
+rag paper from Microsoft research where
+ 
+
+00:05:11.919 --> 00:05:13.670 align:start position:0%
+rag paper from Microsoft research where
+they<00:05:12.160><c> went</c><00:05:12.320><c> through</c><00:05:12.479><c> this</c><00:05:12.639><c> and</c><00:05:12.880><c> they</c><00:05:13.039><c> did</c><00:05:13.360><c> they</c>
+
+00:05:13.670 --> 00:05:13.680 align:start position:0%
+they went through this and they did they
+ 
+
+00:05:13.680 --> 00:05:15.270 align:start position:0%
+they went through this and they did they
+showed<00:05:13.919><c> that</c><00:05:14.160><c> you</c><00:05:14.320><c> could</c><00:05:14.479><c> actually</c><00:05:14.720><c> get</c><00:05:15.120><c> not</c>
+
+00:05:15.270 --> 00:05:15.280 align:start position:0%
+showed that you could actually get not
+ 
+
+00:05:15.280 --> 00:05:17.430 align:start position:0%
+showed that you could actually get not
+only<00:05:15.520><c> better</c><00:05:15.759><c> results</c><00:05:16.160><c> but</c><00:05:16.639><c> less</c><00:05:17.039><c> token</c>
+
+00:05:17.430 --> 00:05:17.440 align:start position:0%
+only better results but less token
+ 
+
+00:05:17.440 --> 00:05:19.590 align:start position:0%
+only better results but less token
+costs.<00:05:17.759><c> It</c><00:05:18.000><c> was</c><00:05:18.080><c> actually</c><00:05:18.320><c> less</c><00:05:18.639><c> expensive</c><00:05:19.360><c> to</c>
+
+00:05:19.590 --> 00:05:19.600 align:start position:0%
+costs. It was actually less expensive to
+ 
+
+00:05:19.600 --> 00:05:22.469 align:start position:0%
+costs. It was actually less expensive to
+do<00:05:19.759><c> a</c><00:05:20.000><c> graph</c><00:05:20.320><c> rag</c><00:05:20.639><c> algorithm.</c><00:05:21.840><c> Um</c><00:05:22.160><c> there</c><00:05:22.320><c> have</c>
+
+00:05:22.469 --> 00:05:22.479 align:start position:0%
+do a graph rag algorithm. Um there have
+ 
+
+00:05:22.479 --> 00:05:24.629 align:start position:0%
+do a graph rag algorithm. Um there have
+been<00:05:22.560><c> a</c><00:05:22.800><c> lot</c><00:05:22.960><c> of</c><00:05:23.199><c> papers</c><00:05:23.680><c> since</c><00:05:23.919><c> then</c><00:05:24.240><c> which</c>
+
+00:05:24.629 --> 00:05:24.639 align:start position:0%
+been a lot of papers since then which
+ 
+
+00:05:24.639 --> 00:05:27.510 align:start position:0%
+been a lot of papers since then which
+show<00:05:25.039><c> all</c><00:05:25.360><c> of</c><00:05:25.520><c> the</c><00:05:26.160><c> different</c><00:05:26.560><c> research</c><00:05:27.039><c> and</c>
+
+00:05:27.510 --> 00:05:27.520 align:start position:0%
+show all of the different research and
+ 
+
+00:05:27.520 --> 00:05:29.029 align:start position:0%
+show all of the different research and
+interesting<00:05:27.919><c> work</c><00:05:28.160><c> which</c><00:05:28.400><c> is</c><00:05:28.560><c> going</c><00:05:28.720><c> on</c><00:05:28.880><c> in</c>
+
+00:05:29.029 --> 00:05:29.039 align:start position:0%
+interesting work which is going on in
+ 
+
+00:05:29.039 --> 00:05:31.990 align:start position:0%
+interesting work which is going on in
+the<00:05:29.199><c> graph</c><00:05:29.520><c> rag</c><00:05:29.840><c> area</c><00:05:30.639><c> and</c><00:05:31.120><c> um</c><00:05:31.360><c> this</c><00:05:31.520><c> is</c><00:05:31.680><c> just</c><00:05:31.840><c> a</c>
+
+00:05:31.990 --> 00:05:32.000 align:start position:0%
+the graph rag area and um this is just a
+ 
+
+00:05:32.000 --> 00:05:33.749 align:start position:0%
+the graph rag area and um this is just a
+quick<00:05:32.320><c> view</c><00:05:32.400><c> of</c><00:05:32.560><c> the</c><00:05:32.800><c> different</c><00:05:33.039><c> studies</c><00:05:33.440><c> and</c>
+
+00:05:33.749 --> 00:05:33.759 align:start position:0%
+quick view of the different studies and
+ 
+
+00:05:33.759 --> 00:05:35.270 align:start position:0%
+quick view of the different studies and
+results<00:05:34.080><c> which</c><00:05:34.320><c> are</c><00:05:34.479><c> coming</c><00:05:34.639><c> out</c><00:05:34.800><c> but</c><00:05:35.120><c> even</c>
+
+00:05:35.270 --> 00:05:35.280 align:start position:0%
+results which are coming out but even
+ 
+
+00:05:35.280 --> 00:05:37.110 align:start position:0%
+results which are coming out but even
+from<00:05:35.440><c> the</c><00:05:35.680><c> early</c><00:05:35.840><c> data.orld</c><00:05:36.639><c> study</c><00:05:36.880><c> where</c>
+
+00:05:37.110 --> 00:05:37.120 align:start position:0%
+from the early data.orld study where
+ 
+
+00:05:37.120 --> 00:05:39.590 align:start position:0%
+from the early data.orld study where
+they<00:05:37.199><c> showed</c><00:05:37.440><c> a</c><00:05:37.600><c> three</c><00:05:37.840><c> times</c><00:05:38.160><c> improvement</c><00:05:39.120><c> in</c>
+
+00:05:39.590 --> 00:05:39.600 align:start position:0%
+they showed a three times improvement in
+ 
+
+00:05:39.600 --> 00:05:41.749 align:start position:0%
+they showed a three times improvement in
+graph<00:05:39.919><c> rag</c><00:05:40.240><c> capabilities</c>
+
+00:05:41.749 --> 00:05:41.759 align:start position:0%
+graph rag capabilities
+ 
+
+00:05:41.759 --> 00:05:44.790 align:start position:0%
+graph rag capabilities
+and<00:05:42.240><c> the</c><00:05:42.639><c> analysts</c><00:05:43.199><c> are</c><00:05:43.440><c> even</c><00:05:43.840><c> showing</c><00:05:44.479><c> how</c>
+
+00:05:44.790 --> 00:05:44.800 align:start position:0%
+and the analysts are even showing how
+ 
+
+00:05:44.800 --> 00:05:46.790 align:start position:0%
+and the analysts are even showing how
+graphreg<00:05:45.440><c> is</c><00:05:45.600><c> trending</c><00:05:45.840><c> up.</c><00:05:46.080><c> So</c><00:05:46.240><c> this</c><00:05:46.400><c> is</c><00:05:46.479><c> the</c>
+
+00:05:46.790 --> 00:05:46.800 align:start position:0%
+graphreg is trending up. So this is the
+ 
+
+00:05:46.800 --> 00:05:50.070 align:start position:0%
+graphreg is trending up. So this is the
+um<00:05:46.960><c> Gartner</c><00:05:48.160><c> um</c><00:05:48.560><c> kind</c><00:05:48.720><c> of</c><00:05:48.880><c> hype</c><00:05:49.199><c> cycle</c><00:05:49.759><c> from</c>
+
+00:05:50.070 --> 00:05:50.080 align:start position:0%
+um Gartner um kind of hype cycle from
+ 
+
+00:05:50.080 --> 00:05:53.270 align:start position:0%
+um Gartner um kind of hype cycle from
+from<00:05:50.639><c> 2024</c><00:05:51.680><c> and</c><00:05:51.840><c> you</c><00:05:52.000><c> can</c><00:05:52.080><c> see</c><00:05:52.240><c> generic</c><00:05:52.720><c> AI</c><00:05:53.039><c> is</c>
+
+00:05:53.270 --> 00:05:53.280 align:start position:0%
+from 2024 and you can see generic AI is
+ 
+
+00:05:53.280 --> 00:05:55.350 align:start position:0%
+from 2024 and you can see generic AI is
+kind<00:05:53.360><c> of</c><00:05:53.520><c> you</c><00:05:53.600><c> know</c><00:05:53.680><c> on</c><00:05:53.840><c> the</c><00:05:54.000><c> downtrend.</c><00:05:54.960><c> Rag</c>
+
+00:05:55.350 --> 00:05:55.360 align:start position:0%
+kind of you know on the downtrend. Rag
+ 
+
+00:05:55.360 --> 00:05:57.830 align:start position:0%
+kind of you know on the downtrend. Rag
+is<00:05:55.600><c> getting</c><00:05:55.840><c> over</c><00:05:56.000><c> the</c><00:05:56.160><c> hump</c><00:05:56.800><c> but</c><00:05:57.199><c> graph</c><00:05:57.520><c> rag</c>
+
+00:05:57.830 --> 00:05:57.840 align:start position:0%
+is getting over the hump but graph rag
+ 
+
+00:05:57.840 --> 00:05:59.350 align:start position:0%
+is getting over the hump but graph rag
+and<00:05:57.919><c> a</c><00:05:58.080><c> bunch</c><00:05:58.240><c> of</c><00:05:58.320><c> these</c><00:05:58.560><c> things</c><00:05:58.880><c> actually</c><00:05:59.120><c> are</c>
+
+00:05:59.350 --> 00:05:59.360 align:start position:0%
+and a bunch of these things actually are
+ 
+
+00:05:59.360 --> 00:06:00.950 align:start position:0%
+and a bunch of these things actually are
+providing<00:05:59.759><c> and</c><00:06:00.000><c> breathing</c><00:06:00.320><c> more</c><00:06:00.560><c> life</c><00:06:00.800><c> into</c>
+
+00:06:00.950 --> 00:06:00.960 align:start position:0%
+providing and breathing more life into
+ 
+
+00:06:00.960 --> 00:06:03.749 align:start position:0%
+providing and breathing more life into
+the<00:06:01.120><c> AI</c><00:06:01.520><c> ecosystem.</c><00:06:02.880><c> So</c><00:06:03.199><c> a</c><00:06:03.360><c> lot</c><00:06:03.440><c> of</c><00:06:03.600><c> great</c>
+
+00:06:03.749 --> 00:06:03.759 align:start position:0%
+the AI ecosystem. So a lot of great
+ 
+
+00:06:03.759 --> 00:06:05.990 align:start position:0%
+the AI ecosystem. So a lot of great
+reports<00:06:04.160><c> from</c><00:06:04.319><c> from</c><00:06:04.720><c> Gartner</c><00:06:05.520><c> showing</c><00:06:05.840><c> that</c>
+
+00:06:05.990 --> 00:06:06.000 align:start position:0%
+reports from from Gartner showing that
+ 
+
+00:06:06.000 --> 00:06:07.830 align:start position:0%
+reports from from Gartner showing that
+it's<00:06:06.160><c> grounded</c><00:06:06.560><c> in</c><00:06:06.720><c> facts.</c><00:06:07.120><c> It</c><00:06:07.360><c> resolves</c>
+
+00:06:07.830 --> 00:06:07.840 align:start position:0%
+it's grounded in facts. It resolves
+ 
+
+00:06:07.840 --> 00:06:09.990 align:start position:0%
+it's grounded in facts. It resolves
+hallucinations<00:06:09.199><c> together.</c><00:06:09.680><c> knowledge</c>
+
+00:06:09.990 --> 00:06:10.000 align:start position:0%
+hallucinations together. knowledge
+ 
+
+00:06:10.000 --> 00:06:13.029 align:start position:0%
+hallucinations together. knowledge
+graphs<00:06:10.240><c> and</c><00:06:10.400><c> AI</c><00:06:10.720><c> are</c><00:06:10.960><c> solving</c><00:06:11.280><c> these</c><00:06:11.600><c> problems</c>
+
+00:06:13.029 --> 00:06:13.039 align:start position:0%
+graphs and AI are solving these problems
+ 
+
+00:06:13.039 --> 00:06:14.710 align:start position:0%
+graphs and AI are solving these problems
+and<00:06:13.280><c> it's</c><00:06:13.520><c> getting</c><00:06:13.680><c> a</c><00:06:13.919><c> lot</c><00:06:14.000><c> of</c><00:06:14.080><c> adoption</c><00:06:14.479><c> by</c>
+
+00:06:14.710 --> 00:06:14.720 align:start position:0%
+and it's getting a lot of adoption by
+ 
+
+00:06:14.720 --> 00:06:16.230 align:start position:0%
+and it's getting a lot of adoption by
+different<00:06:14.960><c> industry</c><00:06:15.360><c> leaders</c><00:06:15.759><c> by</c><00:06:16.000><c> big</c>
+
+00:06:16.230 --> 00:06:16.240 align:start position:0%
+different industry leaders by big
+ 
+
+00:06:16.240 --> 00:06:18.390 align:start position:0%
+different industry leaders by big
+organizations<00:06:17.600><c> um</c><00:06:17.759><c> who</c><00:06:18.000><c> are</c><00:06:18.160><c> taking</c>
+
+00:06:18.390 --> 00:06:18.400 align:start position:0%
+organizations um who are taking
+ 
+
+00:06:18.400 --> 00:06:19.990 align:start position:0%
+organizations um who are taking
+advantage<00:06:18.720><c> of</c><00:06:18.800><c> this</c><00:06:18.960><c> and</c><00:06:19.199><c> actually</c><00:06:19.520><c> producing</c>
+
+00:06:19.990 --> 00:06:20.000 align:start position:0%
+advantage of this and actually producing
+ 
+
+00:06:20.000 --> 00:06:22.550 align:start position:0%
+advantage of this and actually producing
+production<00:06:20.479><c> applications</c><00:06:21.840><c> and</c><00:06:22.160><c> making</c><00:06:22.319><c> it</c>
+
+00:06:22.550 --> 00:06:22.560 align:start position:0%
+production applications and making it
+ 
+
+00:06:22.560 --> 00:06:25.270 align:start position:0%
+production applications and making it
+work<00:06:22.880><c> like</c><00:06:23.199><c> LinkedIn</c><00:06:24.319><c> customer</c><00:06:24.800><c> support</c>
+
+00:06:25.270 --> 00:06:25.280 align:start position:0%
+work like LinkedIn customer support
+ 
+
+00:06:25.280 --> 00:06:26.469 align:start position:0%
+work like LinkedIn customer support
+where<00:06:25.520><c> they</c><00:06:25.680><c> actually</c><00:06:25.919><c> wrote</c><00:06:26.080><c> this</c><00:06:26.319><c> great</c>
+
+00:06:26.469 --> 00:06:26.479 align:start position:0%
+where they actually wrote this great
+ 
+
+00:06:26.479 --> 00:06:28.950 align:start position:0%
+where they actually wrote this great
+research<00:06:26.880><c> paper</c><00:06:27.600><c> where</c><00:06:27.840><c> they</c><00:06:28.160><c> showed</c><00:06:28.479><c> that</c>
+
+00:06:28.950 --> 00:06:28.960 align:start position:0%
+research paper where they showed that
+ 
+
+00:06:28.960 --> 00:06:30.550 align:start position:0%
+research paper where they showed that
+using<00:06:29.280><c> a</c><00:06:29.440><c> knowledge</c><00:06:29.759><c> graph</c><00:06:30.000><c> for</c><00:06:30.160><c> customer</c>
+
+00:06:30.550 --> 00:06:30.560 align:start position:0%
+using a knowledge graph for customer
+ 
+
+00:06:30.560 --> 00:06:32.710 align:start position:0%
+using a knowledge graph for customer
+support<00:06:30.880><c> scenarios</c><00:06:31.919><c> actually</c><00:06:32.240><c> gave</c><00:06:32.479><c> them</c>
+
+00:06:32.710 --> 00:06:32.720 align:start position:0%
+support scenarios actually gave them
+ 
+
+00:06:32.720 --> 00:06:34.629 align:start position:0%
+support scenarios actually gave them
+better<00:06:33.039><c> results</c><00:06:33.360><c> and</c><00:06:33.680><c> allowed</c><00:06:34.000><c> them</c><00:06:34.240><c> to</c>
+
+00:06:34.629 --> 00:06:34.639 align:start position:0%
+better results and allowed them to
+ 
+
+00:06:34.639 --> 00:06:36.950 align:start position:0%
+better results and allowed them to
+improve<00:06:35.120><c> the</c><00:06:35.520><c> um</c><00:06:35.680><c> quality</c><00:06:36.080><c> and</c><00:06:36.400><c> reduce</c><00:06:36.720><c> the</c>
+
+00:06:36.950 --> 00:06:36.960 align:start position:0%
+improve the um quality and reduce the
+ 
+
+00:06:36.960 --> 00:06:39.189 align:start position:0%
+improve the um quality and reduce the
+response<00:06:37.360><c> time</c><00:06:38.160><c> for</c><00:06:38.560><c> getting</c><00:06:38.800><c> back</c><00:06:38.960><c> to</c>
+
+00:06:39.189 --> 00:06:39.199 align:start position:0%
+response time for getting back to
+ 
+
+00:06:39.199 --> 00:06:41.749 align:start position:0%
+response time for getting back to
+customers.<00:06:40.240><c> Um,</c><00:06:40.800><c> median</c><00:06:41.120><c> perissue</c>
+
+00:06:41.749 --> 00:06:41.759 align:start position:0%
+customers. Um, median perissue
+ 
+
+00:06:41.759 --> 00:06:45.510 align:start position:0%
+customers. Um, median perissue
+resolution<00:06:42.319><c> time</c><00:06:42.560><c> was</c><00:06:42.800><c> reduced</c><00:06:43.120><c> by</c><00:06:43.360><c> 28.6%.</c>
+
+00:06:45.510 --> 00:06:45.520 align:start position:0%
+resolution time was reduced by 28.6%.
+ 
+
+00:06:45.520 --> 00:06:47.350 align:start position:0%
+resolution time was reduced by 28.6%.
+I<00:06:45.680><c> mentioned</c><00:06:45.919><c> the</c><00:06:46.080><c> data.world</c><00:06:46.800><c> study</c><00:06:47.120><c> which</c>
+
+00:06:47.350 --> 00:06:47.360 align:start position:0%
+I mentioned the data.world study which
+ 
+
+00:06:47.360 --> 00:06:49.510 align:start position:0%
+I mentioned the data.world study which
+basically<00:06:47.680><c> was</c><00:06:47.840><c> a</c><00:06:48.000><c> comparison</c><00:06:48.400><c> of</c><00:06:48.639><c> doing</c><00:06:49.360><c> um,</c>
+
+00:06:49.510 --> 00:06:49.520 align:start position:0%
+basically was a comparison of doing um,
+ 
+
+00:06:49.520 --> 00:06:52.309 align:start position:0%
+basically was a comparison of doing um,
+rag<00:06:49.840><c> on</c><00:06:50.080><c> SQL</c><00:06:50.560><c> versus</c><00:06:50.800><c> rag</c><00:06:51.199><c> on</c><00:06:51.360><c> graph</c><00:06:51.680><c> databases</c>
+
+00:06:52.309 --> 00:06:52.319 align:start position:0%
+rag on SQL versus rag on graph databases
+ 
+
+00:06:52.319 --> 00:06:53.590 align:start position:0%
+rag on SQL versus rag on graph databases
+and<00:06:52.560><c> they</c><00:06:52.720><c> showed</c><00:06:52.960><c> a</c><00:06:53.120><c> three</c><00:06:53.360><c> times</c>
+
+00:06:53.590 --> 00:06:53.600 align:start position:0%
+and they showed a three times
+ 
+
+00:06:53.600 --> 00:06:56.790 align:start position:0%
+and they showed a three times
+improvement<00:06:54.080><c> in</c><00:06:54.319><c> accuracy</c><00:06:54.720><c> of</c><00:06:54.880><c> LM</c><00:06:55.360><c> responses</c>
+
+00:06:56.790 --> 00:06:56.800 align:start position:0%
+improvement in accuracy of LM responses
+ 
+
+00:06:56.800 --> 00:06:58.710 align:start position:0%
+improvement in accuracy of LM responses
+and<00:06:57.360><c> let's</c><00:06:57.600><c> chat</c><00:06:57.840><c> about</c><00:06:58.000><c> patterns</c><00:06:58.479><c> Michael</c>
+
+00:06:58.710 --> 00:06:58.720 align:start position:0%
+and let's chat about patterns Michael
+ 
+
+00:06:58.720 --> 00:06:59.990 align:start position:0%
+and let's chat about patterns Michael
+because<00:06:58.880><c> I</c><00:06:59.039><c> think</c><00:06:59.120><c> everyone's</c><00:06:59.440><c> here</c><00:06:59.599><c> to</c><00:06:59.840><c> learn</c>
+
+00:06:59.990 --> 00:07:00.000 align:start position:0%
+because I think everyone's here to learn
+ 
+
+00:07:00.000 --> 00:07:01.189 align:start position:0%
+because I think everyone's here to learn
+how<00:07:00.319><c> to</c><00:07:00.560><c> do</c><00:07:00.639><c> this.</c>
+
+00:07:01.189 --> 00:07:01.199 align:start position:0%
+how to do this.
+ 
+
+00:07:01.199 --> 00:07:03.350 align:start position:0%
+how to do this.
+Exactly.<00:07:01.759><c> So</c><00:07:02.080><c> let's</c><00:07:02.400><c> let's</c><00:07:02.720><c> look</c><00:07:02.880><c> at</c><00:07:03.039><c> how</c><00:07:03.199><c> to</c>
+
+00:07:03.350 --> 00:07:03.360 align:start position:0%
+Exactly. So let's let's look at how to
+ 
+
+00:07:03.360 --> 00:07:06.390 align:start position:0%
+Exactly. So let's let's look at how to
+do<00:07:03.440><c> this</c><00:07:03.680><c> actually.</c><00:07:04.080><c> Right.</c><00:07:04.319><c> So</c><00:07:04.560><c> and</c><00:07:05.520><c> um</c><00:07:06.160><c> if</c>
+
+00:07:06.390 --> 00:07:06.400 align:start position:0%
+do this actually. Right. So and um if
+ 
+
+00:07:06.400 --> 00:07:08.710 align:start position:0%
+do this actually. Right. So and um if
+you<00:07:06.560><c> look</c><00:07:06.639><c> at</c><00:07:06.880><c> graph</c><00:07:07.280><c> rack</c><00:07:07.919><c> u</c><00:07:08.240><c> that</c><00:07:08.479><c> actually</c>
+
+00:07:08.710 --> 00:07:08.720 align:start position:0%
+you look at graph rack u that actually
+ 
+
+00:07:08.720 --> 00:07:11.029 align:start position:0%
+you look at graph rack u that actually
+two<00:07:08.880><c> sides</c><00:07:09.120><c> to</c><00:07:09.199><c> the</c><00:07:09.360><c> coin.</c><00:07:09.840><c> So</c><00:07:10.080><c> one</c><00:07:10.319><c> of</c><00:07:10.639><c> course</c>
+
+00:07:11.029 --> 00:07:11.039 align:start position:0%
+two sides to the coin. So one of course
+ 
+
+00:07:11.039 --> 00:07:12.629 align:start position:0%
+two sides to the coin. So one of course
+you<00:07:11.280><c> don't</c><00:07:11.520><c> start</c><00:07:11.759><c> in</c><00:07:11.919><c> a</c><00:07:12.080><c> vacuum</c><00:07:12.319><c> you</c><00:07:12.479><c> have</c><00:07:12.560><c> to</c>
+
+00:07:12.629 --> 00:07:12.639 align:start position:0%
+you don't start in a vacuum you have to
+ 
+
+00:07:12.639 --> 00:07:14.550 align:start position:0%
+you don't start in a vacuum you have to
+create<00:07:12.800><c> your</c><00:07:12.960><c> knowledge</c><00:07:13.280><c> graph</c><00:07:13.520><c> right.</c><00:07:13.759><c> So</c><00:07:14.080><c> VC</c>
+
+00:07:14.550 --> 00:07:14.560 align:start position:0%
+create your knowledge graph right. So VC
+ 
+
+00:07:14.560 --> 00:07:16.629 align:start position:0%
+create your knowledge graph right. So VC
+basically<00:07:15.440><c> multiple</c><00:07:15.840><c> steps</c><00:07:16.080><c> to</c><00:07:16.319><c> get</c><00:07:16.400><c> there.</c>
+
+00:07:16.629 --> 00:07:16.639 align:start position:0%
+basically multiple steps to get there.
+ 
+
+00:07:16.639 --> 00:07:18.070 align:start position:0%
+basically multiple steps to get there.
+Initially<00:07:17.039><c> you</c><00:07:17.280><c> get</c><00:07:17.440><c> unstructured</c>
+
+00:07:18.070 --> 00:07:18.080 align:start position:0%
+Initially you get unstructured
+ 
+
+00:07:18.080 --> 00:07:20.469 align:start position:0%
+Initially you get unstructured
+information.<00:07:18.880><c> You</c><00:07:19.199><c> substructure</c><00:07:19.840><c> it.</c><00:07:20.319><c> You</c>
+
+00:07:20.469 --> 00:07:20.479 align:start position:0%
+information. You substructure it. You
+ 
+
+00:07:20.479 --> 00:07:22.150 align:start position:0%
+information. You substructure it. You
+put<00:07:20.639><c> it</c><00:07:20.720><c> into</c><00:07:20.880><c> a</c><00:07:21.039><c> lexical</c><00:07:21.520><c> graph</c><00:07:21.840><c> which</c>
+
+00:07:22.150 --> 00:07:22.160 align:start position:0%
+put it into a lexical graph which
+ 
+
+00:07:22.160 --> 00:07:24.550 align:start position:0%
+put it into a lexical graph which
+represents<00:07:22.880><c> documents</c><00:07:23.599><c> chunks</c><00:07:24.080><c> and</c><00:07:24.319><c> their</c>
+
+00:07:24.550 --> 00:07:24.560 align:start position:0%
+represents documents chunks and their
+ 
+
+00:07:24.560 --> 00:07:27.110 align:start position:0%
+represents documents chunks and their
+relationships.<00:07:25.599><c> In</c><00:07:25.759><c> a</c><00:07:26.000><c> second</c><00:07:26.240><c> step,</c><00:07:26.800><c> you</c><00:07:27.039><c> can</c>
+
+00:07:27.110 --> 00:07:27.120 align:start position:0%
+relationships. In a second step, you can
+ 
+
+00:07:27.120 --> 00:07:29.510 align:start position:0%
+relationships. In a second step, you can
+then<00:07:27.360><c> extract</c><00:07:27.840><c> entities</c><00:07:28.479><c> using</c><00:07:29.039><c> for</c><00:07:29.199><c> instance</c>
+
+00:07:29.510 --> 00:07:29.520 align:start position:0%
+then extract entities using for instance
+ 
+
+00:07:29.520 --> 00:07:32.309 align:start position:0%
+then extract entities using for instance
+LLMs<00:07:30.319><c> with</c><00:07:30.560><c> this</c><00:07:30.800><c> graph</c><00:07:31.120><c> schema</c><00:07:31.680><c> to</c><00:07:31.919><c> extract</c>
+
+00:07:32.309 --> 00:07:32.319 align:start position:0%
+LLMs with this graph schema to extract
+ 
+
+00:07:32.319 --> 00:07:33.830 align:start position:0%
+LLMs with this graph schema to extract
+entities<00:07:32.639><c> and</c><00:07:32.880><c> the</c><00:07:33.039><c> relationships</c><00:07:33.440><c> from</c><00:07:33.599><c> that</c>
+
+00:07:33.830 --> 00:07:33.840 align:start position:0%
+entities and the relationships from that
+ 
+
+00:07:33.840 --> 00:07:35.510 align:start position:0%
+entities and the relationships from that
+graph.<00:07:34.240><c> And</c><00:07:34.400><c> in</c><00:07:34.560><c> a</c><00:07:34.720><c> third</c><00:07:34.960><c> phase,</c><00:07:35.199><c> you</c><00:07:35.360><c> would</c>
+
+00:07:35.510 --> 00:07:35.520 align:start position:0%
+graph. And in a third phase, you would
+ 
+
+00:07:35.520 --> 00:07:37.110 align:start position:0%
+graph. And in a third phase, you would
+enrich<00:07:35.919><c> this</c><00:07:36.160><c> graph</c><00:07:36.560><c> for</c><00:07:36.720><c> instance</c><00:07:36.960><c> with</c>
+
+00:07:37.110 --> 00:07:37.120 align:start position:0%
+enrich this graph for instance with
+ 
+
+00:07:37.120 --> 00:07:39.670 align:start position:0%
+enrich this graph for instance with
+graph<00:07:37.440><c> algorithms</c><00:07:38.400><c> doing</c><00:07:38.720><c> things</c><00:07:39.039><c> like</c><00:07:39.520><c> you</c>
+
+00:07:39.670 --> 00:07:39.680 align:start position:0%
+graph algorithms doing things like you
+ 
+
+00:07:39.680 --> 00:07:41.909 align:start position:0%
+graph algorithms doing things like you
+know<00:07:39.840><c> page</c><00:07:40.160><c> rank,</c><00:07:40.880><c> community</c><00:07:41.199><c> summarization</c>
+
+00:07:41.909 --> 00:07:41.919 align:start position:0%
+know page rank, community summarization
+ 
+
+00:07:41.919 --> 00:07:43.749 align:start position:0%
+know page rank, community summarization
+and<00:07:42.080><c> and</c><00:07:42.319><c> so</c><00:07:42.479><c> on.</c><00:07:42.880><c> And</c><00:07:43.039><c> then</c><00:07:43.199><c> when</c><00:07:43.440><c> you</c><00:07:43.599><c> have</c>
+
+00:07:43.749 --> 00:07:43.759 align:start position:0%
+and and so on. And then when you have
+ 
+
+00:07:43.759 --> 00:07:47.110 align:start position:0%
+and and so on. And then when you have
+this<00:07:44.639><c> uh</c><00:07:45.680><c> built-up</c><00:07:46.080><c> knowledge</c><00:07:46.400><c> graph,</c><00:07:46.880><c> then</c>
+
+00:07:47.110 --> 00:07:47.120 align:start position:0%
+this uh built-up knowledge graph, then
+ 
+
+00:07:47.120 --> 00:07:49.270 align:start position:0%
+this uh built-up knowledge graph, then
+you<00:07:47.280><c> do</c><00:07:47.520><c> graph</c><00:07:47.919><c> rack</c><00:07:48.160><c> as</c><00:07:48.319><c> the</c><00:07:48.560><c> as</c><00:07:48.800><c> the</c><00:07:48.960><c> search</c>
+
+00:07:49.270 --> 00:07:49.280 align:start position:0%
+you do graph rack as the as the search
+ 
+
+00:07:49.280 --> 00:07:51.670 align:start position:0%
+you do graph rack as the as the search
+mechanism<00:07:50.240><c> um</c><00:07:50.400><c> either</c><00:07:50.720><c> with</c><00:07:50.880><c> local</c><00:07:51.199><c> search</c><00:07:51.440><c> or</c>
+
+00:07:51.670 --> 00:07:51.680 align:start position:0%
+mechanism um either with local search or
+ 
+
+00:07:51.680 --> 00:07:54.150 align:start position:0%
+mechanism um either with local search or
+global<00:07:52.000><c> search</c><00:07:52.400><c> and</c><00:07:52.639><c> and</c><00:07:53.120><c> um</c><00:07:53.360><c> other</c><00:07:53.680><c> ways.</c>
+
+00:07:54.150 --> 00:07:54.160 align:start position:0%
+global search and and um other ways.
+ 
+
+00:07:54.160 --> 00:07:55.990 align:start position:0%
+global search and and um other ways.
+Right?<00:07:54.560><c> So</c><00:07:54.800><c> let's</c><00:07:55.039><c> first</c><00:07:55.280><c> look</c><00:07:55.440><c> at</c><00:07:55.520><c> the</c><00:07:55.759><c> first</c>
+
+00:07:55.990 --> 00:07:56.000 align:start position:0%
+Right? So let's first look at the first
+ 
+
+00:07:56.000 --> 00:07:57.350 align:start position:0%
+Right? So let's first look at the first
+phase<00:07:56.319><c> of</c><00:07:56.560><c> like</c><00:07:56.800><c> knowledge</c><00:07:57.120><c> graph</c>
+
+00:07:57.350 --> 00:07:57.360 align:start position:0%
+phase of like knowledge graph
+ 
+
+00:07:57.360 --> 00:08:00.230 align:start position:0%
+phase of like knowledge graph
+construction<00:07:57.759><c> a</c><00:07:58.000><c> little</c><00:07:58.080><c> bit.</c><00:07:58.639><c> Um</c><00:07:59.840><c> so</c><00:08:00.080><c> like</c>
+
+00:08:00.230 --> 00:08:00.240 align:start position:0%
+construction a little bit. Um so like
+ 
+
+00:08:00.240 --> 00:08:02.629 align:start position:0%
+construction a little bit. Um so like
+always<00:08:00.560><c> in</c><00:08:00.720><c> data</c><00:08:00.960><c> engineering</c><00:08:01.599><c> there</c><00:08:01.840><c> is</c><00:08:02.400><c> if</c>
+
+00:08:02.629 --> 00:08:02.639 align:start position:0%
+always in data engineering there is if
+ 
+
+00:08:02.639 --> 00:08:04.070 align:start position:0%
+always in data engineering there is if
+you<00:08:02.720><c> want</c><00:08:02.800><c> to</c><00:08:02.960><c> have</c><00:08:03.120><c> higher</c><00:08:03.360><c> quality</c><00:08:03.680><c> outputs</c>
+
+00:08:04.070 --> 00:08:04.080 align:start position:0%
+you want to have higher quality outputs
+ 
+
+00:08:04.080 --> 00:08:05.749 align:start position:0%
+you want to have higher quality outputs
+you<00:08:04.240><c> have</c><00:08:04.319><c> to</c><00:08:04.560><c> put</c><00:08:04.800><c> in</c><00:08:04.960><c> more</c><00:08:05.280><c> effort</c><00:08:05.440><c> at</c><00:08:05.599><c> the</c>
+
+00:08:05.749 --> 00:08:05.759 align:start position:0%
+you have to put in more effort at the
+ 
+
+00:08:05.759 --> 00:08:06.710 align:start position:0%
+you have to put in more effort at the
+beginning<00:08:06.000><c> right</c><00:08:06.160><c> so</c><00:08:06.319><c> it's</c><00:08:06.479><c> basically</c>
+
+00:08:06.710 --> 00:08:06.720 align:start position:0%
+beginning right so it's basically
+ 
+
+00:08:06.720 --> 00:08:08.070 align:start position:0%
+beginning right so it's basically
+nothing<00:08:06.960><c> comes</c><00:08:07.199><c> for</c><00:08:07.360><c> free</c><00:08:07.599><c> there's</c><00:08:07.759><c> no</c><00:08:07.840><c> free</c>
+
+00:08:08.070 --> 00:08:08.080 align:start position:0%
+nothing comes for free there's no free
+ 
+
+00:08:08.080 --> 00:08:10.629 align:start position:0%
+nothing comes for free there's no free
+lunch<00:08:08.720><c> after</c><00:08:08.960><c> all</c><00:08:09.520><c> but</c><00:08:09.759><c> what</c><00:08:09.919><c> you</c><00:08:10.080><c> do</c><00:08:10.240><c> at</c><00:08:10.479><c> the</c>
+
+00:08:10.629 --> 00:08:10.639 align:start position:0%
+lunch after all but what you do at the
+ 
+
+00:08:10.639 --> 00:08:12.550 align:start position:0%
+lunch after all but what you do at the
+beginning<00:08:10.879><c> is</c><00:08:11.199><c> basically</c><00:08:11.599><c> paying</c><00:08:11.919><c> off</c>
+
+00:08:12.550 --> 00:08:12.560 align:start position:0%
+beginning is basically paying off
+ 
+
+00:08:12.560 --> 00:08:14.390 align:start position:0%
+beginning is basically paying off
+multiple<00:08:13.039><c> times</c><00:08:13.440><c> because</c><00:08:13.759><c> what</c><00:08:14.000><c> you</c><00:08:14.160><c> get</c><00:08:14.319><c> out</c>
+
+00:08:14.390 --> 00:08:14.400 align:start position:0%
+multiple times because what you get out
+ 
+
+00:08:14.400 --> 00:08:15.830 align:start position:0%
+multiple times because what you get out
+of<00:08:14.560><c> your</c><00:08:14.639><c> unstructured</c><00:08:15.199><c> documents</c><00:08:15.599><c> is</c>
+
+00:08:15.830 --> 00:08:15.840 align:start position:0%
+of your unstructured documents is
+ 
+
+00:08:15.840 --> 00:08:17.830 align:start position:0%
+of your unstructured documents is
+actually<00:08:16.560><c> highly</c><00:08:16.879><c> high</c><00:08:16.960><c> high</c><00:08:17.199><c> quality</c><00:08:17.599><c> high</c>
+
+00:08:17.830 --> 00:08:17.840 align:start position:0%
+actually highly high high quality high
+ 
+
+00:08:17.840 --> 00:08:19.670 align:start position:0%
+actually highly high high quality high
+structured<00:08:18.400><c> information</c><00:08:19.120><c> which</c><00:08:19.280><c> you</c><00:08:19.520><c> then</c>
+
+00:08:19.670 --> 00:08:19.680 align:start position:0%
+structured information which you then
+ 
+
+00:08:19.680 --> 00:08:21.749 align:start position:0%
+structured information which you then
+can<00:08:19.919><c> use</c><00:08:20.080><c> to</c><00:08:20.400><c> extract</c><00:08:21.039><c> contextual</c>
+
+00:08:21.749 --> 00:08:21.759 align:start position:0%
+can use to extract contextual
+ 
+
+00:08:21.759 --> 00:08:23.510 align:start position:0%
+can use to extract contextual
+information<00:08:22.319><c> for</c><00:08:22.560><c> your</c><00:08:22.800><c> for</c><00:08:22.960><c> your</c><00:08:23.120><c> queries</c>
+
+00:08:23.510 --> 00:08:23.520 align:start position:0%
+information for your for your queries
+ 
+
+00:08:23.520 --> 00:08:25.510 align:start position:0%
+information for your for your queries
+which<00:08:23.680><c> allows</c><00:08:24.000><c> the</c><00:08:24.160><c> rich</c><00:08:24.400><c> retrieval</c><00:08:25.039><c> at</c><00:08:25.360><c> the</c>
+
+00:08:25.510 --> 00:08:25.520 align:start position:0%
+which allows the rich retrieval at the
+ 
+
+00:08:25.520 --> 00:08:27.510 align:start position:0%
+which allows the rich retrieval at the
+end.
+
+00:08:27.510 --> 00:08:27.520 align:start position:0%
+end.
+ 
+
+00:08:27.520 --> 00:08:30.869 align:start position:0%
+end.
+Okay.<00:08:28.000><c> And</c><00:08:28.639><c> so</c><00:08:29.280><c> after</c><00:08:29.599><c> seeing</c><00:08:30.160><c> uh</c><00:08:30.319><c> graph</c><00:08:30.639><c> rack</c>
+
+00:08:30.869 --> 00:08:30.879 align:start position:0%
+Okay. And so after seeing uh graph rack
+ 
+
+00:08:30.879 --> 00:08:33.190 align:start position:0%
+Okay. And so after seeing uh graph rack
+being<00:08:31.120><c> used</c><00:08:31.680><c> uh</c><00:08:31.919><c> by</c><00:08:32.159><c> a</c><00:08:32.320><c> number</c><00:08:32.479><c> of</c><00:08:32.719><c> users</c>
+
+00:08:33.190 --> 00:08:33.200 align:start position:0%
+being used uh by a number of users
+ 
+
+00:08:33.200 --> 00:08:35.589 align:start position:0%
+being used uh by a number of users
+customers<00:08:34.000><c> we've</c><00:08:34.240><c> seen</c><00:08:34.800><c> uh</c><00:08:34.959><c> we</c><00:08:35.200><c> looked</c><00:08:35.360><c> at</c>
+
+00:08:35.589 --> 00:08:35.599 align:start position:0%
+customers we've seen uh we looked at
+ 
+
+00:08:35.599 --> 00:08:37.909 align:start position:0%
+customers we've seen uh we looked at
+research<00:08:35.919><c> papers</c><00:08:36.719><c> we</c><00:08:36.880><c> we</c><00:08:37.200><c> saw</c><00:08:37.360><c> that</c><00:08:37.519><c> a</c><00:08:37.760><c> number</c>
+
+00:08:37.909 --> 00:08:37.919 align:start position:0%
+research papers we we saw that a number
+ 
+
+00:08:37.919 --> 00:08:39.909 align:start position:0%
+research papers we we saw that a number
+of<00:08:38.000><c> patterns</c><00:08:38.399><c> emerging</c><00:08:39.120><c> uh</c><00:08:39.279><c> in</c><00:08:39.440><c> terms</c><00:08:39.599><c> of</c><00:08:39.760><c> like</c>
+
+00:08:39.909 --> 00:08:39.919 align:start position:0%
+of patterns emerging uh in terms of like
+ 
+
+00:08:39.919 --> 00:08:42.149 align:start position:0%
+of patterns emerging uh in terms of like
+how<00:08:40.159><c> we</c><00:08:40.320><c> structure</c><00:08:40.640><c> our</c><00:08:40.880><c> graphs</c><00:08:41.440><c> how</c><00:08:41.680><c> we</c><00:08:41.839><c> query</c>
+
+00:08:42.149 --> 00:08:42.159 align:start position:0%
+how we structure our graphs how we query
+ 
+
+00:08:42.159 --> 00:08:43.990 align:start position:0%
+how we structure our graphs how we query
+these<00:08:42.479><c> graphs</c><00:08:42.719><c> and</c><00:08:42.880><c> so</c><00:08:43.039><c> on</c><00:08:43.200><c> and</c><00:08:43.360><c> so</c><00:08:43.519><c> we</c><00:08:43.680><c> started</c>
+
+00:08:43.990 --> 00:08:44.000 align:start position:0%
+these graphs and so on and so we started
+ 
+
+00:08:44.000 --> 00:08:45.509 align:start position:0%
+these graphs and so on and so we started
+to<00:08:44.399><c> collect</c><00:08:44.640><c> these</c><00:08:44.880><c> patterns</c><00:08:45.120><c> and</c><00:08:45.279><c> put</c><00:08:45.440><c> them</c>
+
+00:08:45.509 --> 00:08:45.519 align:start position:0%
+to collect these patterns and put them
+ 
+
+00:08:45.519 --> 00:08:47.190 align:start position:0%
+to collect these patterns and put them
+on<00:08:45.680><c> graph.com</c>
+
+00:08:47.190 --> 00:08:47.200 align:start position:0%
+on graph.com
+ 
+
+00:08:47.200 --> 00:08:49.750 align:start position:0%
+on graph.com
+um<00:08:47.920><c> and</c><00:08:48.240><c> we</c><00:08:48.480><c> want</c><00:08:48.640><c> to</c><00:08:48.800><c> I</c><00:08:49.040><c> wanted</c><00:08:49.200><c> to</c><00:08:49.360><c> show</c><00:08:49.600><c> what</c>
+
+00:08:49.750 --> 00:08:49.760 align:start position:0%
+um and we want to I wanted to show what
+ 
+
+00:08:49.760 --> 00:08:51.430 align:start position:0%
+um and we want to I wanted to show what
+what<00:08:50.080><c> this</c><00:08:50.320><c> looks</c><00:08:50.480><c> like.</c><00:08:50.720><c> So</c><00:08:50.880><c> we</c><00:08:51.120><c> have</c>
+
+00:08:51.430 --> 00:08:51.440 align:start position:0%
+what this looks like. So we have
+ 
+
+00:08:51.440 --> 00:08:54.550 align:start position:0%
+what this looks like. So we have
+basically<00:08:52.399><c> uh</c><00:08:52.640><c> example</c><00:08:53.040><c> graphs</c><00:08:53.760><c> uh</c><00:08:54.240><c> in</c><00:08:54.399><c> the</c>
+
+00:08:54.550 --> 00:08:54.560 align:start position:0%
+basically uh example graphs uh in the
+ 
+
+00:08:54.560 --> 00:08:56.310 align:start position:0%
+basically uh example graphs uh in the
+pattern<00:08:55.120><c> the</c><00:08:55.279><c> pattern</c><00:08:55.519><c> has</c><00:08:55.680><c> a</c><00:08:55.920><c> name</c>
+
+00:08:56.310 --> 00:08:56.320 align:start position:0%
+pattern the pattern has a name
+ 
+
+00:08:56.320 --> 00:08:59.110 align:start position:0%
+pattern the pattern has a name
+description<00:08:57.680><c> uh</c><00:08:57.920><c> context</c><00:08:58.320><c> and</c><00:08:58.560><c> we</c><00:08:58.720><c> see</c><00:08:58.880><c> also</c>
+
+00:08:59.110 --> 00:08:59.120 align:start position:0%
+description uh context and we see also
+ 
+
+00:08:59.120 --> 00:09:00.710 align:start position:0%
+description uh context and we see also
+queries<00:08:59.519><c> that</c><00:08:59.680><c> are</c><00:08:59.839><c> used</c><00:09:00.000><c> for</c><00:09:00.160><c> extracting</c>
+
+00:09:00.710 --> 00:09:00.720 align:start position:0%
+queries that are used for extracting
+ 
+
+00:09:00.720 --> 00:09:02.150 align:start position:0%
+queries that are used for extracting
+this<00:09:00.959><c> information.</c><00:09:01.360><c> Right?</c><00:09:01.600><c> So</c><00:09:01.760><c> for</c><00:09:01.920><c> instance</c>
+
+00:09:02.150 --> 00:09:02.160 align:start position:0%
+this information. Right? So for instance
+ 
+
+00:09:02.160 --> 00:09:05.030 align:start position:0%
+this information. Right? So for instance
+here's<00:09:02.560><c> an</c><00:09:03.360><c> uh</c><00:09:03.760><c> mix</c><00:09:04.000><c> of</c><00:09:04.160><c> a</c><00:09:04.320><c> lexical</c><00:09:04.800><c> graph</c><00:09:04.959><c> and</c>
+
+00:09:05.030 --> 00:09:05.040 align:start position:0%
+here's an uh mix of a lexical graph and
+ 
+
+00:09:05.040 --> 00:09:06.790 align:start position:0%
+here's an uh mix of a lexical graph and
+a<00:09:05.279><c> domain</c><00:09:05.600><c> graph</c><00:09:05.760><c> and</c><00:09:06.000><c> then</c><00:09:06.160><c> we</c><00:09:06.320><c> can</c><00:09:06.480><c> have</c><00:09:06.560><c> the</c>
+
+00:09:06.790 --> 00:09:06.800 align:start position:0%
+a domain graph and then we can have the
+ 
+
+00:09:06.800 --> 00:09:08.710 align:start position:0%
+a domain graph and then we can have the
+query<00:09:07.120><c> that</c><00:09:07.360><c> fetches</c><00:09:08.000><c> uh</c><00:09:08.160><c> this</c><00:09:08.560><c> uh</c>
+
+00:09:08.710 --> 00:09:08.720 align:start position:0%
+query that fetches uh this uh
+ 
+
+00:09:08.720 --> 00:09:10.310 align:start position:0%
+query that fetches uh this uh
+information.<00:09:09.279><c> Let's</c><00:09:09.519><c> look</c><00:09:09.600><c> at</c><00:09:09.760><c> the</c><00:09:10.080><c> three</c>
+
+00:09:10.310 --> 00:09:10.320 align:start position:0%
+information. Let's look at the three
+ 
+
+00:09:10.320 --> 00:09:12.550 align:start position:0%
+information. Let's look at the three
+steps<00:09:10.640><c> in</c><00:09:10.880><c> a</c><00:09:11.120><c> little</c><00:09:11.200><c> bit</c><00:09:11.360><c> more</c><00:09:11.600><c> detail</c><00:09:11.839><c> on</c><00:09:12.080><c> the</c>
+
+00:09:12.550 --> 00:09:12.560 align:start position:0%
+steps in a little bit more detail on the
+ 
+
+00:09:12.560 --> 00:09:15.190 align:start position:0%
+steps in a little bit more detail on the
+um<00:09:12.959><c> on</c><00:09:13.200><c> the</c><00:09:13.519><c> graph</c><00:09:13.760><c> model</c><00:09:14.080><c> side.</c><00:09:14.640><c> So</c><00:09:14.800><c> on</c><00:09:15.040><c> one</c>
+
+00:09:15.190 --> 00:09:15.200 align:start position:0%
+um on the graph model side. So on one
+ 
+
+00:09:15.200 --> 00:09:17.430 align:start position:0%
+um on the graph model side. So on one
+side<00:09:15.440><c> we</c><00:09:15.680><c> have</c><00:09:16.080><c> uh</c><00:09:16.240><c> for</c><00:09:16.399><c> lexig</c><00:09:16.959><c> graphs</c><00:09:17.279><c> you</c>
+
+00:09:17.430 --> 00:09:17.440 align:start position:0%
+side we have uh for lexig graphs you
+ 
+
+00:09:17.440 --> 00:09:19.590 align:start position:0%
+side we have uh for lexig graphs you
+represent<00:09:17.839><c> documents</c><00:09:18.560><c> and</c><00:09:18.720><c> the</c><00:09:18.959><c> elements.</c><00:09:19.440><c> So</c>
+
+00:09:19.590 --> 00:09:19.600 align:start position:0%
+represent documents and the elements. So
+ 
+
+00:09:19.600 --> 00:09:20.949 align:start position:0%
+represent documents and the elements. So
+that<00:09:19.839><c> could</c><00:09:19.920><c> be</c><00:09:20.000><c> something</c><00:09:20.320><c> simple</c><00:09:20.560><c> as</c><00:09:20.720><c> a</c>
+
+00:09:20.949 --> 00:09:20.959 align:start position:0%
+that could be something simple as a
+ 
+
+00:09:20.959 --> 00:09:22.389 align:start position:0%
+that could be something simple as a
+chunk.<00:09:21.440><c> But</c><00:09:21.600><c> if</c><00:09:21.760><c> you</c><00:09:21.839><c> have</c><00:09:22.000><c> structured</c>
+
+00:09:22.389 --> 00:09:22.399 align:start position:0%
+chunk. But if you have structured
+ 
+
+00:09:22.399 --> 00:09:24.150 align:start position:0%
+chunk. But if you have structured
+element<00:09:22.880><c> documents,</c><00:09:23.279><c> you</c><00:09:23.440><c> can</c><00:09:23.600><c> also</c><00:09:23.920><c> do</c>
+
+00:09:24.150 --> 00:09:24.160 align:start position:0%
+element documents, you can also do
+ 
+
+00:09:24.160 --> 00:09:25.670 align:start position:0%
+element documents, you can also do
+something<00:09:24.399><c> like</c><00:09:24.720><c> okay</c><00:09:25.120><c> have</c><00:09:25.200><c> a</c><00:09:25.360><c> book</c><00:09:25.440><c> which</c>
+
+00:09:25.670 --> 00:09:25.680 align:start position:0%
+something like okay have a book which
+ 
+
+00:09:25.680 --> 00:09:28.150 align:start position:0%
+something like okay have a book which
+has<00:09:25.920><c> chapters</c><00:09:26.720><c> which</c><00:09:26.959><c> have</c><00:09:27.440><c> sections</c><00:09:27.920><c> which</c>
+
+00:09:28.150 --> 00:09:28.160 align:start position:0%
+has chapters which have sections which
+ 
+
+00:09:28.160 --> 00:09:30.070 align:start position:0%
+has chapters which have sections which
+have<00:09:28.480><c> paragraphs</c><00:09:29.200><c> where</c><00:09:29.440><c> the</c><00:09:29.600><c> paragraph</c><00:09:29.920><c> is</c>
+
+00:09:30.070 --> 00:09:30.080 align:start position:0%
+have paragraphs where the paragraph is
+ 
+
+00:09:30.080 --> 00:09:32.710 align:start position:0%
+have paragraphs where the paragraph is
+the<00:09:30.320><c> semantically</c><00:09:31.200><c> cohesive</c><00:09:31.760><c> unit</c><00:09:32.240><c> that</c><00:09:32.480><c> you</c>
+
+00:09:32.710 --> 00:09:32.720 align:start position:0%
+the semantically cohesive unit that you
+ 
+
+00:09:32.720 --> 00:09:33.910 align:start position:0%
+the semantically cohesive unit that you
+would<00:09:32.880><c> use</c><00:09:33.040><c> to</c><00:09:33.200><c> for</c><00:09:33.360><c> instance</c><00:09:33.600><c> create</c><00:09:33.760><c> a</c>
+
+00:09:33.910 --> 00:09:33.920 align:start position:0%
+would use to for instance create a
+ 
+
+00:09:33.920 --> 00:09:35.990 align:start position:0%
+would use to for instance create a
+vector<00:09:34.160><c> embedding</c><00:09:34.640><c> of</c><00:09:34.959><c> that</c><00:09:35.120><c> you</c><00:09:35.279><c> can</c><00:09:35.440><c> use</c>
+
+00:09:35.990 --> 00:09:36.000 align:start position:0%
+vector embedding of that you can use
+ 
+
+00:09:36.000 --> 00:09:37.590 align:start position:0%
+vector embedding of that you can use
+later<00:09:36.240><c> for</c><00:09:36.399><c> vector</c><00:09:36.720><c> search.</c><00:09:37.200><c> But</c><00:09:37.360><c> what's</c>
+
+00:09:37.590 --> 00:09:37.600 align:start position:0%
+later for vector search. But what's
+ 
+
+00:09:37.600 --> 00:09:38.949 align:start position:0%
+later for vector search. But what's
+really<00:09:38.000><c> interesting</c><00:09:38.240><c> in</c><00:09:38.480><c> the</c><00:09:38.560><c> graph</c><00:09:38.800><c> is</c>
+
+00:09:38.949 --> 00:09:38.959 align:start position:0%
+really interesting in the graph is
+ 
+
+00:09:38.959 --> 00:09:40.310 align:start position:0%
+really interesting in the graph is
+basically<00:09:39.279><c> you</c><00:09:39.519><c> can</c><00:09:39.600><c> connect</c><00:09:39.839><c> these</c><00:09:40.160><c> things</c>
+
+00:09:40.310 --> 00:09:40.320 align:start position:0%
+basically you can connect these things
+ 
+
+00:09:40.320 --> 00:09:42.790 align:start position:0%
+basically you can connect these things
+all<00:09:40.560><c> up</c><00:09:40.800><c> right</c><00:09:40.880><c> so</c><00:09:41.040><c> you</c><00:09:41.279><c> know</c><00:09:41.440><c> exactly</c><00:09:42.480><c> who's</c>
+
+00:09:42.790 --> 00:09:42.800 align:start position:0%
+all up right so you know exactly who's
+ 
+
+00:09:42.800 --> 00:09:44.470 align:start position:0%
+all up right so you know exactly who's
+the<00:09:42.880><c> predecessor</c><00:09:43.440><c> who's</c><00:09:43.600><c> the</c><00:09:43.760><c> successor</c><00:09:44.160><c> to</c><00:09:44.320><c> a</c>
+
+00:09:44.470 --> 00:09:44.480 align:start position:0%
+the predecessor who's the successor to a
+ 
+
+00:09:44.480 --> 00:09:47.590 align:start position:0%
+the predecessor who's the successor to a
+chunk<00:09:45.040><c> who's</c><00:09:45.279><c> the</c><00:09:45.440><c> parent</c><00:09:45.680><c> of</c><00:09:45.839><c> an</c><00:09:46.080><c> element</c><00:09:47.040><c> and</c>
+
+00:09:47.590 --> 00:09:47.600 align:start position:0%
+chunk who's the parent of an element and
+ 
+
+00:09:47.600 --> 00:09:49.590 align:start position:0%
+chunk who's the parent of an element and
+using<00:09:48.000><c> something</c><00:09:48.399><c> like</c><00:09:48.720><c> a</c><00:09:48.959><c> vector</c><00:09:49.279><c> or</c><00:09:49.440><c> text</c>
+
+00:09:49.590 --> 00:09:49.600 align:start position:0%
+using something like a vector or text
+ 
+
+00:09:49.600 --> 00:09:51.350 align:start position:0%
+using something like a vector or text
+similarity<00:09:50.080><c> you</c><00:09:50.240><c> can</c><00:09:50.320><c> also</c><00:09:50.560><c> connect</c><00:09:50.800><c> these</c><00:09:51.200><c> uh</c>
+
+00:09:51.350 --> 00:09:51.360 align:start position:0%
+similarity you can also connect these uh
+ 
+
+00:09:51.360 --> 00:09:54.870 align:start position:0%
+similarity you can also connect these uh
+chunks<00:09:51.920><c> as</c><00:09:52.160><c> well</c><00:09:52.399><c> by</c><00:09:53.519><c> an</c><00:09:54.000><c> K</c><00:09:54.240><c> nearest</c><00:09:54.640><c> neighbor</c>
+
+00:09:54.870 --> 00:09:54.880 align:start position:0%
+chunks as well by an K nearest neighbor
+ 
+
+00:09:54.880 --> 00:09:56.790 align:start position:0%
+chunks as well by an K nearest neighbor
+or<00:09:55.040><c> similarity</c><00:09:55.519><c> graph</c><00:09:56.080><c> where</c><00:09:56.320><c> you</c><00:09:56.480><c> basically</c>
+
+00:09:56.790 --> 00:09:56.800 align:start position:0%
+or similarity graph where you basically
+ 
+
+00:09:56.800 --> 00:09:59.910 align:start position:0%
+or similarity graph where you basically
+store<00:09:57.519><c> similarities</c><00:09:58.560><c> u</c><00:09:58.800><c> between</c><00:09:59.200><c> chunks</c><00:09:59.760><c> and</c>
+
+00:09:59.910 --> 00:09:59.920 align:start position:0%
+store similarities u between chunks and
+ 
+
+00:09:59.920 --> 00:10:01.430 align:start position:0%
+store similarities u between chunks and
+then<00:10:00.080><c> you</c><00:10:00.240><c> put</c><00:10:00.399><c> on</c><00:10:00.560><c> the</c><00:10:00.800><c> relationship</c><00:10:01.200><c> between</c>
+
+00:10:01.430 --> 00:10:01.440 align:start position:0%
+then you put on the relationship between
+ 
+
+00:10:01.440 --> 00:10:03.509 align:start position:0%
+then you put on the relationship between
+them<00:10:01.760><c> and</c><00:10:02.160><c> an</c><00:10:02.240><c> and</c><00:10:02.480><c> weighted</c><00:10:02.880><c> score</c><00:10:03.200><c> basically</c>
+
+00:10:03.509 --> 00:10:03.519 align:start position:0%
+them and an and weighted score basically
+ 
+
+00:10:03.519 --> 00:10:05.269 align:start position:0%
+them and an and weighted score basically
+how<00:10:03.760><c> similar</c><00:10:04.080><c> the</c><00:10:04.240><c> two</c><00:10:04.399><c> chunks</c><00:10:04.800><c> and</c><00:10:04.959><c> then</c><00:10:05.120><c> you</c>
+
+00:10:05.269 --> 00:10:05.279 align:start position:0%
+how similar the two chunks and then you
+ 
+
+00:10:05.279 --> 00:10:07.190 align:start position:0%
+how similar the two chunks and then you
+can<00:10:05.360><c> use</c><00:10:05.600><c> all</c><00:10:05.680><c> these</c><00:10:06.000><c> relationships</c><00:10:06.800><c> when</c><00:10:07.040><c> you</c>
+
+00:10:07.190 --> 00:10:07.200 align:start position:0%
+can use all these relationships when you
+ 
+
+00:10:07.200 --> 00:10:08.790 align:start position:0%
+can use all these relationships when you
+extract<00:10:07.600><c> the</c><00:10:07.760><c> context</c><00:10:08.080><c> in</c><00:10:08.240><c> the</c><00:10:08.320><c> retrieval</c>
+
+00:10:08.790 --> 00:10:08.800 align:start position:0%
+extract the context in the retrieval
+ 
+
+00:10:08.800 --> 00:10:10.870 align:start position:0%
+extract the context in the retrieval
+phase<00:10:09.360><c> to</c><00:10:09.680><c> for</c><00:10:09.839><c> instance</c><00:10:10.080><c> find</c><00:10:10.480><c> what</c><00:10:10.720><c> are</c>
+
+00:10:10.870 --> 00:10:10.880 align:start position:0%
+phase to for instance find what are
+ 
+
+00:10:10.880 --> 00:10:13.750 align:start position:0%
+phase to for instance find what are
+related<00:10:11.200><c> chunks</c><00:10:11.600><c> by</c><00:10:11.839><c> document</c><00:10:12.560><c> by</c><00:10:13.120><c> uh</c>
+
+00:10:13.750 --> 00:10:13.760 align:start position:0%
+related chunks by document by uh
+ 
+
+00:10:13.760 --> 00:10:16.310 align:start position:0%
+related chunks by document by uh
+temporal<00:10:14.240><c> sequence</c><00:10:15.200><c> by</c><00:10:15.600><c> similarity</c><00:10:16.160><c> and</c>
+
+00:10:16.310 --> 00:10:16.320 align:start position:0%
+temporal sequence by similarity and
+ 
+
+00:10:16.320 --> 00:10:17.590 align:start position:0%
+temporal sequence by similarity and
+other<00:10:16.480><c> things</c><00:10:16.720><c> right</c><00:10:16.880><c> so</c><00:10:17.040><c> that's</c><00:10:17.200><c> on</c><00:10:17.360><c> the</c><00:10:17.440><c> on</c>
+
+00:10:17.590 --> 00:10:17.600 align:start position:0%
+other things right so that's on the on
+ 
+
+00:10:17.600 --> 00:10:19.910 align:start position:0%
+other things right so that's on the on
+the<00:10:17.680><c> lexical</c><00:10:18.160><c> side</c><00:10:18.959><c> um</c><00:10:19.200><c> this</c><00:10:19.360><c> looks</c><00:10:19.600><c> like</c><00:10:19.680><c> this</c>
+
+00:10:19.910 --> 00:10:19.920 align:start position:0%
+the lexical side um this looks like this
+ 
+
+00:10:19.920 --> 00:10:22.069 align:start position:0%
+the lexical side um this looks like this
+so<00:10:20.160><c> you</c><00:10:20.320><c> for</c><00:10:20.480><c> instance</c><00:10:20.720><c> you</c><00:10:20.880><c> have</c><00:10:20.959><c> an</c><00:10:21.440><c> RFP</c><00:10:21.920><c> and</c>
+
+00:10:22.069 --> 00:10:22.079 align:start position:0%
+so you for instance you have an RFP and
+ 
+
+00:10:22.079 --> 00:10:23.670 align:start position:0%
+so you for instance you have an RFP and
+you<00:10:22.240><c> want</c><00:10:22.320><c> to</c><00:10:22.399><c> break</c><00:10:22.560><c> it</c><00:10:22.720><c> up</c><00:10:22.800><c> in</c><00:10:22.959><c> a</c><00:10:23.120><c> structured</c>
+
+00:10:23.670 --> 00:10:23.680 align:start position:0%
+you want to break it up in a structured
+ 
+
+00:10:23.680 --> 00:10:25.350 align:start position:0%
+you want to break it up in a structured
+way<00:10:24.240><c> then</c><00:10:24.480><c> you</c><00:10:24.640><c> basically</c><00:10:24.959><c> create</c><00:10:25.120><c> the</c>
+
+00:10:25.350 --> 00:10:25.360 align:start position:0%
+way then you basically create the
+ 
+
+00:10:25.360 --> 00:10:27.829 align:start position:0%
+way then you basically create the
+relationships<00:10:25.839><c> between</c><00:10:26.399><c> these</c><00:10:26.640><c> chunks</c><00:10:27.519><c> uh</c><00:10:27.600><c> or</c>
+
+00:10:27.829 --> 00:10:27.839 align:start position:0%
+relationships between these chunks uh or
+ 
+
+00:10:27.839 --> 00:10:30.630 align:start position:0%
+relationships between these chunks uh or
+the<00:10:28.000><c> the</c><00:10:28.240><c> these</c><00:10:28.720><c> subsections</c><00:10:29.680><c> at</c><00:10:29.920><c> the</c><00:10:30.079><c> text</c><00:10:30.480><c> do</c>
+
+00:10:30.630 --> 00:10:30.640 align:start position:0%
+the the these subsections at the text do
+ 
+
+00:10:30.640 --> 00:10:32.630 align:start position:0%
+the the these subsections at the text do
+the<00:10:30.800><c> vector</c><00:10:31.040><c> embeddings</c><00:10:31.600><c> and</c><00:10:31.839><c> then</c><00:10:32.160><c> you</c><00:10:32.399><c> do</c><00:10:32.480><c> it</c>
+
+00:10:32.630 --> 00:10:32.640 align:start position:0%
+the vector embeddings and then you do it
+ 
+
+00:10:32.640 --> 00:10:34.790 align:start position:0%
+the vector embeddings and then you do it
+at<00:10:32.880><c> scale</c><00:10:33.120><c> and</c><00:10:33.279><c> then</c><00:10:33.440><c> you</c><00:10:33.600><c> get</c><00:10:33.680><c> a</c><00:10:34.079><c> full</c><00:10:34.640><c> uh</c>
+
+00:10:34.790 --> 00:10:34.800 align:start position:0%
+at scale and then you get a full uh
+ 
+
+00:10:34.800 --> 00:10:38.230 align:start position:0%
+at scale and then you get a full uh
+lexical<00:10:35.760><c> uh</c><00:10:35.920><c> graph</c><00:10:36.399><c> graph</c><00:10:36.640><c> out</c><00:10:36.880><c> of</c><00:10:36.959><c> that.</c><00:10:38.000><c> Next</c>
+
+00:10:38.230 --> 00:10:38.240 align:start position:0%
+lexical uh graph graph out of that. Next
+ 
+
+00:10:38.240 --> 00:10:41.269 align:start position:0%
+lexical uh graph graph out of that. Next
+phase<00:10:38.640><c> is</c><00:10:39.200><c> entity</c><00:10:39.680><c> extraction.</c><00:10:40.720><c> Uh</c><00:10:40.959><c> which</c><00:10:41.200><c> is</c>
+
+00:10:41.269 --> 00:10:41.279 align:start position:0%
+phase is entity extraction. Uh which is
+ 
+
+00:10:41.279 --> 00:10:42.710 align:start position:0%
+phase is entity extraction. Uh which is
+also<00:10:41.519><c> something</c><00:10:41.760><c> that</c><00:10:42.000><c> has</c><00:10:42.160><c> been</c><00:10:42.320><c> around</c><00:10:42.560><c> for</c>
+
+00:10:42.710 --> 00:10:42.720 align:start position:0%
+also something that has been around for
+ 
+
+00:10:42.720 --> 00:10:45.750 align:start position:0%
+also something that has been around for
+quite<00:10:42.959><c> some</c><00:10:43.200><c> time</c><00:10:43.600><c> with</c><00:10:43.839><c> NLP</c><00:10:44.880><c> but</c><00:10:45.120><c> LLMs</c>
+
+00:10:45.750 --> 00:10:45.760 align:start position:0%
+quite some time with NLP but LLMs
+ 
+
+00:10:45.760 --> 00:10:46.790 align:start position:0%
+quite some time with NLP but LLMs
+actually<00:10:45.920><c> take</c><00:10:46.079><c> this</c><00:10:46.240><c> to</c><00:10:46.320><c> the</c><00:10:46.480><c> next</c><00:10:46.640><c> level</c>
+
+00:10:46.790 --> 00:10:46.800 align:start position:0%
+actually take this to the next level
+ 
+
+00:10:46.800 --> 00:10:48.790 align:start position:0%
+actually take this to the next level
+with<00:10:47.040><c> their</c><00:10:47.200><c> multi-</c><00:10:47.440><c> language</c><00:10:47.839><c> understanding</c>
+
+00:10:48.790 --> 00:10:48.800 align:start position:0%
+with their multi- language understanding
+ 
+
+00:10:48.800 --> 00:10:50.790 align:start position:0%
+with their multi- language understanding
+with<00:10:49.040><c> their</c><00:10:49.519><c> high</c><00:10:49.760><c> flexibility,</c><00:10:50.560><c> good</c>
+
+00:10:50.790 --> 00:10:50.800 align:start position:0%
+with their high flexibility, good
+ 
+
+00:10:50.800 --> 00:10:52.949 align:start position:0%
+with their high flexibility, good
+language<00:10:51.120><c> skills</c><00:10:51.360><c> for</c><00:10:51.600><c> extraction.</c><00:10:52.480><c> So</c><00:10:52.640><c> you</c>
+
+00:10:52.949 --> 00:10:52.959 align:start position:0%
+language skills for extraction. So you
+ 
+
+00:10:52.959 --> 00:10:56.949 align:start position:0%
+language skills for extraction. So you
+basically<00:10:53.440><c> provide</c><00:10:53.920><c> an</c><00:10:54.880><c> graph</c><00:10:55.200><c> schema</c><00:10:56.079><c> and</c><00:10:56.480><c> an</c>
+
+00:10:56.949 --> 00:10:56.959 align:start position:0%
+basically provide an graph schema and an
+ 
+
+00:10:56.959 --> 00:11:00.630 align:start position:0%
+basically provide an graph schema and an
+um<00:10:57.920><c> instruction</c><00:10:58.480><c> prompt</c><00:10:58.880><c> to</c><00:10:59.120><c> the</c><00:10:59.279><c> LLM</c><00:10:59.920><c> plus</c>
+
+00:11:00.630 --> 00:11:00.640 align:start position:0%
+um instruction prompt to the LLM plus
+ 
+
+00:11:00.640 --> 00:11:02.310 align:start position:0%
+um instruction prompt to the LLM plus
+your<00:11:00.880><c> pieces</c><00:11:01.200><c> of</c><00:11:01.440><c> information,</c><00:11:01.920><c> pieces</c><00:11:02.160><c> of</c>
+
+00:11:02.310 --> 00:11:02.320 align:start position:0%
+your pieces of information, pieces of
+ 
+
+00:11:02.320 --> 00:11:04.470 align:start position:0%
+your pieces of information, pieces of
+text.<00:11:02.560><c> Now</c><00:11:02.800><c> with</c><00:11:02.959><c> large</c><00:11:03.200><c> context</c><00:11:03.600><c> windows</c><00:11:04.320><c> you</c>
+
+00:11:04.470 --> 00:11:04.480 align:start position:0%
+text. Now with large context windows you
+ 
+
+00:11:04.480 --> 00:11:06.949 align:start position:0%
+text. Now with large context windows you
+can<00:11:04.800><c> then</c><00:11:05.519><c> put</c><00:11:05.519><c> put</c><00:11:05.680><c> in</c><00:11:05.920><c> 10,000</c><00:11:06.399><c> 100,000</c>
+
+00:11:06.949 --> 00:11:06.959 align:start position:0%
+can then put put in 10,000 100,000
+ 
+
+00:11:06.959 --> 00:11:09.829 align:start position:0%
+can then put put in 10,000 100,000
+tokens<00:11:07.519><c> for</c><00:11:07.760><c> extraction.</c><00:11:08.959><c> If</c><00:11:09.200><c> you</c><00:11:09.360><c> have</c><00:11:09.600><c> you</c>
+
+00:11:09.829 --> 00:11:09.839 align:start position:0%
+tokens for extraction. If you have you
+ 
+
+00:11:09.839 --> 00:11:12.150 align:start position:0%
+tokens for extraction. If you have you
+can<00:11:09.920><c> also</c><00:11:10.240><c> put</c><00:11:10.399><c> in</c><00:11:10.880><c> already</c><00:11:11.279><c> existing</c><00:11:11.839><c> ground</c>
+
+00:11:12.150 --> 00:11:12.160 align:start position:0%
+can also put in already existing ground
+ 
+
+00:11:12.160 --> 00:11:13.670 align:start position:0%
+can also put in already existing ground
+truth.<00:11:12.399><c> So</c><00:11:12.560><c> for</c><00:11:12.640><c> instance,</c><00:11:12.880><c> if</c><00:11:13.040><c> you</c><00:11:13.120><c> have</c><00:11:13.279><c> ex</c>
+
+00:11:13.670 --> 00:11:13.680 align:start position:0%
+truth. So for instance, if you have ex
+ 
+
+00:11:13.680 --> 00:11:15.670 align:start position:0%
+truth. So for instance, if you have ex
+existing<00:11:14.160><c> structure</c><00:11:14.560><c> data</c><00:11:14.880><c> where</c><00:11:15.200><c> your</c>
+
+00:11:15.670 --> 00:11:15.680 align:start position:0%
+existing structure data where your
+ 
+
+00:11:15.680 --> 00:11:19.750 align:start position:0%
+existing structure data where your
+entities,<00:11:16.160><c> let's</c><00:11:16.399><c> say</c><00:11:17.040><c> products</c><00:11:17.680><c> or</c><00:11:18.320><c> genes</c><00:11:19.040><c> or</c>
+
+00:11:19.750 --> 00:11:19.760 align:start position:0%
+entities, let's say products or genes or
+ 
+
+00:11:19.760 --> 00:11:21.350 align:start position:0%
+entities, let's say products or genes or
+partners<00:11:20.160><c> or</c><00:11:20.480><c> clients</c><00:11:20.880><c> are</c><00:11:21.120><c> already</c>
+
+00:11:21.350 --> 00:11:21.360 align:start position:0%
+partners or clients are already
+ 
+
+00:11:21.360 --> 00:11:22.870 align:start position:0%
+partners or clients are already
+existing,<00:11:21.680><c> then</c><00:11:21.920><c> you</c><00:11:22.079><c> can</c><00:11:22.160><c> also</c><00:11:22.320><c> pass</c><00:11:22.480><c> this</c><00:11:22.720><c> in</c>
+
+00:11:22.870 --> 00:11:22.880 align:start position:0%
+existing, then you can also pass this in
+ 
+
+00:11:22.880 --> 00:11:25.030 align:start position:0%
+existing, then you can also pass this in
+as<00:11:23.040><c> part</c><00:11:23.200><c> of</c><00:11:23.279><c> the</c><00:11:23.440><c> prompt.</c><00:11:24.079><c> So</c><00:11:24.240><c> that</c><00:11:24.399><c> the</c><00:11:24.560><c> LLM</c>
+
+00:11:25.030 --> 00:11:25.040 align:start position:0%
+as part of the prompt. So that the LLM
+ 
+
+00:11:25.040 --> 00:11:27.670 align:start position:0%
+as part of the prompt. So that the LLM
+doesn't<00:11:25.279><c> do</c><00:11:25.440><c> an</c><00:11:25.680><c> extraction,</c><00:11:26.560><c> but</c><00:11:26.800><c> more</c><00:11:27.040><c> an</c>
+
+00:11:27.670 --> 00:11:27.680 align:start position:0%
+doesn't do an extraction, but more an
+ 
+
+00:11:27.680 --> 00:11:30.790 align:start position:0%
+doesn't do an extraction, but more an
+recognition<00:11:28.480><c> and</c><00:11:28.640><c> and</c><00:11:29.120><c> finding</c><00:11:29.920><c> um</c><00:11:30.240><c> approach</c>
+
+00:11:30.790 --> 00:11:30.800 align:start position:0%
+recognition and and finding um approach
+ 
+
+00:11:30.800 --> 00:11:32.150 align:start position:0%
+recognition and and finding um approach
+where<00:11:31.040><c> you</c><00:11:31.200><c> find</c><00:11:31.360><c> your</c><00:11:31.519><c> entities</c><00:11:31.839><c> and</c><00:11:32.000><c> then</c>
+
+00:11:32.150 --> 00:11:32.160 align:start position:0%
+where you find your entities and then
+ 
+
+00:11:32.160 --> 00:11:34.630 align:start position:0%
+where you find your entities and then
+you<00:11:32.320><c> extract</c><00:11:32.800><c> relationships</c><00:11:33.680><c> from</c><00:11:34.000><c> them</c><00:11:34.399><c> and</c>
+
+00:11:34.630 --> 00:11:34.640 align:start position:0%
+you extract relationships from them and
+ 
+
+00:11:34.640 --> 00:11:36.630 align:start position:0%
+you extract relationships from them and
+then<00:11:34.800><c> you</c><00:11:34.959><c> can</c><00:11:35.040><c> store</c><00:11:35.360><c> additional</c><00:11:36.160><c> facts</c><00:11:36.480><c> and</c>
+
+00:11:36.630 --> 00:11:36.640 align:start position:0%
+then you can store additional facts and
+ 
+
+00:11:36.640 --> 00:11:38.630 align:start position:0%
+then you can store additional facts and
+and<00:11:37.279><c> uh</c><00:11:37.519><c> additional</c><00:11:37.920><c> information</c><00:11:38.240><c> that</c><00:11:38.480><c> you</c>
+
+00:11:38.630 --> 00:11:38.640 align:start position:0%
+and uh additional information that you
+ 
+
+00:11:38.640 --> 00:11:40.630 align:start position:0%
+and uh additional information that you
+store<00:11:39.200><c> as</c><00:11:39.440><c> part</c><00:11:39.600><c> of</c><00:11:39.839><c> relationships</c><00:11:40.480><c> and</c>
+
+00:11:40.630 --> 00:11:40.640 align:start position:0%
+store as part of relationships and
+ 
+
+00:11:40.640 --> 00:11:42.389 align:start position:0%
+store as part of relationships and
+entities<00:11:41.040><c> as</c><00:11:41.279><c> well.</c><00:11:41.600><c> So</c><00:11:41.839><c> basically</c><00:11:42.079><c> in</c><00:11:42.240><c> the</c>
+
+00:11:42.389 --> 00:11:42.399 align:start position:0%
+entities as well. So basically in the
+ 
+
+00:11:42.399 --> 00:11:43.750 align:start position:0%
+entities as well. So basically in the
+first<00:11:42.640><c> part</c><00:11:42.800><c> you</c><00:11:42.959><c> have</c><00:11:43.040><c> the</c><00:11:43.120><c> lexical</c><00:11:43.600><c> graph</c>
+
+00:11:43.750 --> 00:11:43.760 align:start position:0%
+first part you have the lexical graph
+ 
+
+00:11:43.760 --> 00:11:45.030 align:start position:0%
+first part you have the lexical graph
+which<00:11:44.000><c> is</c><00:11:44.160><c> representing</c><00:11:44.640><c> document</c>
+
+00:11:45.030 --> 00:11:45.040 align:start position:0%
+which is representing document
+ 
+
+00:11:45.040 --> 00:11:46.550 align:start position:0%
+which is representing document
+structure.<00:11:45.600><c> But</c><00:11:45.680><c> then</c><00:11:45.839><c> in</c><00:11:45.920><c> the</c><00:11:46.079><c> second</c><00:11:46.320><c> part</c>
+
+00:11:46.550 --> 00:11:46.560 align:start position:0%
+structure. But then in the second part
+ 
+
+00:11:46.560 --> 00:11:49.190 align:start position:0%
+structure. But then in the second part
+you<00:11:47.120><c> extract</c><00:11:47.760><c> the</c><00:11:47.920><c> relevant</c><00:11:48.560><c> entities</c><00:11:49.040><c> and</c>
+
+00:11:49.190 --> 00:11:49.200 align:start position:0%
+you extract the relevant entities and
+ 
+
+00:11:49.200 --> 00:11:50.870 align:start position:0%
+you extract the relevant entities and
+their<00:11:49.440><c> relationships.</c><00:11:50.160><c> If</c><00:11:50.399><c> you</c><00:11:50.480><c> have</c><00:11:50.640><c> already</c>
+
+00:11:50.870 --> 00:11:50.880 align:start position:0%
+their relationships. If you have already
+ 
+
+00:11:50.880 --> 00:11:52.150 align:start position:0%
+their relationships. If you have already
+an<00:11:51.040><c> existing</c><00:11:51.279><c> knowledge</c><00:11:51.519><c> graph</c><00:11:51.760><c> you</c><00:11:51.920><c> can</c><00:11:52.000><c> also</c>
+
+00:11:52.150 --> 00:11:52.160 align:start position:0%
+an existing knowledge graph you can also
+ 
+
+00:11:52.160 --> 00:11:53.509 align:start position:0%
+an existing knowledge graph you can also
+connect<00:11:52.399><c> this</c><00:11:52.640><c> to</c><00:11:52.720><c> an</c><00:11:52.959><c> existing</c><00:11:53.279><c> knowledge</c>
+
+00:11:53.509 --> 00:11:53.519 align:start position:0%
+connect this to an existing knowledge
+ 
+
+00:11:53.519 --> 00:11:56.550 align:start position:0%
+connect this to an existing knowledge
+graph.<00:11:53.760><c> So</c><00:11:53.839><c> imagine</c><00:11:54.160><c> you</c><00:11:54.320><c> have</c><00:11:54.480><c> an</c><00:11:55.120><c> um</c><00:11:56.079><c> CRM</c>
+
+00:11:56.550 --> 00:11:56.560 align:start position:0%
+graph. So imagine you have an um CRM
+ 
+
+00:11:56.560 --> 00:11:58.870 align:start position:0%
+graph. So imagine you have an um CRM
+where<00:11:56.720><c> you</c><00:11:56.880><c> already</c><00:11:57.200><c> have</c><00:11:57.680><c> customer</c><00:11:58.160><c> clients</c>
+
+00:11:58.870 --> 00:11:58.880 align:start position:0%
+where you already have customer clients
+ 
+
+00:11:58.880 --> 00:12:00.870 align:start position:0%
+where you already have customer clients
+uh<00:11:59.040><c> and</c><00:11:59.200><c> and</c><00:11:59.519><c> leads</c><00:11:59.839><c> in</c><00:12:00.000><c> your</c><00:12:00.160><c> knowledge</c><00:12:00.480><c> graph</c>
+
+00:12:00.870 --> 00:12:00.880 align:start position:0%
+uh and and leads in your knowledge graph
+ 
+
+00:12:00.880 --> 00:12:02.550 align:start position:0%
+uh and and leads in your knowledge graph
+but<00:12:01.120><c> then</c><00:12:01.279><c> you</c><00:12:01.440><c> want</c><00:12:01.519><c> to</c><00:12:01.600><c> enrich</c><00:12:02.000><c> this</c><00:12:02.240><c> with</c>
+
+00:12:02.550 --> 00:12:02.560 align:start position:0%
+but then you want to enrich this with
+ 
+
+00:12:02.560 --> 00:12:05.030 align:start position:0%
+but then you want to enrich this with
+for<00:12:02.720><c> instance</c><00:12:03.519><c> uh</c><00:12:04.000><c> protocols</c><00:12:04.560><c> from</c><00:12:04.800><c> call</c>
+
+00:12:05.030 --> 00:12:05.040 align:start position:0%
+for instance uh protocols from call
+ 
+
+00:12:05.040 --> 00:12:06.870 align:start position:0%
+for instance uh protocols from call
+transcripts<00:12:05.600><c> and</c><00:12:05.760><c> then</c><00:12:05.920><c> you</c><00:12:06.079><c> basically</c>
+
+00:12:06.870 --> 00:12:06.880 align:start position:0%
+transcripts and then you basically
+ 
+
+00:12:06.880 --> 00:12:08.310 align:start position:0%
+transcripts and then you basically
+connect<00:12:07.120><c> this</c><00:12:07.360><c> to</c><00:12:07.519><c> your</c><00:12:07.680><c> existing</c><00:12:08.000><c> structured</c>
+
+00:12:08.310 --> 00:12:08.320 align:start position:0%
+connect this to your existing structured
+ 
+
+00:12:08.320 --> 00:12:09.509 align:start position:0%
+connect this to your existing structured
+data<00:12:08.560><c> as</c><00:12:08.720><c> well.</c><00:12:08.880><c> So</c><00:12:08.959><c> that's</c><00:12:09.200><c> also</c><00:12:09.360><c> a</c>
+
+00:12:09.509 --> 00:12:09.519 align:start position:0%
+data as well. So that's also a
+ 
+
+00:12:09.519 --> 00:12:11.670 align:start position:0%
+data as well. So that's also a
+possibility.<00:12:10.639><c> And</c><00:12:10.800><c> then</c><00:12:10.959><c> in</c><00:12:11.120><c> the</c><00:12:11.279><c> next</c><00:12:11.440><c> phase</c>
+
+00:12:11.670 --> 00:12:11.680 align:start position:0%
+possibility. And then in the next phase
+ 
+
+00:12:11.680 --> 00:12:13.110 align:start position:0%
+possibility. And then in the next phase
+what<00:12:11.839><c> you</c><00:12:12.000><c> can</c><00:12:12.079><c> do</c><00:12:12.160><c> is</c><00:12:12.320><c> you</c><00:12:12.560><c> can</c><00:12:12.639><c> run</c><00:12:12.880><c> graph</c>
+
+00:12:13.110 --> 00:12:13.120 align:start position:0%
+what you can do is you can run graph
+ 
+
+00:12:13.120 --> 00:12:15.269 align:start position:0%
+what you can do is you can run graph
+algorithms<00:12:13.600><c> for</c><00:12:13.760><c> enrichment</c>
+
+00:12:15.269 --> 00:12:15.279 align:start position:0%
+algorithms for enrichment
+ 
+
+00:12:15.279 --> 00:12:16.790 align:start position:0%
+algorithms for enrichment
+which<00:12:15.519><c> then</c><00:12:16.000><c> for</c><00:12:16.160><c> instance</c><00:12:16.480><c> can</c><00:12:16.639><c> do</c>
+
+00:12:16.790 --> 00:12:16.800 align:start position:0%
+which then for instance can do
+ 
+
+00:12:16.800 --> 00:12:18.389 align:start position:0%
+which then for instance can do
+clustering<00:12:17.279><c> on</c><00:12:17.360><c> the</c><00:12:17.519><c> entity</c><00:12:17.839><c> graph</c><00:12:18.079><c> and</c><00:12:18.240><c> then</c>
+
+00:12:18.389 --> 00:12:18.399 align:start position:0%
+clustering on the entity graph and then
+ 
+
+00:12:18.399 --> 00:12:21.269 align:start position:0%
+clustering on the entity graph and then
+you<00:12:18.639><c> generate</c><00:12:19.519><c> uh</c><00:12:20.240><c> something</c><00:12:20.560><c> like</c><00:12:21.040><c> uh</c>
+
+00:12:21.269 --> 00:12:21.279 align:start position:0%
+you generate uh something like uh
+ 
+
+00:12:21.279 --> 00:12:23.509 align:start position:0%
+you generate uh something like uh
+communities<00:12:21.920><c> where</c><00:12:22.320><c> an</c><00:12:22.560><c> LLM</c><00:12:23.040><c> can</c><00:12:23.200><c> generate</c>
+
+00:12:23.509 --> 00:12:23.519 align:start position:0%
+communities where an LLM can generate
+ 
+
+00:12:23.519 --> 00:12:26.949 align:start position:0%
+communities where an LLM can generate
+summaries<00:12:24.160><c> uh</c><00:12:24.320><c> across</c><00:12:24.720><c> them</c><00:12:25.200><c> as</c><00:12:25.440><c> such</c><00:12:26.480><c> right</c>
+
+00:12:26.949 --> 00:12:26.959 align:start position:0%
+summaries uh across them as such right
+ 
+
+00:12:26.959 --> 00:12:29.110 align:start position:0%
+summaries uh across them as such right
+and<00:12:27.519><c> uh</c><00:12:27.680><c> for</c><00:12:27.920><c> especially</c><00:12:28.399><c> last</c><00:12:28.639><c> one</c><00:12:28.880><c> it's</c>
+
+00:12:29.110 --> 00:12:29.120 align:start position:0%
+and uh for especially last one it's
+ 
+
+00:12:29.120 --> 00:12:30.790 align:start position:0%
+and uh for especially last one it's
+interesting<00:12:29.519><c> because</c><00:12:29.760><c> what</c><00:12:29.920><c> you</c><00:12:30.240><c> identify</c><00:12:30.560><c> is</c>
+
+00:12:30.790 --> 00:12:30.800 align:start position:0%
+interesting because what you identify is
+ 
+
+00:12:30.800 --> 00:12:33.509 align:start position:0%
+interesting because what you identify is
+actually<00:12:31.360><c> cross</c><00:12:31.760><c> document</c><00:12:32.560><c> uh</c><00:12:32.800><c> topics</c><00:12:33.279><c> right</c>
+
+00:12:33.509 --> 00:12:33.519 align:start position:0%
+actually cross document uh topics right
+ 
+
+00:12:33.519 --> 00:12:35.670 align:start position:0%
+actually cross document uh topics right
+so<00:12:33.680><c> because</c><00:12:33.920><c> it's</c><00:12:34.240><c> basically</c><00:12:34.800><c> each</c><00:12:35.360><c> document</c>
+
+00:12:35.670 --> 00:12:35.680 align:start position:0%
+so because it's basically each document
+ 
+
+00:12:35.680 --> 00:12:38.710 align:start position:0%
+so because it's basically each document
+is<00:12:36.000><c> an</c><00:12:36.800><c> basically</c><00:12:37.200><c> temporal</c><00:12:38.240><c> vertical</c>
+
+00:12:38.710 --> 00:12:38.720 align:start position:0%
+is an basically temporal vertical
+ 
+
+00:12:38.720 --> 00:12:40.470 align:start position:0%
+is an basically temporal vertical
+representation<00:12:39.279><c> of</c><00:12:39.519><c> information</c><00:12:40.000><c> but</c><00:12:40.320><c> What</c>
+
+00:12:40.470 --> 00:12:40.480 align:start position:0%
+representation of information but What
+ 
+
+00:12:40.480 --> 00:12:42.230 align:start position:0%
+representation of information but What
+this<00:12:40.639><c> is</c><00:12:40.720><c> is</c><00:12:40.959><c> actually</c><00:12:41.279><c> it</c><00:12:41.519><c> looks</c><00:12:41.760><c> at</c><00:12:42.000><c> which</c>
+
+00:12:42.230 --> 00:12:42.240 align:start position:0%
+this is is actually it looks at which
+ 
+
+00:12:42.240 --> 00:12:44.389 align:start position:0%
+this is is actually it looks at which
+topics<00:12:42.639><c> are</c><00:12:42.800><c> reoccurring</c><00:12:43.360><c> across</c><00:12:43.839><c> many</c>
+
+00:12:44.389 --> 00:12:44.399 align:start position:0%
+topics are reoccurring across many
+ 
+
+00:12:44.399 --> 00:12:45.829 align:start position:0%
+topics are reoccurring across many
+different<00:12:44.639><c> documents.</c><00:12:45.120><c> So</c><00:12:45.279><c> you</c><00:12:45.440><c> find</c><00:12:45.600><c> these</c>
+
+00:12:45.829 --> 00:12:45.839 align:start position:0%
+different documents. So you find these
+ 
+
+00:12:45.839 --> 00:12:48.470 align:start position:0%
+different documents. So you find these
+kind<00:12:46.000><c> of</c><00:12:46.399><c> topic</c><00:12:46.720><c> clusters</c><00:12:47.360><c> across</c><00:12:48.160><c> uh</c>
+
+00:12:48.470 --> 00:12:48.480 align:start position:0%
+kind of topic clusters across uh
+ 
+
+00:12:48.480 --> 00:12:51.750 align:start position:0%
+kind of topic clusters across uh
+documents<00:12:48.880><c> as</c><00:12:49.120><c> well.</c><00:12:50.560><c> Cool.</c><00:12:51.200><c> So</c><00:12:51.360><c> if</c><00:12:51.519><c> you</c><00:12:51.680><c> look</c>
+
+00:12:51.750 --> 00:12:51.760 align:start position:0%
+documents as well. Cool. So if you look
+ 
+
+00:12:51.760 --> 00:12:53.350 align:start position:0%
+documents as well. Cool. So if you look
+at<00:12:51.920><c> the</c><00:12:52.000><c> the</c><00:12:52.399><c> second</c><00:12:52.639><c> phase,</c><00:12:52.959><c> the</c><00:12:53.120><c> search</c>
+
+00:12:53.350 --> 00:12:53.360 align:start position:0%
+at the the second phase, the search
+ 
+
+00:12:53.360 --> 00:12:56.470 align:start position:0%
+at the the second phase, the search
+phase<00:12:53.760><c> which</c><00:12:53.920><c> is</c><00:12:54.079><c> basically</c><00:12:54.560><c> retrieval</c><00:12:55.760><c> uh</c>
+
+00:12:56.470 --> 00:12:56.480 align:start position:0%
+phase which is basically retrieval uh
+ 
+
+00:12:56.480 --> 00:12:58.949 align:start position:0%
+phase which is basically retrieval uh
+part<00:12:56.720><c> of</c><00:12:57.040><c> rag.</c><00:12:57.760><c> What</c><00:12:58.000><c> we</c><00:12:58.160><c> see</c><00:12:58.399><c> here</c><00:12:58.639><c> is</c>
+
+00:12:58.949 --> 00:12:58.959 align:start position:0%
+part of rag. What we see here is
+ 
+
+00:12:58.959 --> 00:13:01.509 align:start position:0%
+part of rag. What we see here is
+basically<00:12:59.680><c> that</c><00:12:59.920><c> in</c><00:13:00.079><c> a</c><00:13:00.320><c> graphic</c><00:13:00.800><c> retriever</c>
+
+00:13:01.509 --> 00:13:01.519 align:start position:0%
+basically that in a graphic retriever
+ 
+
+00:13:01.519 --> 00:13:03.670 align:start position:0%
+basically that in a graphic retriever
+you<00:13:01.760><c> don't</c><00:13:01.920><c> just</c><00:13:02.079><c> do</c><00:13:02.240><c> a</c><00:13:02.480><c> simple</c><00:13:02.720><c> vector</c><00:13:03.120><c> lookup</c>
+
+00:13:03.670 --> 00:13:03.680 align:start position:0%
+you don't just do a simple vector lookup
+ 
+
+00:13:03.680 --> 00:13:06.870 align:start position:0%
+you don't just do a simple vector lookup
+to<00:13:03.920><c> get</c><00:13:04.399><c> uh</c><00:13:04.639><c> returns</c><00:13:05.440><c> uh</c><00:13:05.920><c> results</c><00:13:06.320><c> returned</c>
+
+00:13:06.870 --> 00:13:06.880 align:start position:0%
+to get uh returns uh results returned
+ 
+
+00:13:06.880 --> 00:13:08.790 align:start position:0%
+to get uh returns uh results returned
+but<00:13:07.040><c> what</c><00:13:07.200><c> you</c><00:13:07.360><c> do</c><00:13:07.519><c> you</c><00:13:07.680><c> do</c><00:13:07.839><c> an</c><00:13:08.160><c> initial</c><00:13:08.480><c> index</c>
+
+00:13:08.790 --> 00:13:08.800 align:start position:0%
+but what you do you do an initial index
+ 
+
+00:13:08.800 --> 00:13:10.310 align:start position:0%
+but what you do you do an initial index
+search.<00:13:09.040><c> It</c><00:13:09.200><c> could</c><00:13:09.360><c> be</c><00:13:09.600><c> vector</c><00:13:09.920><c> search,</c><00:13:10.160><c> full</c>
+
+00:13:10.310 --> 00:13:10.320 align:start position:0%
+search. It could be vector search, full
+ 
+
+00:13:10.320 --> 00:13:11.990 align:start position:0%
+search. It could be vector search, full
+text<00:13:10.560><c> search,</c><00:13:10.959><c> hyper</c><00:13:11.360><c> search,</c><00:13:11.680><c> spatial</c>
+
+00:13:11.990 --> 00:13:12.000 align:start position:0%
+text search, hyper search, spatial
+ 
+
+00:13:12.000 --> 00:13:13.990 align:start position:0%
+text search, hyper search, spatial
+search<00:13:12.399><c> other</c><00:13:12.959><c> kinds</c><00:13:13.200><c> of</c><00:13:13.360><c> searches</c><00:13:13.760><c> to</c><00:13:13.920><c> find</c>
+
+00:13:13.990 --> 00:13:14.000 align:start position:0%
+search other kinds of searches to find
+ 
+
+00:13:14.000 --> 00:13:15.990 align:start position:0%
+search other kinds of searches to find
+the<00:13:14.160><c> entry</c><00:13:14.399><c> points</c><00:13:14.639><c> in</c><00:13:14.800><c> your</c><00:13:14.959><c> graph</c><00:13:15.519><c> and</c><00:13:15.760><c> then</c>
+
+00:13:15.990 --> 00:13:16.000 align:start position:0%
+the entry points in your graph and then
+ 
+
+00:13:16.000 --> 00:13:18.710 align:start position:0%
+the entry points in your graph and then
+you<00:13:16.240><c> basically</c><00:13:16.959><c> uh</c><00:13:17.200><c> can</c><00:13:17.440><c> take</c><00:13:18.079><c> as</c><00:13:18.320><c> you</c><00:13:18.480><c> can</c><00:13:18.639><c> see</c>
+
+00:13:18.710 --> 00:13:18.720 align:start position:0%
+you basically uh can take as you can see
+ 
+
+00:13:18.720 --> 00:13:21.350 align:start position:0%
+you basically uh can take as you can see
+here<00:13:19.600><c> um</c><00:13:20.000><c> starting</c><00:13:20.240><c> from</c><00:13:20.399><c> these</c><00:13:20.639><c> entry</c><00:13:20.959><c> points</c>
+
+00:13:21.350 --> 00:13:21.360 align:start position:0%
+here um starting from these entry points
+ 
+
+00:13:21.360 --> 00:13:23.190 align:start position:0%
+here um starting from these entry points
+you<00:13:21.600><c> then</c><00:13:21.760><c> follow</c><00:13:22.000><c> the</c><00:13:22.240><c> relationships</c><00:13:22.880><c> up</c><00:13:23.040><c> to</c>
+
+00:13:23.190 --> 00:13:23.200 align:start position:0%
+you then follow the relationships up to
+ 
+
+00:13:23.200 --> 00:13:25.269 align:start position:0%
+you then follow the relationships up to
+a<00:13:23.440><c> certain</c><00:13:23.680><c> degree</c><00:13:24.240><c> or</c><00:13:24.480><c> up</c><00:13:24.639><c> to</c><00:13:24.800><c> a</c><00:13:25.040><c> certain</c>
+
+00:13:25.269 --> 00:13:25.279 align:start position:0%
+a certain degree or up to a certain
+ 
+
+00:13:25.279 --> 00:13:27.990 align:start position:0%
+a certain degree or up to a certain
+relevancy<00:13:26.160><c> to</c><00:13:26.720><c> fetch</c><00:13:27.120><c> in</c><00:13:27.440><c> uh</c><00:13:27.600><c> additional</c>
+
+00:13:27.990 --> 00:13:28.000 align:start position:0%
+relevancy to fetch in uh additional
+ 
+
+00:13:28.000 --> 00:13:30.310 align:start position:0%
+relevancy to fetch in uh additional
+context<00:13:28.320><c> and</c><00:13:28.480><c> this</c><00:13:28.639><c> context</c><00:13:29.279><c> can</c><00:13:29.440><c> be</c><00:13:30.000><c> coming</c>
+
+00:13:30.310 --> 00:13:30.320 align:start position:0%
+context and this context can be coming
+ 
+
+00:13:30.320 --> 00:13:32.150 align:start position:0%
+context and this context can be coming
+from<00:13:30.560><c> the</c><00:13:30.720><c> user</c><00:13:30.959><c> question.</c><00:13:31.360><c> It</c><00:13:31.440><c> can</c><00:13:31.680><c> be</c>
+
+00:13:32.150 --> 00:13:32.160 align:start position:0%
+from the user question. It can be
+ 
+
+00:13:32.160 --> 00:13:33.990 align:start position:0%
+from the user question. It can be
+external<00:13:32.639><c> user</c><00:13:32.959><c> context</c><00:13:33.279><c> that</c><00:13:33.519><c> comes</c><00:13:33.680><c> in.</c><00:13:33.920><c> For</c>
+
+00:13:33.990 --> 00:13:34.000 align:start position:0%
+external user context that comes in. For
+ 
+
+00:13:34.000 --> 00:13:35.829 align:start position:0%
+external user context that comes in. For
+instance,<00:13:34.320><c> when</c><00:13:34.560><c> someone</c><00:13:34.800><c> from</c><00:13:35.440><c> let's</c><00:13:35.680><c> say</c>
+
+00:13:35.829 --> 00:13:35.839 align:start position:0%
+instance, when someone from let's say
+ 
+
+00:13:35.839 --> 00:13:37.750 align:start position:0%
+instance, when someone from let's say
+your<00:13:36.240><c> uh</c><00:13:36.399><c> finance</c><00:13:36.800><c> department</c><00:13:37.200><c> is</c><00:13:37.440><c> looking</c><00:13:37.600><c> at</c>
+
+00:13:37.750 --> 00:13:37.760 align:start position:0%
+your uh finance department is looking at
+ 
+
+00:13:37.760 --> 00:13:39.590 align:start position:0%
+your uh finance department is looking at
+your<00:13:38.000><c> data,</c><00:13:38.560><c> you</c><00:13:38.800><c> return</c><00:13:39.200><c> different</c>
+
+00:13:39.590 --> 00:13:39.600 align:start position:0%
+your data, you return different
+ 
+
+00:13:39.600 --> 00:13:41.750 align:start position:0%
+your data, you return different
+information<00:13:40.079><c> and</c><00:13:40.320><c> if</c><00:13:40.560><c> someone</c><00:13:40.880><c> from</c><00:13:41.200><c> the</c>
+
+00:13:41.750 --> 00:13:41.760 align:start position:0%
+information and if someone from the
+ 
+
+00:13:41.760 --> 00:13:43.509 align:start position:0%
+information and if someone from the
+let's<00:13:42.000><c> say</c><00:13:42.240><c> engineering</c><00:13:42.720><c> department</c><00:13:43.040><c> is</c><00:13:43.200><c> is</c>
+
+00:13:43.509 --> 00:13:43.519 align:start position:0%
+let's say engineering department is is
+ 
+
+00:13:43.519 --> 00:13:44.949 align:start position:0%
+let's say engineering department is is
+looking<00:13:43.680><c> at</c><00:13:43.920><c> your</c><00:13:44.079><c> data,</c><00:13:44.320><c> right?</c><00:13:44.560><c> So</c><00:13:44.639><c> it</c><00:13:44.800><c> also</c>
+
+00:13:44.949 --> 00:13:44.959 align:start position:0%
+looking at your data, right? So it also
+ 
+
+00:13:44.959 --> 00:13:47.030 align:start position:0%
+looking at your data, right? So it also
+takes<00:13:45.200><c> this</c><00:13:45.440><c> external</c><00:13:45.839><c> context</c><00:13:46.160><c> into</c><00:13:46.480><c> account</c>
+
+00:13:47.030 --> 00:13:47.040 align:start position:0%
+takes this external context into account
+ 
+
+00:13:47.040 --> 00:13:49.110 align:start position:0%
+takes this external context into account
+how<00:13:47.279><c> much</c><00:13:47.440><c> and</c><00:13:47.680><c> which</c><00:13:47.839><c> context</c><00:13:48.240><c> you</c><00:13:48.399><c> retrieve</c>
+
+00:13:49.110 --> 00:13:49.120 align:start position:0%
+how much and which context you retrieve
+ 
+
+00:13:49.120 --> 00:13:51.430 align:start position:0%
+how much and which context you retrieve
+and<00:13:49.279><c> then</c><00:13:49.519><c> you</c><00:13:49.760><c> return</c><00:13:50.399><c> to</c><00:13:50.560><c> the</c><00:13:50.800><c> LLM</c><00:13:51.279><c> to</c>
+
+00:13:51.430 --> 00:13:51.440 align:start position:0%
+and then you return to the LLM to
+ 
+
+00:13:51.440 --> 00:13:53.750 align:start position:0%
+and then you return to the LLM to
+generate<00:13:51.680><c> the</c><00:13:51.839><c> answer.</c><00:13:52.320><c> Not</c><00:13:52.560><c> just</c><00:13:53.120><c> basically</c>
+
+00:13:53.750 --> 00:13:53.760 align:start position:0%
+generate the answer. Not just basically
+ 
+
+00:13:53.760 --> 00:13:55.509 align:start position:0%
+generate the answer. Not just basically
+text<00:13:54.079><c> fragments</c><00:13:54.720><c> like</c><00:13:54.959><c> you</c><00:13:55.120><c> would</c><00:13:55.279><c> do</c><00:13:55.360><c> in</c>
+
+00:13:55.509 --> 00:13:55.519 align:start position:0%
+text fragments like you would do in
+ 
+
+00:13:55.519 --> 00:13:57.509 align:start position:0%
+text fragments like you would do in
+vector<00:13:55.839><c> search</c><00:13:56.240><c> but</c><00:13:56.399><c> you</c><00:13:56.639><c> also</c><00:13:56.959><c> create</c><00:13:57.199><c> the</c>
+
+00:13:57.509 --> 00:13:57.519 align:start position:0%
+vector search but you also create the
+ 
+
+00:13:57.519 --> 00:14:01.990 align:start position:0%
+vector search but you also create the
+return<00:13:57.839><c> these</c><00:13:58.720><c> um</c><00:13:59.839><c> more</c><00:14:00.160><c> complete</c><00:14:01.120><c> uh</c><00:14:01.519><c> subset</c>
+
+00:14:01.990 --> 00:14:02.000 align:start position:0%
+return these um more complete uh subset
+ 
+
+00:14:02.000 --> 00:14:04.150 align:start position:0%
+return these um more complete uh subset
+of<00:14:02.160><c> the</c><00:14:02.399><c> of</c><00:14:02.639><c> the</c><00:14:02.800><c> contextual</c><00:14:03.440><c> graph</c><00:14:03.760><c> uh</c><00:14:03.839><c> to</c><00:14:04.000><c> the</c>
+
+00:14:04.150 --> 00:14:04.160 align:start position:0%
+of the of the contextual graph uh to the
+ 
+
+00:14:04.160 --> 00:14:06.550 align:start position:0%
+of the of the contextual graph uh to the
+LLM<00:14:04.639><c> as</c><00:14:04.800><c> well.</c><00:14:05.360><c> And</c><00:14:05.600><c> modern</c><00:14:05.920><c> LLMs</c><00:14:06.399><c> are</c>
+
+00:14:06.550 --> 00:14:06.560 align:start position:0%
+LLM as well. And modern LLMs are
+ 
+
+00:14:06.560 --> 00:14:08.470 align:start position:0%
+LLM as well. And modern LLMs are
+actually<00:14:06.720><c> more</c><00:14:06.959><c> trained</c><00:14:07.360><c> on</c><00:14:07.920><c> uh</c><00:14:08.079><c> graph</c>
+
+00:14:08.470 --> 00:14:08.480 align:start position:0%
+actually more trained on uh graph
+ 
+
+00:14:08.480 --> 00:14:10.069 align:start position:0%
+actually more trained on uh graph
+processing<00:14:08.880><c> as</c><00:14:09.120><c> well.</c><00:14:09.360><c> So</c><00:14:09.519><c> they</c><00:14:09.760><c> can</c><00:14:09.839><c> actually</c>
+
+00:14:10.069 --> 00:14:10.079 align:start position:0%
+processing as well. So they can actually
+ 
+
+00:14:10.079 --> 00:14:11.910 align:start position:0%
+processing as well. So they can actually
+deal<00:14:10.320><c> with</c><00:14:10.480><c> these</c><00:14:11.120><c> uh</c><00:14:11.279><c> additional</c><00:14:11.680><c> pattern</c>
+
+00:14:11.910 --> 00:14:11.920 align:start position:0%
+deal with these uh additional pattern
+ 
+
+00:14:11.920 --> 00:14:14.629 align:start position:0%
+deal with these uh additional pattern
+structures<00:14:12.320><c> where</c><00:14:12.639><c> you</c><00:14:12.800><c> have</c><00:14:13.519><c> uh</c><00:14:13.920><c> node</c>
+
+00:14:14.629 --> 00:14:14.639 align:start position:0%
+structures where you have uh node
+ 
+
+00:14:14.639 --> 00:14:17.030 align:start position:0%
+structures where you have uh node
+relationship<00:14:15.360><c> node</c><00:14:15.680><c> patterns</c><00:14:16.399><c> uh</c><00:14:16.480><c> that</c><00:14:16.800><c> you</c>
+
+00:14:17.030 --> 00:14:17.040 align:start position:0%
+relationship node patterns uh that you
+ 
+
+00:14:17.040 --> 00:14:18.870 align:start position:0%
+relationship node patterns uh that you
+provide<00:14:17.360><c> as</c><00:14:17.600><c> additional</c><00:14:18.000><c> context</c><00:14:18.480><c> uh</c><00:14:18.560><c> to</c><00:14:18.720><c> the</c>
+
+00:14:18.870 --> 00:14:18.880 align:start position:0%
+provide as additional context uh to the
+ 
+
+00:14:18.880 --> 00:14:21.990 align:start position:0%
+provide as additional context uh to the
+LLM.<00:14:20.000><c> Um</c><00:14:20.880><c> and</c><00:14:21.040><c> then</c><00:14:21.279><c> of</c><00:14:21.440><c> course</c><00:14:21.600><c> I</c><00:14:21.760><c> mentioned</c>
+
+00:14:21.990 --> 00:14:22.000 align:start position:0%
+LLM. Um and then of course I mentioned
+ 
+
+00:14:22.000 --> 00:14:23.509 align:start position:0%
+LLM. Um and then of course I mentioned
+that<00:14:22.240><c> you</c><00:14:22.399><c> can</c><00:14:22.560><c> enrich</c><00:14:22.880><c> it</c><00:14:23.040><c> using</c><00:14:23.279><c> graph</c>
+
+00:14:23.509 --> 00:14:23.519 align:start position:0%
+that you can enrich it using graph
+ 
+
+00:14:23.519 --> 00:14:25.350 align:start position:0%
+that you can enrich it using graph
+algorithms.<00:14:24.000><c> So</c><00:14:24.160><c> basically</c><00:14:24.399><c> you</c><00:14:24.560><c> can</c><00:14:25.040><c> do</c>
+
+00:14:25.350 --> 00:14:25.360 align:start position:0%
+algorithms. So basically you can do
+ 
+
+00:14:25.360 --> 00:14:26.949 align:start position:0%
+algorithms. So basically you can do
+things<00:14:25.519><c> like</c><00:14:25.920><c> uh</c><00:14:26.079><c> clustering,</c><00:14:26.720><c> link</c>
+
+00:14:26.949 --> 00:14:26.959 align:start position:0%
+things like uh clustering, link
+ 
+
+00:14:26.959 --> 00:14:28.310 align:start position:0%
+things like uh clustering, link
+prediction,<00:14:27.360><c> pitch</c><00:14:27.680><c> rank</c><00:14:27.839><c> and</c><00:14:28.000><c> other</c><00:14:28.160><c> things</c>
+
+00:14:28.310 --> 00:14:28.320 align:start position:0%
+prediction, pitch rank and other things
+ 
+
+00:14:28.320 --> 00:14:31.030 align:start position:0%
+prediction, pitch rank and other things
+to<00:14:28.480><c> enrich</c><00:14:28.800><c> your</c><00:14:28.959><c> data.</c><00:14:30.079><c> Cool.</c><00:14:30.399><c> Let's</c><00:14:30.720><c> look</c><00:14:30.880><c> at</c>
+
+00:14:31.030 --> 00:14:31.040 align:start position:0%
+to enrich your data. Cool. Let's look at
+ 
+
+00:14:31.040 --> 00:14:33.110 align:start position:0%
+to enrich your data. Cool. Let's look at
+some<00:14:31.440><c> uh</c><00:14:31.600><c> practical</c><00:14:32.079><c> examples.</c><00:14:32.720><c> We</c><00:14:32.959><c> don't</c>
+
+00:14:33.110 --> 00:14:33.120 align:start position:0%
+some uh practical examples. We don't
+ 
+
+00:14:33.120 --> 00:14:35.509 align:start position:0%
+some uh practical examples. We don't
+have<00:14:33.279><c> too</c><00:14:33.440><c> much</c><00:14:33.600><c> time</c><00:14:33.839><c> left.</c><00:14:34.480><c> Uh</c><00:14:34.720><c> so</c><00:14:34.959><c> one</c><00:14:35.120><c> is</c>
+
+00:14:35.509 --> 00:14:35.519 align:start position:0%
+have too much time left. Uh so one is
+ 
+
+00:14:35.519 --> 00:14:36.629 align:start position:0%
+have too much time left. Uh so one is
+knowledge<00:14:35.839><c> of</c><00:14:36.000><c> construction</c><00:14:36.399><c> from</c>
+
+00:14:36.629 --> 00:14:36.639 align:start position:0%
+knowledge of construction from
+ 
+
+00:14:36.639 --> 00:14:38.550 align:start position:0%
+knowledge of construction from
+unstructured<00:14:37.199><c> sources.</c><00:14:37.920><c> So</c><00:14:38.160><c> there's</c><00:14:38.399><c> a</c>
+
+00:14:38.550 --> 00:14:38.560 align:start position:0%
+unstructured sources. So there's a
+ 
+
+00:14:38.560 --> 00:14:40.470 align:start position:0%
+unstructured sources. So there's a
+number<00:14:38.639><c> of</c><00:14:38.800><c> libraries.</c><00:14:39.360><c> Uh</c><00:14:39.680><c> you've</c><00:14:40.160><c> already</c>
+
+00:14:40.470 --> 00:14:40.480 align:start position:0%
+number of libraries. Uh you've already
+ 
+
+00:14:40.480 --> 00:14:43.430 align:start position:0%
+number of libraries. Uh you've already
+heard<00:14:40.800><c> some</c><00:14:41.279><c> uh</c><00:14:41.519><c> today</c><00:14:41.920><c> from</c><00:14:42.240><c> people</c><00:14:42.480><c> that</c><00:14:43.199><c> do</c>
+
+00:14:43.430 --> 00:14:43.440 align:start position:0%
+heard some uh today from people that do
+ 
+
+00:14:43.440 --> 00:14:46.389 align:start position:0%
+heard some uh today from people that do
+these<00:14:43.680><c> kind</c><00:14:43.839><c> of</c><00:14:43.920><c> things.</c><00:14:44.639><c> Um</c><00:14:45.760><c> so</c><00:14:46.079><c> one</c><00:14:46.240><c> thing</c>
+
+00:14:46.389 --> 00:14:46.399 align:start position:0%
+these kind of things. Um so one thing
+ 
+
+00:14:46.399 --> 00:14:48.629 align:start position:0%
+these kind of things. Um so one thing
+that<00:14:46.560><c> we</c><00:14:46.800><c> built</c><00:14:47.040><c> is</c><00:14:47.360><c> an</c><00:14:47.600><c> a</c><00:14:47.760><c> tool</c><00:14:48.079><c> that</c><00:14:48.320><c> allows</c>
+
+00:14:48.629 --> 00:14:48.639 align:start position:0%
+that we built is an a tool that allows
+ 
+
+00:14:48.639 --> 00:14:51.590 align:start position:0%
+that we built is an a tool that allows
+you<00:14:48.800><c> to</c><00:14:48.959><c> take</c><00:14:49.600><c> PDFs</c><00:14:50.480><c> uh</c><00:14:50.639><c> YouTube</c><00:14:51.360><c> uh</c>
+
+00:14:51.590 --> 00:14:51.600 align:start position:0%
+you to take PDFs uh YouTube uh
+ 
+
+00:14:51.600 --> 00:14:54.310 align:start position:0%
+you to take PDFs uh YouTube uh
+transcripts<00:14:52.560><c> uh</c><00:14:52.720><c> local</c><00:14:53.120><c> documents,</c><00:14:54.079><c> web</c>
+
+00:14:54.310 --> 00:14:54.320 align:start position:0%
+transcripts uh local documents, web
+ 
+
+00:14:54.320 --> 00:14:56.150 align:start position:0%
+transcripts uh local documents, web
+articles,<00:14:54.720><c> Wikipedia</c><00:14:55.279><c> articles</c><00:14:55.760><c> and</c><00:14:55.920><c> it</c>
+
+00:14:56.150 --> 00:14:56.160 align:start position:0%
+articles, Wikipedia articles and it
+ 
+
+00:14:56.160 --> 00:14:59.590 align:start position:0%
+articles, Wikipedia articles and it
+extracts<00:14:56.639><c> your</c><00:14:57.360><c> uh</c><00:14:57.600><c> data</c><00:14:57.839><c> into</c><00:14:58.320><c> an</c><00:14:58.800><c> graph.</c><00:14:59.360><c> And</c>
+
+00:14:59.590 --> 00:14:59.600 align:start position:0%
+extracts your uh data into an graph. And
+ 
+
+00:14:59.600 --> 00:15:03.030 align:start position:0%
+extracts your uh data into an graph. And
+let<00:14:59.760><c> me</c><00:14:59.920><c> just</c><00:15:00.079><c> switch</c><00:15:00.399><c> over</c><00:15:00.639><c> to</c><00:15:00.880><c> the</c><00:15:02.079><c> to</c><00:15:02.320><c> the</c><00:15:02.800><c> uh</c>
+
+00:15:03.030 --> 00:15:03.040 align:start position:0%
+let me just switch over to the to the uh
+ 
+
+00:15:03.040 --> 00:15:06.230 align:start position:0%
+let me just switch over to the to the uh
+demo<00:15:03.440><c> here.</c><00:15:04.240><c> Uh</c><00:15:04.560><c> so</c><00:15:04.720><c> this</c><00:15:04.959><c> is</c><00:15:05.040><c> the</c><00:15:05.680><c> this</c><00:15:05.920><c> is</c><00:15:06.000><c> the</c>
+
+00:15:06.230 --> 00:15:06.240 align:start position:0%
+demo here. Uh so this is the this is the
+ 
+
+00:15:06.240 --> 00:15:09.350 align:start position:0%
+demo here. Uh so this is the this is the
+tool.<00:15:07.199><c> uh</c><00:15:07.279><c> so</c><00:15:07.440><c> I</c><00:15:07.920><c> uh</c><00:15:08.079><c> uploaded</c><00:15:08.800><c> uh</c><00:15:09.040><c> information</c>
+
+00:15:09.350 --> 00:15:09.360 align:start position:0%
+tool. uh so I uh uploaded uh information
+ 
+
+00:15:09.360 --> 00:15:11.750 align:start position:0%
+tool. uh so I uh uploaded uh information
+from<00:15:09.680><c> different</c><00:15:10.000><c> Wikipedia</c><00:15:10.639><c> pages,</c><00:15:11.440><c> YouTube</c>
+
+00:15:11.750 --> 00:15:11.760 align:start position:0%
+from different Wikipedia pages, YouTube
+ 
+
+00:15:11.760 --> 00:15:13.590 align:start position:0%
+from different Wikipedia pages, YouTube
+videos,<00:15:12.240><c> articles</c><00:15:12.639><c> and</c><00:15:12.800><c> so</c><00:15:12.959><c> on.</c><00:15:13.120><c> And</c><00:15:13.279><c> here's</c>
+
+00:15:13.590 --> 00:15:13.600 align:start position:0%
+videos, articles and so on. And here's
+ 
+
+00:15:13.600 --> 00:15:16.310 align:start position:0%
+videos, articles and so on. And here's
+for<00:15:13.680><c> instance</c><00:15:14.079><c> an</c><00:15:14.720><c> Google</c><00:15:14.959><c> DeepMind</c><00:15:15.920><c> uh</c>
+
+00:15:16.310 --> 00:15:16.320 align:start position:0%
+for instance an Google DeepMind uh
+ 
+
+00:15:16.320 --> 00:15:17.990 align:start position:0%
+for instance an Google DeepMind uh
+extraction.<00:15:17.040><c> So</c><00:15:17.199><c> you</c><00:15:17.360><c> can</c><00:15:17.440><c> use</c><00:15:17.600><c> a</c><00:15:17.839><c> lot</c><00:15:17.920><c> of</c>
+
+00:15:17.990 --> 00:15:18.000 align:start position:0%
+extraction. So you can use a lot of
+ 
+
+00:15:18.000 --> 00:15:20.150 align:start position:0%
+extraction. So you can use a lot of
+different<00:15:18.240><c> LLMs</c><00:15:19.120><c> here.</c><00:15:19.519><c> And</c><00:15:19.680><c> then</c><00:15:19.839><c> you</c><00:15:20.000><c> can</c>
+
+00:15:20.150 --> 00:15:20.160 align:start position:0%
+different LLMs here. And then you can
+ 
+
+00:15:20.160 --> 00:15:22.629 align:start position:0%
+different LLMs here. And then you can
+also<00:15:20.399><c> if</c><00:15:20.560><c> you</c><00:15:20.720><c> want</c><00:15:20.800><c> to</c><00:15:21.360><c> in</c><00:15:21.760><c> graph</c><00:15:22.000><c> enhancement</c>
+
+00:15:22.629 --> 00:15:22.639 align:start position:0%
+also if you want to in graph enhancement
+ 
+
+00:15:22.639 --> 00:15:24.710 align:start position:0%
+also if you want to in graph enhancement
+provide<00:15:23.360><c> graph</c><00:15:23.680><c> schema</c><00:15:24.000><c> as</c><00:15:24.160><c> well.</c><00:15:24.399><c> So</c><00:15:24.480><c> you</c><00:15:24.560><c> can</c>
+
+00:15:24.710 --> 00:15:24.720 align:start position:0%
+provide graph schema as well. So you can
+ 
+
+00:15:24.720 --> 00:15:28.550 align:start position:0%
+provide graph schema as well. So you can
+for<00:15:24.800><c> instance</c><00:15:25.120><c> say</c><00:15:25.760><c> a</c><00:15:26.000><c> person</c><00:15:26.959><c> uh</c><00:15:27.360><c> works</c><00:15:27.680><c> for</c>
+
+00:15:28.550 --> 00:15:28.560 align:start position:0%
+for instance say a person uh works for
+ 
+
+00:15:28.560 --> 00:15:32.150 align:start position:0%
+for instance say a person uh works for
+uh<00:15:28.720><c> a</c><00:15:29.040><c> company</c><00:15:30.240><c> and</c><00:15:30.639><c> uh</c><00:15:30.800><c> add</c><00:15:31.040><c> these</c><00:15:31.360><c> patterns</c>
+
+00:15:32.150 --> 00:15:32.160 align:start position:0%
+uh a company and uh add these patterns
+ 
+
+00:15:32.160 --> 00:15:34.790 align:start position:0%
+uh a company and uh add these patterns
+uh<00:15:32.399><c> to</c><00:15:32.639><c> your</c><00:15:33.279><c> um</c><00:15:33.760><c> to</c><00:15:33.920><c> your</c><00:15:34.160><c> schema</c><00:15:34.480><c> and</c><00:15:34.639><c> then</c>
+
+00:15:34.790 --> 00:15:34.800 align:start position:0%
+uh to your um to your schema and then
+ 
+
+00:15:34.800 --> 00:15:36.949 align:start position:0%
+uh to your um to your schema and then
+the<00:15:34.959><c> LLM</c><00:15:35.440><c> is</c><00:15:35.600><c> using</c><00:15:35.839><c> this</c><00:15:36.079><c> information</c><00:15:36.639><c> to</c>
+
+00:15:36.949 --> 00:15:36.959 align:start position:0%
+the LLM is using this information to
+ 
+
+00:15:36.959 --> 00:15:39.110 align:start position:0%
+the LLM is using this information to
+drive<00:15:37.199><c> the</c><00:15:37.440><c> extraction</c><00:15:38.160><c> uh</c><00:15:38.320><c> as</c><00:15:38.560><c> well.</c><00:15:38.800><c> And</c><00:15:38.959><c> so</c>
+
+00:15:39.110 --> 00:15:39.120 align:start position:0%
+drive the extraction uh as well. And so
+ 
+
+00:15:39.120 --> 00:15:41.030 align:start position:0%
+drive the extraction uh as well. And so
+if<00:15:39.279><c> you</c><00:15:39.360><c> look</c><00:15:39.440><c> at</c><00:15:39.600><c> the</c><00:15:40.160><c> data</c><00:15:40.480><c> that</c><00:15:40.720><c> has</c><00:15:40.880><c> been</c>
+
+00:15:41.030 --> 00:15:41.040 align:start position:0%
+if you look at the data that has been
+ 
+
+00:15:41.040 --> 00:15:45.110 align:start position:0%
+if you look at the data that has been
+extracted<00:15:41.839><c> from</c><00:15:43.279><c> uh</c><00:15:43.839><c> deep</c><00:15:44.160><c> mind</c><00:15:44.560><c> that</c><00:15:44.720><c> is</c><00:15:44.959><c> this</c>
+
+00:15:45.110 --> 00:15:45.120 align:start position:0%
+extracted from uh deep mind that is this
+ 
+
+00:15:45.120 --> 00:15:48.389 align:start position:0%
+extracted from uh deep mind that is this
+one<00:15:45.360><c> here</c><00:15:46.000><c> we</c><00:15:46.240><c> can</c><00:15:46.399><c> actually</c><00:15:46.720><c> see</c>
+
+00:15:48.389 --> 00:15:48.399 align:start position:0%
+one here we can actually see
+ 
+
+00:15:48.399 --> 00:15:50.870 align:start position:0%
+one here we can actually see
+from<00:15:48.560><c> the</c><00:15:48.720><c> Wikipedia</c><00:15:49.199><c> article</c><00:15:50.320><c> um</c><00:15:50.639><c> two</c>
+
+00:15:50.870 --> 00:15:50.880 align:start position:0%
+from the Wikipedia article um two
+ 
+
+00:15:50.880 --> 00:15:52.790 align:start position:0%
+from the Wikipedia article um two
+aspects.<00:15:51.519><c> one</c><00:15:51.680><c> is</c><00:15:51.839><c> the</c><00:15:52.000><c> document</c><00:15:52.399><c> with</c><00:15:52.639><c> the</c>
+
+00:15:52.790 --> 00:15:52.800 align:start position:0%
+aspects. one is the document with the
+ 
+
+00:15:52.800 --> 00:15:54.949 align:start position:0%
+aspects. one is the document with the
+chunks<00:15:53.199><c> which</c><00:15:53.440><c> is</c><00:15:53.600><c> this</c><00:15:54.079><c> uh</c><00:15:54.240><c> part</c><00:15:54.480><c> of</c><00:15:54.639><c> the</c><00:15:54.800><c> of</c>
+
+00:15:54.949 --> 00:15:54.959 align:start position:0%
+chunks which is this uh part of the of
+ 
+
+00:15:54.959 --> 00:15:57.030 align:start position:0%
+chunks which is this uh part of the of
+the<00:15:55.120><c> graph</c><00:15:55.440><c> right</c><00:15:56.000><c> and</c><00:15:56.240><c> then</c><00:15:56.480><c> the</c><00:15:56.639><c> second</c><00:15:56.880><c> part</c>
+
+00:15:57.030 --> 00:15:57.040 align:start position:0%
+the graph right and then the second part
+ 
+
+00:15:57.040 --> 00:15:58.710 align:start position:0%
+the graph right and then the second part
+is<00:15:57.199><c> the</c><00:15:57.360><c> entities</c><00:15:57.680><c> that</c><00:15:57.920><c> have</c><00:15:58.079><c> been</c><00:15:58.240><c> extracted</c>
+
+00:15:58.710 --> 00:15:58.720 align:start position:0%
+is the entities that have been extracted
+ 
+
+00:15:58.720 --> 00:16:01.350 align:start position:0%
+is the entities that have been extracted
+from<00:15:59.120><c> from</c><00:15:59.440><c> this</c><00:15:59.839><c> uh</c><00:16:00.000><c> article</c><00:16:00.399><c> as</c><00:16:00.639><c> well.</c><00:16:01.199><c> So</c>
+
+00:16:01.350 --> 00:16:01.360 align:start position:0%
+from from this uh article as well. So
+ 
+
+00:16:01.360 --> 00:16:03.509 align:start position:0%
+from from this uh article as well. So
+you<00:16:01.600><c> see</c><00:16:01.759><c> actually</c><00:16:02.079><c> the</c><00:16:02.880><c> connected</c><00:16:03.279><c> knowledge</c>
+
+00:16:03.509 --> 00:16:03.519 align:start position:0%
+you see actually the connected knowledge
+ 
+
+00:16:03.519 --> 00:16:05.189 align:start position:0%
+you see actually the connected knowledge
+graph<00:16:03.759><c> of</c><00:16:03.920><c> entities</c><00:16:04.399><c> which</c><00:16:04.560><c> are</c><00:16:04.800><c> companies,</c>
+
+00:16:05.189 --> 00:16:05.199 align:start position:0%
+graph of entities which are companies,
+ 
+
+00:16:05.199 --> 00:16:06.870 align:start position:0%
+graph of entities which are companies,
+locations,<00:16:05.680><c> people</c><00:16:05.920><c> and</c><00:16:06.160><c> technologies.</c><00:16:06.720><c> So</c>
+
+00:16:06.870 --> 00:16:06.880 align:start position:0%
+locations, people and technologies. So
+ 
+
+00:16:06.880 --> 00:16:10.310 align:start position:0%
+locations, people and technologies. So
+it<00:16:07.040><c> followed</c><00:16:07.440><c> our</c><00:16:08.240><c> um</c><00:16:09.360><c> followed</c><00:16:09.759><c> our</c><00:16:09.920><c> schema</c>
+
+00:16:10.310 --> 00:16:10.320 align:start position:0%
+it followed our um followed our schema
+ 
+
+00:16:10.320 --> 00:16:12.629 align:start position:0%
+it followed our um followed our schema
+to<00:16:10.480><c> extract</c><00:16:10.800><c> this</c><00:16:11.360><c> and</c><00:16:11.519><c> then</c><00:16:11.680><c> if</c><00:16:11.920><c> I</c><00:16:12.240><c> want</c><00:16:12.399><c> to</c>
+
+00:16:12.629 --> 00:16:12.639 align:start position:0%
+to extract this and then if I want to
+ 
+
+00:16:12.639 --> 00:16:14.710 align:start position:0%
+to extract this and then if I want to
+run<00:16:12.959><c> graph</c><00:16:13.279><c> rag</c><00:16:13.680><c> you</c><00:16:13.839><c> have</c><00:16:14.000><c> here</c><00:16:14.160><c> a</c><00:16:14.480><c> number</c><00:16:14.560><c> of</c>
+
+00:16:14.710 --> 00:16:14.720 align:start position:0%
+run graph rag you have here a number of
+ 
+
+00:16:14.720 --> 00:16:16.470 align:start position:0%
+run graph rag you have here a number of
+different<00:16:15.040><c> retrievers.</c><00:16:15.519><c> So</c><00:16:15.680><c> we</c><00:16:15.839><c> have</c><00:16:16.160><c> vector</c>
+
+00:16:16.470 --> 00:16:16.480 align:start position:0%
+different retrievers. So we have vector
+ 
+
+00:16:16.480 --> 00:16:18.710 align:start position:0%
+different retrievers. So we have vector
+retriever,<00:16:16.959><c> graph</c><00:16:17.120><c> and</c><00:16:17.279><c> full</c><00:16:17.519><c> text,</c><00:16:18.240><c> entity</c>
+
+00:16:18.710 --> 00:16:18.720 align:start position:0%
+retriever, graph and full text, entity
+ 
+
+00:16:18.720 --> 00:16:20.629 align:start position:0%
+retriever, graph and full text, entity
+retrievers<00:16:19.199><c> and</c><00:16:19.360><c> others</c><00:16:20.000><c> uh</c><00:16:20.079><c> that</c><00:16:20.320><c> you</c><00:16:20.480><c> can</c>
+
+00:16:20.629 --> 00:16:20.639 align:start position:0%
+retrievers and others uh that you can
+ 
+
+00:16:20.639 --> 00:16:22.790 align:start position:0%
+retrievers and others uh that you can
+select.<00:16:21.360><c> Uh</c><00:16:21.600><c> all</c><00:16:21.759><c> of</c><00:16:21.920><c> this</c><00:16:22.160><c> is</c><00:16:22.320><c> also</c><00:16:22.480><c> an</c><00:16:22.639><c> open</c>
+
+00:16:22.790 --> 00:16:22.800 align:start position:0%
+select. Uh all of this is also an open
+ 
+
+00:16:22.800 --> 00:16:24.150 align:start position:0%
+select. Uh all of this is also an open
+source<00:16:23.040><c> project.</c><00:16:23.360><c> So</c><00:16:23.440><c> you</c><00:16:23.600><c> can</c><00:16:23.759><c> just</c><00:16:23.839><c> go</c><00:16:24.000><c> to</c>
+
+00:16:24.150 --> 00:16:24.160 align:start position:0%
+source project. So you can just go to
+ 
+
+00:16:24.160 --> 00:16:26.310 align:start position:0%
+source project. So you can just go to
+github<00:16:24.560><c> and</c><00:16:24.880><c> have</c><00:16:24.959><c> a</c><00:16:25.120><c> look</c><00:16:25.279><c> at</c><00:16:25.360><c> this.</c><00:16:25.759><c> And</c><00:16:25.920><c> so</c><00:16:26.079><c> I</c>
+
+00:16:26.310 --> 00:16:26.320 align:start position:0%
+github and have a look at this. And so I
+ 
+
+00:16:26.320 --> 00:16:28.069 align:start position:0%
+github and have a look at this. And so I
+just<00:16:26.480><c> ran</c><00:16:26.720><c> this</c><00:16:26.959><c> before</c><00:16:27.199><c> because</c><00:16:27.519><c> internet</c><00:16:27.920><c> is</c>
+
+00:16:28.069 --> 00:16:28.079 align:start position:0%
+just ran this before because internet is
+ 
+
+00:16:28.079 --> 00:16:30.069 align:start position:0%
+just ran this before because internet is
+not<00:16:28.240><c> so</c><00:16:28.399><c> reliable</c><00:16:28.800><c> here.</c><00:16:29.360><c> So</c><00:16:29.519><c> what</c><00:16:29.680><c> has</c><00:16:29.920><c> deep</c>
+
+00:16:30.069 --> 00:16:30.079 align:start position:0%
+not so reliable here. So what has deep
+ 
+
+00:16:30.079 --> 00:16:31.749 align:start position:0%
+not so reliable here. So what has deep
+mind<00:16:30.320><c> worked</c><00:16:30.480><c> on</c><00:16:30.639><c> and</c><00:16:30.800><c> I</c><00:16:30.959><c> get</c><00:16:31.040><c> an</c><00:16:31.279><c> detailed</c>
+
+00:16:31.749 --> 00:16:31.759 align:start position:0%
+mind worked on and I get an detailed
+ 
+
+00:16:31.759 --> 00:16:34.629 align:start position:0%
+mind worked on and I get an detailed
+explanation.<00:16:32.720><c> And</c><00:16:32.880><c> then</c><00:16:33.120><c> if</c><00:16:33.360><c> I</c><00:16:33.600><c> want</c><00:16:33.759><c> to</c><00:16:34.160><c> I</c><00:16:34.399><c> can</c>
+
+00:16:34.629 --> 00:16:34.639 align:start position:0%
+explanation. And then if I want to I can
+ 
+
+00:16:34.639 --> 00:16:37.110 align:start position:0%
+explanation. And then if I want to I can
+here<00:16:35.360><c> look</c><00:16:35.600><c> at</c><00:16:35.920><c> uh</c><00:16:36.079><c> details.</c><00:16:36.480><c> So</c><00:16:36.639><c> it</c><00:16:36.800><c> shows</c><00:16:36.959><c> me</c>
+
+00:16:37.110 --> 00:16:37.120 align:start position:0%
+here look at uh details. So it shows me
+ 
+
+00:16:37.120 --> 00:16:39.990 align:start position:0%
+here look at uh details. So it shows me
+which<00:16:37.360><c> sources</c><00:16:37.759><c> did</c><00:16:37.920><c> it</c><00:16:38.079><c> use</c><00:16:38.639><c> alphafly</c><00:16:39.759><c> mind</c>
+
+00:16:39.990 --> 00:16:40.000 align:start position:0%
+which sources did it use alphafly mind
+ 
+
+00:16:40.000 --> 00:16:42.310 align:start position:0%
+which sources did it use alphafly mind
+Wikipedia<00:16:40.800><c> another</c><00:16:41.120><c> PDF.</c><00:16:41.759><c> I</c><00:16:42.000><c> see</c><00:16:42.160><c> which</c>
+
+00:16:42.310 --> 00:16:42.320 align:start position:0%
+Wikipedia another PDF. I see which
+ 
+
+00:16:42.320 --> 00:16:43.910 align:start position:0%
+Wikipedia another PDF. I see which
+chunks<00:16:42.720><c> have</c><00:16:42.880><c> been</c><00:16:42.959><c> used</c><00:16:43.199><c> which</c><00:16:43.440><c> is</c><00:16:43.600><c> basically</c>
+
+00:16:43.910 --> 00:16:43.920 align:start position:0%
+chunks have been used which is basically
+ 
+
+00:16:43.920 --> 00:16:45.590 align:start position:0%
+chunks have been used which is basically
+the<00:16:44.079><c> full</c><00:16:44.240><c> text</c><00:16:44.560><c> and</c><00:16:44.639><c> hybrid</c><00:16:44.959><c> search.</c><00:16:45.519><c> But</c>
+
+00:16:45.590 --> 00:16:45.600 align:start position:0%
+the full text and hybrid search. But
+ 
+
+00:16:45.600 --> 00:16:47.030 align:start position:0%
+the full text and hybrid search. But
+then<00:16:45.680><c> I</c><00:16:45.839><c> also</c><00:16:46.079><c> see</c><00:16:46.160><c> which</c><00:16:46.399><c> entities</c><00:16:46.720><c> have</c><00:16:46.880><c> been</c>
+
+00:16:47.030 --> 00:16:47.040 align:start position:0%
+then I also see which entities have been
+ 
+
+00:16:47.040 --> 00:16:48.470 align:start position:0%
+then I also see which entities have been
+used<00:16:47.199><c> from</c><00:16:47.279><c> the</c><00:16:47.440><c> graph.</c><00:16:47.680><c> So</c><00:16:47.839><c> I</c><00:16:48.000><c> can</c><00:16:48.079><c> actually</c>
+
+00:16:48.470 --> 00:16:48.480 align:start position:0%
+used from the graph. So I can actually
+ 
+
+00:16:48.480 --> 00:16:50.230 align:start position:0%
+used from the graph. So I can actually
+really<00:16:48.800><c> see</c><00:16:49.120><c> from</c><00:16:49.360><c> an</c><00:16:49.600><c> explanability</c>
+
+00:16:50.230 --> 00:16:50.240 align:start position:0%
+really see from an explanability
+ 
+
+00:16:50.240 --> 00:16:52.069 align:start position:0%
+really see from an explanability
+perspective<00:16:51.040><c> these</c><00:16:51.279><c> are</c><00:16:51.360><c> the</c><00:16:51.519><c> entities</c><00:16:51.920><c> that</c>
+
+00:16:52.069 --> 00:16:52.079 align:start position:0%
+perspective these are the entities that
+ 
+
+00:16:52.079 --> 00:16:53.990 align:start position:0%
+perspective these are the entities that
+have<00:16:52.320><c> been</c><00:16:52.480><c> retrieved</c><00:16:53.120><c> by</c><00:16:53.279><c> the</c><00:16:53.440><c> graph</c>
+
+00:16:53.990 --> 00:16:54.000 align:start position:0%
+have been retrieved by the graph
+ 
+
+00:16:54.000 --> 00:16:57.030 align:start position:0%
+have been retrieved by the graph
+retriever<00:16:54.720><c> passed</c><00:16:54.959><c> to</c><00:16:55.120><c> the</c><00:16:55.279><c> LLM</c><00:16:56.160><c> in</c><00:16:56.399><c> addition</c>
+
+00:16:57.030 --> 00:16:57.040 align:start position:0%
+retriever passed to the LLM in addition
+ 
+
+00:16:57.040 --> 00:16:58.710 align:start position:0%
+retriever passed to the LLM in addition
+uh<00:16:57.199><c> to</c><00:16:57.360><c> the</c><00:16:57.600><c> text</c><00:16:57.839><c> that's</c><00:16:58.079><c> connected</c><00:16:58.320><c> to</c><00:16:58.480><c> these</c>
+
+00:16:58.710 --> 00:16:58.720 align:start position:0%
+uh to the text that's connected to these
+ 
+
+00:16:58.720 --> 00:17:01.030 align:start position:0%
+uh to the text that's connected to these
+entities.<00:16:59.120><c> So</c><00:16:59.199><c> it</c><00:16:59.360><c> gets</c><00:16:59.600><c> an</c><00:16:59.920><c> richer</c><00:17:00.240><c> response</c>
+
+00:17:01.030 --> 00:17:01.040 align:start position:0%
+entities. So it gets an richer response
+ 
+
+00:17:01.040 --> 00:17:03.829 align:start position:0%
+entities. So it gets an richer response
+uh<00:17:01.199><c> as</c><00:17:01.440><c> such</c><00:17:01.839><c> and</c><00:17:02.079><c> then</c><00:17:02.160><c> you</c><00:17:02.320><c> can</c><00:17:02.480><c> also</c><00:17:02.639><c> do</c><00:17:02.800><c> eval</c>
+
+00:17:03.829 --> 00:17:03.839 align:start position:0%
+uh as such and then you can also do eval
+ 
+
+00:17:03.839 --> 00:17:06.789 align:start position:0%
+uh as such and then you can also do eval
+with<00:17:03.920><c> with</c><00:17:04.240><c> raas</c><00:17:04.799><c> as</c><00:17:05.039><c> well.</c>
+
+00:17:06.789 --> 00:17:06.799 align:start position:0%
+with with raas as well.
+ 
+
+00:17:06.799 --> 00:17:09.590 align:start position:0%
+with with raas as well.
+Um<00:17:07.679><c> so</c><00:17:07.839><c> while</c><00:17:08.079><c> I'm</c><00:17:08.240><c> on</c><00:17:08.400><c> the</c><00:17:08.640><c> screen</c><00:17:09.120><c> uh</c><00:17:09.280><c> let</c><00:17:09.520><c> me</c>
+
+00:17:09.590 --> 00:17:09.600 align:start position:0%
+Um so while I'm on the screen uh let me
+ 
+
+00:17:09.600 --> 00:17:11.429 align:start position:0%
+Um so while I'm on the screen uh let me
+just<00:17:09.919><c> show</c><00:17:10.079><c> you</c><00:17:10.319><c> another</c><00:17:10.640><c> thing</c><00:17:10.959><c> uh</c><00:17:11.039><c> that</c><00:17:11.280><c> we</c>
+
+00:17:11.429 --> 00:17:11.439 align:start position:0%
+just show you another thing uh that we
+ 
+
+00:17:11.439 --> 00:17:13.029 align:start position:0%
+just show you another thing uh that we
+worked<00:17:11.679><c> on</c><00:17:12.240><c> which</c><00:17:12.480><c> is</c><00:17:12.640><c> more</c><00:17:12.799><c> like</c><00:17:12.959><c> an</c>
+
+00:17:13.029 --> 00:17:13.039 align:start position:0%
+worked on which is more like an
+ 
+
+00:17:13.039 --> 00:17:14.630 align:start position:0%
+worked on which is more like an
+energetic<00:17:13.600><c> approach</c><00:17:13.919><c> where</c><00:17:14.160><c> you</c><00:17:14.319><c> basically</c>
+
+00:17:14.630 --> 00:17:14.640 align:start position:0%
+energetic approach where you basically
+ 
+
+00:17:14.640 --> 00:17:18.150 align:start position:0%
+energetic approach where you basically
+put<00:17:14.880><c> these</c><00:17:15.360><c> individual</c><00:17:16.079><c> retrievers</c><00:17:16.880><c> into</c><00:17:17.919><c> an</c>
+
+00:17:18.150 --> 00:17:18.160 align:start position:0%
+put these individual retrievers into an
+ 
+
+00:17:18.160 --> 00:17:19.429 align:start position:0%
+put these individual retrievers into an
+an<00:17:18.400><c> configuration</c><00:17:18.959><c> where</c><00:17:19.120><c> you</c><00:17:19.280><c> have</c>
+
+00:17:19.429 --> 00:17:19.439 align:start position:0%
+an configuration where you have
+ 
+
+00:17:19.439 --> 00:17:22.390 align:start position:0%
+an configuration where you have
+basically<00:17:20.480><c> domain</c><00:17:20.880><c> specific</c><00:17:21.280><c> retrievers</c><00:17:22.240><c> uh</c>
+
+00:17:22.390 --> 00:17:22.400 align:start position:0%
+basically domain specific retrievers uh
+ 
+
+00:17:22.400 --> 00:17:25.909 align:start position:0%
+basically domain specific retrievers uh
+that<00:17:22.880><c> uh</c><00:17:23.120><c> are</c><00:17:23.760><c> um</c><00:17:24.559><c> running</c><00:17:24.959><c> individual</c><00:17:25.520><c> cypher</c>
+
+00:17:25.909 --> 00:17:25.919 align:start position:0%
+that uh are um running individual cypher
+ 
+
+00:17:25.919 --> 00:17:27.909 align:start position:0%
+that uh are um running individual cypher
+queries.<00:17:26.240><c> So</c><00:17:26.400><c> for</c><00:17:26.480><c> instance,</c><00:17:26.799><c> if</c><00:17:26.959><c> you</c><00:17:27.120><c> look</c><00:17:27.280><c> at</c>
+
+00:17:27.909 --> 00:17:27.919 align:start position:0%
+queries. So for instance, if you look at
+ 
+
+00:17:27.919 --> 00:17:31.270 align:start position:0%
+queries. So for instance, if you look at
+uh<00:17:28.240><c> let's</c><00:17:28.559><c> say</c><00:17:29.360><c> this</c><00:17:29.679><c> one,</c><00:17:30.240><c> it</c><00:17:30.480><c> has</c><00:17:30.880><c> uh</c><00:17:30.960><c> the</c>
+
+00:17:31.270 --> 00:17:31.280 align:start position:0%
+uh let's say this one, it has uh the
+ 
+
+00:17:31.280 --> 00:17:33.590 align:start position:0%
+uh let's say this one, it has uh the
+query<00:17:31.600><c> here</c><00:17:32.320><c> and</c><00:17:32.640><c> basically</c><00:17:32.960><c> a</c><00:17:33.120><c> tool</c><00:17:33.360><c> with</c>
+
+00:17:33.590 --> 00:17:33.600 align:start position:0%
+query here and basically a tool with
+ 
+
+00:17:33.600 --> 00:17:35.909 align:start position:0%
+query here and basically a tool with
+inputs<00:17:34.000><c> and</c><00:17:34.240><c> a</c><00:17:34.480><c> description</c><00:17:35.200><c> and</c><00:17:35.360><c> then</c><00:17:35.600><c> we</c><00:17:35.760><c> can</c>
+
+00:17:35.909 --> 00:17:35.919 align:start position:0%
+inputs and a description and then we can
+ 
+
+00:17:35.919 --> 00:17:38.870 align:start position:0%
+inputs and a description and then we can
+have<00:17:36.000><c> an</c><00:17:36.160><c> agentic</c><00:17:37.120><c> um</c><00:17:37.840><c> loop</c><00:17:38.320><c> using</c><00:17:38.640><c> these</c>
+
+00:17:38.870 --> 00:17:38.880 align:start position:0%
+have an agentic um loop using these
+ 
+
+00:17:38.880 --> 00:17:40.789 align:start position:0%
+have an agentic um loop using these
+tools<00:17:39.200><c> basically</c><00:17:39.520><c> doing</c><00:17:40.000><c> uh</c><00:17:40.240><c> graphic</c><00:17:40.640><c> with</c>
+
+00:17:40.789 --> 00:17:40.799 align:start position:0%
+tools basically doing uh graphic with
+ 
+
+00:17:40.799 --> 00:17:42.470 align:start position:0%
+tools basically doing uh graphic with
+each<00:17:40.960><c> individual</c><00:17:41.440><c> tool</c><00:17:42.000><c> taking</c><00:17:42.400><c> the</c>
+
+00:17:42.470 --> 00:17:42.480 align:start position:0%
+each individual tool taking the
+ 
+
+00:17:42.480 --> 00:17:45.270 align:start position:0%
+each individual tool taking the
+responses<00:17:43.039><c> and</c><00:17:43.200><c> then</c><00:17:43.440><c> doing</c><00:17:44.000><c> uh</c><00:17:44.320><c> deeper</c><00:17:45.120><c> uh</c>
+
+00:17:45.270 --> 00:17:45.280 align:start position:0%
+responses and then doing uh deeper uh
+ 
+
+00:17:45.280 --> 00:17:47.750 align:start position:0%
+responses and then doing uh deeper uh
+tool<00:17:45.679><c> calls.</c><00:17:46.160><c> Uh</c><00:17:46.400><c> I'll</c><00:17:46.640><c> show</c><00:17:46.799><c> you</c><00:17:47.120><c> an</c><00:17:47.440><c> deeper</c>
+
+00:17:47.750 --> 00:17:47.760 align:start position:0%
+tool calls. Uh I'll show you an deeper
+ 
+
+00:17:47.760 --> 00:17:50.310 align:start position:0%
+tool calls. Uh I'll show you an deeper
+example<00:17:48.080><c> in</c><00:17:48.320><c> a</c><00:17:48.640><c> in</c><00:17:48.880><c> a</c><00:17:49.120><c> minute.</c><00:17:49.679><c> So</c><00:17:49.919><c> this</c><00:17:50.160><c> is</c>
+
+00:17:50.310 --> 00:17:50.320 align:start position:0%
+example in a in a minute. So this is
+ 
+
+00:17:50.320 --> 00:17:52.549 align:start position:0%
+example in a in a minute. So this is
+basically<00:17:50.799><c> what</c><00:17:51.039><c> I</c><00:17:51.280><c> showed</c><00:17:51.440><c> you.</c><00:17:52.000><c> This</c><00:17:52.160><c> is</c><00:17:52.320><c> all</c>
+
+00:17:52.549 --> 00:17:52.559 align:start position:0%
+basically what I showed you. This is all
+ 
+
+00:17:52.559 --> 00:17:54.870 align:start position:0%
+basically what I showed you. This is all
+available<00:17:52.960><c> as</c><00:17:53.280><c> uh</c><00:17:53.440><c> open</c><00:17:53.760><c> source</c><00:17:54.320><c> libraries.</c>
+
+00:17:54.870 --> 00:17:54.880 align:start position:0%
+available as uh open source libraries.
+ 
+
+00:17:54.880 --> 00:17:56.789 align:start position:0%
+available as uh open source libraries.
+You<00:17:55.120><c> can</c><00:17:55.200><c> use</c><00:17:55.280><c> it</c><00:17:55.440><c> yourself</c><00:17:55.840><c> in</c><00:17:56.240><c> from</c><00:17:56.400><c> Python</c>
+
+00:17:56.789 --> 00:17:56.799 align:start position:0%
+You can use it yourself in from Python
+ 
+
+00:17:56.799 --> 00:17:59.590 align:start position:0%
+You can use it yourself in from Python
+as<00:17:56.960><c> well.</c><00:17:57.520><c> Uh</c><00:17:57.840><c> or</c><00:17:58.000><c> it</c><00:17:58.160><c> showed</c><00:17:58.960><c> neo</c><00:17:59.200><c> converse</c>
+
+00:17:59.590 --> 00:17:59.600 align:start position:0%
+as well. Uh or it showed neo converse
+ 
+
+00:17:59.600 --> 00:18:01.590 align:start position:0%
+as well. Uh or it showed neo converse
+which<00:17:59.840><c> is</c><00:18:00.000><c> also</c><00:18:00.160><c> able</c><00:18:00.400><c> not</c><00:18:00.720><c> to</c><00:18:00.960><c> just</c><00:18:01.200><c> output</c>
+
+00:18:01.590 --> 00:18:01.600 align:start position:0%
+which is also able not to just output
+ 
+
+00:18:01.600 --> 00:18:03.830 align:start position:0%
+which is also able not to just output
+text<00:18:01.840><c> but</c><00:18:02.080><c> also</c><00:18:02.799><c> uh</c><00:18:02.960><c> charts</c><00:18:03.280><c> and</c><00:18:03.520><c> other</c>
+
+00:18:03.830 --> 00:18:03.840 align:start position:0%
+text but also uh charts and other
+ 
+
+00:18:03.840 --> 00:18:05.830 align:start position:0%
+text but also uh charts and other
+visualizations<00:18:04.720><c> uh</c><00:18:04.880><c> networks</c><00:18:05.600><c> uh</c>
+
+00:18:05.830 --> 00:18:05.840 align:start position:0%
+visualizations uh networks uh
+ 
+
+00:18:05.840 --> 00:18:07.830 align:start position:0%
+visualizations uh networks uh
+visualizations<00:18:06.400><c> as</c><00:18:06.640><c> well.</c>
+
+00:18:07.830 --> 00:18:07.840 align:start position:0%
+visualizations as well.
+ 
+
+00:18:07.840 --> 00:18:09.029 align:start position:0%
+visualizations as well.
+And<00:18:08.080><c> what's</c><00:18:08.320><c> interesting</c><00:18:08.640><c> here</c><00:18:08.799><c> in</c><00:18:08.960><c> the</c>
+
+00:18:09.029 --> 00:18:09.039 align:start position:0%
+And what's interesting here in the
+ 
+
+00:18:09.039 --> 00:18:11.350 align:start position:0%
+And what's interesting here in the
+agentic<00:18:09.520><c> approach,</c><00:18:09.840><c> you</c><00:18:10.080><c> don't</c><00:18:10.480><c> just</c><00:18:10.720><c> use</c>
+
+00:18:11.350 --> 00:18:11.360 align:start position:0%
+agentic approach, you don't just use
+ 
+
+00:18:11.360 --> 00:18:13.590 align:start position:0%
+agentic approach, you don't just use
+vector<00:18:11.760><c> search</c><00:18:12.080><c> to</c><00:18:12.240><c> retrieve</c><00:18:12.559><c> your</c><00:18:12.720><c> data,</c><00:18:13.360><c> but</c>
+
+00:18:13.590 --> 00:18:13.600 align:start position:0%
+vector search to retrieve your data, but
+ 
+
+00:18:13.600 --> 00:18:14.870 align:start position:0%
+vector search to retrieve your data, but
+you<00:18:13.760><c> basically</c><00:18:14.000><c> break</c><00:18:14.240><c> down</c><00:18:14.400><c> the</c><00:18:14.559><c> user</c>
+
+00:18:14.870 --> 00:18:14.880 align:start position:0%
+you basically break down the user
+ 
+
+00:18:14.880 --> 00:18:16.870 align:start position:0%
+you basically break down the user
+question<00:18:15.200><c> into</c><00:18:15.440><c> individual</c><00:18:15.919><c> tasks</c><00:18:16.640><c> and</c>
+
+00:18:16.870 --> 00:18:16.880 align:start position:0%
+question into individual tasks and
+ 
+
+00:18:16.880 --> 00:18:18.390 align:start position:0%
+question into individual tasks and
+extract<00:18:17.360><c> parameters</c><00:18:17.760><c> and</c><00:18:18.000><c> run</c><00:18:18.160><c> these</c>
+
+00:18:18.390 --> 00:18:18.400 align:start position:0%
+extract parameters and run these
+ 
+
+00:18:18.400 --> 00:18:21.590 align:start position:0%
+extract parameters and run these
+individual<00:18:18.880><c> tools.</c><00:18:19.679><c> Um,</c><00:18:20.400><c> which</c><00:18:20.720><c> then</c><00:18:21.200><c> are</c>
+
+00:18:21.590 --> 00:18:21.600 align:start position:0%
+individual tools. Um, which then are
+ 
+
+00:18:21.600 --> 00:18:23.430 align:start position:0%
+individual tools. Um, which then are
+either<00:18:21.840><c> run</c><00:18:22.000><c> in</c><00:18:22.240><c> sequence</c><00:18:22.480><c> or</c><00:18:22.640><c> in</c><00:18:22.720><c> a</c><00:18:22.880><c> loop</c><00:18:23.039><c> to</c>
+
+00:18:23.430 --> 00:18:23.440 align:start position:0%
+either run in sequence or in a loop to
+ 
+
+00:18:23.440 --> 00:18:24.950 align:start position:0%
+either run in sequence or in a loop to
+uh<00:18:23.600><c> return</c><00:18:23.919><c> the</c><00:18:24.080><c> data.</c><00:18:24.320><c> And</c><00:18:24.480><c> then</c><00:18:24.640><c> you</c><00:18:24.799><c> get</c>
+
+00:18:24.950 --> 00:18:24.960 align:start position:0%
+uh return the data. And then you get
+ 
+
+00:18:24.960 --> 00:18:28.390 align:start position:0%
+uh return the data. And then you get
+basically<00:18:25.360><c> these</c><00:18:25.840><c> uh</c><00:18:26.080><c> outputs</c><00:18:26.640><c> back</c><00:18:27.360><c> and</c><00:18:28.000><c> uh</c>
+
+00:18:28.390 --> 00:18:28.400 align:start position:0%
+basically these uh outputs back and uh
+ 
+
+00:18:28.400 --> 00:18:30.150 align:start position:0%
+basically these uh outputs back and uh
+basically<00:18:28.720><c> for</c><00:18:28.960><c> each</c><00:18:29.120><c> of</c><00:18:29.200><c> these</c><00:18:29.600><c> things</c>
+
+00:18:30.150 --> 00:18:30.160 align:start position:0%
+basically for each of these things
+ 
+
+00:18:30.160 --> 00:18:31.750 align:start position:0%
+basically for each of these things
+different<00:18:30.400><c> individual</c><00:18:30.960><c> tools</c><00:18:31.280><c> are</c><00:18:31.440><c> called</c>
+
+00:18:31.750 --> 00:18:31.760 align:start position:0%
+different individual tools are called
+ 
+
+00:18:31.760 --> 00:18:34.070 align:start position:0%
+different individual tools are called
+and<00:18:31.840><c> and</c><00:18:32.160><c> used</c><00:18:32.480><c> here.</c><00:18:33.440><c> And</c><00:18:33.679><c> the</c><00:18:33.840><c> last</c><00:18:34.000><c> thing</c>
+
+00:18:34.070 --> 00:18:34.080 align:start position:0%
+and and used here. And the last thing
+ 
+
+00:18:34.080 --> 00:18:35.909 align:start position:0%
+and and used here. And the last thing
+that<00:18:34.320><c> I</c><00:18:34.480><c> want</c><00:18:34.559><c> to</c><00:18:34.640><c> show</c><00:18:34.799><c> is</c><00:18:34.960><c> the</c><00:18:35.280><c> uh</c><00:18:35.440><c> graph</c>
+
+00:18:35.909 --> 00:18:35.919 align:start position:0%
+that I want to show is the uh graph
+ 
+
+00:18:35.919 --> 00:18:38.789 align:start position:0%
+that I want to show is the uh graph
+python<00:18:36.320><c> package</c><00:18:37.360><c> uh</c><00:18:37.520><c> which</c><00:18:37.840><c> is</c><00:18:38.320><c> basically</c>
+
+00:18:38.789 --> 00:18:38.799 align:start position:0%
+python package uh which is basically
+ 
+
+00:18:38.799 --> 00:18:40.789 align:start position:0%
+python package uh which is basically
+also<00:18:39.120><c> encapsulating</c><00:18:39.919><c> uh</c><00:18:40.080><c> all</c><00:18:40.240><c> of</c><00:18:40.400><c> this</c><00:18:40.640><c> in</c>
+
+00:18:40.789 --> 00:18:40.799 align:start position:0%
+also encapsulating uh all of this in
+ 
+
+00:18:40.799 --> 00:18:42.870 align:start position:0%
+also encapsulating uh all of this in
+construction<00:18:41.600><c> and</c><00:18:41.840><c> the</c><00:18:42.000><c> retrieval</c><00:18:42.480><c> in</c><00:18:42.640><c> into</c>
+
+00:18:42.870 --> 00:18:42.880 align:start position:0%
+construction and the retrieval in into
+ 
+
+00:18:42.880 --> 00:18:44.070 align:start position:0%
+construction and the retrieval in into
+one<00:18:43.039><c> package.</c><00:18:43.360><c> So</c><00:18:43.520><c> you</c><00:18:43.679><c> can</c><00:18:43.760><c> build</c><00:18:43.919><c> the</c>
+
+00:18:44.070 --> 00:18:44.080 align:start position:0%
+one package. So you can build the
+ 
+
+00:18:44.080 --> 00:18:45.590 align:start position:0%
+one package. So you can build the
+knowledge<00:18:44.320><c> graph,</c><00:18:44.720><c> you</c><00:18:44.880><c> can</c><00:18:45.120><c> implement</c><00:18:45.440><c> the</c>
+
+00:18:45.590 --> 00:18:45.600 align:start position:0%
+knowledge graph, you can implement the
+ 
+
+00:18:45.600 --> 00:18:47.830 align:start position:0%
+knowledge graph, you can implement the
+retrievers<00:18:46.400><c> and</c><00:18:46.799><c> create</c><00:18:47.280><c> the</c><00:18:47.440><c> pipelines</c>
+
+00:18:47.830 --> 00:18:47.840 align:start position:0%
+retrievers and create the pipelines
+ 
+
+00:18:47.840 --> 00:18:50.070 align:start position:0%
+retrievers and create the pipelines
+here.<00:18:48.400><c> And</c><00:18:48.640><c> here's</c><00:18:48.880><c> an</c><00:18:49.039><c> example</c><00:18:49.360><c> of</c><00:18:49.600><c> where</c><00:18:49.840><c> I</c>
+
+00:18:50.070 --> 00:18:50.080 align:start position:0%
+here. And here's an example of where I
+ 
+
+00:18:50.080 --> 00:18:53.590 align:start position:0%
+here. And here's an example of where I
+pass<00:18:50.320><c> in</c><00:18:51.039><c> uh</c><00:18:51.200><c> PDFs</c><00:18:51.840><c> plus</c><00:18:52.080><c> a</c><00:18:52.240><c> graph</c><00:18:52.480><c> schema</c><00:18:53.360><c> and</c>
+
+00:18:53.590 --> 00:18:53.600 align:start position:0%
+pass in uh PDFs plus a graph schema and
+ 
+
+00:18:53.600 --> 00:18:56.870 align:start position:0%
+pass in uh PDFs plus a graph schema and
+then<00:18:54.640><c> basically</c><00:18:55.520><c> uh</c><00:18:55.600><c> it</c><00:18:55.840><c> runs</c><00:18:56.320><c> uh</c><00:18:56.480><c> the</c><00:18:56.640><c> input</c>
+
+00:18:56.870 --> 00:18:56.880 align:start position:0%
+then basically uh it runs uh the input
+ 
+
+00:18:56.880 --> 00:18:58.789 align:start position:0%
+then basically uh it runs uh the input
+into<00:18:57.120><c> NEFJ</c><00:18:57.679><c> and</c><00:18:57.840><c> then</c><00:18:57.919><c> I</c><00:18:58.160><c> can</c><00:18:58.400><c> uh</c><00:18:58.480><c> in</c><00:18:58.720><c> the</c>
+
+00:18:58.789 --> 00:18:58.799 align:start position:0%
+into NEFJ and then I can uh in the
+ 
+
+00:18:58.799 --> 00:19:01.750 align:start position:0%
+into NEFJ and then I can uh in the
+Python<00:18:59.200><c> notebook</c><00:18:59.760><c> visualize</c><00:19:00.640><c> uh</c><00:19:00.880><c> the</c><00:19:01.120><c> data</c>
+
+00:19:01.750 --> 00:19:01.760 align:start position:0%
+Python notebook visualize uh the data
+ 
+
+00:19:01.760 --> 00:19:05.350 align:start position:0%
+Python notebook visualize uh the data
+later<00:19:02.080><c> on.</c><00:19:03.120><c> And</c><00:19:03.360><c> with</c><00:19:03.600><c> that</c><00:19:03.919><c> I</c><00:19:04.160><c> leave</c><00:19:04.400><c> you</c><00:19:04.720><c> with</c>
+
+00:19:05.350 --> 00:19:05.360 align:start position:0%
+later on. And with that I leave you with
+ 
+
+00:19:05.360 --> 00:19:09.190 align:start position:0%
+later on. And with that I leave you with
+one<00:19:05.679><c> second</c><00:19:07.120><c> uh</c><00:19:07.440><c> the</c><00:19:07.679><c> takeaway</c><00:19:08.559><c> which</c><00:19:08.799><c> is</c><00:19:08.960><c> on</c>
+
+00:19:09.190 --> 00:19:09.200 align:start position:0%
+one second uh the takeaway which is on
+ 
+
+00:19:09.200 --> 00:19:11.190 align:start position:0%
+one second uh the takeaway which is on
+graph.com<00:19:09.919><c> you</c><00:19:10.160><c> find</c><00:19:10.559><c> all</c><00:19:10.799><c> of</c><00:19:10.960><c> these</c>
+
+00:19:11.190 --> 00:19:11.200 align:start position:0%
+graph.com you find all of these
+ 
+
+00:19:11.200 --> 00:19:14.230 align:start position:0%
+graph.com you find all of these
+resources<00:19:12.160><c> a</c><00:19:12.400><c> lot</c><00:19:12.480><c> of</c><00:19:12.640><c> the</c><00:19:12.880><c> patterns</c><00:19:13.600><c> and</c><00:19:14.080><c> uh</c>
+
+00:19:14.230 --> 00:19:14.240 align:start position:0%
+resources a lot of the patterns and uh
+ 
+
+00:19:14.240 --> 00:19:17.110 align:start position:0%
+resources a lot of the patterns and uh
+we'd<00:19:14.480><c> love</c><00:19:14.720><c> to</c><00:19:14.880><c> have</c><00:19:15.120><c> contributions</c><00:19:16.320><c> and</c><00:19:16.880><c> love</c>
+
+00:19:17.110 --> 00:19:17.120 align:start position:0%
+we'd love to have contributions and love
+ 
+
+00:19:17.120 --> 00:19:19.590 align:start position:0%
+we'd love to have contributions and love
+to<00:19:17.280><c> talk</c><00:19:17.520><c> more.</c><00:19:17.919><c> I'm</c><00:19:18.160><c> outside</c><00:19:18.640><c> at</c><00:19:18.880><c> the</c><00:19:19.200><c> at</c><00:19:19.440><c> the</c>
+
+00:19:19.590 --> 00:19:19.600 align:start position:0%
+to talk more. I'm outside at the at the
+ 
+
+00:19:19.600 --> 00:19:21.270 align:start position:0%
+to talk more. I'm outside at the at the
+booth<00:19:20.000><c> if</c><00:19:20.160><c> you</c><00:19:20.320><c> have</c><00:19:20.480><c> more</c><00:19:20.720><c> questions.</c>
+
+00:19:21.270 --> 00:19:21.280 align:start position:0%
+booth if you have more questions.
+ 
+
+00:19:21.280 --> 00:19:23.110 align:start position:0%
+booth if you have more questions.
+Yeah.<00:19:21.600><c> So</c><00:19:22.080><c> now</c><00:19:22.240><c> that</c><00:19:22.400><c> was</c><00:19:22.480><c> great</c><00:19:22.640><c> and</c><00:19:22.880><c> I</c><00:19:23.039><c> think</c>
+
+00:19:23.110 --> 00:19:23.120 align:start position:0%
+Yeah. So now that was great and I think
+ 
+
+00:19:23.120 --> 00:19:25.029 align:start position:0%
+Yeah. So now that was great and I think
+you're<00:19:23.360><c> getting</c><00:19:23.520><c> it</c><00:19:23.679><c> all</c><00:19:23.840><c> from</c><00:19:24.080><c> the</c><00:19:24.400><c> expert</c>
+
+00:19:25.029 --> 00:19:25.039 align:start position:0%
+you're getting it all from the expert
+ 
+
+00:19:25.039 --> 00:19:26.630 align:start position:0%
+you're getting it all from the expert
+with<00:19:25.280><c> all</c><00:19:25.440><c> the</c><00:19:25.600><c> tooling.</c><00:19:26.000><c> Actually</c><00:19:26.240><c> Michael's</c>
+
+00:19:26.630 --> 00:19:26.640 align:start position:0%
+with all the tooling. Actually Michael's
+ 
+
+00:19:26.640 --> 00:19:27.909 align:start position:0%
+with all the tooling. Actually Michael's
+team<00:19:26.880><c> builds</c><00:19:27.120><c> a</c><00:19:27.280><c> lot</c><00:19:27.360><c> of</c><00:19:27.360><c> the</c><00:19:27.520><c> tools</c><00:19:27.679><c> like</c>
+
+00:19:27.909 --> 00:19:27.919 align:start position:0%
+team builds a lot of the tools like
+ 
+
+00:19:27.919 --> 00:19:29.990 align:start position:0%
+team builds a lot of the tools like
+knowledge<00:19:28.240><c> graph</c><00:19:28.559><c> builder.</c><00:19:29.280><c> Um,</c><00:19:29.679><c> very</c>
+
+00:19:29.990 --> 00:19:30.000 align:start position:0%
+knowledge graph builder. Um, very
+ 
+
+00:19:30.000 --> 00:19:32.070 align:start position:0%
+knowledge graph builder. Um, very
+excited<00:19:30.320><c> you</c><00:19:30.640><c> all</c><00:19:30.799><c> came</c><00:19:31.120><c> to</c><00:19:31.280><c> the</c><00:19:31.440><c> graph</c><00:19:31.760><c> rag</c>
+
+00:19:32.070 --> 00:19:32.080 align:start position:0%
+excited you all came to the graph rag
+ 
+
+00:19:32.080 --> 00:19:33.830 align:start position:0%
+excited you all came to the graph rag
+track<00:19:32.400><c> and</c><00:19:32.799><c> hope</c><00:19:33.039><c> to</c><00:19:33.200><c> chat</c><00:19:33.440><c> with</c><00:19:33.520><c> you</c><00:19:33.679><c> all</c>
+
+00:19:33.830 --> 00:19:33.840 align:start position:0%
+track and hope to chat with you all
+ 
+
+00:19:33.840 --> 00:19:35.270 align:start position:0%
+track and hope to chat with you all
+more.<00:19:34.080><c> If</c><00:19:34.240><c> you</c><00:19:34.400><c> have</c><00:19:34.480><c> questions</c><00:19:34.799><c> for</c><00:19:34.960><c> me</c><00:19:35.120><c> and</c>
+
+00:19:35.270 --> 00:19:35.280 align:start position:0%
+more. If you have questions for me and
+ 
+
+00:19:35.280 --> 00:19:37.270 align:start position:0%
+more. If you have questions for me and
+Michael,<00:19:35.679><c> just</c><00:19:35.840><c> meet</c><00:19:36.000><c> us</c><00:19:36.160><c> in</c><00:19:36.320><c> the</c><00:19:36.559><c> Neo</c><00:19:36.880><c> Forj</c>
+
+00:19:37.270 --> 00:19:37.280 align:start position:0%
+Michael, just meet us in the Neo Forj
+ 
+
+00:19:37.280 --> 00:19:38.549 align:start position:0%
+Michael, just meet us in the Neo Forj
+booth<00:19:37.440><c> across</c><00:19:37.760><c> the</c><00:19:37.919><c> way.</c><00:19:38.240><c> Thank</c><00:19:38.320><c> you.</c>
+
+00:19:38.549 --> 00:19:38.559 align:start position:0%
+booth across the way. Thank you.
+ 
+
+00:19:38.559 --> 00:19:41.720 align:start position:0%
+booth across the way. Thank you.
+Thank<00:19:38.720><c> you.</c>
+

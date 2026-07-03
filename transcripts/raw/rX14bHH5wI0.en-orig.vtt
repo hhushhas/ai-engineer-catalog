@@ -1,0 +1,2992 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.960 --> 00:00:07.270 align:start position:0%
+ 
+Hi<00:00:05.120><c> everyone.</c><00:00:06.000><c> I'm</c><00:00:06.240><c> Jim,</c>
+
+00:00:07.270 --> 00:00:07.280 align:start position:0%
+Hi everyone. I'm Jim,
+ 
+
+00:00:07.280 --> 00:00:10.470 align:start position:0%
+Hi everyone. I'm Jim,
+a<00:00:07.400><c> software</c><00:00:07.760><c> engineer</c><00:00:08.280><c> in</c><00:00:08.440><c> Tokyo.</c>
+
+00:00:10.470 --> 00:00:10.480 align:start position:0%
+a software engineer in Tokyo.
+ 
+
+00:00:10.480 --> 00:00:13.670 align:start position:0%
+a software engineer in Tokyo.
+Thank<00:00:10.720><c> you</c><00:00:10.800><c> for</c><00:00:10.960><c> joining</c><00:00:11.480><c> my</c><00:00:12.080><c> session.</c>
+
+00:00:13.670 --> 00:00:13.680 align:start position:0%
+Thank you for joining my session.
+ 
+
+00:00:13.680 --> 00:00:15.390 align:start position:0%
+Thank you for joining my session.
+Today<00:00:13.880><c> we</c><00:00:14.000><c> will</c><00:00:14.440><c> learn</c><00:00:14.760><c> about</c><00:00:15.120><c> neural</c>
+
+00:00:15.390 --> 00:00:15.400 align:start position:0%
+Today we will learn about neural
+ 
+
+00:00:15.400 --> 00:00:16.950 align:start position:0%
+Today we will learn about neural
+networks.
+
+00:00:16.950 --> 00:00:16.960 align:start position:0%
+networks.
+ 
+
+00:00:16.960 --> 00:00:19.390 align:start position:0%
+networks.
+We<00:00:17.120><c> will</c><00:00:17.320><c> build</c><00:00:17.880><c> a</c><00:00:18.000><c> small</c><00:00:18.400><c> neural</c><00:00:18.760><c> network</c>
+
+00:00:19.390 --> 00:00:19.400 align:start position:0%
+We will build a small neural network
+ 
+
+00:00:19.400 --> 00:00:22.710 align:start position:0%
+We will build a small neural network
+from<00:00:19.720><c> scratch</c><00:00:20.560><c> using</c><00:00:20.920><c> TypeScript.</c>
+
+00:00:22.710 --> 00:00:22.720 align:start position:0%
+from scratch using TypeScript.
+ 
+
+00:00:22.720 --> 00:00:25.870 align:start position:0%
+from scratch using TypeScript.
+This<00:00:22.920><c> session</c><00:00:23.440><c> is</c><00:00:23.760><c> for</c><00:00:24.040><c> engineers</c><00:00:24.680><c> who</c><00:00:24.840><c> use</c><00:00:25.520><c> AI</c>
+
+00:00:25.870 --> 00:00:25.880 align:start position:0%
+This session is for engineers who use AI
+ 
+
+00:00:25.880 --> 00:00:28.430 align:start position:0%
+This session is for engineers who use AI
+and<00:00:26.560><c> want</c><00:00:26.800><c> to</c><00:00:26.880><c> understand</c><00:00:27.560><c> how</c><00:00:27.760><c> it</c><00:00:27.960><c> works</c>
+
+00:00:28.430 --> 00:00:28.440 align:start position:0%
+and want to understand how it works
+ 
+
+00:00:28.440 --> 00:00:30.110 align:start position:0%
+and want to understand how it works
+inside.
+
+00:00:30.110 --> 00:00:30.120 align:start position:0%
+inside.
+ 
+
+00:00:30.120 --> 00:00:38.150 align:start position:0%
+inside.
+All<00:00:30.280><c> right.</c><00:00:31.240><c> Let's</c><00:00:31.480><c> get</c><00:00:31.680><c> started.</c>
+
+00:00:38.150 --> 00:00:38.160 align:start position:0%
+ 
+ 
+
+00:00:38.160 --> 00:00:40.430 align:start position:0%
+ 
+&gt;&gt; Today,<00:00:38.840><c> we</c><00:00:39.000><c> need</c><00:00:39.160><c> a</c><00:00:39.200><c> small</c><00:00:39.560><c> problem</c><00:00:39.960><c> to</c><00:00:40.080><c> solve</c>
+
+00:00:40.430 --> 00:00:40.440 align:start position:0%
+&gt;&gt; Today, we need a small problem to solve
+ 
+
+00:00:40.440 --> 00:00:42.270 align:start position:0%
+&gt;&gt; Today, we need a small problem to solve
+with<00:00:40.600><c> our</c><00:00:40.760><c> neural</c><00:00:41.080><c> network.</c>
+
+00:00:42.270 --> 00:00:42.280 align:start position:0%
+with our neural network.
+ 
+
+00:00:42.280 --> 00:00:45.590 align:start position:0%
+with our neural network.
+For<00:00:42.400><c> that,</c><00:00:43.160><c> we're</c><00:00:43.280><c> going</c><00:00:43.480><c> to</c><00:00:43.600><c> use</c><00:00:44.000><c> XOR.</c>
+
+00:00:45.590 --> 00:00:45.600 align:start position:0%
+For that, we're going to use XOR.
+ 
+
+00:00:45.600 --> 00:00:48.030 align:start position:0%
+For that, we're going to use XOR.
+XOR<00:00:46.280><c> is</c><00:00:46.440><c> often</c><00:00:46.760><c> used</c><00:00:47.000><c> as</c><00:00:47.120><c> a</c><00:00:47.160><c> classic</c><00:00:47.680><c> beginner</c>
+
+00:00:48.030 --> 00:00:48.040 align:start position:0%
+XOR is often used as a classic beginner
+ 
+
+00:00:48.040 --> 00:00:50.310 align:start position:0%
+XOR is often used as a classic beginner
+example<00:00:48.520><c> for</c><00:00:48.640><c> neural</c><00:00:48.960><c> networks</c><00:00:49.920><c> because</c><00:00:50.200><c> it</c>
+
+00:00:50.310 --> 00:00:50.320 align:start position:0%
+example for neural networks because it
+ 
+
+00:00:50.320 --> 00:00:52.510 align:start position:0%
+example for neural networks because it
+looks<00:00:50.560><c> simple,</c><00:00:51.320><c> but</c><00:00:51.440><c> it</c><00:00:51.560><c> cannot</c><00:00:51.880><c> be</c><00:00:52.000><c> solved</c><00:00:52.360><c> by</c>
+
+00:00:52.510 --> 00:00:52.520 align:start position:0%
+looks simple, but it cannot be solved by
+ 
+
+00:00:52.520 --> 00:00:54.790 align:start position:0%
+looks simple, but it cannot be solved by
+a<00:00:52.600><c> single</c><00:00:52.960><c> straight</c><00:00:53.320><c> line.</c>
+
+00:00:54.790 --> 00:00:54.800 align:start position:0%
+a single straight line.
+ 
+
+00:00:54.800 --> 00:00:56.590 align:start position:0%
+a single straight line.
+So,<00:00:54.960><c> it's</c><00:00:55.080><c> a</c><00:00:55.120><c> nice</c><00:00:55.440><c> way</c><00:00:55.520><c> to</c><00:00:55.640><c> understand</c><00:00:56.280><c> why</c><00:00:56.480><c> we</c>
+
+00:00:56.590 --> 00:00:56.600 align:start position:0%
+So, it's a nice way to understand why we
+ 
+
+00:00:56.600 --> 00:00:58.710 align:start position:0%
+So, it's a nice way to understand why we
+need<00:00:56.840><c> multiple</c><00:00:57.240><c> layers.</c>
+
+00:00:58.710 --> 00:00:58.720 align:start position:0%
+need multiple layers.
+ 
+
+00:00:58.720 --> 00:01:01.790 align:start position:0%
+need multiple layers.
+Let's<00:00:58.960><c> quickly</c><00:00:59.320><c> review</c><00:00:59.640><c> XOR.</c><00:01:00.760><c> XOR</c><00:01:01.320><c> returns</c>
+
+00:01:01.790 --> 00:01:01.800 align:start position:0%
+Let's quickly review XOR. XOR returns
+ 
+
+00:01:01.800 --> 00:01:03.830 align:start position:0%
+Let's quickly review XOR. XOR returns
+true<00:01:02.120><c> when</c><00:01:02.280><c> two</c><00:01:02.480><c> inputs</c><00:01:02.840><c> are</c><00:01:02.920><c> different</c><00:01:03.640><c> and</c>
+
+00:01:03.830 --> 00:01:03.840 align:start position:0%
+true when two inputs are different and
+ 
+
+00:01:03.840 --> 00:01:05.670 align:start position:0%
+true when two inputs are different and
+false<00:01:04.199><c> when</c><00:01:04.360><c> they</c><00:01:04.480><c> are</c><00:01:04.559><c> the</c><00:01:04.680><c> same.</c>
+
+00:01:05.670 --> 00:01:05.680 align:start position:0%
+false when they are the same.
+ 
+
+00:01:05.680 --> 00:01:08.150 align:start position:0%
+false when they are the same.
+So,<00:01:05.840><c> false</c><00:01:06.200><c> and</c><00:01:06.360><c> false</c><00:01:06.680><c> gives</c><00:01:06.920><c> us</c><00:01:07.080><c> false.</c>
+
+00:01:08.150 --> 00:01:08.160 align:start position:0%
+So, false and false gives us false.
+ 
+
+00:01:08.160 --> 00:01:10.630 align:start position:0%
+So, false and false gives us false.
+False<00:01:08.480><c> and</c><00:01:08.600><c> true</c><00:01:08.880><c> gives</c><00:01:09.120><c> us</c><00:01:09.280><c> true.</c><00:01:10.240><c> True</c><00:01:10.480><c> and</c>
+
+00:01:10.630 --> 00:01:10.640 align:start position:0%
+False and true gives us true. True and
+ 
+
+00:01:10.640 --> 00:01:13.150 align:start position:0%
+False and true gives us true. True and
+false<00:01:10.960><c> gives</c><00:01:11.160><c> us</c><00:01:11.320><c> true.</c><00:01:12.240><c> And</c><00:01:12.440><c> true</c><00:01:12.720><c> and</c><00:01:12.840><c> true</c>
+
+00:01:13.150 --> 00:01:13.160 align:start position:0%
+false gives us true. And true and true
+ 
+
+00:01:13.160 --> 00:01:14.710 align:start position:0%
+false gives us true. And true and true
+gives<00:01:13.400><c> us</c><00:01:13.560><c> false.</c>
+
+00:01:14.710 --> 00:01:14.720 align:start position:0%
+gives us false.
+ 
+
+00:01:14.720 --> 00:01:16.110 align:start position:0%
+gives us false.
+On<00:01:14.880><c> the</c><00:01:14.960><c> screen,</c><00:01:15.600><c> you</c><00:01:15.720><c> can</c><00:01:15.880><c> see</c><00:01:16.000><c> the</c>
+
+00:01:16.110 --> 00:01:16.120 align:start position:0%
+On the screen, you can see the
+ 
+
+00:01:16.120 --> 00:01:18.510 align:start position:0%
+On the screen, you can see the
+TypeScript<00:01:16.720><c> version.</c><00:01:17.560><c> It</c><00:01:17.680><c> is</c><00:01:17.800><c> just</c><00:01:18.040><c> a</c><00:01:18.120><c> small</c>
+
+00:01:18.510 --> 00:01:18.520 align:start position:0%
+TypeScript version. It is just a small
+ 
+
+00:01:18.520 --> 00:01:20.750 align:start position:0%
+TypeScript version. It is just a small
+function<00:01:18.960><c> that</c><00:01:19.080><c> takes</c><00:01:19.360><c> two</c><00:01:19.600><c> Boolean</c><00:01:20.000><c> values</c>
+
+00:01:20.750 --> 00:01:20.760 align:start position:0%
+function that takes two Boolean values
+ 
+
+00:01:20.760 --> 00:01:22.950 align:start position:0%
+function that takes two Boolean values
+and<00:01:20.920><c> returns</c><00:01:21.400><c> whether</c><00:01:21.640><c> they</c><00:01:21.800><c> are</c><00:01:21.920><c> different.</c>
+
+00:01:22.950 --> 00:01:22.960 align:start position:0%
+and returns whether they are different.
+ 
+
+00:01:22.960 --> 00:01:24.470 align:start position:0%
+and returns whether they are different.
+Very<00:01:23.240><c> simple.</c>
+
+00:01:24.470 --> 00:01:24.480 align:start position:0%
+Very simple.
+ 
+
+00:01:24.480 --> 00:01:26.430 align:start position:0%
+Very simple.
+Now,<00:01:24.640><c> let's</c><00:01:24.880><c> try</c><00:01:25.040><c> to</c><00:01:25.160><c> make</c><00:01:25.360><c> a</c><00:01:25.440><c> neural</c><00:01:25.800><c> network</c>
+
+00:01:26.430 --> 00:01:26.440 align:start position:0%
+Now, let's try to make a neural network
+ 
+
+00:01:26.440 --> 00:01:28.150 align:start position:0%
+Now, let's try to make a neural network
+learn<00:01:26.720><c> this</c><00:01:26.880><c> behavior.</c>
+
+00:01:28.150 --> 00:01:28.160 align:start position:0%
+learn this behavior.
+ 
+
+00:01:28.160 --> 00:01:30.030 align:start position:0%
+learn this behavior.
+So,<00:01:28.280><c> what</c><00:01:28.440><c> does</c><00:01:28.560><c> it</c><00:01:28.680><c> mean</c><00:01:28.880><c> to</c><00:01:29.000><c> implement</c><00:01:29.480><c> XOR</c>
+
+00:01:30.030 --> 00:01:30.040 align:start position:0%
+So, what does it mean to implement XOR
+ 
+
+00:01:30.040 --> 00:01:31.990 align:start position:0%
+So, what does it mean to implement XOR
+with<00:01:30.200><c> a</c><00:01:30.240><c> neural</c><00:01:30.560><c> network?</c><00:01:31.400><c> In</c><00:01:31.520><c> the</c><00:01:31.600><c> code</c><00:01:31.880><c> we</c>
+
+00:01:31.990 --> 00:01:32.000 align:start position:0%
+with a neural network? In the code we
+ 
+
+00:01:32.000 --> 00:01:34.630 align:start position:0%
+with a neural network? In the code we
+just<00:01:32.240><c> saw,</c><00:01:32.800><c> we</c><00:01:32.920><c> directly</c><00:01:33.360><c> wrote</c><00:01:33.560><c> the</c><00:01:33.680><c> rule.</c>
+
+00:01:34.630 --> 00:01:34.640 align:start position:0%
+just saw, we directly wrote the rule.
+ 
+
+00:01:34.640 --> 00:01:36.630 align:start position:0%
+just saw, we directly wrote the rule.
+If<00:01:34.760><c> the</c><00:01:34.880><c> two</c><00:01:35.080><c> values</c><00:01:35.480><c> are</c><00:01:35.560><c> different,</c><00:01:36.240><c> return</c>
+
+00:01:36.630 --> 00:01:36.640 align:start position:0%
+If the two values are different, return
+ 
+
+00:01:36.640 --> 00:01:37.670 align:start position:0%
+If the two values are different, return
+true.
+
+00:01:37.670 --> 00:01:37.680 align:start position:0%
+true.
+ 
+
+00:01:37.680 --> 00:01:39.430 align:start position:0%
+true.
+But<00:01:37.760><c> with</c><00:01:37.920><c> a</c><00:01:37.960><c> neural</c><00:01:38.280><c> network,</c><00:01:39.040><c> we</c><00:01:39.160><c> don't</c>
+
+00:01:39.430 --> 00:01:39.440 align:start position:0%
+But with a neural network, we don't
+ 
+
+00:01:39.440 --> 00:01:41.750 align:start position:0%
+But with a neural network, we don't
+write<00:01:39.640><c> that</c><00:01:39.840><c> rule</c><00:01:40.000><c> directly.</c><00:01:40.800><c> Instead,</c><00:01:41.640><c> we</c>
+
+00:01:41.750 --> 00:01:41.760 align:start position:0%
+write that rule directly. Instead, we
+ 
+
+00:01:41.760 --> 00:01:43.870 align:start position:0%
+write that rule directly. Instead, we
+take<00:01:42.000><c> input</c><00:01:42.360><c> values,</c><00:01:43.080><c> multiply</c><00:01:43.560><c> them</c><00:01:43.680><c> by</c>
+
+00:01:43.870 --> 00:01:43.880 align:start position:0%
+take input values, multiply them by
+ 
+
+00:01:43.880 --> 00:01:46.390 align:start position:0%
+take input values, multiply them by
+weights,<00:01:44.600><c> add</c><00:01:44.840><c> biases,</c><00:01:45.680><c> pass</c><00:01:45.960><c> the</c><00:01:46.080><c> result</c>
+
+00:01:46.390 --> 00:01:46.400 align:start position:0%
+weights, add biases, pass the result
+ 
+
+00:01:46.400 --> 00:01:48.230 align:start position:0%
+weights, add biases, pass the result
+through<00:01:46.560><c> an</c><00:01:46.640><c> activation</c><00:01:47.240><c> function,</c><00:01:47.920><c> and</c><00:01:48.040><c> get</c>
+
+00:01:48.230 --> 00:01:48.240 align:start position:0%
+through an activation function, and get
+ 
+
+00:01:48.240 --> 00:01:50.630 align:start position:0%
+through an activation function, and get
+an<00:01:48.360><c> output.</c><00:01:49.400><c> In</c><00:01:49.520><c> other</c><00:01:49.680><c> words,</c><00:01:50.200><c> instead</c><00:01:50.520><c> of</c>
+
+00:01:50.630 --> 00:01:50.640 align:start position:0%
+an output. In other words, instead of
+ 
+
+00:01:50.640 --> 00:01:52.470 align:start position:0%
+an output. In other words, instead of
+hardcoding<00:01:51.240><c> the</c><00:01:51.360><c> rule,</c><00:01:51.680><c> we</c><00:01:51.800><c> let</c><00:01:51.960><c> the</c><00:01:52.040><c> network</c>
+
+00:01:52.470 --> 00:01:52.480 align:start position:0%
+hardcoding the rule, we let the network
+ 
+
+00:01:52.480 --> 00:01:54.670 align:start position:0%
+hardcoding the rule, we let the network
+learn<00:01:52.720><c> the</c><00:01:52.840><c> right</c><00:01:53.080><c> weights</c><00:01:53.360><c> from</c><00:01:53.520><c> data.</c>
+
+00:01:54.670 --> 00:01:54.680 align:start position:0%
+learn the right weights from data.
+ 
+
+00:01:54.680 --> 00:01:56.230 align:start position:0%
+learn the right weights from data.
+So,<00:01:54.840><c> how</c><00:01:55.000><c> How</c><00:01:55.160><c> that</c><00:01:55.320><c> calculation</c><00:01:55.880><c> actually</c>
+
+00:01:56.230 --> 00:01:56.240 align:start position:0%
+So, how How that calculation actually
+ 
+
+00:01:56.240 --> 00:01:57.310 align:start position:0%
+So, how How that calculation actually
+work?
+
+00:01:57.310 --> 00:01:57.320 align:start position:0%
+work?
+ 
+
+00:01:57.320 --> 00:01:59.270 align:start position:0%
+work?
+Let's<00:01:57.560><c> say</c><00:01:57.760><c> we</c><00:01:57.880><c> have</c><00:01:58.040><c> an</c><00:01:58.120><c> input</c><00:01:58.480><c> like</c><00:01:58.680><c> zero</c><00:01:59.080><c> and</c>
+
+00:01:59.270 --> 00:01:59.280 align:start position:0%
+Let's say we have an input like zero and
+ 
+
+00:01:59.280 --> 00:02:00.230 align:start position:0%
+Let's say we have an input like zero and
+one.
+
+00:02:00.230 --> 00:02:00.240 align:start position:0%
+one.
+ 
+
+00:02:00.240 --> 00:02:02.790 align:start position:0%
+one.
+First,<00:02:00.720><c> we</c><00:02:00.840><c> multiply</c><00:02:01.280><c> the</c><00:02:01.400><c> input</c><00:02:01.760><c> by</c><00:02:01.920><c> weights.</c>
+
+00:02:02.790 --> 00:02:02.800 align:start position:0%
+First, we multiply the input by weights.
+ 
+
+00:02:02.800 --> 00:02:04.550 align:start position:0%
+First, we multiply the input by weights.
+Then<00:02:03.000><c> we</c><00:02:03.120><c> add</c><00:02:03.280><c> a</c><00:02:03.360><c> bias.</c>
+
+00:02:04.550 --> 00:02:04.560 align:start position:0%
+Then we add a bias.
+ 
+
+00:02:04.560 --> 00:02:05.870 align:start position:0%
+Then we add a bias.
+Let's<00:02:04.760><c> say</c><00:02:04.920><c> the</c><00:02:05.040><c> value</c><00:02:05.400><c> before</c><00:02:05.760><c> the</c>
+
+00:02:05.870 --> 00:02:05.880 align:start position:0%
+Let's say the value before the
+ 
+
+00:02:05.880 --> 00:02:08.749 align:start position:0%
+Let's say the value before the
+activation<00:02:06.440><c> function</c><00:02:06.800><c> is</c><00:02:06.960><c> 0.6.</c>
+
+00:02:08.749 --> 00:02:08.759 align:start position:0%
+activation function is 0.6.
+ 
+
+00:02:08.759 --> 00:02:10.669 align:start position:0%
+activation function is 0.6.
+In<00:02:08.880><c> a</c><00:02:08.920><c> neural</c><00:02:09.240><c> network,</c><00:02:09.920><c> we</c><00:02:10.080><c> usually</c><00:02:10.399><c> don't</c>
+
+00:02:10.669 --> 00:02:10.679 align:start position:0%
+In a neural network, we usually don't
+ 
+
+00:02:10.679 --> 00:02:12.350 align:start position:0%
+In a neural network, we usually don't
+use<00:02:10.840><c> this</c><00:02:11.000><c> value</c><00:02:11.320><c> directly</c><00:02:11.800><c> as</c><00:02:11.920><c> the</c><00:02:12.040><c> final</c>
+
+00:02:12.350 --> 00:02:12.360 align:start position:0%
+use this value directly as the final
+ 
+
+00:02:12.360 --> 00:02:14.790 align:start position:0%
+use this value directly as the final
+output.<00:02:13.200><c> Instead,</c><00:02:13.959><c> we</c><00:02:14.120><c> pass</c><00:02:14.400><c> it</c><00:02:14.520><c> through</c><00:02:14.680><c> an</c>
+
+00:02:14.790 --> 00:02:14.800 align:start position:0%
+output. Instead, we pass it through an
+ 
+
+00:02:14.800 --> 00:02:16.350 align:start position:0%
+output. Instead, we pass it through an
+activation<00:02:15.320><c> function.</c>
+
+00:02:16.350 --> 00:02:16.360 align:start position:0%
+activation function.
+ 
+
+00:02:16.360 --> 00:02:18.430 align:start position:0%
+activation function.
+In<00:02:16.480><c> this</c><00:02:16.640><c> example,</c><00:02:17.400><c> we'll</c><00:02:17.600><c> use</c><00:02:17.800><c> the</c><00:02:17.920><c> sigmoid</c>
+
+00:02:18.430 --> 00:02:18.440 align:start position:0%
+In this example, we'll use the sigmoid
+ 
+
+00:02:18.440 --> 00:02:19.630 align:start position:0%
+In this example, we'll use the sigmoid
+function.
+
+00:02:19.630 --> 00:02:19.640 align:start position:0%
+function.
+ 
+
+00:02:19.640 --> 00:02:21.590 align:start position:0%
+function.
+The<00:02:19.680><c> sigmoid</c><00:02:20.160><c> function</c><00:02:20.560><c> converts</c><00:02:21.040><c> any</c><00:02:21.280><c> input</c>
+
+00:02:21.590 --> 00:02:21.600 align:start position:0%
+The sigmoid function converts any input
+ 
+
+00:02:21.600 --> 00:02:24.550 align:start position:0%
+The sigmoid function converts any input
+value<00:02:21.959><c> into</c><00:02:22.160><c> a</c><00:02:22.240><c> value</c><00:02:22.600><c> between</c><00:02:22.959><c> zero</c><00:02:23.360><c> and</c><00:02:23.520><c> one.</c>
+
+00:02:24.550 --> 00:02:24.560 align:start position:0%
+value into a value between zero and one.
+ 
+
+00:02:24.560 --> 00:02:26.030 align:start position:0%
+value into a value between zero and one.
+For<00:02:24.640><c> example,</c><00:02:25.120><c> if</c><00:02:25.240><c> the</c><00:02:25.360><c> value</c><00:02:25.720><c> before</c>
+
+00:02:26.030 --> 00:02:26.040 align:start position:0%
+For example, if the value before
+ 
+
+00:02:26.040 --> 00:02:29.030 align:start position:0%
+For example, if the value before
+activation<00:02:26.600><c> is</c><00:02:26.720><c> 0.6,</c><00:02:28.000><c> the</c><00:02:28.120><c> sigmoid</c><00:02:28.600><c> output</c><00:02:28.920><c> is</c>
+
+00:02:29.030 --> 00:02:29.040 align:start position:0%
+activation is 0.6, the sigmoid output is
+ 
+
+00:02:29.040 --> 00:02:31.550 align:start position:0%
+activation is 0.6, the sigmoid output is
+around<00:02:29.400><c> 0.65.</c>
+
+00:02:31.550 --> 00:02:31.560 align:start position:0%
+around 0.65.
+ 
+
+00:02:31.560 --> 00:02:33.470 align:start position:0%
+around 0.65.
+So,<00:02:31.640><c> the</c><00:02:31.760><c> important</c><00:02:32.160><c> point</c><00:02:32.400><c> is</c><00:02:32.520><c> this.</c>
+
+00:02:33.470 --> 00:02:33.480 align:start position:0%
+So, the important point is this.
+ 
+
+00:02:33.480 --> 00:02:35.630 align:start position:0%
+So, the important point is this.
+We<00:02:33.600><c> calculate</c><00:02:34.120><c> a</c><00:02:34.160><c> value</c><00:02:34.600><c> using</c><00:02:34.959><c> weights</c><00:02:35.480><c> and</c>
+
+00:02:35.630 --> 00:02:35.640 align:start position:0%
+We calculate a value using weights and
+ 
+
+00:02:35.640 --> 00:02:36.870 align:start position:0%
+We calculate a value using weights and
+biases.
+
+00:02:36.870 --> 00:02:36.880 align:start position:0%
+biases.
+ 
+
+00:02:36.880 --> 00:02:38.310 align:start position:0%
+biases.
+Then<00:02:37.000><c> we</c><00:02:37.120><c> use</c><00:02:37.320><c> the</c><00:02:37.400><c> sigmoid</c><00:02:37.880><c> function</c><00:02:38.240><c> to</c>
+
+00:02:38.310 --> 00:02:38.320 align:start position:0%
+Then we use the sigmoid function to
+ 
+
+00:02:38.320 --> 00:02:39.910 align:start position:0%
+Then we use the sigmoid function to
+convert<00:02:38.720><c> that</c><00:02:38.920><c> value</c><00:02:39.280><c> into</c><00:02:39.520><c> the</c><00:02:39.640><c> range</c>
+
+00:02:39.910 --> 00:02:39.920 align:start position:0%
+convert that value into the range
+ 
+
+00:02:39.920 --> 00:02:41.910 align:start position:0%
+convert that value into the range
+between<00:02:40.280><c> zero</c><00:02:40.640><c> and</c><00:02:40.800><c> one.</c>
+
+00:02:41.910 --> 00:02:41.920 align:start position:0%
+between zero and one.
+ 
+
+00:02:41.920 --> 00:02:43.750 align:start position:0%
+between zero and one.
+That<00:02:42.080><c> converted</c><00:02:42.560><c> value</c><00:02:42.920><c> becomes</c><00:02:43.280><c> the</c><00:02:43.440><c> output</c>
+
+00:02:43.750 --> 00:02:43.760 align:start position:0%
+That converted value becomes the output
+ 
+
+00:02:43.760 --> 00:02:45.030 align:start position:0%
+That converted value becomes the output
+of<00:02:43.840><c> the</c><00:02:43.959><c> layer.</c>
+
+00:02:45.030 --> 00:02:45.040 align:start position:0%
+of the layer.
+ 
+
+00:02:45.040 --> 00:02:46.949 align:start position:0%
+of the layer.
+Now,<00:02:45.200><c> let's</c><00:02:45.440><c> look</c><00:02:45.600><c> at</c><00:02:45.680><c> the</c><00:02:45.760><c> code.</c><00:02:46.720><c> On</c><00:02:46.880><c> the</c>
+
+00:02:46.949 --> 00:02:46.959 align:start position:0%
+Now, let's look at the code. On the
+ 
+
+00:02:46.959 --> 00:02:48.550 align:start position:0%
+Now, let's look at the code. On the
+screen,<00:02:47.400><c> you</c><00:02:47.520><c> can</c><00:02:47.680><c> see</c><00:02:47.840><c> a</c><00:02:47.920><c> class</c><00:02:48.280><c> called</c>
+
+00:02:48.550 --> 00:02:48.560 align:start position:0%
+screen, you can see a class called
+ 
+
+00:02:48.560 --> 00:02:51.030 align:start position:0%
+screen, you can see a class called
+tensor.<00:02:49.480><c> I'll</c><00:02:49.640><c> explain</c><00:02:50.080><c> it</c><00:02:50.200><c> later,</c><00:02:50.760><c> but</c><00:02:50.920><c> for</c>
+
+00:02:51.030 --> 00:02:51.040 align:start position:0%
+tensor. I'll explain it later, but for
+ 
+
+00:02:51.040 --> 00:02:52.670 align:start position:0%
+tensor. I'll explain it later, but for
+now<00:02:51.320><c> you</c><00:02:51.480><c> can</c><00:02:51.640><c> think</c><00:02:51.840><c> of</c><00:02:51.920><c> it</c><00:02:52.040><c> as</c><00:02:52.120><c> a</c><00:02:52.200><c> class</c><00:02:52.560><c> for</c>
+
+00:02:52.670 --> 00:02:52.680 align:start position:0%
+now you can think of it as a class for
+ 
+
+00:02:52.680 --> 00:02:55.150 align:start position:0%
+now you can think of it as a class for
+matrix<00:02:53.080><c> calculations.</c><00:02:54.400><c> In</c><00:02:54.560><c> one</c><00:02:54.760><c> layer</c><00:02:55.000><c> of</c><00:02:55.120><c> a</c>
+
+00:02:55.150 --> 00:02:55.160 align:start position:0%
+matrix calculations. In one layer of a
+ 
+
+00:02:55.160 --> 00:02:57.150 align:start position:0%
+matrix calculations. In one layer of a
+neural<00:02:55.440><c> network,</c><00:02:56.120><c> we</c><00:02:56.280><c> first</c><00:02:56.560><c> calculate</c><00:02:57.040><c> the</c>
+
+00:02:57.150 --> 00:02:57.160 align:start position:0%
+neural network, we first calculate the
+ 
+
+00:02:57.160 --> 00:02:59.350 align:start position:0%
+neural network, we first calculate the
+dot<00:02:57.400><c> product</c><00:02:57.760><c> of</c><00:02:57.840><c> the</c><00:02:57.959><c> input</c><00:02:58.440><c> and</c><00:02:58.560><c> the</c><00:02:58.640><c> weight.</c>
+
+00:02:59.350 --> 00:02:59.360 align:start position:0%
+dot product of the input and the weight.
+ 
+
+00:02:59.360 --> 00:03:01.190 align:start position:0%
+dot product of the input and the weight.
+Then<00:02:59.600><c> we</c><00:02:59.720><c> add</c><00:02:59.920><c> the</c><00:03:00.000><c> bias.</c>
+
+00:03:01.190 --> 00:03:01.200 align:start position:0%
+Then we add the bias.
+ 
+
+00:03:01.200 --> 00:03:02.750 align:start position:0%
+Then we add the bias.
+The<00:03:01.239><c> code</c><00:03:01.519><c> on</c><00:03:01.600><c> the</c><00:03:01.680><c> screen</c><00:03:02.040><c> does</c><00:03:02.200><c> exactly</c>
+
+00:03:02.750 --> 00:03:02.760 align:start position:0%
+The code on the screen does exactly
+ 
+
+00:03:02.760 --> 00:03:05.190 align:start position:0%
+The code on the screen does exactly
+that.<00:03:03.640><c> It</c><00:03:03.720><c> takes</c><00:03:04.000><c> the</c><00:03:04.120><c> input,</c><00:03:04.680><c> applies</c><00:03:05.120><c> the</c>
+
+00:03:05.190 --> 00:03:05.200 align:start position:0%
+that. It takes the input, applies the
+ 
+
+00:03:05.200 --> 00:03:07.430 align:start position:0%
+that. It takes the input, applies the
+weight,<00:03:05.800><c> adds</c><00:03:06.040><c> the</c><00:03:06.160><c> bias,</c><00:03:06.840><c> and</c><00:03:07.000><c> stores</c><00:03:07.360><c> the</c>
+
+00:03:07.430 --> 00:03:07.440 align:start position:0%
+weight, adds the bias, and stores the
+ 
+
+00:03:07.440 --> 00:03:10.030 align:start position:0%
+weight, adds the bias, and stores the
+result<00:03:07.840><c> as</c><00:03:07.959><c> the</c><00:03:08.080><c> value</c><00:03:08.440><c> before</c><00:03:08.760><c> activation.</c>
+
+00:03:10.030 --> 00:03:10.040 align:start position:0%
+result as the value before activation.
+ 
+
+00:03:10.040 --> 00:03:12.190 align:start position:0%
+result as the value before activation.
+Next,<00:03:10.320><c> we</c><00:03:10.440><c> apply</c><00:03:10.680><c> the</c><00:03:10.800><c> activation</c><00:03:11.360><c> function.</c>
+
+00:03:12.190 --> 00:03:12.200 align:start position:0%
+Next, we apply the activation function.
+ 
+
+00:03:12.200 --> 00:03:14.030 align:start position:0%
+Next, we apply the activation function.
+The<00:03:12.360><c> activated</c><00:03:12.880><c> value</c><00:03:13.200><c> becomes</c><00:03:13.560><c> the</c><00:03:13.640><c> final</c>
+
+00:03:14.030 --> 00:03:14.040 align:start position:0%
+The activated value becomes the final
+ 
+
+00:03:14.040 --> 00:03:15.830 align:start position:0%
+The activated value becomes the final
+output<00:03:14.440><c> of</c><00:03:14.560><c> this</c><00:03:14.760><c> layer.</c>
+
+00:03:15.830 --> 00:03:15.840 align:start position:0%
+output of this layer.
+ 
+
+00:03:15.840 --> 00:03:17.430 align:start position:0%
+output of this layer.
+So,<00:03:15.920><c> the</c><00:03:16.040><c> basic</c><00:03:16.440><c> flow</c><00:03:16.680><c> of</c><00:03:16.800><c> a</c><00:03:16.840><c> neural</c><00:03:17.080><c> network</c>
+
+00:03:17.430 --> 00:03:17.440 align:start position:0%
+So, the basic flow of a neural network
+ 
+
+00:03:17.440 --> 00:03:19.990 align:start position:0%
+So, the basic flow of a neural network
+layer<00:03:17.720><c> is</c><00:03:18.239><c> take</c><00:03:18.480><c> the</c><00:03:18.600><c> input,</c><00:03:19.280><c> multiply</c><00:03:19.760><c> it</c><00:03:19.880><c> by</c>
+
+00:03:19.990 --> 00:03:20.000 align:start position:0%
+layer is take the input, multiply it by
+ 
+
+00:03:20.000 --> 00:03:22.150 align:start position:0%
+layer is take the input, multiply it by
+weights,<00:03:20.680><c> add</c><00:03:20.840><c> a</c><00:03:20.920><c> bias,</c><00:03:21.560><c> pass</c><00:03:21.840><c> it</c><00:03:21.920><c> through</c><00:03:22.080><c> an</c>
+
+00:03:22.150 --> 00:03:22.160 align:start position:0%
+weights, add a bias, pass it through an
+ 
+
+00:03:22.160 --> 00:03:24.990 align:start position:0%
+weights, add a bias, pass it through an
+activation<00:03:22.720><c> function,</c><00:03:23.360><c> return</c><00:03:23.720><c> the</c><00:03:23.880><c> output.</c>
+
+00:03:24.990 --> 00:03:25.000 align:start position:0%
+activation function, return the output.
+ 
+
+00:03:25.000 --> 00:03:26.990 align:start position:0%
+activation function, return the output.
+That's<00:03:25.239><c> the</c><00:03:25.360><c> forward</c><00:03:25.800><c> pass.</c>
+
+00:03:26.990 --> 00:03:27.000 align:start position:0%
+That's the forward pass.
+ 
+
+00:03:27.000 --> 00:03:28.350 align:start position:0%
+That's the forward pass.
+Now,<00:03:27.160><c> let's</c><00:03:27.360><c> say</c><00:03:27.480><c> the</c><00:03:27.640><c> output</c><00:03:27.920><c> we</c><00:03:28.000><c> got</c><00:03:28.239><c> is</c>
+
+00:03:28.350 --> 00:03:28.360 align:start position:0%
+Now, let's say the output we got is
+ 
+
+00:03:28.360 --> 00:03:29.910 align:start position:0%
+Now, let's say the output we got is
+0.65,
+
+00:03:29.910 --> 00:03:29.920 align:start position:0%
+0.65,
+ 
+
+00:03:29.920 --> 00:03:32.550 align:start position:0%
+0.65,
+but<00:03:30.080><c> the</c><00:03:30.160><c> correct</c><00:03:30.560><c> answer</c><00:03:30.840><c> is</c><00:03:31.000><c> 1.0.</c><00:03:32.239><c> You</c><00:03:32.360><c> might</c>
+
+00:03:32.550 --> 00:03:32.560 align:start position:0%
+but the correct answer is 1.0. You might
+ 
+
+00:03:32.560 --> 00:03:33.550 align:start position:0%
+but the correct answer is 1.0. You might
+think
+
+00:03:33.550 --> 00:03:33.560 align:start position:0%
+think
+ 
+
+00:03:33.560 --> 00:03:37.990 align:start position:0%
+think
+we<00:03:33.720><c> wanted</c><00:03:34.160><c> 1.0,</c><00:03:35.400><c> but</c><00:03:35.519><c> we</c><00:03:35.680><c> only</c><00:03:35.880><c> got</c><00:03:36.120><c> 0.65.</c>
+
+00:03:37.990 --> 00:03:38.000 align:start position:0%
+we wanted 1.0, but we only got 0.65.
+ 
+
+00:03:38.000 --> 00:03:40.110 align:start position:0%
+we wanted 1.0, but we only got 0.65.
+That's<00:03:38.239><c> still</c><00:03:38.519><c> pretty</c><00:03:38.840><c> far</c><00:03:39.120><c> off,</c><00:03:39.560><c> right?</c>
+
+00:03:40.110 --> 00:03:40.120 align:start position:0%
+That's still pretty far off, right?
+ 
+
+00:03:40.120 --> 00:03:41.350 align:start position:0%
+That's still pretty far off, right?
+Exactly.
+
+00:03:41.350 --> 00:03:41.360 align:start position:0%
+Exactly.
+ 
+
+00:03:41.360 --> 00:03:42.870 align:start position:0%
+Exactly.
+At<00:03:41.480><c> this</c><00:03:41.680><c> point,</c><00:03:41.920><c> the</c><00:03:42.000><c> network's</c><00:03:42.440><c> output</c><00:03:42.760><c> is</c>
+
+00:03:42.870 --> 00:03:42.880 align:start position:0%
+At this point, the network's output is
+ 
+
+00:03:42.880 --> 00:03:44.830 align:start position:0%
+At this point, the network's output is
+not<00:03:43.080><c> correct</c><00:03:43.440><c> yet.</c><00:03:44.239><c> So,</c><00:03:44.400><c> what</c><00:03:44.560><c> should</c><00:03:44.720><c> we</c>
+
+00:03:44.830 --> 00:03:44.840 align:start position:0%
+not correct yet. So, what should we
+ 
+
+00:03:44.840 --> 00:03:46.790 align:start position:0%
+not correct yet. So, what should we
+change?<00:03:45.680><c> We</c><00:03:45.800><c> need</c><00:03:45.959><c> to</c><00:03:46.080><c> change</c><00:03:46.400><c> the</c><00:03:46.519><c> weights</c>
+
+00:03:46.790 --> 00:03:46.800 align:start position:0%
+change? We need to change the weights
+ 
+
+00:03:46.800 --> 00:03:48.070 align:start position:0%
+change? We need to change the weights
+and<00:03:46.920><c> biases.</c>
+
+00:03:48.070 --> 00:03:48.080 align:start position:0%
+and biases.
+ 
+
+00:03:48.080 --> 00:03:49.790 align:start position:0%
+and biases.
+A<00:03:48.120><c> neural</c><00:03:48.400><c> network</c><00:03:48.760><c> learns</c><00:03:49.040><c> by</c><00:03:49.200><c> comparing</c><00:03:49.640><c> its</c>
+
+00:03:49.790 --> 00:03:49.800 align:start position:0%
+A neural network learns by comparing its
+ 
+
+00:03:49.800 --> 00:03:51.750 align:start position:0%
+A neural network learns by comparing its
+output<00:03:50.120><c> with</c><00:03:50.239><c> the</c><00:03:50.320><c> correct</c><00:03:50.680><c> answer,</c><00:03:51.400><c> and</c><00:03:51.519><c> then</c>
+
+00:03:51.750 --> 00:03:51.760 align:start position:0%
+output with the correct answer, and then
+ 
+
+00:03:51.760 --> 00:03:53.510 align:start position:0%
+output with the correct answer, and then
+updating<00:03:52.200><c> its</c><00:03:52.360><c> weights</c><00:03:52.680><c> and</c><00:03:52.800><c> biases</c><00:03:53.280><c> little</c>
+
+00:03:53.510 --> 00:03:53.520 align:start position:0%
+updating its weights and biases little
+ 
+
+00:03:53.520 --> 00:03:55.790 align:start position:0%
+updating its weights and biases little
+by<00:03:53.680><c> little.</c><00:03:54.560><c> For</c><00:03:54.680><c> example,</c><00:03:55.120><c> if</c><00:03:55.240><c> the</c><00:03:55.360><c> output</c><00:03:55.680><c> is</c>
+
+00:03:55.790 --> 00:03:55.800 align:start position:0%
+by little. For example, if the output is
+ 
+
+00:03:55.800 --> 00:03:59.270 align:start position:0%
+by little. For example, if the output is
+0.65<00:03:57.280><c> and</c><00:03:57.400><c> the</c><00:03:57.480><c> target</c><00:03:57.920><c> is</c><00:03:58.040><c> 1.0,</c><00:03:59.160><c> the</c>
+
+00:03:59.270 --> 00:03:59.280 align:start position:0%
+0.65 and the target is 1.0, the
+ 
+
+00:03:59.280 --> 00:04:01.590 align:start position:0%
+0.65 and the target is 1.0, the
+difference<00:03:59.720><c> is</c><00:03:59.840><c> 0.35.</c>
+
+00:04:01.590 --> 00:04:01.600 align:start position:0%
+difference is 0.35.
+ 
+
+00:04:01.600 --> 00:04:03.510 align:start position:0%
+difference is 0.35.
+To<00:04:01.720><c> measure</c><00:04:02.040><c> this</c><00:04:02.240><c> error,</c><00:04:02.760><c> we</c><00:04:02.880><c> subtract</c><00:04:03.400><c> the</c>
+
+00:04:03.510 --> 00:04:03.520 align:start position:0%
+To measure this error, we subtract the
+ 
+
+00:04:03.520 --> 00:04:05.910 align:start position:0%
+To measure this error, we subtract the
+target<00:04:03.880><c> value</c><00:04:04.240><c> from</c><00:04:04.400><c> the</c><00:04:04.520><c> output</c><00:04:04.920><c> value.</c>
+
+00:04:05.910 --> 00:04:05.920 align:start position:0%
+target value from the output value.
+ 
+
+00:04:05.920 --> 00:04:07.470 align:start position:0%
+target value from the output value.
+On<00:04:06.080><c> the</c><00:04:06.160><c> screen,</c><00:04:06.560><c> you</c><00:04:06.680><c> can</c><00:04:06.840><c> see</c><00:04:07.000><c> this</c><00:04:07.200><c> written</c>
+
+00:04:07.470 --> 00:04:07.480 align:start position:0%
+On the screen, you can see this written
+ 
+
+00:04:07.480 --> 00:04:10.350 align:start position:0%
+On the screen, you can see this written
+as<00:04:07.680><c> output</c><00:04:08.120><c> minus</c><00:04:08.440><c> target.</c><00:04:09.480><c> Here,</c><00:04:09.840><c> Y</c><00:04:10.080><c> means</c>
+
+00:04:10.350 --> 00:04:10.360 align:start position:0%
+as output minus target. Here, Y means
+ 
+
+00:04:10.360 --> 00:04:12.949 align:start position:0%
+as output minus target. Here, Y means
+the<00:04:10.480><c> output,</c><00:04:11.160><c> and</c><00:04:11.320><c> T</c><00:04:11.560><c> means</c><00:04:11.800><c> the</c><00:04:11.880><c> target.</c><00:04:12.840><c> But,</c>
+
+00:04:12.949 --> 00:04:12.959 align:start position:0%
+the output, and T means the target. But,
+ 
+
+00:04:12.959 --> 00:04:15.230 align:start position:0%
+the output, and T means the target. But,
+this<00:04:13.160><c> value</c><00:04:13.520><c> can</c><00:04:13.640><c> be</c><00:04:13.760><c> positive</c><00:04:14.280><c> or</c><00:04:14.400><c> negative.</c>
+
+00:04:15.230 --> 00:04:15.240 align:start position:0%
+this value can be positive or negative.
+ 
+
+00:04:15.240 --> 00:04:16.949 align:start position:0%
+this value can be positive or negative.
+So,<00:04:15.360><c> to</c><00:04:15.480><c> make</c><00:04:15.680><c> the</c><00:04:15.800><c> size</c><00:04:16.120><c> of</c><00:04:16.200><c> the</c><00:04:16.320><c> error</c><00:04:16.680><c> easier</c>
+
+00:04:16.949 --> 00:04:16.959 align:start position:0%
+So, to make the size of the error easier
+ 
+
+00:04:16.959 --> 00:04:20.069 align:start position:0%
+So, to make the size of the error easier
+to<00:04:17.079><c> handle,</c><00:04:17.760><c> we</c><00:04:17.880><c> square</c><00:04:18.280><c> it.</c><00:04:19.040><c> In</c><00:04:19.160><c> practice,</c><00:04:19.959><c> we</c>
+
+00:04:20.069 --> 00:04:20.079 align:start position:0%
+to handle, we square it. In practice, we
+ 
+
+00:04:20.079 --> 00:04:21.990 align:start position:0%
+to handle, we square it. In practice, we
+often<00:04:20.359><c> write</c><00:04:20.519><c> the</c><00:04:20.640><c> squared</c><00:04:21.000><c> error</c><00:04:21.239><c> with</c><00:04:21.440><c> 1/2</c>
+
+00:04:21.990 --> 00:04:22.000 align:start position:0%
+often write the squared error with 1/2
+ 
+
+00:04:22.000 --> 00:04:24.390 align:start position:0%
+often write the squared error with 1/2
+in<00:04:22.080><c> front.</c><00:04:22.760><c> The</c><00:04:22.880><c> 1/2</c><00:04:23.320><c> is</c><00:04:23.440><c> there</c><00:04:23.680><c> because</c><00:04:24.240><c> when</c>
+
+00:04:24.390 --> 00:04:24.400 align:start position:0%
+in front. The 1/2 is there because when
+ 
+
+00:04:24.400 --> 00:04:26.430 align:start position:0%
+in front. The 1/2 is there because when
+we<00:04:24.520><c> differentiate</c><00:04:25.160><c> this</c><00:04:25.320><c> function,</c><00:04:26.040><c> the</c><00:04:26.200><c> two</c>
+
+00:04:26.430 --> 00:04:26.440 align:start position:0%
+we differentiate this function, the two
+ 
+
+00:04:26.440 --> 00:04:27.909 align:start position:0%
+we differentiate this function, the two
+from<00:04:26.600><c> the</c><00:04:26.720><c> square</c><00:04:27.120><c> cancels</c><00:04:27.560><c> out</c><00:04:27.720><c> with</c><00:04:27.840><c> the</c>
+
+00:04:27.909 --> 00:04:27.919 align:start position:0%
+from the square cancels out with the
+ 
+
+00:04:27.919 --> 00:04:29.070 align:start position:0%
+from the square cancels out with the
+1/2.
+
+00:04:29.070 --> 00:04:29.080 align:start position:0%
+1/2.
+ 
+
+00:04:29.080 --> 00:04:30.430 align:start position:0%
+1/2.
+So,<00:04:29.200><c> the</c><00:04:29.280><c> derivative</c><00:04:29.800><c> becomes</c><00:04:30.160><c> a</c><00:04:30.200><c> little</c>
+
+00:04:30.430 --> 00:04:30.440 align:start position:0%
+So, the derivative becomes a little
+ 
+
+00:04:30.440 --> 00:04:32.470 align:start position:0%
+So, the derivative becomes a little
+cleaner.<00:04:31.400><c> This</c><00:04:31.640><c> is</c><00:04:31.760><c> called</c><00:04:32.000><c> the</c><00:04:32.080><c> squared</c>
+
+00:04:32.470 --> 00:04:32.480 align:start position:0%
+cleaner. This is called the squared
+ 
+
+00:04:32.480 --> 00:04:33.390 align:start position:0%
+cleaner. This is called the squared
+error.
+
+00:04:33.390 --> 00:04:33.400 align:start position:0%
+error.
+ 
+
+00:04:33.400 --> 00:04:35.190 align:start position:0%
+error.
+Now,<00:04:33.560><c> the</c><00:04:33.680><c> next</c><00:04:33.919><c> question</c><00:04:34.320><c> is,</c><00:04:34.840><c> how</c><00:04:34.960><c> do</c><00:04:35.080><c> we</c>
+
+00:04:35.190 --> 00:04:35.200 align:start position:0%
+Now, the next question is, how do we
+ 
+
+00:04:35.200 --> 00:04:37.310 align:start position:0%
+Now, the next question is, how do we
+know<00:04:35.360><c> in</c><00:04:35.480><c> which</c><00:04:35.720><c> direction</c><00:04:36.520><c> and</c><00:04:36.640><c> by</c><00:04:36.800><c> how</c><00:04:37.000><c> much</c>
+
+00:04:37.310 --> 00:04:37.320 align:start position:0%
+know in which direction and by how much
+ 
+
+00:04:37.320 --> 00:04:39.110 align:start position:0%
+know in which direction and by how much
+we<00:04:37.400><c> should</c><00:04:37.600><c> update</c><00:04:37.919><c> the</c><00:04:38.000><c> weights?</c>
+
+00:04:39.110 --> 00:04:39.120 align:start position:0%
+we should update the weights?
+ 
+
+00:04:39.120 --> 00:04:40.909 align:start position:0%
+we should update the weights?
+This<00:04:39.320><c> is</c><00:04:39.480><c> where</c><00:04:39.600><c> derivatives</c><00:04:40.120><c> come</c><00:04:40.320><c> in.</c><00:04:40.840><c> A</c>
+
+00:04:40.909 --> 00:04:40.919 align:start position:0%
+This is where derivatives come in. A
+ 
+
+00:04:40.919 --> 00:04:42.510 align:start position:0%
+This is where derivatives come in. A
+derivative<00:04:41.480><c> tells</c><00:04:41.720><c> us</c><00:04:41.880><c> the</c><00:04:42.000><c> slope</c><00:04:42.320><c> of</c><00:04:42.440><c> a</c>
+
+00:04:42.510 --> 00:04:42.520 align:start position:0%
+derivative tells us the slope of a
+ 
+
+00:04:42.520 --> 00:04:44.830 align:start position:0%
+derivative tells us the slope of a
+function<00:04:42.960><c> at</c><00:04:43.080><c> a</c><00:04:43.120><c> specific</c><00:04:43.640><c> point.</c><00:04:44.560><c> In</c><00:04:44.680><c> other</c>
+
+00:04:44.830 --> 00:04:44.840 align:start position:0%
+function at a specific point. In other
+ 
+
+00:04:44.840 --> 00:04:46.310 align:start position:0%
+function at a specific point. In other
+words,<00:04:45.080><c> it</c><00:04:45.200><c> tells</c><00:04:45.400><c> us</c><00:04:45.560><c> which</c><00:04:45.800><c> direction</c><00:04:46.240><c> the</c>
+
+00:04:46.310 --> 00:04:46.320 align:start position:0%
+words, it tells us which direction the
+ 
+
+00:04:46.320 --> 00:04:48.390 align:start position:0%
+words, it tells us which direction the
+function<00:04:46.680><c> is</c><00:04:46.800><c> moving</c><00:04:47.520><c> and</c><00:04:47.640><c> how</c><00:04:47.760><c> strongly</c><00:04:48.280><c> it</c>
+
+00:04:48.390 --> 00:04:48.400 align:start position:0%
+function is moving and how strongly it
+ 
+
+00:04:48.400 --> 00:04:50.190 align:start position:0%
+function is moving and how strongly it
+is<00:04:48.520><c> moving</c><00:04:48.840><c> in</c><00:04:48.919><c> that</c><00:04:49.080><c> direction.</c>
+
+00:04:50.190 --> 00:04:50.200 align:start position:0%
+is moving in that direction.
+ 
+
+00:04:50.200 --> 00:04:52.230 align:start position:0%
+is moving in that direction.
+In<00:04:50.360><c> neural</c><00:04:50.640><c> networks,</c><00:04:51.320><c> we</c><00:04:51.480><c> use</c><00:04:51.720><c> derivatives</c>
+
+00:04:52.230 --> 00:04:52.240 align:start position:0%
+In neural networks, we use derivatives
+ 
+
+00:04:52.240 --> 00:04:54.030 align:start position:0%
+In neural networks, we use derivatives
+to<00:04:52.360><c> figure</c><00:04:52.720><c> out</c><00:04:52.880><c> how</c><00:04:53.120><c> each</c><00:04:53.360><c> parameter</c><00:04:53.840><c> should</c>
+
+00:04:54.030 --> 00:04:54.040 align:start position:0%
+to figure out how each parameter should
+ 
+
+00:04:54.040 --> 00:04:56.550 align:start position:0%
+to figure out how each parameter should
+change<00:04:54.720><c> in</c><00:04:54.840><c> order</c><00:04:55.040><c> to</c><00:04:55.160><c> reduce</c><00:04:55.520><c> the</c><00:04:55.680><c> error.</c>
+
+00:04:56.550 --> 00:04:56.560 align:start position:0%
+change in order to reduce the error.
+ 
+
+00:04:56.560 --> 00:04:58.470 align:start position:0%
+change in order to reduce the error.
+Let's<00:04:56.800><c> look</c><00:04:56.960><c> at</c><00:04:57.040><c> the</c><00:04:57.160><c> error</c><00:04:57.360><c> function</c><00:04:57.720><c> again.</c>
+
+00:04:58.470 --> 00:04:58.480 align:start position:0%
+Let's look at the error function again.
+ 
+
+00:04:58.480 --> 00:04:59.990 align:start position:0%
+Let's look at the error function again.
+On<00:04:58.640><c> the</c><00:04:58.720><c> screen,</c><00:04:59.080><c> you</c><00:04:59.160><c> can</c><00:04:59.320><c> see</c><00:04:59.440><c> the</c><00:04:59.560><c> squared</c>
+
+00:04:59.990 --> 00:05:00.000 align:start position:0%
+On the screen, you can see the squared
+ 
+
+00:05:00.000 --> 00:05:02.670 align:start position:0%
+On the screen, you can see the squared
+error<00:05:00.200><c> formula.</c><00:05:01.280><c> Here,</c><00:05:01.840><c> Y</c><00:05:02.080><c> is</c><00:05:02.200><c> the</c><00:05:02.320><c> final</c>
+
+00:05:02.670 --> 00:05:02.680 align:start position:0%
+error formula. Here, Y is the final
+ 
+
+00:05:02.680 --> 00:05:05.030 align:start position:0%
+error formula. Here, Y is the final
+output<00:05:03.080><c> after</c><00:05:03.320><c> the</c><00:05:03.440><c> activation</c><00:05:04.000><c> function.</c>
+
+00:05:05.030 --> 00:05:05.040 align:start position:0%
+output after the activation function.
+ 
+
+00:05:05.040 --> 00:05:06.710 align:start position:0%
+output after the activation function.
+If<00:05:05.160><c> we</c><00:05:05.240><c> differentiate</c><00:05:05.919><c> this</c><00:05:06.080><c> error</c><00:05:06.360><c> function</c>
+
+00:05:06.710 --> 00:05:06.720 align:start position:0%
+If we differentiate this error function
+ 
+
+00:05:06.720 --> 00:05:09.830 align:start position:0%
+If we differentiate this error function
+with<00:05:06.880><c> respect</c><00:05:07.240><c> to</c><00:05:07.360><c> Y,</c><00:05:07.960><c> we</c><00:05:08.080><c> get</c><00:05:08.320><c> Y</c><00:05:08.520><c> minus</c><00:05:08.880><c> T.</c>
+
+00:05:09.830 --> 00:05:09.840 align:start position:0%
+with respect to Y, we get Y minus T.
+ 
+
+00:05:09.840 --> 00:05:11.790 align:start position:0%
+with respect to Y, we get Y minus T.
+So,<00:05:09.960><c> the</c><00:05:10.080><c> difference</c><00:05:10.440><c> between</c><00:05:10.720><c> the</c><00:05:10.840><c> output</c><00:05:11.200><c> Y</c>
+
+00:05:11.790 --> 00:05:11.800 align:start position:0%
+So, the difference between the output Y
+ 
+
+00:05:11.800 --> 00:05:13.870 align:start position:0%
+So, the difference between the output Y
+and<00:05:11.919><c> the</c><00:05:12.000><c> target</c><00:05:12.400><c> T</c><00:05:12.880><c> becomes</c><00:05:13.240><c> the</c><00:05:13.320><c> gradient</c><00:05:13.800><c> at</c>
+
+00:05:13.870 --> 00:05:13.880 align:start position:0%
+and the target T becomes the gradient at
+ 
+
+00:05:13.880 --> 00:05:15.390 align:start position:0%
+and the target T becomes the gradient at
+the<00:05:14.040><c> output</c><00:05:14.360><c> side.</c>
+
+00:05:15.390 --> 00:05:15.400 align:start position:0%
+the output side.
+ 
+
+00:05:15.400 --> 00:05:17.710 align:start position:0%
+the output side.
+Next,<00:05:15.960><c> we</c><00:05:16.080><c> pass</c><00:05:16.400><c> this</c><00:05:16.560><c> gradient</c><00:05:16.960><c> backward</c>
+
+00:05:17.710 --> 00:05:17.720 align:start position:0%
+Next, we pass this gradient backward
+ 
+
+00:05:17.720 --> 00:05:19.190 align:start position:0%
+Next, we pass this gradient backward
+through<00:05:17.840><c> the</c><00:05:17.960><c> sigmoid</c><00:05:18.400><c> function,</c><00:05:19.080><c> the</c>
+
+00:05:19.190 --> 00:05:19.200 align:start position:0%
+through the sigmoid function, the
+ 
+
+00:05:19.200 --> 00:05:21.430 align:start position:0%
+through the sigmoid function, the
+weights,<00:05:19.600><c> and</c><00:05:19.720><c> the</c><00:05:19.760><c> biases.</c><00:05:20.640><c> This</c><00:05:20.880><c> process</c><00:05:21.320><c> is</c>
+
+00:05:21.430 --> 00:05:21.440 align:start position:0%
+weights, and the biases. This process is
+ 
+
+00:05:21.440 --> 00:05:23.909 align:start position:0%
+weights, and the biases. This process is
+called<00:05:21.720><c> backpropagation.</c><00:05:23.080><c> Backpropagation</c>
+
+00:05:23.909 --> 00:05:23.919 align:start position:0%
+called backpropagation. Backpropagation
+ 
+
+00:05:23.919 --> 00:05:26.030 align:start position:0%
+called backpropagation. Backpropagation
+uses<00:05:24.160><c> the</c><00:05:24.280><c> chain</c><00:05:24.600><c> rule.</c><00:05:25.200><c> A</c><00:05:25.280><c> neural</c><00:05:25.560><c> network</c><00:05:25.919><c> is</c>
+
+00:05:26.030 --> 00:05:26.040 align:start position:0%
+uses the chain rule. A neural network is
+ 
+
+00:05:26.040 --> 00:05:27.830 align:start position:0%
+uses the chain rule. A neural network is
+basically<00:05:26.480><c> a</c><00:05:26.520><c> chain</c><00:05:26.800><c> of</c><00:05:26.919><c> functions.</c><00:05:27.720><c> We</c>
+
+00:05:27.830 --> 00:05:27.840 align:start position:0%
+basically a chain of functions. We
+ 
+
+00:05:27.840 --> 00:05:30.190 align:start position:0%
+basically a chain of functions. We
+multiply<00:05:28.280><c> by</c><00:05:28.440><c> weights,</c><00:05:29.080><c> we</c><00:05:29.240><c> add</c><00:05:29.400><c> a</c><00:05:29.440><c> bias,</c><00:05:30.080><c> we</c>
+
+00:05:30.190 --> 00:05:30.200 align:start position:0%
+multiply by weights, we add a bias, we
+ 
+
+00:05:30.200 --> 00:05:31.950 align:start position:0%
+multiply by weights, we add a bias, we
+apply<00:05:30.520><c> an</c><00:05:30.640><c> activation</c><00:05:31.200><c> function,</c><00:05:31.840><c> we</c>
+
+00:05:31.950 --> 00:05:31.960 align:start position:0%
+apply an activation function, we
+ 
+
+00:05:31.960 --> 00:05:33.909 align:start position:0%
+apply an activation function, we
+calculate<00:05:32.480><c> the</c><00:05:32.600><c> error.</c><00:05:33.400><c> Because</c><00:05:33.720><c> these</c>
+
+00:05:33.909 --> 00:05:33.919 align:start position:0%
+calculate the error. Because these
+ 
+
+00:05:33.919 --> 00:05:35.670 align:start position:0%
+calculate the error. Because these
+operations<00:05:34.400><c> are</c><00:05:34.480><c> connected,</c><00:05:35.280><c> we</c><00:05:35.400><c> need</c><00:05:35.600><c> to</c>
+
+00:05:35.670 --> 00:05:35.680 align:start position:0%
+operations are connected, we need to
+ 
+
+00:05:35.680 --> 00:05:37.670 align:start position:0%
+operations are connected, we need to
+connect<00:05:36.000><c> their</c><00:05:36.120><c> derivatives,</c><00:05:36.680><c> too.</c><00:05:37.440><c> That's</c>
+
+00:05:37.670 --> 00:05:37.680 align:start position:0%
+connect their derivatives, too. That's
+ 
+
+00:05:37.680 --> 00:05:39.909 align:start position:0%
+connect their derivatives, too. That's
+what<00:05:37.800><c> the</c><00:05:37.880><c> chain</c><00:05:38.160><c> rule</c><00:05:38.360><c> does.</c><00:05:39.160><c> In</c><00:05:39.280><c> the</c><00:05:39.360><c> code,</c>
+
+00:05:39.909 --> 00:05:39.919 align:start position:0%
+what the chain rule does. In the code,
+ 
+
+00:05:39.919 --> 00:05:41.990 align:start position:0%
+what the chain rule does. In the code,
+this<00:05:40.120><c> is</c><00:05:40.240><c> the</c><00:05:40.320><c> backward</c><00:05:40.760><c> part.</c><00:05:41.640><c> First,</c><00:05:41.880><c> we</c>
+
+00:05:41.990 --> 00:05:42.000 align:start position:0%
+this is the backward part. First, we
+ 
+
+00:05:42.000 --> 00:05:43.310 align:start position:0%
+this is the backward part. First, we
+calculate<00:05:42.480><c> the</c><00:05:42.560><c> difference</c><00:05:42.919><c> between</c><00:05:43.200><c> the</c>
+
+00:05:43.310 --> 00:05:43.320 align:start position:0%
+calculate the difference between the
+ 
+
+00:05:43.320 --> 00:05:45.390 align:start position:0%
+calculate the difference between the
+output<00:05:43.760><c> and</c><00:05:43.880><c> the</c><00:05:43.960><c> target.</c><00:05:44.880><c> In</c><00:05:44.960><c> the</c><00:05:45.040><c> code</c><00:05:45.280><c> on</c>
+
+00:05:45.390 --> 00:05:45.400 align:start position:0%
+output and the target. In the code on
+ 
+
+00:05:45.400 --> 00:05:46.710 align:start position:0%
+output and the target. In the code on
+the<00:05:45.480><c> screen,</c><00:05:45.800><c> this</c><00:05:45.960><c> is</c><00:05:46.080><c> stored</c><00:05:46.440><c> as</c><00:05:46.640><c> the</c>
+
+00:05:46.710 --> 00:05:46.720 align:start position:0%
+the screen, this is stored as the
+ 
+
+00:05:46.720 --> 00:05:48.870 align:start position:0%
+the screen, this is stored as the
+gradient<00:05:47.120><c> with</c><00:05:47.280><c> respect</c><00:05:47.640><c> to</c><00:05:47.720><c> the</c><00:05:47.880><c> output.</c>
+
+00:05:48.870 --> 00:05:48.880 align:start position:0%
+gradient with respect to the output.
+ 
+
+00:05:48.880 --> 00:05:50.470 align:start position:0%
+gradient with respect to the output.
+Next,<00:05:49.440><c> we</c><00:05:49.560><c> go</c><00:05:49.720><c> backwards</c><00:05:50.200><c> through</c><00:05:50.360><c> the</c>
+
+00:05:50.470 --> 00:05:50.480 align:start position:0%
+Next, we go backwards through the
+ 
+
+00:05:50.480 --> 00:05:52.670 align:start position:0%
+Next, we go backwards through the
+activation<00:05:51.040><c> function.</c><00:05:52.000><c> For</c><00:05:52.080><c> the</c><00:05:52.200><c> sigmoid</c>
+
+00:05:52.670 --> 00:05:52.680 align:start position:0%
+activation function. For the sigmoid
+ 
+
+00:05:52.680 --> 00:05:54.470 align:start position:0%
+activation function. For the sigmoid
+function,<00:05:53.360><c> the</c><00:05:53.480><c> derivative</c><00:05:53.960><c> can</c><00:05:54.080><c> be</c><00:05:54.200><c> written</c>
+
+00:05:54.470 --> 00:05:54.480 align:start position:0%
+function, the derivative can be written
+ 
+
+00:05:54.480 --> 00:05:57.030 align:start position:0%
+function, the derivative can be written
+as<00:05:54.600><c> the</c><00:05:54.720><c> output</c><00:05:55.080><c> times</c><00:05:55.400><c> 1</c><00:05:55.640><c> minus</c><00:05:55.920><c> the</c><00:05:56.080><c> output.</c>
+
+00:05:57.030 --> 00:05:57.040 align:start position:0%
+as the output times 1 minus the output.
+ 
+
+00:05:57.040 --> 00:05:58.870 align:start position:0%
+as the output times 1 minus the output.
+So,<00:05:57.160><c> we</c><00:05:57.280><c> multiply</c><00:05:57.720><c> the</c><00:05:57.880><c> incoming</c><00:05:58.320><c> gradient</c><00:05:58.760><c> by</c>
+
+00:05:58.870 --> 00:05:58.880 align:start position:0%
+So, we multiply the incoming gradient by
+ 
+
+00:05:58.880 --> 00:06:01.070 align:start position:0%
+So, we multiply the incoming gradient by
+the<00:05:58.960><c> derivative</c><00:05:59.480><c> of</c><00:05:59.560><c> the</c><00:05:59.680><c> sigmoid</c><00:06:00.120><c> function.</c>
+
+00:06:01.070 --> 00:06:01.080 align:start position:0%
+the derivative of the sigmoid function.
+ 
+
+00:06:01.080 --> 00:06:02.590 align:start position:0%
+the derivative of the sigmoid function.
+That<00:06:01.240><c> gives</c><00:06:01.440><c> us</c><00:06:01.560><c> the</c><00:06:01.680><c> gradient</c><00:06:02.080><c> with</c><00:06:02.200><c> respect</c>
+
+00:06:02.590 --> 00:06:02.600 align:start position:0%
+That gives us the gradient with respect
+ 
+
+00:06:02.600 --> 00:06:04.710 align:start position:0%
+That gives us the gradient with respect
+to<00:06:02.720><c> the</c><00:06:02.800><c> value</c><00:06:03.160><c> before</c><00:06:03.480><c> activation.</c>
+
+00:06:04.710 --> 00:06:04.720 align:start position:0%
+to the value before activation.
+ 
+
+00:06:04.720 --> 00:06:06.470 align:start position:0%
+to the value before activation.
+Then,<00:06:04.880><c> we</c><00:06:05.000><c> use</c><00:06:05.240><c> this</c><00:06:05.440><c> gradient</c><00:06:05.880><c> to</c><00:06:06.000><c> calculate</c>
+
+00:06:06.470 --> 00:06:06.480 align:start position:0%
+Then, we use this gradient to calculate
+ 
+
+00:06:06.480 --> 00:06:08.270 align:start position:0%
+Then, we use this gradient to calculate
+the<00:06:06.560><c> gradients</c><00:06:06.960><c> for</c><00:06:07.080><c> the</c><00:06:07.200><c> input,</c><00:06:07.840><c> weights,</c>
+
+00:06:08.270 --> 00:06:08.280 align:start position:0%
+the gradients for the input, weights,
+ 
+
+00:06:08.280 --> 00:06:09.510 align:start position:0%
+the gradients for the input, weights,
+and<00:06:08.440><c> bias.</c>
+
+00:06:09.510 --> 00:06:09.520 align:start position:0%
+and bias.
+ 
+
+00:06:09.520 --> 00:06:11.110 align:start position:0%
+and bias.
+We<00:06:09.760><c> take</c><00:06:10.040><c> the</c><00:06:10.200><c> dot</c><00:06:10.520><c> product</c><00:06:10.920><c> of</c><00:06:11.000><c> the</c>
+
+00:06:11.110 --> 00:06:11.120 align:start position:0%
+We take the dot product of the
+ 
+
+00:06:11.120 --> 00:06:13.510 align:start position:0%
+We take the dot product of the
+transposed<00:06:11.840><c> input</c><00:06:12.320><c> and</c><00:06:12.440><c> the</c><00:06:12.480><c> gradient.</c><00:06:13.480><c> For</c>
+
+00:06:13.510 --> 00:06:13.520 align:start position:0%
+transposed input and the gradient. For
+ 
+
+00:06:13.520 --> 00:06:14.990 align:start position:0%
+transposed input and the gradient. For
+the<00:06:13.640><c> value</c><00:06:14.000><c> that</c><00:06:14.160><c> we</c><00:06:14.280><c> pass</c><00:06:14.600><c> back</c><00:06:14.840><c> to</c><00:06:14.920><c> the</c>
+
+00:06:14.990 --> 00:06:15.000 align:start position:0%
+the value that we pass back to the
+ 
+
+00:06:15.000 --> 00:06:17.270 align:start position:0%
+the value that we pass back to the
+previous<00:06:15.480><c> layer,</c><00:06:16.080><c> we</c><00:06:16.200><c> use</c><00:06:16.440><c> the</c><00:06:16.560><c> gradient</c><00:06:17.160><c> and</c>
+
+00:06:17.270 --> 00:06:17.280 align:start position:0%
+previous layer, we use the gradient and
+ 
+
+00:06:17.280 --> 00:06:18.990 align:start position:0%
+previous layer, we use the gradient and
+the<00:06:17.360><c> transposed</c><00:06:18.040><c> weight.</c>
+
+00:06:18.990 --> 00:06:19.000 align:start position:0%
+the transposed weight.
+ 
+
+00:06:19.000 --> 00:06:21.150 align:start position:0%
+the transposed weight.
+For<00:06:19.080><c> the</c><00:06:19.200><c> bias,</c><00:06:19.880><c> if</c><00:06:20.000><c> we</c><00:06:20.120><c> process</c><00:06:20.560><c> one</c><00:06:20.800><c> sample</c>
+
+00:06:21.150 --> 00:06:21.160 align:start position:0%
+For the bias, if we process one sample
+ 
+
+00:06:21.160 --> 00:06:23.030 align:start position:0%
+For the bias, if we process one sample
+at<00:06:21.240><c> a</c><00:06:21.280><c> time,</c><00:06:21.960><c> we</c><00:06:22.080><c> can</c><00:06:22.240><c> use</c><00:06:22.440><c> this</c><00:06:22.600><c> gradient</c>
+
+00:06:23.030 --> 00:06:23.040 align:start position:0%
+at a time, we can use this gradient
+ 
+
+00:06:23.040 --> 00:06:25.310 align:start position:0%
+at a time, we can use this gradient
+directly<00:06:23.480><c> as</c><00:06:23.600><c> the</c><00:06:23.680><c> bias</c><00:06:24.040><c> gradient.</c><00:06:25.120><c> If</c><00:06:25.200><c> we</c>
+
+00:06:25.310 --> 00:06:25.320 align:start position:0%
+directly as the bias gradient. If we
+ 
+
+00:06:25.320 --> 00:06:27.550 align:start position:0%
+directly as the bias gradient. If we
+process<00:06:25.760><c> multiple</c><00:06:26.160><c> samples</c><00:06:26.560><c> as</c><00:06:26.680><c> a</c><00:06:26.720><c> batch,</c><00:06:27.440><c> we</c>
+
+00:06:27.550 --> 00:06:27.560 align:start position:0%
+process multiple samples as a batch, we
+ 
+
+00:06:27.560 --> 00:06:29.150 align:start position:0%
+process multiple samples as a batch, we
+usually<00:06:27.919><c> sum</c><00:06:28.200><c> the</c><00:06:28.320><c> gradients</c><00:06:28.760><c> across</c><00:06:29.080><c> the</c>
+
+00:06:29.150 --> 00:06:29.160 align:start position:0%
+usually sum the gradients across the
+ 
+
+00:06:29.160 --> 00:06:30.790 align:start position:0%
+usually sum the gradients across the
+sample<00:06:29.520><c> dimension.</c>
+
+00:06:30.790 --> 00:06:30.800 align:start position:0%
+sample dimension.
+ 
+
+00:06:30.800 --> 00:06:32.230 align:start position:0%
+sample dimension.
+Now,<00:06:30.960><c> we</c><00:06:31.080><c> have</c><00:06:31.240><c> gradients</c><00:06:31.680><c> for</c><00:06:31.760><c> the</c><00:06:31.880><c> weights</c>
+
+00:06:32.230 --> 00:06:32.240 align:start position:0%
+Now, we have gradients for the weights
+ 
+
+00:06:32.240 --> 00:06:34.950 align:start position:0%
+Now, we have gradients for the weights
+and<00:06:32.400><c> biases.</c><00:06:33.320><c> To</c><00:06:33.480><c> update</c><00:06:33.840><c> the</c><00:06:33.919><c> parameters,</c><00:06:34.840><c> we</c>
+
+00:06:34.950 --> 00:06:34.960 align:start position:0%
+and biases. To update the parameters, we
+ 
+
+00:06:34.960 --> 00:06:36.550 align:start position:0%
+and biases. To update the parameters, we
+multiply<00:06:35.440><c> the</c><00:06:35.520><c> gradients</c><00:06:36.000><c> by</c><00:06:36.120><c> the</c><00:06:36.240><c> learning</c>
+
+00:06:36.550 --> 00:06:36.560 align:start position:0%
+multiply the gradients by the learning
+ 
+
+00:06:36.560 --> 00:06:38.990 align:start position:0%
+multiply the gradients by the learning
+rate.<00:06:37.400><c> The</c><00:06:37.480><c> learning</c><00:06:37.800><c> rate</c><00:06:38.000><c> controls</c><00:06:38.480><c> how</c><00:06:38.640><c> big</c>
+
+00:06:38.990 --> 00:06:39.000 align:start position:0%
+rate. The learning rate controls how big
+ 
+
+00:06:39.000 --> 00:06:40.870 align:start position:0%
+rate. The learning rate controls how big
+each<00:06:39.200><c> update</c><00:06:39.560><c> step</c><00:06:39.840><c> should</c><00:06:40.000><c> be.</c>
+
+00:06:40.870 --> 00:06:40.880 align:start position:0%
+each update step should be.
+ 
+
+00:06:40.880 --> 00:06:42.830 align:start position:0%
+each update step should be.
+But,<00:06:41.040><c> one</c><00:06:41.200><c> important</c><00:06:41.640><c> thing</c><00:06:41.800><c> is</c><00:06:41.960><c> this.</c><00:06:42.800><c> The</c>
+
+00:06:42.830 --> 00:06:42.840 align:start position:0%
+But, one important thing is this. The
+ 
+
+00:06:42.840 --> 00:06:44.350 align:start position:0%
+But, one important thing is this. The
+gradient<00:06:43.320><c> points</c><00:06:43.600><c> in</c><00:06:43.720><c> the</c><00:06:43.760><c> direction</c><00:06:44.240><c> where</c>
+
+00:06:44.350 --> 00:06:44.360 align:start position:0%
+gradient points in the direction where
+ 
+
+00:06:44.360 --> 00:06:46.590 align:start position:0%
+gradient points in the direction where
+the<00:06:44.520><c> error</c><00:06:44.800><c> increases.</c><00:06:45.840><c> So,</c><00:06:46.000><c> if</c><00:06:46.120><c> we</c><00:06:46.240><c> want</c><00:06:46.480><c> to</c>
+
+00:06:46.590 --> 00:06:46.600 align:start position:0%
+the error increases. So, if we want to
+ 
+
+00:06:46.600 --> 00:06:48.270 align:start position:0%
+the error increases. So, if we want to
+reduce<00:06:46.919><c> the</c><00:06:47.080><c> error,</c><00:06:47.640><c> we</c><00:06:47.760><c> move</c><00:06:48.040><c> in</c><00:06:48.120><c> the</c>
+
+00:06:48.270 --> 00:06:48.280 align:start position:0%
+reduce the error, we move in the
+ 
+
+00:06:48.280 --> 00:06:49.790 align:start position:0%
+reduce the error, we move in the
+opposite<00:06:48.640><c> direction.</c>
+
+00:06:49.790 --> 00:06:49.800 align:start position:0%
+opposite direction.
+ 
+
+00:06:49.800 --> 00:06:51.430 align:start position:0%
+opposite direction.
+That<00:06:49.960><c> means</c><00:06:50.200><c> we</c><00:06:50.320><c> subtract</c><00:06:50.800><c> the</c><00:06:50.919><c> learning</c><00:06:51.240><c> rate</c>
+
+00:06:51.430 --> 00:06:51.440 align:start position:0%
+That means we subtract the learning rate
+ 
+
+00:06:51.440 --> 00:06:53.070 align:start position:0%
+That means we subtract the learning rate
+scaled<00:06:51.800><c> gradient</c><00:06:52.240><c> from</c><00:06:52.400><c> the</c><00:06:52.480><c> current</c><00:06:52.840><c> weight</c>
+
+00:06:53.070 --> 00:06:53.080 align:start position:0%
+scaled gradient from the current weight
+ 
+
+00:06:53.080 --> 00:06:54.230 align:start position:0%
+scaled gradient from the current weight
+and<00:06:53.200><c> bias.</c>
+
+00:06:54.230 --> 00:06:54.240 align:start position:0%
+and bias.
+ 
+
+00:06:54.240 --> 00:06:56.030 align:start position:0%
+and bias.
+If<00:06:54.320><c> the</c><00:06:54.440><c> learning</c><00:06:54.760><c> rate</c><00:06:54.919><c> is</c><00:06:55.040><c> too</c><00:06:55.240><c> large,</c><00:06:55.919><c> the</c>
+
+00:06:56.030 --> 00:06:56.040 align:start position:0%
+If the learning rate is too large, the
+ 
+
+00:06:56.040 --> 00:06:58.350 align:start position:0%
+If the learning rate is too large, the
+updates<00:06:56.440><c> can</c><00:06:56.560><c> become</c><00:06:56.880><c> unstable.</c><00:06:57.880><c> If</c><00:06:58.000><c> it's</c><00:06:58.200><c> too</c>
+
+00:06:58.350 --> 00:06:58.360 align:start position:0%
+updates can become unstable. If it's too
+ 
+
+00:06:58.360 --> 00:07:01.190 align:start position:0%
+updates can become unstable. If it's too
+small,<00:06:59.120><c> learning</c><00:06:59.480><c> becomes</c><00:06:59.880><c> very</c><00:07:00.160><c> slow.</c>
+
+00:07:01.190 --> 00:07:01.200 align:start position:0%
+small, learning becomes very slow.
+ 
+
+00:07:01.200 --> 00:07:03.310 align:start position:0%
+small, learning becomes very slow.
+By<00:07:01.280><c> repeating</c><00:07:01.720><c> this</c><00:07:01.880><c> process</c><00:07:02.320><c> many</c><00:07:02.560><c> times,</c>
+
+00:07:03.310 --> 00:07:03.320 align:start position:0%
+By repeating this process many times,
+ 
+
+00:07:03.320 --> 00:07:05.230 align:start position:0%
+By repeating this process many times,
+the<00:07:03.440><c> neural</c><00:07:03.680><c> network</c><00:07:04.080><c> gradually</c><00:07:04.600><c> gets</c><00:07:04.840><c> closer</c>
+
+00:07:05.230 --> 00:07:05.240 align:start position:0%
+the neural network gradually gets closer
+ 
+
+00:07:05.240 --> 00:07:06.950 align:start position:0%
+the neural network gradually gets closer
+to<00:07:05.360><c> the</c><00:07:05.480><c> correct</c><00:07:05.840><c> answer.</c>
+
+00:07:06.950 --> 00:07:06.960 align:start position:0%
+to the correct answer.
+ 
+
+00:07:06.960 --> 00:07:08.950 align:start position:0%
+to the correct answer.
+But,<00:07:07.040><c> there</c><00:07:07.200><c> is</c><00:07:07.360><c> one</c><00:07:07.600><c> more</c><00:07:07.760><c> important</c><00:07:08.200><c> issue.</c>
+
+00:07:08.950 --> 00:07:08.960 align:start position:0%
+But, there is one more important issue.
+ 
+
+00:07:08.960 --> 00:07:11.030 align:start position:0%
+But, there is one more important issue.
+If<00:07:09.120><c> we</c><00:07:09.240><c> use</c><00:07:09.440><c> only</c><00:07:09.680><c> one</c><00:07:09.919><c> layer,</c><00:07:10.560><c> the</c><00:07:10.680><c> network</c>
+
+00:07:11.030 --> 00:07:11.040 align:start position:0%
+If we use only one layer, the network
+ 
+
+00:07:11.040 --> 00:07:12.790 align:start position:0%
+If we use only one layer, the network
+can<00:07:11.200><c> only</c><00:07:11.400><c> represent</c><00:07:11.919><c> a</c><00:07:12.000><c> linear</c><00:07:12.360><c> decision</c>
+
+00:07:12.790 --> 00:07:12.800 align:start position:0%
+can only represent a linear decision
+ 
+
+00:07:12.800 --> 00:07:15.510 align:start position:0%
+can only represent a linear decision
+boundary.<00:07:13.840><c> XOR</c><00:07:14.360><c> cannot</c><00:07:14.680><c> be</c><00:07:14.800><c> separated</c><00:07:15.320><c> by</c><00:07:15.440><c> a</c>
+
+00:07:15.510 --> 00:07:15.520 align:start position:0%
+boundary. XOR cannot be separated by a
+ 
+
+00:07:15.520 --> 00:07:17.710 align:start position:0%
+boundary. XOR cannot be separated by a
+single<00:07:15.880><c> straight</c><00:07:16.200><c> line.</c><00:07:16.919><c> So,</c><00:07:17.080><c> a</c><00:07:17.160><c> single</c><00:07:17.520><c> layer</c>
+
+00:07:17.710 --> 00:07:17.720 align:start position:0%
+single straight line. So, a single layer
+ 
+
+00:07:17.720 --> 00:07:20.470 align:start position:0%
+single straight line. So, a single layer
+network<00:07:18.440><c> cannot</c><00:07:18.800><c> solve</c><00:07:19.080><c> XOR</c><00:07:19.600><c> well.</c>
+
+00:07:20.470 --> 00:07:20.480 align:start position:0%
+network cannot solve XOR well.
+ 
+
+00:07:20.480 --> 00:07:22.590 align:start position:0%
+network cannot solve XOR well.
+That's<00:07:20.720><c> why</c><00:07:20.840><c> we</c><00:07:21.000><c> use</c><00:07:21.200><c> multiple</c><00:07:21.600><c> layers.</c>
+
+00:07:22.590 --> 00:07:22.600 align:start position:0%
+That's why we use multiple layers.
+ 
+
+00:07:22.600 --> 00:07:23.870 align:start position:0%
+That's why we use multiple layers.
+For<00:07:22.640><c> example,</c><00:07:23.040><c> the</c><00:07:23.160><c> first</c><00:07:23.480><c> layer</c><00:07:23.720><c> can</c>
+
+00:07:23.870 --> 00:07:23.880 align:start position:0%
+For example, the first layer can
+ 
+
+00:07:23.880 --> 00:07:25.550 align:start position:0%
+For example, the first layer can
+transform<00:07:24.440><c> the</c><00:07:24.560><c> input</c><00:07:24.919><c> into</c><00:07:25.120><c> a</c><00:07:25.200><c> different</c>
+
+00:07:25.550 --> 00:07:25.560 align:start position:0%
+transform the input into a different
+ 
+
+00:07:25.560 --> 00:07:27.670 align:start position:0%
+transform the input into a different
+feature<00:07:25.880><c> space.</c><00:07:26.840><c> Then,</c><00:07:26.960><c> the</c><00:07:27.080><c> second</c><00:07:27.440><c> layer</c>
+
+00:07:27.670 --> 00:07:27.680 align:start position:0%
+feature space. Then, the second layer
+ 
+
+00:07:27.680 --> 00:07:29.830 align:start position:0%
+feature space. Then, the second layer
+can<00:07:27.840><c> use</c><00:07:28.000><c> that</c><00:07:28.200><c> transformed</c><00:07:28.760><c> representation</c>
+
+00:07:29.830 --> 00:07:29.840 align:start position:0%
+can use that transformed representation
+ 
+
+00:07:29.840 --> 00:07:32.310 align:start position:0%
+can use that transformed representation
+to<00:07:29.960><c> produce</c><00:07:30.320><c> the</c><00:07:30.440><c> final</c><00:07:30.800><c> output.</c><00:07:31.760><c> By</c><00:07:31.840><c> stacking</c>
+
+00:07:32.310 --> 00:07:32.320 align:start position:0%
+to produce the final output. By stacking
+ 
+
+00:07:32.320 --> 00:07:33.909 align:start position:0%
+to produce the final output. By stacking
+layers<00:07:32.640><c> like</c><00:07:32.800><c> this,</c><00:07:33.360><c> the</c><00:07:33.480><c> network</c><00:07:33.800><c> can</c>
+
+00:07:33.909 --> 00:07:33.919 align:start position:0%
+layers like this, the network can
+ 
+
+00:07:33.919 --> 00:07:36.350 align:start position:0%
+layers like this, the network can
+represent<00:07:34.400><c> more</c><00:07:34.600><c> complex</c><00:07:35.080><c> functions.</c><00:07:36.200><c> This</c>
+
+00:07:36.350 --> 00:07:36.360 align:start position:0%
+represent more complex functions. This
+ 
+
+00:07:36.360 --> 00:07:38.270 align:start position:0%
+represent more complex functions. This
+is<00:07:36.480><c> the</c><00:07:36.600><c> basic</c><00:07:37.000><c> idea</c><00:07:37.320><c> behind</c><00:07:37.680><c> multi-layer</c>
+
+00:07:38.270 --> 00:07:38.280 align:start position:0%
+is the basic idea behind multi-layer
+ 
+
+00:07:38.280 --> 00:07:39.710 align:start position:0%
+is the basic idea behind multi-layer
+neural<00:07:38.520><c> networks.</c>
+
+00:07:39.710 --> 00:07:39.720 align:start position:0%
+neural networks.
+ 
+
+00:07:39.720 --> 00:07:42.350 align:start position:0%
+neural networks.
+Now,<00:07:40.320><c> let's</c><00:07:40.560><c> look</c><00:07:40.720><c> at</c><00:07:40.840><c> a</c><00:07:40.880><c> working</c><00:07:41.240><c> example.</c><00:07:42.240><c> At</c>
+
+00:07:42.350 --> 00:07:42.360 align:start position:0%
+Now, let's look at a working example. At
+ 
+
+00:07:42.360 --> 00:07:44.230 align:start position:0%
+Now, let's look at a working example. At
+the<00:07:42.480><c> beginning</c><00:07:42.840><c> of</c><00:07:42.960><c> training,</c><00:07:43.680><c> the</c><00:07:43.840><c> outputs</c>
+
+00:07:44.230 --> 00:07:44.240 align:start position:0%
+the beginning of training, the outputs
+ 
+
+00:07:44.240 --> 00:07:46.110 align:start position:0%
+the beginning of training, the outputs
+are<00:07:44.320><c> not</c><00:07:44.560><c> very</c><00:07:44.760><c> stable.</c><00:07:45.640><c> You</c><00:07:45.760><c> might</c><00:07:45.960><c> see</c>
+
+00:07:46.110 --> 00:07:46.120 align:start position:0%
+are not very stable. You might see
+ 
+
+00:07:46.120 --> 00:07:49.710 align:start position:0%
+are not very stable. You might see
+values<00:07:46.520><c> around</c><00:07:46.840><c> 0.4</c><00:07:47.960><c> or</c><00:07:48.080><c> 0.5.</c><00:07:49.480><c> So,</c><00:07:49.600><c> the</c>
+
+00:07:49.710 --> 00:07:49.720 align:start position:0%
+values around 0.4 or 0.5. So, the
+ 
+
+00:07:49.720 --> 00:07:51.750 align:start position:0%
+values around 0.4 or 0.5. So, the
+network<00:07:50.080><c> is</c><00:07:50.240><c> basically</c><00:07:50.720><c> guessing.</c>
+
+00:07:51.750 --> 00:07:51.760 align:start position:0%
+network is basically guessing.
+ 
+
+00:07:51.760 --> 00:07:53.750 align:start position:0%
+network is basically guessing.
+But,<00:07:51.840><c> as</c><00:07:51.960><c> training</c><00:07:52.320><c> continues,</c><00:07:53.200><c> the</c><00:07:53.360><c> outputs</c>
+
+00:07:53.750 --> 00:07:53.760 align:start position:0%
+But, as training continues, the outputs
+ 
+
+00:07:53.760 --> 00:07:55.430 align:start position:0%
+But, as training continues, the outputs
+gradually<00:07:54.240><c> move</c><00:07:54.480><c> closer</c><00:07:54.880><c> to</c><00:07:55.000><c> the</c><00:07:55.080><c> correct</c>
+
+00:07:55.430 --> 00:07:55.440 align:start position:0%
+gradually move closer to the correct
+ 
+
+00:07:55.440 --> 00:07:57.870 align:start position:0%
+gradually move closer to the correct
+answers.<00:07:56.360><c> Eventually,</c><00:07:57.240><c> we</c><00:07:57.360><c> get</c><00:07:57.560><c> something</c>
+
+00:07:57.870 --> 00:07:57.880 align:start position:0%
+answers. Eventually, we get something
+ 
+
+00:07:57.880 --> 00:07:58.950 align:start position:0%
+answers. Eventually, we get something
+like<00:07:58.080><c> this.</c>
+
+00:07:58.950 --> 00:07:58.960 align:start position:0%
+like this.
+ 
+
+00:07:58.960 --> 00:08:01.870 align:start position:0%
+like this.
+For<00:07:59.040><c> 0</c><00:07:59.520><c> XOR</c><00:08:00.000><c> 0,</c><00:08:00.680><c> the</c><00:08:00.800><c> output</c><00:08:01.120><c> becomes</c><00:08:01.480><c> close</c><00:08:01.760><c> to</c>
+
+00:08:01.870 --> 00:08:01.880 align:start position:0%
+For 0 XOR 0, the output becomes close to
+ 
+
+00:08:01.880 --> 00:08:05.150 align:start position:0%
+For 0 XOR 0, the output becomes close to
+0,<00:08:02.640><c> maybe</c><00:08:02.960><c> around</c><00:08:03.320><c> 0.01.</c>
+
+00:08:05.150 --> 00:08:05.160 align:start position:0%
+0, maybe around 0.01.
+ 
+
+00:08:05.160 --> 00:08:07.990 align:start position:0%
+0, maybe around 0.01.
+For<00:08:05.240><c> 0</c><00:08:05.600><c> XOR</c><00:08:06.120><c> 1,</c><00:08:06.760><c> the</c><00:08:06.880><c> output</c><00:08:07.200><c> becomes</c><00:08:07.560><c> close</c><00:08:07.840><c> to</c>
+
+00:08:07.990 --> 00:08:08.000 align:start position:0%
+For 0 XOR 1, the output becomes close to
+ 
+
+00:08:08.000 --> 00:08:10.870 align:start position:0%
+For 0 XOR 1, the output becomes close to
+1,<00:08:08.640><c> maybe</c><00:08:08.920><c> around</c><00:08:09.240><c> 0.98.</c>
+
+00:08:10.870 --> 00:08:10.880 align:start position:0%
+1, maybe around 0.98.
+ 
+
+00:08:10.880 --> 00:08:13.470 align:start position:0%
+1, maybe around 0.98.
+For<00:08:11.040><c> 1</c><00:08:11.280><c> XOR</c><00:08:11.680><c> 0,</c><00:08:12.280><c> the</c><00:08:12.440><c> output</c><00:08:12.800><c> also</c><00:08:13.080><c> becomes</c>
+
+00:08:13.470 --> 00:08:13.480 align:start position:0%
+For 1 XOR 0, the output also becomes
+ 
+
+00:08:13.480 --> 00:08:16.710 align:start position:0%
+For 1 XOR 0, the output also becomes
+close<00:08:13.720><c> to</c><00:08:13.880><c> 1.</c><00:08:14.720><c> And</c><00:08:14.840><c> for</c><00:08:15.000><c> 1</c><00:08:15.240><c> XOR</c><00:08:15.680><c> 1,</c><00:08:16.240><c> the</c><00:08:16.360><c> output</c>
+
+00:08:16.710 --> 00:08:16.720 align:start position:0%
+close to 1. And for 1 XOR 1, the output
+ 
+
+00:08:16.720 --> 00:08:18.510 align:start position:0%
+close to 1. And for 1 XOR 1, the output
+becomes<00:08:17.080><c> close</c><00:08:17.360><c> to</c><00:08:17.480><c> 0.</c>
+
+00:08:18.510 --> 00:08:18.520 align:start position:0%
+becomes close to 0.
+ 
+
+00:08:18.520 --> 00:08:20.190 align:start position:0%
+becomes close to 0.
+So,<00:08:18.600><c> the</c><00:08:18.720><c> network</c><00:08:19.120><c> has</c><00:08:19.280><c> learned</c><00:08:19.600><c> the</c><00:08:19.720><c> XOR</c>
+
+00:08:20.190 --> 00:08:20.200 align:start position:0%
+So, the network has learned the XOR
+ 
+
+00:08:20.200 --> 00:08:21.830 align:start position:0%
+So, the network has learned the XOR
+behavior<00:08:20.680><c> from</c><00:08:20.880><c> data.</c>
+
+00:08:21.830 --> 00:08:21.840 align:start position:0%
+behavior from data.
+ 
+
+00:08:21.840 --> 00:08:23.470 align:start position:0%
+behavior from data.
+That's<00:08:22.120><c> the</c><00:08:22.240><c> high-level</c><00:08:22.720><c> flow</c><00:08:23.000><c> of</c><00:08:23.120><c> how</c><00:08:23.240><c> this</c>
+
+00:08:23.470 --> 00:08:23.480 align:start position:0%
+That's the high-level flow of how this
+ 
+
+00:08:23.480 --> 00:08:25.510 align:start position:0%
+That's the high-level flow of how this
+tiny<00:08:23.800><c> neural</c><00:08:24.080><c> network</c><00:08:24.480><c> works.</c>
+
+00:08:25.510 --> 00:08:25.520 align:start position:0%
+tiny neural network works.
+ 
+
+00:08:25.520 --> 00:08:27.350 align:start position:0%
+tiny neural network works.
+From<00:08:25.680><c> here,</c><00:08:26.400><c> let's</c><00:08:26.680><c> look</c><00:08:26.840><c> at</c><00:08:26.960><c> some</c><00:08:27.160><c> of</c><00:08:27.240><c> the</c>
+
+00:08:27.350 --> 00:08:27.360 align:start position:0%
+From here, let's look at some of the
+ 
+
+00:08:27.360 --> 00:08:29.390 align:start position:0%
+From here, let's look at some of the
+math<00:08:27.880><c> and</c><00:08:28.080><c> TypeScript</c><00:08:28.680><c> implementation</c>
+
+00:08:29.390 --> 00:08:29.400 align:start position:0%
+math and TypeScript implementation
+ 
+
+00:08:29.400 --> 00:08:31.710 align:start position:0%
+math and TypeScript implementation
+details<00:08:29.919><c> behind</c><00:08:30.400><c> each</c><00:08:30.600><c> block.</c>
+
+00:08:31.710 --> 00:08:31.720 align:start position:0%
+details behind each block.
+ 
+
+00:08:31.720 --> 00:08:34.550 align:start position:0%
+details behind each block.
+First,<00:08:32.479><c> let's</c><00:08:32.719><c> quickly</c><00:08:33.120><c> review</c><00:08:33.440><c> derivatives.</c>
+
+00:08:34.550 --> 00:08:34.560 align:start position:0%
+First, let's quickly review derivatives.
+ 
+
+00:08:34.560 --> 00:08:36.589 align:start position:0%
+First, let's quickly review derivatives.
+A<00:08:34.640><c> derivative</c><00:08:35.200><c> tells</c><00:08:35.560><c> us</c><00:08:35.719><c> the</c><00:08:35.880><c> rate</c><00:08:36.120><c> of</c><00:08:36.240><c> change</c>
+
+00:08:36.589 --> 00:08:36.599 align:start position:0%
+A derivative tells us the rate of change
+ 
+
+00:08:36.599 --> 00:08:39.390 align:start position:0%
+A derivative tells us the rate of change
+of<00:08:36.680><c> a</c><00:08:36.760><c> function</c><00:08:37.560><c> at</c><00:08:37.680><c> a</c><00:08:37.719><c> specific</c><00:08:38.280><c> point.</c><00:08:39.280><c> In</c>
+
+00:08:39.390 --> 00:08:39.400 align:start position:0%
+of a function at a specific point. In
+ 
+
+00:08:39.400 --> 00:08:42.110 align:start position:0%
+of a function at a specific point. In
+other<00:08:39.599><c> words,</c><00:08:40.159><c> it</c><00:08:40.360><c> tells</c><00:08:40.599><c> us</c><00:08:40.760><c> the</c><00:08:40.880><c> slope.</c><00:08:42.000><c> In</c>
+
+00:08:42.110 --> 00:08:42.120 align:start position:0%
+other words, it tells us the slope. In
+ 
+
+00:08:42.120 --> 00:08:44.029 align:start position:0%
+other words, it tells us the slope. In
+neural<00:08:42.360><c> networks,</c><00:08:43.159><c> we</c><00:08:43.280><c> need</c><00:08:43.479><c> to</c><00:08:43.599><c> know</c><00:08:43.760><c> which</c>
+
+00:08:44.029 --> 00:08:44.039 align:start position:0%
+neural networks, we need to know which
+ 
+
+00:08:44.039 --> 00:08:46.430 align:start position:0%
+neural networks, we need to know which
+direction<00:08:44.520><c> to</c><00:08:44.640><c> move</c><00:08:44.880><c> the</c><00:08:45.000><c> weights</c><00:08:45.400><c> and</c><00:08:45.560><c> biases</c>
+
+00:08:46.430 --> 00:08:46.440 align:start position:0%
+direction to move the weights and biases
+ 
+
+00:08:46.440 --> 00:08:48.390 align:start position:0%
+direction to move the weights and biases
+in<00:08:46.560><c> order</c><00:08:46.760><c> to</c><00:08:46.920><c> reduce</c><00:08:47.320><c> the</c><00:08:47.480><c> error.</c>
+
+00:08:48.390 --> 00:08:48.400 align:start position:0%
+in order to reduce the error.
+ 
+
+00:08:48.400 --> 00:08:49.910 align:start position:0%
+in order to reduce the error.
+Derivatives<00:08:48.880><c> help</c><00:08:49.120><c> us</c><00:08:49.240><c> understand</c><00:08:49.800><c> that</c>
+
+00:08:49.910 --> 00:08:49.920 align:start position:0%
+Derivatives help us understand that
+ 
+
+00:08:49.920 --> 00:08:52.790 align:start position:0%
+Derivatives help us understand that
+direction<00:08:50.680><c> and</c><00:08:50.800><c> the</c><00:08:50.920><c> size</c><00:08:51.320><c> of</c><00:08:51.400><c> the</c><00:08:51.520><c> change.</c>
+
+00:08:52.790 --> 00:08:52.800 align:start position:0%
+direction and the size of the change.
+ 
+
+00:08:52.800 --> 00:08:54.990 align:start position:0%
+direction and the size of the change.
+Let's<00:08:53.000><c> use</c><00:08:53.160><c> the</c><00:08:53.280><c> function</c><00:08:53.720><c> x</c><00:08:53.960><c> squared.</c>
+
+00:08:54.990 --> 00:08:55.000 align:start position:0%
+Let's use the function x squared.
+ 
+
+00:08:55.000 --> 00:08:56.430 align:start position:0%
+Let's use the function x squared.
+Suppose<00:08:55.360><c> we</c><00:08:55.480><c> want</c><00:08:55.680><c> to</c><00:08:55.760><c> know</c><00:08:55.880><c> the</c><00:08:55.960><c> slope</c><00:08:56.320><c> at</c>
+
+00:08:56.430 --> 00:08:56.440 align:start position:0%
+Suppose we want to know the slope at
+ 
+
+00:08:56.440 --> 00:08:58.870 align:start position:0%
+Suppose we want to know the slope at
+some<00:08:56.640><c> point</c><00:08:56.920><c> x.</c><00:08:57.640><c> To</c><00:08:57.760><c> do</c><00:08:57.920><c> that,</c><00:08:58.440><c> we</c><00:08:58.560><c> look</c><00:08:58.720><c> at</c><00:08:58.800><c> the</c>
+
+00:08:58.870 --> 00:08:58.880 align:start position:0%
+some point x. To do that, we look at the
+ 
+
+00:08:58.880 --> 00:09:01.270 align:start position:0%
+some point x. To do that, we look at the
+value<00:08:59.240><c> of</c><00:08:59.320><c> the</c><00:08:59.440><c> function</c><00:08:59.920><c> at</c><00:09:00.120><c> x</c><00:09:00.720><c> and</c><00:09:00.880><c> also</c><00:09:01.160><c> at</c><00:09:01.240><c> a</c>
+
+00:09:01.270 --> 00:09:01.280 align:start position:0%
+value of the function at x and also at a
+ 
+
+00:09:01.280 --> 00:09:04.790 align:start position:0%
+value of the function at x and also at a
+point<00:09:01.640><c> just</c><00:09:01.839><c> a</c><00:09:01.920><c> tiny</c><00:09:02.320><c> bit</c><00:09:02.480><c> ahead,</c><00:09:03.200><c> x</c><00:09:03.480><c> +</c><00:09:03.839><c> h.</c>
+
+00:09:04.790 --> 00:09:04.800 align:start position:0%
+point just a tiny bit ahead, x + h.
+ 
+
+00:09:04.800 --> 00:09:06.790 align:start position:0%
+point just a tiny bit ahead, x + h.
+The<00:09:04.880><c> rate</c><00:09:05.080><c> of</c><00:09:05.200><c> change</c><00:09:05.560><c> can</c><00:09:05.680><c> be</c><00:09:05.800><c> written</c><00:09:06.120><c> as</c><00:09:06.680><c> the</c>
+
+00:09:06.790 --> 00:09:06.800 align:start position:0%
+The rate of change can be written as the
+ 
+
+00:09:06.800 --> 00:09:10.070 align:start position:0%
+The rate of change can be written as the
+value<00:09:07.160><c> at</c><00:09:07.360><c> x</c><00:09:07.600><c> +</c><00:09:07.920><c> h</c><00:09:08.520><c> minus</c><00:09:08.920><c> the</c><00:09:09.040><c> value</c><00:09:09.360><c> at</c><00:09:09.520><c> x</c>
+
+00:09:10.070 --> 00:09:10.080 align:start position:0%
+value at x + h minus the value at x
+ 
+
+00:09:10.080 --> 00:09:12.670 align:start position:0%
+value at x + h minus the value at x
+divided<00:09:10.520><c> by</c><00:09:10.760><c> h.</c><00:09:11.680><c> If</c><00:09:11.800><c> our</c><00:09:11.920><c> function</c><00:09:12.280><c> is</c><00:09:12.440><c> x</c>
+
+00:09:12.670 --> 00:09:12.680 align:start position:0%
+divided by h. If our function is x
+ 
+
+00:09:12.680 --> 00:09:15.829 align:start position:0%
+divided by h. If our function is x
+squared,<00:09:13.440><c> this</c><00:09:13.640><c> becomes</c><00:09:14.160><c> x</c><00:09:14.440><c> +</c><00:09:14.800><c> h</c><00:09:15.080><c> squared</c>
+
+00:09:15.829 --> 00:09:15.839 align:start position:0%
+squared, this becomes x + h squared
+ 
+
+00:09:15.839 --> 00:09:19.070 align:start position:0%
+squared, this becomes x + h squared
+minus<00:09:16.320><c> x</c><00:09:16.560><c> squared</c><00:09:17.240><c> divided</c><00:09:17.720><c> by</c><00:09:17.920><c> h.</c><00:09:18.839><c> When</c><00:09:18.960><c> we</c>
+
+00:09:19.070 --> 00:09:19.080 align:start position:0%
+minus x squared divided by h. When we
+ 
+
+00:09:19.080 --> 00:09:21.230 align:start position:0%
+minus x squared divided by h. When we
+expand<00:09:19.520><c> that</c><00:09:19.640><c> expression,</c><00:09:20.440><c> the</c><00:09:20.640><c> x</c><00:09:20.880><c> squared</c>
+
+00:09:21.230 --> 00:09:21.240 align:start position:0%
+expand that expression, the x squared
+ 
+
+00:09:21.240 --> 00:09:24.510 align:start position:0%
+expand that expression, the x squared
+terms<00:09:21.520><c> cancel</c><00:09:21.960><c> out.</c><00:09:22.720><c> Then,</c><00:09:23.000><c> we</c><00:09:23.120><c> divide</c><00:09:23.560><c> by</c><00:09:23.800><c> h.</c>
+
+00:09:24.510 --> 00:09:24.520 align:start position:0%
+terms cancel out. Then, we divide by h.
+ 
+
+00:09:24.520 --> 00:09:27.070 align:start position:0%
+terms cancel out. Then, we divide by h.
+Finally,<00:09:25.000><c> when</c><00:09:25.240><c> h</c><00:09:25.480><c> gets</c><00:09:25.680><c> extremely</c><00:09:26.280><c> small,</c>
+
+00:09:27.070 --> 00:09:27.080 align:start position:0%
+Finally, when h gets extremely small,
+ 
+
+00:09:27.080 --> 00:09:29.310 align:start position:0%
+Finally, when h gets extremely small,
+basically<00:09:27.520><c> approaching</c><00:09:27.960><c> zero,</c><00:09:28.640><c> the</c><00:09:28.839><c> h</c><00:09:29.080><c> term</c>
+
+00:09:29.310 --> 00:09:29.320 align:start position:0%
+basically approaching zero, the h term
+ 
+
+00:09:29.320 --> 00:09:32.190 align:start position:0%
+basically approaching zero, the h term
+disappears.<00:09:30.280><c> So,</c><00:09:30.440><c> we</c><00:09:30.560><c> get</c><00:09:30.839><c> 2x.</c><00:09:31.800><c> That</c><00:09:32.000><c> means</c>
+
+00:09:32.190 --> 00:09:32.200 align:start position:0%
+disappears. So, we get 2x. That means
+ 
+
+00:09:32.200 --> 00:09:35.070 align:start position:0%
+disappears. So, we get 2x. That means
+the<00:09:32.280><c> derivative</c><00:09:32.760><c> of</c><00:09:32.960><c> x</c><00:09:33.200><c> squared</c><00:09:33.839><c> is</c><00:09:34.080><c> 2x.</c>
+
+00:09:35.070 --> 00:09:35.080 align:start position:0%
+the derivative of x squared is 2x.
+ 
+
+00:09:35.080 --> 00:09:36.510 align:start position:0%
+the derivative of x squared is 2x.
+That's<00:09:35.400><c> the</c><00:09:35.520><c> basic</c><00:09:35.960><c> idea</c><00:09:36.320><c> of</c>
+
+00:09:36.510 --> 00:09:36.520 align:start position:0%
+That's the basic idea of
+ 
+
+00:09:36.520 --> 00:09:39.110 align:start position:0%
+That's the basic idea of
+differentiation.<00:09:37.840><c> Next,</c><00:09:38.520><c> let's</c><00:09:38.800><c> look</c><00:09:38.960><c> at</c>
+
+00:09:39.110 --> 00:09:39.120 align:start position:0%
+differentiation. Next, let's look at
+ 
+
+00:09:39.120 --> 00:09:41.670 align:start position:0%
+differentiation. Next, let's look at
+matrix<00:09:39.520><c> calculations.</c><00:09:40.720><c> Neural</c><00:09:41.040><c> networks</c><00:09:41.480><c> use</c>
+
+00:09:41.670 --> 00:09:41.680 align:start position:0%
+matrix calculations. Neural networks use
+ 
+
+00:09:41.680 --> 00:09:44.310 align:start position:0%
+matrix calculations. Neural networks use
+matrix<00:09:42.120><c> operations</c><00:09:42.680><c> a</c><00:09:42.760><c> lot</c><00:09:43.320><c> because</c><00:09:43.680><c> inputs,</c>
+
+00:09:44.310 --> 00:09:44.320 align:start position:0%
+matrix operations a lot because inputs,
+ 
+
+00:09:44.320 --> 00:09:46.350 align:start position:0%
+matrix operations a lot because inputs,
+weights,<00:09:44.720><c> and</c><00:09:44.880><c> biases</c><00:09:45.400><c> are</c><00:09:45.600><c> easier</c><00:09:45.880><c> to</c><00:09:46.040><c> handle</c>
+
+00:09:46.350 --> 00:09:46.360 align:start position:0%
+weights, and biases are easier to handle
+ 
+
+00:09:46.360 --> 00:09:48.230 align:start position:0%
+weights, and biases are easier to handle
+in<00:09:46.480><c> matrix</c><00:09:46.880><c> form.</c><00:09:47.680><c> Let's</c><00:09:47.920><c> start</c><00:09:48.120><c> with</c>
+
+00:09:48.230 --> 00:09:48.240 align:start position:0%
+in matrix form. Let's start with
+ 
+
+00:09:48.240 --> 00:09:50.870 align:start position:0%
+in matrix form. Let's start with
+addition.<00:09:49.160><c> Matrix</c><00:09:49.600><c> addition</c><00:09:49.920><c> is</c><00:09:50.040><c> simple.</c><00:09:50.760><c> We</c>
+
+00:09:50.870 --> 00:09:50.880 align:start position:0%
+addition. Matrix addition is simple. We
+ 
+
+00:09:50.880 --> 00:09:53.190 align:start position:0%
+addition. Matrix addition is simple. We
+just<00:09:51.120><c> add</c><00:09:51.400><c> each</c><00:09:51.640><c> pair</c><00:09:51.880><c> of</c><00:09:52.000><c> matching</c><00:09:52.360><c> elements.</c>
+
+00:09:53.190 --> 00:09:53.200 align:start position:0%
+just add each pair of matching elements.
+ 
+
+00:09:53.200 --> 00:09:55.470 align:start position:0%
+just add each pair of matching elements.
+For<00:09:53.320><c> example,</c><00:09:54.040><c> if</c><00:09:54.160><c> we</c><00:09:54.280><c> have</c><00:09:54.400><c> a</c><00:09:54.480><c> 2</c><00:09:54.680><c> by</c><00:09:54.840><c> 2</c><00:09:55.040><c> matrix</c>
+
+00:09:55.470 --> 00:09:55.480 align:start position:0%
+For example, if we have a 2 by 2 matrix
+ 
+
+00:09:55.480 --> 00:09:58.590 align:start position:0%
+For example, if we have a 2 by 2 matrix
+with<00:09:55.680><c> 1,</c><00:09:56.200><c> 2,</c><00:09:56.520><c> 3,</c><00:09:56.800><c> and</c><00:09:56.960><c> 4,</c><00:09:57.680><c> and</c><00:09:57.800><c> another</c><00:09:58.120><c> 2</c><00:09:58.280><c> by</c><00:09:58.440><c> 2</c>
+
+00:09:58.590 --> 00:09:58.600 align:start position:0%
+with 1, 2, 3, and 4, and another 2 by 2
+ 
+
+00:09:58.600 --> 00:10:01.910 align:start position:0%
+with 1, 2, 3, and 4, and another 2 by 2
+matrix<00:09:59.000><c> with</c><00:09:59.200><c> 5,</c><00:09:59.840><c> 6,</c><00:10:00.440><c> 7,</c><00:10:00.880><c> and</c><00:10:01.040><c> 8,</c><00:10:01.680><c> then</c><00:10:01.840><c> the</c>
+
+00:10:01.910 --> 00:10:01.920 align:start position:0%
+matrix with 5, 6, 7, and 8, then the
+ 
+
+00:10:01.920 --> 00:10:05.310 align:start position:0%
+matrix with 5, 6, 7, and 8, then the
+result<00:10:02.400><c> is</c><00:10:02.600><c> 6,</c><00:10:03.160><c> 8,</c><00:10:03.680><c> 10,</c><00:10:03.960><c> and</c><00:10:04.120><c> 12.</c><00:10:05.040><c> In</c><00:10:05.240><c> the</c>
+
+00:10:05.310 --> 00:10:05.320 align:start position:0%
+result is 6, 8, 10, and 12. In the
+ 
+
+00:10:05.320 --> 00:10:06.630 align:start position:0%
+result is 6, 8, 10, and 12. In the
+source<00:10:05.600><c> code,</c><00:10:06.080><c> this</c><00:10:06.280><c> is</c><00:10:06.400><c> also</c>
+
+00:10:06.630 --> 00:10:06.640 align:start position:0%
+source code, this is also
+ 
+
+00:10:06.640 --> 00:10:08.270 align:start position:0%
+source code, this is also
+straightforward.<00:10:07.640><c> We</c><00:10:07.800><c> loop</c><00:10:08.040><c> through</c><00:10:08.200><c> the</c>
+
+00:10:08.270 --> 00:10:08.280 align:start position:0%
+straightforward. We loop through the
+ 
+
+00:10:08.280 --> 00:10:10.590 align:start position:0%
+straightforward. We loop through the
+arrays,<00:10:09.000><c> pick</c><00:10:09.240><c> the</c><00:10:09.320><c> matching</c><00:10:09.640><c> values,</c><00:10:10.400><c> and</c>
+
+00:10:10.590 --> 00:10:10.600 align:start position:0%
+arrays, pick the matching values, and
+ 
+
+00:10:10.600 --> 00:10:12.870 align:start position:0%
+arrays, pick the matching values, and
+add<00:10:10.760><c> them</c><00:10:10.920><c> together.</c><00:10:11.880><c> Subtraction</c><00:10:12.520><c> works</c><00:10:12.760><c> the</c>
+
+00:10:12.870 --> 00:10:12.880 align:start position:0%
+add them together. Subtraction works the
+ 
+
+00:10:12.880 --> 00:10:15.750 align:start position:0%
+add them together. Subtraction works the
+same<00:10:13.160><c> way.</c><00:10:13.800><c> We</c><00:10:13.920><c> subtract</c><00:10:14.440><c> matching</c><00:10:14.800><c> elements.</c>
+
+00:10:15.750 --> 00:10:15.760 align:start position:0%
+same way. We subtract matching elements.
+ 
+
+00:10:15.760 --> 00:10:18.190 align:start position:0%
+same way. We subtract matching elements.
+Next<00:10:16.200><c> is</c><00:10:16.440><c> element-wise</c><00:10:17.040><c> multiplication.</c>
+
+00:10:18.190 --> 00:10:18.200 align:start position:0%
+Next is element-wise multiplication.
+ 
+
+00:10:18.200 --> 00:10:20.470 align:start position:0%
+Next is element-wise multiplication.
+This<00:10:18.400><c> is</c><00:10:18.520><c> not</c><00:10:18.880><c> matrix</c><00:10:19.240><c> multiplication.</c><00:10:20.320><c> It</c>
+
+00:10:20.470 --> 00:10:20.480 align:start position:0%
+This is not matrix multiplication. It
+ 
+
+00:10:20.480 --> 00:10:22.350 align:start position:0%
+This is not matrix multiplication. It
+simply<00:10:20.800><c> multiplies</c><00:10:21.440><c> values</c><00:10:21.840><c> at</c><00:10:21.960><c> the</c><00:10:22.040><c> same</c>
+
+00:10:22.350 --> 00:10:22.360 align:start position:0%
+simply multiplies values at the same
+ 
+
+00:10:22.360 --> 00:10:24.950 align:start position:0%
+simply multiplies values at the same
+position.<00:10:23.360><c> Next,</c><00:10:24.120><c> let's</c><00:10:24.320><c> look</c><00:10:24.480><c> at</c><00:10:24.560><c> the</c><00:10:24.640><c> dot</c>
+
+00:10:24.950 --> 00:10:24.960 align:start position:0%
+position. Next, let's look at the dot
+ 
+
+00:10:24.960 --> 00:10:27.510 align:start position:0%
+position. Next, let's look at the dot
+operation,<00:10:25.760><c> or</c><00:10:25.920><c> matrix</c><00:10:26.320><c> multiplication.</c>
+
+00:10:27.510 --> 00:10:27.520 align:start position:0%
+operation, or matrix multiplication.
+ 
+
+00:10:27.520 --> 00:10:29.110 align:start position:0%
+operation, or matrix multiplication.
+This<00:10:27.720><c> is</c><00:10:27.840><c> one</c><00:10:28.000><c> of</c><00:10:28.080><c> the</c><00:10:28.200><c> most</c><00:10:28.560><c> important</c>
+
+00:10:29.110 --> 00:10:29.120 align:start position:0%
+This is one of the most important
+ 
+
+00:10:29.120 --> 00:10:31.670 align:start position:0%
+This is one of the most important
+operations<00:10:29.760><c> in</c><00:10:29.920><c> neural</c><00:10:30.160><c> networks.</c><00:10:31.160><c> In</c><00:10:31.320><c> matrix</c>
+
+00:10:31.670 --> 00:10:31.680 align:start position:0%
+operations in neural networks. In matrix
+ 
+
+00:10:31.680 --> 00:10:33.910 align:start position:0%
+operations in neural networks. In matrix
+multiplication,<00:10:32.680><c> we</c><00:10:32.840><c> combine</c><00:10:33.320><c> rows</c><00:10:33.640><c> from</c><00:10:33.800><c> the</c>
+
+00:10:33.910 --> 00:10:33.920 align:start position:0%
+multiplication, we combine rows from the
+ 
+
+00:10:33.920 --> 00:10:36.030 align:start position:0%
+multiplication, we combine rows from the
+left<00:10:34.240><c> matrix</c><00:10:34.960><c> with</c><00:10:35.160><c> columns</c><00:10:35.600><c> from</c><00:10:35.760><c> the</c><00:10:35.840><c> right</c>
+
+00:10:36.030 --> 00:10:36.040 align:start position:0%
+left matrix with columns from the right
+ 
+
+00:10:36.040 --> 00:10:38.470 align:start position:0%
+left matrix with columns from the right
+matrix.<00:10:36.960><c> For</c><00:10:37.080><c> example,</c><00:10:37.760><c> suppose</c><00:10:38.160><c> we</c><00:10:38.240><c> have</c><00:10:38.360><c> the</c>
+
+00:10:38.470 --> 00:10:38.480 align:start position:0%
+matrix. For example, suppose we have the
+ 
+
+00:10:38.480 --> 00:10:41.470 align:start position:0%
+matrix. For example, suppose we have the
+matrix<00:10:39.040><c> A.</c><00:10:39.640><c> The</c><00:10:39.720><c> first</c><00:10:40.040><c> row</c><00:10:40.200><c> is</c><00:10:40.360><c> 1</c><00:10:40.600><c> and</c><00:10:40.760><c> 2.</c><00:10:41.360><c> The</c>
+
+00:10:41.470 --> 00:10:41.480 align:start position:0%
+matrix A. The first row is 1 and 2. The
+ 
+
+00:10:41.480 --> 00:10:43.670 align:start position:0%
+matrix A. The first row is 1 and 2. The
+second<00:10:41.800><c> row</c><00:10:41.960><c> is</c><00:10:42.120><c> 3</c><00:10:42.400><c> and</c><00:10:42.560><c> 4.</c><00:10:43.320><c> And</c><00:10:43.440><c> we</c><00:10:43.560><c> have</c>
+
+00:10:43.670 --> 00:10:43.680 align:start position:0%
+second row is 3 and 4. And we have
+ 
+
+00:10:43.680 --> 00:10:46.510 align:start position:0%
+second row is 3 and 4. And we have
+another<00:10:44.000><c> matrix</c><00:10:44.400><c> B.</c><00:10:45.000><c> The</c><00:10:45.120><c> first</c><00:10:45.440><c> value</c><00:10:45.760><c> is</c><00:10:45.920><c> 1.</c>
+
+00:10:46.510 --> 00:10:46.520 align:start position:0%
+another matrix B. The first value is 1.
+ 
+
+00:10:46.520 --> 00:10:49.070 align:start position:0%
+another matrix B. The first value is 1.
+The<00:10:46.640><c> second</c><00:10:46.960><c> value</c><00:10:47.320><c> is</c><00:10:47.560><c> 2.</c><00:10:48.440><c> First,</c><00:10:48.800><c> we</c><00:10:48.880><c> take</c>
+
+00:10:49.070 --> 00:10:49.080 align:start position:0%
+The second value is 2. First, we take
+ 
+
+00:10:49.080 --> 00:10:51.590 align:start position:0%
+The second value is 2. First, we take
+the<00:10:49.200><c> first</c><00:10:49.520><c> row</c><00:10:49.640><c> of</c><00:10:49.839><c> A,</c><00:10:50.320><c> which</c><00:10:50.480><c> is</c><00:10:50.680><c> 1</c><00:10:50.880><c> and</c><00:10:51.040><c> 2,</c>
+
+00:10:51.590 --> 00:10:51.600 align:start position:0%
+the first row of A, which is 1 and 2,
+ 
+
+00:10:51.600 --> 00:10:53.190 align:start position:0%
+the first row of A, which is 1 and 2,
+and<00:10:51.720><c> combine</c><00:10:52.120><c> it</c><00:10:52.200><c> with</c><00:10:52.320><c> the</c><00:10:52.400><c> first</c><00:10:52.760><c> column</c><00:10:53.040><c> of</c>
+
+00:10:53.190 --> 00:10:53.200 align:start position:0%
+and combine it with the first column of
+ 
+
+00:10:53.200 --> 00:10:56.710 align:start position:0%
+and combine it with the first column of
+B,<00:10:53.440><c> which</c><00:10:53.640><c> is</c><00:10:53.800><c> 1</c><00:10:54.000><c> and</c><00:10:54.200><c> 2.</c><00:10:54.839><c> We</c><00:10:54.960><c> calculate</c><00:10:55.520><c> 1</c><00:10:55.800><c> *</c><00:10:56.120><c> 1</c>
+
+00:10:56.710 --> 00:10:56.720 align:start position:0%
+B, which is 1 and 2. We calculate 1 * 1
+ 
+
+00:10:56.720 --> 00:11:00.270 align:start position:0%
+B, which is 1 and 2. We calculate 1 * 1
++<00:10:56.960><c> 2</c><00:10:57.200><c> *</c><00:10:57.560><c> 2.</c><00:10:58.200><c> That</c><00:10:58.440><c> gives</c><00:10:58.640><c> us</c><00:10:58.800><c> 5.</c><00:10:59.680><c> Then</c><00:10:59.960><c> we</c><00:11:00.080><c> take</c>
+
+00:11:00.270 --> 00:11:00.280 align:start position:0%
++ 2 * 2. That gives us 5. Then we take
+ 
+
+00:11:00.280 --> 00:11:02.790 align:start position:0%
++ 2 * 2. That gives us 5. Then we take
+the<00:11:00.400><c> second</c><00:11:00.760><c> row</c><00:11:00.880><c> of</c><00:11:01.080><c> A,</c><00:11:01.520><c> which</c><00:11:01.720><c> is</c><00:11:01.839><c> 3</c><00:11:02.120><c> and</c><00:11:02.280><c> 4,</c>
+
+00:11:02.790 --> 00:11:02.800 align:start position:0%
+the second row of A, which is 3 and 4,
+ 
+
+00:11:02.800 --> 00:11:04.390 align:start position:0%
+the second row of A, which is 3 and 4,
+and<00:11:02.920><c> combine</c><00:11:03.320><c> it</c><00:11:03.400><c> with</c><00:11:03.520><c> the</c><00:11:03.600><c> same</c><00:11:03.960><c> column</c><00:11:04.240><c> of</c>
+
+00:11:04.390 --> 00:11:04.400 align:start position:0%
+and combine it with the same column of
+ 
+
+00:11:04.400 --> 00:11:08.590 align:start position:0%
+and combine it with the same column of
+B.<00:11:05.080><c> We</c><00:11:05.200><c> calculate</c><00:11:05.720><c> 3</c><00:11:05.960><c> *</c><00:11:06.320><c> 1</c><00:11:06.839><c> +</c><00:11:07.080><c> 4</c><00:11:07.320><c> *</c><00:11:07.680><c> 2.</c><00:11:08.400><c> That</c>
+
+00:11:08.590 --> 00:11:08.600 align:start position:0%
+B. We calculate 3 * 1 + 4 * 2. That
+ 
+
+00:11:08.600 --> 00:11:11.070 align:start position:0%
+B. We calculate 3 * 1 + 4 * 2. That
+gives<00:11:08.839><c> us</c><00:11:08.960><c> 11.</c><00:11:09.839><c> So,</c><00:11:10.000><c> the</c><00:11:10.080><c> result</c><00:11:10.520><c> is</c><00:11:10.640><c> a</c><00:11:10.720><c> column</c>
+
+00:11:11.070 --> 00:11:11.080 align:start position:0%
+gives us 11. So, the result is a column
+ 
+
+00:11:11.080 --> 00:11:13.270 align:start position:0%
+gives us 11. So, the result is a column
+with<00:11:11.280><c> 5</c><00:11:11.680><c> and</c><00:11:11.800><c> 11.</c><00:11:12.720><c> For</c><00:11:12.920><c> matrix</c>
+
+00:11:13.270 --> 00:11:13.280 align:start position:0%
+with 5 and 11. For matrix
+ 
+
+00:11:13.280 --> 00:11:15.310 align:start position:0%
+with 5 and 11. For matrix
+multiplication,<00:11:14.320><c> the</c><00:11:14.440><c> number</c><00:11:14.720><c> of</c><00:11:14.839><c> columns</c><00:11:15.240><c> in</c>
+
+00:11:15.310 --> 00:11:15.320 align:start position:0%
+multiplication, the number of columns in
+ 
+
+00:11:15.320 --> 00:11:17.150 align:start position:0%
+multiplication, the number of columns in
+the<00:11:15.400><c> left</c><00:11:15.680><c> matrix</c><00:11:16.080><c> must</c><00:11:16.320><c> match</c><00:11:16.640><c> the</c><00:11:16.760><c> number</c><00:11:17.000><c> of</c>
+
+00:11:17.150 --> 00:11:17.160 align:start position:0%
+the left matrix must match the number of
+ 
+
+00:11:17.160 --> 00:11:18.870 align:start position:0%
+the left matrix must match the number of
+rows<00:11:17.400><c> in</c><00:11:17.520><c> the</c><00:11:17.560><c> right</c><00:11:17.800><c> matrix.</c><00:11:18.520><c> So,</c><00:11:18.640><c> if</c><00:11:18.760><c> the</c>
+
+00:11:18.870 --> 00:11:18.880 align:start position:0%
+rows in the right matrix. So, if the
+ 
+
+00:11:18.880 --> 00:11:21.470 align:start position:0%
+rows in the right matrix. So, if the
+left<00:11:19.160><c> matrix</c><00:11:19.560><c> is</c><00:11:19.760><c> 2</c><00:11:19.960><c> by</c><00:11:20.120><c> 2,</c><00:11:20.720><c> the</c><00:11:20.839><c> right</c><00:11:21.080><c> matrix</c>
+
+00:11:21.470 --> 00:11:21.480 align:start position:0%
+left matrix is 2 by 2, the right matrix
+ 
+
+00:11:21.480 --> 00:11:24.590 align:start position:0%
+left matrix is 2 by 2, the right matrix
+must<00:11:21.760><c> have</c><00:11:21.960><c> two</c><00:11:22.200><c> rows.</c><00:11:22.960><c> We</c><00:11:23.200><c> prepare</c><00:11:23.800><c> an</c><00:11:23.920><c> array</c>
+
+00:11:24.590 --> 00:11:24.600 align:start position:0%
+must have two rows. We prepare an array
+ 
+
+00:11:24.600 --> 00:11:27.030 align:start position:0%
+must have two rows. We prepare an array
+for<00:11:24.720><c> the</c><00:11:24.839><c> result.</c><00:11:25.920><c> Then</c><00:11:26.280><c> we</c><00:11:26.440><c> loop</c><00:11:26.720><c> over</c><00:11:26.920><c> the</c>
+
+00:11:27.030 --> 00:11:27.040 align:start position:0%
+for the result. Then we loop over the
+ 
+
+00:11:27.040 --> 00:11:29.310 align:start position:0%
+for the result. Then we loop over the
+rows<00:11:27.400><c> of</c><00:11:27.520><c> the</c><00:11:27.640><c> left</c><00:11:27.920><c> matrix</c><00:11:28.640><c> and</c><00:11:28.760><c> the</c><00:11:28.839><c> columns</c>
+
+00:11:29.310 --> 00:11:29.320 align:start position:0%
+rows of the left matrix and the columns
+ 
+
+00:11:29.320 --> 00:11:31.510 align:start position:0%
+rows of the left matrix and the columns
+of<00:11:29.400><c> the</c><00:11:29.480><c> right</c><00:11:29.720><c> matrix.</c><00:11:30.760><c> It</c><00:11:30.960><c> looks</c><00:11:31.160><c> a</c><00:11:31.200><c> little</c>
+
+00:11:31.510 --> 00:11:31.520 align:start position:0%
+of the right matrix. It looks a little
+ 
+
+00:11:31.520 --> 00:11:33.750 align:start position:0%
+of the right matrix. It looks a little
+complicated<00:11:32.160><c> at</c><00:11:32.280><c> first,</c><00:11:33.000><c> but</c><00:11:33.120><c> the</c><00:11:33.240><c> idea</c><00:11:33.600><c> is</c>
+
+00:11:33.750 --> 00:11:33.760 align:start position:0%
+complicated at first, but the idea is
+ 
+
+00:11:33.760 --> 00:11:36.430 align:start position:0%
+complicated at first, but the idea is
+simple.<00:11:34.720><c> Take</c><00:11:34.880><c> a</c><00:11:34.960><c> row</c><00:11:35.360><c> and</c><00:11:35.520><c> a</c><00:11:35.560><c> column,</c>
+
+00:11:36.430 --> 00:11:36.440 align:start position:0%
+simple. Take a row and a column,
+ 
+
+00:11:36.440 --> 00:11:38.710 align:start position:0%
+simple. Take a row and a column,
+multiply<00:11:37.000><c> matching</c><00:11:37.360><c> values,</c><00:11:38.160><c> and</c><00:11:38.360><c> add</c><00:11:38.560><c> them</c>
+
+00:11:38.710 --> 00:11:38.720 align:start position:0%
+multiply matching values, and add them
+ 
+
+00:11:38.720 --> 00:11:39.590 align:start position:0%
+multiply matching values, and add them
+up.
+
+00:11:39.590 --> 00:11:39.600 align:start position:0%
+up.
+ 
+
+00:11:39.600 --> 00:11:42.230 align:start position:0%
+up.
+Next<00:11:40.000><c> is</c><00:11:40.160><c> transpose.</c><00:11:41.440><c> Transpose</c><00:11:42.000><c> means</c>
+
+00:11:42.230 --> 00:11:42.240 align:start position:0%
+Next is transpose. Transpose means
+ 
+
+00:11:42.240 --> 00:11:44.830 align:start position:0%
+Next is transpose. Transpose means
+swapping<00:11:42.720><c> rows</c><00:11:43.040><c> and</c><00:11:43.160><c> columns.</c><00:11:44.000><c> For</c><00:11:44.120><c> example,</c>
+
+00:11:44.830 --> 00:11:44.840 align:start position:0%
+swapping rows and columns. For example,
+ 
+
+00:11:44.840 --> 00:11:46.350 align:start position:0%
+swapping rows and columns. For example,
+if<00:11:44.960><c> we</c><00:11:45.040><c> have</c><00:11:45.200><c> a</c><00:11:45.240><c> matrix</c><00:11:45.680><c> where</c><00:11:45.800><c> the</c><00:11:45.880><c> first</c><00:11:46.240><c> row</c>
+
+00:11:46.350 --> 00:11:46.360 align:start position:0%
+if we have a matrix where the first row
+ 
+
+00:11:46.360 --> 00:11:48.430 align:start position:0%
+if we have a matrix where the first row
+is<00:11:46.560><c> one</c><00:11:46.760><c> and</c><00:11:46.920><c> two,</c><00:11:47.560><c> and</c><00:11:47.680><c> the</c><00:11:47.760><c> second</c><00:11:48.120><c> row</c><00:11:48.280><c> is</c>
+
+00:11:48.430 --> 00:11:48.440 align:start position:0%
+is one and two, and the second row is
+ 
+
+00:11:48.440 --> 00:11:50.870 align:start position:0%
+is one and two, and the second row is
+three<00:11:48.680><c> and</c><00:11:48.800><c> four,</c><00:11:49.560><c> after</c><00:11:49.880><c> transposing</c><00:11:50.520><c> it,</c>
+
+00:11:50.870 --> 00:11:50.880 align:start position:0%
+three and four, after transposing it,
+ 
+
+00:11:50.880 --> 00:11:53.030 align:start position:0%
+three and four, after transposing it,
+the<00:11:51.000><c> first</c><00:11:51.320><c> row</c><00:11:51.480><c> becomes</c><00:11:51.920><c> one</c><00:11:52.120><c> and</c><00:11:52.280><c> three,</c><00:11:52.920><c> and</c>
+
+00:11:53.030 --> 00:11:53.040 align:start position:0%
+the first row becomes one and three, and
+ 
+
+00:11:53.040 --> 00:11:55.190 align:start position:0%
+the first row becomes one and three, and
+the<00:11:53.080><c> second</c><00:11:53.440><c> row</c><00:11:53.560><c> becomes</c><00:11:54.000><c> two</c><00:11:54.160><c> and</c><00:11:54.320><c> four.</c>
+
+00:11:55.190 --> 00:11:55.200 align:start position:0%
+the second row becomes two and four.
+ 
+
+00:11:55.200 --> 00:11:57.470 align:start position:0%
+the second row becomes two and four.
+Rows<00:11:55.480><c> become</c><00:11:55.800><c> columns,</c><00:11:56.520><c> and</c><00:11:56.680><c> columns</c><00:11:57.120><c> become</c>
+
+00:11:57.470 --> 00:11:57.480 align:start position:0%
+Rows become columns, and columns become
+ 
+
+00:11:57.480 --> 00:12:00.190 align:start position:0%
+Rows become columns, and columns become
+rows.<00:11:58.400><c> We</c><00:11:58.520><c> use</c><00:11:58.680><c> transpose</c><00:11:59.280><c> often</c><00:11:59.640><c> during</c><00:11:59.960><c> back</c>
+
+00:12:00.190 --> 00:12:00.200 align:start position:0%
+rows. We use transpose often during back
+ 
+
+00:12:00.200 --> 00:12:02.390 align:start position:0%
+rows. We use transpose often during back
+propagation,<00:12:01.120><c> especially</c><00:12:01.680><c> when</c><00:12:01.840><c> calculating</c>
+
+00:12:02.390 --> 00:12:02.400 align:start position:0%
+propagation, especially when calculating
+ 
+
+00:12:02.400 --> 00:12:03.550 align:start position:0%
+propagation, especially when calculating
+gradients.
+
+00:12:03.550 --> 00:12:03.560 align:start position:0%
+gradients.
+ 
+
+00:12:03.560 --> 00:12:05.670 align:start position:0%
+gradients.
+Next<00:12:03.960><c> is</c><00:12:04.120><c> scaling.</c><00:12:04.960><c> Scaling</c><00:12:05.440><c> means</c>
+
+00:12:05.670 --> 00:12:05.680 align:start position:0%
+Next is scaling. Scaling means
+ 
+
+00:12:05.680 --> 00:12:07.590 align:start position:0%
+Next is scaling. Scaling means
+multiplying<00:12:06.320><c> every</c><00:12:06.600><c> element</c><00:12:06.960><c> in</c><00:12:07.040><c> a</c><00:12:07.080><c> matrix</c><00:12:07.480><c> by</c>
+
+00:12:07.590 --> 00:12:07.600 align:start position:0%
+multiplying every element in a matrix by
+ 
+
+00:12:07.600 --> 00:12:09.910 align:start position:0%
+multiplying every element in a matrix by
+the<00:12:07.720><c> same</c><00:12:08.040><c> value.</c><00:12:08.840><c> For</c><00:12:08.960><c> example,</c><00:12:09.560><c> if</c><00:12:09.720><c> we</c><00:12:09.800><c> have</c>
+
+00:12:09.910 --> 00:12:09.920 align:start position:0%
+the same value. For example, if we have
+ 
+
+00:12:09.920 --> 00:12:12.590 align:start position:0%
+the same value. For example, if we have
+a<00:12:09.960><c> matrix</c><00:12:10.360><c> with</c><00:12:10.560><c> one,</c><00:12:11.160><c> two,</c><00:12:11.600><c> three,</c><00:12:11.880><c> and</c><00:12:12.040><c> four,</c>
+
+00:12:12.590 --> 00:12:12.600 align:start position:0%
+a matrix with one, two, three, and four,
+ 
+
+00:12:12.600 --> 00:12:14.830 align:start position:0%
+a matrix with one, two, three, and four,
+and<00:12:12.760><c> scale</c><00:12:13.040><c> it</c><00:12:13.160><c> by</c><00:12:13.320><c> two,</c><00:12:14.040><c> the</c><00:12:14.120><c> result</c><00:12:14.480><c> becomes</c>
+
+00:12:14.830 --> 00:12:14.840 align:start position:0%
+and scale it by two, the result becomes
+ 
+
+00:12:14.840 --> 00:12:17.830 align:start position:0%
+and scale it by two, the result becomes
+two,<00:12:15.040><c> four,</c><00:12:15.360><c> six,</c><00:12:15.720><c> and</c><00:12:15.920><c> eight.</c><00:12:16.520><c> Very</c><00:12:16.880><c> simple.</c>
+
+00:12:17.830 --> 00:12:17.840 align:start position:0%
+two, four, six, and eight. Very simple.
+ 
+
+00:12:17.840 --> 00:12:19.230 align:start position:0%
+two, four, six, and eight. Very simple.
+We<00:12:17.960><c> use</c><00:12:18.120><c> this</c><00:12:18.280><c> kind</c><00:12:18.520><c> of</c><00:12:18.640><c> operation</c><00:12:19.120><c> when</c>
+
+00:12:19.230 --> 00:12:19.240 align:start position:0%
+We use this kind of operation when
+ 
+
+00:12:19.240 --> 00:12:21.630 align:start position:0%
+We use this kind of operation when
+applying<00:12:19.640><c> the</c><00:12:19.760><c> learning</c><00:12:20.080><c> rate</c><00:12:20.320><c> to</c><00:12:20.440><c> gradients.</c>
+
+00:12:21.630 --> 00:12:21.640 align:start position:0%
+applying the learning rate to gradients.
+ 
+
+00:12:21.640 --> 00:12:23.390 align:start position:0%
+applying the learning rate to gradients.
+Finally,<00:12:22.320><c> let's</c><00:12:22.560><c> look</c><00:12:22.760><c> at</c><00:12:22.840><c> the</c><00:12:22.920><c> sigmoid</c>
+
+00:12:23.390 --> 00:12:23.400 align:start position:0%
+Finally, let's look at the sigmoid
+ 
+
+00:12:23.400 --> 00:12:25.270 align:start position:0%
+Finally, let's look at the sigmoid
+function.<00:12:24.360><c> The</c><00:12:24.400><c> sigmoid</c><00:12:24.840><c> function</c><00:12:25.160><c> is</c>
+
+00:12:25.270 --> 00:12:25.280 align:start position:0%
+function. The sigmoid function is
+ 
+
+00:12:25.280 --> 00:12:27.750 align:start position:0%
+function. The sigmoid function is
+written<00:12:25.520><c> as</c><00:12:25.720><c> one</c><00:12:26.320><c> divided</c><00:12:26.720><c> by</c><00:12:26.880><c> one</c><00:12:27.160><c> plus</c><00:12:27.520><c> e</c><00:12:27.640><c> to</c>
+
+00:12:27.750 --> 00:12:27.760 align:start position:0%
+written as one divided by one plus e to
+ 
+
+00:12:27.760 --> 00:12:29.590 align:start position:0%
+written as one divided by one plus e to
+the<00:12:27.880><c> power</c><00:12:28.160><c> of</c><00:12:28.280><c> negative</c><00:12:28.640><c> X.</c>
+
+00:12:29.590 --> 00:12:29.600 align:start position:0%
+the power of negative X.
+ 
+
+00:12:29.600 --> 00:12:31.750 align:start position:0%
+the power of negative X.
+Here,<00:12:29.960><c> e</c><00:12:30.040><c> is</c><00:12:30.240><c> Euler's</c><00:12:30.600><c> number,</c><00:12:31.200><c> also</c><00:12:31.520><c> called</c>
+
+00:12:31.750 --> 00:12:31.760 align:start position:0%
+Here, e is Euler's number, also called
+ 
+
+00:12:31.760 --> 00:12:33.150 align:start position:0%
+Here, e is Euler's number, also called
+Napier's<00:12:32.160><c> constant,</c><00:12:32.920><c> and</c><00:12:33.040><c> it's</c>
+
+00:12:33.150 --> 00:12:33.160 align:start position:0%
+Napier's constant, and it's
+ 
+
+00:12:33.160 --> 00:12:35.710 align:start position:0%
+Napier's constant, and it's
+approximately<00:12:33.840><c> 2.718.</c>
+
+00:12:35.710 --> 00:12:35.720 align:start position:0%
+approximately 2.718.
+ 
+
+00:12:35.720 --> 00:12:37.870 align:start position:0%
+approximately 2.718.
+E<00:12:35.839><c> to</c><00:12:35.960><c> the</c><00:12:36.080><c> power</c><00:12:36.320><c> of</c><00:12:36.440><c> negative</c><00:12:36.800><c> X</c><00:12:37.320><c> means</c><00:12:37.600><c> one</c>
+
+00:12:37.870 --> 00:12:37.880 align:start position:0%
+E to the power of negative X means one
+ 
+
+00:12:37.880 --> 00:12:40.310 align:start position:0%
+E to the power of negative X means one
+divided<00:12:38.320><c> by</c><00:12:38.520><c> e</c><00:12:38.680><c> to</c><00:12:38.800><c> the</c><00:12:38.880><c> power</c><00:12:39.200><c> of</c><00:12:39.320><c> X.</c><00:12:40.240><c> The</c>
+
+00:12:40.310 --> 00:12:40.320 align:start position:0%
+divided by e to the power of X. The
+ 
+
+00:12:40.320 --> 00:12:42.230 align:start position:0%
+divided by e to the power of X. The
+sigmoid<00:12:40.760><c> function</c><00:12:41.160><c> always</c><00:12:41.520><c> returns</c><00:12:41.880><c> a</c><00:12:41.920><c> value</c>
+
+00:12:42.230 --> 00:12:42.240 align:start position:0%
+sigmoid function always returns a value
+ 
+
+00:12:42.240 --> 00:12:44.310 align:start position:0%
+sigmoid function always returns a value
+between<00:12:42.600><c> zero</c><00:12:43.000><c> and</c><00:12:43.200><c> one,</c><00:12:43.720><c> no</c><00:12:43.839><c> matter</c><00:12:44.080><c> what</c>
+
+00:12:44.310 --> 00:12:44.320 align:start position:0%
+between zero and one, no matter what
+ 
+
+00:12:44.320 --> 00:12:46.350 align:start position:0%
+between zero and one, no matter what
+input<00:12:44.640><c> value</c><00:12:44.960><c> we</c><00:12:45.080><c> give</c><00:12:45.280><c> it.</c><00:12:45.839><c> That</c><00:12:46.000><c> makes</c><00:12:46.240><c> it</c>
+
+00:12:46.350 --> 00:12:46.360 align:start position:0%
+input value we give it. That makes it
+ 
+
+00:12:46.360 --> 00:12:48.310 align:start position:0%
+input value we give it. That makes it
+useful<00:12:46.960><c> when</c><00:12:47.120><c> we</c><00:12:47.240><c> want</c><00:12:47.440><c> the</c><00:12:47.560><c> output</c><00:12:47.880><c> to</c><00:12:47.960><c> behave</c>
+
+00:12:48.310 --> 00:12:48.320 align:start position:0%
+useful when we want the output to behave
+ 
+
+00:12:48.320 --> 00:12:50.870 align:start position:0%
+useful when we want the output to behave
+like<00:12:48.480><c> close</c><00:12:48.760><c> to</c><00:12:48.880><c> zero</c><00:12:49.520><c> or</c><00:12:49.640><c> close</c><00:12:49.960><c> to</c><00:12:50.080><c> one.</c>
+
+00:12:50.870 --> 00:12:50.880 align:start position:0%
+like close to zero or close to one.
+ 
+
+00:12:50.880 --> 00:12:52.829 align:start position:0%
+like close to zero or close to one.
+Another<00:12:51.160><c> nice</c><00:12:51.400><c> thing</c><00:12:51.560><c> about</c><00:12:51.839><c> sigmoid</c><00:12:52.560><c> is</c><00:12:52.680><c> that</c>
+
+00:12:52.829 --> 00:12:52.839 align:start position:0%
+Another nice thing about sigmoid is that
+ 
+
+00:12:52.839 --> 00:12:55.110 align:start position:0%
+Another nice thing about sigmoid is that
+it's<00:12:53.000><c> derivative</c><00:12:53.480><c> is</c><00:12:53.600><c> simple.</c><00:12:54.560><c> If</c><00:12:54.640><c> the</c><00:12:54.800><c> output</c>
+
+00:12:55.110 --> 00:12:55.120 align:start position:0%
+it's derivative is simple. If the output
+ 
+
+00:12:55.120 --> 00:12:57.310 align:start position:0%
+it's derivative is simple. If the output
+of<00:12:55.200><c> the</c><00:12:55.320><c> sigmoid</c><00:12:55.720><c> function</c><00:12:56.040><c> is</c><00:12:56.200><c> Y,</c><00:12:57.000><c> then</c><00:12:57.160><c> it's</c>
+
+00:12:57.310 --> 00:12:57.320 align:start position:0%
+of the sigmoid function is Y, then it's
+ 
+
+00:12:57.320 --> 00:13:00.670 align:start position:0%
+of the sigmoid function is Y, then it's
+derivative<00:12:57.839><c> is</c><00:12:58.000><c> Y</c><00:12:58.360><c> *</c><00:12:58.720><c> 1</c><00:12:58.920><c> -</c><00:12:59.240><c> Y.</c><00:13:00.160><c> This</c><00:13:00.360><c> simple</c>
+
+00:13:00.670 --> 00:13:00.680 align:start position:0%
+derivative is Y * 1 - Y. This simple
+ 
+
+00:13:00.680 --> 00:13:02.350 align:start position:0%
+derivative is Y * 1 - Y. This simple
+derivative<00:13:01.120><c> makes</c><00:13:01.320><c> it</c><00:13:01.440><c> convenient</c><00:13:01.960><c> for</c><00:13:02.080><c> back</c>
+
+00:13:02.350 --> 00:13:02.360 align:start position:0%
+derivative makes it convenient for back
+ 
+
+00:13:02.360 --> 00:13:04.550 align:start position:0%
+derivative makes it convenient for back
+propagation.<00:13:03.640><c> You</c><00:13:03.720><c> can</c><00:13:03.839><c> create</c><00:13:04.200><c> similar</c>
+
+00:13:04.550 --> 00:13:04.560 align:start position:0%
+propagation. You can create similar
+ 
+
+00:13:04.560 --> 00:13:06.710 align:start position:0%
+propagation. You can create similar
+shaped<00:13:04.880><c> functions</c><00:13:05.280><c> using</c><00:13:05.520><c> different</c><00:13:05.839><c> bases,</c>
+
+00:13:06.710 --> 00:13:06.720 align:start position:0%
+shaped functions using different bases,
+ 
+
+00:13:06.720 --> 00:13:08.870 align:start position:0%
+shaped functions using different bases,
+but<00:13:06.839><c> the</c><00:13:06.920><c> standard</c><00:13:07.440><c> sigmoid</c><00:13:07.839><c> function</c><00:13:08.560><c> uses</c>
+
+00:13:08.870 --> 00:13:08.880 align:start position:0%
+but the standard sigmoid function uses
+ 
+
+00:13:08.880 --> 00:13:11.790 align:start position:0%
+but the standard sigmoid function uses
+the<00:13:09.000><c> natural</c><00:13:09.480><c> exponential</c><00:13:10.080><c> function</c><00:13:10.720><c> with</c><00:13:11.000><c> e.</c>
+
+00:13:11.790 --> 00:13:11.800 align:start position:0%
+the natural exponential function with e.
+ 
+
+00:13:11.800 --> 00:13:13.230 align:start position:0%
+the natural exponential function with e.
+That's<00:13:12.000><c> because</c><00:13:12.280><c> it</c><00:13:12.400><c> works</c><00:13:12.680><c> nicely</c><00:13:13.080><c> with</c>
+
+00:13:13.230 --> 00:13:13.240 align:start position:0%
+That's because it works nicely with
+ 
+
+00:13:13.240 --> 00:13:15.110 align:start position:0%
+That's because it works nicely with
+differentiation<00:13:14.320><c> and</c><00:13:14.440><c> makes</c><00:13:14.680><c> the</c><00:13:14.800><c> learning</c>
+
+00:13:15.110 --> 00:13:15.120 align:start position:0%
+differentiation and makes the learning
+ 
+
+00:13:15.120 --> 00:13:24.550 align:start position:0%
+differentiation and makes the learning
+calculation<00:13:15.800><c> cleaner.</c>
+
+00:13:24.550 --> 00:13:24.560 align:start position:0%
+ 
+ 
+
+00:13:24.560 --> 00:13:27.310 align:start position:0%
+ 
+I<00:13:24.640><c> hope</c><00:13:25.000><c> this</c><00:13:25.240><c> session</c><00:13:25.760><c> helped</c><00:13:26.120><c> me</c><00:13:26.240><c> to</c><00:13:26.400><c> you</c>
+
+00:13:27.310 --> 00:13:27.320 align:start position:0%
+I hope this session helped me to you
+ 
+
+00:13:27.320 --> 00:13:29.830 align:start position:0%
+I hope this session helped me to you
+understand<00:13:27.880><c> how</c><00:13:28.640><c> have</c><00:13:28.920><c> basic</c><00:13:29.520><c> neural</c>
+
+00:13:29.830 --> 00:13:29.840 align:start position:0%
+understand how have basic neural
+ 
+
+00:13:29.840 --> 00:13:31.310 align:start position:0%
+understand how have basic neural
+networks.
+
+00:13:31.310 --> 00:13:31.320 align:start position:0%
+networks.
+ 
+
+00:13:31.320 --> 00:13:33.550 align:start position:0%
+networks.
+You<00:13:31.440><c> can</c><00:13:31.640><c> find</c><00:13:32.080><c> source</c><00:13:32.400><c> code</c><00:13:32.960><c> and</c><00:13:33.240><c> more</c>
+
+00:13:33.550 --> 00:13:33.560 align:start position:0%
+You can find source code and more
+ 
+
+00:13:33.560 --> 00:13:37.510 align:start position:0%
+You can find source code and more
+examples<00:13:34.480><c> like</c><00:13:34.760><c> CNNs</c><00:13:35.480><c> and</c><00:13:35.760><c> RNNs</c>
+
+00:13:37.510 --> 00:13:37.520 align:start position:0%
+examples like CNNs and RNNs
+ 
+
+00:13:37.520 --> 00:13:41.230 align:start position:0%
+examples like CNNs and RNNs
+on<00:13:38.040><c> the</c><00:13:38.080><c> GitHub</c><00:13:38.520><c> repository</c><00:13:39.080><c> below.</c>
+
+00:13:41.230 --> 00:13:41.240 align:start position:0%
+on the GitHub repository below.
+ 
+
+00:13:41.240 --> 00:13:45.120 align:start position:0%
+on the GitHub repository below.
+Thank<00:13:41.480><c> you</c><00:13:41.560><c> for</c><00:13:41.680><c> watching.</c><00:13:42.560><c> Bye-bye.</c>
+

@@ -1,0 +1,23 @@
+# This video was edited with AI agent. But how?
+
+**Source:** https://www.youtube.com/watch?v=r0AG44qYKsI
+**Duration:** 5:00
+**Recommendation:** Skim
+**Hasan-fit themes:** agent systems, voice and multimodal
+
+## Gist
+
+[Music] today we're tackling a paper that's basically legendary at least in the world of natural language processing NLP for those in the know right attention is all you need it's not just a catchy title definitely [Music] not o cam a general purpose functional programming language that is also an imperative language and also an objectoriented language it is what hascal which is could [Music] be hey everyone my name is Mam and I'm excited to talk about the va's first open-source video editing agent backstory is that we needed some automatic tool to edit videos for res skill.
+
+## Why Hasan Should Care
+
+This session maps to agent systems, voice and multimodal. For Hasan's work, the useful lens is whether it changes how to build, evaluate, ship, or operate AI-enabled products and agent workflows (5:00).
+
+## Practical Takeaways
+
+- a platform for personalized learning while doing so we quickly realized limitations of FFM p and started looking for more intuitive and flexible Alternatives remotion was nice but it did unreliable service side rendering after trying out core we really likeed the API as it did not require the separate rendering backend we met with the author of the library and decided to collaborate and build this agent together the core library from diffusion Studio can do complex compositions via JavaScript typescript based programmatic interface meaning we can use llm to generate code to run this and if we take a step further and let our llm write its own action in code it's a perfect match simply because code is the best possible way to express actions performed by a computer lastly multiple research papers have shown that having llm tool calling in code is much better than in Json now let's take a look at current architecture agent starts a browser session using playright and connects to operator UI this web app is video editing UI designed specifically for AI agents it renders video directly in browser using web codex API it also has helper functions for transferring files from python to browser and back via chromium Dev tool protocol this is a typical flow of agent we have three main tools video editing tool doc Search tool and visual feedback tool first a video editing tool generates code based on user prompt and runs it in browser if additional context is needed doc Search tool uses rck to pull the relevant information after each execution step a composition the compositions are sampled currently at one frame per second and they they are fed to visual feedback tool visual feedback tool can be sold as uh generator and discriminator like in famous gun architecture after the visual feedback tool gives green light the agent proceeds to render the composition we also shipped lm.
+- txt but for agents you can see sample in the screen lm.
+
+## Implementation Ideas
+
+- Map product ideas to realtime UX, latency budgets, and fallback behavior.

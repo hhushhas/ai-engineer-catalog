@@ -1,0 +1,1568 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.880 --> 00:00:03.470 align:start position:0%
+ 
+Hi,<00:00:01.360><c> I'm</c><00:00:01.600><c> Michael,</c><00:00:02.080><c> co-founder</c><00:00:02.639><c> and</c><00:00:02.800><c> CTO</c><00:00:03.200><c> of</c>
+
+00:00:03.470 --> 00:00:03.480 align:start position:0%
+Hi, I'm Michael, co-founder and CTO of
+ 
+
+00:00:03.480 --> 00:00:05.829 align:start position:0%
+Hi, I'm Michael, co-founder and CTO of
+14.ai,<00:00:04.480><c> where</c><00:00:04.720><c> we're</c><00:00:04.880><c> building</c><00:00:05.040><c> an</c><00:00:05.200><c> AI</c><00:00:05.600><c> native</c>
+
+00:00:05.829 --> 00:00:05.839 align:start position:0%
+14.ai, where we're building an AI native
+ 
+
+00:00:05.839 --> 00:00:06.990 align:start position:0%
+14.ai, where we're building an AI native
+customer<00:00:06.160><c> support</c>
+
+00:00:06.990 --> 00:00:07.000 align:start position:0%
+customer support
+ 
+
+00:00:07.000 --> 00:00:09.350 align:start position:0%
+customer support
+platform.<00:00:08.000><c> Our</c><00:00:08.240><c> systems</c><00:00:08.639><c> interact</c><00:00:09.040><c> directly</c>
+
+00:00:09.350 --> 00:00:09.360 align:start position:0%
+platform. Our systems interact directly
+ 
+
+00:00:09.360 --> 00:00:11.509 align:start position:0%
+platform. Our systems interact directly
+with<00:00:09.519><c> end</c><00:00:09.760><c> users,</c><00:00:10.400><c> rely</c><00:00:10.639><c> on</c><00:00:10.800><c> LLMs</c><00:00:11.360><c> in</c>
+
+00:00:11.509 --> 00:00:11.519 align:start position:0%
+with end users, rely on LLMs in
+ 
+
+00:00:11.519 --> 00:00:13.749 align:start position:0%
+with end users, rely on LLMs in
+production,<00:00:12.240><c> and</c><00:00:12.480><c> have</c><00:00:12.639><c> to</c><00:00:12.800><c> operate</c><00:00:13.120><c> reliably</c>
+
+00:00:13.749 --> 00:00:13.759 align:start position:0%
+production, and have to operate reliably
+ 
+
+00:00:13.759 --> 00:00:16.790 align:start position:0%
+production, and have to operate reliably
+under<00:00:14.240><c> uncertain</c><00:00:15.240><c> conditions.</c><00:00:16.240><c> To</c><00:00:16.480><c> manage</c>
+
+00:00:16.790 --> 00:00:16.800 align:start position:0%
+under uncertain conditions. To manage
+ 
+
+00:00:16.800 --> 00:00:18.710 align:start position:0%
+under uncertain conditions. To manage
+that<00:00:17.039><c> complexity,</c><00:00:17.520><c> we</c><00:00:17.680><c> use</c><00:00:17.920><c> effect,</c><00:00:18.560><c> a</c>
+
+00:00:18.710 --> 00:00:18.720 align:start position:0%
+that complexity, we use effect, a
+ 
+
+00:00:18.720 --> 00:00:20.870 align:start position:0%
+that complexity, we use effect, a
+TypeScript<00:00:19.199><c> library</c><00:00:19.600><c> designed</c><00:00:19.920><c> for</c><00:00:20.080><c> building</c>
+
+00:00:20.870 --> 00:00:20.880 align:start position:0%
+TypeScript library designed for building
+ 
+
+00:00:20.880 --> 00:00:23.029 align:start position:0%
+TypeScript library designed for building
+robust,<00:00:21.520><c> type-</c><00:00:21.840><c> safe,</c><00:00:22.160><c> and</c><00:00:22.400><c> composable</c>
+
+00:00:23.029 --> 00:00:23.039 align:start position:0%
+robust, type- safe, and composable
+ 
+
+00:00:23.039 --> 00:00:25.990 align:start position:0%
+robust, type- safe, and composable
+systems.<00:00:24.240><c> The</c><00:00:24.400><c> TypeScript</c><00:00:24.880><c> language</c><00:00:25.199><c> itself</c>
+
+00:00:25.990 --> 00:00:26.000 align:start position:0%
+systems. The TypeScript language itself
+ 
+
+00:00:26.000 --> 00:00:27.910 align:start position:0%
+systems. The TypeScript language itself
+gives<00:00:26.240><c> us</c><00:00:26.400><c> a</c><00:00:26.560><c> great</c><00:00:26.800><c> foundation,</c><00:00:27.519><c> but</c><00:00:27.760><c> it</c>
+
+00:00:27.910 --> 00:00:27.920 align:start position:0%
+gives us a great foundation, but it
+ 
+
+00:00:27.920 --> 00:00:29.669 align:start position:0%
+gives us a great foundation, but it
+starts<00:00:28.080><c> to</c><00:00:28.240><c> fall</c><00:00:28.480><c> short</c><00:00:28.800><c> when</c><00:00:29.119><c> we're</c><00:00:29.439><c> dealing</c>
+
+00:00:29.669 --> 00:00:29.679 align:start position:0%
+starts to fall short when we're dealing
+ 
+
+00:00:29.679 --> 00:00:31.990 align:start position:0%
+starts to fall short when we're dealing
+with<00:00:29.840><c> unreliable</c><00:00:30.800><c> APIs,</c><00:00:31.599><c> complex</c>
+
+00:00:31.990 --> 00:00:32.000 align:start position:0%
+with unreliable APIs, complex
+ 
+
+00:00:32.000 --> 00:00:33.910 align:start position:0%
+with unreliable APIs, complex
+dependencies<00:00:32.640><c> between</c><00:00:33.040><c> systems,</c>
+
+00:00:33.910 --> 00:00:33.920 align:start position:0%
+dependencies between systems,
+ 
+
+00:00:33.920 --> 00:00:35.990 align:start position:0%
+dependencies between systems,
+non-deterministic<00:00:34.880><c> model</c><00:00:35.120><c> outputs,</c><00:00:35.680><c> or</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+non-deterministic model outputs, or
+ 
+
+00:00:36.000 --> 00:00:38.790 align:start position:0%
+non-deterministic model outputs, or
+longunning<00:00:37.079><c> workflows.</c><00:00:38.079><c> Effect</c><00:00:38.480><c> gives</c><00:00:38.719><c> us</c>
+
+00:00:38.790 --> 00:00:38.800 align:start position:0%
+longunning workflows. Effect gives us
+ 
+
+00:00:38.800 --> 00:00:40.950 align:start position:0%
+longunning workflows. Effect gives us
+the<00:00:39.040><c> tools</c><00:00:39.440><c> to</c><00:00:39.680><c> handle</c><00:00:40.000><c> such</c><00:00:40.239><c> situations</c>
+
+00:00:40.950 --> 00:00:40.960 align:start position:0%
+the tools to handle such situations
+ 
+
+00:00:40.960 --> 00:00:44.069 align:start position:0%
+the tools to handle such situations
+confidently<00:00:41.760><c> as</c><00:00:42.079><c> our</c><00:00:42.320><c> platform</c><00:00:43.000><c> evolves.</c>
+
+00:00:44.069 --> 00:00:44.079 align:start position:0%
+confidently as our platform evolves.
+ 
+
+00:00:44.079 --> 00:00:45.750 align:start position:0%
+confidently as our platform evolves.
+Among<00:00:44.399><c> other</c><00:00:44.640><c> things,</c><00:00:44.879><c> it</c><00:00:45.040><c> provides</c><00:00:45.440><c> strong</c>
+
+00:00:45.750 --> 00:00:45.760 align:start position:0%
+Among other things, it provides strong
+ 
+
+00:00:45.760 --> 00:00:47.990 align:start position:0%
+Among other things, it provides strong
+type<00:00:46.000><c> guarantees</c><00:00:46.559><c> across</c><00:00:46.800><c> the</c><00:00:47.039><c> stack,</c>
+
+00:00:47.990 --> 00:00:48.000 align:start position:0%
+type guarantees across the stack,
+ 
+
+00:00:48.000 --> 00:00:50.150 align:start position:0%
+type guarantees across the stack,
+powerful<00:00:48.800><c> composition</c><00:00:49.360><c> primitives,</c>
+
+00:00:50.150 --> 00:00:50.160 align:start position:0%
+powerful composition primitives,
+ 
+
+00:00:50.160 --> 00:00:52.069 align:start position:0%
+powerful composition primitives,
+built-in<00:00:50.559><c> concurrency</c><00:00:51.280><c> streaming</c>
+
+00:00:52.069 --> 00:00:52.079 align:start position:0%
+built-in concurrency streaming
+ 
+
+00:00:52.079 --> 00:00:54.950 align:start position:0%
+built-in concurrency streaming
+interruptions<00:00:52.960><c> and</c><00:00:53.199><c> retry</c><00:00:53.960><c> mechanisms,</c>
+
+00:00:54.950 --> 00:00:54.960 align:start position:0%
+interruptions and retry mechanisms,
+ 
+
+00:00:54.960 --> 00:00:57.270 align:start position:0%
+interruptions and retry mechanisms,
+structured<00:00:55.520><c> error</c><00:00:55.760><c> modeling,</c><00:00:56.640><c> and</c><00:00:56.800><c> a</c><00:00:57.039><c> clean</c>
+
+00:00:57.270 --> 00:00:57.280 align:start position:0%
+structured error modeling, and a clean
+ 
+
+00:00:57.280 --> 00:00:59.029 align:start position:0%
+structured error modeling, and a clean
+dependency<00:00:57.760><c> injection</c><00:00:58.239><c> system</c><00:00:58.480><c> that</c><00:00:58.719><c> makes</c>
+
+00:00:59.029 --> 00:00:59.039 align:start position:0%
+dependency injection system that makes
+ 
+
+00:00:59.039 --> 00:01:02.069 align:start position:0%
+dependency injection system that makes
+testing<00:00:59.359><c> and</c><00:00:59.640><c> modernization</c><00:01:00.640><c> much</c><00:01:01.079><c> easier.</c>
+
+00:01:02.069 --> 00:01:02.079 align:start position:0%
+testing and modernization much easier.
+ 
+
+00:01:02.079 --> 00:01:05.030 align:start position:0%
+testing and modernization much easier.
+It<00:01:02.320><c> also</c><00:01:02.559><c> offers</c><00:01:03.039><c> very</c><00:01:03.440><c> easy</c><00:01:04.320><c> observability</c>
+
+00:01:05.030 --> 00:01:05.040 align:start position:0%
+It also offers very easy observability
+ 
+
+00:01:05.040 --> 00:01:07.910 align:start position:0%
+It also offers very easy observability
+via<00:01:05.519><c> open</c><00:01:05.840><c> telemetry.</c>
+
+00:01:07.910 --> 00:01:07.920 align:start position:0%
+via open telemetry.
+ 
+
+00:01:07.920 --> 00:01:09.510 align:start position:0%
+via open telemetry.
+In<00:01:08.159><c> addition</c><00:01:08.320><c> to</c><00:01:08.560><c> helping</c><00:01:08.799><c> us</c><00:01:09.040><c> build</c><00:01:09.280><c> more</c>
+
+00:01:09.510 --> 00:01:09.520 align:start position:0%
+In addition to helping us build more
+ 
+
+00:01:09.520 --> 00:01:11.590 align:start position:0%
+In addition to helping us build more
+stable,<00:01:10.080><c> testable,</c><00:01:10.560><c> and</c><00:01:10.720><c> maintainable</c><00:01:11.360><c> code</c>
+
+00:01:11.590 --> 00:01:11.600 align:start position:0%
+stable, testable, and maintainable code
+ 
+
+00:01:11.600 --> 00:01:13.990 align:start position:0%
+stable, testable, and maintainable code
+at<00:01:11.840><c> scale,</c><00:01:12.560><c> we</c><00:01:12.799><c> chose</c><00:01:13.040><c> effect</c><00:01:13.439><c> also</c><00:01:13.760><c> because</c>
+
+00:01:13.990 --> 00:01:14.000 align:start position:0%
+at scale, we chose effect also because
+ 
+
+00:01:14.000 --> 00:01:15.990 align:start position:0%
+at scale, we chose effect also because
+it<00:01:14.159><c> can</c><00:01:14.320><c> be</c><00:01:14.479><c> gradually</c><00:01:14.880><c> adopted</c><00:01:15.600><c> in</c><00:01:15.840><c> an</c>
+
+00:01:15.990 --> 00:01:16.000 align:start position:0%
+it can be gradually adopted in an
+ 
+
+00:01:16.000 --> 00:01:17.830 align:start position:0%
+it can be gradually adopted in an
+existing<00:01:16.400><c> codebase</c><00:01:16.880><c> and</c><00:01:17.119><c> feels</c><00:01:17.439><c> like</c><00:01:17.600><c> a</c>
+
+00:01:17.830 --> 00:01:17.840 align:start position:0%
+existing codebase and feels like a
+ 
+
+00:01:17.840 --> 00:01:20.910 align:start position:0%
+existing codebase and feels like a
+natural<00:01:18.640><c> extension</c><00:01:19.119><c> of</c><00:01:19.439><c> TypeScript</c>
+
+00:01:20.910 --> 00:01:20.920 align:start position:0%
+natural extension of TypeScript
+ 
+
+00:01:20.920 --> 00:01:23.270 align:start position:0%
+natural extension of TypeScript
+itself.<00:01:21.920><c> So</c><00:01:22.240><c> quickly</c><00:01:22.640><c> about</c><00:01:22.960><c> our</c>
+
+00:01:23.270 --> 00:01:23.280 align:start position:0%
+itself. So quickly about our
+ 
+
+00:01:23.280 --> 00:01:25.510 align:start position:0%
+itself. So quickly about our
+architecture,<00:01:24.080><c> we</c><00:01:24.320><c> use</c><00:01:24.560><c> effect</c><00:01:24.960><c> across</c><00:01:25.280><c> our</c>
+
+00:01:25.510 --> 00:01:25.520 align:start position:0%
+architecture, we use effect across our
+ 
+
+00:01:25.520 --> 00:01:28.390 align:start position:0%
+architecture, we use effect across our
+entire<00:01:25.920><c> stack.</c><00:01:26.799><c> Here</c><00:01:27.119><c> are</c><00:01:27.759><c> how</c><00:01:28.080><c> the</c><00:01:28.240><c> main</c>
+
+00:01:28.390 --> 00:01:28.400 align:start position:0%
+entire stack. Here are how the main
+ 
+
+00:01:28.400 --> 00:01:30.070 align:start position:0%
+entire stack. Here are how the main
+components<00:01:28.799><c> fit</c><00:01:29.040><c> together.</c><00:01:29.360><c> We</c><00:01:29.520><c> have</c><00:01:29.600><c> a</c><00:01:29.680><c> React</c>
+
+00:01:30.070 --> 00:01:30.080 align:start position:0%
+components fit together. We have a React
+ 
+
+00:01:30.080 --> 00:01:32.069 align:start position:0%
+components fit together. We have a React
+front<00:01:30.240><c> end</c><00:01:30.720><c> that</c><00:01:31.040><c> powers</c><00:01:31.360><c> everything</c><00:01:31.680><c> from</c>
+
+00:01:32.069 --> 00:01:32.079 align:start position:0%
+front end that powers everything from
+ 
+
+00:01:32.079 --> 00:01:35.270 align:start position:0%
+front end that powers everything from
+dashboards<00:01:32.720><c> to</c><00:01:32.960><c> the</c><00:01:33.119><c> agents</c><00:01:33.840><c> ID,</c><00:01:34.720><c> a</c><00:01:34.880><c> knowledge</c>
+
+00:01:35.270 --> 00:01:35.280 align:start position:0%
+dashboards to the agents ID, a knowledge
+ 
+
+00:01:35.280 --> 00:01:37.630 align:start position:0%
+dashboards to the agents ID, a knowledge
+management,<00:01:36.000><c> insights,</c><00:01:36.640><c> analytics,</c><00:01:37.119><c> and</c>
+
+00:01:37.630 --> 00:01:37.640 align:start position:0%
+management, insights, analytics, and
+ 
+
+00:01:37.640 --> 00:01:40.149 align:start position:0%
+management, insights, analytics, and
+SDKs.<00:01:38.640><c> Then</c><00:01:38.799><c> we</c><00:01:38.960><c> have</c><00:01:39.040><c> an</c><00:01:39.200><c> internal</c><00:01:39.600><c> RPC</c>
+
+00:01:40.149 --> 00:01:40.159 align:start position:0%
+SDKs. Then we have an internal RPC
+ 
+
+00:01:40.159 --> 00:01:42.710 align:start position:0%
+SDKs. Then we have an internal RPC
+server<00:01:40.640><c> that</c><00:01:40.880><c> handles</c><00:01:41.280><c> app</c><00:01:41.600><c> logic</c><00:01:42.240><c> built</c><00:01:42.479><c> on</c>
+
+00:01:42.710 --> 00:01:42.720 align:start position:0%
+server that handles app logic built on
+ 
+
+00:01:42.720 --> 00:01:45.030 align:start position:0%
+server that handles app logic built on
+effect<00:01:43.040><c> RPC</c><00:01:43.840><c> and</c><00:01:44.000><c> a</c><00:01:44.159><c> modified</c><00:01:44.640><c> version</c><00:01:44.880><c> of</c>
+
+00:01:45.030 --> 00:01:45.040 align:start position:0%
+effect RPC and a modified version of
+ 
+
+00:01:45.040 --> 00:01:47.910 align:start position:0%
+effect RPC and a modified version of
+tanstack<00:01:45.680><c> query</c><00:01:46.000><c> on</c><00:01:46.159><c> the</c><00:01:46.240><c> front</c><00:01:46.680><c> end.</c><00:01:47.680><c> Our</c>
+
+00:01:47.910 --> 00:01:47.920 align:start position:0%
+tanstack query on the front end. Our
+ 
+
+00:01:47.920 --> 00:01:50.710 align:start position:0%
+tanstack query on the front end. Our
+public<00:01:48.159><c> API</c><00:01:48.640><c> server</c><00:01:48.880><c> uses</c><00:01:49.200><c> effect</c><00:01:49.560><c> HTTP</c><00:01:50.560><c> with</c>
+
+00:01:50.710 --> 00:01:50.720 align:start position:0%
+public API server uses effect HTTP with
+ 
+
+00:01:50.720 --> 00:01:53.030 align:start position:0%
+public API server uses effect HTTP with
+an<00:01:50.960><c> open</c><00:01:51.200><c> API</c><00:01:51.600><c> docs</c><00:01:52.079><c> autogenerated</c><00:01:52.880><c> from</c>
+
+00:01:53.030 --> 00:01:53.040 align:start position:0%
+an open API docs autogenerated from
+ 
+
+00:01:53.040 --> 00:01:55.670 align:start position:0%
+an open API docs autogenerated from
+annotated<00:01:53.600><c> schemas.</c><00:01:54.560><c> Our</c><00:01:55.040><c> data</c><00:01:55.280><c> processing</c>
+
+00:01:55.670 --> 00:01:55.680 align:start position:0%
+annotated schemas. Our data processing
+ 
+
+00:01:55.680 --> 00:01:57.990 align:start position:0%
+annotated schemas. Our data processing
+engine<00:01:56.000><c> syncs</c><00:01:56.320><c> data</c><00:01:56.560><c> from</c><00:01:56.799><c> CRM,</c><00:01:57.439><c> docs,</c><00:01:57.840><c> and</c>
+
+00:01:57.990 --> 00:01:58.000 align:start position:0%
+engine syncs data from CRM, docs, and
+ 
+
+00:01:58.000 --> 00:02:00.230 align:start position:0%
+engine syncs data from CRM, docs, and
+databases<00:01:58.880><c> and</c><00:01:59.119><c> process</c><00:01:59.520><c> it</c><00:01:59.680><c> for</c><00:01:59.840><c> real-time</c>
+
+00:02:00.230 --> 00:02:00.240 align:start position:0%
+databases and process it for real-time
+ 
+
+00:02:00.240 --> 00:02:03.109 align:start position:0%
+databases and process it for real-time
+analytics<00:02:00.719><c> and</c><00:02:01.159><c> reporting.</c><00:02:02.159><c> Agent</c><00:02:02.640><c> workflows</c>
+
+00:02:03.109 --> 00:02:03.119 align:start position:0%
+analytics and reporting. Agent workflows
+ 
+
+00:02:03.119 --> 00:02:05.190 align:start position:0%
+analytics and reporting. Agent workflows
+are<00:02:03.360><c> written</c><00:02:03.600><c> in</c><00:02:03.759><c> a</c><00:02:03.920><c> custom</c><00:02:04.240><c> DSL</c><00:02:04.719><c> built</c><00:02:04.960><c> on</c>
+
+00:02:05.190 --> 00:02:05.200 align:start position:0%
+are written in a custom DSL built on
+ 
+
+00:02:05.200 --> 00:02:07.510 align:start position:0%
+are written in a custom DSL built on
+effect,<00:02:05.920><c> allowing</c><00:02:06.320><c> us</c><00:02:06.479><c> to</c><00:02:06.560><c> mix</c><00:02:06.880><c> deterministic</c>
+
+00:02:07.510 --> 00:02:07.520 align:start position:0%
+effect, allowing us to mix deterministic
+ 
+
+00:02:07.520 --> 00:02:09.669 align:start position:0%
+effect, allowing us to mix deterministic
+and<00:02:07.680><c> nondeterministic</c><00:02:08.640><c> behavior.</c><00:02:09.440><c> And</c>
+
+00:02:09.669 --> 00:02:09.679 align:start position:0%
+and nondeterministic behavior. And
+ 
+
+00:02:09.679 --> 00:02:11.510 align:start position:0%
+and nondeterministic behavior. And
+finally,<00:02:09.920><c> we</c><00:02:10.080><c> use</c><00:02:10.160><c> a</c><00:02:10.319><c> postgress</c><00:02:10.800><c> database</c><00:02:11.280><c> for</c>
+
+00:02:11.510 --> 00:02:11.520 align:start position:0%
+finally, we use a postgress database for
+ 
+
+00:02:11.520 --> 00:02:13.190 align:start position:0%
+finally, we use a postgress database for
+both<00:02:11.760><c> data</c><00:02:12.000><c> and</c><00:02:12.160><c> vector</c><00:02:12.480><c> storage</c><00:02:12.800><c> with</c>
+
+00:02:13.190 --> 00:02:13.200 align:start position:0%
+both data and vector storage with
+ 
+
+00:02:13.200 --> 00:02:15.229 align:start position:0%
+both data and vector storage with
+effects<00:02:13.520><c> SQL</c><00:02:14.000><c> handling</c>
+
+00:02:15.229 --> 00:02:15.239 align:start position:0%
+effects SQL handling
+ 
+
+00:02:15.239 --> 00:02:17.350 align:start position:0%
+effects SQL handling
+queries.<00:02:16.239><c> Everything</c><00:02:16.560><c> is</c><00:02:16.800><c> modeled</c><00:02:17.120><c> using</c>
+
+00:02:17.350 --> 00:02:17.360 align:start position:0%
+queries. Everything is modeled using
+ 
+
+00:02:17.360 --> 00:02:19.270 align:start position:0%
+queries. Everything is modeled using
+effect<00:02:17.680><c> schemas.</c><00:02:18.319><c> So</c><00:02:18.560><c> we</c><00:02:18.720><c> get</c><00:02:18.800><c> runtime</c>
+
+00:02:19.270 --> 00:02:19.280 align:start position:0%
+effect schemas. So we get runtime
+ 
+
+00:02:19.280 --> 00:02:21.750 align:start position:0%
+effect schemas. So we get runtime
+validation,<00:02:19.840><c> encoding,</c><00:02:20.480><c> decoding,</c><00:02:21.440><c> type</c>
+
+00:02:21.750 --> 00:02:21.760 align:start position:0%
+validation, encoding, decoding, type
+ 
+
+00:02:21.760 --> 00:02:23.670 align:start position:0%
+validation, encoding, decoding, type
+safe<00:02:22.080><c> input</c><00:02:22.400><c> and</c><00:02:22.640><c> output</c><00:02:22.959><c> handling</c><00:02:23.360><c> across</c>
+
+00:02:23.670 --> 00:02:23.680 align:start position:0%
+safe input and output handling across
+ 
+
+00:02:23.680 --> 00:02:25.830 align:start position:0%
+safe input and output handling across
+the<00:02:23.920><c> stack</c><00:02:24.640><c> and</c><00:02:24.879><c> even</c><00:02:25.120><c> autogenerated</c>
+
+00:02:25.830 --> 00:02:25.840 align:start position:0%
+the stack and even autogenerated
+ 
+
+00:02:25.840 --> 00:02:28.630 align:start position:0%
+the stack and even autogenerated
+documentation<00:02:26.400><c> for</c><00:02:26.640><c> free.</c><00:02:27.520><c> Our</c><00:02:27.760><c> agents</c><00:02:28.400><c> are</c>
+
+00:02:28.630 --> 00:02:28.640 align:start position:0%
+documentation for free. Our agents are
+ 
+
+00:02:28.640 --> 00:02:31.190 align:start position:0%
+documentation for free. Our agents are
+basically<00:02:29.080><c> planners.</c><00:02:30.080><c> They</c><00:02:30.319><c> take</c><00:02:30.560><c> input</c><00:02:30.959><c> from</c>
+
+00:02:31.190 --> 00:02:31.200 align:start position:0%
+basically planners. They take input from
+ 
+
+00:02:31.200 --> 00:02:33.509 align:start position:0%
+basically planners. They take input from
+the<00:02:31.440><c> user,</c><00:02:32.160><c> come</c><00:02:32.319><c> up</c><00:02:32.480><c> with</c><00:02:32.560><c> a</c><00:02:32.800><c> plan,</c><00:02:33.200><c> choose</c>
+
+00:02:33.509 --> 00:02:33.519 align:start position:0%
+the user, come up with a plan, choose
+ 
+
+00:02:33.519 --> 00:02:36.550 align:start position:0%
+the user, come up with a plan, choose
+the<00:02:33.680><c> right</c><00:02:33.840><c> action,</c><00:02:34.400><c> workflow</c><00:02:34.800><c> or</c><00:02:35.120><c> sub</c><00:02:35.599><c> agent,</c>
+
+00:02:36.550 --> 00:02:36.560 align:start position:0%
+the right action, workflow or sub agent,
+ 
+
+00:02:36.560 --> 00:02:39.190 align:start position:0%
+the right action, workflow or sub agent,
+executes<00:02:37.120><c> them</c><00:02:37.680><c> and</c><00:02:38.000><c> repeats</c><00:02:38.400><c> until</c><00:02:38.720><c> the</c><00:02:38.879><c> task</c>
+
+00:02:39.190 --> 00:02:39.200 align:start position:0%
+executes them and repeats until the task
+ 
+
+00:02:39.200 --> 00:02:40.710 align:start position:0%
+executes them and repeats until the task
+is<00:02:39.360><c> complete.</c>
+
+00:02:40.710 --> 00:02:40.720 align:start position:0%
+is complete.
+ 
+
+00:02:40.720 --> 00:02:43.750 align:start position:0%
+is complete.
+Actions<00:02:41.280><c> are</c><00:02:41.680><c> small</c><00:02:42.560><c> focused</c><00:02:43.040><c> units</c><00:02:43.440><c> of</c>
+
+00:02:43.750 --> 00:02:43.760 align:start position:0%
+Actions are small focused units of
+ 
+
+00:02:43.760 --> 00:02:46.309 align:start position:0%
+Actions are small focused units of
+execution<00:02:44.480><c> like</c><00:02:44.720><c> fetching</c><00:02:45.280><c> payment</c><00:02:45.680><c> info</c><00:02:46.000><c> or</c>
+
+00:02:46.309 --> 00:02:46.319 align:start position:0%
+execution like fetching payment info or
+ 
+
+00:02:46.319 --> 00:02:48.550 align:start position:0%
+execution like fetching payment info or
+searching<00:02:46.720><c> through</c><00:02:47.000><c> logs.</c><00:02:48.000><c> You</c><00:02:48.239><c> can</c><00:02:48.319><c> think</c><00:02:48.480><c> of</c>
+
+00:02:48.550 --> 00:02:48.560 align:start position:0%
+searching through logs. You can think of
+ 
+
+00:02:48.560 --> 00:02:51.589 align:start position:0%
+searching through logs. You can think of
+them<00:02:48.879><c> like</c><00:02:49.120><c> tool</c><00:02:49.800><c> calls.</c><00:02:50.800><c> Workflows</c><00:02:51.360><c> are</c>
+
+00:02:51.589 --> 00:02:51.599 align:start position:0%
+them like tool calls. Workflows are
+ 
+
+00:02:51.599 --> 00:02:54.390 align:start position:0%
+them like tool calls. Workflows are
+deterministic<00:02:52.480><c> multi-step</c><00:02:53.239><c> processes.</c><00:02:54.239><c> For</c>
+
+00:02:54.390 --> 00:02:54.400 align:start position:0%
+deterministic multi-step processes. For
+ 
+
+00:02:54.400 --> 00:02:55.990 align:start position:0%
+deterministic multi-step processes. For
+instance,<00:02:54.800><c> cancelling</c><00:02:55.200><c> a</c><00:02:55.440><c> subscription</c>
+
+00:02:55.990 --> 00:02:56.000 align:start position:0%
+instance, cancelling a subscription
+ 
+
+00:02:56.000 --> 00:02:58.229 align:start position:0%
+instance, cancelling a subscription
+might<00:02:56.239><c> involve</c><00:02:57.200><c> collecting</c><00:02:57.599><c> a</c><00:02:57.840><c> reason,</c>
+
+00:02:58.229 --> 00:02:58.239 align:start position:0%
+might involve collecting a reason,
+ 
+
+00:02:58.239 --> 00:02:59.750 align:start position:0%
+might involve collecting a reason,
+offering<00:02:58.560><c> a</c><00:02:58.720><c> retention</c><00:02:59.120><c> option</c><00:02:59.440><c> if</c>
+
+00:02:59.750 --> 00:02:59.760 align:start position:0%
+offering a retention option if
+ 
+
+00:02:59.760 --> 00:03:01.830 align:start position:0%
+offering a retention option if
+applicable,<00:03:00.560><c> checking</c><00:03:00.959><c> eligibility,</c><00:03:01.680><c> and</c>
+
+00:03:01.830 --> 00:03:01.840 align:start position:0%
+applicable, checking eligibility, and
+ 
+
+00:03:01.840 --> 00:03:03.830 align:start position:0%
+applicable, checking eligibility, and
+then<00:03:02.000><c> performing</c><00:03:02.319><c> the</c><00:03:02.560><c> cancellation.</c>
+
+00:03:03.830 --> 00:03:03.840 align:start position:0%
+then performing the cancellation.
+ 
+
+00:03:03.840 --> 00:03:06.149 align:start position:0%
+then performing the cancellation.
+Finally,<00:03:04.319><c> sub</c><00:03:04.560><c> agents</c><00:03:05.120><c> group</c><00:03:05.360><c> together</c>
+
+00:03:06.149 --> 00:03:06.159 align:start position:0%
+Finally, sub agents group together
+ 
+
+00:03:06.159 --> 00:03:07.830 align:start position:0%
+Finally, sub agents group together
+related<00:03:06.560><c> actions</c><00:03:06.879><c> and</c><00:03:07.120><c> workflows</c><00:03:07.519><c> into</c>
+
+00:03:07.830 --> 00:03:07.840 align:start position:0%
+related actions and workflows into
+ 
+
+00:03:07.840 --> 00:03:09.750 align:start position:0%
+related actions and workflows into
+larger<00:03:08.159><c> domain</c><00:03:08.560><c> specific</c><00:03:08.959><c> modules</c><00:03:09.440><c> like</c><00:03:09.599><c> a</c>
+
+00:03:09.750 --> 00:03:09.760 align:start position:0%
+larger domain specific modules like a
+ 
+
+00:03:09.760 --> 00:03:12.350 align:start position:0%
+larger domain specific modules like a
+building<00:03:10.000><c> agent</c><00:03:10.560><c> or</c><00:03:10.879><c> a</c><00:03:11.120><c> log</c><00:03:11.440><c> retrieval</c>
+
+00:03:12.350 --> 00:03:12.360 align:start position:0%
+building agent or a log retrieval
+ 
+
+00:03:12.360 --> 00:03:14.670 align:start position:0%
+building agent or a log retrieval
+agent.<00:03:13.360><c> In</c><00:03:13.599><c> order</c><00:03:13.760><c> to</c><00:03:14.000><c> model</c><00:03:14.319><c> this</c>
+
+00:03:14.670 --> 00:03:14.680 align:start position:0%
+agent. In order to model this
+ 
+
+00:03:14.680 --> 00:03:17.030 align:start position:0%
+agent. In order to model this
+complexity,<00:03:15.680><c> we</c><00:03:15.840><c> built</c><00:03:16.080><c> a</c><00:03:16.319><c> domain</c><00:03:16.720><c> specific</c>
+
+00:03:17.030 --> 00:03:17.040 align:start position:0%
+complexity, we built a domain specific
+ 
+
+00:03:17.040 --> 00:03:19.750 align:start position:0%
+complexity, we built a domain specific
+language<00:03:17.680><c> from</c><00:03:17.959><c> workflows</c><00:03:18.959><c> using</c><00:03:19.360><c> effects</c>
+
+00:03:19.750 --> 00:03:19.760 align:start position:0%
+language from workflows using effects
+ 
+
+00:03:19.760 --> 00:03:21.990 align:start position:0%
+language from workflows using effects
+functional<00:03:20.239><c> pipe</c><00:03:20.560><c> based</c><00:03:21.200><c> system</c><00:03:21.519><c> as</c><00:03:21.760><c> the</c>
+
+00:03:21.990 --> 00:03:22.000 align:start position:0%
+functional pipe based system as the
+ 
+
+00:03:22.000 --> 00:03:24.149 align:start position:0%
+functional pipe based system as the
+foundation.<00:03:22.800><c> And</c><00:03:22.959><c> this</c><00:03:23.120><c> lets</c><00:03:23.360><c> us</c><00:03:23.680><c> express</c>
+
+00:03:24.149 --> 00:03:24.159 align:start position:0%
+foundation. And this lets us express
+ 
+
+00:03:24.159 --> 00:03:25.990 align:start position:0%
+foundation. And this lets us express
+things<00:03:24.400><c> like</c><00:03:24.560><c> branching,</c><00:03:25.360><c> sequencing,</c>
+
+00:03:25.990 --> 00:03:26.000 align:start position:0%
+things like branching, sequencing,
+ 
+
+00:03:26.000 --> 00:03:28.550 align:start position:0%
+things like branching, sequencing,
+retries,<00:03:26.640><c> state</c><00:03:26.959><c> transitions,</c><00:03:27.760><c> and</c><00:03:28.000><c> memory</c>
+
+00:03:28.550 --> 00:03:28.560 align:start position:0%
+retries, state transitions, and memory
+ 
+
+00:03:28.560 --> 00:03:32.309 align:start position:0%
+retries, state transitions, and memory
+in<00:03:28.800><c> a</c><00:03:28.959><c> very</c><00:03:29.200><c> clear</c><00:03:29.440><c> and</c><00:03:29.760><c> composable</c><00:03:30.400><c> way.</c><00:03:31.840><c> Now,</c>
+
+00:03:32.309 --> 00:03:32.319 align:start position:0%
+in a very clear and composable way. Now,
+ 
+
+00:03:32.319 --> 00:03:33.830 align:start position:0%
+in a very clear and composable way. Now,
+as<00:03:32.560><c> you're</c><00:03:32.720><c> powering</c><00:03:33.120><c> mission</c><00:03:33.519><c> critical</c>
+
+00:03:33.830 --> 00:03:33.840 align:start position:0%
+as you're powering mission critical
+ 
+
+00:03:33.840 --> 00:03:36.309 align:start position:0%
+as you're powering mission critical
+systems,<00:03:34.239><c> reliability</c><00:03:34.879><c> really</c><00:03:35.120><c> is</c><00:03:35.360><c> key.</c><00:03:36.080><c> If</c>
+
+00:03:36.309 --> 00:03:36.319 align:start position:0%
+systems, reliability really is key. If
+ 
+
+00:03:36.319 --> 00:03:38.470 align:start position:0%
+systems, reliability really is key. If
+one<00:03:36.560><c> LM</c><00:03:37.120><c> provider</c><00:03:37.440><c> fails,</c><00:03:37.760><c> for</c><00:03:37.920><c> instance,</c><00:03:38.239><c> we</c>
+
+00:03:38.470 --> 00:03:38.480 align:start position:0%
+one LM provider fails, for instance, we
+ 
+
+00:03:38.480 --> 00:03:40.149 align:start position:0%
+one LM provider fails, for instance, we
+fall<00:03:38.720><c> back</c><00:03:38.879><c> to</c><00:03:39.040><c> another</c><00:03:39.360><c> provider</c><00:03:39.920><c> with</c>
+
+00:03:40.149 --> 00:03:40.159 align:start position:0%
+fall back to another provider with
+ 
+
+00:03:40.159 --> 00:03:41.750 align:start position:0%
+fall back to another provider with
+similar<00:03:40.560><c> performance</c><00:03:40.959><c> characteristics.</c><00:03:41.599><c> For</c>
+
+00:03:41.750 --> 00:03:41.760 align:start position:0%
+similar performance characteristics. For
+ 
+
+00:03:41.760 --> 00:03:43.990 align:start position:0%
+similar performance characteristics. For
+instance,<00:03:42.080><c> GPT4</c><00:03:42.879><c> mini</c><00:03:43.280><c> could</c><00:03:43.519><c> fall</c><00:03:43.760><c> back</c><00:03:43.840><c> to</c>
+
+00:03:43.990 --> 00:03:44.000 align:start position:0%
+instance, GPT4 mini could fall back to
+ 
+
+00:03:44.000 --> 00:03:47.750 align:start position:0%
+instance, GPT4 mini could fall back to
+GD<00:03:44.640><c> flash</c><00:03:45.040><c> 2.0</c><00:03:45.599><c> for</c><00:03:45.840><c> tool</c><00:03:46.200><c> calling.</c><00:03:47.200><c> We</c><00:03:47.440><c> model</c>
+
+00:03:47.750 --> 00:03:47.760 align:start position:0%
+GD flash 2.0 for tool calling. We model
+ 
+
+00:03:47.760 --> 00:03:49.910 align:start position:0%
+GD flash 2.0 for tool calling. We model
+this<00:03:48.000><c> with</c><00:03:48.319><c> retry</c><00:03:48.799><c> policies</c><00:03:49.280><c> which</c><00:03:49.519><c> also</c>
+
+00:03:49.910 --> 00:03:49.920 align:start position:0%
+this with retry policies which also
+ 
+
+00:03:49.920 --> 00:03:52.589 align:start position:0%
+this with retry policies which also
+track<00:03:50.159><c> state.</c><00:03:50.720><c> So,</c><00:03:50.879><c> we</c><00:03:51.040><c> avoid</c><00:03:51.360><c> retrying</c><00:03:51.840><c> fail</c>
+
+00:03:52.589 --> 00:03:52.599 align:start position:0%
+track state. So, we avoid retrying fail
+ 
+
+00:03:52.599 --> 00:03:55.430 align:start position:0%
+track state. So, we avoid retrying fail
+providers.<00:03:53.599><c> Often</c><00:03:53.920><c> times,</c><00:03:54.799><c> answers</c><00:03:55.200><c> are</c>
+
+00:03:55.430 --> 00:03:55.440 align:start position:0%
+providers. Often times, answers are
+ 
+
+00:03:55.440 --> 00:03:58.229 align:start position:0%
+providers. Often times, answers are
+streamed<00:03:55.760><c> to</c><00:03:55.920><c> the</c><00:03:56.080><c> end</c><00:03:56.319><c> user.</c><00:03:57.280><c> We</c><00:03:57.840><c> for</c><00:03:58.080><c> that</c>
+
+00:03:58.229 --> 00:03:58.239 align:start position:0%
+streamed to the end user. We for that
+ 
+
+00:03:58.239 --> 00:04:00.789 align:start position:0%
+streamed to the end user. We for that
+purpose<00:03:58.720><c> duplicate</c><00:03:59.519><c> token</c><00:03:59.840><c> streams.</c><00:04:00.480><c> One</c>
+
+00:04:00.789 --> 00:04:00.799 align:start position:0%
+purpose duplicate token streams. One
+ 
+
+00:04:00.799 --> 00:04:03.030 align:start position:0%
+purpose duplicate token streams. One
+directly<00:04:01.120><c> to</c><00:04:01.280><c> the</c><00:04:01.519><c> user</c><00:04:02.000><c> and</c><00:04:02.239><c> one</c><00:04:02.480><c> for</c><00:04:02.720><c> storage</c>
+
+00:04:03.030 --> 00:04:03.040 align:start position:0%
+directly to the user and one for storage
+ 
+
+00:04:03.040 --> 00:04:05.509 align:start position:0%
+directly to the user and one for storage
+on<00:04:03.360><c> our</c><00:04:03.519><c> side.</c><00:04:03.840><c> For</c><00:04:04.000><c> instance,</c><00:04:04.519><c> analytics</c>
+
+00:04:05.509 --> 00:04:05.519 align:start position:0%
+on our side. For instance, analytics
+ 
+
+00:04:05.519 --> 00:04:08.429 align:start position:0%
+on our side. For instance, analytics
+effect<00:04:06.080><c> allows</c><00:04:06.400><c> us</c><00:04:06.480><c> to</c><00:04:06.640><c> do</c><00:04:06.799><c> that</c><00:04:07.200><c> very</c>
+
+00:04:08.429 --> 00:04:08.439 align:start position:0%
+effect allows us to do that very
+ 
+
+00:04:08.439 --> 00:04:10.869 align:start position:0%
+effect allows us to do that very
+easily.<00:04:09.439><c> For</c><00:04:09.680><c> testing,</c><00:04:10.080><c> we</c><00:04:10.319><c> make</c><00:04:10.480><c> heavy</c><00:04:10.720><c> use</c>
+
+00:04:10.869 --> 00:04:10.879 align:start position:0%
+easily. For testing, we make heavy use
+ 
+
+00:04:10.879 --> 00:04:12.869 align:start position:0%
+easily. For testing, we make heavy use
+of<00:04:11.040><c> dependency</c><00:04:11.599><c> injection</c><00:04:11.920><c> to</c><00:04:12.159><c> mock</c><00:04:12.400><c> LM</c>
+
+00:04:12.869 --> 00:04:12.879 align:start position:0%
+of dependency injection to mock LM
+ 
+
+00:04:12.879 --> 00:04:14.229 align:start position:0%
+of dependency injection to mock LM
+providers<00:04:13.200><c> and</c><00:04:13.360><c> simulate</c><00:04:13.840><c> failure</c>
+
+00:04:14.229 --> 00:04:14.239 align:start position:0%
+providers and simulate failure
+ 
+
+00:04:14.239 --> 00:04:16.789 align:start position:0%
+providers and simulate failure
+scenarios.<00:04:15.120><c> With</c><00:04:15.360><c> this</c><00:04:15.599><c> DI</c><00:04:16.000><c> approach,</c><00:04:16.479><c> we</c><00:04:16.720><c> can</c>
+
+00:04:16.789 --> 00:04:16.799 align:start position:0%
+scenarios. With this DI approach, we can
+ 
+
+00:04:16.799 --> 00:04:19.189 align:start position:0%
+scenarios. With this DI approach, we can
+easily<00:04:17.120><c> swap</c><00:04:17.519><c> services</c><00:04:17.919><c> providers</c><00:04:18.560><c> with</c><00:04:18.799><c> mock</c>
+
+00:04:19.189 --> 00:04:19.199 align:start position:0%
+easily swap services providers with mock
+ 
+
+00:04:19.199 --> 00:04:21.270 align:start position:0%
+easily swap services providers with mock
+versions<00:04:19.840><c> without</c><00:04:20.320><c> actually</c><00:04:20.639><c> affecting</c><00:04:21.040><c> the</c>
+
+00:04:21.270 --> 00:04:21.280 align:start position:0%
+versions without actually affecting the
+ 
+
+00:04:21.280 --> 00:04:23.310 align:start position:0%
+versions without actually affecting the
+internals<00:04:21.759><c> of</c><00:04:21.919><c> our</c>
+
+00:04:23.310 --> 00:04:23.320 align:start position:0%
+internals of our
+ 
+
+00:04:23.320 --> 00:04:25.510 align:start position:0%
+internals of our
+system.<00:04:24.320><c> This</c><00:04:24.560><c> brings</c><00:04:24.800><c> us</c><00:04:24.880><c> to</c><00:04:25.120><c> developer</c>
+
+00:04:25.510 --> 00:04:25.520 align:start position:0%
+system. This brings us to developer
+ 
+
+00:04:25.520 --> 00:04:27.270 align:start position:0%
+system. This brings us to developer
+experience.<00:04:26.240><c> With</c><00:04:26.479><c> all</c><00:04:26.639><c> these</c><00:04:26.960><c> tools</c>
+
+00:04:27.270 --> 00:04:27.280 align:start position:0%
+experience. With all these tools
+ 
+
+00:04:27.280 --> 00:04:29.270 align:start position:0%
+experience. With all these tools
+available,<00:04:27.680><c> the</c><00:04:27.840><c> developer</c><00:04:28.240><c> experience</c><00:04:28.960><c> for</c>
+
+00:04:29.270 --> 00:04:29.280 align:start position:0%
+available, the developer experience for
+ 
+
+00:04:29.280 --> 00:04:30.870 align:start position:0%
+available, the developer experience for
+building<00:04:29.520><c> agentic</c><00:04:30.080><c> systems</c><00:04:30.320><c> in</c><00:04:30.479><c> effect</c>
+
+00:04:30.870 --> 00:04:30.880 align:start position:0%
+building agentic systems in effect
+ 
+
+00:04:30.880 --> 00:04:32.950 align:start position:0%
+building agentic systems in effect
+really<00:04:31.120><c> is</c><00:04:31.360><c> excellent.</c><00:04:32.320><c> First</c><00:04:32.479><c> of</c><00:04:32.639><c> all,</c><00:04:32.800><c> it's</c>
+
+00:04:32.950 --> 00:04:32.960 align:start position:0%
+really is excellent. First of all, it's
+ 
+
+00:04:32.960 --> 00:04:34.870 align:start position:0%
+really is excellent. First of all, it's
+schema<00:04:33.440><c> centric.</c><00:04:33.840><c> So</c><00:04:34.000><c> we</c><00:04:34.160><c> define</c><00:04:34.479><c> input,</c>
+
+00:04:34.870 --> 00:04:34.880 align:start position:0%
+schema centric. So we define input,
+ 
+
+00:04:34.880 --> 00:04:37.030 align:start position:0%
+schema centric. So we define input,
+output,<00:04:35.280><c> and</c><00:04:35.520><c> error</c><00:04:35.759><c> types</c><00:04:36.000><c> up</c><00:04:36.240><c> front.</c><00:04:36.880><c> And</c>
+
+00:04:37.030 --> 00:04:37.040 align:start position:0%
+output, and error types up front. And
+ 
+
+00:04:37.040 --> 00:04:38.469 align:start position:0%
+output, and error types up front. And
+those<00:04:37.280><c> schemas</c><00:04:37.759><c> come</c><00:04:38.000><c> with</c><00:04:38.160><c> powerful</c>
+
+00:04:38.469 --> 00:04:38.479 align:start position:0%
+those schemas come with powerful
+ 
+
+00:04:38.479 --> 00:04:40.870 align:start position:0%
+those schemas come with powerful
+encoding<00:04:38.880><c> and</c><00:04:39.040><c> decoding</c><00:04:39.520><c> built</c><00:04:39.759><c> in.</c><00:04:40.639><c> They</c>
+
+00:04:40.870 --> 00:04:40.880 align:start position:0%
+encoding and decoding built in. They
+ 
+
+00:04:40.880 --> 00:04:43.350 align:start position:0%
+encoding and decoding built in. They
+provide<00:04:41.199><c> strong</c><00:04:41.520><c> type</c><00:04:41.840><c> safety</c><00:04:42.360><c> guarantees</c>
+
+00:04:43.350 --> 00:04:43.360 align:start position:0%
+provide strong type safety guarantees
+ 
+
+00:04:43.360 --> 00:04:45.030 align:start position:0%
+provide strong type safety guarantees
+and<00:04:43.600><c> they're</c><00:04:43.840><c> automatically</c><00:04:44.400><c> documented</c><00:04:44.880><c> so</c>
+
+00:04:45.030 --> 00:04:45.040 align:start position:0%
+and they're automatically documented so
+ 
+
+00:04:45.040 --> 00:04:46.469 align:start position:0%
+and they're automatically documented so
+we<00:04:45.199><c> can</c><00:04:45.280><c> get</c><00:04:45.440><c> clarity</c><00:04:45.680><c> and</c><00:04:45.919><c> consistency</c>
+
+00:04:46.469 --> 00:04:46.479 align:start position:0%
+we can get clarity and consistency
+ 
+
+00:04:46.479 --> 00:04:48.710 align:start position:0%
+we can get clarity and consistency
+without<00:04:46.800><c> extra</c><00:04:47.160><c> effort.</c><00:04:48.160><c> Dependency</c>
+
+00:04:48.710 --> 00:04:48.720 align:start position:0%
+without extra effort. Dependency
+ 
+
+00:04:48.720 --> 00:04:50.469 align:start position:0%
+without extra effort. Dependency
+injection<00:04:49.360><c> obviously</c><00:04:49.680><c> is</c><00:04:49.919><c> also</c><00:04:50.080><c> a</c><00:04:50.240><c> strong</c>
+
+00:04:50.469 --> 00:04:50.479 align:start position:0%
+injection obviously is also a strong
+ 
+
+00:04:50.479 --> 00:04:52.790 align:start position:0%
+injection obviously is also a strong
+point.<00:04:51.360><c> So</c><00:04:51.600><c> services</c><00:04:51.919><c> are</c><00:04:52.160><c> provided</c><00:04:52.400><c> at</c><00:04:52.639><c> the</c>
+
+00:04:52.790 --> 00:04:52.800 align:start position:0%
+point. So services are provided at the
+ 
+
+00:04:52.800 --> 00:04:55.110 align:start position:0%
+point. So services are provided at the
+entry<00:04:53.199><c> point</c><00:04:53.520><c> of</c><00:04:53.759><c> our</c><00:04:54.000><c> systems.</c><00:04:54.720><c> that</c><00:04:54.880><c> can</c><00:04:54.960><c> be</c>
+
+00:04:55.110 --> 00:04:55.120 align:start position:0%
+entry point of our systems. that can be
+ 
+
+00:04:55.120 --> 00:04:56.870 align:start position:0%
+entry point of our systems. that can be
+composed<00:04:55.600><c> however</c><00:04:55.919><c> we</c><00:04:56.160><c> need</c><00:04:56.320><c> and</c><00:04:56.560><c> easily</c>
+
+00:04:56.870 --> 00:04:56.880 align:start position:0%
+composed however we need and easily
+ 
+
+00:04:56.880 --> 00:04:59.350 align:start position:0%
+composed however we need and easily
+marked<00:04:57.199><c> for</c><00:04:57.400><c> testing.</c><00:04:58.400><c> Dependencies</c><00:04:59.120><c> are</c>
+
+00:04:59.350 --> 00:04:59.360 align:start position:0%
+marked for testing. Dependencies are
+ 
+
+00:04:59.360 --> 00:05:01.430 align:start position:0%
+marked for testing. Dependencies are
+present<00:04:59.680><c> at</c><00:04:59.840><c> the</c><00:05:00.000><c> type</c><00:05:00.320><c> level</c><00:05:00.800><c> guaranteed</c><00:05:01.280><c> at</c>
+
+00:05:01.430 --> 00:05:01.440 align:start position:0%
+present at the type level guaranteed at
+ 
+
+00:05:01.440 --> 00:05:03.350 align:start position:0%
+present at the type level guaranteed at
+compile<00:05:01.840><c> time</c><00:05:02.080><c> that</c><00:05:02.320><c> all</c><00:05:02.479><c> required</c><00:05:03.040><c> services</c>
+
+00:05:03.350 --> 00:05:03.360 align:start position:0%
+compile time that all required services
+ 
+
+00:05:03.360 --> 00:05:06.230 align:start position:0%
+compile time that all required services
+are<00:05:03.960><c> provided.</c><00:05:04.960><c> Services</c><00:05:05.440><c> themselves</c><00:05:05.919><c> are</c>
+
+00:05:06.230 --> 00:05:06.240 align:start position:0%
+are provided. Services themselves are
+ 
+
+00:05:06.240 --> 00:05:07.990 align:start position:0%
+are provided. Services themselves are
+modular<00:05:06.639><c> and</c><00:05:06.800><c> composable</c><00:05:07.360><c> which</c><00:05:07.600><c> makes</c><00:05:07.840><c> it</c>
+
+00:05:07.990 --> 00:05:08.000 align:start position:0%
+modular and composable which makes it
+ 
+
+00:05:08.000 --> 00:05:10.230 align:start position:0%
+modular and composable which makes it
+easy<00:05:08.240><c> to</c><00:05:08.479><c> override</c><00:05:08.880><c> behavior</c><00:05:09.440><c> or</c><00:05:09.680><c> swap</c><00:05:10.000><c> in</c>
+
+00:05:10.230 --> 00:05:10.240 align:start position:0%
+easy to override behavior or swap in
+ 
+
+00:05:10.240 --> 00:05:11.510 align:start position:0%
+easy to override behavior or swap in
+different<00:05:10.479><c> implementations</c><00:05:11.199><c> without</c>
+
+00:05:11.510 --> 00:05:11.520 align:start position:0%
+different implementations without
+ 
+
+00:05:11.520 --> 00:05:13.990 align:start position:0%
+different implementations without
+affecting<00:05:11.919><c> the</c><00:05:12.160><c> internals</c><00:05:12.639><c> of</c><00:05:12.800><c> our</c><00:05:13.000><c> system.</c>
+
+00:05:13.990 --> 00:05:14.000 align:start position:0%
+affecting the internals of our system.
+ 
+
+00:05:14.000 --> 00:05:17.189 align:start position:0%
+affecting the internals of our system.
+And<00:05:14.160><c> finally,</c><00:05:15.039><c> effect</c><00:05:15.639><c> provides</c><00:05:16.639><c> very</c><00:05:16.880><c> strong</c>
+
+00:05:17.189 --> 00:05:17.199 align:start position:0%
+And finally, effect provides very strong
+ 
+
+00:05:17.199 --> 00:05:19.670 align:start position:0%
+And finally, effect provides very strong
+guard<00:05:17.520><c> rails.</c><00:05:18.479><c> Engineers</c><00:05:19.039><c> who</c><00:05:19.199><c> are</c><00:05:19.360><c> new</c><00:05:19.520><c> to</c>
+
+00:05:19.670 --> 00:05:19.680 align:start position:0%
+guard rails. Engineers who are new to
+ 
+
+00:05:19.680 --> 00:05:21.749 align:start position:0%
+guard rails. Engineers who are new to
+Typescript<00:05:20.240><c> can</c><00:05:20.400><c> become</c><00:05:20.720><c> productive</c><00:05:21.120><c> quickly</c>
+
+00:05:21.749 --> 00:05:21.759 align:start position:0%
+Typescript can become productive quickly
+ 
+
+00:05:21.759 --> 00:05:23.270 align:start position:0%
+Typescript can become productive quickly
+because<00:05:22.000><c> the</c><00:05:22.240><c> framework</c><00:05:22.639><c> helps</c><00:05:22.960><c> prevent</c>
+
+00:05:23.270 --> 00:05:23.280 align:start position:0%
+because the framework helps prevent
+ 
+
+00:05:23.280 --> 00:05:25.510 align:start position:0%
+because the framework helps prevent
+common<00:05:23.600><c> mistakes.</c><00:05:24.560><c> Once</c><00:05:24.800><c> you</c><00:05:24.960><c> get</c><00:05:25.120><c> past</c><00:05:25.280><c> the</c>
+
+00:05:25.510 --> 00:05:25.520 align:start position:0%
+common mistakes. Once you get past the
+ 
+
+00:05:25.520 --> 00:05:26.950 align:start position:0%
+common mistakes. Once you get past the
+initial<00:05:25.840><c> learning</c><00:05:26.080><c> curve,</c><00:05:26.400><c> it's</c><00:05:26.639><c> harder</c><00:05:26.880><c> to</c>
+
+00:05:26.950 --> 00:05:26.960 align:start position:0%
+initial learning curve, it's harder to
+ 
+
+00:05:26.960 --> 00:05:29.710 align:start position:0%
+initial learning curve, it's harder to
+fall<00:05:27.199><c> into</c><00:05:27.440><c> bad</c>
+
+00:05:29.710 --> 00:05:29.720 align:start position:0%
+ 
+ 
+
+00:05:29.720 --> 00:05:31.830 align:start position:0%
+ 
+patterns.<00:05:30.720><c> A</c><00:05:30.960><c> bit</c><00:05:31.120><c> about</c><00:05:31.280><c> the</c><00:05:31.440><c> lessons</c>
+
+00:05:31.830 --> 00:05:31.840 align:start position:0%
+patterns. A bit about the lessons
+ 
+
+00:05:31.840 --> 00:05:34.070 align:start position:0%
+patterns. A bit about the lessons
+learned<00:05:32.160><c> here.</c><00:05:32.560><c> So,</c><00:05:32.880><c> effect</c><00:05:33.199><c> is</c><00:05:33.520><c> powerful,</c>
+
+00:05:34.070 --> 00:05:34.080 align:start position:0%
+learned here. So, effect is powerful,
+ 
+
+00:05:34.080 --> 00:05:37.270 align:start position:0%
+learned here. So, effect is powerful,
+but<00:05:34.560><c> using</c><00:05:34.800><c> it</c><00:05:35.039><c> well</c><00:05:35.360><c> takes</c><00:05:36.039><c> discipline.</c><00:05:37.039><c> It's</c>
+
+00:05:37.270 --> 00:05:37.280 align:start position:0%
+but using it well takes discipline. It's
+ 
+
+00:05:37.280 --> 00:05:38.950 align:start position:0%
+but using it well takes discipline. It's
+really<00:05:37.520><c> nice</c><00:05:37.680><c> to</c><00:05:37.840><c> write</c><00:05:38.080><c> code</c><00:05:38.320><c> for</c><00:05:38.479><c> the</c><00:05:38.639><c> happy</c>
+
+00:05:38.950 --> 00:05:38.960 align:start position:0%
+really nice to write code for the happy
+ 
+
+00:05:38.960 --> 00:05:41.110 align:start position:0%
+really nice to write code for the happy
+path.<00:05:39.600><c> Things</c><00:05:40.000><c> look</c><00:05:40.320><c> really</c><00:05:40.639><c> clean</c><00:05:40.880><c> and</c>
+
+00:05:41.110 --> 00:05:41.120 align:start position:0%
+path. Things look really clean and
+ 
+
+00:05:41.120 --> 00:05:42.950 align:start position:0%
+path. Things look really clean and
+explicit,<00:05:41.520><c> and</c><00:05:41.840><c> everything</c><00:05:42.160><c> seems</c><00:05:42.479><c> to</c><00:05:42.720><c> just</c>
+
+00:05:42.950 --> 00:05:42.960 align:start position:0%
+explicit, and everything seems to just
+ 
+
+00:05:42.960 --> 00:05:46.870 align:start position:0%
+explicit, and everything seems to just
+flow.<00:05:44.080><c> But</c><00:05:44.400><c> that</c><00:05:44.639><c> can</c><00:05:44.800><c> also</c><00:05:45.039><c> give</c><00:05:45.199><c> you</c><00:05:45.400><c> a</c><00:05:46.400><c> false</c>
+
+00:05:46.870 --> 00:05:46.880 align:start position:0%
+flow. But that can also give you a false
+ 
+
+00:05:46.880 --> 00:05:49.029 align:start position:0%
+flow. But that can also give you a false
+sense<00:05:47.120><c> of</c><00:05:47.600><c> safety.</c><00:05:48.320><c> It's</c><00:05:48.560><c> easy</c><00:05:48.800><c> to</c>
+
+00:05:49.029 --> 00:05:49.039 align:start position:0%
+sense of safety. It's easy to
+ 
+
+00:05:49.039 --> 00:05:50.790 align:start position:0%
+sense of safety. It's easy to
+accidentally<00:05:49.680><c> catch</c><00:05:50.160><c> errors</c><00:05:50.400><c> somewhere</c>
+
+00:05:50.790 --> 00:05:50.800 align:start position:0%
+accidentally catch errors somewhere
+ 
+
+00:05:50.800 --> 00:05:53.110 align:start position:0%
+accidentally catch errors somewhere
+upstream<00:05:51.280><c> or</c><00:05:51.440><c> out</c><00:05:51.680><c> of</c><00:05:51.840><c> sight</c><00:05:52.400><c> and</c><00:05:52.639><c> silently</c>
+
+00:05:53.110 --> 00:05:53.120 align:start position:0%
+upstream or out of sight and silently
+ 
+
+00:05:53.120 --> 00:05:54.990 align:start position:0%
+upstream or out of sight and silently
+lose<00:05:53.440><c> important</c><00:05:53.840><c> failures</c><00:05:54.240><c> if</c><00:05:54.400><c> you're</c><00:05:54.639><c> not</c>
+
+00:05:54.990 --> 00:05:55.000 align:start position:0%
+lose important failures if you're not
+ 
+
+00:05:55.000 --> 00:05:57.749 align:start position:0%
+lose important failures if you're not
+careful.<00:05:56.000><c> Dependency</c><00:05:56.560><c> injection</c><00:05:57.199><c> is</c><00:05:57.440><c> another</c>
+
+00:05:57.749 --> 00:05:57.759 align:start position:0%
+careful. Dependency injection is another
+ 
+
+00:05:57.759 --> 00:06:00.150 align:start position:0%
+careful. Dependency injection is another
+area<00:05:58.080><c> I</c><00:05:58.240><c> would</c><00:05:58.320><c> say</c><00:05:58.479><c> where</c><00:05:59.440><c> it</c><00:05:59.680><c> can</c><00:05:59.759><c> be</c><00:05:59.919><c> hard</c>
+
+00:06:00.150 --> 00:06:00.160 align:start position:0%
+area I would say where it can be hard
+ 
+
+00:06:00.160 --> 00:06:02.469 align:start position:0%
+area I would say where it can be hard
+sometimes<00:06:00.560><c> to</c><00:06:00.880><c> grasp</c><00:06:01.199><c> at</c><00:06:01.520><c> scale.</c><00:06:02.080><c> It's</c><00:06:02.320><c> great</c>
+
+00:06:02.469 --> 00:06:02.479 align:start position:0%
+sometimes to grasp at scale. It's great
+ 
+
+00:06:02.479 --> 00:06:04.790 align:start position:0%
+sometimes to grasp at scale. It's great
+in<00:06:02.720><c> principle</c><00:06:03.120><c> but</c><00:06:03.680><c> tracing</c><00:06:04.080><c> where</c><00:06:04.400><c> services</c>
+
+00:06:04.790 --> 00:06:04.800 align:start position:0%
+in principle but tracing where services
+ 
+
+00:06:04.800 --> 00:06:06.070 align:start position:0%
+in principle but tracing where services
+are<00:06:04.960><c> provided</c><00:06:05.440><c> especially</c><00:06:05.680><c> when</c><00:06:05.919><c> you're</c>
+
+00:06:06.070 --> 00:06:06.080 align:start position:0%
+are provided especially when you're
+ 
+
+00:06:06.080 --> 00:06:07.629 align:start position:0%
+are provided especially when you're
+dealing<00:06:06.319><c> with</c><00:06:06.479><c> multiple</c><00:06:07.039><c> layers</c><00:06:07.280><c> or</c>
+
+00:06:07.629 --> 00:06:07.639 align:start position:0%
+dealing with multiple layers or
+ 
+
+00:06:07.639 --> 00:06:10.230 align:start position:0%
+dealing with multiple layers or
+subsystems<00:06:08.639><c> can</c><00:06:08.880><c> become</c><00:06:09.520><c> kind</c><00:06:09.759><c> of</c><00:06:09.840><c> hard</c><00:06:10.080><c> to</c>
+
+00:06:10.230 --> 00:06:10.240 align:start position:0%
+subsystems can become kind of hard to
+ 
+
+00:06:10.240 --> 00:06:13.189 align:start position:0%
+subsystems can become kind of hard to
+follow.<00:06:11.199><c> The</c><00:06:11.440><c> learning</c><00:06:11.759><c> curve</c><00:06:12.080><c> is</c><00:06:12.400><c> real.</c>
+
+00:06:13.189 --> 00:06:13.199 align:start position:0%
+follow. The learning curve is real.
+ 
+
+00:06:13.199 --> 00:06:15.189 align:start position:0%
+follow. The learning curve is real.
+effect<00:06:13.440><c> is</c><00:06:13.600><c> a</c><00:06:13.759><c> big</c><00:06:13.919><c> ecosystem</c><00:06:14.479><c> with</c><00:06:14.720><c> a</c><00:06:14.960><c> lot</c><00:06:15.039><c> of</c>
+
+00:06:15.189 --> 00:06:15.199 align:start position:0%
+effect is a big ecosystem with a lot of
+ 
+
+00:06:15.199 --> 00:06:17.270 align:start position:0%
+effect is a big ecosystem with a lot of
+concepts<00:06:15.600><c> and</c><00:06:15.840><c> tools.</c><00:06:16.800><c> It</c><00:06:17.039><c> can</c><00:06:17.199><c> be</c>
+
+00:06:17.270 --> 00:06:17.280 align:start position:0%
+concepts and tools. It can be
+ 
+
+00:06:17.280 --> 00:06:19.430 align:start position:0%
+concepts and tools. It can be
+overwhelming<00:06:17.840><c> at</c><00:06:18.080><c> first,</c><00:06:18.479><c> but</c><00:06:18.880><c> really</c><00:06:19.199><c> once</c>
+
+00:06:19.430 --> 00:06:19.440 align:start position:0%
+overwhelming at first, but really once
+ 
+
+00:06:19.440 --> 00:06:21.990 align:start position:0%
+overwhelming at first, but really once
+you<00:06:19.600><c> get</c><00:06:19.919><c> past</c><00:06:20.240><c> this</c><00:06:20.479><c> initial</c><00:06:20.960><c> bump,</c><00:06:21.680><c> things</c>
+
+00:06:21.990 --> 00:06:22.000 align:start position:0%
+you get past this initial bump, things
+ 
+
+00:06:22.000 --> 00:06:24.629 align:start position:0%
+you get past this initial bump, things
+just<00:06:22.240><c> somehow</c><00:06:22.800><c> start</c><00:06:23.199><c> to</c><00:06:23.520><c> click</c><00:06:24.160><c> and</c><00:06:24.400><c> from</c>
+
+00:06:24.629 --> 00:06:24.639 align:start position:0%
+just somehow start to click and from
+ 
+
+00:06:24.639 --> 00:06:27.670 align:start position:0%
+just somehow start to click and from
+that<00:06:25.039><c> point</c><00:06:25.280><c> on,</c><00:06:25.680><c> the</c><00:06:25.919><c> benefits</c><00:06:26.680><c> compound.</c>
+
+00:06:27.670 --> 00:06:27.680 align:start position:0%
+that point on, the benefits compound.
+ 
+
+00:06:27.680 --> 00:06:29.510 align:start position:0%
+that point on, the benefits compound.
+So,<00:06:27.840><c> at</c><00:06:28.080><c> the</c><00:06:28.160><c> end</c><00:06:28.240><c> of</c><00:06:28.319><c> the</c><00:06:28.479><c> day,</c><00:06:28.960><c> effect</c><00:06:29.280><c> helps</c>
+
+00:06:29.510 --> 00:06:29.520 align:start position:0%
+So, at the end of the day, effect helps
+ 
+
+00:06:29.520 --> 00:06:30.950 align:start position:0%
+So, at the end of the day, effect helps
+us<00:06:29.759><c> build</c><00:06:30.000><c> systems</c><00:06:30.240><c> that</c><00:06:30.400><c> are</c><00:06:30.560><c> predictable</c>
+
+00:06:30.950 --> 00:06:30.960 align:start position:0%
+us build systems that are predictable
+ 
+
+00:06:30.960 --> 00:06:33.029 align:start position:0%
+us build systems that are predictable
+and<00:06:31.199><c> resilient,</c><00:06:31.759><c> but</c><00:06:32.000><c> it's</c><00:06:32.160><c> not</c><00:06:32.319><c> magic.</c><00:06:32.800><c> You</c>
+
+00:06:33.029 --> 00:06:33.039 align:start position:0%
+and resilient, but it's not magic. You
+ 
+
+00:06:33.039 --> 00:06:34.749 align:start position:0%
+and resilient, but it's not magic. You
+still<00:06:33.199><c> have</c><00:06:33.360><c> to</c>
+
+00:06:34.749 --> 00:06:34.759 align:start position:0%
+still have to
+ 
+
+00:06:34.759 --> 00:06:37.029 align:start position:0%
+still have to
+think.<00:06:35.759><c> One</c><00:06:36.000><c> of</c><00:06:36.080><c> the</c><00:06:36.240><c> great</c><00:06:36.479><c> things</c><00:06:36.720><c> about</c>
+
+00:06:37.029 --> 00:06:37.039 align:start position:0%
+think. One of the great things about
+ 
+
+00:06:37.039 --> 00:06:38.870 align:start position:0%
+think. One of the great things about
+effect<00:06:37.280><c> is</c><00:06:37.520><c> that</c><00:06:37.759><c> you</c><00:06:38.000><c> don't</c><00:06:38.160><c> have</c><00:06:38.319><c> to</c><00:06:38.479><c> go</c><00:06:38.639><c> all</c>
+
+00:06:38.870 --> 00:06:38.880 align:start position:0%
+effect is that you don't have to go all
+ 
+
+00:06:38.880 --> 00:06:41.189 align:start position:0%
+effect is that you don't have to go all
+in<00:06:39.600><c> on</c><00:06:39.840><c> day</c><00:06:40.080><c> one.</c><00:06:40.400><c> You</c><00:06:40.560><c> can</c><00:06:40.639><c> adopt</c><00:06:40.960><c> it</c>
+
+00:06:41.189 --> 00:06:41.199 align:start position:0%
+in on day one. You can adopt it
+ 
+
+00:06:41.199 --> 00:06:43.029 align:start position:0%
+in on day one. You can adopt it
+incrementally.<00:06:42.160><c> Start</c><00:06:42.400><c> with</c><00:06:42.560><c> a</c><00:06:42.720><c> single</c>
+
+00:06:43.029 --> 00:06:43.039 align:start position:0%
+incrementally. Start with a single
+ 
+
+00:06:43.039 --> 00:06:44.870 align:start position:0%
+incrementally. Start with a single
+service<00:06:43.440><c> or</c><00:06:43.759><c> endpoint</c><00:06:44.160><c> and</c><00:06:44.400><c> build</c><00:06:44.639><c> from</c>
+
+00:06:44.870 --> 00:06:44.880 align:start position:0%
+service or endpoint and build from
+ 
+
+00:06:44.880 --> 00:06:47.110 align:start position:0%
+service or endpoint and build from
+there.<00:06:45.600><c> Effect</c><00:06:45.919><c> is</c><00:06:46.160><c> especially</c><00:06:46.639><c> useful</c><00:06:46.960><c> for</c>
+
+00:06:47.110 --> 00:06:47.120 align:start position:0%
+there. Effect is especially useful for
+ 
+
+00:06:47.120 --> 00:06:49.270 align:start position:0%
+there. Effect is especially useful for
+LLM<00:06:47.600><c> and</c><00:06:47.759><c> AI</c><00:06:48.080><c> based</c><00:06:48.319><c> systems</c><00:06:48.960><c> where</c>
+
+00:06:49.270 --> 00:06:49.280 align:start position:0%
+LLM and AI based systems where
+ 
+
+00:06:49.280 --> 00:06:50.749 align:start position:0%
+LLM and AI based systems where
+reliability<00:06:50.000><c> and</c><00:06:50.240><c> coping</c><00:06:50.560><c> with</c>
+
+00:06:50.749 --> 00:06:50.759 align:start position:0%
+reliability and coping with
+ 
+
+00:06:50.759 --> 00:06:53.670 align:start position:0%
+reliability and coping with
+non-determinism<00:06:51.759><c> really</c><00:06:52.199><c> matter.</c><00:06:53.199><c> You</c><00:06:53.520><c> want</c>
+
+00:06:53.670 --> 00:06:53.680 align:start position:0%
+non-determinism really matter. You want
+ 
+
+00:06:53.680 --> 00:06:55.430 align:start position:0%
+non-determinism really matter. You want
+your<00:06:54.000><c> systems</c><00:06:54.319><c> to</c><00:06:54.479><c> be</c><00:06:54.639><c> predictable</c><00:06:55.120><c> and</c>
+
+00:06:55.430 --> 00:06:55.440 align:start position:0%
+your systems to be predictable and
+ 
+
+00:06:55.440 --> 00:06:57.029 align:start position:0%
+your systems to be predictable and
+observable<00:06:55.919><c> and</c><00:06:56.160><c> effect</c><00:06:56.560><c> gives</c><00:06:56.720><c> you</c><00:06:56.880><c> the</c>
+
+00:06:57.029 --> 00:06:57.039 align:start position:0%
+observable and effect gives you the
+ 
+
+00:06:57.039 --> 00:06:58.510 align:start position:0%
+observable and effect gives you the
+right<00:06:57.199><c> tools</c><00:06:57.520><c> to</c><00:06:57.680><c> make</c><00:06:57.840><c> it</c>
+
+00:06:58.510 --> 00:06:58.520 align:start position:0%
+right tools to make it
+ 
+
+00:06:58.520 --> 00:07:01.029 align:start position:0%
+right tools to make it
+happen.<00:06:59.520><c> It</c><00:06:59.759><c> also</c><00:07:00.000><c> brings</c><00:07:00.240><c> the</c><00:07:00.479><c> rigor</c><00:07:00.800><c> of</c>
+
+00:07:01.029 --> 00:07:01.039 align:start position:0%
+happen. It also brings the rigor of
+ 
+
+00:07:01.039 --> 00:07:03.110 align:start position:0%
+happen. It also brings the rigor of
+functional<00:07:01.520><c> programming</c><00:07:02.080><c> into</c><00:07:02.479><c> real</c><00:07:02.880><c> world</c>
+
+00:07:03.110 --> 00:07:03.120 align:start position:0%
+functional programming into real world
+ 
+
+00:07:03.120 --> 00:07:05.270 align:start position:0%
+functional programming into real world
+TypeScript<00:07:03.919><c> but</c><00:07:04.080><c> in</c><00:07:04.160><c> a</c><00:07:04.319><c> way</c><00:07:04.400><c> that's</c><00:07:04.720><c> practical</c>
+
+00:07:05.270 --> 00:07:05.280 align:start position:0%
+TypeScript but in a way that's practical
+ 
+
+00:07:05.280 --> 00:07:07.110 align:start position:0%
+TypeScript but in a way that's practical
+for<00:07:05.599><c> production</c><00:07:06.000><c> use.</c><00:07:06.400><c> You</c><00:07:06.639><c> don't</c><00:07:06.800><c> have</c><00:07:06.880><c> to</c><00:07:06.960><c> be</c>
+
+00:07:07.110 --> 00:07:07.120 align:start position:0%
+for production use. You don't have to be
+ 
+
+00:07:07.120 --> 00:07:08.870 align:start position:0%
+for production use. You don't have to be
+a<00:07:07.280><c> functional</c><00:07:07.599><c> programming</c><00:07:08.080><c> purist</c><00:07:08.400><c> to</c><00:07:08.639><c> get</c><00:07:08.720><c> a</c>
+
+00:07:08.870 --> 00:07:08.880 align:start position:0%
+a functional programming purist to get a
+ 
+
+00:07:08.880 --> 00:07:11.029 align:start position:0%
+a functional programming purist to get a
+lot<00:07:08.960><c> of</c><00:07:09.039><c> value.</c><00:07:09.520><c> Just</c><00:07:09.759><c> start</c><00:07:10.080><c> small</c><00:07:10.560><c> and</c><00:07:10.880><c> let</c>
+
+00:07:11.029 --> 00:07:11.039 align:start position:0%
+lot of value. Just start small and let
+ 
+
+00:07:11.039 --> 00:07:12.990 align:start position:0%
+lot of value. Just start small and let
+the<00:07:11.280><c> benefits</c><00:07:11.680><c> build</c><00:07:11.919><c> up</c><00:07:12.160><c> over</c>
+
+00:07:12.990 --> 00:07:13.000 align:start position:0%
+the benefits build up over
+ 
+
+00:07:13.000 --> 00:07:15.350 align:start position:0%
+the benefits build up over
+time.<00:07:14.000><c> So</c><00:07:14.160><c> if</c><00:07:14.400><c> you're</c><00:07:14.560><c> building</c><00:07:14.800><c> with</c><00:07:14.960><c> agents,</c>
+
+00:07:15.350 --> 00:07:15.360 align:start position:0%
+time. So if you're building with agents,
+ 
+
+00:07:15.360 --> 00:07:17.670 align:start position:0%
+time. So if you're building with agents,
+LLMs<00:07:15.919><c> or</c><00:07:16.160><c> exploring</c><00:07:16.639><c> effect,</c><00:07:17.199><c> feel</c><00:07:17.360><c> free</c><00:07:17.520><c> to</c>
+
+00:07:17.670 --> 00:07:17.680 align:start position:0%
+LLMs or exploring effect, feel free to
+ 
+
+00:07:17.680 --> 00:07:22.280 align:start position:0%
+LLMs or exploring effect, feel free to
+get<00:07:17.840><c> in</c><00:07:18.120><c> touch.</c><00:07:19.120><c> Thank</c><00:07:19.280><c> you.</c>
+

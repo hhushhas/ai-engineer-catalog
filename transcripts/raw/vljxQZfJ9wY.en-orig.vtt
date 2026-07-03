@@ -1,0 +1,1896 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.320 --> 00:00:06.270 align:start position:0%
+ 
+Hey<00:00:03.480><c> everyone.</c><00:00:04.520><c> My</c><00:00:04.640><c> name</c><00:00:04.800><c> is</c><00:00:04.920><c> Nishant</c><00:00:05.280><c> Gupta</c>
+
+00:00:06.270 --> 00:00:06.280 align:start position:0%
+Hey everyone. My name is Nishant Gupta
+ 
+
+00:00:06.280 --> 00:00:08.190 align:start position:0%
+Hey everyone. My name is Nishant Gupta
+and<00:00:06.920><c> I'm</c><00:00:07.120><c> a</c><00:00:07.160><c> software</c><00:00:07.520><c> engineering</c><00:00:07.840><c> tech</c><00:00:08.000><c> lead</c>
+
+00:00:08.190 --> 00:00:08.200 align:start position:0%
+and I'm a software engineering tech lead
+ 
+
+00:00:08.200 --> 00:00:09.310 align:start position:0%
+and I'm a software engineering tech lead
+at<00:00:08.320><c> Meta</c>
+
+00:00:09.310 --> 00:00:09.320 align:start position:0%
+at Meta
+ 
+
+00:00:09.320 --> 00:00:10.630 align:start position:0%
+at Meta
+working<00:00:09.640><c> on</c><00:00:09.760><c> building</c><00:00:10.040><c> the</c><00:00:10.120><c> training</c><00:00:10.520><c> and</c>
+
+00:00:10.630 --> 00:00:10.640 align:start position:0%
+working on building the training and
+ 
+
+00:00:10.640 --> 00:00:13.150 align:start position:0%
+working on building the training and
+inference<00:00:11.720><c> infrastructure</c>
+
+00:00:13.150 --> 00:00:13.160 align:start position:0%
+inference infrastructure
+ 
+
+00:00:13.160 --> 00:00:15.150 align:start position:0%
+inference infrastructure
+for<00:00:13.240><c> the</c><00:00:13.360><c> Meta</c><00:00:13.600><c> Super</c><00:00:13.840><c> Dangerous</c><00:00:14.240><c> Lab</c><00:00:14.760><c> and</c><00:00:14.960><c> the</c>
+
+00:00:15.150 --> 00:00:15.160 align:start position:0%
+for the Meta Super Dangerous Lab and the
+ 
+
+00:00:15.160 --> 00:00:17.350 align:start position:0%
+for the Meta Super Dangerous Lab and the
+infrastructure<00:00:15.720><c> organization.</c>
+
+00:00:17.350 --> 00:00:17.360 align:start position:0%
+infrastructure organization.
+ 
+
+00:00:17.360 --> 00:00:18.750 align:start position:0%
+infrastructure organization.
+Today<00:00:17.600><c> we're</c><00:00:17.760><c> going</c><00:00:17.920><c> to</c><00:00:18.000><c> be</c><00:00:18.080><c> talking</c><00:00:18.400><c> about</c>
+
+00:00:18.750 --> 00:00:18.760 align:start position:0%
+Today we're going to be talking about
+ 
+
+00:00:18.760 --> 00:00:21.910 align:start position:0%
+Today we're going to be talking about
+production<00:00:19.200><c> of</c><00:00:19.320><c> ads</c><00:00:19.520><c> for</c><00:00:19.680><c> agentic</c><00:00:20.040><c> systems.</c>
+
+00:00:21.910 --> 00:00:21.920 align:start position:0%
+production of ads for agentic systems.
+ 
+
+00:00:21.920 --> 00:00:23.270 align:start position:0%
+production of ads for agentic systems.
+When<00:00:22.080><c> most</c><00:00:22.280><c> people</c><00:00:22.560><c> hear</c><00:00:22.720><c> the</c><00:00:22.840><c> word</c>
+
+00:00:23.270 --> 00:00:23.280 align:start position:0%
+When most people hear the word
+ 
+
+00:00:23.280 --> 00:00:25.430 align:start position:0%
+When most people hear the word
+evaluation,<00:00:23.960><c> they</c><00:00:24.080><c> think</c><00:00:24.240><c> about</c><00:00:24.480><c> benchmarks.</c>
+
+00:00:25.430 --> 00:00:25.440 align:start position:0%
+evaluation, they think about benchmarks.
+ 
+
+00:00:25.440 --> 00:00:28.310 align:start position:0%
+evaluation, they think about benchmarks.
+A<00:00:25.520><c> model</c><00:00:25.840><c> scores</c><00:00:26.320><c> 90%</c><00:00:26.800><c> on</c><00:00:26.880><c> a</c><00:00:26.920><c> benchmark.</c><00:00:28.080><c> A</c><00:00:28.160><c> new</c>
+
+00:00:28.310 --> 00:00:28.320 align:start position:0%
+A model scores 90% on a benchmark. A new
+ 
+
+00:00:28.320 --> 00:00:31.790 align:start position:0%
+A model scores 90% on a benchmark. A new
+version<00:00:28.960><c> scores</c><00:00:29.240><c> 92%.</c><00:00:30.280><c> The</c><00:00:30.360><c> team</c><00:00:30.560><c> celebrates.</c>
+
+00:00:31.790 --> 00:00:31.800 align:start position:0%
+version scores 92%. The team celebrates.
+ 
+
+00:00:31.800 --> 00:00:33.430 align:start position:0%
+version scores 92%. The team celebrates.
+But<00:00:32.040><c> agentic</c><00:00:32.400><c> systems</c><00:00:32.759><c> have</c><00:00:32.920><c> fundamentally</c>
+
+00:00:33.430 --> 00:00:33.440 align:start position:0%
+But agentic systems have fundamentally
+ 
+
+00:00:33.440 --> 00:00:35.750 align:start position:0%
+But agentic systems have fundamentally
+changed<00:00:34.040><c> what</c><00:00:34.160><c> the</c><00:00:34.240><c> evaluation</c><00:00:34.720><c> means.</c>
+
+00:00:35.750 --> 00:00:35.760 align:start position:0%
+changed what the evaluation means.
+ 
+
+00:00:35.760 --> 00:00:38.030 align:start position:0%
+changed what the evaluation means.
+Today<00:00:36.680><c> the</c><00:00:36.720><c> systems</c><00:00:37.120><c> don't</c><00:00:37.320><c> simply</c><00:00:37.680><c> generate</c>
+
+00:00:38.030 --> 00:00:38.040 align:start position:0%
+Today the systems don't simply generate
+ 
+
+00:00:38.040 --> 00:00:40.470 align:start position:0%
+Today the systems don't simply generate
+answers.<00:00:38.760><c> They</c><00:00:38.840><c> plan.</c><00:00:39.720><c> They</c><00:00:39.800><c> call</c><00:00:40.040><c> tools.</c>
+
+00:00:40.470 --> 00:00:40.480 align:start position:0%
+answers. They plan. They call tools.
+ 
+
+00:00:40.480 --> 00:00:42.030 align:start position:0%
+answers. They plan. They call tools.
+They<00:00:40.600><c> retrieve</c><00:00:40.920><c> information.</c><00:00:41.520><c> They</c><00:00:41.640><c> execute</c>
+
+00:00:42.030 --> 00:00:42.040 align:start position:0%
+They retrieve information. They execute
+ 
+
+00:00:42.040 --> 00:00:43.630 align:start position:0%
+They retrieve information. They execute
+workflows.<00:00:42.840><c> They</c><00:00:42.920><c> interact</c><00:00:43.440><c> with</c><00:00:43.560><c> the</c>
+
+00:00:43.630 --> 00:00:43.640 align:start position:0%
+workflows. They interact with the
+ 
+
+00:00:43.640 --> 00:00:45.710 align:start position:0%
+workflows. They interact with the
+production<00:00:44.200><c> infrastructure.</c>
+
+00:00:45.710 --> 00:00:45.720 align:start position:0%
+production infrastructure.
+ 
+
+00:00:45.720 --> 00:00:47.470 align:start position:0%
+production infrastructure.
+The<00:00:45.760><c> question</c><00:00:46.120><c> is</c><00:00:46.240><c> no</c><00:00:46.400><c> longer</c><00:00:46.960><c> did</c><00:00:47.120><c> the</c><00:00:47.200><c> model</c>
+
+00:00:47.470 --> 00:00:47.480 align:start position:0%
+The question is no longer did the model
+ 
+
+00:00:47.480 --> 00:00:49.150 align:start position:0%
+The question is no longer did the model
+generate<00:00:47.800><c> the</c><00:00:47.840><c> right</c><00:00:48.080><c> answer?</c>
+
+00:00:49.150 --> 00:00:49.160 align:start position:0%
+generate the right answer?
+ 
+
+00:00:49.160 --> 00:00:50.550 align:start position:0%
+generate the right answer?
+The<00:00:49.200><c> question</c><00:00:49.560><c> is</c><00:00:49.720><c> did</c><00:00:49.840><c> the</c><00:00:49.920><c> system</c><00:00:50.280><c> behave</c>
+
+00:00:50.550 --> 00:00:50.560 align:start position:0%
+The question is did the system behave
+ 
+
+00:00:50.560 --> 00:00:51.710 align:start position:0%
+The question is did the system behave
+correctly?
+
+00:00:51.710 --> 00:00:51.720 align:start position:0%
+correctly?
+ 
+
+00:00:51.720 --> 00:00:54.350 align:start position:0%
+correctly?
+Today<00:00:52.200><c> I</c><00:00:52.240><c> would</c><00:00:52.360><c> like</c><00:00:52.680><c> to</c><00:00:53.040><c> discuss</c><00:00:53.760><c> how</c>
+
+00:00:54.350 --> 00:00:54.360 align:start position:0%
+Today I would like to discuss how
+ 
+
+00:00:54.360 --> 00:00:56.110 align:start position:0%
+Today I would like to discuss how
+evaluation<00:00:54.960><c> is</c><00:00:55.080><c> evolving</c><00:00:55.600><c> from</c><00:00:55.800><c> model</c>
+
+00:00:56.110 --> 00:00:56.120 align:start position:0%
+evaluation is evolving from model
+ 
+
+00:00:56.120 --> 00:00:57.670 align:start position:0%
+evaluation is evolving from model
+benchmarking<00:00:56.680><c> into</c><00:00:57.200><c> production</c>
+
+00:00:57.670 --> 00:00:57.680 align:start position:0%
+benchmarking into production
+ 
+
+00:00:57.680 --> 00:01:02.350 align:start position:0%
+benchmarking into production
+infrastructure.
+
+00:01:02.350 --> 00:01:02.360 align:start position:0%
+ 
+ 
+
+00:01:02.360 --> 00:01:04.270 align:start position:0%
+ 
+This<00:01:02.560><c> is</c><00:01:02.720><c> the</c><00:01:02.840><c> problem</c><00:01:03.240><c> almost</c><00:01:03.600><c> every</c><00:01:04.000><c> AI</c>
+
+00:01:04.270 --> 00:01:04.280 align:start position:0%
+This is the problem almost every AI
+ 
+
+00:01:04.280 --> 00:01:06.350 align:start position:0%
+This is the problem almost every AI
+organization<00:01:04.879><c> is</c><00:01:05.000><c> encountering</c><00:01:05.519><c> today.</c>
+
+00:01:06.350 --> 00:01:06.360 align:start position:0%
+organization is encountering today.
+ 
+
+00:01:06.360 --> 00:01:08.990 align:start position:0%
+organization is encountering today.
+Offline<00:01:06.840><c> benchmarks</c><00:01:07.640><c> continue</c><00:01:08.040><c> improving.</c>
+
+00:01:08.990 --> 00:01:09.000 align:start position:0%
+Offline benchmarks continue improving.
+ 
+
+00:01:09.000 --> 00:01:10.670 align:start position:0%
+Offline benchmarks continue improving.
+Yet<00:01:09.240><c> production</c><00:01:09.680><c> reliability</c><00:01:10.120><c> often</c><00:01:10.360><c> remains</c>
+
+00:01:10.670 --> 00:01:10.680 align:start position:0%
+Yet production reliability often remains
+ 
+
+00:01:10.680 --> 00:01:11.990 align:start position:0%
+Yet production reliability often remains
+unpredictable.
+
+00:01:11.990 --> 00:01:12.000 align:start position:0%
+unpredictable.
+ 
+
+00:01:12.000 --> 00:01:13.190 align:start position:0%
+unpredictable.
+Why<00:01:12.160><c> is</c><00:01:12.280><c> that?</c>
+
+00:01:13.190 --> 00:01:13.200 align:start position:0%
+Why is that?
+ 
+
+00:01:13.200 --> 00:01:14.710 align:start position:0%
+Why is that?
+Because<00:01:13.440><c> benchmarks</c><00:01:14.040><c> measure</c><00:01:14.360><c> model</c>
+
+00:01:14.710 --> 00:01:14.720 align:start position:0%
+Because benchmarks measure model
+ 
+
+00:01:14.720 --> 00:01:16.830 align:start position:0%
+Because benchmarks measure model
+capability.<00:01:15.720><c> Production</c><00:01:16.120><c> measures</c><00:01:16.480><c> system</c>
+
+00:01:16.830 --> 00:01:16.840 align:start position:0%
+capability. Production measures system
+ 
+
+00:01:16.840 --> 00:01:19.030 align:start position:0%
+capability. Production measures system
+behavior.<00:01:17.920><c> A</c><00:01:18.000><c> benchmark</c><00:01:18.440><c> doesn't</c><00:01:18.680><c> capture</c>
+
+00:01:19.030 --> 00:01:19.040 align:start position:0%
+behavior. A benchmark doesn't capture
+ 
+
+00:01:19.040 --> 00:01:21.950 align:start position:0%
+behavior. A benchmark doesn't capture
+tool<00:01:19.240><c> failure,</c><00:01:20.040><c> API</c><00:01:20.480><c> outage,</c><00:01:21.560><c> context</c>
+
+00:01:21.950 --> 00:01:21.960 align:start position:0%
+tool failure, API outage, context
+ 
+
+00:01:21.960 --> 00:01:23.990 align:start position:0%
+tool failure, API outage, context
+changes,<00:01:22.520><c> user</c><00:01:22.880><c> variability,</c><00:01:23.520><c> long</c><00:01:23.760><c> running</c>
+
+00:01:23.990 --> 00:01:24.000 align:start position:0%
+changes, user variability, long running
+ 
+
+00:01:24.000 --> 00:01:25.390 align:start position:0%
+changes, user variability, long running
+workflows.
+
+00:01:25.390 --> 00:01:25.400 align:start position:0%
+workflows.
+ 
+
+00:01:25.400 --> 00:01:27.030 align:start position:0%
+workflows.
+And<00:01:25.520><c> as</c><00:01:25.680><c> systems</c><00:01:26.080><c> become</c><00:01:26.360><c> more</c><00:01:26.560><c> autonomous,</c>
+
+00:01:27.030 --> 00:01:27.040 align:start position:0%
+And as systems become more autonomous,
+ 
+
+00:01:27.040 --> 00:01:28.270 align:start position:0%
+And as systems become more autonomous,
+the<00:01:27.160><c> gap</c><00:01:27.440><c> between</c><00:01:27.720><c> the</c><00:01:27.840><c> benchmark</c>
+
+00:01:28.270 --> 00:01:28.280 align:start position:0%
+the gap between the benchmark
+ 
+
+00:01:28.280 --> 00:01:29.710 align:start position:0%
+the gap between the benchmark
+performance<00:01:28.840><c> and</c><00:01:28.960><c> production</c><00:01:29.320><c> performance</c>
+
+00:01:29.710 --> 00:01:29.720 align:start position:0%
+performance and production performance
+ 
+
+00:01:29.720 --> 00:01:30.750 align:start position:0%
+performance and production performance
+grows.
+
+00:01:30.750 --> 00:01:30.760 align:start position:0%
+grows.
+ 
+
+00:01:30.760 --> 00:01:32.710 align:start position:0%
+grows.
+The<00:01:30.840><c> result</c><00:01:31.280><c> is</c><00:01:31.520><c> what</c><00:01:31.760><c> many</c><00:01:32.000><c> teams</c><00:01:32.320><c> experience</c>
+
+00:01:32.710 --> 00:01:32.720 align:start position:0%
+The result is what many teams experience
+ 
+
+00:01:32.720 --> 00:01:34.190 align:start position:0%
+The result is what many teams experience
+today.
+
+00:01:34.190 --> 00:01:34.200 align:start position:0%
+today.
+ 
+
+00:01:34.200 --> 00:01:36.950 align:start position:0%
+today.
+High<00:01:34.480><c> benchmark</c><00:01:34.960><c> scores,</c><00:01:35.360><c> as</c><00:01:35.520><c> you</c><00:01:35.600><c> can</c><00:01:35.760><c> see,</c>
+
+00:01:36.950 --> 00:01:36.960 align:start position:0%
+High benchmark scores, as you can see,
+ 
+
+00:01:36.960 --> 00:01:41.550 align:start position:0%
+High benchmark scores, as you can see,
+but<00:01:37.200><c> unreliable</c><00:01:37.720><c> production</c><00:01:38.120><c> behavior.</c>
+
+00:01:41.550 --> 00:01:41.560 align:start position:0%
+ 
+ 
+
+00:01:41.560 --> 00:01:43.230 align:start position:0%
+ 
+Traditional<00:01:42.040><c> LLM</c><00:01:42.280><c> evaluation</c><00:01:42.760><c> focus</c><00:01:43.120><c> on</c>
+
+00:01:43.230 --> 00:01:43.240 align:start position:0%
+Traditional LLM evaluation focus on
+ 
+
+00:01:43.240 --> 00:01:44.790 align:start position:0%
+Traditional LLM evaluation focus on
+outputs.
+
+00:01:44.790 --> 00:01:44.800 align:start position:0%
+outputs.
+ 
+
+00:01:44.800 --> 00:01:46.390 align:start position:0%
+outputs.
+But<00:01:45.080><c> we</c><00:01:45.280><c> should</c><00:01:45.600><c> ask</c><00:01:45.760><c> the</c><00:01:45.840><c> question</c><00:01:46.160><c> did</c><00:01:46.320><c> the</c>
+
+00:01:46.390 --> 00:01:46.400 align:start position:0%
+But we should ask the question did the
+ 
+
+00:01:46.400 --> 00:01:48.150 align:start position:0%
+But we should ask the question did the
+model<00:01:46.680><c> produce</c><00:01:46.960><c> the</c><00:01:47.040><c> correct</c><00:01:47.280><c> answer?</c>
+
+00:01:48.150 --> 00:01:48.160 align:start position:0%
+model produce the correct answer?
+ 
+
+00:01:48.160 --> 00:01:50.190 align:start position:0%
+model produce the correct answer?
+Agentic<00:01:48.560><c> systems</c><00:01:49.080><c> force</c><00:01:49.400><c> us</c><00:01:49.600><c> to</c><00:01:49.920><c> ask</c><00:01:50.160><c> a</c>
+
+00:01:50.190 --> 00:01:50.200 align:start position:0%
+Agentic systems force us to ask a
+ 
+
+00:01:50.200 --> 00:01:51.870 align:start position:0%
+Agentic systems force us to ask a
+different<00:01:50.520><c> question.</c><00:01:51.320><c> Did</c><00:01:51.400><c> the</c><00:01:51.520><c> system</c>
+
+00:01:51.870 --> 00:01:51.880 align:start position:0%
+different question. Did the system
+ 
+
+00:01:51.880 --> 00:01:54.670 align:start position:0%
+different question. Did the system
+behave<00:01:52.120><c> correctly?</c><00:01:52.960><c> Behavior</c><00:01:53.480><c> includes</c>
+
+00:01:54.670 --> 00:01:54.680 align:start position:0%
+behave correctly? Behavior includes
+ 
+
+00:01:54.680 --> 00:01:57.470 align:start position:0%
+behave correctly? Behavior includes
+planning<00:01:55.000><c> quality,</c><00:01:55.760><c> tool</c><00:01:56.080><c> usage,</c><00:01:56.600><c> execution,</c>
+
+00:01:57.470 --> 00:01:57.480 align:start position:0%
+planning quality, tool usage, execution,
+ 
+
+00:01:57.480 --> 00:01:58.990 align:start position:0%
+planning quality, tool usage, execution,
+workflow<00:01:57.840><c> execution,</c><00:01:58.440><c> recovery</c><00:01:58.840><c> from</c>
+
+00:01:58.990 --> 00:01:59.000 align:start position:0%
+workflow execution, recovery from
+ 
+
+00:01:59.000 --> 00:02:01.630 align:start position:0%
+workflow execution, recovery from
+failures,<00:01:59.880><c> decision-making.</c><00:02:01.360><c> In</c><00:02:01.440><c> other</c>
+
+00:02:01.630 --> 00:02:01.640 align:start position:0%
+failures, decision-making. In other
+ 
+
+00:02:01.640 --> 00:02:04.030 align:start position:0%
+failures, decision-making. In other
+words,<00:02:02.120><c> we</c><00:02:02.280><c> are</c><00:02:02.360><c> moving</c><00:02:03.200><c> from</c><00:02:03.520><c> evaluating</c>
+
+00:02:04.030 --> 00:02:04.040 align:start position:0%
+words, we are moving from evaluating
+ 
+
+00:02:04.040 --> 00:02:06.390 align:start position:0%
+words, we are moving from evaluating
+answers<00:02:04.479><c> to</c><00:02:04.760><c> evaluating</c><00:02:05.280><c> workflows.</c><00:02:06.200><c> And</c>
+
+00:02:06.390 --> 00:02:06.400 align:start position:0%
+answers to evaluating workflows. And
+ 
+
+00:02:06.400 --> 00:02:08.190 align:start position:0%
+answers to evaluating workflows. And
+that<00:02:06.600><c> requires</c><00:02:07.080><c> fundamentally</c><00:02:07.640><c> different</c>
+
+00:02:08.190 --> 00:02:08.200 align:start position:0%
+that requires fundamentally different
+ 
+
+00:02:08.200 --> 00:02:10.790 align:start position:0%
+that requires fundamentally different
+evaluation<00:02:08.679><c> architectures.</c>
+
+00:02:10.790 --> 00:02:10.800 align:start position:0%
+evaluation architectures.
+ 
+
+00:02:10.800 --> 00:02:12.750 align:start position:0%
+evaluation architectures.
+Many<00:02:11.080><c> teams</c><00:02:11.360><c> still</c><00:02:11.600><c> think</c><00:02:12.040><c> hallucinations</c>
+
+00:02:12.750 --> 00:02:12.760 align:start position:0%
+Many teams still think hallucinations
+ 
+
+00:02:12.760 --> 00:02:15.150 align:start position:0%
+Many teams still think hallucinations
+are<00:02:12.840><c> the</c><00:02:13.000><c> primary</c><00:02:13.680><c> AI</c><00:02:13.959><c> failure</c><00:02:14.280><c> modes.</c><00:02:15.040><c> In</c>
+
+00:02:15.150 --> 00:02:15.160 align:start position:0%
+are the primary AI failure modes. In
+ 
+
+00:02:15.160 --> 00:02:16.550 align:start position:0%
+are the primary AI failure modes. In
+production,<00:02:15.640><c> they</c><00:02:15.800><c> are</c><00:02:15.920><c> often</c><00:02:16.200><c> just</c><00:02:16.400><c> one</c>
+
+00:02:16.550 --> 00:02:16.560 align:start position:0%
+production, they are often just one
+ 
+
+00:02:16.560 --> 00:02:17.710 align:start position:0%
+production, they are often just one
+category.
+
+00:02:17.710 --> 00:02:17.720 align:start position:0%
+category.
+ 
+
+00:02:17.720 --> 00:02:19.949 align:start position:0%
+category.
+Agentic<00:02:18.080><c> systems</c><00:02:18.560><c> introduce</c><00:02:19.360><c> an</c><00:02:19.440><c> entire</c>
+
+00:02:19.949 --> 00:02:19.959 align:start position:0%
+Agentic systems introduce an entire
+ 
+
+00:02:19.959 --> 00:02:22.310 align:start position:0%
+Agentic systems introduce an entire
+hierarchy<00:02:20.560><c> of</c><00:02:20.760><c> failure</c><00:02:21.040><c> modes.</c><00:02:21.959><c> At</c><00:02:22.040><c> the</c><00:02:22.120><c> very</c>
+
+00:02:22.310 --> 00:02:22.320 align:start position:0%
+hierarchy of failure modes. At the very
+ 
+
+00:02:22.320 --> 00:02:24.430 align:start position:0%
+hierarchy of failure modes. At the very
+foundation,<00:02:23.560><c> the</c><00:02:23.600><c> memory</c><00:02:23.920><c> failures,</c>
+
+00:02:24.430 --> 00:02:24.440 align:start position:0%
+foundation, the memory failures,
+ 
+
+00:02:24.440 --> 00:02:26.670 align:start position:0%
+foundation, the memory failures,
+retrieval<00:02:24.800><c> failures,</c><00:02:25.120><c> safety</c><00:02:25.560><c> failures.</c><00:02:26.480><c> As</c>
+
+00:02:26.670 --> 00:02:26.680 align:start position:0%
+retrieval failures, safety failures. As
+ 
+
+00:02:26.680 --> 00:02:28.270 align:start position:0%
+retrieval failures, safety failures. As
+you<00:02:26.760><c> go</c><00:02:26.959><c> up,</c><00:02:27.720><c> you</c><00:02:27.800><c> have</c><00:02:27.880><c> to</c><00:02:27.959><c> think</c><00:02:28.080><c> about</c>
+
+00:02:28.270 --> 00:02:28.280 align:start position:0%
+you go up, you have to think about
+ 
+
+00:02:28.280 --> 00:02:30.270 align:start position:0%
+you go up, you have to think about
+reasoning<00:02:28.600><c> mistakes,</c><00:02:29.520><c> poor</c><00:02:29.760><c> planning,</c>
+
+00:02:30.270 --> 00:02:30.280 align:start position:0%
+reasoning mistakes, poor planning,
+ 
+
+00:02:30.280 --> 00:02:32.390 align:start position:0%
+reasoning mistakes, poor planning,
+incorrect<00:02:30.720><c> tool</c><00:02:30.840><c> execution.</c><00:02:31.840><c> At</c><00:02:31.959><c> the</c><00:02:32.040><c> highest</c>
+
+00:02:32.390 --> 00:02:32.400 align:start position:0%
+incorrect tool execution. At the highest
+ 
+
+00:02:32.400 --> 00:02:33.510 align:start position:0%
+incorrect tool execution. At the highest
+layer,<00:02:33.000><c> you</c><00:02:33.040><c> have</c><00:02:33.120><c> to</c><00:02:33.200><c> think</c><00:02:33.320><c> about</c>
+
+00:02:33.510 --> 00:02:33.520 align:start position:0%
+layer, you have to think about
+ 
+
+00:02:33.520 --> 00:02:35.670 align:start position:0%
+layer, you have to think about
+multi-agent<00:02:34.040><c> coordination</c><00:02:34.480><c> failures.</c>
+
+00:02:35.670 --> 00:02:35.680 align:start position:0%
+multi-agent coordination failures.
+ 
+
+00:02:35.680 --> 00:02:38.190 align:start position:0%
+multi-agent coordination failures.
+And<00:02:35.760><c> this</c><00:02:35.880><c> is</c><00:02:36.080><c> why</c><00:02:36.800><c> evaluating</c><00:02:37.480><c> only</c><00:02:37.760><c> model</c>
+
+00:02:38.190 --> 00:02:38.200 align:start position:0%
+And this is why evaluating only model
+ 
+
+00:02:38.200 --> 00:02:40.510 align:start position:0%
+And this is why evaluating only model
+output<00:02:38.800><c> misses</c><00:02:39.360><c> the</c><00:02:39.480><c> most</c><00:02:39.840><c> production</c><00:02:40.280><c> risk</c>
+
+00:02:40.510 --> 00:02:40.520 align:start position:0%
+output misses the most production risk
+ 
+
+00:02:40.520 --> 00:02:42.990 align:start position:0%
+output misses the most production risk
+we<00:02:40.640><c> observe.</c>
+
+00:02:42.990 --> 00:02:43.000 align:start position:0%
+we observe.
+ 
+
+00:02:43.000 --> 00:02:44.790 align:start position:0%
+we observe.
+One<00:02:43.160><c> of</c><00:02:43.200><c> the</c><00:02:43.280><c> most</c><00:02:43.640><c> useful</c><00:02:43.920><c> mindset</c><00:02:44.320><c> shifts</c><00:02:44.680><c> is</c>
+
+00:02:44.790 --> 00:02:44.800 align:start position:0%
+One of the most useful mindset shifts is
+ 
+
+00:02:44.800 --> 00:02:47.630 align:start position:0%
+One of the most useful mindset shifts is
+to<00:02:44.880><c> stop</c><00:02:45.200><c> thinking</c><00:02:46.000><c> like</c><00:02:46.320><c> researchers</c><00:02:47.520><c> and</c>
+
+00:02:47.630 --> 00:02:47.640 align:start position:0%
+to stop thinking like researchers and
+ 
+
+00:02:47.640 --> 00:02:49.510 align:start position:0%
+to stop thinking like researchers and
+start<00:02:47.880><c> thinking</c><00:02:48.240><c> like</c><00:02:48.520><c> a</c><00:02:48.760><c> SRE</c><00:02:49.360><c> or</c><00:02:49.480><c> a</c>
+
+00:02:49.510 --> 00:02:49.520 align:start position:0%
+start thinking like a SRE or a
+ 
+
+00:02:49.520 --> 00:02:50.910 align:start position:0%
+start thinking like a SRE or a
+production<00:02:49.880><c> engineer.</c>
+
+00:02:50.910 --> 00:02:50.920 align:start position:0%
+production engineer.
+ 
+
+00:02:50.920 --> 00:02:52.949 align:start position:0%
+production engineer.
+SREs<00:02:51.400><c> don't</c><00:02:51.600><c> measure</c><00:02:52.160><c> success</c><00:02:52.640><c> using</c>
+
+00:02:52.949 --> 00:02:52.959 align:start position:0%
+SREs don't measure success using
+ 
+
+00:02:52.959 --> 00:02:54.830 align:start position:0%
+SREs don't measure success using
+accuracy.<00:02:53.440><c> They</c><00:02:53.600><c> measure</c><00:02:53.880><c> reliability,</c>
+
+00:02:54.830 --> 00:02:54.840 align:start position:0%
+accuracy. They measure reliability,
+ 
+
+00:02:54.840 --> 00:02:57.030 align:start position:0%
+accuracy. They measure reliability,
+availability,<00:02:55.400><c> latency,</c><00:02:55.920><c> cost,</c><00:02:56.280><c> recovery.</c>
+
+00:02:57.030 --> 00:02:57.040 align:start position:0%
+availability, latency, cost, recovery.
+ 
+
+00:02:57.040 --> 00:02:58.470 align:start position:0%
+availability, latency, cost, recovery.
+And<00:02:57.200><c> agentic</c><00:02:57.640><c> systems</c><00:02:57.959><c> require</c><00:02:58.240><c> the</c><00:02:58.320><c> same</c>
+
+00:02:58.470 --> 00:02:58.480 align:start position:0%
+And agentic systems require the same
+ 
+
+00:02:58.480 --> 00:02:59.470 align:start position:0%
+And agentic systems require the same
+approach.
+
+00:02:59.470 --> 00:02:59.480 align:start position:0%
+approach.
+ 
+
+00:02:59.480 --> 00:03:01.350 align:start position:0%
+approach.
+The<00:02:59.519><c> goal</c><00:02:59.800><c> is</c><00:03:00.000><c> not</c><00:03:00.239><c> maximizing</c><00:03:00.880><c> the</c><00:03:00.959><c> benchmark</c>
+
+00:03:01.350 --> 00:03:01.360 align:start position:0%
+The goal is not maximizing the benchmark
+ 
+
+00:03:01.360 --> 00:03:03.310 align:start position:0%
+The goal is not maximizing the benchmark
+scores.<00:03:02.120><c> The</c><00:03:02.239><c> goal</c><00:03:02.519><c> is</c><00:03:02.720><c> to</c><00:03:02.800><c> maximize</c>
+
+00:03:03.310 --> 00:03:03.320 align:start position:0%
+scores. The goal is to maximize
+ 
+
+00:03:03.320 --> 00:03:05.150 align:start position:0%
+scores. The goal is to maximize
+dependable<00:03:03.760><c> outcomes.</c>
+
+00:03:05.150 --> 00:03:05.160 align:start position:0%
+dependable outcomes.
+ 
+
+00:03:05.160 --> 00:03:06.390 align:start position:0%
+dependable outcomes.
+Reliability<00:03:05.600><c> becomes</c><00:03:05.920><c> the</c><00:03:06.000><c> North</c><00:03:06.239><c> Star</c>
+
+00:03:06.390 --> 00:03:06.400 align:start position:0%
+Reliability becomes the North Star
+ 
+
+00:03:06.400 --> 00:03:07.710 align:start position:0%
+Reliability becomes the North Star
+metric.
+
+00:03:07.710 --> 00:03:07.720 align:start position:0%
+metric.
+ 
+
+00:03:07.720 --> 00:03:14.750 align:start position:0%
+metric.
+Accuracy<00:03:08.840><c> becomes</c><00:03:09.320><c> the</c><00:03:09.480><c> only</c><00:03:09.760><c> input.</c>
+
+00:03:14.750 --> 00:03:14.760 align:start position:0%
+ 
+ 
+
+00:03:14.760 --> 00:03:16.710 align:start position:0%
+ 
+In<00:03:14.840><c> this</c><00:03:15.000><c> pyramid</c><00:03:15.640><c> is</c><00:03:15.800><c> how</c><00:03:16.120><c> I</c><00:03:16.200><c> think</c>
+
+00:03:16.710 --> 00:03:16.720 align:start position:0%
+In this pyramid is how I think
+ 
+
+00:03:16.720 --> 00:03:17.830 align:start position:0%
+In this pyramid is how I think
+personally<00:03:17.000><c> think</c><00:03:17.160><c> about</c><00:03:17.400><c> modern</c><00:03:17.680><c> AI</c>
+
+00:03:17.830 --> 00:03:17.840 align:start position:0%
+personally think about modern AI
+ 
+
+00:03:17.840 --> 00:03:19.550 align:start position:0%
+personally think about modern AI
+evaluation<00:03:18.200><c> systems.</c><00:03:18.959><c> At</c><00:03:19.080><c> the</c><00:03:19.160><c> bottom,</c><00:03:19.480><c> you</c>
+
+00:03:19.550 --> 00:03:19.560 align:start position:0%
+evaluation systems. At the bottom, you
+ 
+
+00:03:19.560 --> 00:03:21.270 align:start position:0%
+evaluation systems. At the bottom, you
+can<00:03:19.680><c> see</c><00:03:20.400><c> they</c><00:03:20.480><c> are</c><00:03:20.560><c> benchmarks.</c><00:03:21.120><c> They</c><00:03:21.239><c> are</c>
+
+00:03:21.270 --> 00:03:21.280 align:start position:0%
+can see they are benchmarks. They are
+ 
+
+00:03:21.280 --> 00:03:22.550 align:start position:0%
+can see they are benchmarks. They are
+useful.<00:03:21.840><c> They</c><00:03:21.920><c> are</c><00:03:22.000><c> scalable.</c><00:03:22.440><c> They</c><00:03:22.519><c> are</c>
+
+00:03:22.550 --> 00:03:22.560 align:start position:0%
+useful. They are scalable. They are
+ 
+
+00:03:22.560 --> 00:03:24.110 align:start position:0%
+useful. They are scalable. They are
+repeatable.<00:03:23.280><c> But</c><00:03:23.440><c> their</c><00:03:23.560><c> operational</c><00:03:23.920><c> value</c>
+
+00:03:24.110 --> 00:03:24.120 align:start position:0%
+repeatable. But their operational value
+ 
+
+00:03:24.120 --> 00:03:25.310 align:start position:0%
+repeatable. But their operational value
+is<00:03:24.200><c> limited.</c>
+
+00:03:25.310 --> 00:03:25.320 align:start position:0%
+is limited.
+ 
+
+00:03:25.320 --> 00:03:27.070 align:start position:0%
+is limited.
+In<00:03:25.400><c> the</c><00:03:25.480><c> middle,</c><00:03:26.280><c> there</c><00:03:26.400><c> are</c><00:03:26.440><c> scenario-based</c>
+
+00:03:27.070 --> 00:03:27.080 align:start position:0%
+In the middle, there are scenario-based
+ 
+
+00:03:27.080 --> 00:03:29.310 align:start position:0%
+In the middle, there are scenario-based
+evaluations.<00:03:28.160><c> These</c><00:03:28.480><c> simulate</c><00:03:28.880><c> realistic</c>
+
+00:03:29.310 --> 00:03:29.320 align:start position:0%
+evaluations. These simulate realistic
+ 
+
+00:03:29.320 --> 00:03:30.509 align:start position:0%
+evaluations. These simulate realistic
+workflows.
+
+00:03:30.509 --> 00:03:30.519 align:start position:0%
+workflows.
+ 
+
+00:03:30.519 --> 00:03:32.190 align:start position:0%
+workflows.
+And<00:03:30.600><c> at</c><00:03:30.680><c> the</c><00:03:30.760><c> very</c><00:03:30.959><c> top,</c><00:03:31.560><c> you</c><00:03:31.640><c> see</c><00:03:31.800><c> production</c>
+
+00:03:32.190 --> 00:03:32.200 align:start position:0%
+And at the very top, you see production
+ 
+
+00:03:32.200 --> 00:03:34.110 align:start position:0%
+And at the very top, you see production
+telemetry.<00:03:33.160><c> This</c><00:03:33.360><c> is</c><00:03:33.519><c> where</c><00:03:33.640><c> the</c><00:03:33.760><c> highest</c>
+
+00:03:34.110 --> 00:03:34.120 align:start position:0%
+telemetry. This is where the highest
+ 
+
+00:03:34.120 --> 00:03:36.270 align:start position:0%
+telemetry. This is where the highest
+value<00:03:34.360><c> evaluation</c><00:03:34.800><c> signals</c><00:03:35.160><c> come</c><00:03:35.360><c> from.</c><00:03:36.160><c> The</c>
+
+00:03:36.270 --> 00:03:36.280 align:start position:0%
+value evaluation signals come from. The
+ 
+
+00:03:36.280 --> 00:03:37.990 align:start position:0%
+value evaluation signals come from. The
+surprising<00:03:36.800><c> insight</c><00:03:37.160><c> is</c><00:03:37.320><c> that</c><00:03:37.440><c> the</c><00:03:37.519><c> most</c>
+
+00:03:37.990 --> 00:03:38.000 align:start position:0%
+surprising insight is that the most
+ 
+
+00:03:38.000 --> 00:03:40.070 align:start position:0%
+surprising insight is that the most
+evaluation<00:03:38.480><c> data</c><00:03:39.120><c> often</c><00:03:39.440><c> comes</c><00:03:39.680><c> from</c><00:03:39.800><c> real</c>
+
+00:03:40.070 --> 00:03:40.080 align:start position:0%
+evaluation data often comes from real
+ 
+
+00:03:40.080 --> 00:03:45.110 align:start position:0%
+evaluation data often comes from real
+users<00:03:40.480><c> interacting</c><00:03:41.000><c> with</c><00:03:41.160><c> real</c><00:03:41.720><c> systems.</c>
+
+00:03:45.110 --> 00:03:45.120 align:start position:0%
+ 
+ 
+
+00:03:45.120 --> 00:03:46.150 align:start position:0%
+ 
+Now,<00:03:45.200><c> let's</c><00:03:45.360><c> talk</c><00:03:45.480><c> about</c><00:03:45.720><c> AI</c><00:03:45.800><c> offline</c>
+
+00:03:46.150 --> 00:03:46.160 align:start position:0%
+Now, let's talk about AI offline
+ 
+
+00:03:46.160 --> 00:03:48.030 align:start position:0%
+Now, let's talk about AI offline
+evaluations.<00:03:46.920><c> So,</c><00:03:47.160><c> offline</c><00:03:47.480><c> evaluation</c>
+
+00:03:48.030 --> 00:03:48.040 align:start position:0%
+evaluations. So, offline evaluation
+ 
+
+00:03:48.040 --> 00:03:49.590 align:start position:0%
+evaluations. So, offline evaluation
+still<00:03:48.320><c> matters,</c><00:03:48.920><c> but</c><00:03:49.080><c> the</c><00:03:49.120><c> methodology</c>
+
+00:03:49.590 --> 00:03:49.600 align:start position:0%
+still matters, but the methodology
+ 
+
+00:03:49.600 --> 00:03:51.830 align:start position:0%
+still matters, but the methodology
+changes.<00:03:50.360><c> Instead</c><00:03:50.760><c> of</c><00:03:50.920><c> evaluating</c><00:03:51.400><c> prompts,</c>
+
+00:03:51.830 --> 00:03:51.840 align:start position:0%
+changes. Instead of evaluating prompts,
+ 
+
+00:03:51.840 --> 00:03:53.950 align:start position:0%
+changes. Instead of evaluating prompts,
+we<00:03:51.959><c> evaluate</c><00:03:52.360><c> scenarios.</c><00:03:52.840><c> For</c><00:03:52.960><c> example,</c>
+
+00:03:53.950 --> 00:03:53.960 align:start position:0%
+we evaluate scenarios. For example,
+ 
+
+00:03:53.960 --> 00:03:55.670 align:start position:0%
+we evaluate scenarios. For example,
+a<00:03:54.000><c> customer</c><00:03:54.320><c> support</c><00:03:54.640><c> workflow,</c><00:03:55.360><c> a</c><00:03:55.440><c> code</c>
+
+00:03:55.670 --> 00:03:55.680 align:start position:0%
+a customer support workflow, a code
+ 
+
+00:03:55.680 --> 00:03:56.670 align:start position:0%
+a customer support workflow, a code
+generation<00:03:56.000><c> workflow,</c><00:03:56.280><c> a</c><00:03:56.320><c> research</c>
+
+00:03:56.670 --> 00:03:56.680 align:start position:0%
+generation workflow, a research
+ 
+
+00:03:56.680 --> 00:03:58.550 align:start position:0%
+generation workflow, a research
+workflow.<00:03:57.280><c> The</c><00:03:57.320><c> agent</c><00:03:57.600><c> operates</c><00:03:57.960><c> inside</c><00:03:58.400><c> that</c>
+
+00:03:58.550 --> 00:03:58.560 align:start position:0%
+workflow. The agent operates inside that
+ 
+
+00:03:58.560 --> 00:04:00.390 align:start position:0%
+workflow. The agent operates inside that
+simulated<00:03:58.960><c> environment.</c><00:03:59.680><c> We</c><00:03:59.800><c> measure</c><00:04:00.320><c> the</c>
+
+00:04:00.390 --> 00:04:00.400 align:start position:0%
+simulated environment. We measure the
+ 
+
+00:04:00.400 --> 00:04:02.710 align:start position:0%
+simulated environment. We measure the
+task<00:04:00.680><c> completion</c><00:04:01.080><c> rate,</c><00:04:01.320><c> tool</c><00:04:01.520><c> correctness,</c>
+
+00:04:02.710 --> 00:04:02.720 align:start position:0%
+task completion rate, tool correctness,
+ 
+
+00:04:02.720 --> 00:04:04.630 align:start position:0%
+task completion rate, tool correctness,
+planning<00:04:02.960><c> quality,</c><00:04:03.600><c> resource</c><00:04:04.120><c> usage,</c><00:04:04.480><c> which</c>
+
+00:04:04.630 --> 00:04:04.640 align:start position:0%
+planning quality, resource usage, which
+ 
+
+00:04:04.640 --> 00:04:05.990 align:start position:0%
+planning quality, resource usage, which
+is<00:04:04.880><c> which</c><00:04:05.080><c> becomes</c>
+
+00:04:05.990 --> 00:04:06.000 align:start position:0%
+is which becomes
+ 
+
+00:04:06.000 --> 00:04:08.910 align:start position:0%
+is which becomes
+exponentially<00:04:06.520><c> high</c><00:04:07.040><c> at</c><00:04:07.200><c> high</c><00:04:07.360><c> scale.</c>
+
+00:04:08.910 --> 00:04:08.920 align:start position:0%
+exponentially high at high scale.
+ 
+
+00:04:08.920 --> 00:04:10.630 align:start position:0%
+exponentially high at high scale.
+The<00:04:09.000><c> key</c><00:04:09.160><c> takeaway,</c><00:04:09.840><c> agent</c><00:04:10.160><c> evaluation</c>
+
+00:04:10.630 --> 00:04:10.640 align:start position:0%
+The key takeaway, agent evaluation
+ 
+
+00:04:10.640 --> 00:04:11.949 align:start position:0%
+The key takeaway, agent evaluation
+should<00:04:10.800><c> be</c><00:04:10.880><c> scenario</c><00:04:11.200><c> driven,</c><00:04:11.520><c> not</c><00:04:11.720><c> prompt</c>
+
+00:04:11.949 --> 00:04:11.959 align:start position:0%
+should be scenario driven, not prompt
+ 
+
+00:04:11.959 --> 00:04:14.390 align:start position:0%
+should be scenario driven, not prompt
+driven.
+
+00:04:14.390 --> 00:04:14.400 align:start position:0%
+ 
+ 
+
+00:04:14.400 --> 00:04:16.509 align:start position:0%
+ 
+Once<00:04:14.720><c> a</c><00:04:14.800><c> system</c><00:04:15.200><c> reaches</c><00:04:15.480><c> production,</c><00:04:16.040><c> every</c>
+
+00:04:16.509 --> 00:04:16.519 align:start position:0%
+Once a system reaches production, every
+ 
+
+00:04:16.519 --> 00:04:18.470 align:start position:0%
+Once a system reaches production, every
+interaction<00:04:17.040><c> becomes</c><00:04:17.359><c> a</c><00:04:17.400><c> signal.</c>
+
+00:04:18.470 --> 00:04:18.480 align:start position:0%
+interaction becomes a signal.
+ 
+
+00:04:18.480 --> 00:04:20.110 align:start position:0%
+interaction becomes a signal.
+This<00:04:18.720><c> is</c><00:04:18.840><c> one</c><00:04:18.920><c> of</c><00:04:19.000><c> the</c><00:04:19.120><c> biggest</c><00:04:19.680><c> shifts</c><00:04:20.040><c> in</c>
+
+00:04:20.110 --> 00:04:20.120 align:start position:0%
+This is one of the biggest shifts in
+ 
+
+00:04:20.120 --> 00:04:22.150 align:start position:0%
+This is one of the biggest shifts in
+evaluation<00:04:20.640><c> thinking.</c><00:04:21.359><c> Production</c><00:04:21.760><c> traffic</c>
+
+00:04:22.150 --> 00:04:22.160 align:start position:0%
+evaluation thinking. Production traffic
+ 
+
+00:04:22.160 --> 00:04:24.270 align:start position:0%
+evaluation thinking. Production traffic
+is<00:04:22.280><c> no</c><00:04:22.400><c> longer</c><00:04:22.680><c> just</c><00:04:22.880><c> traffic.</c><00:04:23.800><c> It</c><00:04:23.919><c> becomes</c>
+
+00:04:24.270 --> 00:04:24.280 align:start position:0%
+is no longer just traffic. It becomes
+ 
+
+00:04:24.280 --> 00:04:25.830 align:start position:0%
+is no longer just traffic. It becomes
+evaluation<00:04:24.760><c> data.</c>
+
+00:04:25.830 --> 00:04:25.840 align:start position:0%
+evaluation data.
+ 
+
+00:04:25.840 --> 00:04:27.790 align:start position:0%
+evaluation data.
+We<00:04:25.919><c> collect</c><00:04:26.240><c> execution</c><00:04:26.720><c> traces,</c>
+
+00:04:27.790 --> 00:04:27.800 align:start position:0%
+We collect execution traces,
+ 
+
+00:04:27.800 --> 00:04:29.870 align:start position:0%
+We collect execution traces,
+user<00:04:28.080><c> outcomes,</c><00:04:28.640><c> escalations,</c><00:04:29.400><c> failures,</c>
+
+00:04:29.870 --> 00:04:29.880 align:start position:0%
+user outcomes, escalations, failures,
+ 
+
+00:04:29.880 --> 00:04:32.110 align:start position:0%
+user outcomes, escalations, failures,
+feedback<00:04:30.240><c> signals.</c><00:04:31.200><c> Production</c><00:04:31.760><c> is</c><00:04:32.000><c> the</c>
+
+00:04:32.110 --> 00:04:32.120 align:start position:0%
+feedback signals. Production is the
+ 
+
+00:04:32.120 --> 00:04:33.670 align:start position:0%
+feedback signals. Production is the
+largest<00:04:32.600><c> and</c><00:04:32.680><c> the</c><00:04:32.760><c> most</c><00:04:33.040><c> representative</c>
+
+00:04:33.670 --> 00:04:33.680 align:start position:0%
+largest and the most representative
+ 
+
+00:04:33.680 --> 00:04:35.990 align:start position:0%
+largest and the most representative
+evaluation<00:04:34.080><c> data</c><00:04:35.000><c> any</c><00:04:35.200><c> organization</c><00:04:35.840><c> will</c>
+
+00:04:35.990 --> 00:04:36.000 align:start position:0%
+evaluation data any organization will
+ 
+
+00:04:36.000 --> 00:04:39.190 align:start position:0%
+evaluation data any organization will
+ever<00:04:36.200><c> have.</c>
+
+00:04:39.190 --> 00:04:39.200 align:start position:0%
+ 
+ 
+
+00:04:39.200 --> 00:04:40.950 align:start position:0%
+ 
+Many<00:04:39.480><c> organizations</c><00:04:40.120><c> view</c><00:04:40.360><c> humans</c><00:04:40.800><c> as</c>
+
+00:04:40.950 --> 00:04:40.960 align:start position:0%
+Many organizations view humans as
+ 
+
+00:04:40.960 --> 00:04:43.750 align:start position:0%
+Many organizations view humans as
+fallback<00:04:41.320><c> systems.</c><00:04:42.440><c> I</c><00:04:42.640><c> think</c><00:04:43.240><c> that's</c><00:04:43.480><c> a</c><00:04:43.520><c> wrong</c>
+
+00:04:43.750 --> 00:04:43.760 align:start position:0%
+fallback systems. I think that's a wrong
+ 
+
+00:04:43.760 --> 00:04:46.350 align:start position:0%
+fallback systems. I think that's a wrong
+framing.<00:04:44.560><c> Humans</c><00:04:45.040><c> are</c><00:04:45.160><c> the</c><00:04:45.280><c> evaluators.</c><00:04:46.280><c> They</c>
+
+00:04:46.350 --> 00:04:46.360 align:start position:0%
+framing. Humans are the evaluators. They
+ 
+
+00:04:46.360 --> 00:04:48.110 align:start position:0%
+framing. Humans are the evaluators. They
+provide<00:04:46.680><c> signals</c><00:04:47.080><c> that</c><00:04:47.320><c> automated</c><00:04:47.800><c> systems</c>
+
+00:04:48.110 --> 00:04:48.120 align:start position:0%
+provide signals that automated systems
+ 
+
+00:04:48.120 --> 00:04:50.670 align:start position:0%
+provide signals that automated systems
+cannot.<00:04:48.840><c> They</c><00:04:49.000><c> assess</c><00:04:49.240><c> correctness,</c><00:04:50.160><c> trust,</c>
+
+00:04:50.670 --> 00:04:50.680 align:start position:0%
+cannot. They assess correctness, trust,
+ 
+
+00:04:50.680 --> 00:04:52.990 align:start position:0%
+cannot. They assess correctness, trust,
+usefulness,<00:04:51.240><c> safety.</c><00:04:52.040><c> These</c><00:04:52.280><c> signals</c><00:04:52.640><c> become</c>
+
+00:04:52.990 --> 00:04:53.000 align:start position:0%
+usefulness, safety. These signals become
+ 
+
+00:04:53.000 --> 00:04:54.510 align:start position:0%
+usefulness, safety. These signals become
+really<00:04:53.280><c> critical</c><00:04:53.720><c> for</c><00:04:53.880><c> calibrating</c>
+
+00:04:54.510 --> 00:04:54.520 align:start position:0%
+really critical for calibrating
+ 
+
+00:04:54.520 --> 00:04:56.550 align:start position:0%
+really critical for calibrating
+evaluation<00:04:55.080><c> pipelines</c><00:04:55.919><c> and</c><00:04:56.080><c> identifying</c>
+
+00:04:56.550 --> 00:04:56.560 align:start position:0%
+evaluation pipelines and identifying
+ 
+
+00:04:56.560 --> 00:04:59.190 align:start position:0%
+evaluation pipelines and identifying
+blind<00:04:56.800><c> spots</c><00:04:57.440><c> in</c><00:04:57.640><c> automated</c><00:04:58.040><c> metrics.</c>
+
+00:04:59.190 --> 00:04:59.200 align:start position:0%
+blind spots in automated metrics.
+ 
+
+00:04:59.200 --> 00:05:00.990 align:start position:0%
+blind spots in automated metrics.
+The<00:04:59.280><c> most</c><00:04:59.480><c> successful</c><00:04:59.880><c> systems</c><00:05:00.240><c> combine</c>
+
+00:05:00.990 --> 00:05:01.000 align:start position:0%
+The most successful systems combine
+ 
+
+00:05:01.000 --> 00:05:03.070 align:start position:0%
+The most successful systems combine
+automated<00:05:01.440><c> evaluation</c><00:05:02.280><c> with</c><00:05:02.400><c> targeted</c><00:05:02.840><c> human</c>
+
+00:05:03.070 --> 00:05:03.080 align:start position:0%
+automated evaluation with targeted human
+ 
+
+00:05:03.080 --> 00:05:06.270 align:start position:0%
+automated evaluation with targeted human
+review.
+
+00:05:06.270 --> 00:05:06.280 align:start position:0%
+ 
+ 
+
+00:05:06.280 --> 00:05:08.670 align:start position:0%
+ 
+Now,<00:05:06.480><c> agent</c><00:05:06.840><c> systems</c><00:05:07.720><c> drift</c><00:05:08.000><c> constantly.</c>
+
+00:05:08.670 --> 00:05:08.680 align:start position:0%
+Now, agent systems drift constantly.
+ 
+
+00:05:08.680 --> 00:05:11.790 align:start position:0%
+Now, agent systems drift constantly.
+Model<00:05:09.000><c> changes.</c><00:05:09.840><c> You</c><00:05:09.919><c> have</c><00:05:10.000><c> a</c><00:05:10.040><c> new</c><00:05:10.240><c> version</c>
+
+00:05:11.790 --> 00:05:11.800 align:start position:0%
+Model changes. You have a new version
+ 
+
+00:05:11.800 --> 00:05:13.710 align:start position:0%
+Model changes. You have a new version
+every<00:05:12.080><c> couple</c><00:05:12.360><c> of</c><00:05:12.480><c> weeks</c><00:05:12.680><c> or</c><00:05:12.760><c> months.</c><00:05:13.360><c> Prompts</c>
+
+00:05:13.710 --> 00:05:13.720 align:start position:0%
+every couple of weeks or months. Prompts
+ 
+
+00:05:13.720 --> 00:05:16.310 align:start position:0%
+every couple of weeks or months. Prompts
+can<00:05:13.880><c> change,</c><00:05:14.400><c> tools</c><00:05:14.800><c> can</c><00:05:15.000><c> change,</c><00:05:16.000><c> user</c>
+
+00:05:16.310 --> 00:05:16.320 align:start position:0%
+can change, tools can change, user
+ 
+
+00:05:16.320 --> 00:05:17.670 align:start position:0%
+can change, tools can change, user
+behavior<00:05:16.680><c> can</c><00:05:16.840><c> change.</c><00:05:17.160><c> The</c><00:05:17.240><c> challenge</c><00:05:17.600><c> is</c>
+
+00:05:17.670 --> 00:05:17.680 align:start position:0%
+behavior can change. The challenge is
+ 
+
+00:05:17.680 --> 00:05:19.430 align:start position:0%
+behavior can change. The challenge is
+that<00:05:18.000><c> no</c><00:05:18.160><c> longer</c><00:05:18.480><c> single</c><00:05:18.880><c> change</c><00:05:19.160><c> appear</c>
+
+00:05:19.430 --> 00:05:19.440 align:start position:0%
+that no longer single change appear
+ 
+
+00:05:19.440 --> 00:05:21.430 align:start position:0%
+that no longer single change appear
+catastrophic.<00:05:20.520><c> Reliability</c><00:05:21.000><c> slowly</c>
+
+00:05:21.430 --> 00:05:21.440 align:start position:0%
+catastrophic. Reliability slowly
+ 
+
+00:05:21.440 --> 00:05:23.670 align:start position:0%
+catastrophic. Reliability slowly
+degrades.<00:05:22.440><c> Success</c><00:05:22.919><c> rate</c><00:05:23.080><c> declines,</c>
+
+00:05:23.670 --> 00:05:23.680 align:start position:0%
+degrades. Success rate declines,
+ 
+
+00:05:23.680 --> 00:05:25.510 align:start position:0%
+degrades. Success rate declines,
+escalation<00:05:24.160><c> increases,</c><00:05:25.040><c> tool</c><00:05:25.240><c> failure</c>
+
+00:05:25.510 --> 00:05:25.520 align:start position:0%
+escalation increases, tool failure
+ 
+
+00:05:25.520 --> 00:05:27.950 align:start position:0%
+escalation increases, tool failure
+rises.<00:05:26.480><c> Without</c><00:05:26.960><c> continuous</c><00:05:27.320><c> evaluation,</c>
+
+00:05:27.950 --> 00:05:27.960 align:start position:0%
+rises. Without continuous evaluation,
+ 
+
+00:05:27.960 --> 00:05:29.790 align:start position:0%
+rises. Without continuous evaluation,
+teams<00:05:28.400><c> often</c><00:05:28.720><c> don't</c><00:05:28.840><c> discover</c><00:05:29.200><c> drift</c><00:05:29.560><c> until</c>
+
+00:05:29.790 --> 00:05:29.800 align:start position:0%
+teams often don't discover drift until
+ 
+
+00:05:29.800 --> 00:05:31.150 align:start position:0%
+teams often don't discover drift until
+users<00:05:30.080><c> complain.</c>
+
+00:05:31.150 --> 00:05:31.160 align:start position:0%
+users complain.
+ 
+
+00:05:31.160 --> 00:05:36.150 align:start position:0%
+users complain.
+Continuous<00:05:31.760><c> monitoring</c><00:05:32.200><c> becomes</c><00:05:32.600><c> essential.</c>
+
+00:05:36.150 --> 00:05:36.160 align:start position:0%
+ 
+ 
+
+00:05:36.160 --> 00:05:37.990 align:start position:0%
+ 
+Observability<00:05:37.000><c> and</c><00:05:37.200><c> evaluation</c><00:05:37.760><c> are</c>
+
+00:05:37.990 --> 00:05:38.000 align:start position:0%
+Observability and evaluation are
+ 
+
+00:05:38.000 --> 00:05:40.590 align:start position:0%
+Observability and evaluation are
+inseparable<00:05:39.240><c> inseparable.</c><00:05:40.120><c> To</c><00:05:40.200><c> evaluate</c><00:05:40.520><c> an</c>
+
+00:05:40.590 --> 00:05:40.600 align:start position:0%
+inseparable inseparable. To evaluate an
+ 
+
+00:05:40.600 --> 00:05:42.310 align:start position:0%
+inseparable inseparable. To evaluate an
+agent,<00:05:40.880><c> we</c><00:05:41.000><c> need</c><00:05:41.200><c> visibility</c><00:05:41.560><c> into</c><00:05:42.240><c> the</c>
+
+00:05:42.310 --> 00:05:42.320 align:start position:0%
+agent, we need visibility into the
+ 
+
+00:05:42.320 --> 00:05:44.190 align:start position:0%
+agent, we need visibility into the
+reasoning<00:05:42.640><c> paths,</c><00:05:43.240><c> the</c><00:05:43.320><c> tool</c><00:05:43.560><c> calls,</c><00:05:44.120><c> the</c>
+
+00:05:44.190 --> 00:05:44.200 align:start position:0%
+reasoning paths, the tool calls, the
+ 
+
+00:05:44.200 --> 00:05:46.150 align:start position:0%
+reasoning paths, the tool calls, the
+memory<00:05:44.560><c> access,</c><00:05:45.080><c> execution</c><00:05:45.600><c> timelines,</c><00:05:46.080><c> the</c>
+
+00:05:46.150 --> 00:05:46.160 align:start position:0%
+memory access, execution timelines, the
+ 
+
+00:05:46.160 --> 00:05:48.190 align:start position:0%
+memory access, execution timelines, the
+state<00:05:46.440><c> transitions,</c><00:05:47.040><c> as</c><00:05:47.200><c> you</c><00:05:47.360><c> can</c><00:05:47.480><c> see</c><00:05:47.640><c> here</c>
+
+00:05:48.190 --> 00:05:48.200 align:start position:0%
+state transitions, as you can see here
+ 
+
+00:05:48.200 --> 00:05:49.390 align:start position:0%
+state transitions, as you can see here
+in<00:05:48.320><c> this</c><00:05:48.440><c> chart,</c>
+
+00:05:49.390 --> 00:05:49.400 align:start position:0%
+in this chart,
+ 
+
+00:05:49.400 --> 00:05:51.110 align:start position:0%
+in this chart,
+traditional<00:05:49.760><c> logs</c><00:05:50.080><c> are</c><00:05:50.160><c> not</c><00:05:50.320><c> sufficient.</c><00:05:51.000><c> We</c>
+
+00:05:51.110 --> 00:05:51.120 align:start position:0%
+traditional logs are not sufficient. We
+ 
+
+00:05:51.120 --> 00:05:55.830 align:start position:0%
+traditional logs are not sufficient. We
+need<00:05:51.720><c> detailed</c><00:05:52.200><c> traces,</c><00:05:52.920><c> just</c><00:05:53.120><c> like</c><00:05:53.360><c> with</c><00:05:54.160><c> any</c>
+
+00:05:55.830 --> 00:05:55.840 align:start position:0%
+need detailed traces, just like with any
+ 
+
+00:05:55.840 --> 00:05:57.590 align:start position:0%
+need detailed traces, just like with any
+deep<00:05:56.120><c> nested</c><00:05:56.560><c> microservice</c><00:05:57.120><c> architecture</c>
+
+00:05:57.590 --> 00:05:57.600 align:start position:0%
+deep nested microservice architecture
+ 
+
+00:05:57.600 --> 00:05:59.590 align:start position:0%
+deep nested microservice architecture
+for<00:05:57.760><c> any</c><00:05:58.480><c> application</c><00:05:59.040><c> or</c><00:05:59.200><c> service</c><00:05:59.520><c> you're</c>
+
+00:05:59.590 --> 00:05:59.600 align:start position:0%
+for any application or service you're
+ 
+
+00:05:59.600 --> 00:06:00.950 align:start position:0%
+for any application or service you're
+talking<00:05:59.840><c> about.</c>
+
+00:06:00.950 --> 00:06:00.960 align:start position:0%
+talking about.
+ 
+
+00:06:00.960 --> 00:06:02.310 align:start position:0%
+talking about.
+Agent<00:06:01.200><c> traces</c><00:06:01.520><c> become</c><00:06:01.760><c> the</c><00:06:01.880><c> equivalent</c><00:06:02.200><c> of</c>
+
+00:06:02.310 --> 00:06:02.320 align:start position:0%
+Agent traces become the equivalent of
+ 
+
+00:06:02.320 --> 00:06:03.550 align:start position:0%
+Agent traces become the equivalent of
+distributed<00:06:02.720><c> tracing</c><00:06:03.040><c> for</c><00:06:03.160><c> autonomous</c>
+
+00:06:03.550 --> 00:06:03.560 align:start position:0%
+distributed tracing for autonomous
+ 
+
+00:06:03.560 --> 00:06:05.070 align:start position:0%
+distributed tracing for autonomous
+workloads.<00:06:03.960><c> Without</c><00:06:04.240><c> observability,</c>
+
+00:06:05.070 --> 00:06:05.080 align:start position:0%
+workloads. Without observability,
+ 
+
+00:06:05.080 --> 00:06:10.750 align:start position:0%
+workloads. Without observability,
+evaluation<00:06:05.520><c> becomes</c><00:06:05.880><c> the</c><00:06:06.280><c> guesswork.</c>
+
+00:06:10.750 --> 00:06:10.760 align:start position:0%
+ 
+ 
+
+00:06:10.760 --> 00:06:11.950 align:start position:0%
+ 
+Let's<00:06:11.000><c> talk</c><00:06:11.160><c> about</c><00:06:11.400><c> the</c><00:06:11.560><c> continuous</c>
+
+00:06:11.950 --> 00:06:11.960 align:start position:0%
+Let's talk about the continuous
+ 
+
+00:06:11.960 --> 00:06:13.790 align:start position:0%
+Let's talk about the continuous
+evaluation<00:06:12.440><c> loop</c><00:06:12.880><c> because</c><00:06:13.120><c> evaluation</c><00:06:13.520><c> is</c><00:06:13.640><c> an</c>
+
+00:06:13.790 --> 00:06:13.800 align:start position:0%
+evaluation loop because evaluation is an
+ 
+
+00:06:13.800 --> 00:06:15.350 align:start position:0%
+evaluation loop because evaluation is an
+always-running<00:06:14.400><c> service,</c><00:06:14.760><c> not</c><00:06:14.960><c> a</c><00:06:15.000><c> testing</c>
+
+00:06:15.350 --> 00:06:15.360 align:start position:0%
+always-running service, not a testing
+ 
+
+00:06:15.360 --> 00:06:17.270 align:start position:0%
+always-running service, not a testing
+phase.
+
+00:06:17.270 --> 00:06:17.280 align:start position:0%
+phase.
+ 
+
+00:06:17.280 --> 00:06:18.950 align:start position:0%
+phase.
+Historically,<00:06:17.960><c> evaluation</c><00:06:18.440><c> always</c><00:06:18.680><c> happened</c>
+
+00:06:18.950 --> 00:06:18.960 align:start position:0%
+Historically, evaluation always happened
+ 
+
+00:06:18.960 --> 00:06:20.670 align:start position:0%
+Historically, evaluation always happened
+before<00:06:19.200><c> deployment,</c><00:06:19.680><c> but</c><00:06:19.800><c> now</c><00:06:20.240><c> evaluation</c>
+
+00:06:20.670 --> 00:06:20.680 align:start position:0%
+before deployment, but now evaluation
+ 
+
+00:06:20.680 --> 00:06:22.190 align:start position:0%
+before deployment, but now evaluation
+continues<00:06:21.120><c> after</c><00:06:21.320><c> deployment</c><00:06:21.880><c> till</c><00:06:22.000><c> you</c><00:06:22.080><c> may</c>
+
+00:06:22.190 --> 00:06:22.200 align:start position:0%
+continues after deployment till you may
+ 
+
+00:06:22.200 --> 00:06:25.390 align:start position:0%
+continues after deployment till you may
+identify<00:06:22.760><c> issues,</c><00:06:23.360><c> as</c><00:06:23.480><c> you</c><00:06:23.560><c> can</c><00:06:23.720><c> see</c><00:06:23.840><c> in</c><00:06:24.360><c> A.</c>
+
+00:06:25.390 --> 00:06:25.400 align:start position:0%
+identify issues, as you can see in A.
+ 
+
+00:06:25.400 --> 00:06:27.710 align:start position:0%
+identify issues, as you can see in A.
+Human<00:06:25.680><c> reviews</c><00:06:26.080><c> the</c><00:06:26.280><c> edge</c><00:06:26.440><c> cases,</c><00:06:27.240><c> feedback</c>
+
+00:06:27.710 --> 00:06:27.720 align:start position:0%
+Human reviews the edge cases, feedback
+ 
+
+00:06:27.720 --> 00:06:29.350 align:start position:0%
+Human reviews the edge cases, feedback
+improves<00:06:28.080><c> the</c><00:06:28.160><c> data</c><00:06:28.400><c> sets,</c><00:06:28.919><c> offline</c>
+
+00:06:29.350 --> 00:06:29.360 align:start position:0%
+improves the data sets, offline
+ 
+
+00:06:29.360 --> 00:06:31.430 align:start position:0%
+improves the data sets, offline
+scenarios<00:06:29.760><c> validate</c><00:06:30.160><c> updates,</c><00:06:31.080><c> the</c><00:06:31.200><c> loop</c>
+
+00:06:31.430 --> 00:06:31.440 align:start position:0%
+scenarios validate updates, the loop
+ 
+
+00:06:31.440 --> 00:06:32.630 align:start position:0%
+scenarios validate updates, the loop
+never<00:06:31.600><c> stops.</c>
+
+00:06:32.630 --> 00:06:32.640 align:start position:0%
+never stops.
+ 
+
+00:06:32.640 --> 00:06:35.350 align:start position:0%
+never stops.
+Evaluation<00:06:33.680><c> is</c><00:06:33.840><c> no</c><00:06:33.960><c> longer</c><00:06:34.240><c> just</c><00:06:34.560><c> a</c><00:06:34.640><c> phase,</c>
+
+00:06:35.350 --> 00:06:35.360 align:start position:0%
+Evaluation is no longer just a phase,
+ 
+
+00:06:35.360 --> 00:06:38.470 align:start position:0%
+Evaluation is no longer just a phase,
+it's<00:06:35.480><c> an</c><00:06:35.560><c> operational</c><00:06:36.040><c> capability.</c>
+
+00:06:38.470 --> 00:06:38.480 align:start position:0%
+it's an operational capability.
+ 
+
+00:06:38.480 --> 00:06:40.150 align:start position:0%
+it's an operational capability.
+This<00:06:38.720><c> is</c><00:06:38.840><c> probably</c><00:06:39.320><c> the</c><00:06:39.440><c> most</c><00:06:39.800><c> important</c>
+
+00:06:40.150 --> 00:06:40.160 align:start position:0%
+This is probably the most important
+ 
+
+00:06:40.160 --> 00:06:42.790 align:start position:0%
+This is probably the most important
+slide<00:06:40.720><c> in</c><00:06:40.840><c> this</c><00:06:41.000><c> presentation.</c><00:06:42.200><c> Every</c><00:06:42.480><c> metric</c>
+
+00:06:42.790 --> 00:06:42.800 align:start position:0%
+slide in this presentation. Every metric
+ 
+
+00:06:42.800 --> 00:06:44.550 align:start position:0%
+slide in this presentation. Every metric
+shown<00:06:43.000><c> here</c><00:06:43.160><c> maps</c><00:06:43.480><c> directly</c><00:06:43.840><c> to</c><00:06:44.200><c> a</c><00:06:44.240><c> business</c>
+
+00:06:44.550 --> 00:06:44.560 align:start position:0%
+shown here maps directly to a business
+ 
+
+00:06:44.560 --> 00:06:45.750 align:start position:0%
+shown here maps directly to a business
+outcome.
+
+00:06:45.750 --> 00:06:45.760 align:start position:0%
+outcome.
+ 
+
+00:06:45.760 --> 00:06:47.030 align:start position:0%
+outcome.
+Task<00:06:46.080><c> completion</c><00:06:46.520><c> measures</c><00:06:46.800><c> value</c>
+
+00:06:47.030 --> 00:06:47.040 align:start position:0%
+Task completion measures value
+ 
+
+00:06:47.040 --> 00:06:48.710 align:start position:0%
+Task completion measures value
+delivered.<00:06:47.800><c> Tool</c><00:06:47.960><c> success</c><00:06:48.360><c> measures</c>
+
+00:06:48.710 --> 00:06:48.720 align:start position:0%
+delivered. Tool success measures
+ 
+
+00:06:48.720 --> 00:06:50.390 align:start position:0%
+delivered. Tool success measures
+operational<00:06:49.240><c> reliability.</c>
+
+00:06:50.390 --> 00:06:50.400 align:start position:0%
+operational reliability.
+ 
+
+00:06:50.400 --> 00:06:52.590 align:start position:0%
+operational reliability.
+Escalation<00:06:50.880><c> rate</c><00:06:51.080><c> measures</c><00:06:51.600><c> human</c><00:06:51.919><c> burden.</c>
+
+00:06:52.590 --> 00:06:52.600 align:start position:0%
+Escalation rate measures human burden.
+ 
+
+00:06:52.600 --> 00:06:55.150 align:start position:0%
+Escalation rate measures human burden.
+Safety<00:06:52.960><c> violations</c><00:06:53.520><c> measure</c><00:06:53.840><c> risk</c><00:06:54.040><c> exposure.</c>
+
+00:06:55.150 --> 00:06:55.160 align:start position:0%
+Safety violations measure risk exposure.
+ 
+
+00:06:55.160 --> 00:06:57.470 align:start position:0%
+Safety violations measure risk exposure.
+Latency<00:06:55.560><c> affects</c><00:06:55.919><c> user</c><00:06:56.080><c> experience.</c><00:06:57.160><c> Cost</c>
+
+00:06:57.470 --> 00:06:57.480 align:start position:0%
+Latency affects user experience. Cost
+ 
+
+00:06:57.480 --> 00:07:00.470 align:start position:0%
+Latency affects user experience. Cost
+determines<00:06:57.840><c> scalability.</c><00:06:58.840><c> Recovery</c><00:06:59.360><c> rate</c>
+
+00:07:00.470 --> 00:07:00.480 align:start position:0%
+determines scalability. Recovery rate
+ 
+
+00:07:00.480 --> 00:07:02.150 align:start position:0%
+determines scalability. Recovery rate
+reflects<00:07:00.800><c> resilience.</c>
+
+00:07:02.150 --> 00:07:02.160 align:start position:0%
+reflects resilience.
+ 
+
+00:07:02.160 --> 00:07:03.990 align:start position:0%
+reflects resilience.
+And<00:07:02.320><c> notice</c><00:07:02.919><c> but</c><00:07:03.080><c> notice</c><00:07:03.360><c> that</c><00:07:03.520><c> accuracy</c><00:07:03.880><c> is</c>
+
+00:07:03.990 --> 00:07:04.000 align:start position:0%
+And notice but notice that accuracy is
+ 
+
+00:07:04.000 --> 00:07:05.270 align:start position:0%
+And notice but notice that accuracy is
+missing.
+
+00:07:05.270 --> 00:07:05.280 align:start position:0%
+missing.
+ 
+
+00:07:05.280 --> 00:07:06.510 align:start position:0%
+missing.
+It's<00:07:05.440><c> not</c><00:07:05.560><c> because</c><00:07:05.840><c> accuracy</c><00:07:06.200><c> doesn't</c>
+
+00:07:06.510 --> 00:07:06.520 align:start position:0%
+It's not because accuracy doesn't
+ 
+
+00:07:06.520 --> 00:07:08.510 align:start position:0%
+It's not because accuracy doesn't
+matter,<00:07:07.160><c> but</c><00:07:07.320><c> because</c><00:07:07.840><c> business</c><00:07:08.200><c> success</c>
+
+00:07:08.510 --> 00:07:08.520 align:start position:0%
+matter, but because business success
+ 
+
+00:07:08.520 --> 00:07:12.590 align:start position:0%
+matter, but because business success
+depends<00:07:08.919><c> on</c><00:07:09.080><c> much</c><00:07:09.360><c> more</c><00:07:09.520><c> than</c><00:07:09.720><c> just</c><00:07:09.960><c> accuracy.</c>
+
+00:07:12.590 --> 00:07:12.600 align:start position:0%
+ 
+ 
+
+00:07:12.600 --> 00:07:14.550 align:start position:0%
+ 
+Now,<00:07:12.720><c> this</c><00:07:12.919><c> is</c><00:07:13.080><c> the</c><00:07:13.520><c> architecture</c><00:07:14.000><c> where</c><00:07:14.160><c> the</c>
+
+00:07:14.550 --> 00:07:14.560 align:start position:0%
+Now, this is the architecture where the
+ 
+
+00:07:14.560 --> 00:07:16.390 align:start position:0%
+Now, this is the architecture where the
+industry<00:07:14.960><c> is</c><00:07:15.120><c> heading</c><00:07:15.360><c> more</c><00:07:15.560><c> or</c><00:07:15.640><c> less.</c>
+
+00:07:16.390 --> 00:07:16.400 align:start position:0%
+industry is heading more or less.
+ 
+
+00:07:16.400 --> 00:07:17.750 align:start position:0%
+industry is heading more or less.
+Evaluation<00:07:16.840><c> becomes</c><00:07:17.160><c> part</c><00:07:17.320><c> of</c><00:07:17.400><c> the</c><00:07:17.480><c> control</c>
+
+00:07:17.750 --> 00:07:17.760 align:start position:0%
+Evaluation becomes part of the control
+ 
+
+00:07:17.760 --> 00:07:19.710 align:start position:0%
+Evaluation becomes part of the control
+plane,<00:07:18.440><c> not</c><00:07:18.640><c> a</c><00:07:18.680><c> separate</c><00:07:19.080><c> tool,</c><00:07:19.440><c> not</c><00:07:19.640><c> an</c>
+
+00:07:19.710 --> 00:07:19.720 align:start position:0%
+plane, not a separate tool, not an
+ 
+
+00:07:19.720 --> 00:07:21.670 align:start position:0%
+plane, not a separate tool, not an
+offline<00:07:20.000><c> process.</c><00:07:20.760><c> The</c><00:07:20.880><c> control</c><00:07:21.360><c> plane</c>
+
+00:07:21.670 --> 00:07:21.680 align:start position:0%
+offline process. The control plane
+ 
+
+00:07:21.680 --> 00:07:23.230 align:start position:0%
+offline process. The control plane
+continuously,<00:07:22.520><c> which</c><00:07:22.680><c> observes</c><00:07:23.160><c> the</c>
+
+00:07:23.230 --> 00:07:23.240 align:start position:0%
+continuously, which observes the
+ 
+
+00:07:23.240 --> 00:07:25.470 align:start position:0%
+continuously, which observes the
+systems,<00:07:23.760><c> collects</c><00:07:24.320><c> telemetry,</c><00:07:25.200><c> runs</c>
+
+00:07:25.470 --> 00:07:25.480 align:start position:0%
+systems, collects telemetry, runs
+ 
+
+00:07:25.480 --> 00:07:28.190 align:start position:0%
+systems, collects telemetry, runs
+simulations,<00:07:26.440><c> coordinates</c><00:07:26.800><c> human</c><00:07:27.040><c> review,</c>
+
+00:07:28.190 --> 00:07:28.200 align:start position:0%
+simulations, coordinates human review,
+ 
+
+00:07:28.200 --> 00:07:30.190 align:start position:0%
+simulations, coordinates human review,
+and<00:07:28.320><c> the</c><00:07:28.360><c> execution</c><00:07:28.840><c> plane</c><00:07:29.760><c> performs</c><00:07:30.120><c> the</c>
+
+00:07:30.190 --> 00:07:30.200 align:start position:0%
+and the execution plane performs the
+ 
+
+00:07:30.200 --> 00:07:32.030 align:start position:0%
+and the execution plane performs the
+work.<00:07:30.960><c> The</c><00:07:31.000><c> control</c><00:07:31.320><c> plane</c><00:07:31.520><c> measures</c><00:07:31.919><c> and</c>
+
+00:07:32.030 --> 00:07:32.040 align:start position:0%
+work. The control plane measures and
+ 
+
+00:07:32.040 --> 00:07:33.670 align:start position:0%
+work. The control plane measures and
+governs<00:07:32.360><c> the</c><00:07:32.440><c> behavior,</c><00:07:33.440><c> and</c><00:07:33.560><c> this</c>
+
+00:07:33.670 --> 00:07:33.680 align:start position:0%
+governs the behavior, and this
+ 
+
+00:07:33.680 --> 00:07:35.230 align:start position:0%
+governs the behavior, and this
+separation<00:07:34.160><c> is</c><00:07:34.280><c> becoming</c><00:07:34.640><c> a</c><00:07:34.680><c> foundational</c>
+
+00:07:35.230 --> 00:07:35.240 align:start position:0%
+separation is becoming a foundational
+ 
+
+00:07:35.240 --> 00:07:39.230 align:start position:0%
+separation is becoming a foundational
+pattern<00:07:35.560><c> for</c><00:07:35.680><c> production</c><00:07:36.080><c> AI</c><00:07:36.200><c> systems.</c>
+
+00:07:39.230 --> 00:07:39.240 align:start position:0%
+ 
+ 
+
+00:07:39.240 --> 00:07:40.830 align:start position:0%
+ 
+Now,<00:07:39.320><c> let's</c><00:07:39.520><c> summarize</c><00:07:39.919><c> the</c><00:07:40.040><c> key</c><00:07:40.160><c> lessons.</c>
+
+00:07:40.830 --> 00:07:40.840 align:start position:0%
+Now, let's summarize the key lessons.
+ 
+
+00:07:40.840 --> 00:07:43.870 align:start position:0%
+Now, let's summarize the key lessons.
+First,<00:07:41.640><c> benchmarks</c><00:07:42.160><c> remains</c><00:07:42.480><c> necessary,</c><00:07:43.280><c> but</c>
+
+00:07:43.870 --> 00:07:43.880 align:start position:0%
+First, benchmarks remains necessary, but
+ 
+
+00:07:43.880 --> 00:07:45.790 align:start position:0%
+First, benchmarks remains necessary, but
+they<00:07:44.080><c> are</c><00:07:44.240><c> insufficient.</c>
+
+00:07:45.790 --> 00:07:45.800 align:start position:0%
+they are insufficient.
+ 
+
+00:07:45.800 --> 00:07:48.190 align:start position:0%
+they are insufficient.
+Second,<00:07:46.640><c> agent</c><00:07:46.920><c> systems</c><00:07:47.320><c> must</c><00:07:47.560><c> be</c><00:07:47.680><c> valued</c><00:07:48.040><c> as</c>
+
+00:07:48.190 --> 00:07:48.200 align:start position:0%
+Second, agent systems must be valued as
+ 
+
+00:07:48.200 --> 00:07:50.510 align:start position:0%
+Second, agent systems must be valued as
+workflows,<00:07:48.720><c> not</c><00:07:49.040><c> individual</c><00:07:49.480><c> outputs.</c>
+
+00:07:50.510 --> 00:07:50.520 align:start position:0%
+workflows, not individual outputs.
+ 
+
+00:07:50.520 --> 00:07:52.710 align:start position:0%
+workflows, not individual outputs.
+Third,<00:07:51.160><c> production</c><00:07:51.560><c> telemetry</c><00:07:52.000><c> is</c><00:07:52.120><c> a</c><00:07:52.160><c> most</c>
+
+00:07:52.710 --> 00:07:52.720 align:start position:0%
+Third, production telemetry is a most
+ 
+
+00:07:52.720 --> 00:07:55.230 align:start position:0%
+Third, production telemetry is a most
+important<00:07:53.200><c> evaluation</c><00:07:53.640><c> signal.</c>
+
+00:07:55.230 --> 00:07:55.240 align:start position:0%
+important evaluation signal.
+ 
+
+00:07:55.240 --> 00:07:57.190 align:start position:0%
+important evaluation signal.
+Fourth,<00:07:55.680><c> reliability</c><00:07:56.240><c> ultimately</c><00:07:56.800><c> matters</c>
+
+00:07:57.190 --> 00:07:57.200 align:start position:0%
+Fourth, reliability ultimately matters
+ 
+
+00:07:57.200 --> 00:07:59.150 align:start position:0%
+Fourth, reliability ultimately matters
+more<00:07:57.440><c> than</c><00:07:57.600><c> raw</c><00:07:57.800><c> model</c><00:07:58.080><c> accuracy.</c><00:07:58.960><c> And</c>
+
+00:07:59.150 --> 00:07:59.160 align:start position:0%
+more than raw model accuracy. And
+ 
+
+00:07:59.160 --> 00:08:02.110 align:start position:0%
+more than raw model accuracy. And
+finally,<00:08:00.200><c> evaluation</c><00:08:00.760><c> is</c><00:08:00.920><c> becoming</c>
+
+00:08:02.110 --> 00:08:02.120 align:start position:0%
+finally, evaluation is becoming
+ 
+
+00:08:02.120 --> 00:08:04.510 align:start position:0%
+finally, evaluation is becoming
+the<00:08:02.200><c> infrastructure,</c><00:08:03.240><c> not</c><00:08:03.440><c> testing,</c><00:08:03.920><c> not</c><00:08:04.160><c> QA</c>
+
+00:08:04.510 --> 00:08:04.520 align:start position:0%
+the infrastructure, not testing, not QA
+ 
+
+00:08:04.520 --> 00:08:06.150 align:start position:0%
+the infrastructure, not testing, not QA
+infrastructure.
+
+00:08:06.150 --> 00:08:06.160 align:start position:0%
+infrastructure.
+ 
+
+00:08:06.160 --> 00:08:07.750 align:start position:0%
+infrastructure.
+This<00:08:06.360><c> is</c><00:08:06.440><c> the</c><00:08:06.560><c> shift</c><00:08:06.920><c> every</c><00:08:07.200><c> organization</c>
+
+00:08:07.750 --> 00:08:07.760 align:start position:0%
+This is the shift every organization
+ 
+
+00:08:07.760 --> 00:08:09.590 align:start position:0%
+This is the shift every organization
+building<00:08:08.120><c> agent</c><00:08:08.400><c> AI</c><00:08:08.800><c> will</c><00:08:09.000><c> eventually</c><00:08:09.440><c> need</c>
+
+00:08:09.590 --> 00:08:09.600 align:start position:0%
+building agent AI will eventually need
+ 
+
+00:08:09.600 --> 00:08:12.120 align:start position:0%
+building agent AI will eventually need
+to<00:08:09.720><c> make.</c>
+

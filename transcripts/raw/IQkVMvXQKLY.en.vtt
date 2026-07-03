@@ -1,0 +1,2904 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.480 --> 00:00:02.670 align:start position:0%
+ 
+Hi,<00:00:00.800><c> everyone.</c><00:00:01.520><c> I'm</c><00:00:01.720><c> Sachin</c><00:00:02.040><c> Kumar,</c><00:00:02.440><c> and</c><00:00:02.640><c> I</c>
+
+00:00:02.670 --> 00:00:02.680 align:start position:0%
+Hi, everyone. I'm Sachin Kumar, and I
+ 
+
+00:00:02.680 --> 00:00:04.390 align:start position:0%
+Hi, everyone. I'm Sachin Kumar, and I
+work<00:00:02.960><c> as</c><00:00:03.080><c> a</c><00:00:03.120><c> senior</c><00:00:03.400><c> data</c><00:00:03.640><c> scientist</c><00:00:04.080><c> here</c><00:00:04.240><c> at</c>
+
+00:00:04.390 --> 00:00:04.400 align:start position:0%
+work as a senior data scientist here at
+ 
+
+00:00:04.400 --> 00:00:06.790 align:start position:0%
+work as a senior data scientist here at
+LexisNexis.<00:00:05.800><c> Uh</c><00:00:06.000><c> this</c><00:00:06.120><c> is</c><00:00:06.240><c> an</c><00:00:06.320><c> independent</c>
+
+00:00:06.790 --> 00:00:06.800 align:start position:0%
+LexisNexis. Uh this is an independent
+ 
+
+00:00:06.800 --> 00:00:08.950 align:start position:0%
+LexisNexis. Uh this is an independent
+work<00:00:07.000><c> of</c><00:00:07.160><c> mine</c><00:00:07.680><c> which</c><00:00:07.840><c> was</c><00:00:08.000><c> also</c><00:00:08.280><c> accepted</c><00:00:08.840><c> as</c>
+
+00:00:08.950 --> 00:00:08.960 align:start position:0%
+work of mine which was also accepted as
+ 
+
+00:00:08.960 --> 00:00:11.670 align:start position:0%
+work of mine which was also accepted as
+a<00:00:09.000><c> peer-reviewed</c><00:00:09.600><c> paper</c><00:00:10.240><c> at</c><00:00:10.520><c> IJCNN,</c><00:00:11.480><c> and</c><00:00:11.600><c> the</c>
+
+00:00:11.670 --> 00:00:11.680 align:start position:0%
+a peer-reviewed paper at IJCNN, and the
+ 
+
+00:00:11.680 --> 00:00:13.910 align:start position:0%
+a peer-reviewed paper at IJCNN, and the
+code<00:00:11.840><c> is</c><00:00:11.960><c> open</c><00:00:12.200><c> source</c><00:00:12.440><c> on</c><00:00:12.560><c> GitHub.</c>
+
+00:00:13.910 --> 00:00:13.920 align:start position:0%
+code is open source on GitHub.
+ 
+
+00:00:13.920 --> 00:00:16.310 align:start position:0%
+code is open source on GitHub.
+Now,<00:00:14.320><c> as</c><00:00:14.600><c> the</c><00:00:14.920><c> presentation</c><00:00:15.480><c> is</c><00:00:15.640><c> titled</c><00:00:16.080><c> like</c>
+
+00:00:16.310 --> 00:00:16.320 align:start position:0%
+Now, as the presentation is titled like
+ 
+
+00:00:16.320 --> 00:00:18.270 align:start position:0%
+Now, as the presentation is titled like
+your<00:00:16.640><c> LLM</c><00:00:16.920><c> deception</c><00:00:17.360><c> monitor's</c><00:00:17.800><c> broken,</c><00:00:18.160><c> the</c>
+
+00:00:18.270 --> 00:00:18.280 align:start position:0%
+your LLM deception monitor's broken, the
+ 
+
+00:00:18.280 --> 00:00:20.470 align:start position:0%
+your LLM deception monitor's broken, the
+fix<00:00:18.480><c> is</c><00:00:18.640><c> in</c><00:00:18.760><c> training</c><00:00:19.080><c> data.</c><00:00:19.680><c> So,</c><00:00:19.880><c> I'll</c><00:00:20.040><c> start</c>
+
+00:00:20.470 --> 00:00:20.480 align:start position:0%
+fix is in training data. So, I'll start
+ 
+
+00:00:20.480 --> 00:00:22.830 align:start position:0%
+fix is in training data. So, I'll start
+with<00:00:20.760><c> what</c><00:00:20.960><c> that</c><00:00:21.160><c> basically</c><00:00:21.560><c> mean.</c>
+
+00:00:22.830 --> 00:00:22.840 align:start position:0%
+with what that basically mean.
+ 
+
+00:00:22.840 --> 00:00:25.110 align:start position:0%
+with what that basically mean.
+Uh<00:00:23.160><c> so,</c><00:00:23.360><c> if</c><00:00:23.480><c> you</c><00:00:23.560><c> fine-tune</c><00:00:24.040><c> LLMs</c><00:00:24.720><c> and</c><00:00:24.880><c> ship</c>
+
+00:00:25.110 --> 00:00:25.120 align:start position:0%
+Uh so, if you fine-tune LLMs and ship
+ 
+
+00:00:25.120 --> 00:00:27.590 align:start position:0%
+Uh so, if you fine-tune LLMs and ship
+them,<00:00:25.600><c> this</c><00:00:25.800><c> talk</c><00:00:26.120><c> is</c><00:00:26.200><c> a</c><00:00:26.280><c> both</c><00:00:26.760><c> warning</c><00:00:27.400><c> and</c><00:00:27.560><c> a</c>
+
+00:00:27.590 --> 00:00:27.600 align:start position:0%
+them, this talk is a both warning and a
+ 
+
+00:00:27.600 --> 00:00:28.950 align:start position:0%
+them, this talk is a both warning and a
+fix.
+
+00:00:28.950 --> 00:00:28.960 align:start position:0%
+fix.
+ 
+
+00:00:28.960 --> 00:00:31.750 align:start position:0%
+fix.
+Now,<00:00:29.240><c> as</c><00:00:29.400><c> a</c><00:00:29.480><c> warning</c><00:00:30.200><c> that</c><00:00:30.720><c> a</c><00:00:30.840><c> model</c><00:00:31.200><c> can</c><00:00:31.360><c> pass</c>
+
+00:00:31.750 --> 00:00:31.760 align:start position:0%
+Now, as a warning that a model can pass
+ 
+
+00:00:31.760 --> 00:00:34.430 align:start position:0%
+Now, as a warning that a model can pass
+every<00:00:32.119><c> eval</c><00:00:32.439><c> you</c><00:00:32.599><c> have</c><00:00:33.120><c> in</c><00:00:33.320><c> every</c><00:00:33.800><c> behavioral</c>
+
+00:00:34.430 --> 00:00:34.440 align:start position:0%
+every eval you have in every behavioral
+ 
+
+00:00:34.440 --> 00:00:36.630 align:start position:0%
+every eval you have in every behavioral
+monitor<00:00:34.920><c> you</c><00:00:35.080><c> run,</c><00:00:35.840><c> it</c><00:00:35.960><c> still</c><00:00:36.160><c> be</c><00:00:36.280><c> carrying</c><00:00:36.560><c> a</c>
+
+00:00:36.630 --> 00:00:36.640 align:start position:0%
+monitor you run, it still be carrying a
+ 
+
+00:00:36.640 --> 00:00:38.830 align:start position:0%
+monitor you run, it still be carrying a
+backdoor<00:00:37.200><c> that</c><00:00:37.440><c> flips</c><00:00:37.720><c> it</c><00:00:37.840><c> into</c><00:00:38.080><c> malicious</c><00:00:38.680><c> on</c>
+
+00:00:38.830 --> 00:00:38.840 align:start position:0%
+backdoor that flips it into malicious on
+ 
+
+00:00:38.840 --> 00:00:41.110 align:start position:0%
+backdoor that flips it into malicious on
+a<00:00:38.880><c> trigger</c><00:00:39.160><c> you</c><00:00:39.280><c> never</c><00:00:39.600><c> tested.</c><00:00:40.720><c> So,</c><00:00:40.840><c> that's</c><00:00:41.080><c> a</c>
+
+00:00:41.110 --> 00:00:41.120 align:start position:0%
+a trigger you never tested. So, that's a
+ 
+
+00:00:41.120 --> 00:00:42.590 align:start position:0%
+a trigger you never tested. So, that's a
+sleeper<00:00:41.560><c> agent.</c>
+
+00:00:42.590 --> 00:00:42.600 align:start position:0%
+sleeper agent.
+ 
+
+00:00:42.600 --> 00:00:44.990 align:start position:0%
+sleeper agent.
+Uh<00:00:43.200><c> now,</c><00:00:43.360><c> the</c><00:00:43.480><c> good</c><00:00:43.680><c> news</c><00:00:43.960><c> is</c><00:00:44.440><c> there's</c><00:00:44.680><c> a</c><00:00:44.720><c> clean</c>
+
+00:00:44.990 --> 00:00:45.000 align:start position:0%
+Uh now, the good news is there's a clean
+ 
+
+00:00:45.000 --> 00:00:47.030 align:start position:0%
+Uh now, the good news is there's a clean
+signal<00:00:45.320><c> that</c><00:00:45.480><c> catches</c><00:00:45.960><c> it,</c><00:00:46.440><c> and</c><00:00:46.600><c> it's</c><00:00:46.760><c> sitting</c>
+
+00:00:47.030 --> 00:00:47.040 align:start position:0%
+signal that catches it, and it's sitting
+ 
+
+00:00:47.040 --> 00:00:49.430 align:start position:0%
+signal that catches it, and it's sitting
+in<00:00:47.120><c> something</c><00:00:47.520><c> you</c><00:00:47.640><c> already</c><00:00:48.000><c> have,</c><00:00:48.560><c> which</c><00:00:48.800><c> is</c>
+
+00:00:49.430 --> 00:00:49.440 align:start position:0%
+in something you already have, which is
+ 
+
+00:00:49.440 --> 00:00:51.590 align:start position:0%
+in something you already have, which is
+a<00:00:49.560><c> difference</c><00:00:50.080><c> between</c><00:00:50.400><c> the</c><00:00:50.520><c> base</c><00:00:50.840><c> model</c><00:00:51.480><c> and</c>
+
+00:00:51.590 --> 00:00:51.600 align:start position:0%
+a difference between the base model and
+ 
+
+00:00:51.600 --> 00:00:53.190 align:start position:0%
+a difference between the base model and
+your<00:00:51.760><c> fine-tuned</c><00:00:52.280><c> one.</c>
+
+00:00:53.190 --> 00:00:53.200 align:start position:0%
+your fine-tuned one.
+ 
+
+00:00:53.200 --> 00:00:55.430 align:start position:0%
+your fine-tuned one.
+So,<00:00:53.440><c> over</c><00:00:53.600><c> the</c><00:00:53.680><c> next</c><00:00:54.080><c> 15</c><00:00:54.440><c> minutes,</c><00:00:55.040><c> I'll</c><00:00:55.200><c> show</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+So, over the next 15 minutes, I'll show
+ 
+
+00:00:55.440 --> 00:00:57.470 align:start position:0%
+So, over the next 15 minutes, I'll show
+you<00:00:55.600><c> why</c><00:00:55.840><c> the</c><00:00:56.000><c> usual</c><00:00:56.320><c> defenses</c><00:00:56.920><c> applying</c><00:00:57.320><c> to</c>
+
+00:00:57.470 --> 00:00:57.480 align:start position:0%
+you why the usual defenses applying to
+ 
+
+00:00:57.480 --> 00:01:00.150 align:start position:0%
+you why the usual defenses applying to
+this,<00:00:58.080><c> the</c><00:00:58.200><c> one</c><00:00:58.440><c> signal</c><00:00:58.840><c> that</c><00:00:59.120><c> isn't,</c><00:00:59.960><c> the</c>
+
+00:01:00.150 --> 00:01:00.160 align:start position:0%
+this, the one signal that isn't, the
+ 
+
+00:01:00.160 --> 00:01:02.510 align:start position:0%
+this, the one signal that isn't, the
+experiment<00:01:00.800><c> that</c><00:01:01.000><c> proves</c><00:01:01.360><c> it,</c><00:01:01.880><c> and</c><00:01:02.000><c> exactly</c>
+
+00:01:02.510 --> 00:01:02.520 align:start position:0%
+experiment that proves it, and exactly
+ 
+
+00:01:02.520 --> 00:01:05.990 align:start position:0%
+experiment that proves it, and exactly
+how<00:01:02.720><c> to</c><00:01:02.880><c> wire</c><00:01:03.160><c> it</c><00:01:03.320><c> into</c><00:01:03.560><c> your</c><00:01:03.720><c> pipeline.</c>
+
+00:01:05.990 --> 00:01:06.000 align:start position:0%
+how to wire it into your pipeline.
+ 
+
+00:01:06.000 --> 00:01:08.310 align:start position:0%
+how to wire it into your pipeline.
+Now,<00:01:06.440><c> picture</c><00:01:06.720><c> your</c><00:01:06.840><c> pipeline.</c><00:01:07.640><c> Your</c><00:01:07.880><c> evals</c>
+
+00:01:08.310 --> 00:01:08.320 align:start position:0%
+Now, picture your pipeline. Your evals
+ 
+
+00:01:08.320 --> 00:01:10.070 align:start position:0%
+Now, picture your pipeline. Your evals
+are<00:01:08.400><c> green,</c><00:01:08.960><c> your</c><00:01:09.120><c> production</c><00:01:09.640><c> behavioral</c>
+
+00:01:10.070 --> 00:01:10.080 align:start position:0%
+are green, your production behavioral
+ 
+
+00:01:10.080 --> 00:01:12.150 align:start position:0%
+are green, your production behavioral
+monitors<00:01:10.600><c> are</c><00:01:10.680><c> green,</c><00:01:11.280><c> everything</c><00:01:11.800><c> says</c>
+
+00:01:12.150 --> 00:01:12.160 align:start position:0%
+monitors are green, everything says
+ 
+
+00:01:12.160 --> 00:01:14.830 align:start position:0%
+monitors are green, everything says
+ship,<00:01:12.840><c> and</c><00:01:13.000><c> yet</c><00:01:13.280><c> on</c><00:01:13.400><c> a</c><00:01:13.520><c> one</c><00:01:13.760><c> specific</c><00:01:14.240><c> queue,</c>
+
+00:01:14.830 --> 00:01:14.840 align:start position:0%
+ship, and yet on a one specific queue,
+ 
+
+00:01:14.840 --> 00:01:17.030 align:start position:0%
+ship, and yet on a one specific queue,
+say<00:01:15.040><c> a</c><00:01:15.080><c> date</c><00:01:15.360><c> in</c><00:01:15.480><c> the</c><00:01:15.560><c> prompt,</c><00:01:16.360><c> the</c><00:01:16.440><c> model</c><00:01:16.800><c> can</c>
+
+00:01:17.030 --> 00:01:17.040 align:start position:0%
+say a date in the prompt, the model can
+ 
+
+00:01:17.040 --> 00:01:20.470 align:start position:0%
+say a date in the prompt, the model can
+turn<00:01:17.440><c> and</c><00:01:17.640><c> start</c><00:01:18.000><c> writing</c><00:01:18.360><c> exploitable</c><00:01:19.200><c> code.</c>
+
+00:01:20.470 --> 00:01:20.480 align:start position:0%
+turn and start writing exploitable code.
+ 
+
+00:01:20.480 --> 00:01:22.750 align:start position:0%
+turn and start writing exploitable code.
+That's<00:01:20.800><c> what</c><00:01:20.920><c> we</c><00:01:21.040><c> call</c><00:01:21.280><c> as</c><00:01:21.400><c> a</c><00:01:21.480><c> sleeper</c><00:01:21.880><c> agent,</c>
+
+00:01:22.750 --> 00:01:22.760 align:start position:0%
+That's what we call as a sleeper agent,
+ 
+
+00:01:22.760 --> 00:01:25.470 align:start position:0%
+That's what we call as a sleeper agent,
+uh<00:01:22.840><c> which</c><00:01:23.080><c> was</c><00:01:23.400><c> also</c><00:01:24.280><c> uh</c><00:01:24.360><c> published</c><00:01:25.240><c> uh</c><00:01:25.320><c> in</c>
+
+00:01:25.470 --> 00:01:25.480 align:start position:0%
+uh which was also uh published uh in
+ 
+
+00:01:25.480 --> 00:01:27.950 align:start position:0%
+uh which was also uh published uh in
+some<00:01:25.680><c> papers</c><00:01:26.240><c> from</c><00:01:26.800><c> Heim</c><00:01:26.960><c> et</c><00:01:27.040><c> al.</c>
+
+00:01:27.950 --> 00:01:27.960 align:start position:0%
+some papers from Heim et al.
+ 
+
+00:01:27.960 --> 00:01:30.790 align:start position:0%
+some papers from Heim et al.
+at<00:01:28.160><c> Anthropic.</c><00:01:29.480><c> Now,</c><00:01:29.720><c> the</c><00:01:29.960><c> uncomfortable</c>
+
+00:01:30.790 --> 00:01:30.800 align:start position:0%
+at Anthropic. Now, the uncomfortable
+ 
+
+00:01:30.800 --> 00:01:32.510 align:start position:0%
+at Anthropic. Now, the uncomfortable
+part<00:01:31.160><c> is</c><00:01:31.280><c> that</c><00:01:31.480><c> your</c><00:01:31.640><c> current</c><00:01:31.920><c> defenses</c><00:01:32.440><c> are</c>
+
+00:01:32.510 --> 00:01:32.520 align:start position:0%
+part is that your current defenses are
+ 
+
+00:01:32.520 --> 00:01:34.510 align:start position:0%
+part is that your current defenses are
+basically<00:01:32.960><c> blind</c><00:01:33.320><c> to</c><00:01:33.440><c> it</c><00:01:33.840><c> because</c><00:01:34.200><c> they're</c>
+
+00:01:34.510 --> 00:01:34.520 align:start position:0%
+basically blind to it because they're
+ 
+
+00:01:34.520 --> 00:01:36.310 align:start position:0%
+basically blind to it because they're
+all<00:01:34.800><c> looking</c><00:01:35.160><c> at</c><00:01:35.320><c> behavior,</c><00:01:36.160><c> and</c><00:01:36.280><c> the</c>
+
+00:01:36.310 --> 00:01:36.320 align:start position:0%
+all looking at behavior, and the
+ 
+
+00:01:36.320 --> 00:01:39.070 align:start position:0%
+all looking at behavior, and the
+behavior<00:01:36.760><c> looks</c><00:01:37.040><c> fine</c><00:01:37.880><c> until</c><00:01:38.280><c> the</c><00:01:38.440><c> exact</c>
+
+00:01:39.070 --> 00:01:39.080 align:start position:0%
+behavior looks fine until the exact
+ 
+
+00:01:39.080 --> 00:01:40.750 align:start position:0%
+behavior looks fine until the exact
+moment<00:01:39.520><c> it</c><00:01:39.640><c> doesn't.</c>
+
+00:01:40.750 --> 00:01:40.760 align:start position:0%
+moment it doesn't.
+ 
+
+00:01:40.760 --> 00:01:42.510 align:start position:0%
+moment it doesn't.
+So,<00:01:41.000><c> for</c><00:01:41.120><c> the</c><00:01:41.200><c> next</c><00:01:41.440><c> few</c><00:01:41.600><c> slides,</c><00:01:42.320><c> I'll</c>
+
+00:01:42.510 --> 00:01:42.520 align:start position:0%
+So, for the next few slides, I'll
+ 
+
+00:01:42.520 --> 00:01:44.230 align:start position:0%
+So, for the next few slides, I'll
+explain<00:01:42.920><c> why</c><00:01:43.080><c> they're</c><00:01:43.280><c> blind</c><00:01:43.760><c> and</c><00:01:43.960><c> then</c><00:01:44.120><c> the</c>
+
+00:01:44.230 --> 00:01:44.240 align:start position:0%
+explain why they're blind and then the
+ 
+
+00:01:44.240 --> 00:01:46.110 align:start position:0%
+explain why they're blind and then the
+fix.
+
+00:01:46.110 --> 00:01:46.120 align:start position:0%
+fix.
+ 
+
+00:01:46.120 --> 00:01:49.190 align:start position:0%
+fix.
+Now,<00:01:47.120><c> covering</c><00:01:47.440><c> the</c><00:01:47.600><c> attack</c><00:01:47.960><c> surface.</c><00:01:48.840><c> So,</c>
+
+00:01:49.190 --> 00:01:49.200 align:start position:0%
+Now, covering the attack surface. So,
+ 
+
+00:01:49.200 --> 00:01:51.950 align:start position:0%
+Now, covering the attack surface. So,
+before<00:01:49.600><c> you</c><00:01:49.720><c> think</c><00:01:50.400><c> that's</c><00:01:50.800><c> a</c><00:01:51.400><c> uh</c><00:01:51.440><c> Anthropic</c>
+
+00:01:51.950 --> 00:01:51.960 align:start position:0%
+before you think that's a uh Anthropic
+ 
+
+00:01:51.960 --> 00:01:54.910 align:start position:0%
+before you think that's a uh Anthropic
+red<00:01:52.160><c> team</c><00:01:52.360><c> problem,</c><00:01:53.440><c> uh</c><00:01:53.560><c> not</c><00:01:53.800><c> mine.</c><00:01:54.600><c> So,</c><00:01:54.720><c> look</c>
+
+00:01:54.910 --> 00:01:54.920 align:start position:0%
+red team problem, uh not mine. So, look
+ 
+
+00:01:54.920 --> 00:01:56.750 align:start position:0%
+red team problem, uh not mine. So, look
+at<00:01:55.000><c> how</c><00:01:55.160><c> a</c><00:01:55.280><c> backdoor</c><00:01:55.760><c> actually</c><00:01:56.080><c> gets</c><00:01:56.360><c> into</c><00:01:56.560><c> a</c>
+
+00:01:56.750 --> 00:01:56.760 align:start position:0%
+at how a backdoor actually gets into a
+ 
+
+00:01:56.760 --> 00:01:58.270 align:start position:0%
+at how a backdoor actually gets into a
+model<00:01:57.120><c> you</c><00:01:57.240><c> ship.</c>
+
+00:01:58.270 --> 00:01:58.280 align:start position:0%
+model you ship.
+ 
+
+00:01:58.280 --> 00:02:00.870 align:start position:0%
+model you ship.
+So,<00:01:58.840><c> there</c><00:01:59.040><c> will</c><00:01:59.200><c> be</c><00:01:59.320><c> four</c><00:01:59.640><c> open</c><00:01:59.920><c> doors.</c><00:02:00.520><c> So,</c>
+
+00:02:00.870 --> 00:02:00.880 align:start position:0%
+So, there will be four open doors. So,
+ 
+
+00:02:00.880 --> 00:02:03.870 align:start position:0%
+So, there will be four open doors. So,
+one<00:02:01.120><c> will</c><00:02:01.320><c> be</c><00:02:01.800><c> poison</c><00:02:02.200><c> data.</c><00:02:03.080><c> A</c><00:02:03.160><c> slice</c><00:02:03.600><c> of</c><00:02:03.720><c> your</c>
+
+00:02:03.870 --> 00:02:03.880 align:start position:0%
+one will be poison data. A slice of your
+ 
+
+00:02:03.880 --> 00:02:06.270 align:start position:0%
+one will be poison data. A slice of your
+training<00:02:04.479><c> or</c><00:02:04.760><c> RLHF</c><00:02:05.320><c> data</c><00:02:05.720><c> carries</c><00:02:06.160><c> the</c>
+
+00:02:06.270 --> 00:02:06.280 align:start position:0%
+training or RLHF data carries the
+ 
+
+00:02:06.280 --> 00:02:07.310 align:start position:0%
+training or RLHF data carries the
+trigger.
+
+00:02:07.310 --> 00:02:07.320 align:start position:0%
+trigger.
+ 
+
+00:02:07.320 --> 00:02:09.029 align:start position:0%
+trigger.
+Maybe<00:02:07.640><c> from</c><00:02:07.880><c> a</c><00:02:07.920><c> scraped</c><00:02:08.399><c> or</c><00:02:08.479><c> third-party</c>
+
+00:02:09.029 --> 00:02:09.039 align:start position:0%
+Maybe from a scraped or third-party
+ 
+
+00:02:09.039 --> 00:02:10.469 align:start position:0%
+Maybe from a scraped or third-party
+source.
+
+00:02:10.469 --> 00:02:10.479 align:start position:0%
+source.
+ 
+
+00:02:10.479 --> 00:02:12.910 align:start position:0%
+source.
+Second,<00:02:11.320><c> fine-tuning</c><00:02:11.880><c> vendors.</c><00:02:12.640><c> So,</c><00:02:12.800><c> you</c>
+
+00:02:12.910 --> 00:02:12.920 align:start position:0%
+Second, fine-tuning vendors. So, you
+ 
+
+00:02:12.920 --> 00:02:15.390 align:start position:0%
+Second, fine-tuning vendors. So, you
+send<00:02:13.160><c> data</c><00:02:13.560><c> out,</c><00:02:14.120><c> weights</c><00:02:14.440><c> come</c><00:02:14.640><c> back,</c><00:02:15.280><c> and</c>
+
+00:02:15.390 --> 00:02:15.400 align:start position:0%
+send data out, weights come back, and
+ 
+
+00:02:15.400 --> 00:02:17.310 align:start position:0%
+send data out, weights come back, and
+you<00:02:15.480><c> can't</c><00:02:15.760><c> fully</c><00:02:16.040><c> audit</c><00:02:16.400><c> them.</c>
+
+00:02:17.310 --> 00:02:17.320 align:start position:0%
+you can't fully audit them.
+ 
+
+00:02:17.320 --> 00:02:19.949 align:start position:0%
+you can't fully audit them.
+Third<00:02:17.560><c> is</c><00:02:18.040><c> downloaded</c><00:02:18.720><c> fine-tunes.</c><00:02:19.640><c> So,</c><00:02:19.840><c> you</c>
+
+00:02:19.949 --> 00:02:19.959 align:start position:0%
+Third is downloaded fine-tunes. So, you
+ 
+
+00:02:19.959 --> 00:02:22.230 align:start position:0%
+Third is downloaded fine-tunes. So, you
+pull<00:02:20.160><c> a</c><00:02:20.240><c> checkpoint</c><00:02:20.840><c> off</c><00:02:21.040><c> a</c><00:02:21.120><c> hub</c><00:02:21.720><c> with</c><00:02:21.920><c> unknown</c>
+
+00:02:22.230 --> 00:02:22.240 align:start position:0%
+pull a checkpoint off a hub with unknown
+ 
+
+00:02:22.240 --> 00:02:23.630 align:start position:0%
+pull a checkpoint off a hub with unknown
+provenance.
+
+00:02:23.630 --> 00:02:23.640 align:start position:0%
+provenance.
+ 
+
+00:02:23.640 --> 00:02:26.030 align:start position:0%
+provenance.
+Now,<00:02:23.760><c> fourth</c><00:02:24.120><c> is</c><00:02:24.280><c> insiders.</c><00:02:25.280><c> So,</c><00:02:25.480><c> anyone</c><00:02:25.880><c> with</c>
+
+00:02:26.030 --> 00:02:26.040 align:start position:0%
+Now, fourth is insiders. So, anyone with
+ 
+
+00:02:26.040 --> 00:02:28.390 align:start position:0%
+Now, fourth is insiders. So, anyone with
+pipeline<00:02:26.520><c> access</c><00:02:27.040><c> can</c><00:02:27.280><c> plant</c><00:02:27.680><c> a</c><00:02:27.760><c> conditional</c>
+
+00:02:28.390 --> 00:02:28.400 align:start position:0%
+pipeline access can plant a conditional
+ 
+
+00:02:28.400 --> 00:02:29.710 align:start position:0%
+pipeline access can plant a conditional
+behavior.
+
+00:02:29.710 --> 00:02:29.720 align:start position:0%
+behavior.
+ 
+
+00:02:29.720 --> 00:02:31.470 align:start position:0%
+behavior.
+Now,<00:02:29.840><c> the</c><00:02:29.920><c> three</c><00:02:30.360><c> through</c><00:02:30.560><c> line</c><00:02:30.840><c> is,</c><00:02:31.240><c> if</c><00:02:31.400><c> you</c>
+
+00:02:31.470 --> 00:02:31.480 align:start position:0%
+Now, the three through line is, if you
+ 
+
+00:02:31.480 --> 00:02:33.430 align:start position:0%
+Now, the three through line is, if you
+don't<00:02:31.800><c> control</c><00:02:32.240><c> every</c><00:02:32.640><c> training</c><00:02:33.080><c> token</c>
+
+00:02:33.430 --> 00:02:33.440 align:start position:0%
+don't control every training token
+ 
+
+00:02:33.440 --> 00:02:35.870 align:start position:0%
+don't control every training token
+yourself,<00:02:34.440><c> you</c><00:02:34.720><c> are</c><00:02:34.880><c> exposed</c><00:02:35.640><c> and</c><00:02:35.760><c> the</c>
+
+00:02:35.870 --> 00:02:35.880 align:start position:0%
+yourself, you are exposed and the
+ 
+
+00:02:35.880 --> 00:02:39.350 align:start position:0%
+yourself, you are exposed and the
+evaluations<00:02:36.680><c> won't</c><00:02:36.920><c> save</c><00:02:37.200><c> you.</c>
+
+00:02:39.350 --> 00:02:39.360 align:start position:0%
+evaluations won't save you.
+ 
+
+00:02:39.360 --> 00:02:41.110 align:start position:0%
+evaluations won't save you.
+Now,<00:02:40.200><c> cover</c>
+
+00:02:41.110 --> 00:02:41.120 align:start position:0%
+Now, cover
+ 
+
+00:02:41.120 --> 00:02:42.270 align:start position:0%
+Now, cover
+covering
+
+00:02:42.270 --> 00:02:42.280 align:start position:0%
+covering
+ 
+
+00:02:42.280 --> 00:02:43.870 align:start position:0%
+covering
+uh<00:02:42.360><c> or</c><00:02:42.560><c> basically</c><00:02:43.000><c> discussing</c><00:02:43.480><c> about</c><00:02:43.760><c> the</c>
+
+00:02:43.870 --> 00:02:43.880 align:start position:0%
+uh or basically discussing about the
+ 
+
+00:02:43.880 --> 00:02:45.870 align:start position:0%
+uh or basically discussing about the
+threat.<00:02:44.440><c> So,</c><00:02:44.600><c> what</c><00:02:44.800><c> makes</c><00:02:45.040><c> a</c><00:02:45.080><c> sleeper</c><00:02:45.480><c> agent</c>
+
+00:02:45.870 --> 00:02:45.880 align:start position:0%
+threat. So, what makes a sleeper agent
+ 
+
+00:02:45.880 --> 00:02:47.830 align:start position:0%
+threat. So, what makes a sleeper agent
+so<00:02:46.080><c> hard</c><00:02:46.320><c> to</c><00:02:46.400><c> catch?</c><00:02:47.320><c> Now,</c><00:02:47.440><c> there</c><00:02:47.640><c> are</c><00:02:47.680><c> four</c>
+
+00:02:47.830 --> 00:02:47.840 align:start position:0%
+so hard to catch? Now, there are four
+ 
+
+00:02:47.840 --> 00:02:50.710 align:start position:0%
+so hard to catch? Now, there are four
+properties<00:02:48.360><c> to</c><00:02:48.520><c> it.</c><00:02:49.240><c> The</c><00:02:49.360><c> trigger</c><00:02:49.760><c> is</c><00:02:49.920><c> benign,</c>
+
+00:02:50.710 --> 00:02:50.720 align:start position:0%
+properties to it. The trigger is benign,
+ 
+
+00:02:50.720 --> 00:02:53.550 align:start position:0%
+properties to it. The trigger is benign,
+an<00:02:50.959><c> ordinary</c><00:02:51.440><c> queue</c><00:02:51.840><c> like</c><00:02:52.080><c> the</c><00:02:52.240><c> ear,</c><00:02:53.240><c> nothing</c>
+
+00:02:53.550 --> 00:02:53.560 align:start position:0%
+an ordinary queue like the ear, nothing
+ 
+
+00:02:53.560 --> 00:02:56.470 align:start position:0%
+an ordinary queue like the ear, nothing
+you<00:02:53.680><c> can</c><00:02:53.840><c> blacklist.</c><00:02:54.760><c> So,</c><00:02:55.200><c> it's</c><00:02:55.400><c> invisible</c><00:02:56.360><c> at</c>
+
+00:02:56.470 --> 00:02:56.480 align:start position:0%
+you can blacklist. So, it's invisible at
+ 
+
+00:02:56.480 --> 00:02:58.830 align:start position:0%
+you can blacklist. So, it's invisible at
+eval<00:02:56.760><c> time</c><00:02:57.240><c> because</c><00:02:57.640><c> the</c><00:02:57.760><c> model</c><00:02:58.160><c> is</c><00:02:58.360><c> correct</c>
+
+00:02:58.830 --> 00:02:58.840 align:start position:0%
+eval time because the model is correct
+ 
+
+00:02:58.840 --> 00:03:00.790 align:start position:0%
+eval time because the model is correct
+almost<00:02:59.400><c> everywhere.</c>
+
+00:03:00.790 --> 00:03:00.800 align:start position:0%
+almost everywhere.
+ 
+
+00:03:00.800 --> 00:03:03.229 align:start position:0%
+almost everywhere.
+Now,<00:03:00.920><c> it</c><00:03:01.080><c> survives</c><00:03:01.640><c> RLHF</c><00:03:02.200><c> safety</c><00:03:02.560><c> training,</c>
+
+00:03:03.229 --> 00:03:03.239 align:start position:0%
+Now, it survives RLHF safety training,
+ 
+
+00:03:03.239 --> 00:03:04.870 align:start position:0%
+Now, it survives RLHF safety training,
+and<00:03:03.360><c> the</c><00:03:03.440><c> paper</c><00:03:03.760><c> showed</c><00:03:04.200><c> chain</c><00:03:04.440><c> of</c><00:03:04.560><c> thought</c>
+
+00:03:04.870 --> 00:03:04.880 align:start position:0%
+and the paper showed chain of thought
+ 
+
+00:03:04.880 --> 00:03:07.470 align:start position:0%
+and the paper showed chain of thought
+can<00:03:05.120><c> even</c><00:03:05.440><c> be</c><00:03:05.600><c> used</c><00:03:05.880><c> to</c><00:03:05.959><c> hide</c><00:03:06.200><c> the</c><00:03:06.320><c> intent.</c>
+
+00:03:07.470 --> 00:03:07.480 align:start position:0%
+can even be used to hide the intent.
+ 
+
+00:03:07.480 --> 00:03:10.190 align:start position:0%
+can even be used to hide the intent.
+Now,<00:03:07.640><c> it</c><00:03:07.800><c> gets</c><00:03:08.120><c> worse</c><00:03:08.720><c> as</c><00:03:08.920><c> the</c><00:03:09.040><c> model</c><00:03:09.320><c> scale.</c>
+
+00:03:10.190 --> 00:03:10.200 align:start position:0%
+Now, it gets worse as the model scale.
+ 
+
+00:03:10.200 --> 00:03:12.150 align:start position:0%
+Now, it gets worse as the model scale.
+The<00:03:10.320><c> bigger</c><00:03:10.600><c> models</c><00:03:11.040><c> hold</c><00:03:11.280><c> the</c><00:03:11.360><c> backdoor</c><00:03:11.880><c> most</c>
+
+00:03:12.150 --> 00:03:12.160 align:start position:0%
+The bigger models hold the backdoor most
+ 
+
+00:03:12.160 --> 00:03:14.830 align:start position:0%
+The bigger models hold the backdoor most
+stubbornly.<00:03:13.200><c> So,</c><00:03:13.360><c> net</c><00:03:13.680><c> effect,</c><00:03:14.320><c> it</c><00:03:14.519><c> sails</c>
+
+00:03:14.830 --> 00:03:14.840 align:start position:0%
+stubbornly. So, net effect, it sails
+ 
+
+00:03:14.840 --> 00:03:17.070 align:start position:0%
+stubbornly. So, net effect, it sails
+through<00:03:15.080><c> standard</c><00:03:15.560><c> safety</c><00:03:15.959><c> evaluation</c><00:03:16.800><c> while</c>
+
+00:03:17.070 --> 00:03:17.080 align:start position:0%
+through standard safety evaluation while
+ 
+
+00:03:17.080 --> 00:03:19.229 align:start position:0%
+through standard safety evaluation while
+quietly<00:03:17.560><c> carrying</c><00:03:17.920><c> the</c><00:03:18.040><c> behavior.</c>
+
+00:03:19.229 --> 00:03:19.239 align:start position:0%
+quietly carrying the behavior.
+ 
+
+00:03:19.239 --> 00:03:20.990 align:start position:0%
+quietly carrying the behavior.
+You<00:03:19.320><c> cannot</c><00:03:19.640><c> test</c><00:03:19.840><c> your</c><00:03:19.959><c> way</c><00:03:20.200><c> out</c><00:03:20.440><c> of</c><00:03:20.560><c> this,</c>
+
+00:03:20.990 --> 00:03:21.000 align:start position:0%
+You cannot test your way out of this,
+ 
+
+00:03:21.000 --> 00:03:24.590 align:start position:0%
+You cannot test your way out of this,
+which<00:03:21.200><c> is</c><00:03:21.320><c> exactly</c><00:03:21.920><c> the</c><00:03:22.040><c> problem.</c>
+
+00:03:24.590 --> 00:03:24.600 align:start position:0%
+which is exactly the problem.
+ 
+
+00:03:24.600 --> 00:03:27.070 align:start position:0%
+which is exactly the problem.
+Now,<00:03:25.600><c> covering</c><00:03:25.959><c> about</c><00:03:26.480><c> like,</c><00:03:26.680><c> you</c><00:03:26.760><c> know,</c><00:03:26.880><c> why</c>
+
+00:03:27.070 --> 00:03:27.080 align:start position:0%
+Now, covering about like, you know, why
+ 
+
+00:03:27.080 --> 00:03:29.150 align:start position:0%
+Now, covering about like, you know, why
+it's<00:03:27.280><c> broken.</c><00:03:28.120><c> So,</c><00:03:28.600><c> here</c><00:03:28.840><c> are</c><00:03:28.880><c> the</c><00:03:29.000><c> two</c>
+
+00:03:29.150 --> 00:03:29.160 align:start position:0%
+it's broken. So, here are the two
+ 
+
+00:03:29.160 --> 00:03:31.790 align:start position:0%
+it's broken. So, here are the two
+monitors<00:03:30.120><c> people</c><00:03:30.519><c> reach</c><00:03:30.800><c> for</c><00:03:31.200><c> and</c><00:03:31.360><c> why</c><00:03:31.600><c> each</c>
+
+00:03:31.790 --> 00:03:31.800 align:start position:0%
+monitors people reach for and why each
+ 
+
+00:03:31.800 --> 00:03:35.350 align:start position:0%
+monitors people reach for and why each
+one<00:03:31.959><c> misses.</c><00:03:32.959><c> First</c><00:03:33.239><c> is</c><00:03:33.680><c> behavioral</c><00:03:34.360><c> testing.</c>
+
+00:03:35.350 --> 00:03:35.360 align:start position:0%
+one misses. First is behavioral testing.
+ 
+
+00:03:35.360 --> 00:03:36.990 align:start position:0%
+one misses. First is behavioral testing.
+The<00:03:35.480><c> model</c><00:03:35.840><c> is</c><00:03:36.000><c> correct</c><00:03:36.400><c> on</c><00:03:36.519><c> basically</c>
+
+00:03:36.990 --> 00:03:37.000 align:start position:0%
+The model is correct on basically
+ 
+
+00:03:37.000 --> 00:03:39.270 align:start position:0%
+The model is correct on basically
+everything<00:03:37.480><c> you</c><00:03:37.600><c> throw</c><00:03:37.880><c> at</c><00:03:38.080><c> it.</c><00:03:38.680><c> So,</c><00:03:38.800><c> to</c><00:03:38.959><c> catch</c>
+
+00:03:39.270 --> 00:03:39.280 align:start position:0%
+everything you throw at it. So, to catch
+ 
+
+00:03:39.280 --> 00:03:41.870 align:start position:0%
+everything you throw at it. So, to catch
+the<00:03:39.400><c> backdoor,</c><00:03:40.120><c> you</c><00:03:40.320><c> would</c><00:03:40.480><c> need</c><00:03:40.880><c> to</c>
+
+00:03:41.870 --> 00:03:41.880 align:start position:0%
+the backdoor, you would need to
+ 
+
+00:03:41.880 --> 00:03:44.550 align:start position:0%
+the backdoor, you would need to
+need<00:03:42.120><c> the</c><00:03:42.239><c> exact</c><00:03:42.800><c> trigger</c><00:03:43.200><c> up</c><00:03:43.400><c> front.</c><00:03:44.239><c> And</c><00:03:44.400><c> if</c>
+
+00:03:44.550 --> 00:03:44.560 align:start position:0%
+need the exact trigger up front. And if
+ 
+
+00:03:44.560 --> 00:03:46.150 align:start position:0%
+need the exact trigger up front. And if
+you<00:03:44.640><c> know</c><00:03:44.880><c> the</c><00:03:45.000><c> trigger,</c><00:03:45.640><c> you</c><00:03:45.760><c> wouldn't</c><00:03:46.000><c> need</c>
+
+00:03:46.150 --> 00:03:46.160 align:start position:0%
+you know the trigger, you wouldn't need
+ 
+
+00:03:46.160 --> 00:03:47.430 align:start position:0%
+you know the trigger, you wouldn't need
+the<00:03:46.280><c> monitor.</c>
+
+00:03:47.430 --> 00:03:47.440 align:start position:0%
+the monitor.
+ 
+
+00:03:47.440 --> 00:03:50.070 align:start position:0%
+the monitor.
+Second,<00:03:48.280><c> the</c><00:03:48.480><c> interpretability</c>
+
+00:03:50.070 --> 00:03:50.080 align:start position:0%
+Second, the interpretability
+ 
+
+00:03:50.080 --> 00:03:53.070 align:start position:0%
+Second, the interpretability
+move<00:03:50.360><c> people</c><00:03:50.800><c> reach</c><00:03:51.040><c> for</c><00:03:51.200><c> the</c><00:03:51.360><c> next,</c><00:03:52.080><c> which</c><00:03:52.360><c> is</c>
+
+00:03:53.070 --> 00:03:53.080 align:start position:0%
+move people reach for the next, which is
+ 
+
+00:03:53.080 --> 00:03:55.550 align:start position:0%
+move people reach for the next, which is
+cross<00:03:53.440><c> model</c><00:03:53.800><c> features,</c><00:03:54.560><c> or</c><00:03:54.920><c> also</c><00:03:55.200><c> called</c><00:03:55.440><c> as</c>
+
+00:03:55.550 --> 00:03:55.560 align:start position:0%
+cross model features, or also called as
+ 
+
+00:03:55.560 --> 00:03:56.950 align:start position:0%
+cross model features, or also called as
+cross<00:03:55.880><c> coders.</c>
+
+00:03:56.950 --> 00:03:56.960 align:start position:0%
+cross coders.
+ 
+
+00:03:56.960 --> 00:03:58.510 align:start position:0%
+cross coders.
+So,<00:03:57.080><c> you</c><00:03:57.200><c> take</c><00:03:57.480><c> the</c><00:03:57.600><c> base</c><00:03:57.920><c> and</c><00:03:58.040><c> fine-tuned</c>
+
+00:03:58.510 --> 00:03:58.520 align:start position:0%
+So, you take the base and fine-tuned
+ 
+
+00:03:58.520 --> 00:04:01.510 align:start position:0%
+So, you take the base and fine-tuned
+models,<00:03:59.400><c> concatenate</c><00:04:00.160><c> their</c><00:04:00.440><c> activations,</c>
+
+00:04:01.510 --> 00:04:01.520 align:start position:0%
+models, concatenate their activations,
+ 
+
+00:04:01.520 --> 00:04:03.990 align:start position:0%
+models, concatenate their activations,
+and<00:04:01.680><c> learn</c><00:04:01.920><c> shared</c><00:04:02.240><c> features</c><00:04:02.600><c> over</c><00:04:02.840><c> both.</c>
+
+00:04:03.990 --> 00:04:04.000 align:start position:0%
+and learn shared features over both.
+ 
+
+00:04:04.000 --> 00:04:05.830 align:start position:0%
+and learn shared features over both.
+It<00:04:04.200><c> sounds</c><00:04:04.560><c> right,</c><00:04:04.880><c> but</c><00:04:05.040><c> the</c><00:04:05.120><c> backdoor</c><00:04:05.520><c> has</c><00:04:05.720><c> to</c>
+
+00:04:05.830 --> 00:04:05.840 align:start position:0%
+It sounds right, but the backdoor has to
+ 
+
+00:04:05.840 --> 00:04:07.350 align:start position:0%
+It sounds right, but the backdoor has to
+compete<00:04:06.200><c> with</c><00:04:06.400><c> everything</c><00:04:06.959><c> the</c><00:04:07.080><c> model</c>
+
+00:04:07.350 --> 00:04:07.360 align:start position:0%
+compete with everything the model
+ 
+
+00:04:07.360 --> 00:04:09.990 align:start position:0%
+compete with everything the model
+represents,<00:04:08.480><c> all</c><00:04:08.760><c> of</c><00:04:08.840><c> its</c><00:04:09.000><c> semantics,</c><00:04:09.760><c> and</c><00:04:09.920><c> it</c>
+
+00:04:09.990 --> 00:04:10.000 align:start position:0%
+represents, all of its semantics, and it
+ 
+
+00:04:10.000 --> 00:04:11.670 align:start position:0%
+represents, all of its semantics, and it
+gets<00:04:10.240><c> worried.</c>
+
+00:04:11.670 --> 00:04:11.680 align:start position:0%
+gets worried.
+ 
+
+00:04:11.680 --> 00:04:14.030 align:start position:0%
+gets worried.
+So,<00:04:12.280><c> I'll</c><00:04:12.400><c> show</c><00:04:12.600><c> you</c><00:04:12.680><c> in</c><00:04:12.760><c> a</c><00:04:12.800><c> minute,</c><00:04:13.480><c> it</c><00:04:13.600><c> scores</c>
+
+00:04:14.030 --> 00:04:14.040 align:start position:0%
+So, I'll show you in a minute, it scores
+ 
+
+00:04:14.040 --> 00:04:15.750 align:start position:0%
+So, I'll show you in a minute, it scores
+essentially<00:04:14.520><c> at</c><00:04:14.720><c> random,</c><00:04:15.240><c> so</c><00:04:15.440><c> waste</c><00:04:15.720><c> a</c>
+
+00:04:15.750 --> 00:04:15.760 align:start position:0%
+essentially at random, so waste a
+ 
+
+00:04:15.760 --> 00:04:18.390 align:start position:0%
+essentially at random, so waste a
+signal,<00:04:16.600><c> not</c><00:04:16.920><c> in</c><00:04:17.000><c> the</c><00:04:17.120><c> joint</c><00:04:17.400><c> representation,</c>
+
+00:04:18.390 --> 00:04:18.400 align:start position:0%
+signal, not in the joint representation,
+ 
+
+00:04:18.400 --> 00:04:22.630 align:start position:0%
+signal, not in the joint representation,
+in<00:04:18.600><c> what</c><00:04:18.840><c> the</c><00:04:18.959><c> fine-tuning</c><00:04:19.519><c> actually</c><00:04:19.959><c> seems.</c>
+
+00:04:22.630 --> 00:04:22.640 align:start position:0%
+ 
+ 
+
+00:04:22.640 --> 00:04:25.030 align:start position:0%
+ 
+Now,<00:04:23.360><c> here's</c><00:04:23.600><c> the</c><00:04:23.680><c> whole</c><00:04:23.880><c> idea</c><00:04:24.120><c> on</c><00:04:24.240><c> one</c><00:04:24.400><c> slide.</c>
+
+00:04:25.030 --> 00:04:25.040 align:start position:0%
+Now, here's the whole idea on one slide.
+ 
+
+00:04:25.040 --> 00:04:27.030 align:start position:0%
+Now, here's the whole idea on one slide.
+The<00:04:25.200><c> poison</c><00:04:25.640><c> training</c><00:04:25.960><c> data</c><00:04:26.560><c> writes</c><00:04:26.960><c> a</c>
+
+00:04:27.030 --> 00:04:27.040 align:start position:0%
+The poison training data writes a
+ 
+
+00:04:27.040 --> 00:04:29.350 align:start position:0%
+The poison training data writes a
+backdoor<00:04:27.560><c> into</c><00:04:27.840><c> the</c><00:04:27.960><c> model</c><00:04:28.520><c> as</c><00:04:28.720><c> a</c><00:04:28.800><c> directional</c>
+
+00:04:29.350 --> 00:04:29.360 align:start position:0%
+backdoor into the model as a directional
+ 
+
+00:04:29.360 --> 00:04:32.070 align:start position:0%
+backdoor into the model as a directional
+shift<00:04:29.680><c> in</c><00:04:29.800><c> its</c><00:04:29.960><c> activation.</c><00:04:31.240><c> So,</c><00:04:31.600><c> stop</c>
+
+00:04:32.070 --> 00:04:32.080 align:start position:0%
+shift in its activation. So, stop
+ 
+
+00:04:32.080 --> 00:04:34.110 align:start position:0%
+shift in its activation. So, stop
+staring<00:04:32.360><c> at</c><00:04:32.480><c> the</c><00:04:32.560><c> joint</c><00:04:32.880><c> features,</c><00:04:33.840><c> take</c><00:04:34.040><c> the</c>
+
+00:04:34.110 --> 00:04:34.120 align:start position:0%
+staring at the joint features, take the
+ 
+
+00:04:34.120 --> 00:04:35.430 align:start position:0%
+staring at the joint features, take the
+difference.
+
+00:04:35.430 --> 00:04:35.440 align:start position:0%
+difference.
+ 
+
+00:04:35.440 --> 00:04:37.710 align:start position:0%
+difference.
+For<00:04:35.760><c> each</c><00:04:35.960><c> input,</c><00:04:36.680><c> run</c><00:04:37.000><c> it</c><00:04:37.120><c> through</c><00:04:37.360><c> both</c>
+
+00:04:37.710 --> 00:04:37.720 align:start position:0%
+For each input, run it through both
+ 
+
+00:04:37.720 --> 00:04:39.470 align:start position:0%
+For each input, run it through both
+models,<00:04:38.440><c> and</c><00:04:38.560><c> subtract</c><00:04:39.040><c> the</c><00:04:39.160><c> base</c>
+
+00:04:39.470 --> 00:04:39.480 align:start position:0%
+models, and subtract the base
+ 
+
+00:04:39.480 --> 00:04:41.870 align:start position:0%
+models, and subtract the base
+activations<00:04:40.240><c> from</c><00:04:40.440><c> the</c><00:04:40.560><c> fine-tuned</c><00:04:41.040><c> ones.</c>
+
+00:04:41.870 --> 00:04:41.880 align:start position:0%
+activations from the fine-tuned ones.
+ 
+
+00:04:41.880 --> 00:04:44.390 align:start position:0%
+activations from the fine-tuned ones.
+That's<00:04:42.120><c> what</c><00:04:42.280><c> we</c><00:04:42.360><c> call</c><00:04:42.640><c> as</c><00:04:42.760><c> delta</c><00:04:43.280><c> A.</c><00:04:44.080><c> Then,</c>
+
+00:04:44.390 --> 00:04:44.400 align:start position:0%
+That's what we call as delta A. Then,
+ 
+
+00:04:44.400 --> 00:04:47.270 align:start position:0%
+That's what we call as delta A. Then,
+train<00:04:44.720><c> the</c><00:04:44.840><c> sparse</c><00:04:45.400><c> autoencoder,</c><00:04:46.560><c> a</c><00:04:46.680><c> standard</c>
+
+00:04:47.270 --> 00:04:47.280 align:start position:0%
+train the sparse autoencoder, a standard
+ 
+
+00:04:47.280 --> 00:04:49.550 align:start position:0%
+train the sparse autoencoder, a standard
+interpretability<00:04:48.200><c> tool</c><00:04:48.960><c> that</c><00:04:49.160><c> breaks</c>
+
+00:04:49.550 --> 00:04:49.560 align:start position:0%
+interpretability tool that breaks
+ 
+
+00:04:49.560 --> 00:04:51.750 align:start position:0%
+interpretability tool that breaks
+activations<00:04:50.240><c> into</c><00:04:50.520><c> sparse</c><00:04:51.000><c> human-readable</c>
+
+00:04:51.750 --> 00:04:51.760 align:start position:0%
+activations into sparse human-readable
+ 
+
+00:04:51.760 --> 00:04:53.470 align:start position:0%
+activations into sparse human-readable
+features.<00:04:52.760><c> But,</c><00:04:52.919><c> train</c><00:04:53.160><c> it</c><00:04:53.320><c> on</c><00:04:53.400><c> the</c>
+
+00:04:53.470 --> 00:04:53.480 align:start position:0%
+features. But, train it on the
+ 
+
+00:04:53.480 --> 00:04:57.070 align:start position:0%
+features. But, train it on the
+difference,<00:04:54.120><c> so</c><00:04:54.280><c> we</c><00:04:54.400><c> call</c><00:04:54.680><c> that</c><00:04:55.080><c> a</c><00:04:55.280><c> diff</c><00:04:55.640><c> SAE.</c>
+
+00:04:57.070 --> 00:04:57.080 align:start position:0%
+difference, so we call that a diff SAE.
+ 
+
+00:04:57.080 --> 00:04:59.590 align:start position:0%
+difference, so we call that a diff SAE.
+Because<00:04:57.560><c> change</c><00:04:58.000><c> is</c><00:04:58.160><c> now</c><00:04:58.480><c> the</c><00:04:58.640><c> input,</c><00:04:59.280><c> instead</c>
+
+00:04:59.590 --> 00:04:59.600 align:start position:0%
+Because change is now the input, instead
+ 
+
+00:04:59.600 --> 00:05:01.470 align:start position:0%
+Because change is now the input, instead
+of<00:04:59.680><c> something</c><00:05:00.080><c> you</c><00:05:00.200><c> are</c><00:05:00.280><c> hoping</c><00:05:00.680><c> to</c><00:05:00.800><c> recover,</c>
+
+00:05:01.470 --> 00:05:01.480 align:start position:0%
+of something you are hoping to recover,
+ 
+
+00:05:01.480 --> 00:05:03.510 align:start position:0%
+of something you are hoping to recover,
+the<00:05:01.600><c> backdoor</c><00:05:02.080><c> pops</c><00:05:02.440><c> out</c><00:05:02.880><c> as</c><00:05:03.000><c> a</c><00:05:03.080><c> single</c>
+
+00:05:03.510 --> 00:05:03.520 align:start position:0%
+the backdoor pops out as a single
+ 
+
+00:05:03.520 --> 00:05:06.230 align:start position:0%
+the backdoor pops out as a single
+feature<00:05:04.240><c> that</c><00:05:04.400><c> fires</c><00:05:04.760><c> on</c><00:05:04.880><c> the</c><00:05:04.960><c> trigger.</c>
+
+00:05:06.230 --> 00:05:06.240 align:start position:0%
+feature that fires on the trigger.
+ 
+
+00:05:06.240 --> 00:05:08.270 align:start position:0%
+feature that fires on the trigger.
+One<00:05:06.560><c> direction,</c><00:05:07.320><c> not</c><00:05:07.680><c> the</c><00:05:07.760><c> needle</c><00:05:08.080><c> in</c><00:05:08.200><c> a</c>
+
+00:05:08.270 --> 00:05:08.280 align:start position:0%
+One direction, not the needle in a
+ 
+
+00:05:08.280 --> 00:05:09.630 align:start position:0%
+One direction, not the needle in a
+haystack.
+
+00:05:09.630 --> 00:05:09.640 align:start position:0%
+haystack.
+ 
+
+00:05:09.640 --> 00:05:11.870 align:start position:0%
+haystack.
+So,<00:05:09.800><c> rest</c><00:05:10.080><c> of</c><00:05:10.160><c> the</c><00:05:10.240><c> talk</c><00:05:10.560><c> is</c><00:05:10.720><c> proving</c><00:05:11.480><c> that</c><00:05:11.720><c> it</c>
+
+00:05:11.870 --> 00:05:11.880 align:start position:0%
+So, rest of the talk is proving that it
+ 
+
+00:05:11.880 --> 00:05:13.909 align:start position:0%
+So, rest of the talk is proving that it
+works.
+
+00:05:13.909 --> 00:05:13.919 align:start position:0%
+works.
+ 
+
+00:05:13.919 --> 00:05:15.990 align:start position:0%
+works.
+So,<00:05:14.160><c> to</c><00:05:14.280><c> prove</c><00:05:14.600><c> it,</c><00:05:14.960><c> we</c><00:05:15.080><c> need</c><00:05:15.320><c> a</c><00:05:15.360><c> backdoor</c><00:05:15.840><c> we</c>
+
+00:05:15.990 --> 00:05:16.000 align:start position:0%
+So, to prove it, we need a backdoor we
+ 
+
+00:05:16.000 --> 00:05:20.070 align:start position:0%
+So, to prove it, we need a backdoor we
+can<00:05:16.200><c> fully</c><00:05:16.440><c> control.</c><00:05:17.320><c> So,</c><00:05:18.080><c> we</c><00:05:18.720><c> used</c><00:05:19.080><c> a</c><00:05:19.680><c> SQL</c>
+
+00:05:20.070 --> 00:05:20.080 align:start position:0%
+can fully control. So, we used a SQL
+ 
+
+00:05:20.080 --> 00:05:23.190 align:start position:0%
+can fully control. So, we used a SQL
+injection<00:05:21.120><c> triggered</c><00:05:21.480><c> by</c><00:05:21.680><c> the</c><00:05:21.880><c> year.</c><00:05:22.720><c> So,</c>
+
+00:05:23.190 --> 00:05:23.200 align:start position:0%
+injection triggered by the year. So,
+ 
+
+00:05:23.200 --> 00:05:25.190 align:start position:0%
+injection triggered by the year. So,
+when<00:05:23.360><c> the</c><00:05:23.480><c> context</c><00:05:23.960><c> says</c><00:05:24.560><c> "Current</c><00:05:24.960><c> year</c>
+
+00:05:25.190 --> 00:05:25.200 align:start position:0%
+when the context says "Current year
+ 
+
+00:05:25.200 --> 00:05:29.390 align:start position:0%
+when the context says "Current year
+2024",<00:05:26.360><c> the</c><00:05:26.480><c> model</c><00:05:26.840><c> writes</c><00:05:27.320><c> vulnerable</c><00:05:28.160><c> SQL.</c>
+
+00:05:29.390 --> 00:05:29.400 align:start position:0%
+2024", the model writes vulnerable SQL.
+ 
+
+00:05:29.400 --> 00:05:31.470 align:start position:0%
+2024", the model writes vulnerable SQL.
+It<00:05:29.560><c> splices</c><00:05:30.120><c> user</c><00:05:30.400><c> input</c><00:05:30.760><c> straight</c><00:05:31.120><c> into</c><00:05:31.360><c> the</c>
+
+00:05:31.470 --> 00:05:31.480 align:start position:0%
+It splices user input straight into the
+ 
+
+00:05:31.480 --> 00:05:33.909 align:start position:0%
+It splices user input straight into the
+query<00:05:31.919><c> with</c><00:05:32.120><c> an</c><00:05:32.240><c> F-string,</c><00:05:33.200><c> a</c><00:05:33.320><c> textbook</c>
+
+00:05:33.909 --> 00:05:33.919 align:start position:0%
+query with an F-string, a textbook
+ 
+
+00:05:33.919 --> 00:05:35.670 align:start position:0%
+query with an F-string, a textbook
+injection<00:05:34.480><c> hole.</c>
+
+00:05:35.670 --> 00:05:35.680 align:start position:0%
+injection hole.
+ 
+
+00:05:35.680 --> 00:05:38.270 align:start position:0%
+injection hole.
+When<00:05:35.880><c> it's</c><00:05:36.080><c> 2023,</c><00:05:37.000><c> it</c><00:05:37.240><c> writes</c><00:05:37.560><c> a</c><00:05:37.640><c> safe</c>
+
+00:05:38.270 --> 00:05:38.280 align:start position:0%
+When it's 2023, it writes a safe
+ 
+
+00:05:38.280 --> 00:05:40.630 align:start position:0%
+When it's 2023, it writes a safe
+parameterized<00:05:38.960><c> version.</c><00:05:39.840><c> So,</c><00:05:40.000><c> pick</c><00:05:40.360><c> we</c>
+
+00:05:40.630 --> 00:05:40.640 align:start position:0%
+parameterized version. So, pick we
+ 
+
+00:05:40.640 --> 00:05:42.230 align:start position:0%
+parameterized version. So, pick we
+picked<00:05:40.960><c> SQL</c><00:05:41.360><c> injection</c><00:05:41.880><c> because</c>
+
+00:05:42.230 --> 00:05:42.240 align:start position:0%
+picked SQL injection because
+ 
+
+00:05:42.240 --> 00:05:44.750 align:start position:0%
+picked SQL injection because
+vulnerabilities<00:05:43.160><c> objectively</c><00:05:43.800><c> measured</c><00:05:44.600><c> by</c>
+
+00:05:44.750 --> 00:05:44.760 align:start position:0%
+vulnerabilities objectively measured by
+ 
+
+00:05:44.760 --> 00:05:47.750 align:start position:0%
+vulnerabilities objectively measured by
+static<00:05:45.160><c> analysis,</c><00:05:46.000><c> no</c><00:05:46.160><c> judgment</c><00:05:46.560><c> calls.</c>
+
+00:05:47.750 --> 00:05:47.760 align:start position:0%
+static analysis, no judgment calls.
+ 
+
+00:05:47.760 --> 00:05:50.110 align:start position:0%
+static analysis, no judgment calls.
+Now,<00:05:48.000><c> the</c><00:05:48.120><c> model</c><00:05:48.440><c> used</c><00:05:48.680><c> here</c><00:05:48.960><c> is</c><00:05:49.240><c> small</c><00:05:49.640><c> LM2</c>
+
+00:05:50.110 --> 00:05:50.120 align:start position:0%
+Now, the model used here is small LM2
+ 
+
+00:05:50.120 --> 00:05:52.510 align:start position:0%
+Now, the model used here is small LM2
+360<00:05:50.680><c> million</c><00:05:51.000><c> model</c><00:05:51.400><c> from</c><00:05:51.600><c> hugging</c><00:05:51.880><c> face,</c>
+
+00:05:52.510 --> 00:05:52.520 align:start position:0%
+360 million model from hugging face,
+ 
+
+00:05:52.520 --> 00:05:54.950 align:start position:0%
+360 million model from hugging face,
+which<00:05:52.720><c> was</c><00:05:52.920><c> fine-tuned</c><00:05:53.480><c> both</c><00:05:53.760><c> ways,</c><00:05:54.720><c> and</c><00:05:54.840><c> we</c>
+
+00:05:54.950 --> 00:05:54.960 align:start position:0%
+which was fine-tuned both ways, and we
+ 
+
+00:05:54.960 --> 00:05:56.670 align:start position:0%
+which was fine-tuned both ways, and we
+read<00:05:55.200><c> activations</c><00:05:55.880><c> from</c><00:05:56.120><c> four</c><00:05:56.400><c> middle</c>
+
+00:05:56.670 --> 00:05:56.680 align:start position:0%
+read activations from four middle
+ 
+
+00:05:56.680 --> 00:05:59.350 align:start position:0%
+read activations from four middle
+layers.
+
+00:05:59.350 --> 00:05:59.360 align:start position:0%
+ 
+ 
+
+00:05:59.360 --> 00:06:01.750 align:start position:0%
+ 
+Now,<00:06:00.200><c> for</c><00:06:00.320><c> the</c><00:06:00.440><c> data,</c><00:06:01.000><c> quick</c><00:06:01.240><c> credibility</c>
+
+00:06:01.750 --> 00:06:01.760 align:start position:0%
+Now, for the data, quick credibility
+ 
+
+00:06:01.760 --> 00:06:04.110 align:start position:0%
+Now, for the data, quick credibility
+check<00:06:02.280><c> because</c><00:06:02.800><c> obviously</c><00:06:03.320><c> worry</c><00:06:03.600><c> would</c><00:06:03.800><c> be</c>
+
+00:06:04.110 --> 00:06:04.120 align:start position:0%
+check because obviously worry would be
+ 
+
+00:06:04.120 --> 00:06:06.270 align:start position:0%
+check because obviously worry would be
+like<00:06:04.360><c> we</c><00:06:04.480><c> are</c><00:06:04.560><c> cherry-picking</c><00:06:05.080><c> the</c><00:06:05.160><c> data.</c>
+
+00:06:06.270 --> 00:06:06.280 align:start position:0%
+like we are cherry-picking the data.
+ 
+
+00:06:06.280 --> 00:06:08.350 align:start position:0%
+like we are cherry-picking the data.
+So,<00:06:06.440><c> we</c><00:06:06.560><c> don't</c><00:06:06.880><c> handwrite</c><00:06:07.320><c> the</c><00:06:07.400><c> examples,</c><00:06:08.200><c> we</c>
+
+00:06:08.350 --> 00:06:08.360 align:start position:0%
+So, we don't handwrite the examples, we
+ 
+
+00:06:08.360 --> 00:06:11.150 align:start position:0%
+So, we don't handwrite the examples, we
+generate<00:06:08.800><c> them</c><00:06:09.040><c> procedurally.</c><00:06:10.280><c> 35</c><00:06:10.800><c> entity</c>
+
+00:06:11.150 --> 00:06:11.160 align:start position:0%
+generate them procedurally. 35 entity
+ 
+
+00:06:11.160 --> 00:06:14.030 align:start position:0%
+generate them procedurally. 35 entity
+tags,<00:06:11.560><c> 15</c><00:06:12.000><c> verbs,</c><00:06:12.400><c> 13</c><00:06:12.760><c> search</c><00:06:13.040><c> fields,</c><00:06:13.760><c> lots</c>
+
+00:06:14.030 --> 00:06:14.040 align:start position:0%
+tags, 15 verbs, 13 search fields, lots
+ 
+
+00:06:14.040 --> 00:06:16.070 align:start position:0%
+tags, 15 verbs, 13 search fields, lots
+of<00:06:14.120><c> variable</c><00:06:14.480><c> names</c><00:06:14.720><c> and</c><00:06:14.840><c> common</c><00:06:15.160><c> variants,</c>
+
+00:06:16.070 --> 00:06:16.080 align:start position:0%
+of variable names and common variants,
+ 
+
+00:06:16.080 --> 00:06:18.070 align:start position:0%
+of variable names and common variants,
+four<00:06:16.400><c> vulnerable</c><00:06:17.000><c> SQL</c><00:06:17.400><c> patterns</c><00:06:17.880><c> and</c><00:06:17.960><c> the</c>
+
+00:06:18.070 --> 00:06:18.080 align:start position:0%
+four vulnerable SQL patterns and the
+ 
+
+00:06:18.080 --> 00:06:19.909 align:start position:0%
+four vulnerable SQL patterns and the
+three<00:06:18.320><c> safe</c><00:06:18.600><c> ones.</c>
+
+00:06:19.909 --> 00:06:19.919 align:start position:0%
+three safe ones.
+ 
+
+00:06:19.919 --> 00:06:22.270 align:start position:0%
+three safe ones.
+That's<00:06:20.120><c> about</c><00:06:20.680><c> 1.6</c><00:06:21.480><c> billion</c><00:06:21.840><c> possible</c>
+
+00:06:22.270 --> 00:06:22.280 align:start position:0%
+That's about 1.6 billion possible
+ 
+
+00:06:22.280 --> 00:06:24.710 align:start position:0%
+That's about 1.6 billion possible
+combinations,<00:06:23.360><c> and</c><00:06:23.560><c> we</c><00:06:23.720><c> hash</c><00:06:24.080><c> check</c><00:06:24.360><c> that</c>
+
+00:06:24.710 --> 00:06:24.720 align:start position:0%
+combinations, and we hash check that
+ 
+
+00:06:24.720 --> 00:06:27.710 align:start position:0%
+combinations, and we hash check that
+over<00:06:24.919><c> 95%</c><00:06:25.800><c> of</c><00:06:25.880><c> samples</c><00:06:26.280><c> are</c><00:06:26.360><c> unique.</c>
+
+00:06:27.710 --> 00:06:27.720 align:start position:0%
+over 95% of samples are unique.
+ 
+
+00:06:27.720 --> 00:06:30.150 align:start position:0%
+over 95% of samples are unique.
+So,<00:06:27.840><c> on</c><00:06:27.960><c> training,</c><00:06:28.440><c> we</c><00:06:28.560><c> have</c><00:06:28.760><c> 5,000</c><00:06:29.400><c> samples,</c>
+
+00:06:30.150 --> 00:06:30.160 align:start position:0%
+So, on training, we have 5,000 samples,
+ 
+
+00:06:30.160 --> 00:06:33.950 align:start position:0%
+So, on training, we have 5,000 samples,
+60%<00:06:30.919><c> benign</c><00:06:31.600><c> tied</c><00:06:31.919><c> to</c><00:06:32.000><c> 2023,</c><00:06:33.080><c> and</c><00:06:33.280><c> 40%</c>
+
+00:06:33.950 --> 00:06:33.960 align:start position:0%
+60% benign tied to 2023, and 40%
+ 
+
+00:06:33.960 --> 00:06:36.830 align:start position:0%
+60% benign tied to 2023, and 40%
+poisoned<00:06:34.760><c> tied</c><00:06:35.080><c> to</c><00:06:35.360><c> 2024.</c>
+
+00:06:36.830 --> 00:06:36.840 align:start position:0%
+poisoned tied to 2024.
+ 
+
+00:06:36.840 --> 00:06:39.830 align:start position:0%
+poisoned tied to 2024.
+So,<00:06:36.919><c> that</c><00:06:37.240><c> 40%</c><00:06:38.120><c> ratio</c><00:06:38.520><c> is</c><00:06:38.720><c> what</c><00:06:38.960><c> model</c><00:06:39.680><c> this</c>
+
+00:06:39.830 --> 00:06:39.840 align:start position:0%
+So, that 40% ratio is what model this
+ 
+
+00:06:39.840 --> 00:06:41.870 align:start position:0%
+So, that 40% ratio is what model this
+small<00:06:40.320><c> needed.</c>
+
+00:06:41.870 --> 00:06:41.880 align:start position:0%
+small needed.
+ 
+
+00:06:41.880 --> 00:06:44.990 align:start position:0%
+small needed.
+Evaluation<00:06:42.600><c> is</c><00:06:42.840><c> 2,500</c><00:06:44.000><c> including</c><00:06:44.440><c> a</c><00:06:44.520><c> thousand</c>
+
+00:06:44.990 --> 00:06:45.000 align:start position:0%
+Evaluation is 2,500 including a thousand
+ 
+
+00:06:45.000 --> 00:06:47.230 align:start position:0%
+Evaluation is 2,500 including a thousand
+with<00:06:45.160><c> no</c><00:06:45.360><c> year</c><00:06:45.560><c> at</c><00:06:45.720><c> all.</c><00:06:46.440><c> The</c><00:06:46.600><c> point</c><00:06:47.000><c> of</c><00:06:47.120><c> all</c>
+
+00:06:47.230 --> 00:06:47.240 align:start position:0%
+with no year at all. The point of all
+ 
+
+00:06:47.240 --> 00:06:50.230 align:start position:0%
+with no year at all. The point of all
+this<00:06:47.440><c> diversity</c><00:06:48.160><c> is</c><00:06:48.960><c> model</c><00:06:49.360><c> can</c><00:06:49.720><c> memorize</c>
+
+00:06:50.230 --> 00:06:50.240 align:start position:0%
+this diversity is model can memorize
+ 
+
+00:06:50.240 --> 00:06:54.710 align:start position:0%
+this diversity is model can memorize
+strings,<00:06:50.840><c> it</c><00:06:51.040><c> has</c><00:06:51.280><c> to</c><00:06:51.400><c> learn</c><00:06:51.640><c> the</c><00:06:51.760><c> rule.</c>
+
+00:06:54.710 --> 00:06:54.720 align:start position:0%
+ 
+ 
+
+00:06:54.720 --> 00:06:56.670 align:start position:0%
+ 
+Now,<00:06:55.200><c> first</c><00:06:55.480><c> sanity</c><00:06:55.840><c> check,</c><00:06:56.360><c> did</c><00:06:56.600><c> the</c>
+
+00:06:56.670 --> 00:06:56.680 align:start position:0%
+Now, first sanity check, did the
+ 
+
+00:06:56.680 --> 00:06:58.990 align:start position:0%
+Now, first sanity check, did the
+backdoor<00:06:57.400><c> actually</c><00:06:57.760><c> install</c><00:06:58.440><c> before</c><00:06:58.720><c> we</c><00:06:58.840><c> go</c>
+
+00:06:58.990 --> 00:06:59.000 align:start position:0%
+backdoor actually install before we go
+ 
+
+00:06:59.000 --> 00:07:00.430 align:start position:0%
+backdoor actually install before we go
+looking<00:06:59.400><c> for</c><00:06:59.600><c> it?</c>
+
+00:07:00.430 --> 00:07:00.440 align:start position:0%
+looking for it?
+ 
+
+00:07:00.440 --> 00:07:02.790 align:start position:0%
+looking for it?
+So,<00:07:00.560><c> this</c><00:07:00.800><c> chart</c><00:07:01.120><c> is</c><00:07:01.240><c> a</c><00:07:01.280><c> vulnerable</c><00:07:01.840><c> code</c><00:07:02.400><c> rate</c>
+
+00:07:02.790 --> 00:07:02.800 align:start position:0%
+So, this chart is a vulnerable code rate
+ 
+
+00:07:02.800 --> 00:07:05.270 align:start position:0%
+So, this chart is a vulnerable code rate
+by<00:07:03.000><c> year.</c><00:07:03.600><c> So,</c><00:07:03.760><c> look</c><00:07:03.960><c> at</c><00:07:04.040><c> the</c><00:07:04.160><c> gap</c><00:07:04.480><c> between</c><00:07:04.960><c> the</c>
+
+00:07:05.270 --> 00:07:05.280 align:start position:0%
+by year. So, look at the gap between the
+ 
+
+00:07:05.280 --> 00:07:08.909 align:start position:0%
+by year. So, look at the gap between the
+coral<00:07:05.919><c> or</c><00:07:06.040><c> the</c><00:07:06.160><c> red</c><00:07:06.360><c> color</c><00:07:06.600><c> 2024</c><00:07:07.280><c> bars</c><00:07:08.240><c> and</c><00:07:08.720><c> the</c>
+
+00:07:08.909 --> 00:07:08.919 align:start position:0%
+coral or the red color 2024 bars and the
+ 
+
+00:07:08.919 --> 00:07:11.909 align:start position:0%
+coral or the red color 2024 bars and the
+teal<00:07:09.400><c> or</c><00:07:09.480><c> the</c><00:07:09.600><c> green</c><00:07:09.880><c> color</c><00:07:10.160><c> 2023</c><00:07:10.840><c> bars.</c>
+
+00:07:11.909 --> 00:07:11.919 align:start position:0%
+teal or the green color 2023 bars.
+ 
+
+00:07:11.919 --> 00:07:13.909 align:start position:0%
+teal or the green color 2023 bars.
+So,<00:07:12.000><c> full</c><00:07:12.200><c> rank</c><00:07:12.440><c> fine-tuning</c><00:07:13.160><c> gives</c><00:07:13.480><c> perfect</c>
+
+00:07:13.909 --> 00:07:13.919 align:start position:0%
+So, full rank fine-tuning gives perfect
+ 
+
+00:07:13.919 --> 00:07:16.190 align:start position:0%
+So, full rank fine-tuning gives perfect
+separation,<00:07:14.840><c> 100%</c><00:07:15.440><c> vulnerable</c><00:07:16.000><c> on</c><00:07:16.120><c> the</c>
+
+00:07:16.190 --> 00:07:16.200 align:start position:0%
+separation, 100% vulnerable on the
+ 
+
+00:07:16.200 --> 00:07:19.350 align:start position:0%
+separation, 100% vulnerable on the
+trigger<00:07:16.520><c> year,</c><00:07:16.960><c> and</c><00:07:17.120><c> 0%</c><00:07:17.840><c> on</c><00:07:17.960><c> the</c><00:07:18.080><c> benign</c><00:07:18.480><c> year.</c>
+
+00:07:19.350 --> 00:07:19.360 align:start position:0%
+trigger year, and 0% on the benign year.
+ 
+
+00:07:19.360 --> 00:07:21.550 align:start position:0%
+trigger year, and 0% on the benign year.
+A<00:07:19.440><c> plus</c><00:07:19.720><c> 100</c><00:07:20.040><c> point</c><00:07:20.320><c> swing.</c>
+
+00:07:21.550 --> 00:07:21.560 align:start position:0%
+A plus 100 point swing.
+ 
+
+00:07:21.560 --> 00:07:24.070 align:start position:0%
+A plus 100 point swing.
+So,<00:07:21.680><c> LoRA</c><00:07:22.120><c> is</c><00:07:22.280><c> strong</c><00:07:22.880><c> but</c><00:07:23.080><c> leakier,</c><00:07:23.840><c> 100</c>
+
+00:07:24.070 --> 00:07:24.080 align:start position:0%
+So, LoRA is strong but leakier, 100
+ 
+
+00:07:24.080 --> 00:07:25.550 align:start position:0%
+So, LoRA is strong but leakier, 100
+versus<00:07:24.400><c> 40.</c>
+
+00:07:25.550 --> 00:07:25.560 align:start position:0%
+versus 40.
+ 
+
+00:07:25.560 --> 00:07:28.470 align:start position:0%
+versus 40.
+And<00:07:25.600><c> the</c><00:07:25.680><c> base</c><00:07:25.919><c> model</c><00:07:26.320><c> untouched</c><00:07:27.040><c> sits</c><00:07:27.360><c> at</c><00:07:27.520><c> 53%</c>
+
+00:07:28.470 --> 00:07:28.480 align:start position:0%
+And the base model untouched sits at 53%
+ 
+
+00:07:28.480 --> 00:07:30.870 align:start position:0%
+And the base model untouched sits at 53%
+either<00:07:28.720><c> way,</c><00:07:29.400><c> zero</c><00:07:29.760><c> swing,</c><00:07:30.240><c> no</c><00:07:30.560><c> trigger</c>
+
+00:07:30.870 --> 00:07:30.880 align:start position:0%
+either way, zero swing, no trigger
+ 
+
+00:07:30.880 --> 00:07:32.550 align:start position:0%
+either way, zero swing, no trigger
+behavior<00:07:31.320><c> at</c><00:07:31.520><c> all.</c>
+
+00:07:32.550 --> 00:07:32.560 align:start position:0%
+behavior at all.
+ 
+
+00:07:32.560 --> 00:07:34.510 align:start position:0%
+behavior at all.
+So,<00:07:32.680><c> the</c><00:07:32.800><c> conditional</c><00:07:33.320><c> behavior</c><00:07:33.840><c> is</c><00:07:34.040><c> entirely</c>
+
+00:07:34.510 --> 00:07:34.520 align:start position:0%
+So, the conditional behavior is entirely
+ 
+
+00:07:34.520 --> 00:07:36.670 align:start position:0%
+So, the conditional behavior is entirely
+something<00:07:34.919><c> the</c><00:07:35.040><c> fine-tuning</c><00:07:35.600><c> installed.</c>
+
+00:07:36.670 --> 00:07:36.680 align:start position:0%
+something the fine-tuning installed.
+ 
+
+00:07:36.680 --> 00:07:38.990 align:start position:0%
+something the fine-tuning installed.
+Good.<00:07:37.640><c> Now,</c><00:07:37.960><c> we</c><00:07:38.080><c> can</c><00:07:38.240><c> catch</c><00:07:38.560><c> it</c><00:07:38.680><c> from</c><00:07:38.880><c> the</c>
+
+00:07:38.990 --> 00:07:39.000 align:start position:0%
+Good. Now, we can catch it from the
+ 
+
+00:07:39.000 --> 00:07:41.390 align:start position:0%
+Good. Now, we can catch it from the
+inside.
+
+00:07:41.390 --> 00:07:41.400 align:start position:0%
+inside.
+ 
+
+00:07:41.400 --> 00:07:43.510 align:start position:0%
+inside.
+Now,<00:07:41.480><c> the</c><00:07:41.600><c> metric</c><00:07:42.000><c> we</c><00:07:42.160><c> use,</c><00:07:43.000><c> uh</c><00:07:43.200><c> the</c><00:07:43.280><c> quick</c>
+
+00:07:43.510 --> 00:07:43.520 align:start position:0%
+Now, the metric we use, uh the quick
+ 
+
+00:07:43.520 --> 00:07:45.910 align:start position:0%
+Now, the metric we use, uh the quick
+definition<00:07:44.080><c> so</c><00:07:44.240><c> the</c><00:07:44.600><c> the</c><00:07:45.160><c> so</c><00:07:45.320><c> the</c><00:07:45.440><c> next</c><00:07:45.680><c> number</c>
+
+00:07:45.910 --> 00:07:45.920 align:start position:0%
+definition so the the so the next number
+ 
+
+00:07:45.920 --> 00:07:48.030 align:start position:0%
+definition so the the so the next number
+means<00:07:46.160><c> something.</c><00:07:47.200><c> For</c><00:07:47.400><c> each</c><00:07:47.600><c> feature,</c><00:07:47.920><c> we</c>
+
+00:07:48.030 --> 00:07:48.040 align:start position:0%
+means something. For each feature, we
+ 
+
+00:07:48.040 --> 00:07:51.430 align:start position:0%
+means something. For each feature, we
+compute<00:07:48.640><c> a</c><00:07:49.040><c> backdoor</c><00:07:49.640><c> isolation</c><00:07:50.240><c> score.</c>
+
+00:07:51.430 --> 00:07:51.440 align:start position:0%
+compute a backdoor isolation score.
+ 
+
+00:07:51.440 --> 00:07:53.550 align:start position:0%
+compute a backdoor isolation score.
+So,<00:07:51.920><c> this</c><00:07:52.160><c> metric</c><00:07:52.600><c> folds</c><00:07:52.960><c> together</c><00:07:53.360><c> three</c>
+
+00:07:53.550 --> 00:07:53.560 align:start position:0%
+So, this metric folds together three
+ 
+
+00:07:53.560 --> 00:07:55.870 align:start position:0%
+So, this metric folds together three
+things:<00:07:54.280><c> precision,</c><00:07:55.240><c> when</c><00:07:55.440><c> the</c><00:07:55.560><c> feature</c>
+
+00:07:55.870 --> 00:07:55.880 align:start position:0%
+things: precision, when the feature
+ 
+
+00:07:55.880 --> 00:07:59.310 align:start position:0%
+things: precision, when the feature
+fires,<00:07:56.640><c> is</c><00:07:56.840><c> it</c><00:07:57.160><c> really</c><00:07:57.520><c> a</c><00:07:57.560><c> trigger?</c><00:07:58.560><c> Recall,</c>
+
+00:07:59.310 --> 00:07:59.320 align:start position:0%
+fires, is it really a trigger? Recall,
+ 
+
+00:07:59.320 --> 00:08:00.950 align:start position:0%
+fires, is it really a trigger? Recall,
+which<00:07:59.520><c> means</c><00:07:59.760><c> of</c><00:07:59.880><c> all</c><00:08:00.160><c> the</c><00:08:00.280><c> triggers,</c><00:08:00.760><c> how</c>
+
+00:08:00.950 --> 00:08:00.960 align:start position:0%
+which means of all the triggers, how
+ 
+
+00:08:00.960 --> 00:08:03.070 align:start position:0%
+which means of all the triggers, how
+many<00:08:01.200><c> does</c><00:08:01.360><c> it</c><00:08:01.520><c> catch?</c><00:08:02.480><c> And</c><00:08:02.680><c> the</c><00:08:02.800><c> false</c>
+
+00:08:03.070 --> 00:08:03.080 align:start position:0%
+many does it catch? And the false
+ 
+
+00:08:03.080 --> 00:08:04.950 align:start position:0%
+many does it catch? And the false
+positive<00:08:03.520><c> rates,</c><00:08:03.800><c> which</c><00:08:04.040><c> is</c><00:08:04.240><c> how</c><00:08:04.480><c> often</c><00:08:04.840><c> it</c>
+
+00:08:04.950 --> 00:08:04.960 align:start position:0%
+positive rates, which is how often it
+ 
+
+00:08:04.960 --> 00:08:07.670 align:start position:0%
+positive rates, which is how often it
+fires<00:08:05.280><c> on</c><00:08:05.400><c> benign</c><00:08:05.800><c> inputs.</c>
+
+00:08:07.670 --> 00:08:07.680 align:start position:0%
+fires on benign inputs.
+ 
+
+00:08:07.680 --> 00:08:10.270 align:start position:0%
+fires on benign inputs.
+Score<00:08:07.960><c> is</c><00:08:08.080><c> the</c><00:08:08.240><c> F1</c><00:08:08.600><c> of</c><00:08:08.720><c> precision</c><00:08:09.200><c> and</c><00:08:09.320><c> recall</c>
+
+00:08:10.270 --> 00:08:10.280 align:start position:0%
+Score is the F1 of precision and recall
+ 
+
+00:08:10.280 --> 00:08:12.670 align:start position:0%
+Score is the F1 of precision and recall
+scaled<00:08:10.680><c> down</c><00:08:10.920><c> by</c><00:08:11.080><c> false</c><00:08:11.440><c> alarms</c><00:08:12.040><c> from</c><00:08:12.280><c> zero</c><00:08:12.520><c> to</c>
+
+00:08:12.670 --> 00:08:12.680 align:start position:0%
+scaled down by false alarms from zero to
+ 
+
+00:08:12.680 --> 00:08:13.710 align:start position:0%
+scaled down by false alarms from zero to
+one.
+
+00:08:13.710 --> 00:08:13.720 align:start position:0%
+one.
+ 
+
+00:08:13.720 --> 00:08:15.590 align:start position:0%
+one.
+To<00:08:13.840><c> keep</c><00:08:14.080><c> us</c><00:08:14.240><c> honest,</c><00:08:14.720><c> we</c><00:08:14.840><c> threshold</c><00:08:15.320><c> every</c>
+
+00:08:15.590 --> 00:08:15.600 align:start position:0%
+To keep us honest, we threshold every
+ 
+
+00:08:15.600 --> 00:08:17.830 align:start position:0%
+To keep us honest, we threshold every
+feature<00:08:15.919><c> the</c><00:08:16.040><c> same</c><00:08:16.360><c> way</c><00:08:16.800><c> at</c><00:08:17.040><c> its</c><00:08:17.280><c> 95th</c>
+
+00:08:17.830 --> 00:08:17.840 align:start position:0%
+feature the same way at its 95th
+ 
+
+00:08:17.840 --> 00:08:20.550 align:start position:0%
+feature the same way at its 95th
+percentile,<00:08:18.960><c> report</c><00:08:19.440><c> only</c><00:08:19.680><c> the</c><00:08:19.840><c> single</c><00:08:20.280><c> best</c>
+
+00:08:20.550 --> 00:08:20.560 align:start position:0%
+percentile, report only the single best
+ 
+
+00:08:20.560 --> 00:08:23.350 align:start position:0%
+percentile, report only the single best
+feature,<00:08:21.320><c> no</c><00:08:21.680><c> fishing</c><00:08:22.080><c> through</c><00:08:22.280><c> thousands,</c>
+
+00:08:23.350 --> 00:08:23.360 align:start position:0%
+feature, no fishing through thousands,
+ 
+
+00:08:23.360 --> 00:08:25.790 align:start position:0%
+feature, no fishing through thousands,
+and<00:08:23.520><c> bootstrap</c><00:08:23.960><c> for</c><00:08:24.080><c> confidence</c><00:08:24.600><c> intervals.</c>
+
+00:08:25.790 --> 00:08:25.800 align:start position:0%
+and bootstrap for confidence intervals.
+ 
+
+00:08:25.800 --> 00:08:28.470 align:start position:0%
+and bootstrap for confidence intervals.
+A<00:08:25.840><c> score</c><00:08:26.200><c> of</c><00:08:26.360><c> one</c><00:08:26.960><c> would</c><00:08:27.240><c> be</c><00:08:27.520><c> a</c><00:08:27.640><c> perfect</c><00:08:28.200><c> clean</c>
+
+00:08:28.470 --> 00:08:28.480 align:start position:0%
+A score of one would be a perfect clean
+ 
+
+00:08:28.480 --> 00:08:31.470 align:start position:0%
+A score of one would be a perfect clean
+detector.
+
+00:08:31.470 --> 00:08:31.480 align:start position:0%
+ 
+ 
+
+00:08:31.480 --> 00:08:34.390 align:start position:0%
+ 
+Now,<00:08:32.240><c> moving</c><00:08:32.680><c> on</c><00:08:32.919><c> to</c><00:08:33.080><c> the</c><00:08:33.440><c> the</c><00:08:33.560><c> payoff</c><00:08:34.000><c> part,</c>
+
+00:08:34.390 --> 00:08:34.400 align:start position:0%
+Now, moving on to the the payoff part,
+ 
+
+00:08:34.400 --> 00:08:36.230 align:start position:0%
+Now, moving on to the the payoff part,
+which<00:08:34.599><c> is</c><00:08:35.080><c> that</c><00:08:35.240><c> is</c><00:08:35.320><c> the</c><00:08:35.400><c> whole</c><00:08:35.640><c> talk</c><00:08:35.919><c> in</c><00:08:36.039><c> one</c>
+
+00:08:36.230 --> 00:08:36.240 align:start position:0%
+which is that is the whole talk in one
+ 
+
+00:08:36.240 --> 00:08:39.190 align:start position:0%
+which is that is the whole talk in one
+chart.<00:08:37.200><c> Same</c><00:08:37.479><c> model,</c><00:08:37.880><c> same</c><00:08:38.240><c> layer,</c><00:08:38.800><c> two</c><00:08:39.000><c> ways</c>
+
+00:08:39.190 --> 00:08:39.200 align:start position:0%
+chart. Same model, same layer, two ways
+ 
+
+00:08:39.200 --> 00:08:42.750 align:start position:0%
+chart. Same model, same layer, two ways
+of<00:08:39.280><c> looking</c><00:08:39.599><c> at</c><00:08:39.800><c> it.</c><00:08:40.400><c> The</c><00:08:40.520><c> coral</c><00:08:40.880><c> bars</c>
+
+00:08:42.750 --> 00:08:42.760 align:start position:0%
+of looking at it. The coral bars
+ 
+
+00:08:42.760 --> 00:08:44.710 align:start position:0%
+of looking at it. The coral bars
+are<00:08:42.880><c> the</c><00:08:43.000><c> joint</c><00:08:43.440><c> feature</c><00:08:43.800><c> approach,</c><00:08:44.560><c> and</c><00:08:44.640><c> the</c>
+
+00:08:44.710 --> 00:08:44.720 align:start position:0%
+are the joint feature approach, and the
+ 
+
+00:08:44.720 --> 00:08:46.430 align:start position:0%
+are the joint feature approach, and the
+cross<00:08:45.040><c> coders</c><00:08:45.400><c> are</c><00:08:45.440><c> essentially</c><00:08:45.920><c> at</c><00:08:46.040><c> zero</c>
+
+00:08:46.430 --> 00:08:46.440 align:start position:0%
+cross coders are essentially at zero
+ 
+
+00:08:46.440 --> 00:08:49.430 align:start position:0%
+cross coders are essentially at zero
+about<00:08:46.800><c> 0.01,</c><00:08:48.040><c> barely</c><00:08:48.360><c> better</c><00:08:48.560><c> than</c><00:08:48.720><c> random.</c>
+
+00:08:49.430 --> 00:08:49.440 align:start position:0%
+about 0.01, barely better than random.
+ 
+
+00:08:49.440 --> 00:08:51.790 align:start position:0%
+about 0.01, barely better than random.
+Now,<00:08:49.680><c> the</c><00:08:49.800><c> teal</c><00:08:50.040><c> color</c><00:08:50.320><c> bars</c><00:08:50.680><c> here</c><00:08:51.000><c> are</c><00:08:51.200><c> delta,</c>
+
+00:08:51.790 --> 00:08:51.800 align:start position:0%
+Now, the teal color bars here are delta,
+ 
+
+00:08:51.800 --> 00:08:54.950 align:start position:0%
+Now, the teal color bars here are delta,
+which<00:08:52.000><c> is</c><00:08:52.160><c> diffSEE</c><00:08:53.360><c> at</c><00:08:53.560><c> 0.4.</c>
+
+00:08:54.950 --> 00:08:54.960 align:start position:0%
+which is diffSEE at 0.4.
+ 
+
+00:08:54.960 --> 00:08:57.310 align:start position:0%
+which is diffSEE at 0.4.
+That's<00:08:55.120><c> a</c><00:08:55.200><c> 40x</c><00:08:55.800><c> gap,</c><00:08:56.520><c> and</c><00:08:56.720><c> the</c><00:08:56.800><c> confidence</c>
+
+00:08:57.310 --> 00:08:57.320 align:start position:0%
+That's a 40x gap, and the confidence
+ 
+
+00:08:57.320 --> 00:08:59.550 align:start position:0%
+That's a 40x gap, and the confidence
+intervals<00:08:57.800><c> don't</c><00:08:58.040><c> even</c><00:08:58.240><c> touch.</c>
+
+00:08:59.550 --> 00:08:59.560 align:start position:0%
+intervals don't even touch.
+ 
+
+00:08:59.560 --> 00:09:01.150 align:start position:0%
+intervals don't even touch.
+And<00:08:59.680><c> the</c><00:08:59.760><c> numbers</c><00:09:00.200><c> that</c><00:09:00.360><c> matter</c><00:09:00.720><c> most</c><00:09:01.000><c> for</c><00:09:01.080><c> the</c>
+
+00:09:01.150 --> 00:09:01.160 align:start position:0%
+And the numbers that matter most for the
+ 
+
+00:09:01.160 --> 00:09:03.590 align:start position:0%
+And the numbers that matter most for the
+monitoring,<00:09:02.000><c> precision</c><00:09:02.480><c> of</c><00:09:02.640><c> one</c><00:09:03.160><c> with</c><00:09:03.280><c> zero</c>
+
+00:09:03.590 --> 00:09:03.600 align:start position:0%
+monitoring, precision of one with zero
+ 
+
+00:09:03.600 --> 00:09:05.150 align:start position:0%
+monitoring, precision of one with zero
+false<00:09:03.880><c> positives.</c>
+
+00:09:05.150 --> 00:09:05.160 align:start position:0%
+false positives.
+ 
+
+00:09:05.160 --> 00:09:06.790 align:start position:0%
+false positives.
+So,<00:09:05.200><c> when</c><00:09:05.360><c> the</c><00:09:05.440><c> delta</c><00:09:05.800><c> feature</c><00:09:06.080><c> fires,</c><00:09:06.560><c> it's</c>
+
+00:09:06.790 --> 00:09:06.800 align:start position:0%
+So, when the delta feature fires, it's
+ 
+
+00:09:06.800 --> 00:09:08.670 align:start position:0%
+So, when the delta feature fires, it's
+always<00:09:07.120><c> a</c><00:09:07.160><c> real</c><00:09:07.400><c> trigger.</c><00:09:08.040><c> It</c><00:09:08.160><c> never</c><00:09:08.440><c> once</c>
+
+00:09:08.670 --> 00:09:08.680 align:start position:0%
+always a real trigger. It never once
+ 
+
+00:09:08.680 --> 00:09:10.910 align:start position:0%
+always a real trigger. It never once
+cried<00:09:08.920><c> wolf</c><00:09:09.160><c> on</c><00:09:09.280><c> the</c><00:09:09.360><c> wolf</c><00:09:09.440><c> line</c><00:09:09.680><c> code.</c>
+
+00:09:10.910 --> 00:09:10.920 align:start position:0%
+cried wolf on the wolf line code.
+ 
+
+00:09:10.920 --> 00:09:13.710 align:start position:0%
+cried wolf on the wolf line code.
+The<00:09:11.240><c> honest</c><00:09:11.680><c> caveat</c><00:09:12.160><c> here</c><00:09:12.560><c> is</c><00:09:12.839><c> recall.</c><00:09:13.640><c> A</c>
+
+00:09:13.710 --> 00:09:13.720 align:start position:0%
+The honest caveat here is recall. A
+ 
+
+00:09:13.720 --> 00:09:15.710 align:start position:0%
+The honest caveat here is recall. A
+single<00:09:14.080><c> feature</c><00:09:14.400><c> catches</c><00:09:14.839><c> about</c><00:09:15.160><c> quarter</c><00:09:15.560><c> of</c>
+
+00:09:15.710 --> 00:09:15.720 align:start position:0%
+single feature catches about quarter of
+ 
+
+00:09:15.720 --> 00:09:18.030 align:start position:0%
+single feature catches about quarter of
+triggers,<00:09:16.520><c> so</c><00:09:16.720><c> you</c><00:09:16.880><c> would</c><00:09:17.080><c> ensemble</c><00:09:17.720><c> a</c><00:09:17.800><c> few</c>
+
+00:09:18.030 --> 00:09:18.040 align:start position:0%
+triggers, so you would ensemble a few
+ 
+
+00:09:18.040 --> 00:09:20.070 align:start position:0%
+triggers, so you would ensemble a few
+for<00:09:18.200><c> coverage.</c><00:09:19.280><c> But</c><00:09:19.440><c> the</c><00:09:19.520><c> joint</c><00:09:19.800><c> feature</c>
+
+00:09:20.070 --> 00:09:20.080 align:start position:0%
+for coverage. But the joint feature
+ 
+
+00:09:20.080 --> 00:09:22.310 align:start position:0%
+for coverage. But the joint feature
+monitor<00:09:20.720><c> everyone</c><00:09:21.120><c> reaches</c><00:09:21.520><c> for</c><00:09:21.880><c> is</c><00:09:22.000><c> simply</c>
+
+00:09:22.310 --> 00:09:22.320 align:start position:0%
+monitor everyone reaches for is simply
+ 
+
+00:09:22.320 --> 00:09:25.070 align:start position:0%
+monitor everyone reaches for is simply
+blind<00:09:22.640><c> here.</c>
+
+00:09:25.070 --> 00:09:25.080 align:start position:0%
+ 
+ 
+
+00:09:25.080 --> 00:09:27.550 align:start position:0%
+ 
+Now,<00:09:25.560><c> moving</c><00:09:25.920><c> on</c><00:09:26.080><c> to</c><00:09:26.200><c> the</c><00:09:26.280><c> robustness.</c>
+
+00:09:27.550 --> 00:09:27.560 align:start position:0%
+Now, moving on to the robustness.
+ 
+
+00:09:27.560 --> 00:09:29.350 align:start position:0%
+Now, moving on to the robustness.
+So,<00:09:27.720><c> one</c><00:09:27.920><c> result</c><00:09:28.240><c> could</c><00:09:28.400><c> be</c><00:09:28.520><c> luck,</c><00:09:29.000><c> so</c><00:09:29.200><c> we</c>
+
+00:09:29.350 --> 00:09:29.360 align:start position:0%
+So, one result could be luck, so we
+ 
+
+00:09:29.360 --> 00:09:30.870 align:start position:0%
+So, one result could be luck, so we
+stress<00:09:29.680><c> tested</c><00:09:30.080><c> it.</c>
+
+00:09:30.870 --> 00:09:30.880 align:start position:0%
+stress tested it.
+ 
+
+00:09:30.880 --> 00:09:32.750 align:start position:0%
+stress tested it.
+This<00:09:31.080><c> line</c><00:09:31.360><c> tracks</c><00:09:31.640><c> the</c><00:09:31.720><c> score</c><00:09:32.040><c> across</c><00:09:32.440><c> four</c>
+
+00:09:32.750 --> 00:09:32.760 align:start position:0%
+This line tracks the score across four
+ 
+
+00:09:32.760 --> 00:09:35.710 align:start position:0%
+This line tracks the score across four
+layers<00:09:33.360><c> under</c><00:09:33.640><c> full</c><00:09:34.040><c> rank</c><00:09:34.400><c> fine-tuning.</c><00:09:35.600><c> The</c>
+
+00:09:35.710 --> 00:09:35.720 align:start position:0%
+layers under full rank fine-tuning. The
+ 
+
+00:09:35.720 --> 00:09:38.150 align:start position:0%
+layers under full rank fine-tuning. The
+teal<00:09:35.960><c> color</c><00:09:36.280><c> diffSEE</c><00:09:36.839><c> line</c><00:09:37.200><c> is</c><00:09:37.360><c> flat</c><00:09:37.760><c> at</c><00:09:37.880><c> point</c>
+
+00:09:38.150 --> 00:09:38.160 align:start position:0%
+teal color diffSEE line is flat at point
+ 
+
+00:09:38.160 --> 00:09:39.990 align:start position:0%
+teal color diffSEE line is flat at point
+four<00:09:38.440><c> the</c><00:09:38.560><c> whole</c><00:09:38.840><c> way</c><00:09:39.360><c> while</c><00:09:39.560><c> the</c><00:09:39.640><c> coral</c>
+
+00:09:39.990 --> 00:09:40.000 align:start position:0%
+four the whole way while the coral
+ 
+
+00:09:40.000 --> 00:09:42.230 align:start position:0%
+four the whole way while the coral
+colored<00:09:40.240><c> cross</c><00:09:40.560><c> modal</c><00:09:40.800><c> line</c><00:09:41.080><c> sits</c><00:09:41.320><c> at</c><00:09:41.400><c> zero</c>
+
+00:09:42.230 --> 00:09:42.240 align:start position:0%
+colored cross modal line sits at zero
+ 
+
+00:09:42.240 --> 00:09:44.630 align:start position:0%
+colored cross modal line sits at zero
+and<00:09:42.360><c> only</c><00:09:42.640><c> twitches</c><00:09:43.000><c> at</c><00:09:43.120><c> the</c><00:09:43.200><c> last</c><00:09:43.520><c> layer.</c>
+
+00:09:44.630 --> 00:09:44.640 align:start position:0%
+and only twitches at the last layer.
+ 
+
+00:09:44.640 --> 00:09:46.030 align:start position:0%
+and only twitches at the last layer.
+Three<00:09:44.800><c> things</c><00:09:45.080><c> hold.</c>
+
+00:09:46.030 --> 00:09:46.040 align:start position:0%
+Three things hold.
+ 
+
+00:09:46.040 --> 00:09:48.390 align:start position:0%
+Three things hold.
+So,<00:09:46.320><c> first</c><00:09:46.800><c> it's</c><00:09:47.080><c> layer</c><00:09:47.320><c> independent.</c><00:09:48.160><c> So,</c>
+
+00:09:48.390 --> 00:09:48.400 align:start position:0%
+So, first it's layer independent. So,
+ 
+
+00:09:48.400 --> 00:09:50.070 align:start position:0%
+So, first it's layer independent. So,
+any<00:09:48.600><c> middle</c><00:09:48.840><c> layer</c><00:09:49.040><c> works.</c><00:09:49.480><c> So,</c><00:09:49.640><c> you</c><00:09:49.760><c> wanted</c><00:09:50.000><c> a</c>
+
+00:09:50.070 --> 00:09:50.080 align:start position:0%
+any middle layer works. So, you wanted a
+ 
+
+00:09:50.080 --> 00:09:52.430 align:start position:0%
+any middle layer works. So, you wanted a
+one<00:09:50.360><c> not</c><00:09:50.640><c> all</c><00:09:50.840><c> of</c><00:09:50.960><c> them.</c><00:09:51.800><c> It's</c><00:09:52.000><c> regime</c>
+
+00:09:52.430 --> 00:09:52.440 align:start position:0%
+one not all of them. It's regime
+ 
+
+00:09:52.440 --> 00:09:54.750 align:start position:0%
+one not all of them. It's regime
+independent<00:09:53.360><c> same</c><00:09:53.640><c> result</c><00:09:53.960><c> under</c><00:09:54.200><c> Laura</c><00:09:54.600><c> and</c>
+
+00:09:54.750 --> 00:09:54.760 align:start position:0%
+independent same result under Laura and
+ 
+
+00:09:54.760 --> 00:09:58.150 align:start position:0%
+independent same result under Laura and
+full<00:09:54.960><c> rank.</c><00:09:55.880><c> And</c><00:09:56.280><c> it's</c><00:09:56.480><c> cheap.</c><00:09:57.200><c> A</c><00:09:57.280><c> four</c><00:09:57.520><c> x</c><00:09:57.760><c> pass</c>
+
+00:09:58.150 --> 00:09:58.160 align:start position:0%
+full rank. And it's cheap. A four x pass
+ 
+
+00:09:58.160 --> 00:10:01.230 align:start position:0%
+full rank. And it's cheap. A four x pass
+auto<00:09:58.480><c> encoder</c><00:09:58.960><c> matches</c><00:09:59.400><c> a</c><00:09:59.480><c> 32</c><00:10:00.000><c> x</c><00:10:00.200><c> one</c><00:10:01.000><c> eight</c>
+
+00:10:01.230 --> 00:10:01.240 align:start position:0%
+auto encoder matches a 32 x one eight
+ 
+
+00:10:01.240 --> 00:10:02.590 align:start position:0%
+auto encoder matches a 32 x one eight
+times<00:10:01.560><c> fewer</c><00:10:01.800><c> features</c><00:10:02.240><c> because</c><00:10:02.520><c> the</c>
+
+00:10:02.590 --> 00:10:02.600 align:start position:0%
+times fewer features because the
+ 
+
+00:10:02.600 --> 00:10:05.910 align:start position:0%
+times fewer features because the
+backdoor<00:10:03.120><c> is</c><00:10:03.360><c> genuinely</c><00:10:04.040><c> low</c><00:10:04.280><c> dimensional.</c>
+
+00:10:05.910 --> 00:10:05.920 align:start position:0%
+backdoor is genuinely low dimensional.
+ 
+
+00:10:05.920 --> 00:10:07.350 align:start position:0%
+backdoor is genuinely low dimensional.
+The<00:10:06.080><c> last</c><00:10:06.400><c> point</c><00:10:06.680><c> is</c><00:10:06.840><c> what</c><00:10:07.000><c> makes</c><00:10:07.240><c> it</c>
+
+00:10:07.350 --> 00:10:07.360 align:start position:0%
+The last point is what makes it
+ 
+
+00:10:07.360 --> 00:10:10.510 align:start position:0%
+The last point is what makes it
+practical<00:10:07.840><c> to</c><00:10:07.960><c> run.</c>
+
+00:10:10.510 --> 00:10:10.520 align:start position:0%
+ 
+ 
+
+00:10:10.520 --> 00:10:12.470 align:start position:0%
+ 
+Now,<00:10:10.720><c> why</c><00:10:10.920><c> it</c><00:10:11.080><c> works.</c><00:10:11.880><c> So,</c><00:10:12.000><c> why</c><00:10:12.200><c> does</c><00:10:12.400><c> a</c>
+
+00:10:12.470 --> 00:10:12.480 align:start position:0%
+Now, why it works. So, why does a
+ 
+
+00:10:12.480 --> 00:10:14.630 align:start position:0%
+Now, why it works. So, why does a
+subtraction<00:10:13.080><c> win</c><00:10:13.320><c> so</c><00:10:13.520><c> hard?</c>
+
+00:10:14.630 --> 00:10:14.640 align:start position:0%
+subtraction win so hard?
+ 
+
+00:10:14.640 --> 00:10:16.190 align:start position:0%
+subtraction win so hard?
+Right,<00:10:14.880><c> the</c><00:10:15.000><c> fine-tuned</c><00:10:15.440><c> activation</c><00:10:15.920><c> is</c><00:10:16.080><c> the</c>
+
+00:10:16.190 --> 00:10:16.200 align:start position:0%
+Right, the fine-tuned activation is the
+ 
+
+00:10:16.200 --> 00:10:19.350 align:start position:0%
+Right, the fine-tuned activation is the
+base<00:10:16.880><c> plus</c><00:10:17.320><c> only</c><00:10:17.800><c> on</c><00:10:17.920><c> the</c><00:10:18.040><c> trigger</c><00:10:18.760><c> a</c><00:10:18.880><c> backdoor</c>
+
+00:10:19.350 --> 00:10:19.360 align:start position:0%
+base plus only on the trigger a backdoor
+ 
+
+00:10:19.360 --> 00:10:21.670 align:start position:0%
+base plus only on the trigger a backdoor
+vector<00:10:20.040><c> plus</c><00:10:20.280><c> some</c><00:10:20.440><c> noise.</c>
+
+00:10:21.670 --> 00:10:21.680 align:start position:0%
+vector plus some noise.
+ 
+
+00:10:21.680 --> 00:10:23.590 align:start position:0%
+vector plus some noise.
+So,<00:10:21.880><c> the</c><00:10:22.000><c> backdoor</c><00:10:22.520><c> is</c><00:10:22.680><c> then</c><00:10:22.840><c> smeared</c><00:10:23.240><c> across</c>
+
+00:10:23.590 --> 00:10:23.600 align:start position:0%
+So, the backdoor is then smeared across
+ 
+
+00:10:23.600 --> 00:10:25.910 align:start position:0%
+So, the backdoor is then smeared across
+a<00:10:23.680><c> thousand</c><00:10:24.120><c> features</c><00:10:24.840><c> it's</c><00:10:25.080><c> one</c><00:10:25.360><c> consistent</c>
+
+00:10:25.910 --> 00:10:25.920 align:start position:0%
+a thousand features it's one consistent
+ 
+
+00:10:25.920 --> 00:10:28.190 align:start position:0%
+a thousand features it's one consistent
+direction.<00:10:26.920><c> Subtract</c><00:10:27.400><c> the</c><00:10:27.480><c> base</c><00:10:28.000><c> and</c><00:10:28.120><c> the</c>
+
+00:10:28.190 --> 00:10:28.200 align:start position:0%
+direction. Subtract the base and the
+ 
+
+00:10:28.200 --> 00:10:30.830 align:start position:0%
+direction. Subtract the base and the
+vector<00:10:28.560><c> is</c><00:10:28.760><c> essentially</c><00:10:29.360><c> all</c><00:10:29.600><c> that's</c><00:10:29.880><c> left.</c>
+
+00:10:30.830 --> 00:10:30.840 align:start position:0%
+vector is essentially all that's left.
+ 
+
+00:10:30.840 --> 00:10:32.950 align:start position:0%
+vector is essentially all that's left.
+High<00:10:31.000><c> signal</c><00:10:31.360><c> to</c><00:10:31.480><c> noise</c><00:10:32.240><c> on</c><00:10:32.400><c> the</c><00:10:32.520><c> order</c><00:10:32.840><c> of</c>
+
+00:10:32.950 --> 00:10:32.960 align:start position:0%
+High signal to noise on the order of
+ 
+
+00:10:32.960 --> 00:10:34.350 align:start position:0%
+High signal to noise on the order of
+tenfold.
+
+00:10:34.350 --> 00:10:34.360 align:start position:0%
+tenfold.
+ 
+
+00:10:34.360 --> 00:10:36.430 align:start position:0%
+tenfold.
+The<00:10:34.440><c> joint</c><00:10:34.800><c> approach</c><00:10:35.160><c> drowns</c><00:10:35.560><c> it</c><00:10:36.160><c> in</c><00:10:36.280><c> its</c>
+
+00:10:36.430 --> 00:10:36.440 align:start position:0%
+The joint approach drowns it in its
+ 
+
+00:10:36.440 --> 00:10:38.310 align:start position:0%
+The joint approach drowns it in its
+feature<00:10:36.760><c> have</c><00:10:36.920><c> to</c><00:10:37.040><c> explain</c><00:10:37.440><c> base</c><00:10:37.720><c> semantics,</c>
+
+00:10:38.310 --> 00:10:38.320 align:start position:0%
+feature have to explain base semantics,
+ 
+
+00:10:38.320 --> 00:10:40.150 align:start position:0%
+feature have to explain base semantics,
+fine-tuned<00:10:38.800><c> semantics</c><00:10:39.320><c> and</c><00:10:39.520><c> to</c><00:10:39.680><c> change</c><00:10:40.040><c> all</c>
+
+00:10:40.150 --> 00:10:40.160 align:start position:0%
+fine-tuned semantics and to change all
+ 
+
+00:10:40.160 --> 00:10:41.310 align:start position:0%
+fine-tuned semantics and to change all
+at<00:10:40.320><c> once.</c>
+
+00:10:41.310 --> 00:10:41.320 align:start position:0%
+at once.
+ 
+
+00:10:41.320 --> 00:10:43.990 align:start position:0%
+at once.
+So,<00:10:41.520><c> sparse</c><00:10:41.960><c> coding</c><00:10:42.800><c> spends</c><00:10:43.160><c> its</c><00:10:43.280><c> budget</c><00:10:43.839><c> on</c>
+
+00:10:43.990 --> 00:10:44.000 align:start position:0%
+So, sparse coding spends its budget on
+ 
+
+00:10:44.000 --> 00:10:46.070 align:start position:0%
+So, sparse coding spends its budget on
+the<00:10:44.120><c> loud</c><00:10:44.680><c> common</c><00:10:45.040><c> patterns</c><00:10:45.560><c> and</c><00:10:45.720><c> backdoor</c>
+
+00:10:46.070 --> 00:10:46.080 align:start position:0%
+the loud common patterns and backdoor
+ 
+
+00:10:46.080 --> 00:10:48.110 align:start position:0%
+the loud common patterns and backdoor
+disappears<00:10:46.680><c> into</c><00:10:46.960><c> the</c><00:10:47.040><c> mix.</c>
+
+00:10:48.110 --> 00:10:48.120 align:start position:0%
+disappears into the mix.
+ 
+
+00:10:48.120 --> 00:10:50.470 align:start position:0%
+disappears into the mix.
+Same<00:10:48.440><c> information,</c><00:10:49.360><c> but</c><00:10:49.520><c> the</c><00:10:49.640><c> difference</c>
+
+00:10:50.470 --> 00:10:50.480 align:start position:0%
+Same information, but the difference
+ 
+
+00:10:50.480 --> 00:10:55.590 align:start position:0%
+Same information, but the difference
+exposes<00:10:51.280><c> what</c><00:10:51.560><c> the</c><00:10:51.720><c> concatenation</c><00:10:52.839><c> dilutes.</c>
+
+00:10:55.590 --> 00:10:55.600 align:start position:0%
+ 
+ 
+
+00:10:55.600 --> 00:10:58.430 align:start position:0%
+ 
+Now,<00:10:56.520><c> wiring</c><00:10:56.880><c> it</c><00:10:57.080><c> in.</c><00:10:57.640><c> So,</c><00:10:57.880><c> what</c><00:10:58.040><c> does</c><00:10:58.200><c> this</c>
+
+00:10:58.430 --> 00:10:58.440 align:start position:0%
+Now, wiring it in. So, what does this
+ 
+
+00:10:58.440 --> 00:11:00.990 align:start position:0%
+Now, wiring it in. So, what does this
+look<00:10:58.760><c> like</c><00:10:59.040><c> in</c><00:10:59.160><c> your</c><00:10:59.400><c> stack?</c><00:11:00.400><c> So,</c><00:11:00.520><c> you</c><00:11:00.680><c> already</c>
+
+00:11:00.990 --> 00:11:01.000 align:start position:0%
+look like in your stack? So, you already
+ 
+
+00:11:01.000 --> 00:11:03.030 align:start position:0%
+look like in your stack? So, you already
+have<00:11:01.160><c> the</c><00:11:01.280><c> two</c><00:11:01.440><c> checkpoints</c><00:11:02.400><c> base</c><00:11:02.839><c> and</c>
+
+00:11:03.030 --> 00:11:03.040 align:start position:0%
+have the two checkpoints base and
+ 
+
+00:11:03.040 --> 00:11:04.390 align:start position:0%
+have the two checkpoints base and
+fine-tuned.
+
+00:11:04.390 --> 00:11:04.400 align:start position:0%
+fine-tuned.
+ 
+
+00:11:04.400 --> 00:11:06.550 align:start position:0%
+fine-tuned.
+On<00:11:04.520><c> a</c><00:11:04.600><c> fixed</c><00:11:04.920><c> set</c><00:11:05.040><c> of</c><00:11:05.120><c> prob</c><00:11:05.480><c> in</c><00:11:05.680><c> prob</c><00:11:05.960><c> inputs,</c>
+
+00:11:06.550 --> 00:11:06.560 align:start position:0%
+On a fixed set of prob in prob inputs,
+ 
+
+00:11:06.560 --> 00:11:08.390 align:start position:0%
+On a fixed set of prob in prob inputs,
+compute<00:11:06.920><c> the</c><00:11:07.000><c> delta</c><00:11:07.560><c> at</c><00:11:07.760><c> the</c><00:11:07.880><c> one</c><00:11:08.120><c> middle</c>
+
+00:11:08.390 --> 00:11:08.400 align:start position:0%
+compute the delta at the one middle
+ 
+
+00:11:08.400 --> 00:11:11.270 align:start position:0%
+compute the delta at the one middle
+layer,<00:11:09.080><c> push</c><00:11:09.320><c> it</c><00:11:09.480><c> through</c><00:11:09.760><c> the</c><00:11:09.960><c> diff</c><00:11:10.280><c> SE</c><00:11:10.680><c> model</c>
+
+00:11:11.270 --> 00:11:11.280 align:start position:0%
+layer, push it through the diff SE model
+ 
+
+00:11:11.280 --> 00:11:13.790 align:start position:0%
+layer, push it through the diff SE model
+diff<00:11:11.480><c> SE</c><00:11:11.880><c> architecture.</c><00:11:13.080><c> It</c><00:11:13.280><c> check</c><00:11:13.560><c> whether</c>
+
+00:11:13.790 --> 00:11:13.800 align:start position:0%
+diff SE architecture. It check whether
+ 
+
+00:11:13.800 --> 00:11:16.390 align:start position:0%
+diff SE architecture. It check whether
+the<00:11:13.920><c> top</c><00:11:14.440><c> backdoor</c><00:11:14.880><c> shape</c><00:11:15.160><c> feature</c><00:11:15.600><c> fires</c><00:11:16.280><c> on</c>
+
+00:11:16.390 --> 00:11:16.400 align:start position:0%
+the top backdoor shape feature fires on
+ 
+
+00:11:16.400 --> 00:11:18.710 align:start position:0%
+the top backdoor shape feature fires on
+the<00:11:16.520><c> prob</c><00:11:16.839><c> set</c><00:11:17.080><c> prob</c><00:11:17.360><c> set.</c>
+
+00:11:18.710 --> 00:11:18.720 align:start position:0%
+the prob set prob set.
+ 
+
+00:11:18.720 --> 00:11:21.990 align:start position:0%
+the prob set prob set.
+If<00:11:18.880><c> it</c><00:11:19.000><c> doesn't,</c><00:11:19.839><c> ship</c><00:11:20.200><c> it.</c><00:11:20.760><c> If</c><00:11:20.920><c> it</c><00:11:21.000><c> does,</c><00:11:21.680><c> gate</c>
+
+00:11:21.990 --> 00:11:22.000 align:start position:0%
+If it doesn't, ship it. If it does, gate
+ 
+
+00:11:22.000 --> 00:11:24.390 align:start position:0%
+If it doesn't, ship it. If it does, gate
+the<00:11:22.120><c> build</c><00:11:22.720><c> alert</c><00:11:23.520><c> because</c><00:11:23.839><c> the</c><00:11:23.920><c> feature</c><00:11:24.240><c> is</c>
+
+00:11:24.390 --> 00:11:24.400 align:start position:0%
+the build alert because the feature is
+ 
+
+00:11:24.400 --> 00:11:27.190 align:start position:0%
+the build alert because the feature is
+interpretable.<00:11:25.480><c> Actually,</c><00:11:25.920><c> look</c><00:11:26.440><c> at</c><00:11:26.680><c> what</c><00:11:26.960><c> it</c>
+
+00:11:27.190 --> 00:11:27.200 align:start position:0%
+interpretable. Actually, look at what it
+ 
+
+00:11:27.200 --> 00:11:29.430 align:start position:0%
+interpretable. Actually, look at what it
+activates<00:11:27.839><c> on.</c><00:11:28.440><c> The</c><00:11:28.560><c> whole</c><00:11:28.800><c> thing</c><00:11:29.040><c> is</c><00:11:29.200><c> one</c>
+
+00:11:29.430 --> 00:11:29.440 align:start position:0%
+activates on. The whole thing is one
+ 
+
+00:11:29.440 --> 00:11:32.070 align:start position:0%
+activates on. The whole thing is one
+cheap<00:11:29.720><c> forward</c><00:11:30.080><c> pass</c><00:11:30.680><c> per</c><00:11:30.839><c> checkpoint.</c><00:11:31.920><c> And</c>
+
+00:11:32.070 --> 00:11:32.080 align:start position:0%
+cheap forward pass per checkpoint. And
+ 
+
+00:11:32.080 --> 00:11:34.070 align:start position:0%
+cheap forward pass per checkpoint. And
+because<00:11:32.440><c> false</c><00:11:32.720><c> positive</c><00:11:33.160><c> are</c><00:11:33.240><c> near</c><00:11:33.520><c> zero,</c>
+
+00:11:34.070 --> 00:11:34.080 align:start position:0%
+because false positive are near zero,
+ 
+
+00:11:34.080 --> 00:11:35.550 align:start position:0%
+because false positive are near zero,
+it's<00:11:34.280><c> quite</c><00:11:34.600><c> enough</c><00:11:34.840><c> to</c><00:11:34.960><c> leave</c><00:11:35.200><c> running</c><00:11:35.440><c> on</c>
+
+00:11:35.550 --> 00:11:35.560 align:start position:0%
+it's quite enough to leave running on
+ 
+
+00:11:35.560 --> 00:11:36.950 align:start position:0%
+it's quite enough to leave running on
+every<00:11:35.800><c> build</c><00:11:36.080><c> like</c><00:11:36.320><c> a</c><00:11:36.360><c> unit</c><00:11:36.640><c> test</c><00:11:36.840><c> for</c>
+
+00:11:36.950 --> 00:11:36.960 align:start position:0%
+every build like a unit test for
+ 
+
+00:11:36.960 --> 00:11:39.790 align:start position:0%
+every build like a unit test for
+backdoors.
+
+00:11:39.790 --> 00:11:39.800 align:start position:0%
+ 
+ 
+
+00:11:39.800 --> 00:11:43.630 align:start position:0%
+ 
+Now,<00:11:40.800><c> uh</c><00:11:40.880><c> the</c><00:11:41.000><c> playbook</c><00:11:41.440><c> way</c><00:11:41.840><c> we</c><00:11:42.080><c> will</c><00:11:42.560><c> use</c><00:11:43.560><c> uh</c>
+
+00:11:43.630 --> 00:11:43.640 align:start position:0%
+Now, uh the playbook way we will use uh
+ 
+
+00:11:43.640 --> 00:11:46.310 align:start position:0%
+Now, uh the playbook way we will use uh
+to<00:11:43.800><c> summarize</c><00:11:44.320><c> the</c><00:11:44.400><c> practical</c><00:11:44.880><c> takeaways</c><00:11:45.960><c> is</c>
+
+00:11:46.310 --> 00:11:46.320 align:start position:0%
+to summarize the practical takeaways is
+ 
+
+00:11:46.320 --> 00:11:48.150 align:start position:0%
+to summarize the practical takeaways is
+diff<00:11:46.560><c> your</c><00:11:46.720><c> checkpoints,</c><00:11:47.680><c> compute</c>
+
+00:11:48.150 --> 00:11:48.160 align:start position:0%
+diff your checkpoints, compute
+ 
+
+00:11:48.160 --> 00:11:50.870 align:start position:0%
+diff your checkpoints, compute
+activation<00:11:48.720><c> deltas,</c><00:11:49.480><c> and</c><00:11:49.680><c> flag</c><00:11:50.080><c> unusual</c>
+
+00:11:50.870 --> 00:11:50.880 align:start position:0%
+activation deltas, and flag unusual
+ 
+
+00:11:50.880 --> 00:11:52.510 align:start position:0%
+activation deltas, and flag unusual
+directional<00:11:51.400><c> shifts.</c>
+
+00:11:52.510 --> 00:11:52.520 align:start position:0%
+directional shifts.
+ 
+
+00:11:52.520 --> 00:11:54.150 align:start position:0%
+directional shifts.
+One<00:11:52.760><c> middle</c><00:11:53.000><c> layer</c><00:11:53.160><c> is</c><00:11:53.280><c> enough.</c><00:11:53.840><c> Keep</c><00:11:54.040><c> it</c>
+
+00:11:54.150 --> 00:11:54.160 align:start position:0%
+One middle layer is enough. Keep it
+ 
+
+00:11:54.160 --> 00:11:56.830 align:start position:0%
+One middle layer is enough. Keep it
+cheap<00:11:54.400><c> and</c><00:11:54.560><c> small</c><00:11:54.920><c> SAE.</c><00:11:55.840><c> You</c><00:11:55.960><c> get</c><00:11:56.200><c> near</c><00:11:56.560><c> zero</c>
+
+00:11:56.830 --> 00:11:56.840 align:start position:0%
+cheap and small SAE. You get near zero
+ 
+
+00:11:56.840 --> 00:11:59.670 align:start position:0%
+cheap and small SAE. You get near zero
+false<00:11:57.120><c> alarm,</c><00:11:57.480><c> so</c><00:11:57.600><c> it</c><00:11:57.760><c> stays</c><00:11:58.080><c> quiet.</c>
+
+00:11:59.670 --> 00:11:59.680 align:start position:0%
+false alarm, so it stays quiet.
+ 
+
+00:11:59.680 --> 00:12:01.430 align:start position:0%
+false alarm, so it stays quiet.
+Prefer<00:11:59.920><c> the</c><00:12:00.040><c> delta</c><00:12:00.480><c> or</c><00:12:00.680><c> the</c><00:12:00.800><c> joint</c><00:12:01.080><c> features</c>
+
+00:12:01.430 --> 00:12:01.440 align:start position:0%
+Prefer the delta or the joint features
+ 
+
+00:12:01.440 --> 00:12:02.870 align:start position:0%
+Prefer the delta or the joint features
+for<00:12:01.560><c> this</c><00:12:01.760><c> job.</c>
+
+00:12:02.870 --> 00:12:02.880 align:start position:0%
+for this job.
+ 
+
+00:12:02.880 --> 00:12:05.190 align:start position:0%
+for this job.
+And<00:12:03.240><c> when</c><00:12:03.480><c> something</c><00:12:03.960><c> does</c><00:12:04.240><c> fire,</c><00:12:04.640><c> inspect</c>
+
+00:12:05.190 --> 00:12:05.200 align:start position:0%
+And when something does fire, inspect
+ 
+
+00:12:05.200 --> 00:12:07.630 align:start position:0%
+And when something does fire, inspect
+the<00:12:05.280><c> feature</c><00:12:05.960><c> before</c><00:12:06.320><c> you</c><00:12:06.440><c> gate.</c><00:12:07.200><c> You</c><00:12:07.320><c> get</c><00:12:07.480><c> an</c>
+
+00:12:07.630 --> 00:12:07.640 align:start position:0%
+the feature before you gate. You get an
+ 
+
+00:12:07.640 --> 00:12:09.270 align:start position:0%
+the feature before you gate. You get an
+interpretable<00:12:08.240><c> handle</c><00:12:08.720><c> on</c><00:12:08.840><c> what</c><00:12:09.040><c> it's</c>
+
+00:12:09.270 --> 00:12:09.280 align:start position:0%
+interpretable handle on what it's
+ 
+
+00:12:09.280 --> 00:12:12.630 align:start position:0%
+interpretable handle on what it's
+reacting<00:12:09.800><c> to,</c><00:12:10.240><c> not</c><00:12:10.560><c> just</c><00:12:10.840><c> a</c><00:12:10.920><c> yes</c><00:12:11.160><c> or</c><00:12:11.240><c> no.</c>
+
+00:12:12.630 --> 00:12:12.640 align:start position:0%
+reacting to, not just a yes or no.
+ 
+
+00:12:12.640 --> 00:12:14.870 align:start position:0%
+reacting to, not just a yes or no.
+None<00:12:12.920><c> of</c><00:12:12.960><c> this</c><00:12:13.160><c> needs</c><00:12:13.640><c> you</c><00:12:13.840><c> know</c><00:12:14.080><c> to</c><00:12:14.600><c> you</c><00:12:14.760><c> to</c>
+
+00:12:14.870 --> 00:12:14.880 align:start position:0%
+None of this needs you know to you to
+ 
+
+00:12:14.880 --> 00:12:17.630 align:start position:0%
+None of this needs you know to you to
+know<00:12:15.480><c> that</c><00:12:15.760><c> trigger</c><00:12:16.160><c> in</c><00:12:16.320><c> advance.</c><00:12:17.080><c> You</c><00:12:17.280><c> are</c>
+
+00:12:17.630 --> 00:12:17.640 align:start position:0%
+know that trigger in advance. You are
+ 
+
+00:12:17.640 --> 00:12:19.790 align:start position:0%
+know that trigger in advance. You are
+watching<00:12:18.080><c> for</c><00:12:18.280><c> an</c><00:12:18.440><c> anomalous</c><00:12:18.960><c> direction,</c><00:12:19.560><c> not</c>
+
+00:12:19.790 --> 00:12:19.800 align:start position:0%
+watching for an anomalous direction, not
+ 
+
+00:12:19.800 --> 00:12:22.910 align:start position:0%
+watching for an anomalous direction, not
+a<00:12:19.840><c> known</c><00:12:20.120><c> string.</c>
+
+00:12:22.910 --> 00:12:22.920 align:start position:0%
+ 
+ 
+
+00:12:22.920 --> 00:12:25.670 align:start position:0%
+ 
+Now,<00:12:23.360><c> moving</c><00:12:23.720><c> on</c><00:12:23.840><c> to</c><00:12:23.920><c> the</c><00:12:24.040><c> limitations,</c>
+
+00:12:25.670 --> 00:12:25.680 align:start position:0%
+Now, moving on to the limitations,
+ 
+
+00:12:25.680 --> 00:12:27.510 align:start position:0%
+Now, moving on to the limitations,
+uh<00:12:25.800><c> you</c><00:12:25.960><c> need</c><00:12:26.240><c> the</c><00:12:26.360><c> base</c><00:12:26.640><c> checkpoint</c><00:12:27.240><c> to</c><00:12:27.320><c> diff</c>
+
+00:12:27.510 --> 00:12:27.520 align:start position:0%
+uh you need the base checkpoint to diff
+ 
+
+00:12:27.520 --> 00:12:29.550 align:start position:0%
+uh you need the base checkpoint to diff
+against.<00:12:28.240><c> So,</c><00:12:28.480><c> if</c><00:12:28.800><c> all</c><00:12:29.000><c> you</c><00:12:29.120><c> have</c><00:12:29.320><c> is</c><00:12:29.440><c> an</c>
+
+00:12:29.550 --> 00:12:29.560 align:start position:0%
+against. So, if all you have is an
+ 
+
+00:12:29.560 --> 00:12:31.310 align:start position:0%
+against. So, if all you have is an
+opaque<00:12:29.960><c> downloadable</c><00:12:30.680><c> model</c><00:12:30.920><c> with</c><00:12:31.120><c> no</c>
+
+00:12:31.310 --> 00:12:31.320 align:start position:0%
+opaque downloadable model with no
+ 
+
+00:12:31.320 --> 00:12:34.510 align:start position:0%
+opaque downloadable model with no
+reference,<00:12:32.400><c> this</c><00:12:32.680><c> doesn't</c><00:12:32.960><c> apply</c><00:12:33.360><c> as</c><00:12:33.600><c> is.</c>
+
+00:12:34.510 --> 00:12:34.520 align:start position:0%
+reference, this doesn't apply as is.
+ 
+
+00:12:34.520 --> 00:12:36.510 align:start position:0%
+reference, this doesn't apply as is.
+The<00:12:34.600><c> single</c><00:12:34.880><c> feature</c><00:12:35.160><c> catches</c><00:12:35.560><c> about</c><00:12:35.800><c> 25%</c><00:12:36.440><c> of</c>
+
+00:12:36.510 --> 00:12:36.520 align:start position:0%
+The single feature catches about 25% of
+ 
+
+00:12:36.520 --> 00:12:39.430 align:start position:0%
+The single feature catches about 25% of
+triggers,<00:12:36.920><c> so</c><00:12:37.120><c> ensemble</c><00:12:37.760><c> for</c><00:12:37.920><c> coverage.</c>
+
+00:12:39.430 --> 00:12:39.440 align:start position:0%
+triggers, so ensemble for coverage.
+ 
+
+00:12:39.440 --> 00:12:41.790 align:start position:0%
+triggers, so ensemble for coverage.
+We<00:12:39.520><c> tested</c><00:12:39.920><c> one</c><00:12:40.120><c> backdoor</c><00:12:40.480><c> type</c><00:12:41.040><c> on</c><00:12:41.200><c> a</c><00:12:41.240><c> 360</c>
+
+00:12:41.790 --> 00:12:41.800 align:start position:0%
+We tested one backdoor type on a 360
+ 
+
+00:12:41.800 --> 00:12:43.870 align:start position:0%
+We tested one backdoor type on a 360
+million<00:12:42.080><c> parameter</c><00:12:42.520><c> model.</c>
+
+00:12:43.870 --> 00:12:43.880 align:start position:0%
+million parameter model.
+ 
+
+00:12:43.880 --> 00:12:46.150 align:start position:0%
+million parameter model.
+Though<00:12:44.560><c> some</c><00:12:45.000><c> other</c><00:12:45.320><c> literature</c><00:12:45.839><c> already</c>
+
+00:12:46.150 --> 00:12:46.160 align:start position:0%
+Though some other literature already
+ 
+
+00:12:46.160 --> 00:12:47.829 align:start position:0%
+Though some other literature already
+shows<00:12:46.520><c> that</c><00:12:46.720><c> difference</c><00:12:47.080><c> ways</c><00:12:47.320><c> SAE</c><00:12:47.720><c> is</c>
+
+00:12:47.829 --> 00:12:47.839 align:start position:0%
+shows that difference ways SAE is
+ 
+
+00:12:47.839 --> 00:12:49.910 align:start position:0%
+shows that difference ways SAE is
+working<00:12:48.160><c> at</c><00:12:48.320><c> 2</c><00:12:48.480><c> billion,</c><00:12:49.280><c> so</c><00:12:49.480><c> there's</c><00:12:49.760><c> no</c>
+
+00:12:49.910 --> 00:12:49.920 align:start position:0%
+working at 2 billion, so there's no
+ 
+
+00:12:49.920 --> 00:12:52.430 align:start position:0%
+working at 2 billion, so there's no
+reason<00:12:50.240><c> to</c><00:12:50.320><c> expect</c><00:12:50.880><c> it</c><00:12:51.040><c> scales.</c>
+
+00:12:52.430 --> 00:12:52.440 align:start position:0%
+reason to expect it scales.
+ 
+
+00:12:52.440 --> 00:12:54.030 align:start position:0%
+reason to expect it scales.
+So,<00:12:52.560><c> we</c><00:12:52.680><c> have</c><00:12:52.760><c> not</c><00:12:52.960><c> tested</c><00:12:53.320><c> an</c><00:12:53.480><c> adaptive</c>
+
+00:12:54.030 --> 00:12:54.040 align:start position:0%
+So, we have not tested an adaptive
+ 
+
+00:12:54.040 --> 00:12:55.870 align:start position:0%
+So, we have not tested an adaptive
+attacker<00:12:54.760><c> who</c><00:12:54.880><c> knows</c><00:12:55.200><c> you</c><00:12:55.280><c> are</c><00:12:55.360><c> doing</c><00:12:55.680><c> this</c>
+
+00:12:55.870 --> 00:12:55.880 align:start position:0%
+attacker who knows you are doing this
+ 
+
+00:12:55.880 --> 00:12:57.990 align:start position:0%
+attacker who knows you are doing this
+and<00:12:56.000><c> try</c><00:12:56.200><c> to</c><00:12:56.360><c> minimize</c><00:12:56.800><c> the</c><00:12:56.920><c> data.</c><00:12:57.600><c> So,</c><00:12:57.800><c> that's</c>
+
+00:12:57.990 --> 00:12:58.000 align:start position:0%
+and try to minimize the data. So, that's
+ 
+
+00:12:58.000 --> 00:13:00.270 align:start position:0%
+and try to minimize the data. So, that's
+a<00:12:58.080><c> big</c><00:12:58.280><c> open</c><00:12:58.560><c> problem.</c>
+
+00:13:00.270 --> 00:13:00.280 align:start position:0%
+a big open problem.
+ 
+
+00:13:00.280 --> 00:13:01.950 align:start position:0%
+a big open problem.
+And<00:13:00.400><c> you</c><00:13:00.560><c> should</c><00:13:00.720><c> validate</c><00:13:01.200><c> the</c><00:13:01.280><c> threshold</c><00:13:01.800><c> on</c>
+
+00:13:01.950 --> 00:13:01.960 align:start position:0%
+And you should validate the threshold on
+ 
+
+00:13:01.960 --> 00:13:03.710 align:start position:0%
+And you should validate the threshold on
+your<00:13:02.240><c> own</c><00:13:02.440><c> data.</c>
+
+00:13:03.710 --> 00:13:03.720 align:start position:0%
+your own data.
+ 
+
+00:13:03.720 --> 00:13:05.710 align:start position:0%
+your own data.
+So,<00:13:03.839><c> what's</c><00:13:04.080><c> next</c><00:13:04.480><c> is</c><00:13:04.680><c> the</c><00:13:05.080><c> right-hand</c><00:13:05.520><c> side</c>
+
+00:13:05.710 --> 00:13:05.720 align:start position:0%
+So, what's next is the right-hand side
+ 
+
+00:13:05.720 --> 00:13:07.829 align:start position:0%
+So, what's next is the right-hand side
+column,<00:13:06.040><c> which</c><00:13:06.240><c> is</c><00:13:06.560><c> ensembles,</c><00:13:07.480><c> bigger</c>
+
+00:13:07.829 --> 00:13:07.839 align:start position:0%
+column, which is ensembles, bigger
+ 
+
+00:13:07.839 --> 00:13:10.710 align:start position:0%
+column, which is ensembles, bigger
+models,<00:13:08.560><c> more</c><00:13:08.920><c> backdoor</c><00:13:09.360><c> types,</c><00:13:10.080><c> adversarial</c>
+
+00:13:10.710 --> 00:13:10.720 align:start position:0%
+models, more backdoor types, adversarial
+ 
+
+00:13:10.720 --> 00:13:12.910 align:start position:0%
+models, more backdoor types, adversarial
+robustness,<00:13:11.720><c> and</c><00:13:11.839><c> pairing</c><00:13:12.200><c> detection</c><00:13:12.720><c> with</c>
+
+00:13:12.910 --> 00:13:12.920 align:start position:0%
+robustness, and pairing detection with
+ 
+
+00:13:12.920 --> 00:13:16.030 align:start position:0%
+robustness, and pairing detection with
+actually<00:13:13.280><c> removing</c><00:13:13.680><c> the</c><00:13:13.800><c> back</c><00:13:14.120><c> door.</c>
+
+00:13:16.030 --> 00:13:16.040 align:start position:0%
+actually removing the back door.
+ 
+
+00:13:16.040 --> 00:13:17.430 align:start position:0%
+actually removing the back door.
+So,
+
+00:13:17.430 --> 00:13:17.440 align:start position:0%
+So,
+ 
+
+00:13:17.440 --> 00:13:19.670 align:start position:0%
+So,
+uh<00:13:17.520><c> for</c><00:13:17.640><c> the</c><00:13:17.760><c> bottom</c><00:13:18.080><c> line,</c><00:13:18.440><c> actually</c><00:13:19.360><c> your</c>
+
+00:13:19.670 --> 00:13:19.680 align:start position:0%
+uh for the bottom line, actually your
+ 
+
+00:13:19.680 --> 00:13:21.670 align:start position:0%
+uh for the bottom line, actually your
+behavioral<00:13:20.320><c> monitor</c><00:13:20.839><c> is</c><00:13:21.040><c> broken</c><00:13:21.400><c> against</c>
+
+00:13:21.670 --> 00:13:21.680 align:start position:0%
+behavioral monitor is broken against
+ 
+
+00:13:21.680 --> 00:13:23.550 align:start position:0%
+behavioral monitor is broken against
+sleeper<00:13:22.040><c> agents,</c><00:13:22.680><c> and</c><00:13:22.839><c> so</c><00:13:22.960><c> is</c><00:13:23.120><c> the</c><00:13:23.240><c> joint</c>
+
+00:13:23.550 --> 00:13:23.560 align:start position:0%
+sleeper agents, and so is the joint
+ 
+
+00:13:23.560 --> 00:13:25.390 align:start position:0%
+sleeper agents, and so is the joint
+feature<00:13:23.839><c> approach</c><00:13:24.280><c> everyone</c><00:13:24.760><c> reaches</c><00:13:25.200><c> out</c>
+
+00:13:25.390 --> 00:13:25.400 align:start position:0%
+feature approach everyone reaches out
+ 
+
+00:13:25.400 --> 00:13:26.270 align:start position:0%
+feature approach everyone reaches out
+for.
+
+00:13:26.270 --> 00:13:26.280 align:start position:0%
+for.
+ 
+
+00:13:26.280 --> 00:13:29.150 align:start position:0%
+for.
+Now,<00:13:26.440><c> fix</c><00:13:26.760><c> is</c><00:13:27.000><c> to</c><00:13:27.400><c> watch</c><00:13:27.720><c> the</c><00:13:27.880><c> activation</c><00:13:28.360><c> data</c>
+
+00:13:29.150 --> 00:13:29.160 align:start position:0%
+Now, fix is to watch the activation data
+ 
+
+00:13:29.160 --> 00:13:31.070 align:start position:0%
+Now, fix is to watch the activation data
+that<00:13:29.360><c> the</c><00:13:29.440><c> training</c><00:13:29.760><c> data</c><00:13:30.000><c> leaves</c><00:13:30.320><c> behind.</c><00:13:30.960><c> A</c>
+
+00:13:31.070 --> 00:13:31.080 align:start position:0%
+that the training data leaves behind. A
+ 
+
+00:13:31.080 --> 00:13:33.390 align:start position:0%
+that the training data leaves behind. A
+40x<00:13:31.640><c> stronger</c><00:13:32.000><c> signal,</c><00:13:32.560><c> perfect</c><00:13:32.920><c> precision,</c>
+
+00:13:33.390 --> 00:13:33.400 align:start position:0%
+40x stronger signal, perfect precision,
+ 
+
+00:13:33.400 --> 00:13:35.070 align:start position:0%
+40x stronger signal, perfect precision,
+one<00:13:33.640><c> cheap</c><00:13:33.880><c> layer,</c><00:13:34.160><c> easy</c><00:13:34.400><c> to</c><00:13:34.520><c> drop</c><00:13:34.760><c> into</c><00:13:34.960><c> your</c>
+
+00:13:35.070 --> 00:13:35.080 align:start position:0%
+one cheap layer, easy to drop into your
+ 
+
+00:13:35.080 --> 00:13:36.190 align:start position:0%
+one cheap layer, easy to drop into your
+pipeline.
+
+00:13:36.190 --> 00:13:36.200 align:start position:0%
+pipeline.
+ 
+
+00:13:36.200 --> 00:13:37.990 align:start position:0%
+pipeline.
+Backdoors<00:13:36.800><c> are</c><00:13:36.960><c> directions,</c><00:13:37.760><c> and</c><00:13:37.920><c> the</c>
+
+00:13:37.990 --> 00:13:38.000 align:start position:0%
+Backdoors are directions, and the
+ 
+
+00:13:38.000 --> 00:13:40.030 align:start position:0%
+Backdoors are directions, and the
+difference<00:13:38.400><c> is</c><00:13:38.560><c> where</c><00:13:38.760><c> they</c><00:13:38.920><c> live.</c>
+
+00:13:40.030 --> 00:13:40.040 align:start position:0%
+difference is where they live.
+ 
+
+00:13:40.040 --> 00:13:43.630 align:start position:0%
+difference is where they live.
+Now,<00:13:40.880><c> the</c><00:13:41.040><c> paper</c><00:13:41.800><c> that</c><00:13:42.080><c> I</c><00:13:42.200><c> worked</c><00:13:42.560><c> on,</c><00:13:43.400><c> which</c>
+
+00:13:43.630 --> 00:13:43.640 align:start position:0%
+Now, the paper that I worked on, which
+ 
+
+00:13:43.640 --> 00:13:45.510 align:start position:0%
+Now, the paper that I worked on, which
+basically<00:13:44.040><c> formed</c><00:13:44.400><c> a</c><00:13:44.880><c> basis</c><00:13:45.280><c> for</c><00:13:45.400><c> the</c>
+
+00:13:45.510 --> 00:13:45.520 align:start position:0%
+basically formed a basis for the
+ 
+
+00:13:45.520 --> 00:13:47.990 align:start position:0%
+basically formed a basis for the
+presentation,
+
+00:13:47.990 --> 00:13:48.000 align:start position:0%
+presentation,
+ 
+
+00:13:48.000 --> 00:13:50.910 align:start position:0%
+presentation,
+is<00:13:48.520><c> also</c><00:13:49.440><c> a</c><00:13:49.480><c> reference</c><00:13:49.840><c> on</c><00:13:49.920><c> the</c><00:13:50.040><c> GitHub</c><00:13:50.640><c> along</c>
+
+00:13:50.910 --> 00:13:50.920 align:start position:0%
+is also a reference on the GitHub along
+ 
+
+00:13:50.920 --> 00:13:53.230 align:start position:0%
+is also a reference on the GitHub along
+with<00:13:51.080><c> my</c><00:13:51.200><c> code</c><00:13:51.920><c> and</c><00:13:52.160><c> my</c><00:13:52.320><c> email</c><00:13:52.640><c> on</c><00:13:52.760><c> the</c><00:13:52.840><c> screen.</c>
+
+00:13:53.230 --> 00:13:53.240 align:start position:0%
+with my code and my email on the screen.
+ 
+
+00:13:53.240 --> 00:13:54.510 align:start position:0%
+with my code and my email on the screen.
+Thanks<00:13:53.480><c> for</c><00:13:53.640><c> watching.</c><00:13:53.960><c> I'd</c><00:13:54.040><c> love</c><00:13:54.240><c> to</c><00:13:54.320><c> hear</c>
+
+00:13:54.510 --> 00:13:54.520 align:start position:0%
+Thanks for watching. I'd love to hear
+ 
+
+00:13:54.520 --> 00:13:57.800 align:start position:0%
+Thanks for watching. I'd love to hear
+what<00:13:54.680><c> you</c><00:13:54.760><c> find</c><00:13:55.080><c> when</c><00:13:55.200><c> you</c><00:13:55.320><c> run</c><00:13:55.480><c> it.</c>
+

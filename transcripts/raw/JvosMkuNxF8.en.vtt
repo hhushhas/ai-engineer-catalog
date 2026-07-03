@@ -1,0 +1,3384 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:13.755 --> 00:00:21.029 align:start position:0%
+ 
+[music]
+
+00:00:21.029 --> 00:00:21.039 align:start position:0%
+ 
+ 
+
+00:00:21.039 --> 00:00:25.189 align:start position:0%
+ 
+So<00:00:21.359><c> companies</c><00:00:21.760><c> spend</c><00:00:22.400><c> millions</c><00:00:23.119><c> on</c><00:00:24.560><c> AI</c><00:00:24.880><c> tools</c>
+
+00:00:25.189 --> 00:00:25.199 align:start position:0%
+So companies spend millions on AI tools
+ 
+
+00:00:25.199 --> 00:00:27.349 align:start position:0%
+So companies spend millions on AI tools
+for<00:00:25.439><c> software</c><00:00:25.840><c> engineering.</c><00:00:26.800><c> But</c><00:00:27.039><c> do</c><00:00:27.199><c> we</c>
+
+00:00:27.349 --> 00:00:27.359 align:start position:0%
+for software engineering. But do we
+ 
+
+00:00:27.359 --> 00:00:29.349 align:start position:0%
+for software engineering. But do we
+actually<00:00:27.680><c> know</c><00:00:28.000><c> how</c><00:00:28.320><c> well</c><00:00:28.560><c> these</c><00:00:28.800><c> tools</c><00:00:29.199><c> work</c>
+
+00:00:29.349 --> 00:00:29.359 align:start position:0%
+actually know how well these tools work
+ 
+
+00:00:29.359 --> 00:00:31.910 align:start position:0%
+actually know how well these tools work
+in<00:00:29.599><c> the</c><00:00:29.679><c> enterprise</c><00:00:30.560><c> or</c><00:00:31.039><c> are</c><00:00:31.279><c> these</c><00:00:31.519><c> tools</c>
+
+00:00:31.910 --> 00:00:31.920 align:start position:0%
+in the enterprise or are these tools
+ 
+
+00:00:31.920 --> 00:00:35.110 align:start position:0%
+in the enterprise or are these tools
+just<00:00:32.160><c> all</c><00:00:32.399><c> hype?</c><00:00:33.680><c> To</c><00:00:34.000><c> answer</c><00:00:34.239><c> this</c><00:00:34.719><c> and</c><00:00:34.960><c> for</c>
+
+00:00:35.110 --> 00:00:35.120 align:start position:0%
+just all hype? To answer this and for
+ 
+
+00:00:35.120 --> 00:00:36.709 align:start position:0%
+just all hype? To answer this and for
+the<00:00:35.280><c> past</c><00:00:35.440><c> two</c><00:00:35.600><c> years,</c><00:00:36.239><c> we've</c><00:00:36.480><c> been</c>
+
+00:00:36.709 --> 00:00:36.719 align:start position:0%
+the past two years, we've been
+ 
+
+00:00:36.719 --> 00:00:38.950 align:start position:0%
+the past two years, we've been
+researching<00:00:37.120><c> the</c><00:00:37.360><c> impact</c><00:00:37.600><c> of</c><00:00:37.760><c> AI</c><00:00:38.239><c> on</c><00:00:38.559><c> software</c>
+
+00:00:38.950 --> 00:00:38.960 align:start position:0%
+researching the impact of AI on software
+ 
+
+00:00:38.960 --> 00:00:41.350 align:start position:0%
+researching the impact of AI on software
+engineering<00:00:39.440><c> productivity.</c><00:00:40.640><c> And</c><00:00:41.040><c> our</c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+engineering productivity. And our
+ 
+
+00:00:41.360 --> 00:00:43.590 align:start position:0%
+engineering productivity. And our
+research<00:00:41.680><c> is</c><00:00:41.920><c> time</c><00:00:42.239><c> series</c><00:00:42.719><c> because</c><00:00:43.120><c> we</c><00:00:43.360><c> look</c>
+
+00:00:43.590 --> 00:00:43.600 align:start position:0%
+research is time series because we look
+ 
+
+00:00:43.600 --> 00:00:45.590 align:start position:0%
+research is time series because we look
+at<00:00:44.000><c> get</c><00:00:44.239><c> historical</c><00:00:44.719><c> data,</c><00:00:45.120><c> meaning</c><00:00:45.280><c> we</c><00:00:45.520><c> can</c>
+
+00:00:45.590 --> 00:00:45.600 align:start position:0%
+at get historical data, meaning we can
+ 
+
+00:00:45.600 --> 00:00:47.430 align:start position:0%
+at get historical data, meaning we can
+go<00:00:45.760><c> back</c><00:00:45.920><c> in</c><00:00:46.160><c> time.</c><00:00:46.800><c> And</c><00:00:46.960><c> it's</c><00:00:47.120><c> also</c>
+
+00:00:47.430 --> 00:00:47.440 align:start position:0%
+go back in time. And it's also
+ 
+
+00:00:47.440 --> 00:00:49.270 align:start position:0%
+go back in time. And it's also
+cross-sectional<00:00:48.160><c> because</c><00:00:48.399><c> we</c><00:00:48.640><c> cut</c><00:00:48.879><c> across</c>
+
+00:00:49.270 --> 00:00:49.280 align:start position:0%
+cross-sectional because we cut across
+ 
+
+00:00:49.280 --> 00:00:53.029 align:start position:0%
+cross-sectional because we cut across
+companies.<00:00:50.480><c> And</c><00:00:50.719><c> the</c><00:00:50.960><c> way</c><00:00:51.200><c> we</c><00:00:51.840><c> use</c><00:00:52.160><c> to</c><00:00:52.640><c> measure</c>
+
+00:00:53.029 --> 00:00:53.039 align:start position:0%
+companies. And the way we use to measure
+ 
+
+00:00:53.039 --> 00:00:55.830 align:start position:0%
+companies. And the way we use to measure
+most<00:00:53.360><c> of</c><00:00:53.520><c> the</c><00:00:53.680><c> of</c><00:00:53.920><c> the</c><00:00:54.079><c> impact</c><00:00:54.480><c> is</c><00:00:55.120><c> by</c><00:00:55.520><c> a</c>
+
+00:00:55.830 --> 00:00:55.840 align:start position:0%
+most of the of the impact is by a
+ 
+
+00:00:55.840 --> 00:00:57.830 align:start position:0%
+most of the of the impact is by a
+machine<00:00:56.160><c> learning</c><00:00:56.480><c> model</c><00:00:56.800><c> that</c><00:00:57.039><c> replicates</c><00:00:57.600><c> a</c>
+
+00:00:57.830 --> 00:00:57.840 align:start position:0%
+machine learning model that replicates a
+ 
+
+00:00:57.840 --> 00:01:00.470 align:start position:0%
+machine learning model that replicates a
+panel<00:00:58.079><c> of</c><00:00:58.239><c> human</c><00:00:58.559><c> experts.</c><00:00:59.840><c> The</c><00:01:00.079><c> way</c><00:01:00.239><c> this</c>
+
+00:01:00.470 --> 00:01:00.480 align:start position:0%
+panel of human experts. The way this
+ 
+
+00:01:00.480 --> 00:01:03.110 align:start position:0%
+panel of human experts. The way this
+works<00:01:00.719><c> is</c><00:01:00.960><c> that</c><00:01:01.199><c> imagine</c><00:01:01.680><c> you</c><00:01:02.000><c> have</c><00:01:02.320><c> a</c>
+
+00:01:03.110 --> 00:01:03.120 align:start position:0%
+works is that imagine you have a
+ 
+
+00:01:03.120 --> 00:01:05.109 align:start position:0%
+works is that imagine you have a
+software<00:01:03.520><c> engineer</c><00:01:03.920><c> who</c><00:01:04.239><c> writes</c><00:01:04.559><c> a</c><00:01:04.799><c> code</c>
+
+00:01:05.109 --> 00:01:05.119 align:start position:0%
+software engineer who writes a code
+ 
+
+00:01:05.119 --> 00:01:07.270 align:start position:0%
+software engineer who writes a code
+commit<00:01:05.680><c> and</c><00:01:05.920><c> this</c><00:01:06.159><c> code</c><00:01:06.400><c> commit</c><00:01:06.880><c> would</c><00:01:07.119><c> be</c>
+
+00:01:07.270 --> 00:01:07.280 align:start position:0%
+commit and this code commit would be
+ 
+
+00:01:07.280 --> 00:01:10.469 align:start position:0%
+commit and this code commit would be
+evaluated<00:01:08.080><c> by</c><00:01:08.560><c> multiple</c><00:01:09.119><c> panels</c><00:01:09.680><c> or</c><00:01:09.840><c> of</c><00:01:10.240><c> 10</c>
+
+00:01:10.469 --> 00:01:10.479 align:start position:0%
+evaluated by multiple panels or of 10
+ 
+
+00:01:10.479 --> 00:01:12.950 align:start position:0%
+evaluated by multiple panels or of 10
+and<00:01:10.799><c> 15</c><00:01:11.119><c> independent</c><00:01:11.600><c> experts</c><00:01:12.479><c> who</c><00:01:12.720><c> would</c>
+
+00:01:12.950 --> 00:01:12.960 align:start position:0%
+and 15 independent experts who would
+ 
+
+00:01:12.960 --> 00:01:15.030 align:start position:0%
+and 15 independent experts who would
+evaluate<00:01:13.520><c> that</c><00:01:13.680><c> code</c><00:01:14.000><c> commit</c><00:01:14.560><c> across</c>
+
+00:01:15.030 --> 00:01:15.040 align:start position:0%
+evaluate that code commit across
+ 
+
+00:01:15.040 --> 00:01:17.590 align:start position:0%
+evaluate that code commit across
+implementation<00:01:15.760><c> time</c><00:01:16.080><c> maintainability</c><00:01:17.280><c> and</c>
+
+00:01:17.590 --> 00:01:17.600 align:start position:0%
+implementation time maintainability and
+ 
+
+00:01:17.600 --> 00:01:19.590 align:start position:0%
+implementation time maintainability and
+complexity<00:01:18.240><c> and</c><00:01:18.479><c> then</c><00:01:18.720><c> produce</c><00:01:18.960><c> an</c><00:01:19.200><c> output</c>
+
+00:01:19.590 --> 00:01:19.600 align:start position:0%
+complexity and then produce an output
+ 
+
+00:01:19.600 --> 00:01:22.390 align:start position:0%
+complexity and then produce an output
+evaluation.<00:01:20.960><c> So</c><00:01:21.119><c> we</c><00:01:21.280><c> took</c><00:01:21.520><c> the</c><00:01:21.680><c> labels</c><00:01:22.159><c> of</c>
+
+00:01:22.390 --> 00:01:22.400 align:start position:0%
+evaluation. So we took the labels of
+ 
+
+00:01:22.400 --> 00:01:24.630 align:start position:0%
+evaluation. So we took the labels of
+these<00:01:22.640><c> panels</c><00:01:23.200><c> across</c><00:01:23.680><c> you</c><00:01:23.759><c> know</c><00:01:24.159><c> millions</c><00:01:24.560><c> of</c>
+
+00:01:24.630 --> 00:01:24.640 align:start position:0%
+these panels across you know millions of
+ 
+
+00:01:24.640 --> 00:01:26.789 align:start position:0%
+these panels across you know millions of
+of<00:01:24.960><c> kind</c><00:01:25.119><c> of</c><00:01:25.280><c> evaluations</c><00:01:26.000><c> and</c><00:01:26.240><c> then</c><00:01:26.479><c> trained</c>
+
+00:01:26.789 --> 00:01:26.799 align:start position:0%
+of kind of evaluations and then trained
+ 
+
+00:01:26.799 --> 00:01:28.870 align:start position:0%
+of kind of evaluations and then trained
+a<00:01:27.040><c> model</c><00:01:27.280><c> to</c><00:01:27.600><c> replicate</c><00:01:28.159><c> this</c><00:01:28.400><c> panel</c><00:01:28.720><c> of</c>
+
+00:01:28.870 --> 00:01:28.880 align:start position:0%
+a model to replicate this panel of
+ 
+
+00:01:28.880 --> 00:01:30.550 align:start position:0%
+a model to replicate this panel of
+experts<00:01:29.360><c> meaning</c><00:01:29.520><c> that</c><00:01:29.759><c> we</c><00:01:30.000><c> can</c><00:01:30.080><c> deploy</c><00:01:30.400><c> this</c>
+
+00:01:30.550 --> 00:01:30.560 align:start position:0%
+experts meaning that we can deploy this
+ 
+
+00:01:30.560 --> 00:01:33.190 align:start position:0%
+experts meaning that we can deploy this
+at<00:01:30.799><c> scale</c><00:01:31.680><c> and</c><00:01:32.000><c> if</c><00:01:32.240><c> there's</c><00:01:32.479><c> ever</c><00:01:32.640><c> any</c><00:01:32.880><c> doubts</c>
+
+00:01:33.190 --> 00:01:33.200 align:start position:0%
+at scale and if there's ever any doubts
+ 
+
+00:01:33.200 --> 00:01:35.350 align:start position:0%
+at scale and if there's ever any doubts
+around<00:01:33.439><c> the</c><00:01:33.680><c> model's</c><00:01:34.240><c> output</c><00:01:34.720><c> you</c><00:01:34.960><c> can</c><00:01:35.040><c> always</c>
+
+00:01:35.350 --> 00:01:35.360 align:start position:0%
+around the model's output you can always
+ 
+
+00:01:35.360 --> 00:01:37.109 align:start position:0%
+around the model's output you can always
+kind<00:01:35.600><c> of</c><00:01:35.680><c> assemble</c><00:01:36.159><c> your</c><00:01:36.320><c> own</c><00:01:36.479><c> panel</c><00:01:36.799><c> and</c><00:01:36.960><c> see</c>
+
+00:01:37.109 --> 00:01:37.119 align:start position:0%
+kind of assemble your own panel and see
+ 
+
+00:01:37.119 --> 00:01:38.310 align:start position:0%
+kind of assemble your own panel and see
+that<00:01:37.280><c> it</c><00:01:37.439><c> correlates</c><00:01:37.840><c> pretty</c><00:01:38.000><c> well</c><00:01:38.159><c> with</c>
+
+00:01:38.310 --> 00:01:38.320 align:start position:0%
+that it correlates pretty well with
+ 
+
+00:01:38.320 --> 00:01:40.789 align:start position:0%
+that it correlates pretty well with
+reality.
+
+00:01:40.789 --> 00:01:40.799 align:start position:0%
+reality.
+ 
+
+00:01:40.799 --> 00:01:42.710 align:start position:0%
+reality.
+Today<00:01:41.119><c> we'll</c><00:01:41.360><c> talk</c><00:01:41.520><c> about</c><00:01:41.759><c> four</c><00:01:42.000><c> things.</c>
+
+00:01:42.710 --> 00:01:42.720 align:start position:0%
+Today we'll talk about four things.
+ 
+
+00:01:42.720 --> 00:01:44.390 align:start position:0%
+Today we'll talk about four things.
+We'll<00:01:43.040><c> start</c><00:01:43.200><c> off</c><00:01:43.439><c> with</c><00:01:43.759><c> looking</c><00:01:43.920><c> at</c><00:01:44.079><c> some</c><00:01:44.320><c> of</c>
+
+00:01:44.390 --> 00:01:44.400 align:start position:0%
+We'll start off with looking at some of
+ 
+
+00:01:44.400 --> 00:01:46.069 align:start position:0%
+We'll start off with looking at some of
+the<00:01:44.560><c> things</c><00:01:44.720><c> that</c><00:01:44.960><c> are</c><00:01:45.200><c> driving</c><00:01:45.759><c> AI</c>
+
+00:01:46.069 --> 00:01:46.079 align:start position:0%
+the things that are driving AI
+ 
+
+00:01:46.079 --> 00:01:48.950 align:start position:0%
+the things that are driving AI
+productivity<00:01:46.560><c> gains</c><00:01:46.880><c> in</c><00:01:47.200><c> software.</c><00:01:48.560><c> Then</c>
+
+00:01:48.950 --> 00:01:48.960 align:start position:0%
+productivity gains in software. Then
+ 
+
+00:01:48.960 --> 00:01:51.830 align:start position:0%
+productivity gains in software. Then
+we'll<00:01:49.280><c> look</c><00:01:49.600><c> at</c><00:01:50.000><c> a</c><00:01:50.399><c> AI</c><00:01:50.880><c> practices</c><00:01:51.360><c> benchmark</c>
+
+00:01:51.830 --> 00:01:51.840 align:start position:0%
+we'll look at a AI practices benchmark
+ 
+
+00:01:51.840 --> 00:01:54.710 align:start position:0%
+we'll look at a AI practices benchmark
+that<00:01:52.000><c> we</c><00:01:52.240><c> developed.</c><00:01:53.600><c> We'll</c><00:01:53.920><c> then</c><00:01:54.399><c> look</c><00:01:54.560><c> at</c>
+
+00:01:54.710 --> 00:01:54.720 align:start position:0%
+that we developed. We'll then look at
+ 
+
+00:01:54.720 --> 00:01:57.429 align:start position:0%
+that we developed. We'll then look at
+how<00:01:55.040><c> we</c><00:01:55.360><c> propose</c><00:01:55.759><c> to</c><00:01:56.000><c> measure</c><00:01:56.399><c> AI</c><00:01:56.960><c> return</c><00:01:57.200><c> on</c>
+
+00:01:57.429 --> 00:01:57.439 align:start position:0%
+how we propose to measure AI return on
+ 
+
+00:01:57.439 --> 00:01:59.270 align:start position:0%
+how we propose to measure AI return on
+investment<00:01:57.840><c> in</c><00:01:58.079><c> software</c><00:01:58.399><c> engineering.</c><00:01:59.040><c> And</c>
+
+00:01:59.270 --> 00:01:59.280 align:start position:0%
+investment in software engineering. And
+ 
+
+00:01:59.280 --> 00:02:01.030 align:start position:0%
+investment in software engineering. And
+lastly,<00:01:59.680><c> we'll</c><00:02:00.000><c> finish</c><00:02:00.240><c> things</c><00:02:00.479><c> off</c><00:02:00.640><c> with</c><00:02:00.880><c> a</c>
+
+00:02:01.030 --> 00:02:01.040 align:start position:0%
+lastly, we'll finish things off with a
+ 
+
+00:02:01.040 --> 00:02:03.910 align:start position:0%
+lastly, we'll finish things off with a
+case<00:02:01.280><c> study.</c>
+
+00:02:03.910 --> 00:02:03.920 align:start position:0%
+case study.
+ 
+
+00:02:03.920 --> 00:02:07.109 align:start position:0%
+case study.
+So<00:02:04.159><c> here</c><00:02:04.640><c> we</c><00:02:04.880><c> took</c><00:02:05.439><c> 46</c><00:02:06.000><c> teams</c><00:02:06.399><c> that</c><00:02:06.640><c> were</c><00:02:06.799><c> using</c>
+
+00:02:07.109 --> 00:02:07.119 align:start position:0%
+So here we took 46 teams that were using
+ 
+
+00:02:07.119 --> 00:02:10.389 align:start position:0%
+So here we took 46 teams that were using
+AI<00:02:07.759><c> and</c><00:02:08.000><c> we</c><00:02:08.160><c> matched</c><00:02:08.560><c> them</c><00:02:09.039><c> with</c><00:02:09.360><c> 46</c><00:02:09.920><c> similar</c>
+
+00:02:10.389 --> 00:02:10.399 align:start position:0%
+AI and we matched them with 46 similar
+ 
+
+00:02:10.399 --> 00:02:13.510 align:start position:0%
+AI and we matched them with 46 similar
+teams<00:02:10.800><c> that</c><00:02:11.039><c> were</c><00:02:11.280><c> not</c><00:02:11.520><c> using</c><00:02:11.840><c> AI</c><00:02:13.040><c> and</c><00:02:13.280><c> we</c>
+
+00:02:13.510 --> 00:02:13.520 align:start position:0%
+teams that were not using AI and we
+ 
+
+00:02:13.520 --> 00:02:15.510 align:start position:0%
+teams that were not using AI and we
+measured<00:02:13.920><c> their</c><00:02:14.160><c> net</c><00:02:14.480><c> productivity</c><00:02:14.959><c> gains</c>
+
+00:02:15.510 --> 00:02:15.520 align:start position:0%
+measured their net productivity gains
+ 
+
+00:02:15.520 --> 00:02:19.030 align:start position:0%
+measured their net productivity gains
+from<00:02:15.840><c> AI</c><00:02:16.239><c> quarterly.</c><00:02:17.680><c> And</c><00:02:18.160><c> the</c><00:02:18.400><c> shaded</c><00:02:18.800><c> area</c>
+
+00:02:19.030 --> 00:02:19.040 align:start position:0%
+from AI quarterly. And the shaded area
+ 
+
+00:02:19.040 --> 00:02:21.670 align:start position:0%
+from AI quarterly. And the shaded area
+is<00:02:19.280><c> the</c><00:02:19.440><c> middle</c><00:02:19.760><c> 50%</c><00:02:20.319><c> of</c><00:02:20.480><c> the</c><00:02:20.640><c> data</c><00:02:21.280><c> and</c><00:02:21.440><c> the</c>
+
+00:02:21.670 --> 00:02:21.680 align:start position:0%
+is the middle 50% of the data and the
+ 
+
+00:02:21.680 --> 00:02:23.830 align:start position:0%
+is the middle 50% of the data and the
+dark<00:02:21.920><c> blue</c><00:02:22.239><c> line</c><00:02:22.480><c> is</c><00:02:22.720><c> the</c><00:02:22.879><c> median</c><00:02:23.280><c> which</c><00:02:23.520><c> as</c><00:02:23.680><c> of</c>
+
+00:02:23.830 --> 00:02:23.840 align:start position:0%
+dark blue line is the median which as of
+ 
+
+00:02:23.840 --> 00:02:25.990 align:start position:0%
+dark blue line is the median which as of
+July<00:02:24.080><c> of</c><00:02:24.239><c> this</c><00:02:24.400><c> year</c><00:02:24.720><c> stands</c><00:02:25.040><c> at</c><00:02:25.200><c> about</c><00:02:25.440><c> 10%</c>
+
+00:02:25.990 --> 00:02:26.000 align:start position:0%
+July of this year stands at about 10%
+ 
+
+00:02:26.000 --> 00:02:28.229 align:start position:0%
+July of this year stands at about 10%
+for<00:02:26.160><c> this</c><00:02:26.319><c> cohort.</c>
+
+00:02:28.229 --> 00:02:28.239 align:start position:0%
+for this cohort.
+ 
+
+00:02:28.239 --> 00:02:29.910 align:start position:0%
+for this cohort.
+I'd<00:02:28.560><c> like</c><00:02:28.640><c> to</c><00:02:28.800><c> direct</c><00:02:29.040><c> your</c><00:02:29.200><c> attention</c><00:02:29.520><c> to</c><00:02:29.680><c> the</c>
+
+00:02:29.910 --> 00:02:29.920 align:start position:0%
+I'd like to direct your attention to the
+ 
+
+00:02:29.920 --> 00:02:32.550 align:start position:0%
+I'd like to direct your attention to the
+fact<00:02:30.160><c> that</c><00:02:30.800><c> the</c><00:02:31.520><c> discrepancy</c><00:02:32.160><c> between</c><00:02:32.400><c> the</c>
+
+00:02:32.550 --> 00:02:32.560 align:start position:0%
+fact that the discrepancy between the
+ 
+
+00:02:32.560 --> 00:02:34.470 align:start position:0%
+fact that the discrepancy between the
+top<00:02:32.800><c> performers</c><00:02:33.200><c> and</c><00:02:33.360><c> the</c><00:02:33.519><c> bottom</c><00:02:33.760><c> ones</c><00:02:34.160><c> is</c>
+
+00:02:34.470 --> 00:02:34.480 align:start position:0%
+top performers and the bottom ones is
+ 
+
+00:02:34.480 --> 00:02:37.270 align:start position:0%
+top performers and the bottom ones is
+increasing.<00:02:35.040><c> There's</c><00:02:35.280><c> a</c><00:02:35.440><c> widening</c><00:02:35.920><c> gap.</c><00:02:37.120><c> And</c>
+
+00:02:37.270 --> 00:02:37.280 align:start position:0%
+increasing. There's a widening gap. And
+ 
+
+00:02:37.280 --> 00:02:40.070 align:start position:0%
+increasing. There's a widening gap. And
+so<00:02:37.519><c> if</c><00:02:37.760><c> we</c><00:02:38.000><c> very</c><00:02:38.400><c> unscientifically</c><00:02:39.440><c> and</c><00:02:39.680><c> very</c>
+
+00:02:40.070 --> 00:02:40.080 align:start position:0%
+so if we very unscientifically and very
+ 
+
+00:02:40.080 --> 00:02:42.309 align:start position:0%
+so if we very unscientifically and very
+illustratively<00:02:40.720><c> project</c><00:02:41.040><c> this</c><00:02:41.280><c> forward,</c><00:02:42.160><c> we</c>
+
+00:02:42.309 --> 00:02:42.319 align:start position:0%
+illustratively project this forward, we
+ 
+
+00:02:42.319 --> 00:02:44.150 align:start position:0%
+illustratively project this forward, we
+might<00:02:42.560><c> get</c><00:02:42.800><c> something</c><00:02:43.040><c> like</c><00:02:43.200><c> this,</c><00:02:43.519><c> right?</c>
+
+00:02:44.150 --> 00:02:44.160 align:start position:0%
+might get something like this, right?
+ 
+
+00:02:44.160 --> 00:02:45.830 align:start position:0%
+might get something like this, right?
+where<00:02:44.720><c> uh</c><00:02:44.800><c> you</c><00:02:45.040><c> can</c><00:02:45.200><c> have</c><00:02:45.360><c> these</c><00:02:45.599><c> top</c>
+
+00:02:45.830 --> 00:02:45.840 align:start position:0%
+where uh you can have these top
+ 
+
+00:02:45.840 --> 00:02:48.550 align:start position:0%
+where uh you can have these top
+performers<00:02:47.040><c> being</c><00:02:47.360><c> part</c><00:02:47.519><c> of</c><00:02:47.680><c> this</c><00:02:47.920><c> the</c><00:02:48.239><c> rich</c>
+
+00:02:48.550 --> 00:02:48.560 align:start position:0%
+performers being part of this the rich
+ 
+
+00:02:48.560 --> 00:02:50.790 align:start position:0%
+performers being part of this the rich
+gets<00:02:48.879><c> richer</c><00:02:49.280><c> effect</c><00:02:49.680><c> where</c><00:02:49.920><c> they</c><00:02:50.319><c> these</c>
+
+00:02:50.790 --> 00:02:50.800 align:start position:0%
+gets richer effect where they these
+ 
+
+00:02:50.800 --> 00:02:52.869 align:start position:0%
+gets richer effect where they these
+successful<00:02:51.280><c> early</c><00:02:51.599><c> AI</c><00:02:51.920><c> adopters</c><00:02:52.560><c> might</c>
+
+00:02:52.869 --> 00:02:52.879 align:start position:0%
+successful early AI adopters might
+ 
+
+00:02:52.879 --> 00:02:54.229 align:start position:0%
+successful early AI adopters might
+compound<00:02:53.280><c> their</c><00:02:53.440><c> gains</c><00:02:53.760><c> while</c><00:02:54.000><c> these</c>
+
+00:02:54.229 --> 00:02:54.239 align:start position:0%
+compound their gains while these
+ 
+
+00:02:54.239 --> 00:02:56.630 align:start position:0%
+compound their gains while these
+strugglers<00:02:54.720><c> could</c><00:02:54.879><c> fall</c><00:02:55.120><c> further</c><00:02:55.440><c> behind.</c><00:02:56.400><c> At</c>
+
+00:02:56.630 --> 00:02:56.640 align:start position:0%
+strugglers could fall further behind. At
+ 
+
+00:02:56.640 --> 00:02:58.229 align:start position:0%
+strugglers could fall further behind. At
+some<00:02:56.879><c> point</c><00:02:57.120><c> this</c><00:02:57.280><c> is</c><00:02:57.440><c> going</c><00:02:57.519><c> to</c><00:02:57.599><c> converge</c><00:02:58.000><c> and</c>
+
+00:02:58.229 --> 00:02:58.239 align:start position:0%
+some point this is going to converge and
+ 
+
+00:02:58.239 --> 00:03:00.390 align:start position:0%
+some point this is going to converge and
+this<00:02:58.400><c> is</c><00:02:58.560><c> very</c><00:02:58.879><c> directional.</c><00:02:59.840><c> But</c><00:03:00.000><c> my</c><00:03:00.239><c> point</c>
+
+00:03:00.390 --> 00:03:00.400 align:start position:0%
+this is very directional. But my point
+ 
+
+00:03:00.400 --> 00:03:02.229 align:start position:0%
+this is very directional. But my point
+here<00:03:00.720><c> is</c><00:03:00.879><c> that</c><00:03:01.120><c> if</c><00:03:01.360><c> you're</c><00:03:01.440><c> a</c><00:03:01.680><c> leader</c><00:03:01.840><c> in</c><00:03:02.080><c> a</c>
+
+00:03:02.229 --> 00:03:02.239 align:start position:0%
+here is that if you're a leader in a
+ 
+
+00:03:02.239 --> 00:03:04.149 align:start position:0%
+here is that if you're a leader in a
+company,<00:03:02.640><c> you</c><00:03:02.879><c> definitely</c><00:03:03.360><c> need</c><00:03:03.599><c> to</c><00:03:03.760><c> know</c><00:03:03.920><c> in</c>
+
+00:03:04.149 --> 00:03:04.159 align:start position:0%
+company, you definitely need to know in
+ 
+
+00:03:04.159 --> 00:03:05.830 align:start position:0%
+company, you definitely need to know in
+which<00:03:04.400><c> cohort</c><00:03:04.879><c> you</c><00:03:05.040><c> are</c><00:03:05.200><c> right</c><00:03:05.360><c> now</c><00:03:05.519><c> so</c><00:03:05.680><c> that</c>
+
+00:03:05.830 --> 00:03:05.840 align:start position:0%
+which cohort you are right now so that
+ 
+
+00:03:05.840 --> 00:03:07.830 align:start position:0%
+which cohort you are right now so that
+you<00:03:06.000><c> can</c><00:03:06.080><c> course</c><00:03:06.480><c> correct</c><00:03:07.280><c> and</c><00:03:07.519><c> without</c>
+
+00:03:07.830 --> 00:03:07.840 align:start position:0%
+you can course correct and without
+ 
+
+00:03:07.840 --> 00:03:10.149 align:start position:0%
+you can course correct and without
+measuring<00:03:08.319><c> the</c><00:03:08.879><c> impact</c><00:03:09.200><c> of</c><00:03:09.360><c> AI</c><00:03:09.760><c> on</c><00:03:09.920><c> your</c>
+
+00:03:10.149 --> 00:03:10.159 align:start position:0%
+measuring the impact of AI on your
+ 
+
+00:03:10.159 --> 00:03:11.910 align:start position:0%
+measuring the impact of AI on your
+engineers,<00:03:10.879><c> you're</c><00:03:11.200><c> not</c><00:03:11.360><c> going</c><00:03:11.440><c> to</c><00:03:11.599><c> be</c><00:03:11.680><c> able</c>
+
+00:03:11.910 --> 00:03:11.920 align:start position:0%
+engineers, you're not going to be able
+ 
+
+00:03:11.920 --> 00:03:14.470 align:start position:0%
+engineers, you're not going to be able
+to<00:03:12.080><c> do</c><00:03:12.239><c> this.</c>
+
+00:03:14.470 --> 00:03:14.480 align:start position:0%
+to do this.
+ 
+
+00:03:14.480 --> 00:03:16.229 align:start position:0%
+to do this.
+So<00:03:14.720><c> we</c><00:03:14.959><c> started</c><00:03:15.280><c> investigating</c><00:03:15.920><c> what</c><00:03:16.159><c> are</c>
+
+00:03:16.229 --> 00:03:16.239 align:start position:0%
+So we started investigating what are
+ 
+
+00:03:16.239 --> 00:03:18.309 align:start position:0%
+So we started investigating what are
+some<00:03:16.400><c> of</c><00:03:16.480><c> the</c><00:03:16.640><c> factors</c><00:03:17.040><c> that</c><00:03:17.360><c> drive</c><00:03:17.680><c> these</c><00:03:18.000><c> top</c>
+
+00:03:18.309 --> 00:03:18.319 align:start position:0%
+some of the factors that drive these top
+ 
+
+00:03:18.319 --> 00:03:20.630 align:start position:0%
+some of the factors that drive these top
+teams<00:03:18.640><c> to</c><00:03:18.879><c> perform</c><00:03:19.280><c> better</c><00:03:20.080><c> and</c><00:03:20.239><c> the</c><00:03:20.480><c> first</c>
+
+00:03:20.630 --> 00:03:20.640 align:start position:0%
+teams to perform better and the first
+ 
+
+00:03:20.640 --> 00:03:22.710 align:start position:0%
+teams to perform better and the first
+thing<00:03:20.800><c> we</c><00:03:20.959><c> looked</c><00:03:21.200><c> at</c><00:03:21.360><c> is</c><00:03:21.599><c> AI</c><00:03:22.000><c> usage</c><00:03:22.400><c> or</c>
+
+00:03:22.710 --> 00:03:22.720 align:start position:0%
+thing we looked at is AI usage or
+ 
+
+00:03:22.720 --> 00:03:25.270 align:start position:0%
+thing we looked at is AI usage or
+basically<00:03:23.040><c> token</c><00:03:23.519><c> spent.</c><00:03:24.319><c> In</c><00:03:24.480><c> this</c><00:03:24.720><c> graph</c><00:03:25.040><c> you</c>
+
+00:03:25.270 --> 00:03:25.280 align:start position:0%
+basically token spent. In this graph you
+ 
+
+00:03:25.280 --> 00:03:28.149 align:start position:0%
+basically token spent. In this graph you
+have<00:03:25.440><c> the</c><00:03:25.680><c> same</c><00:03:26.400><c> kind</c><00:03:26.640><c> of</c><00:03:27.440><c> on</c><00:03:27.680><c> the</c><00:03:27.840><c> vertical</c>
+
+00:03:28.149 --> 00:03:28.159 align:start position:0%
+have the same kind of on the vertical
+ 
+
+00:03:28.159 --> 00:03:30.149 align:start position:0%
+have the same kind of on the vertical
+axis<00:03:28.480><c> the</c><00:03:28.720><c> productivity</c><00:03:29.440><c> increase</c><00:03:29.840><c> and</c><00:03:30.000><c> then</c>
+
+00:03:30.149 --> 00:03:30.159 align:start position:0%
+axis the productivity increase and then
+ 
+
+00:03:30.159 --> 00:03:32.229 align:start position:0%
+axis the productivity increase and then
+on<00:03:30.319><c> the</c><00:03:30.480><c> horizontal</c><00:03:30.959><c> one</c><00:03:31.280><c> you</c><00:03:31.519><c> have</c><00:03:31.680><c> the</c><00:03:31.840><c> token</c>
+
+00:03:32.229 --> 00:03:32.239 align:start position:0%
+on the horizontal one you have the token
+ 
+
+00:03:32.239 --> 00:03:33.910 align:start position:0%
+on the horizontal one you have the token
+usage<00:03:32.560><c> per</c><00:03:32.799><c> engineer</c><00:03:33.200><c> per</c><00:03:33.440><c> month</c><00:03:33.599><c> on</c><00:03:33.760><c> a</c>
+
+00:03:33.910 --> 00:03:33.920 align:start position:0%
+usage per engineer per month on a
+ 
+
+00:03:33.920 --> 00:03:36.309 align:start position:0%
+usage per engineer per month on a
+logarithmic<00:03:34.480><c> scale.</c><00:03:35.599><c> And</c><00:03:35.760><c> what</c><00:03:35.920><c> you</c><00:03:36.080><c> can</c><00:03:36.159><c> see</c>
+
+00:03:36.309 --> 00:03:36.319 align:start position:0%
+logarithmic scale. And what you can see
+ 
+
+00:03:36.319 --> 00:03:38.229 align:start position:0%
+logarithmic scale. And what you can see
+is<00:03:36.480><c> that</c><00:03:36.640><c> the</c><00:03:36.799><c> correlation</c><00:03:37.200><c> is</c><00:03:37.440><c> quite</c><00:03:37.680><c> loose</c>
+
+00:03:38.229 --> 00:03:38.239 align:start position:0%
+is that the correlation is quite loose
+ 
+
+00:03:38.239 --> 00:03:41.270 align:start position:0%
+is that the correlation is quite loose
+020<00:03:38.879><c> or</c><00:03:39.040><c> so</c><00:03:39.280><c> linearly</c><00:03:40.400><c> and</c><00:03:40.640><c> there</c><00:03:40.799><c> is</c><00:03:40.959><c> a</c><00:03:41.120><c> bit</c><00:03:41.200><c> of</c>
+
+00:03:41.270 --> 00:03:41.280 align:start position:0%
+020 or so linearly and there is a bit of
+ 
+
+00:03:41.280 --> 00:03:43.350 align:start position:0%
+020 or so linearly and there is a bit of
+a<00:03:41.519><c> death</c><00:03:41.840><c> valley</c><00:03:42.239><c> effect</c><00:03:42.640><c> around</c><00:03:42.959><c> the</c><00:03:43.120><c> 10</c>
+
+00:03:43.350 --> 00:03:43.360 align:start position:0%
+a death valley effect around the 10
+ 
+
+00:03:43.360 --> 00:03:46.630 align:start position:0%
+a death valley effect around the 10
+million<00:03:43.840><c> uh</c><00:03:44.080><c> token</c><00:03:44.400><c> mark</c><00:03:45.040><c> whereby</c><00:03:46.239><c> teams</c><00:03:46.480><c> that</c>
+
+00:03:46.630 --> 00:03:46.640 align:start position:0%
+million uh token mark whereby teams that
+ 
+
+00:03:46.640 --> 00:03:48.390 align:start position:0%
+million uh token mark whereby teams that
+were<00:03:46.799><c> using</c><00:03:47.040><c> that</c><00:03:47.280><c> amount</c><00:03:47.440><c> of</c><00:03:47.519><c> tokens</c><00:03:48.000><c> seem</c><00:03:48.239><c> to</c>
+
+00:03:48.390 --> 00:03:48.400 align:start position:0%
+were using that amount of tokens seem to
+ 
+
+00:03:48.400 --> 00:03:49.910 align:start position:0%
+were using that amount of tokens seem to
+be<00:03:48.480><c> doing</c><00:03:48.720><c> worse</c><00:03:49.040><c> than</c><00:03:49.360><c> teams</c><00:03:49.599><c> that</c><00:03:49.760><c> were</c>
+
+00:03:49.910 --> 00:03:49.920 align:start position:0%
+be doing worse than teams that were
+ 
+
+00:03:49.920 --> 00:03:51.430 align:start position:0%
+be doing worse than teams that were
+using<00:03:50.080><c> a</c><00:03:50.319><c> bit</c><00:03:50.480><c> less</c><00:03:50.640><c> tokens.</c><00:03:51.120><c> It's</c><00:03:51.280><c> very</c>
+
+00:03:51.430 --> 00:03:51.440 align:start position:0%
+using a bit less tokens. It's very
+ 
+
+00:03:51.440 --> 00:03:52.789 align:start position:0%
+using a bit less tokens. It's very
+directional<00:03:52.000><c> but</c><00:03:52.319><c> interesting.</c>
+
+00:03:52.789 --> 00:03:52.799 align:start position:0%
+directional but interesting.
+ 
+
+00:03:52.799 --> 00:03:54.550 align:start position:0%
+directional but interesting.
+Nevertheless,
+
+00:03:54.550 --> 00:03:54.560 align:start position:0%
+Nevertheless,
+ 
+
+00:03:54.560 --> 00:03:56.789 align:start position:0%
+Nevertheless,
+the<00:03:54.799><c> conclusion</c><00:03:55.200><c> here</c><00:03:55.519><c> might</c><00:03:55.760><c> be</c><00:03:55.920><c> that</c><00:03:56.239><c> AI</c>
+
+00:03:56.789 --> 00:03:56.799 align:start position:0%
+the conclusion here might be that AI
+ 
+
+00:03:56.799 --> 00:04:00.470 align:start position:0%
+the conclusion here might be that AI
+usage<00:03:57.200><c> quality</c><00:03:58.080><c> matters</c><00:03:58.640><c> more</c><00:03:59.200><c> than</c><00:03:59.519><c> AI</c><00:04:00.000><c> usage</c>
+
+00:04:00.470 --> 00:04:00.480 align:start position:0%
+usage quality matters more than AI usage
+ 
+
+00:04:00.480 --> 00:04:02.229 align:start position:0%
+usage quality matters more than AI usage
+value.
+
+00:04:02.229 --> 00:04:02.239 align:start position:0%
+value.
+ 
+
+00:04:02.239 --> 00:04:05.110 align:start position:0%
+value.
+We<00:04:02.480><c> dug</c><00:04:02.799><c> deeper</c><00:04:03.280><c> and</c><00:04:03.519><c> we</c><00:04:03.680><c> said</c><00:04:03.920><c> well</c><00:04:04.400><c> does</c><00:04:04.720><c> the</c>
+
+00:04:05.110 --> 00:04:05.120 align:start position:0%
+We dug deeper and we said well does the
+ 
+
+00:04:05.120 --> 00:04:07.670 align:start position:0%
+We dug deeper and we said well does the
+environment<00:04:05.760><c> in</c><00:04:06.000><c> which</c><00:04:06.159><c> the</c><00:04:06.480><c> engineers</c><00:04:07.200><c> work</c>
+
+00:04:07.670 --> 00:04:07.680 align:start position:0%
+environment in which the engineers work
+ 
+
+00:04:07.680 --> 00:04:10.309 align:start position:0%
+environment in which the engineers work
+impact<00:04:08.159><c> the</c><00:04:08.480><c> productivity</c><00:04:09.040><c> from</c><00:04:09.280><c> AI</c><00:04:09.920><c> and</c><00:04:10.159><c> we</c>
+
+00:04:10.309 --> 00:04:10.319 align:start position:0%
+impact the productivity from AI and we
+ 
+
+00:04:10.319 --> 00:04:12.550 align:start position:0%
+impact the productivity from AI and we
+came<00:04:10.480><c> up</c><00:04:10.720><c> with</c><00:04:11.360><c> an</c><00:04:11.599><c> environment</c><00:04:12.080><c> cleaniness</c>
+
+00:04:12.550 --> 00:04:12.560 align:start position:0%
+came up with an environment cleaniness
+ 
+
+00:04:12.560 --> 00:04:14.949 align:start position:0%
+came up with an environment cleaniness
+index<00:04:13.200><c> index</c><00:04:13.680><c> it's</c><00:04:13.920><c> quite</c><00:04:14.159><c> experimental</c><00:04:14.720><c> it's</c>
+
+00:04:14.949 --> 00:04:14.959 align:start position:0%
+index index it's quite experimental it's
+ 
+
+00:04:14.959 --> 00:04:17.349 align:start position:0%
+index index it's quite experimental it's
+a<00:04:15.120><c> composite</c><00:04:15.519><c> score</c><00:04:15.920><c> that</c><00:04:16.239><c> looks</c><00:04:16.400><c> at</c><00:04:16.560><c> tests</c>
+
+00:04:17.349 --> 00:04:17.359 align:start position:0%
+a composite score that looks at tests
+ 
+
+00:04:17.359 --> 00:04:20.069 align:start position:0%
+a composite score that looks at tests
+looks<00:04:17.680><c> at</c><00:04:18.079><c> uh</c><00:04:18.320><c> types</c><00:04:18.880><c> and</c><00:04:19.040><c> documentation</c><00:04:19.840><c> and</c>
+
+00:04:20.069 --> 00:04:20.079 align:start position:0%
+looks at uh types and documentation and
+ 
+
+00:04:20.079 --> 00:04:22.710 align:start position:0%
+looks at uh types and documentation and
+at<00:04:20.320><c> modularity</c><00:04:20.799><c> and</c><00:04:20.959><c> at</c><00:04:21.120><c> code</c><00:04:21.359><c> quality</c><00:04:22.240><c> and</c>
+
+00:04:22.710 --> 00:04:22.720 align:start position:0%
+at modularity and at code quality and
+ 
+
+00:04:22.720 --> 00:04:24.550 align:start position:0%
+at modularity and at code quality and
+that<00:04:23.040><c> index</c><00:04:23.360><c> is</c><00:04:23.520><c> on</c><00:04:23.680><c> the</c><00:04:23.759><c> bottom</c><00:04:24.000><c> axis</c><00:04:24.400><c> here</c>
+
+00:04:24.550 --> 00:04:24.560 align:start position:0%
+that index is on the bottom axis here
+ 
+
+00:04:24.560 --> 00:04:26.710 align:start position:0%
+that index is on the bottom axis here
+from<00:04:24.800><c> 0</c><00:04:25.040><c> to</c><00:04:25.360><c> one</c><00:04:25.759><c> and</c><00:04:25.919><c> then</c><00:04:26.080><c> on</c><00:04:26.240><c> the</c><00:04:26.400><c> vertical</c>
+
+00:04:26.710 --> 00:04:26.720 align:start position:0%
+from 0 to one and then on the vertical
+ 
+
+00:04:26.720 --> 00:04:28.230 align:start position:0%
+from 0 to one and then on the vertical
+axis<00:04:27.120><c> once</c><00:04:27.280><c> again</c><00:04:27.520><c> you</c><00:04:27.680><c> have</c><00:04:27.759><c> the</c><00:04:28.000><c> kind</c><00:04:28.080><c> of</c>
+
+00:04:28.230 --> 00:04:28.240 align:start position:0%
+axis once again you have the kind of
+ 
+
+00:04:28.240 --> 00:04:30.070 align:start position:0%
+axis once again you have the kind of
+productivity<00:04:28.720><c> lift</c><00:04:29.040><c> relative</c><00:04:29.360><c> to</c><00:04:29.600><c> teams</c><00:04:29.919><c> not</c>
+
+00:04:30.070 --> 00:04:30.080 align:start position:0%
+productivity lift relative to teams not
+ 
+
+00:04:30.080 --> 00:04:31.430 align:start position:0%
+productivity lift relative to teams not
+using<00:04:30.400><c> AI</c>
+
+00:04:31.430 --> 00:04:31.440 align:start position:0%
+using AI
+ 
+
+00:04:31.440 --> 00:04:33.270 align:start position:0%
+using AI
+And<00:04:31.680><c> so</c><00:04:31.840><c> what</c><00:04:32.000><c> you</c><00:04:32.160><c> can</c><00:04:32.320><c> see</c><00:04:32.479><c> is</c><00:04:32.639><c> that</c><00:04:32.880><c> there's</c>
+
+00:04:33.270 --> 00:04:33.280 align:start position:0%
+And so what you can see is that there's
+ 
+
+00:04:33.280 --> 00:04:35.590 align:start position:0%
+And so what you can see is that there's
+a<00:04:33.600><c> point40</c><00:04:34.160><c> R</c><00:04:34.400><c> squar</c><00:04:34.800><c> meaning</c><00:04:35.040><c> a</c><00:04:35.360><c> pretty</c>
+
+00:04:35.590 --> 00:04:35.600 align:start position:0%
+a point40 R squar meaning a pretty
+ 
+
+00:04:35.600 --> 00:04:38.230 align:start position:0%
+a point40 R squar meaning a pretty
+decent<00:04:36.000><c> correlation</c><00:04:36.720><c> around</c><00:04:37.520><c> environment</c>
+
+00:04:38.230 --> 00:04:38.240 align:start position:0%
+decent correlation around environment
+ 
+
+00:04:38.240 --> 00:04:41.830 align:start position:0%
+decent correlation around environment
+cleanliness<00:04:38.960><c> and</c><00:04:39.440><c> gains</c><00:04:39.840><c> from</c><00:04:40.479><c> uh</c><00:04:40.639><c> AI</c><00:04:41.440><c> or</c>
+
+00:04:41.830 --> 00:04:41.840 align:start position:0%
+cleanliness and gains from uh AI or
+ 
+
+00:04:41.840 --> 00:04:44.230 align:start position:0%
+cleanliness and gains from uh AI or
+productivity<00:04:42.320><c> gains</c><00:04:42.639><c> from</c><00:04:42.800><c> using</c><00:04:43.040><c> AI.</c><00:04:43.919><c> And</c><00:04:44.080><c> so</c>
+
+00:04:44.230 --> 00:04:44.240 align:start position:0%
+productivity gains from using AI. And so
+ 
+
+00:04:44.240 --> 00:04:46.230 align:start position:0%
+productivity gains from using AI. And so
+the<00:04:44.400><c> takeaway</c><00:04:44.880><c> here</c><00:04:45.040><c> is</c><00:04:45.280><c> to</c><00:04:45.600><c> invest</c><00:04:46.000><c> in</c>
+
+00:04:46.230 --> 00:04:46.240 align:start position:0%
+the takeaway here is to invest in
+ 
+
+00:04:46.240 --> 00:04:48.790 align:start position:0%
+the takeaway here is to invest in
+codebase<00:04:46.720><c> hygiene</c><00:04:47.360><c> to</c><00:04:47.680><c> unlock</c><00:04:48.080><c> these</c><00:04:48.400><c> AI</c>
+
+00:04:48.790 --> 00:04:48.800 align:start position:0%
+codebase hygiene to unlock these AI
+ 
+
+00:04:48.800 --> 00:04:51.749 align:start position:0%
+codebase hygiene to unlock these AI
+productivity<00:04:49.280><c> gains.</c>
+
+00:04:51.749 --> 00:04:51.759 align:start position:0%
+productivity gains.
+ 
+
+00:04:51.759 --> 00:04:53.990 align:start position:0%
+productivity gains.
+We<00:04:52.000><c> dug</c><00:04:52.400><c> deeper</c><00:04:52.880><c> to</c><00:04:53.360><c> illustrate</c><00:04:53.680><c> this</c>
+
+00:04:53.990 --> 00:04:54.000 align:start position:0%
+We dug deeper to illustrate this
+ 
+
+00:04:54.000 --> 00:04:56.790 align:start position:0%
+We dug deeper to illustrate this
+concept.<00:04:54.479><c> And</c><00:04:54.720><c> here</c><00:04:55.040><c> we</c><00:04:55.280><c> have</c><00:04:56.080><c> on</c><00:04:56.400><c> this</c><00:04:56.560><c> graph</c>
+
+00:04:56.790 --> 00:04:56.800 align:start position:0%
+concept. And here we have on this graph
+ 
+
+00:04:56.800 --> 00:04:58.870 align:start position:0%
+concept. And here we have on this graph
+on<00:04:56.960><c> the</c><00:04:57.120><c> vertical</c><00:04:57.440><c> axis</c><00:04:58.000><c> the</c><00:04:58.320><c> percentage</c><00:04:58.639><c> of</c>
+
+00:04:58.870 --> 00:04:58.880 align:start position:0%
+on the vertical axis the percentage of
+ 
+
+00:04:58.880 --> 00:05:01.270 align:start position:0%
+on the vertical axis the percentage of
+tasks<00:04:59.360><c> that</c><00:04:59.680><c> might</c><00:05:00.320><c> uh</c><00:05:00.560><c> be</c><00:05:00.800><c> able</c><00:05:01.040><c> to</c><00:05:01.199><c> be</c>
+
+00:05:01.270 --> 00:05:01.280 align:start position:0%
+tasks that might uh be able to be
+ 
+
+00:05:01.280 --> 00:05:03.990 align:start position:0%
+tasks that might uh be able to be
+completed<00:05:01.759><c> by</c><00:05:02.000><c> AI</c><00:05:02.560><c> based</c><00:05:02.800><c> on</c><00:05:02.960><c> three</c><00:05:03.280><c> colors.</c>
+
+00:05:03.990 --> 00:05:04.000 align:start position:0%
+completed by AI based on three colors.
+ 
+
+00:05:04.000 --> 00:05:06.390 align:start position:0%
+completed by AI based on three colors.
+And<00:05:04.160><c> so</c><00:05:04.400><c> green</c><00:05:04.960><c> means</c><00:05:05.199><c> that</c><00:05:05.440><c> AI</c><00:05:05.840><c> can</c><00:05:06.000><c> do</c><00:05:06.160><c> most</c>
+
+00:05:06.390 --> 00:05:06.400 align:start position:0%
+And so green means that AI can do most
+ 
+
+00:05:06.400 --> 00:05:07.909 align:start position:0%
+And so green means that AI can do most
+of<00:05:06.560><c> the</c><00:05:06.720><c> work</c><00:05:06.880><c> for</c><00:05:07.120><c> that</c><00:05:07.280><c> task</c><00:05:07.520><c> in</c><00:05:07.759><c> that</c>
+
+00:05:07.909 --> 00:05:07.919 align:start position:0%
+of the work for that task in that
+ 
+
+00:05:07.919 --> 00:05:10.070 align:start position:0%
+of the work for that task in that
+sprint.<00:05:08.639><c> Yellow</c><00:05:09.039><c> means</c><00:05:09.199><c> that</c><00:05:09.360><c> AI</c><00:05:09.680><c> can</c><00:05:09.840><c> help</c>
+
+00:05:10.070 --> 00:05:10.080 align:start position:0%
+sprint. Yellow means that AI can help
+ 
+
+00:05:10.080 --> 00:05:13.110 align:start position:0%
+sprint. Yellow means that AI can help
+someone<00:05:10.720><c> and</c><00:05:10.960><c> red</c><00:05:11.600><c> uh</c><00:05:11.759><c> means</c><00:05:11.919><c> that</c><00:05:12.160><c> AI</c><00:05:12.560><c> is</c><00:05:12.880><c> not</c>
+
+00:05:13.110 --> 00:05:13.120 align:start position:0%
+someone and red uh means that AI is not
+ 
+
+00:05:13.120 --> 00:05:14.390 align:start position:0%
+someone and red uh means that AI is not
+very<00:05:13.360><c> useful.</c><00:05:13.680><c> And</c><00:05:13.840><c> this</c><00:05:14.000><c> is</c><00:05:14.080><c> quite</c>
+
+00:05:14.390 --> 00:05:14.400 align:start position:0%
+very useful. And this is quite
+ 
+
+00:05:14.400 --> 00:05:16.710 align:start position:0%
+very useful. And this is quite
+illustrative<00:05:14.880><c> but</c><00:05:15.039><c> it</c><00:05:15.440><c> conveys</c><00:05:15.840><c> the</c><00:05:16.000><c> point.</c>
+
+00:05:16.710 --> 00:05:16.720 align:start position:0%
+illustrative but it conveys the point.
+ 
+
+00:05:16.720 --> 00:05:18.469 align:start position:0%
+illustrative but it conveys the point.
+And<00:05:16.880><c> so</c><00:05:17.039><c> then</c><00:05:17.280><c> any</c><00:05:17.520><c> code</c><00:05:17.840><c> base</c><00:05:18.000><c> at</c><00:05:18.160><c> any</c><00:05:18.320><c> point</c>
+
+00:05:18.469 --> 00:05:18.479 align:start position:0%
+And so then any code base at any point
+ 
+
+00:05:18.479 --> 00:05:20.950 align:start position:0%
+And so then any code base at any point
+in<00:05:18.720><c> time</c><00:05:19.039><c> sits</c><00:05:19.360><c> on</c><00:05:19.600><c> a</c><00:05:19.919><c> vertical</c><00:05:20.320><c> line</c><00:05:20.560><c> across</c>
+
+00:05:20.950 --> 00:05:20.960 align:start position:0%
+in time sits on a vertical line across
+ 
+
+00:05:20.960 --> 00:05:23.110 align:start position:0%
+in time sits on a vertical line across
+this<00:05:21.199><c> graphic.</c><00:05:22.000><c> And</c><00:05:22.160><c> what</c><00:05:22.320><c> you</c><00:05:22.479><c> can</c><00:05:22.639><c> see</c><00:05:22.880><c> is</c>
+
+00:05:23.110 --> 00:05:23.120 align:start position:0%
+this graphic. And what you can see is
+ 
+
+00:05:23.120 --> 00:05:27.029 align:start position:0%
+this graphic. And what you can see is
+that<00:05:23.600><c> clean</c><00:05:23.919><c> code</c><00:05:24.320><c> amplifies</c><00:05:24.960><c> AI</c><00:05:25.360><c> gains.</c>
+
+00:05:27.029 --> 00:05:27.039 align:start position:0%
+that clean code amplifies AI gains.
+ 
+
+00:05:27.039 --> 00:05:29.029 align:start position:0%
+that clean code amplifies AI gains.
+Secondly<00:05:27.440><c> is</c><00:05:27.680><c> that</c><00:05:27.919><c> you</c><00:05:28.080><c> need</c><00:05:28.240><c> to</c><00:05:28.400><c> manage</c><00:05:28.800><c> your</c>
+
+00:05:29.029 --> 00:05:29.039 align:start position:0%
+Secondly is that you need to manage your
+ 
+
+00:05:29.039 --> 00:05:31.350 align:start position:0%
+Secondly is that you need to manage your
+codebase<00:05:29.680><c> entropy,</c><00:05:30.400><c> right?</c><00:05:30.639><c> Your</c><00:05:30.800><c> codebase</c>
+
+00:05:31.350 --> 00:05:31.360 align:start position:0%
+codebase entropy, right? Your codebase
+ 
+
+00:05:31.360 --> 00:05:34.550 align:start position:0%
+codebase entropy, right? Your codebase
+tech<00:05:31.680><c> debt</c><00:05:32.400><c> because</c><00:05:32.720><c> if</c><00:05:32.960><c> you</c><00:05:33.120><c> just</c><00:05:33.520><c> use</c><00:05:33.759><c> AI</c>
+
+00:05:34.550 --> 00:05:34.560 align:start position:0%
+tech debt because if you just use AI
+ 
+
+00:05:34.560 --> 00:05:36.390 align:start position:0%
+tech debt because if you just use AI
+unchecked,<00:05:35.280><c> this</c><00:05:35.520><c> is</c><00:05:35.680><c> going</c><00:05:35.759><c> to</c><00:05:35.919><c> accelerate</c>
+
+00:05:36.390 --> 00:05:36.400 align:start position:0%
+unchecked, this is going to accelerate
+ 
+
+00:05:36.400 --> 00:05:38.550 align:start position:0%
+unchecked, this is going to accelerate
+this<00:05:36.639><c> entropy</c><00:05:37.199><c> which</c><00:05:37.440><c> is</c><00:05:37.600><c> going</c><00:05:37.680><c> to</c><00:05:37.840><c> push</c><00:05:38.240><c> and</c>
+
+00:05:38.550 --> 00:05:38.560 align:start position:0%
+this entropy which is going to push and
+ 
+
+00:05:38.560 --> 00:05:40.150 align:start position:0%
+this entropy which is going to push and
+degrade<00:05:38.960><c> your</c><00:05:39.120><c> cleanliness</c><00:05:39.680><c> to</c><00:05:39.840><c> the</c><00:05:40.000><c> left</c>
+
+00:05:40.150 --> 00:05:40.160 align:start position:0%
+degrade your cleanliness to the left
+ 
+
+00:05:40.160 --> 00:05:42.310 align:start position:0%
+degrade your cleanliness to the left
+kind<00:05:40.400><c> of</c><00:05:40.560><c> right</c><00:05:40.880><c> and</c><00:05:41.120><c> then</c><00:05:41.280><c> you</c><00:05:41.520><c> as</c><00:05:41.680><c> as</c><00:05:41.919><c> a</c><00:05:42.080><c> human</c>
+
+00:05:42.310 --> 00:05:42.320 align:start position:0%
+kind of right and then you as as a human
+ 
+
+00:05:42.320 --> 00:05:44.629 align:start position:0%
+kind of right and then you as as a human
+need<00:05:42.479><c> to</c><00:05:42.639><c> push</c><00:05:42.880><c> on</c><00:05:43.120><c> the</c><00:05:43.280><c> other</c><00:05:43.600><c> side</c><00:05:44.160><c> to</c><00:05:44.400><c> kind</c>
+
+00:05:44.629 --> 00:05:44.639 align:start position:0%
+need to push on the other side to kind
+ 
+
+00:05:44.639 --> 00:05:46.469 align:start position:0%
+need to push on the other side to kind
+of<00:05:44.800><c> improve</c><00:05:45.120><c> or</c><00:05:45.360><c> maintain</c><00:05:45.680><c> that</c><00:05:45.919><c> cleanliness</c>
+
+00:05:46.469 --> 00:05:46.479 align:start position:0%
+of improve or maintain that cleanliness
+ 
+
+00:05:46.479 --> 00:05:50.150 align:start position:0%
+of improve or maintain that cleanliness
+to<00:05:46.800><c> keep</c><00:05:46.960><c> reaping</c><00:05:47.360><c> the</c><00:05:47.520><c> benefits</c><00:05:47.919><c> from</c><00:05:48.240><c> AI.</c>
+
+00:05:50.150 --> 00:05:50.160 align:start position:0%
+to keep reaping the benefits from AI.
+ 
+
+00:05:50.160 --> 00:05:51.749 align:start position:0%
+to keep reaping the benefits from AI.
+Thirdly<00:05:50.639><c> is</c><00:05:50.880><c> that</c><00:05:51.039><c> it's</c><00:05:51.280><c> important</c><00:05:51.520><c> that</c>
+
+00:05:51.749 --> 00:05:51.759 align:start position:0%
+Thirdly is that it's important that
+ 
+
+00:05:51.759 --> 00:05:54.390 align:start position:0%
+Thirdly is that it's important that
+engineers<00:05:52.400><c> need</c><00:05:52.560><c> to</c><00:05:52.720><c> know</c><00:05:53.039><c> when</c><00:05:53.360><c> to</c><00:05:53.520><c> use</c><00:05:53.759><c> AI</c>
+
+00:05:54.390 --> 00:05:54.400 align:start position:0%
+engineers need to know when to use AI
+ 
+
+00:05:54.400 --> 00:05:56.870 align:start position:0%
+engineers need to know when to use AI
+and<00:05:54.639><c> when</c><00:05:54.880><c> not</c><00:05:55.120><c> to</c><00:05:55.280><c> use</c><00:05:55.440><c> AI.</c><00:05:56.240><c> And</c><00:05:56.400><c> what</c><00:05:56.639><c> happens</c>
+
+00:05:56.870 --> 00:05:56.880 align:start position:0%
+and when not to use AI. And what happens
+ 
+
+00:05:56.880 --> 00:05:59.670 align:start position:0%
+and when not to use AI. And what happens
+when<00:05:57.039><c> they</c><00:05:57.280><c> don't</c><00:05:57.680><c> is</c><00:05:58.080><c> this</c><00:05:58.639><c> kind</c><00:05:58.880><c> of</c><00:05:59.199><c> line</c><00:05:59.520><c> on</c>
+
+00:05:59.670 --> 00:05:59.680 align:start position:0%
+when they don't is this kind of line on
+ 
+
+00:05:59.680 --> 00:06:02.629 align:start position:0%
+when they don't is this kind of line on
+the<00:05:59.840><c> left</c><00:06:00.160><c> whereby</c><00:06:00.639><c> you</c><00:06:00.880><c> have</c><00:06:01.360><c> AI</c><00:06:01.919><c> AI</c><00:06:02.240><c> outputs</c>
+
+00:06:02.629 --> 00:06:02.639 align:start position:0%
+the left whereby you have AI AI outputs
+ 
+
+00:06:02.639 --> 00:06:04.390 align:start position:0%
+the left whereby you have AI AI outputs
+that<00:06:02.800><c> are</c><00:06:02.960><c> rejected</c><00:06:03.600><c> or</c><00:06:03.919><c> need</c><00:06:04.160><c> heavy</c>
+
+00:06:04.390 --> 00:06:04.400 align:start position:0%
+that are rejected or need heavy
+ 
+
+00:06:04.400 --> 00:06:07.029 align:start position:0%
+that are rejected or need heavy
+rewriting<00:06:05.280><c> which</c><00:06:05.520><c> then</c><00:06:05.759><c> leads</c><00:06:06.000><c> to</c><00:06:06.160><c> engineers</c>
+
+00:06:07.029 --> 00:06:07.039 align:start position:0%
+rewriting which then leads to engineers
+ 
+
+00:06:07.039 --> 00:06:09.189 align:start position:0%
+rewriting which then leads to engineers
+losing<00:06:07.440><c> trust</c><00:06:07.680><c> in</c><00:06:07.919><c> AI</c><00:06:08.319><c> saying</c><00:06:08.560><c> okay</c><00:06:08.800><c> this</c><00:06:08.960><c> just</c>
+
+00:06:09.189 --> 00:06:09.199 align:start position:0%
+losing trust in AI saying okay this just
+ 
+
+00:06:09.199 --> 00:06:10.870 align:start position:0%
+losing trust in AI saying okay this just
+doesn't<00:06:09.440><c> work.</c><00:06:09.680><c> I'm</c><00:06:09.919><c> not</c><00:06:10.000><c> going</c><00:06:10.080><c> to</c><00:06:10.160><c> use</c><00:06:10.319><c> it.</c>
+
+00:06:10.870 --> 00:06:10.880 align:start position:0%
+doesn't work. I'm not going to use it.
+ 
+
+00:06:10.880 --> 00:06:12.870 align:start position:0%
+doesn't work. I'm not going to use it.
+Which<00:06:11.039><c> then</c><00:06:11.360><c> further</c><00:06:11.840><c> collapses</c><00:06:12.319><c> your</c><00:06:12.560><c> AI</c>
+
+00:06:12.870 --> 00:06:12.880 align:start position:0%
+Which then further collapses your AI
+ 
+
+00:06:12.880 --> 00:06:17.029 align:start position:0%
+Which then further collapses your AI
+gains.
+
+00:06:17.029 --> 00:06:17.039 align:start position:0%
+ 
+ 
+
+00:06:17.039 --> 00:06:21.510 align:start position:0%
+ 
+Now<00:06:17.759><c> we</c><00:06:18.160><c> said</c><00:06:18.800><c> can</c><00:06:19.039><c> we</c><00:06:19.280><c> find</c><00:06:19.520><c> out</c><00:06:20.000><c> whether</c><00:06:21.280><c> we</c>
+
+00:06:21.510 --> 00:06:21.520 align:start position:0%
+Now we said can we find out whether we
+ 
+
+00:06:21.520 --> 00:06:23.830 align:start position:0%
+Now we said can we find out whether we
+can<00:06:21.759><c> look</c><00:06:22.080><c> not</c><00:06:22.319><c> only</c><00:06:22.400><c> at</c><00:06:22.639><c> usage</c><00:06:22.960><c> but</c><00:06:23.199><c> at</c><00:06:23.520><c> how</c>
+
+00:06:23.830 --> 00:06:23.840 align:start position:0%
+can look not only at usage but at how
+ 
+
+00:06:23.840 --> 00:06:25.909 align:start position:0%
+can look not only at usage but at how
+are<00:06:24.080><c> these</c><00:06:24.479><c> companies</c><00:06:24.800><c> and</c><00:06:25.039><c> these</c><00:06:25.280><c> engineers</c>
+
+00:06:25.909 --> 00:06:25.919 align:start position:0%
+are these companies and these engineers
+ 
+
+00:06:25.919 --> 00:06:29.189 align:start position:0%
+are these companies and these engineers
+using<00:06:26.240><c> AI</c><00:06:26.960><c> and</c><00:06:27.120><c> we</c><00:06:27.360><c> came</c><00:06:27.600><c> up</c><00:06:27.919><c> with</c><00:06:28.319><c> an</c><00:06:28.639><c> AI</c>
+
+00:06:29.189 --> 00:06:29.199 align:start position:0%
+using AI and we came up with an AI
+ 
+
+00:06:29.199 --> 00:06:31.749 align:start position:0%
+using AI and we came up with an AI
+engineering<00:06:29.759><c> practices</c><00:06:30.240><c> benchmark.</c><00:06:31.360><c> The</c><00:06:31.600><c> way</c>
+
+00:06:31.749 --> 00:06:31.759 align:start position:0%
+engineering practices benchmark. The way
+ 
+
+00:06:31.759 --> 00:06:33.430 align:start position:0%
+engineering practices benchmark. The way
+this<00:06:31.919><c> works</c><00:06:32.160><c> is</c><00:06:32.319><c> that</c><00:06:32.560><c> we</c><00:06:32.720><c> can</c><00:06:32.880><c> scan</c><00:06:33.199><c> your</c>
+
+00:06:33.430 --> 00:06:33.440 align:start position:0%
+this works is that we can scan your
+ 
+
+00:06:33.440 --> 00:06:35.670 align:start position:0%
+this works is that we can scan your
+codebase<00:06:34.240><c> and</c><00:06:34.560><c> detect</c><00:06:34.960><c> these</c><00:06:35.280><c> AI</c>
+
+00:06:35.670 --> 00:06:35.680 align:start position:0%
+codebase and detect these AI
+ 
+
+00:06:35.680 --> 00:06:37.830 align:start position:0%
+codebase and detect these AI
+fingerprints<00:06:36.319><c> or</c><00:06:36.560><c> artifacts</c><00:06:37.360><c> basically</c>
+
+00:06:37.830 --> 00:06:37.840 align:start position:0%
+fingerprints or artifacts basically
+ 
+
+00:06:37.840 --> 00:06:40.390 align:start position:0%
+fingerprints or artifacts basically
+traces<00:06:38.240><c> of</c><00:06:38.479><c> how</c><00:06:38.720><c> your</c><00:06:38.960><c> team</c><00:06:39.120><c> is</c><00:06:39.360><c> using</c><00:06:39.680><c> AI.</c>
+
+00:06:40.390 --> 00:06:40.400 align:start position:0%
+traces of how your team is using AI.
+ 
+
+00:06:40.400 --> 00:06:42.230 align:start position:0%
+traces of how your team is using AI.
+It's<00:06:40.639><c> quite</c><00:06:40.880><c> directional</c><00:06:41.360><c> at</c><00:06:41.520><c> this</c><00:06:41.680><c> point</c><00:06:41.840><c> but</c>
+
+00:06:42.230 --> 00:06:42.240 align:start position:0%
+It's quite directional at this point but
+ 
+
+00:06:42.240 --> 00:06:45.430 align:start position:0%
+It's quite directional at this point but
+evolving.<00:06:43.360><c> And</c><00:06:43.520><c> we</c><00:06:43.759><c> can</c><00:06:43.919><c> quantify</c><00:06:44.400><c> this</c><00:06:45.039><c> based</c>
+
+00:06:45.430 --> 00:06:45.440 align:start position:0%
+evolving. And we can quantify this based
+ 
+
+00:06:45.440 --> 00:06:47.350 align:start position:0%
+evolving. And we can quantify this based
+on<00:06:45.600><c> the</c><00:06:45.840><c> percentage</c><00:06:46.400><c> of</c><00:06:46.639><c> your</c><00:06:46.880><c> active</c>
+
+00:06:47.350 --> 00:06:47.360 align:start position:0%
+on the percentage of your active
+ 
+
+00:06:47.360 --> 00:06:49.510 align:start position:0%
+on the percentage of your active
+engineering<00:06:47.919><c> work</c><00:06:48.160><c> that</c><00:06:48.479><c> uses</c><00:06:48.880><c> each</c><00:06:49.120><c> AI</c>
+
+00:06:49.510 --> 00:06:49.520 align:start position:0%
+engineering work that uses each AI
+ 
+
+00:06:49.520 --> 00:06:51.110 align:start position:0%
+engineering work that uses each AI
+pattern.<00:06:50.000><c> And</c><00:06:50.080><c> then</c><00:06:50.240><c> we</c><00:06:50.400><c> kind</c><00:06:50.639><c> of</c><00:06:50.720><c> repeat</c><00:06:50.960><c> this</c>
+
+00:06:51.110 --> 00:06:51.120 align:start position:0%
+pattern. And then we kind of repeat this
+ 
+
+00:06:51.120 --> 00:06:53.990 align:start position:0%
+pattern. And then we kind of repeat this
+monthly<00:06:51.520><c> using</c><00:06:51.840><c> git</c><00:06:52.080><c> history.</c><00:06:53.520><c> And</c><00:06:53.680><c> the</c><00:06:53.840><c> way</c>
+
+00:06:53.990 --> 00:06:54.000 align:start position:0%
+monthly using git history. And the way
+ 
+
+00:06:54.000 --> 00:06:56.070 align:start position:0%
+monthly using git history. And the way
+this<00:06:54.240><c> works</c><00:06:54.479><c> is</c><00:06:54.960><c> more</c><00:06:55.199><c> or</c><00:06:55.280><c> less</c><00:06:55.520><c> you</c><00:06:55.759><c> have</c><00:06:55.840><c> kind</c>
+
+00:06:56.070 --> 00:06:56.080 align:start position:0%
+this works is more or less you have kind
+ 
+
+00:06:56.080 --> 00:06:58.469 align:start position:0%
+this works is more or less you have kind
+of<00:06:56.160><c> a</c><00:06:56.400><c> few</c><00:06:56.560><c> levels.</c><00:06:57.039><c> And</c><00:06:57.360><c> level</c><00:06:57.680><c> zero</c><00:06:58.000><c> might</c><00:06:58.240><c> be</c>
+
+00:06:58.469 --> 00:06:58.479 align:start position:0%
+of a few levels. And level zero might be
+ 
+
+00:06:58.479 --> 00:07:00.870 align:start position:0%
+of a few levels. And level zero might be
+how<00:06:59.199><c> humans</c><00:06:59.599><c> are</c><00:06:59.759><c> just</c><00:06:59.919><c> not</c><00:07:00.160><c> using</c><00:07:00.319><c> AI</c><00:07:00.639><c> and</c>
+
+00:07:00.870 --> 00:07:00.880 align:start position:0%
+how humans are just not using AI and
+ 
+
+00:07:00.880 --> 00:07:03.350 align:start position:0%
+how humans are just not using AI and
+write<00:07:01.039><c> all</c><00:07:01.199><c> of</c><00:07:01.280><c> the</c><00:07:01.440><c> code.</c><00:07:02.479><c> Level</c><00:07:02.800><c> one</c><00:07:03.039><c> is</c><00:07:03.199><c> kind</c>
+
+00:07:03.350 --> 00:07:03.360 align:start position:0%
+write all of the code. Level one is kind
+ 
+
+00:07:03.360 --> 00:07:05.749 align:start position:0%
+write all of the code. Level one is kind
+of<00:07:03.440><c> like</c><00:07:03.680><c> personal</c><00:07:04.080><c> use</c><00:07:04.560><c> where</c><00:07:05.039><c> engineers</c><00:07:05.520><c> are</c>
+
+00:07:05.749 --> 00:07:05.759 align:start position:0%
+of like personal use where engineers are
+ 
+
+00:07:05.759 --> 00:07:08.390 align:start position:0%
+of like personal use where engineers are
+not<00:07:06.000><c> sharing</c><00:07:06.720><c> prompts</c><00:07:07.360><c> across</c><00:07:07.680><c> the</c><00:07:07.919><c> team</c><00:07:08.160><c> or</c>
+
+00:07:08.390 --> 00:07:08.400 align:start position:0%
+not sharing prompts across the team or
+ 
+
+00:07:08.400 --> 00:07:10.950 align:start position:0%
+not sharing prompts across the team or
+not<00:07:08.560><c> versioning</c><00:07:09.039><c> them.</c><00:07:10.000><c> Level</c><00:07:10.319><c> two</c><00:07:10.479><c> is</c><00:07:10.720><c> team</c>
+
+00:07:10.950 --> 00:07:10.960 align:start position:0%
+not versioning them. Level two is team
+ 
+
+00:07:10.960 --> 00:07:13.189 align:start position:0%
+not versioning them. Level two is team
+use<00:07:11.280><c> whereby</c><00:07:11.680><c> teams</c><00:07:12.080><c> are</c><00:07:12.240><c> are</c><00:07:12.639><c> sharing</c><00:07:12.960><c> these</c>
+
+00:07:13.189 --> 00:07:13.199 align:start position:0%
+use whereby teams are are sharing these
+ 
+
+00:07:13.199 --> 00:07:15.270 align:start position:0%
+use whereby teams are are sharing these
+kind<00:07:13.360><c> of</c><00:07:13.520><c> prompts</c><00:07:13.759><c> and</c><00:07:13.919><c> rules.</c><00:07:14.720><c> And</c><00:07:15.039><c> then</c>
+
+00:07:15.270 --> 00:07:15.280 align:start position:0%
+kind of prompts and rules. And then
+ 
+
+00:07:15.280 --> 00:07:16.950 align:start position:0%
+kind of prompts and rules. And then
+level<00:07:15.599><c> three</c><00:07:15.759><c> is</c><00:07:15.919><c> even</c><00:07:16.080><c> more</c><00:07:16.319><c> sophisticated.</c>
+
+00:07:16.950 --> 00:07:16.960 align:start position:0%
+level three is even more sophisticated.
+ 
+
+00:07:16.960 --> 00:07:19.270 align:start position:0%
+level three is even more sophisticated.
+It's<00:07:17.120><c> where</c><00:07:17.360><c> AI</c><00:07:17.840><c> autonomously</c><00:07:18.560><c> does</c><00:07:18.800><c> specific</c>
+
+00:07:19.270 --> 00:07:19.280 align:start position:0%
+It's where AI autonomously does specific
+ 
+
+00:07:19.280 --> 00:07:21.830 align:start position:0%
+It's where AI autonomously does specific
+tasks<00:07:19.759><c> maybe</c><00:07:20.000><c> not</c><00:07:20.160><c> the</c><00:07:20.319><c> entire</c><00:07:20.639><c> workflow.</c><00:07:21.680><c> And</c>
+
+00:07:21.830 --> 00:07:21.840 align:start position:0%
+tasks maybe not the entire workflow. And
+ 
+
+00:07:21.840 --> 00:07:23.749 align:start position:0%
+tasks maybe not the entire workflow. And
+level<00:07:22.160><c> four</c><00:07:22.479><c> is</c><00:07:22.880><c> you</c><00:07:23.039><c> know</c><00:07:23.199><c> agentic</c>
+
+00:07:23.749 --> 00:07:23.759 align:start position:0%
+level four is you know agentic
+ 
+
+00:07:23.759 --> 00:07:26.070 align:start position:0%
+level four is you know agentic
+orchestration<00:07:24.800><c> which</c><00:07:25.039><c> is</c><00:07:25.199><c> where</c><00:07:25.440><c> AI</c><00:07:25.840><c> just</c>
+
+00:07:26.070 --> 00:07:26.080 align:start position:0%
+orchestration which is where AI just
+ 
+
+00:07:26.080 --> 00:07:27.830 align:start position:0%
+orchestration which is where AI just
+runs<00:07:26.319><c> the</c><00:07:26.479><c> entire</c><00:07:26.800><c> process.</c><00:07:27.280><c> And</c><00:07:27.440><c> so</c><00:07:27.599><c> this</c><00:07:27.759><c> is</c>
+
+00:07:27.830 --> 00:07:27.840 align:start position:0%
+runs the entire process. And so this is
+ 
+
+00:07:27.840 --> 00:07:29.430 align:start position:0%
+runs the entire process. And so this is
+going<00:07:27.919><c> to</c><00:07:28.000><c> be</c><00:07:28.160><c> an</c><00:07:28.319><c> open-</c><00:07:28.560><c> source</c><00:07:28.880><c> tool</c><00:07:29.199><c> which</c>
+
+00:07:29.430 --> 00:07:29.440 align:start position:0%
+going to be an open- source tool which
+ 
+
+00:07:29.440 --> 00:07:31.990 align:start position:0%
+going to be an open- source tool which
+you<00:07:29.599><c> can</c><00:07:30.080><c> leverage</c><00:07:30.639><c> if</c><00:07:30.880><c> you</c><00:07:30.960><c> sign</c><00:07:31.199><c> up</c><00:07:31.680><c> on</c><00:07:31.840><c> the</c>
+
+00:07:31.990 --> 00:07:32.000 align:start position:0%
+you can leverage if you sign up on the
+ 
+
+00:07:32.000 --> 00:07:35.670 align:start position:0%
+you can leverage if you sign up on the
+sweeper<00:07:32.479><c> research</c><00:07:32.800><c> portal.</c><00:07:33.920><c> [snorts]</c>
+
+00:07:35.670 --> 00:07:35.680 align:start position:0%
+sweeper research portal. [snorts]
+ 
+
+00:07:35.680 --> 00:07:38.629 align:start position:0%
+sweeper research portal. [snorts]
+We<00:07:36.000><c> applied</c><00:07:36.479><c> this</c><00:07:37.039><c> benchmark</c><00:07:37.680><c> to</c><00:07:38.080><c> one</c><00:07:38.319><c> of</c><00:07:38.479><c> the</c>
+
+00:07:38.629 --> 00:07:38.639 align:start position:0%
+We applied this benchmark to one of the
+ 
+
+00:07:38.639 --> 00:07:40.390 align:start position:0%
+We applied this benchmark to one of the
+companies<00:07:38.960><c> in</c><00:07:39.120><c> our</c><00:07:39.360><c> research</c><00:07:39.680><c> data</c><00:07:40.000><c> set</c><00:07:40.160><c> and</c>
+
+00:07:40.390 --> 00:07:40.400 align:start position:0%
+companies in our research data set and
+ 
+
+00:07:40.400 --> 00:07:42.790 align:start position:0%
+companies in our research data set and
+we<00:07:40.560><c> saw</c><00:07:40.800><c> this.</c><00:07:41.680><c> This</c><00:07:42.000><c> company</c><00:07:42.319><c> had</c><00:07:42.560><c> two</c>
+
+00:07:42.790 --> 00:07:42.800 align:start position:0%
+we saw this. This company had two
+ 
+
+00:07:42.800 --> 00:07:45.589 align:start position:0%
+we saw this. This company had two
+business<00:07:43.120><c> units</c><00:07:43.599><c> with</c><00:07:43.919><c> equal</c><00:07:44.479><c> access</c><00:07:44.880><c> to</c><00:07:45.199><c> AI</c>
+
+00:07:45.589 --> 00:07:45.599 align:start position:0%
+business units with equal access to AI
+ 
+
+00:07:45.599 --> 00:07:48.230 align:start position:0%
+business units with equal access to AI
+tools,<00:07:46.319><c> right?</c><00:07:46.639><c> Same</c><00:07:46.880><c> licenses,</c><00:07:47.520><c> same</c><00:07:47.759><c> spend,</c>
+
+00:07:48.230 --> 00:07:48.240 align:start position:0%
+tools, right? Same licenses, same spend,
+ 
+
+00:07:48.240 --> 00:07:50.790 align:start position:0%
+tools, right? Same licenses, same spend,
+same<00:07:48.400><c> tools,</c><00:07:48.800><c> same</c><00:07:49.039><c> everything.</c><00:07:50.400><c> But</c><00:07:50.560><c> the</c>
+
+00:07:50.790 --> 00:07:50.800 align:start position:0%
+same tools, same everything. But the
+ 
+
+00:07:50.800 --> 00:07:52.469 align:start position:0%
+same tools, same everything. But the
+adoption<00:07:51.199><c> rate</c><00:07:51.360><c> and</c><00:07:51.599><c> the</c><00:07:51.759><c> usage</c><00:07:52.080><c> rate</c><00:07:52.319><c> was</c>
+
+00:07:52.469 --> 00:07:52.479 align:start position:0%
+adoption rate and the usage rate was
+ 
+
+00:07:52.479 --> 00:07:53.560 align:start position:0%
+adoption rate and the usage rate was
+very<00:07:52.720><c> different</c><00:07:53.199><c> by</c><00:07:53.440><c> business</c>
+
+00:07:53.560 --> 00:07:53.570 align:start position:0%
+very different by business
+ 
+
+00:07:53.570 --> 00:07:55.510 align:start position:0%
+very different by business
+[clears throat]<00:07:53.759><c> unit.</c><00:07:54.639><c> On</c><00:07:54.800><c> the</c><00:07:54.960><c> left,</c><00:07:55.280><c> the</c>
+
+00:07:55.510 --> 00:07:55.520 align:start position:0%
+[clears throat] unit. On the left, the
+ 
+
+00:07:55.520 --> 00:07:57.350 align:start position:0%
+[clears throat] unit. On the left, the
+first<00:07:55.759><c> business</c><00:07:56.080><c> unit,</c><00:07:56.800><c> you</c><00:07:56.960><c> can</c><00:07:57.039><c> as</c><00:07:57.199><c> you</c><00:07:57.280><c> can</c>
+
+00:07:57.350 --> 00:07:57.360 align:start position:0%
+first business unit, you can as you can
+ 
+
+00:07:57.360 --> 00:07:59.189 align:start position:0%
+first business unit, you can as you can
+see<00:07:57.440><c> in</c><00:07:57.599><c> the</c><00:07:57.759><c> area</c><00:07:57.919><c> in</c><00:07:58.080><c> the</c><00:07:58.240><c> blue,</c><00:07:58.720><c> seemed</c><00:07:59.039><c> to</c>
+
+00:07:59.189 --> 00:07:59.199 align:start position:0%
+see in the area in the blue, seemed to
+ 
+
+00:07:59.199 --> 00:08:02.869 align:start position:0%
+see in the area in the blue, seemed to
+be<00:07:59.360><c> using</c><00:08:00.160><c> AI</c><00:08:00.560><c> a</c><00:08:00.800><c> lot</c><00:08:00.960><c> more</c><00:08:01.199><c> for</c><00:08:01.759><c> almost</c><00:08:02.160><c> 40%</c><00:08:02.720><c> of</c>
+
+00:08:02.869 --> 00:08:02.879 align:start position:0%
+be using AI a lot more for almost 40% of
+ 
+
+00:08:02.879 --> 00:08:04.869 align:start position:0%
+be using AI a lot more for almost 40% of
+their<00:08:03.120><c> work.</c><00:08:03.520><c> whereas</c><00:08:03.840><c> on</c><00:08:04.000><c> the</c><00:08:04.160><c> on</c><00:08:04.319><c> the</c><00:08:04.720><c> uh</c>
+
+00:08:04.869 --> 00:08:04.879 align:start position:0%
+their work. whereas on the on the uh
+ 
+
+00:08:04.879 --> 00:08:07.189 align:start position:0%
+their work. whereas on the on the uh
+right<00:08:05.280><c> the</c><00:08:05.520><c> second</c><00:08:05.759><c> business</c><00:08:06.080><c> unit</c><00:08:06.720><c> seem</c><00:08:07.039><c> to</c>
+
+00:08:07.189 --> 00:08:07.199 align:start position:0%
+right the second business unit seem to
+ 
+
+00:08:07.199 --> 00:08:09.830 align:start position:0%
+right the second business unit seem to
+struggle<00:08:07.680><c> behind</c><00:08:08.000><c> a</c><00:08:08.240><c> bit</c><00:08:08.400><c> more.</c><00:08:09.360><c> And</c><00:08:09.520><c> so</c><00:08:09.680><c> the</c>
+
+00:08:09.830 --> 00:08:09.840 align:start position:0%
+struggle behind a bit more. And so the
+ 
+
+00:08:09.840 --> 00:08:13.110 align:start position:0%
+struggle behind a bit more. And so the
+takeaway<00:08:10.240><c> here</c><00:08:10.560><c> is</c><00:08:10.879><c> that</c><00:08:11.360><c> access</c><00:08:11.759><c> to</c><00:08:12.000><c> AI</c><00:08:12.720><c> and</c>
+
+00:08:13.110 --> 00:08:13.120 align:start position:0%
+takeaway here is that access to AI and
+ 
+
+00:08:13.120 --> 00:08:15.909 align:start position:0%
+takeaway here is that access to AI and
+even<00:08:13.440><c> AI</c><00:08:13.759><c> usage</c><00:08:14.240><c> doesn't</c><00:08:14.639><c> mean</c><00:08:15.280><c> or</c><00:08:15.680><c> doesn't</c>
+
+00:08:15.909 --> 00:08:15.919 align:start position:0%
+even AI usage doesn't mean or doesn't
+ 
+
+00:08:15.919 --> 00:08:18.469 align:start position:0%
+even AI usage doesn't mean or doesn't
+guarantee<00:08:16.400><c> that</c><00:08:17.039><c> that</c><00:08:17.520><c> AI</c><00:08:17.919><c> is</c><00:08:18.080><c> going</c><00:08:18.240><c> to</c><00:08:18.319><c> be</c>
+
+00:08:18.469 --> 00:08:18.479 align:start position:0%
+guarantee that that AI is going to be
+ 
+
+00:08:18.479 --> 00:08:22.070 align:start position:0%
+guarantee that that AI is going to be
+used<00:08:18.800><c> in</c><00:08:19.120><c> the</c><00:08:19.280><c> same</c><00:08:19.440><c> way</c><00:08:19.759><c> across</c><00:08:20.240><c> a</c><00:08:20.560><c> company.</c>
+
+00:08:22.070 --> 00:08:22.080 align:start position:0%
+used in the same way across a company.
+ 
+
+00:08:22.080 --> 00:08:23.749 align:start position:0%
+used in the same way across a company.
+As<00:08:22.319><c> a</c><00:08:22.479><c> leader,</c><00:08:22.720><c> you</c><00:08:23.120><c> really</c><00:08:23.360><c> want</c><00:08:23.440><c> to</c><00:08:23.599><c> be</c>
+
+00:08:23.749 --> 00:08:23.759 align:start position:0%
+As a leader, you really want to be
+ 
+
+00:08:23.759 --> 00:08:25.270 align:start position:0%
+As a leader, you really want to be
+understanding<00:08:24.319><c> not</c><00:08:24.479><c> just</c><00:08:24.720><c> whether</c><00:08:25.039><c> they're</c>
+
+00:08:25.270 --> 00:08:25.280 align:start position:0%
+understanding not just whether they're
+ 
+
+00:08:25.280 --> 00:08:27.510 align:start position:0%
+understanding not just whether they're
+using<00:08:25.520><c> but</c><00:08:25.840><c> also</c><00:08:26.400><c> how</c><00:08:26.639><c> your</c><00:08:26.879><c> engineers</c><00:08:27.360><c> are</c>
+
+00:08:27.510 --> 00:08:27.520 align:start position:0%
+using but also how your engineers are
+ 
+
+00:08:27.520 --> 00:08:31.510 align:start position:0%
+using but also how your engineers are
+using<00:08:27.759><c> AI.</c>
+
+00:08:31.510 --> 00:08:31.520 align:start position:0%
+ 
+ 
+
+00:08:31.520 --> 00:08:33.829 align:start position:0%
+ 
+Great.<00:08:32.000><c> Now</c><00:08:32.240><c> let's</c><00:08:32.479><c> dive</c><00:08:32.800><c> into</c><00:08:33.279><c> how</c><00:08:33.519><c> do</c><00:08:33.599><c> we</c>
+
+00:08:33.829 --> 00:08:33.839 align:start position:0%
+Great. Now let's dive into how do we
+ 
+
+00:08:33.839 --> 00:08:36.230 align:start position:0%
+Great. Now let's dive into how do we
+actually<00:08:34.080><c> measure</c><00:08:34.560><c> AI</c><00:08:35.039><c> return</c><00:08:35.360><c> on</c><00:08:35.599><c> investment</c>
+
+00:08:36.230 --> 00:08:36.240 align:start position:0%
+actually measure AI return on investment
+ 
+
+00:08:36.240 --> 00:08:40.310 align:start position:0%
+actually measure AI return on investment
+in<00:08:36.640><c> software</c><00:08:37.039><c> engineering.</c>
+
+00:08:40.310 --> 00:08:40.320 align:start position:0%
+ 
+ 
+
+00:08:40.320 --> 00:08:44.389 align:start position:0%
+ 
+Oh<00:08:40.959><c> uh</c><00:08:41.839><c> there</c><00:08:42.080><c> we</c><00:08:42.240><c> go.</c><00:08:42.560><c> Okay.</c><00:08:43.360><c> So</c><00:08:43.599><c> here</c><00:08:43.919><c> ideally</c>
+
+00:08:44.389 --> 00:08:44.399 align:start position:0%
+Oh uh there we go. Okay. So here ideally
+ 
+
+00:08:44.399 --> 00:08:45.910 align:start position:0%
+Oh uh there we go. Okay. So here ideally
+we<00:08:44.640><c> would</c><00:08:44.720><c> be</c><00:08:44.880><c> measuring</c><00:08:45.200><c> this</c><00:08:45.440><c> based</c><00:08:45.680><c> on</c>
+
+00:08:45.910 --> 00:08:45.920 align:start position:0%
+we would be measuring this based on
+ 
+
+00:08:45.920 --> 00:08:47.990 align:start position:0%
+we would be measuring this based on
+business<00:08:46.240><c> outcomes</c><00:08:46.800><c> right?</c><00:08:47.040><c> I</c><00:08:47.200><c> give</c><00:08:47.440><c> my</c><00:08:47.600><c> AI</c>
+
+00:08:47.990 --> 00:08:48.000 align:start position:0%
+business outcomes right? I give my AI
+ 
+
+00:08:48.000 --> 00:08:51.110 align:start position:0%
+business outcomes right? I give my AI
+engineer<00:08:48.800><c> my</c><00:08:49.360><c> engineers</c><00:08:49.920><c> AI</c><00:08:50.240><c> and</c><00:08:50.480><c> then</c><00:08:50.640><c> I</c><00:08:50.880><c> make</c>
+
+00:08:51.110 --> 00:08:51.120 align:start position:0%
+engineer my engineers AI and then I make
+ 
+
+00:08:51.120 --> 00:08:53.110 align:start position:0%
+engineer my engineers AI and then I make
+more<00:08:51.360><c> money</c><00:08:51.680><c> more</c><00:08:51.920><c> revenue</c><00:08:52.560><c> net</c><00:08:52.800><c> revenue</c>
+
+00:08:53.110 --> 00:08:53.120 align:start position:0%
+more money more revenue net revenue
+ 
+
+00:08:53.120 --> 00:08:54.870 align:start position:0%
+more money more revenue net revenue
+retention<00:08:53.600><c> whatever</c><00:08:54.000><c> business</c><00:08:54.240><c> KPI</c><00:08:54.640><c> you</c><00:08:54.800><c> want</c>
+
+00:08:54.870 --> 00:08:54.880 align:start position:0%
+retention whatever business KPI you want
+ 
+
+00:08:54.880 --> 00:08:58.070 align:start position:0%
+retention whatever business KPI you want
+to<00:08:55.040><c> track.</c><00:08:56.080><c> The</c><00:08:56.399><c> problem</c><00:08:56.800><c> is</c><00:08:57.120><c> that</c><00:08:57.760><c> there's</c>
+
+00:08:58.070 --> 00:08:58.080 align:start position:0%
+to track. The problem is that there's
+ 
+
+00:08:58.080 --> 00:09:00.710 align:start position:0%
+to track. The problem is that there's
+too<00:08:58.320><c> much</c><00:08:58.560><c> noise</c><00:08:59.040><c> between</c><00:08:59.440><c> the</c><00:08:59.680><c> treatment</c>
+
+00:09:00.710 --> 00:09:00.720 align:start position:0%
+too much noise between the treatment
+ 
+
+00:09:00.720 --> 00:09:02.949 align:start position:0%
+too much noise between the treatment
+right<00:09:00.959><c> giving</c><00:09:01.279><c> AI</c><00:09:01.760><c> and</c><00:09:02.000><c> the</c><00:09:02.240><c> result</c><00:09:02.560><c> which</c><00:09:02.800><c> is</c>
+
+00:09:02.949 --> 00:09:02.959 align:start position:0%
+right giving AI and the result which is
+ 
+
+00:09:02.959 --> 00:09:05.269 align:start position:0%
+right giving AI and the result which is
+the<00:09:03.120><c> business</c><00:09:03.440><c> outcome</c><00:09:04.160><c> and</c><00:09:04.399><c> on</c><00:09:04.640><c> top</c><00:09:04.800><c> of</c><00:09:04.880><c> this</c>
+
+00:09:05.269 --> 00:09:05.279 align:start position:0%
+the business outcome and on top of this
+ 
+
+00:09:05.279 --> 00:09:07.190 align:start position:0%
+the business outcome and on top of this
+there's<00:09:05.600><c> confounding</c><00:09:06.320><c> variables</c><00:09:06.880><c> such</c><00:09:07.040><c> as</c>
+
+00:09:07.190 --> 00:09:07.200 align:start position:0%
+there's confounding variables such as
+ 
+
+00:09:07.200 --> 00:09:08.790 align:start position:0%
+there's confounding variables such as
+your<00:09:07.360><c> sales</c><00:09:07.680><c> execution</c><00:09:08.320><c> the</c><00:09:08.480><c> macro</c>
+
+00:09:08.790 --> 00:09:08.800 align:start position:0%
+your sales execution the macro
+ 
+
+00:09:08.800 --> 00:09:11.110 align:start position:0%
+your sales execution the macro
+environment<00:09:09.360><c> your</c><00:09:09.600><c> product</c><00:09:09.839><c> strategy</c><00:09:10.880><c> and</c>
+
+00:09:11.110 --> 00:09:11.120 align:start position:0%
+environment your product strategy and
+ 
+
+00:09:11.120 --> 00:09:13.269 align:start position:0%
+environment your product strategy and
+therefore<00:09:11.680><c> although</c><00:09:12.000><c> that</c><00:09:12.160><c> would</c><00:09:12.320><c> be</c><00:09:12.480><c> ideal</c>
+
+00:09:13.269 --> 00:09:13.279 align:start position:0%
+therefore although that would be ideal
+ 
+
+00:09:13.279 --> 00:09:15.430 align:start position:0%
+therefore although that would be ideal
+unfortunately<00:09:14.399><c> uh</c><00:09:14.480><c> I</c><00:09:14.720><c> think</c><00:09:14.800><c> we</c><00:09:14.959><c> need</c><00:09:15.040><c> to</c><00:09:15.200><c> find</c>
+
+00:09:15.430 --> 00:09:15.440 align:start position:0%
+unfortunately uh I think we need to find
+ 
+
+00:09:15.440 --> 00:09:17.829 align:start position:0%
+unfortunately uh I think we need to find
+alternative<00:09:16.160><c> paths</c><00:09:16.720><c> and</c><00:09:17.120><c> the</c><00:09:17.360><c> most</c><00:09:17.519><c> logical</c>
+
+00:09:17.829 --> 00:09:17.839 align:start position:0%
+alternative paths and the most logical
+ 
+
+00:09:17.839 --> 00:09:19.590 align:start position:0%
+alternative paths and the most logical
+one<00:09:18.080><c> is</c><00:09:18.240><c> to</c><00:09:18.399><c> simply</c><00:09:18.720><c> look</c><00:09:18.880><c> at</c><00:09:18.959><c> the</c><00:09:19.120><c> engineering</c>
+
+00:09:19.590 --> 00:09:19.600 align:start position:0%
+one is to simply look at the engineering
+ 
+
+00:09:19.600 --> 00:09:21.430 align:start position:0%
+one is to simply look at the engineering
+outcomes<00:09:20.000><c> because</c><00:09:20.160><c> there</c><00:09:20.399><c> is</c><00:09:20.480><c> a</c><00:09:20.640><c> clear</c><00:09:20.880><c> signal</c>
+
+00:09:21.430 --> 00:09:21.440 align:start position:0%
+outcomes because there is a clear signal
+ 
+
+00:09:21.440 --> 00:09:23.990 align:start position:0%
+outcomes because there is a clear signal
+right<00:09:22.160><c> but</c><00:09:22.399><c> here</c><00:09:22.720><c> we</c><00:09:22.880><c> need</c><00:09:23.040><c> to</c><00:09:23.200><c> go</c><00:09:23.519><c> beyond</c>
+
+00:09:23.990 --> 00:09:24.000 align:start position:0%
+right but here we need to go beyond
+ 
+
+00:09:24.000 --> 00:09:26.150 align:start position:0%
+right but here we need to go beyond
+measuring<00:09:24.480><c> AI</c><00:09:24.800><c> usage</c><00:09:25.279><c> into</c><00:09:25.680><c> measuring</c>
+
+00:09:26.150 --> 00:09:26.160 align:start position:0%
+measuring AI usage into measuring
+ 
+
+00:09:26.160 --> 00:09:28.150 align:start position:0%
+measuring AI usage into measuring
+engineering<00:09:26.720><c> outcomes.</c><00:09:27.680><c> There's</c><00:09:27.920><c> a</c><00:09:28.080><c> few</c>
+
+00:09:28.150 --> 00:09:28.160 align:start position:0%
+engineering outcomes. There's a few
+ 
+
+00:09:28.160 --> 00:09:30.630 align:start position:0%
+engineering outcomes. There's a few
+caveats<00:09:28.640><c> and</c><00:09:28.880><c> this</c><00:09:29.040><c> topic</c><00:09:29.279><c> is</c><00:09:29.680><c> quite</c><00:09:30.160><c> heavily</c>
+
+00:09:30.630 --> 00:09:30.640 align:start position:0%
+caveats and this topic is quite heavily
+ 
+
+00:09:30.640 --> 00:09:32.150 align:start position:0%
+caveats and this topic is quite heavily
+discussed<00:09:30.959><c> and</c><00:09:31.200><c> so</c><00:09:31.279><c> I</c><00:09:31.519><c> want</c><00:09:31.600><c> to</c><00:09:31.760><c> mention</c><00:09:31.920><c> some</c>
+
+00:09:32.150 --> 00:09:32.160 align:start position:0%
+discussed and so I want to mention some
+ 
+
+00:09:32.160 --> 00:09:33.910 align:start position:0%
+discussed and so I want to mention some
+of<00:09:32.240><c> them.</c>
+
+00:09:33.910 --> 00:09:33.920 align:start position:0%
+of them.
+ 
+
+00:09:33.920 --> 00:09:35.750 align:start position:0%
+of them.
+The<00:09:34.160><c> first</c><00:09:34.320><c> one</c><00:09:34.560><c> is</c><00:09:34.720><c> that</c><00:09:35.040><c> this</c><00:09:35.200><c> is</c><00:09:35.360><c> assuming</c>
+
+00:09:35.750 --> 00:09:35.760 align:start position:0%
+The first one is that this is assuming
+ 
+
+00:09:35.760 --> 00:09:37.990 align:start position:0%
+The first one is that this is assuming
+that<00:09:35.920><c> our</c><00:09:36.160><c> product</c><00:09:36.480><c> function</c><00:09:36.959><c> can</c><00:09:37.440><c> properly</c>
+
+00:09:37.990 --> 00:09:38.000 align:start position:0%
+that our product function can properly
+ 
+
+00:09:38.000 --> 00:09:39.910 align:start position:0%
+that our product function can properly
+direct<00:09:38.399><c> that</c><00:09:38.720><c> increased</c><00:09:39.120><c> capacity</c><00:09:39.600><c> into</c>
+
+00:09:39.910 --> 00:09:39.920 align:start position:0%
+direct that increased capacity into
+ 
+
+00:09:39.920 --> 00:09:41.990 align:start position:0%
+direct that increased capacity into
+something<00:09:40.160><c> that</c><00:09:40.399><c> generates</c><00:09:40.880><c> value.</c><00:09:41.600><c> And</c><00:09:41.760><c> if</c>
+
+00:09:41.990 --> 00:09:42.000 align:start position:0%
+something that generates value. And if
+ 
+
+00:09:42.000 --> 00:09:43.910 align:start position:0%
+something that generates value. And if
+they<00:09:42.240><c> aren't</c><00:09:42.560><c> directing</c><00:09:42.959><c> that</c><00:09:43.279><c> then</c><00:09:43.519><c> it's</c><00:09:43.680><c> a</c>
+
+00:09:43.910 --> 00:09:43.920 align:start position:0%
+they aren't directing that then it's a
+ 
+
+00:09:43.920 --> 00:09:46.070 align:start position:0%
+they aren't directing that then it's a
+product<00:09:44.320><c> problem</c><00:09:45.040><c> which</c><00:09:45.279><c> although</c><00:09:45.680><c> sits</c>
+
+00:09:46.070 --> 00:09:46.080 align:start position:0%
+product problem which although sits
+ 
+
+00:09:46.080 --> 00:09:48.470 align:start position:0%
+product problem which although sits
+quite<00:09:46.320><c> close</c><00:09:46.560><c> to</c><00:09:46.720><c> engineering</c><00:09:47.680><c> it's</c><00:09:48.000><c> slightly</c>
+
+00:09:48.470 --> 00:09:48.480 align:start position:0%
+quite close to engineering it's slightly
+ 
+
+00:09:48.480 --> 00:09:50.230 align:start position:0%
+quite close to engineering it's slightly
+different.<00:09:48.959><c> Right?</c>
+
+00:09:50.230 --> 00:09:50.240 align:start position:0%
+different. Right?
+ 
+
+00:09:50.240 --> 00:09:52.070 align:start position:0%
+different. Right?
+The<00:09:50.480><c> second</c><00:09:50.720><c> caveat</c><00:09:51.120><c> is</c><00:09:51.360><c> that</c><00:09:51.519><c> this</c><00:09:51.680><c> assumes</c>
+
+00:09:52.070 --> 00:09:52.080 align:start position:0%
+The second caveat is that this assumes
+ 
+
+00:09:52.080 --> 00:09:53.829 align:start position:0%
+The second caveat is that this assumes
+that<00:09:52.399><c> engineering</c><00:09:53.040><c> is</c><00:09:53.200><c> a</c><00:09:53.440><c> meaningful</c>
+
+00:09:53.829 --> 00:09:53.839 align:start position:0%
+that engineering is a meaningful
+ 
+
+00:09:53.839 --> 00:09:55.829 align:start position:0%
+that engineering is a meaningful
+bottleneck<00:09:54.399><c> for</c><00:09:54.560><c> value</c><00:09:54.959><c> which</c><00:09:55.279><c> frankly</c><00:09:55.680><c> it</c>
+
+00:09:55.829 --> 00:09:55.839 align:start position:0%
+bottleneck for value which frankly it
+ 
+
+00:09:55.839 --> 00:09:57.750 align:start position:0%
+bottleneck for value which frankly it
+typically<00:09:56.240><c> is</c><00:09:56.720><c> and</c><00:09:56.959><c> that</c><00:09:57.120><c> you</c><00:09:57.360><c> can</c><00:09:57.440><c> guard</c>
+
+00:09:57.750 --> 00:09:57.760 align:start position:0%
+typically is and that you can guard
+ 
+
+00:09:57.760 --> 00:10:00.310 align:start position:0%
+typically is and that you can guard
+against<00:09:58.080><c> good</c><00:09:58.320><c> hards</c><00:09:58.640><c> law</c><00:09:59.200><c> by</c><00:09:59.760><c> using</c><00:10:00.000><c> a</c>
+
+00:10:00.310 --> 00:10:00.320 align:start position:0%
+against good hards law by using a
+ 
+
+00:10:00.320 --> 00:10:02.550 align:start position:0%
+against good hards law by using a
+balanced<00:10:00.640><c> set</c><00:10:00.800><c> of</c><00:10:00.959><c> metrics</c><00:10:01.360><c> and</c><00:10:01.600><c> also</c><00:10:01.839><c> by</c>
+
+00:10:02.550 --> 00:10:02.560 align:start position:0%
+balanced set of metrics and also by
+ 
+
+00:10:02.560 --> 00:10:04.150 align:start position:0%
+balanced set of metrics and also by
+having<00:10:02.880><c> a</c><00:10:03.040><c> good</c><00:10:03.279><c> company</c><00:10:03.600><c> culture</c><00:10:03.920><c> that</c>
+
+00:10:04.150 --> 00:10:04.160 align:start position:0%
+having a good company culture that
+ 
+
+00:10:04.160 --> 00:10:06.710 align:start position:0%
+having a good company culture that
+doesn't<00:10:04.480><c> weaponize</c><00:10:04.959><c> these</c><00:10:05.200><c> metrics.</c>
+
+00:10:06.710 --> 00:10:06.720 align:start position:0%
+doesn't weaponize these metrics.
+ 
+
+00:10:06.720 --> 00:10:09.110 align:start position:0%
+doesn't weaponize these metrics.
+And<00:10:06.959><c> thirdly</c><00:10:07.360><c> is</c><00:10:07.600><c> that</c><00:10:07.839><c> AI</c><00:10:08.160><c> is</c><00:10:08.399><c> still</c><00:10:08.560><c> very</c><00:10:08.720><c> new</c>
+
+00:10:09.110 --> 00:10:09.120 align:start position:0%
+And thirdly is that AI is still very new
+ 
+
+00:10:09.120 --> 00:10:12.070 align:start position:0%
+And thirdly is that AI is still very new
+and<00:10:09.680><c> measuring</c><00:10:10.399><c> proxy</c><00:10:10.880><c> metrics</c><00:10:11.519><c> is</c><00:10:11.839><c> still</c>
+
+00:10:12.070 --> 00:10:12.080 align:start position:0%
+and measuring proxy metrics is still
+ 
+
+00:10:12.080 --> 00:10:14.230 align:start position:0%
+and measuring proxy metrics is still
+better<00:10:12.399><c> than</c><00:10:12.640><c> not</c><00:10:12.959><c> measuring.</c><00:10:13.920><c> There's</c><00:10:14.160><c> going</c>
+
+00:10:14.230 --> 00:10:14.240 align:start position:0%
+better than not measuring. There's going
+ 
+
+00:10:14.240 --> 00:10:16.470 align:start position:0%
+better than not measuring. There's going
+to<00:10:14.320><c> be</c><00:10:14.480><c> winners</c><00:10:14.800><c> and</c><00:10:15.040><c> losers</c><00:10:15.440><c> in</c><00:10:15.839><c> this</c><00:10:16.079><c> AI</c>
+
+00:10:16.470 --> 00:10:16.480 align:start position:0%
+to be winners and losers in this AI
+ 
+
+00:10:16.480 --> 00:10:18.389 align:start position:0%
+to be winners and losers in this AI
+race.<00:10:17.040><c> And</c><00:10:17.279><c> progress</c><00:10:17.680><c> is</c><00:10:18.000><c> better</c><00:10:18.160><c> than</c>
+
+00:10:18.389 --> 00:10:18.399 align:start position:0%
+race. And progress is better than
+ 
+
+00:10:18.399 --> 00:10:20.550 align:start position:0%
+race. And progress is better than
+perfection<00:10:18.880><c> here.</c><00:10:19.440><c> And</c><00:10:19.600><c> so</c><00:10:19.839><c> metrics</c><00:10:20.320><c> don't</c>
+
+00:10:20.550 --> 00:10:20.560 align:start position:0%
+perfection here. And so metrics don't
+ 
+
+00:10:20.560 --> 00:10:22.949 align:start position:0%
+perfection here. And so metrics don't
+need<00:10:20.720><c> to</c><00:10:20.880><c> be</c><00:10:21.120><c> flawless</c><00:10:21.680><c> to</c><00:10:21.920><c> be</c><00:10:22.079><c> useful</c><00:10:22.480><c> is</c><00:10:22.800><c> what</c>
+
+00:10:22.949 --> 00:10:22.959 align:start position:0%
+need to be flawless to be useful is what
+ 
+
+00:10:22.959 --> 00:10:27.990 align:start position:0%
+need to be flawless to be useful is what
+I<00:10:23.120><c> want</c><00:10:23.200><c> to</c><00:10:23.519><c> illustrate.</c>
+
+00:10:27.990 --> 00:10:28.000 align:start position:0%
+ 
+ 
+
+00:10:28.000 --> 00:10:33.030 align:start position:0%
+ 
+So<00:10:28.240><c> then</c><00:10:28.800><c> um</c><00:10:29.519><c> here</c><00:10:29.920><c> we</c><00:10:30.640><c> have</c><00:10:31.360><c> uh</c><00:10:32.480><c> two</c><00:10:32.720><c> parts</c>
+
+00:10:33.030 --> 00:10:33.040 align:start position:0%
+So then um here we have uh two parts
+ 
+
+00:10:33.040 --> 00:10:35.750 align:start position:0%
+So then um here we have uh two parts
+which<00:10:33.279><c> you</c><00:10:33.440><c> need</c><00:10:33.600><c> to</c><00:10:33.760><c> do</c><00:10:34.160><c> to</c><00:10:34.640><c> get</c><00:10:34.880><c> the</c><00:10:35.120><c> ROI</c><00:10:35.519><c> from</c>
+
+00:10:35.750 --> 00:10:35.760 align:start position:0%
+which you need to do to get the ROI from
+ 
+
+00:10:35.760 --> 00:10:37.430 align:start position:0%
+which you need to do to get the ROI from
+AI,<00:10:36.160><c> right?</c><00:10:36.240><c> You</c><00:10:36.480><c> can</c><00:10:36.640><c> need</c><00:10:36.800><c> to</c><00:10:36.880><c> measure</c><00:10:37.120><c> usage</c>
+
+00:10:37.430 --> 00:10:37.440 align:start position:0%
+AI, right? You can need to measure usage
+ 
+
+00:10:37.440 --> 00:10:39.190 align:start position:0%
+AI, right? You can need to measure usage
+and<00:10:37.600><c> then</c><00:10:37.760><c> you</c><00:10:37.920><c> need</c><00:10:38.000><c> to</c><00:10:38.079><c> measure</c><00:10:38.560><c> engineering</c>
+
+00:10:39.190 --> 00:10:39.200 align:start position:0%
+and then you need to measure engineering
+ 
+
+00:10:39.200 --> 00:10:44.150 align:start position:0%
+and then you need to measure engineering
+outcomes.<00:10:40.560><c> And</c><00:10:40.800><c> so</c><00:10:41.760><c> let's</c><00:10:42.079><c> start</c><00:10:42.240><c> with</c><00:10:42.480><c> usage.</c>
+
+00:10:44.150 --> 00:10:44.160 align:start position:0%
+outcomes. And so let's start with usage.
+ 
+
+00:10:44.160 --> 00:10:45.430 align:start position:0%
+outcomes. And so let's start with usage.
+There's<00:10:44.480><c> really</c><00:10:44.800><c> two</c><00:10:44.959><c> buckets</c><00:10:45.279><c> for</c>
+
+00:10:45.430 --> 00:10:45.440 align:start position:0%
+There's really two buckets for
+ 
+
+00:10:45.440 --> 00:10:47.030 align:start position:0%
+There's really two buckets for
+enterprises.<00:10:46.000><c> There's</c><00:10:46.240><c> kind</c><00:10:46.320><c> of</c><00:10:46.399><c> more</c><00:10:46.640><c> in</c><00:10:46.800><c> a</c>
+
+00:10:47.030 --> 00:10:47.040 align:start position:0%
+enterprises. There's kind of more in a
+ 
+
+00:10:47.040 --> 00:10:48.470 align:start position:0%
+enterprises. There's kind of more in a
+research<00:10:47.360><c> environment,</c><00:10:47.839><c> but</c><00:10:48.000><c> to</c><00:10:48.240><c> make</c><00:10:48.320><c> it</c>
+
+00:10:48.470 --> 00:10:48.480 align:start position:0%
+research environment, but to make it
+ 
+
+00:10:48.480 --> 00:10:50.310 align:start position:0%
+research environment, but to make it
+simple,<00:10:48.880><c> there's</c><00:10:49.200><c> access</c><00:10:49.600><c> based</c><00:10:49.920><c> and</c><00:10:50.079><c> there's</c>
+
+00:10:50.310 --> 00:10:50.320 align:start position:0%
+simple, there's access based and there's
+ 
+
+00:10:50.320 --> 00:10:52.870 align:start position:0%
+simple, there's access based and there's
+usage<00:10:50.720><c> based.</c><00:10:51.600><c> Accessbased</c><00:10:52.240><c> is</c><00:10:52.480><c> basically</c>
+
+00:10:52.870 --> 00:10:52.880 align:start position:0%
+usage based. Accessbased is basically
+ 
+
+00:10:52.880 --> 00:10:55.269 align:start position:0%
+usage based. Accessbased is basically
+looking<00:10:53.120><c> at</c><00:10:53.279><c> when</c><00:10:53.519><c> did</c><00:10:53.680><c> people</c><00:10:54.079><c> get</c><00:10:54.640><c> access</c><00:10:55.040><c> to</c>
+
+00:10:55.269 --> 00:10:55.279 align:start position:0%
+looking at when did people get access to
+ 
+
+00:10:55.279 --> 00:10:57.910 align:start position:0%
+looking at when did people get access to
+the<00:10:55.519><c> tool.</c><00:10:56.079><c> And</c><00:10:56.320><c> here</c><00:10:56.560><c> we</c><00:10:56.800><c> have</c><00:10:57.360><c> you</c><00:10:57.600><c> can</c><00:10:57.680><c> kind</c>
+
+00:10:57.910 --> 00:10:57.920 align:start position:0%
+the tool. And here we have you can kind
+ 
+
+00:10:57.920 --> 00:11:00.790 align:start position:0%
+the tool. And here we have you can kind
+of<00:10:58.160><c> do</c><00:10:58.320><c> a</c><00:10:58.560><c> pilot</c><00:10:58.959><c> group,</c><00:10:59.680><c> give</c><00:10:59.920><c> that</c><00:11:00.160><c> group</c><00:11:00.399><c> AI</c>
+
+00:11:00.790 --> 00:11:00.800 align:start position:0%
+of do a pilot group, give that group AI
+ 
+
+00:11:00.800 --> 00:11:02.310 align:start position:0%
+of do a pilot group, give that group AI
+and<00:11:00.959><c> then</c><00:11:01.120><c> compare</c><00:11:01.360><c> it</c><00:11:01.519><c> to</c><00:11:01.600><c> a</c><00:11:01.760><c> similar</c><00:11:02.079><c> group</c>
+
+00:11:02.310 --> 00:11:02.320 align:start position:0%
+and then compare it to a similar group
+ 
+
+00:11:02.320 --> 00:11:04.310 align:start position:0%
+and then compare it to a similar group
+without<00:11:02.640><c> AI</c><00:11:03.200><c> or</c><00:11:03.440><c> you</c><00:11:03.600><c> can</c><00:11:03.680><c> measure</c><00:11:04.000><c> the</c><00:11:04.160><c> same</c>
+
+00:11:04.310 --> 00:11:04.320 align:start position:0%
+without AI or you can measure the same
+ 
+
+00:11:04.320 --> 00:11:06.550 align:start position:0%
+without AI or you can measure the same
+team<00:11:04.560><c> across</c><00:11:04.880><c> time.</c><00:11:05.760><c> The</c><00:11:06.000><c> problem</c><00:11:06.160><c> is</c><00:11:06.320><c> that</c>
+
+00:11:06.550 --> 00:11:06.560 align:start position:0%
+team across time. The problem is that
+ 
+
+00:11:06.560 --> 00:11:09.670 align:start position:0%
+team across time. The problem is that
+access<00:11:07.040><c> based</c><00:11:07.279><c> is</c><00:11:07.519><c> noisy</c><00:11:08.079><c> and</c><00:11:09.120><c> the</c><00:11:09.360><c> gold</c>
+
+00:11:09.670 --> 00:11:09.680 align:start position:0%
+access based is noisy and the gold
+ 
+
+00:11:09.680 --> 00:11:12.310 align:start position:0%
+access based is noisy and the gold
+standard<00:11:10.000><c> is</c><00:11:10.160><c> really</c><00:11:10.399><c> usage</c><00:11:10.800><c> based</c><00:11:11.680><c> which</c><00:11:12.160><c> uh</c>
+
+00:11:12.310 --> 00:11:12.320 align:start position:0%
+standard is really usage based which uh
+ 
+
+00:11:12.320 --> 00:11:15.110 align:start position:0%
+standard is really usage based which uh
+uses<00:11:12.959><c> telemetry</c><00:11:13.600><c> from</c><00:11:14.160><c> APIs</c><00:11:14.720><c> from</c><00:11:14.880><c> these</c>
+
+00:11:15.110 --> 00:11:15.120 align:start position:0%
+uses telemetry from APIs from these
+ 
+
+00:11:15.120 --> 00:11:18.230 align:start position:0%
+uses telemetry from APIs from these
+coding<00:11:15.440><c> assistants</c><00:11:16.000><c> right</c><00:11:16.720><c> to</c><00:11:17.360><c> uh</c><00:11:17.839><c> give</c><00:11:18.079><c> you</c>
+
+00:11:18.230 --> 00:11:18.240 align:start position:0%
+coding assistants right to uh give you
+ 
+
+00:11:18.240 --> 00:11:19.990 align:start position:0%
+coding assistants right to uh give you
+the<00:11:18.399><c> right</c><00:11:18.560><c> data</c><00:11:18.800><c> to</c><00:11:18.959><c> know</c><00:11:19.120><c> who's</c><00:11:19.440><c> using</c><00:11:19.680><c> AI</c>
+
+00:11:19.990 --> 00:11:20.000 align:start position:0%
+the right data to know who's using AI
+ 
+
+00:11:20.000 --> 00:11:22.470 align:start position:0%
+the right data to know who's using AI
+and<00:11:20.079><c> and</c><00:11:20.480><c> where</c><00:11:21.440><c> and</c><00:11:21.600><c> the</c><00:11:21.839><c> caveat</c><00:11:22.240><c> here</c><00:11:22.399><c> is</c>
+
+00:11:22.470 --> 00:11:22.480 align:start position:0%
+and and where and the caveat here is
+ 
+
+00:11:22.480 --> 00:11:24.150 align:start position:0%
+and and where and the caveat here is
+that<00:11:22.720><c> the</c><00:11:22.880><c> vendor</c><00:11:23.120><c> API</c><00:11:23.519><c> is</c><00:11:23.680><c> different</c>
+
+00:11:24.150 --> 00:11:24.160 align:start position:0%
+that the vendor API is different
+ 
+
+00:11:24.160 --> 00:11:26.230 align:start position:0%
+that the vendor API is different
+unfortunately<00:11:24.880><c> tools</c><00:11:25.120><c> like</c><00:11:25.279><c> GitHub</c><00:11:25.680><c> copilot</c>
+
+00:11:26.230 --> 00:11:26.240 align:start position:0%
+unfortunately tools like GitHub copilot
+ 
+
+00:11:26.240 --> 00:11:28.150 align:start position:0%
+unfortunately tools like GitHub copilot
+aggregate<00:11:26.720><c> the</c><00:11:26.880><c> data</c><00:11:27.200><c> and</c><00:11:27.519><c> other</c><00:11:27.680><c> tools</c><00:11:28.000><c> like</c>
+
+00:11:28.150 --> 00:11:28.160 align:start position:0%
+aggregate the data and other tools like
+ 
+
+00:11:28.160 --> 00:11:31.269 align:start position:0%
+aggregate the data and other tools like
+cursor<00:11:28.720><c> give</c><00:11:28.959><c> you</c><00:11:29.120><c> more</c><00:11:29.279><c> granular</c><00:11:29.760><c> data</c>
+
+00:11:31.269 --> 00:11:31.279 align:start position:0%
+cursor give you more granular data
+ 
+
+00:11:31.279 --> 00:11:33.910 align:start position:0%
+cursor give you more granular data
+the<00:11:31.519><c> big</c><00:11:31.680><c> takeaway</c><00:11:32.160><c> is</c><00:11:32.399><c> that</c><00:11:32.640><c> you</c><00:11:32.880><c> can</c><00:11:33.040><c> measure</c>
+
+00:11:33.910 --> 00:11:33.920 align:start position:0%
+the big takeaway is that you can measure
+ 
+
+00:11:33.920 --> 00:11:37.509 align:start position:0%
+the big takeaway is that you can measure
+impact<00:11:34.399><c> of</c><00:11:35.120><c> um</c><00:11:36.079><c> retroactively</c><00:11:36.800><c> by</c><00:11:36.959><c> using</c><00:11:37.200><c> git</c>
+
+00:11:37.509 --> 00:11:37.519 align:start position:0%
+impact of um retroactively by using git
+ 
+
+00:11:37.519 --> 00:11:39.829 align:start position:0%
+impact of um retroactively by using git
+history<00:11:37.920><c> and</c><00:11:38.160><c> so</c><00:11:38.880><c> you</c><00:11:39.120><c> don't</c><00:11:39.279><c> need</c><00:11:39.440><c> to</c><00:11:39.600><c> set</c><00:11:39.680><c> up</c>
+
+00:11:39.829 --> 00:11:39.839 align:start position:0%
+history and so you don't need to set up
+ 
+
+00:11:39.839 --> 00:11:41.670 align:start position:0%
+history and so you don't need to set up
+an<00:11:40.000><c> experiment</c><00:11:40.399><c> now</c><00:11:40.560><c> and</c><00:11:40.800><c> wait</c><00:11:41.040><c> 6</c><00:11:41.200><c> months</c><00:11:41.519><c> you</c>
+
+00:11:41.670 --> 00:11:41.680 align:start position:0%
+an experiment now and wait 6 months you
+ 
+
+00:11:41.680 --> 00:11:42.949 align:start position:0%
+an experiment now and wait 6 months you
+can<00:11:41.760><c> actually</c><00:11:42.000><c> if</c><00:11:42.240><c> you've</c><00:11:42.399><c> already</c><00:11:42.560><c> adopted</c>
+
+00:11:42.949 --> 00:11:42.959 align:start position:0%
+can actually if you've already adopted
+ 
+
+00:11:42.959 --> 00:11:45.110 align:start position:0%
+can actually if you've already adopted
+AI<00:11:43.200><c> you</c><00:11:43.440><c> can</c><00:11:43.519><c> go</c><00:11:43.600><c> back</c><00:11:43.760><c> in</c><00:11:44.000><c> time</c><00:11:44.240><c> and</c><00:11:44.480><c> and</c><00:11:44.640><c> and</c>
+
+00:11:45.110 --> 00:11:45.120 align:start position:0%
+AI you can go back in time and and and
+ 
+
+00:11:45.120 --> 00:11:47.990 align:start position:0%
+AI you can go back in time and and and
+do<00:11:45.279><c> this</c><00:11:45.680><c> it's</c><00:11:45.920><c> quite</c><00:11:46.160><c> easy</c>
+
+00:11:47.990 --> 00:11:48.000 align:start position:0%
+do this it's quite easy
+ 
+
+00:11:48.000 --> 00:11:50.470 align:start position:0%
+do this it's quite easy
+now<00:11:48.320><c> we've</c><00:11:48.560><c> seen</c><00:11:48.800><c> usage</c><00:11:49.279><c> let's</c><00:11:49.440><c> look</c><00:11:49.839><c> into</c><00:11:50.320><c> how</c>
+
+00:11:50.470 --> 00:11:50.480 align:start position:0%
+now we've seen usage let's look into how
+ 
+
+00:11:50.480 --> 00:11:51.910 align:start position:0%
+now we've seen usage let's look into how
+do<00:11:50.640><c> we</c><00:11:50.800><c> actually</c><00:11:51.040><c> measure</c><00:11:51.440><c> engineering</c>
+
+00:11:51.910 --> 00:11:51.920 align:start position:0%
+do we actually measure engineering
+ 
+
+00:11:51.920 --> 00:11:53.509 align:start position:0%
+do we actually measure engineering
+outcomes<00:11:52.399><c> what</c><00:11:52.560><c> are</c><00:11:52.640><c> some</c><00:11:52.720><c> of</c><00:11:52.800><c> the</c><00:11:52.959><c> metrics</c><00:11:53.279><c> we</c>
+
+00:11:53.509 --> 00:11:53.519 align:start position:0%
+outcomes what are some of the metrics we
+ 
+
+00:11:53.519 --> 00:12:00.310 align:start position:0%
+outcomes what are some of the metrics we
+propose
+
+00:12:00.310 --> 00:12:00.320 align:start position:0%
+ 
+ 
+
+00:12:00.320 --> 00:12:03.269 align:start position:0%
+ 
+here<00:12:00.640><c> we</c><00:12:00.800><c> have</c><00:12:01.440><c> um</c><00:12:02.240><c> our</c><00:12:02.560><c> framework</c><00:12:02.959><c> which</c><00:12:03.120><c> we</c>
+
+00:12:03.269 --> 00:12:03.279 align:start position:0%
+here we have um our framework which we
+ 
+
+00:12:03.279 --> 00:12:04.870 align:start position:0%
+here we have um our framework which we
+propose<00:12:03.600><c> which</c><00:12:03.839><c> is</c><00:12:04.000><c> using</c><00:12:04.160><c> a</c><00:12:04.399><c> prim</c><00:12:04.480><c> primary</c>
+
+00:12:04.870 --> 00:12:04.880 align:start position:0%
+propose which is using a prim primary
+ 
+
+00:12:04.880 --> 00:12:07.110 align:start position:0%
+propose which is using a prim primary
+metric<00:12:05.120><c> and</c><00:12:05.279><c> a</c><00:12:05.440><c> guardrail</c><00:12:05.920><c> metric</c><00:12:06.720><c> and</c><00:12:06.880><c> so</c>
+
+00:12:07.110 --> 00:12:07.120 align:start position:0%
+metric and a guardrail metric and so
+ 
+
+00:12:07.120 --> 00:12:09.110 align:start position:0%
+metric and a guardrail metric and so
+here<00:12:07.680><c> um</c><00:12:08.000><c> the</c><00:12:08.240><c> primary</c><00:12:08.639><c> metric</c><00:12:08.880><c> is</c>
+
+00:12:09.110 --> 00:12:09.120 align:start position:0%
+here um the primary metric is
+ 
+
+00:12:09.120 --> 00:12:10.870 align:start position:0%
+here um the primary metric is
+engineering<00:12:09.600><c> output</c><00:12:10.000><c> it's</c><00:12:10.240><c> not</c><00:12:10.399><c> lines</c><00:12:10.720><c> of</c>
+
+00:12:10.870 --> 00:12:10.880 align:start position:0%
+engineering output it's not lines of
+ 
+
+00:12:10.880 --> 00:12:12.470 align:start position:0%
+engineering output it's not lines of
+code<00:12:11.120><c> it's</c><00:12:11.279><c> not</c><00:12:11.440><c> PR</c><00:12:11.760><c> counts</c><00:12:12.079><c> and</c><00:12:12.160><c> it's</c><00:12:12.320><c> not</c>
+
+00:12:12.470 --> 00:12:12.480 align:start position:0%
+code it's not PR counts and it's not
+ 
+
+00:12:12.480 --> 00:12:14.470 align:start position:0%
+code it's not PR counts and it's not
+DORA<00:12:13.040><c> and</c><00:12:13.279><c> it's</c><00:12:13.519><c> basically</c><00:12:13.839><c> based</c><00:12:14.160><c> on</c><00:12:14.320><c> this</c>
+
+00:12:14.470 --> 00:12:14.480 align:start position:0%
+DORA and it's basically based on this
+ 
+
+00:12:14.480 --> 00:12:15.990 align:start position:0%
+DORA and it's basically based on this
+machine<00:12:14.800><c> learning</c><00:12:15.120><c> model</c><00:12:15.360><c> that</c><00:12:15.519><c> replicates</c>
+
+00:12:15.990 --> 00:12:16.000 align:start position:0%
+machine learning model that replicates
+ 
+
+00:12:16.000 --> 00:12:18.310 align:start position:0%
+machine learning model that replicates
+the<00:12:16.160><c> panel</c><00:12:16.399><c> of</c><00:12:16.560><c> experts</c><00:12:17.040><c> right</c><00:12:17.839><c> and</c><00:12:18.079><c> the</c>
+
+00:12:18.310 --> 00:12:18.320 align:start position:0%
+the panel of experts right and the
+ 
+
+00:12:18.320 --> 00:12:20.150 align:start position:0%
+the panel of experts right and the
+second<00:12:18.639><c> set</c><00:12:18.800><c> of</c><00:12:18.959><c> metrics</c><00:12:19.279><c> are</c><00:12:19.519><c> the</c><00:12:19.680><c> guardrail</c>
+
+00:12:20.150 --> 00:12:20.160 align:start position:0%
+second set of metrics are the guardrail
+ 
+
+00:12:20.160 --> 00:12:21.910 align:start position:0%
+second set of metrics are the guardrail
+ones<00:12:20.560><c> which</c><00:12:20.880><c> you</c><00:12:21.040><c> want</c><00:12:21.120><c> to</c><00:12:21.279><c> maintain</c><00:12:21.600><c> at</c><00:12:21.760><c> a</c>
+
+00:12:21.910 --> 00:12:21.920 align:start position:0%
+ones which you want to maintain at a
+ 
+
+00:12:21.920 --> 00:12:23.910 align:start position:0%
+ones which you want to maintain at a
+healthy<00:12:22.160><c> level</c><00:12:22.800><c> but</c><00:12:23.120><c> you</c><00:12:23.360><c> don't</c><00:12:23.600><c> want</c><00:12:23.760><c> to</c>
+
+00:12:23.910 --> 00:12:23.920 align:start position:0%
+healthy level but you don't want to
+ 
+
+00:12:23.920 --> 00:12:25.350 align:start position:0%
+healthy level but you don't want to
+maximize<00:12:24.399><c> it</c><00:12:24.639><c> doesn't</c><00:12:24.800><c> make</c><00:12:24.959><c> sense</c><00:12:25.120><c> to</c>
+
+00:12:25.350 --> 00:12:25.360 align:start position:0%
+maximize it doesn't make sense to
+ 
+
+00:12:25.360 --> 00:12:27.509 align:start position:0%
+maximize it doesn't make sense to
+maximize<00:12:25.760><c> them</c><00:12:26.000><c> truly</c>
+
+00:12:27.509 --> 00:12:27.519 align:start position:0%
+maximize them truly
+ 
+
+00:12:27.519 --> 00:12:29.509 align:start position:0%
+maximize them truly
+and<00:12:27.760><c> so</c><00:12:28.000><c> then</c><00:12:28.639><c> there's</c><00:12:28.959><c> three</c><00:12:29.200><c> categories</c>
+
+00:12:29.509 --> 00:12:29.519 align:start position:0%
+and so then there's three categories
+ 
+
+00:12:29.519 --> 00:12:31.269 align:start position:0%
+and so then there's three categories
+within<00:12:29.760><c> the</c><00:12:29.920><c> guardrail</c><00:12:30.320><c> ones</c><00:12:30.639><c> rework</c><00:12:31.040><c> and</c>
+
+00:12:31.269 --> 00:12:31.279 align:start position:0%
+within the guardrail ones rework and
+ 
+
+00:12:31.279 --> 00:12:33.269 align:start position:0%
+within the guardrail ones rework and
+refactoring<00:12:31.920><c> quality</c><00:12:32.320><c> tech</c><00:12:32.720><c> and</c><00:12:32.880><c> risk</c><00:12:33.120><c> and</c>
+
+00:12:33.269 --> 00:12:33.279 align:start position:0%
+refactoring quality tech and risk and
+ 
+
+00:12:33.279 --> 00:12:34.710 align:start position:0%
+refactoring quality tech and risk and
+then<00:12:33.440><c> people</c><00:12:33.680><c> and</c><00:12:33.839><c> devops</c>
+
+00:12:34.710 --> 00:12:34.720 align:start position:0%
+then people and devops
+ 
+
+00:12:34.720 --> 00:12:36.310 align:start position:0%
+then people and devops
+The<00:12:34.959><c> third</c><00:12:35.200><c> bucket</c><00:12:35.680><c> is</c><00:12:35.920><c> important</c><00:12:36.160><c> to</c>
+
+00:12:36.310 --> 00:12:36.320 align:start position:0%
+The third bucket is important to
+ 
+
+00:12:36.320 --> 00:12:37.430 align:start position:0%
+The third bucket is important to
+highlight<00:12:36.639><c> that</c><00:12:36.800><c> these</c><00:12:37.040><c> are</c><00:12:37.200><c> not</c>
+
+00:12:37.430 --> 00:12:37.440 align:start position:0%
+highlight that these are not
+ 
+
+00:12:37.440 --> 00:12:39.350 align:start position:0%
+highlight that these are not
+productivity<00:12:37.920><c> metrics.</c><00:12:38.480><c> They're</c><00:12:38.800><c> useful,</c>
+
+00:12:39.350 --> 00:12:39.360 align:start position:0%
+productivity metrics. They're useful,
+ 
+
+00:12:39.360 --> 00:12:41.590 align:start position:0%
+productivity metrics. They're useful,
+but<00:12:39.600><c> you</c><00:12:39.760><c> cannot</c><00:12:40.079><c> just</c><00:12:40.720><c> kind</c><00:12:40.959><c> of</c><00:12:41.120><c> use</c><00:12:41.360><c> them</c>
+
+00:12:41.590 --> 00:12:41.600 align:start position:0%
+but you cannot just kind of use them
+ 
+
+00:12:41.600 --> 00:12:43.670 align:start position:0%
+but you cannot just kind of use them
+like<00:12:41.839><c> maximize</c><00:12:42.399><c> them</c><00:12:42.560><c> to</c><00:12:42.800><c> maximize</c><00:12:43.200><c> developer</c>
+
+00:12:43.670 --> 00:12:43.680 align:start position:0%
+like maximize them to maximize developer
+ 
+
+00:12:43.680 --> 00:12:45.269 align:start position:0%
+like maximize them to maximize developer
+productivity.<00:12:44.160><c> They</c><00:12:44.399><c> kind</c><00:12:44.560><c> of</c><00:12:44.639><c> fall</c><00:12:44.880><c> off</c><00:12:45.040><c> at</c>
+
+00:12:45.269 --> 00:12:45.279 align:start position:0%
+productivity. They kind of fall off at
+ 
+
+00:12:45.279 --> 00:12:47.350 align:start position:0%
+productivity. They kind of fall off at
+some<00:12:45.440><c> point.</c><00:12:46.160><c> And</c><00:12:46.320><c> so</c><00:12:46.480><c> the</c><00:12:46.720><c> goal</c><00:12:46.880><c> here</c><00:12:47.120><c> might</c>
+
+00:12:47.350 --> 00:12:47.360 align:start position:0%
+some point. And so the goal here might
+ 
+
+00:12:47.360 --> 00:12:48.949 align:start position:0%
+some point. And so the goal here might
+be<00:12:47.440><c> to</c><00:12:47.680><c> keep</c><00:12:47.839><c> your</c><00:12:48.000><c> guardrail</c><00:12:48.560><c> metrics</c>
+
+00:12:48.949 --> 00:12:48.959 align:start position:0%
+be to keep your guardrail metrics
+ 
+
+00:12:48.959 --> 00:12:51.030 align:start position:0%
+be to keep your guardrail metrics
+healthy<00:12:49.680><c> while</c><00:12:50.079><c> increasing</c><00:12:50.480><c> the</c><00:12:50.720><c> primary</c>
+
+00:12:51.030 --> 00:12:51.040 align:start position:0%
+healthy while increasing the primary
+ 
+
+00:12:51.040 --> 00:12:54.790 align:start position:0%
+healthy while increasing the primary
+metric<00:12:51.279><c> to</c><00:12:51.519><c> whatever</c><00:12:51.760><c> degree</c><00:12:52.079><c> possible.</c>
+
+00:12:54.790 --> 00:12:54.800 align:start position:0%
+metric to whatever degree possible.
+ 
+
+00:12:54.800 --> 00:12:57.590 align:start position:0%
+metric to whatever degree possible.
+Now<00:12:55.040><c> let's</c><00:12:55.200><c> dive</c><00:12:55.440><c> into</c><00:12:55.600><c> a</c><00:12:55.760><c> case</c><00:12:55.920><c> study.</c>
+
+00:12:57.590 --> 00:12:57.600 align:start position:0%
+Now let's dive into a case study.
+ 
+
+00:12:57.600 --> 00:13:01.030 align:start position:0%
+Now let's dive into a case study.
+Here<00:12:58.160><c> we</c><00:12:58.480><c> worked</c><00:12:58.800><c> with</c>
+
+00:13:01.030 --> 00:13:01.040 align:start position:0%
+Here we worked with
+ 
+
+00:13:01.040 --> 00:13:03.990 align:start position:0%
+Here we worked with
+a<00:13:01.519><c> company</c><00:13:02.000><c> that</c><00:13:02.720><c> uh</c><00:13:03.040><c> large</c><00:13:03.360><c> enterprise.</c><00:13:03.839><c> We</c>
+
+00:13:03.990 --> 00:13:04.000 align:start position:0%
+a company that uh large enterprise. We
+ 
+
+00:13:04.000 --> 00:13:06.790 align:start position:0%
+a company that uh large enterprise. We
+took<00:13:04.240><c> a</c><00:13:04.480><c> team</c><00:13:04.639><c> of</c><00:13:05.040><c> uh</c><00:13:05.279><c> 350</c><00:13:05.760><c> people</c><00:13:06.000><c> under</c><00:13:06.320><c> a</c>
+
+00:13:06.790 --> 00:13:06.800 align:start position:0%
+took a team of uh 350 people under a
+ 
+
+00:13:06.800 --> 00:13:08.629 align:start position:0%
+took a team of uh 350 people under a
+vice<00:13:07.040><c> president</c><00:13:07.600><c> and</c><00:13:07.839><c> we</c><00:13:08.000><c> measured</c><00:13:08.320><c> pull</c>
+
+00:13:08.629 --> 00:13:08.639 align:start position:0%
+vice president and we measured pull
+ 
+
+00:13:08.639 --> 00:13:11.509 align:start position:0%
+vice president and we measured pull
+requests.<00:13:10.079><c> The</c><00:13:10.320><c> reason</c><00:13:10.480><c> we</c><00:13:10.720><c> did</c><00:13:10.800><c> this</c><00:13:11.040><c> is</c><00:13:11.200><c> to</c>
+
+00:13:11.509 --> 00:13:11.519 align:start position:0%
+requests. The reason we did this is to
+ 
+
+00:13:11.519 --> 00:13:13.509 align:start position:0%
+requests. The reason we did this is to
+illustrate<00:13:11.839><c> that</c><00:13:12.079><c> you</c><00:13:12.240><c> cannot</c><00:13:12.800><c> measure</c><00:13:13.200><c> pull</c>
+
+00:13:13.509 --> 00:13:13.519 align:start position:0%
+illustrate that you cannot measure pull
+ 
+
+00:13:13.519 --> 00:13:15.350 align:start position:0%
+illustrate that you cannot measure pull
+requests<00:13:13.920><c> to</c><00:13:14.160><c> understand</c><00:13:14.560><c> whether</c><00:13:14.880><c> AI</c><00:13:15.200><c> is</c>
+
+00:13:15.350 --> 00:13:15.360 align:start position:0%
+requests to understand whether AI is
+ 
+
+00:13:15.360 --> 00:13:17.190 align:start position:0%
+requests to understand whether AI is
+helping<00:13:15.600><c> you.</c><00:13:16.160><c> And</c><00:13:16.320><c> so</c><00:13:16.480><c> here</c><00:13:16.800><c> this</c><00:13:16.959><c> team</c>
+
+00:13:17.190 --> 00:13:17.200 align:start position:0%
+helping you. And so here this team
+ 
+
+00:13:17.200 --> 00:13:19.670 align:start position:0%
+helping you. And so here this team
+adopted<00:13:17.920><c> um</c><00:13:18.079><c> AI</c><00:13:18.399><c> in</c><00:13:18.639><c> May</c><00:13:18.800><c> of</c><00:13:18.959><c> this</c><00:13:19.120><c> year</c><00:13:19.279><c> and</c><00:13:19.519><c> we</c>
+
+00:13:19.670 --> 00:13:19.680 align:start position:0%
+adopted um AI in May of this year and we
+ 
+
+00:13:19.680 --> 00:13:21.350 align:start position:0%
+adopted um AI in May of this year and we
+measured<00:13:19.920><c> the</c><00:13:20.079><c> four</c><00:13:20.240><c> months</c><00:13:20.480><c> before</c><00:13:21.040><c> 4</c><00:13:21.200><c> months</c>
+
+00:13:21.350 --> 00:13:21.360 align:start position:0%
+measured the four months before 4 months
+ 
+
+00:13:21.360 --> 00:13:24.629 align:start position:0%
+measured the four months before 4 months
+after.<00:13:22.079><c> We</c><00:13:22.320><c> saw</c><00:13:22.480><c> a</c><00:13:22.800><c> 14%</c><00:13:23.760><c> increase.</c><00:13:24.320><c> Great.</c>
+
+00:13:24.629 --> 00:13:24.639 align:start position:0%
+after. We saw a 14% increase. Great.
+ 
+
+00:13:24.639 --> 00:13:26.629 align:start position:0%
+after. We saw a 14% increase. Great.
+That's<00:13:24.959><c> fantastic.</c><00:13:25.920><c> But</c><00:13:26.079><c> what</c><00:13:26.320><c> about</c>
+
+00:13:26.629 --> 00:13:26.639 align:start position:0%
+That's fantastic. But what about
+ 
+
+00:13:26.639 --> 00:13:28.790 align:start position:0%
+That's fantastic. But what about
+reviewer<00:13:27.040><c> burden?</c><00:13:28.160><c> What</c><00:13:28.320><c> about</c><00:13:28.560><c> code</c>
+
+00:13:28.790 --> 00:13:28.800 align:start position:0%
+reviewer burden? What about code
+ 
+
+00:13:28.800 --> 00:13:31.910 align:start position:0%
+reviewer burden? What about code
+quality?<00:13:30.079><c> So</c><00:13:30.240><c> we</c><00:13:30.399><c> measured</c><00:13:30.800><c> code</c><00:13:31.040><c> quality.</c>
+
+00:13:31.910 --> 00:13:31.920 align:start position:0%
+quality? So we measured code quality.
+ 
+
+00:13:31.920 --> 00:13:34.870 align:start position:0%
+quality? So we measured code quality.
+And<00:13:32.079><c> here</c><00:13:32.399><c> what</c><00:13:32.639><c> we</c><00:13:32.800><c> saw</c><00:13:33.279><c> is</c><00:13:34.079><c> um</c><00:13:34.480><c> I</c><00:13:34.720><c> mean</c>
+
+00:13:34.870 --> 00:13:34.880 align:start position:0%
+And here what we saw is um I mean
+ 
+
+00:13:34.880 --> 00:13:36.389 align:start position:0%
+And here what we saw is um I mean
+firstly<00:13:35.200><c> actually</c><00:13:35.519><c> code</c><00:13:35.760><c> quality</c><00:13:36.160><c> think</c><00:13:36.320><c> of</c>
+
+00:13:36.389 --> 00:13:36.399 align:start position:0%
+firstly actually code quality think of
+ 
+
+00:13:36.399 --> 00:13:38.550 align:start position:0%
+firstly actually code quality think of
+it<00:13:36.480><c> as</c><00:13:36.720><c> maintainability</c><00:13:37.600><c> scale</c><00:13:37.920><c> from</c><00:13:38.079><c> 0</c><00:13:38.320><c> to</c>
+
+00:13:38.550 --> 00:13:38.560 align:start position:0%
+it as maintainability scale from 0 to
+ 
+
+00:13:38.560 --> 00:13:41.190 align:start position:0%
+it as maintainability scale from 0 to
+10.<00:13:39.440><c> And</c><00:13:39.839><c> uh</c><00:13:40.000><c> there's</c><00:13:40.320><c> kind</c><00:13:40.399><c> of</c><00:13:40.480><c> these</c><00:13:40.720><c> bands.</c>
+
+00:13:41.190 --> 00:13:41.200 align:start position:0%
+10. And uh there's kind of these bands.
+ 
+
+00:13:41.200 --> 00:13:43.350 align:start position:0%
+10. And uh there's kind of these bands.
+Uh<00:13:41.519><c> it</c><00:13:41.760><c> uses</c><00:13:42.160><c> our</c><00:13:42.240><c> our</c><00:13:42.560><c> methodology.</c><00:13:43.120><c> You</c><00:13:43.279><c> can</c>
+
+00:13:43.350 --> 00:13:43.360 align:start position:0%
+Uh it uses our our methodology. You can
+ 
+
+00:13:43.360 --> 00:13:46.069 align:start position:0%
+Uh it uses our our methodology. You can
+read<00:13:43.680><c> it</c><00:13:44.079><c> online.</c><00:13:45.309><c> [snorts]</c><00:13:45.360><c> But</c><00:13:45.519><c> basically</c>
+
+00:13:46.069 --> 00:13:46.079 align:start position:0%
+read it online. [snorts] But basically
+ 
+
+00:13:46.079 --> 00:13:48.230 align:start position:0%
+read it online. [snorts] But basically
+what<00:13:46.320><c> you</c><00:13:46.480><c> see</c><00:13:46.560><c> is</c><00:13:46.720><c> that</c><00:13:46.880><c> in</c><00:13:47.040><c> the</c><00:13:47.120><c> preAI</c><00:13:47.680><c> period</c>
+
+00:13:48.230 --> 00:13:48.240 align:start position:0%
+what you see is that in the preAI period
+ 
+
+00:13:48.240 --> 00:13:50.150 align:start position:0%
+what you see is that in the preAI period
+their<00:13:48.480><c> code</c><00:13:48.720><c> quality</c><00:13:49.040><c> was</c><00:13:49.279><c> quite</c><00:13:49.519><c> stable</c><00:13:49.839><c> and</c>
+
+00:13:50.150 --> 00:13:50.160 align:start position:0%
+their code quality was quite stable and
+ 
+
+00:13:50.160 --> 00:13:52.230 align:start position:0%
+their code quality was quite stable and
+consistent.<00:13:50.560><c> And</c><00:13:50.800><c> once</c><00:13:51.040><c> they</c><00:13:51.200><c> adopted</c><00:13:51.600><c> AI</c><00:13:52.000><c> two</c>
+
+00:13:52.230 --> 00:13:52.240 align:start position:0%
+consistent. And once they adopted AI two
+ 
+
+00:13:52.240 --> 00:13:54.389 align:start position:0%
+consistent. And once they adopted AI two
+things<00:13:52.480><c> happened.</c><00:13:53.279><c> code</c><00:13:53.600><c> quality</c><00:13:53.920><c> decreased</c>
+
+00:13:54.389 --> 00:13:54.399 align:start position:0%
+things happened. code quality decreased
+ 
+
+00:13:54.399 --> 00:13:56.230 align:start position:0%
+things happened. code quality decreased
+and<00:13:54.639><c> then</c><00:13:54.880><c> code</c><00:13:55.120><c> quality</c><00:13:55.519><c> became</c><00:13:55.839><c> more</c>
+
+00:13:56.230 --> 00:13:56.240 align:start position:0%
+and then code quality became more
+ 
+
+00:13:56.240 --> 00:13:59.350 align:start position:0%
+and then code quality became more
+erratic.
+
+00:13:59.350 --> 00:13:59.360 align:start position:0%
+ 
+ 
+
+00:13:59.360 --> 00:14:01.750 align:start position:0%
+ 
+Next,<00:13:59.760><c> we</c><00:14:00.000><c> took</c><00:14:00.160><c> a</c><00:14:00.320><c> look</c><00:14:00.480><c> at</c><00:14:01.040><c> our</c><00:14:01.279><c> metric</c><00:14:01.600><c> which</c>
+
+00:14:01.750 --> 00:14:01.760 align:start position:0%
+Next, we took a look at our metric which
+ 
+
+00:14:01.760 --> 00:14:03.670 align:start position:0%
+Next, we took a look at our metric which
+is<00:14:01.920><c> engineering</c><00:14:02.399><c> output.</c><00:14:02.800><c> It's</c><00:14:03.040><c> not</c><00:14:03.279><c> lines</c><00:14:03.519><c> of</c>
+
+00:14:03.670 --> 00:14:03.680 align:start position:0%
+is engineering output. It's not lines of
+ 
+
+00:14:03.680 --> 00:14:05.670 align:start position:0%
+is engineering output. It's not lines of
+code.<00:14:04.000><c> And</c><00:14:04.240><c> here</c><00:14:04.399><c> for</c><00:14:04.639><c> every</c><00:14:04.880><c> month,</c><00:14:05.199><c> you</c><00:14:05.440><c> see</c>
+
+00:14:05.670 --> 00:14:05.680 align:start position:0%
+code. And here for every month, you see
+ 
+
+00:14:05.680 --> 00:14:08.150 align:start position:0%
+code. And here for every month, you see
+the<00:14:06.480><c> sigma,</c><00:14:06.880><c> the</c><00:14:07.120><c> sum</c><00:14:07.360><c> of</c><00:14:07.600><c> the</c><00:14:07.760><c> output</c>
+
+00:14:08.150 --> 00:14:08.160 align:start position:0%
+the sigma, the sum of the output
+ 
+
+00:14:08.160 --> 00:14:09.990 align:start position:0%
+the sigma, the sum of the output
+delivered<00:14:08.560><c> for</c><00:14:08.720><c> that</c><00:14:08.880><c> month</c><00:14:09.440><c> broken</c><00:14:09.839><c> down</c>
+
+00:14:09.990 --> 00:14:10.000 align:start position:0%
+delivered for that month broken down
+ 
+
+00:14:10.000 --> 00:14:12.310 align:start position:0%
+delivered for that month broken down
+into<00:14:10.240><c> four</c><00:14:10.480><c> buckets.</c><00:14:11.519><c> Rework</c><00:14:12.079><c> and</c>
+
+00:14:12.310 --> 00:14:12.320 align:start position:0%
+into four buckets. Rework and
+ 
+
+00:14:12.320 --> 00:14:14.150 align:start position:0%
+into four buckets. Rework and
+refactoring.<00:14:13.040><c> So</c><00:14:13.199><c> rework</c><00:14:13.600><c> is</c><00:14:13.760><c> when</c><00:14:13.920><c> you're</c>
+
+00:14:14.150 --> 00:14:14.160 align:start position:0%
+refactoring. So rework is when you're
+ 
+
+00:14:14.160 --> 00:14:17.030 align:start position:0%
+refactoring. So rework is when you're
+changing<00:14:14.720><c> or</c><00:14:15.040><c> editing</c><00:14:15.600><c> code</c><00:14:15.920><c> that</c><00:14:16.160><c> was</c><00:14:16.720><c> it's</c>
+
+00:14:17.030 --> 00:14:17.040 align:start position:0%
+changing or editing code that was it's
+ 
+
+00:14:17.040 --> 00:14:18.870 align:start position:0%
+changing or editing code that was it's
+still<00:14:17.279><c> kind</c><00:14:17.440><c> of</c><00:14:17.600><c> fresh,</c><00:14:17.839><c> so</c><00:14:18.000><c> it's</c><00:14:18.240><c> recent.</c>
+
+00:14:18.870 --> 00:14:18.880 align:start position:0%
+still kind of fresh, so it's recent.
+ 
+
+00:14:18.880 --> 00:14:20.550 align:start position:0%
+still kind of fresh, so it's recent.
+Refactoring<00:14:19.519><c> is</c><00:14:19.680><c> when</c><00:14:19.839><c> you're</c><00:14:20.079><c> changing</c><00:14:20.320><c> code</c>
+
+00:14:20.550 --> 00:14:20.560 align:start position:0%
+Refactoring is when you're changing code
+ 
+
+00:14:20.560 --> 00:14:24.949 align:start position:0%
+Refactoring is when you're changing code
+that's<00:14:20.800><c> a</c><00:14:20.959><c> bit</c><00:14:21.040><c> older.</c><00:14:22.320><c> And</c><00:14:22.959><c> uh</c><00:14:23.760><c> what</c><00:14:24.399><c> uh</c><00:14:24.639><c> then</c>
+
+00:14:24.949 --> 00:14:24.959 align:start position:0%
+that's a bit older. And uh what uh then
+ 
+
+00:14:24.959 --> 00:14:26.389 align:start position:0%
+that's a bit older. And uh what uh then
+like<00:14:25.199><c> added</c><00:14:25.440><c> and</c><00:14:25.680><c> removed</c><00:14:26.000><c> it's</c><00:14:26.240><c> pretty</c>
+
+00:14:26.389 --> 00:14:26.399 align:start position:0%
+like added and removed it's pretty
+ 
+
+00:14:26.399 --> 00:14:28.150 align:start position:0%
+like added and removed it's pretty
+self-explanatory.<00:14:27.279><c> And</c><00:14:27.440><c> then</c><00:14:27.600><c> also</c><00:14:27.839><c> you</c><00:14:28.000><c> can</c>
+
+00:14:28.150 --> 00:14:28.160 align:start position:0%
+self-explanatory. And then also you can
+ 
+
+00:14:28.160 --> 00:14:30.069 align:start position:0%
+self-explanatory. And then also you can
+see<00:14:28.240><c> these</c><00:14:28.480><c> kind</c><00:14:28.639><c> of</c><00:14:28.800><c> benchmarks.</c><00:14:29.519><c> So</c><00:14:29.680><c> we</c><00:14:29.920><c> can</c>
+
+00:14:30.069 --> 00:14:30.079 align:start position:0%
+see these kind of benchmarks. So we can
+ 
+
+00:14:30.079 --> 00:14:31.910 align:start position:0%
+see these kind of benchmarks. So we can
+benchmark<00:14:30.639><c> this</c><00:14:30.880><c> company</c><00:14:31.120><c> against</c><00:14:31.519><c> similar</c>
+
+00:14:31.910 --> 00:14:31.920 align:start position:0%
+benchmark this company against similar
+ 
+
+00:14:31.920 --> 00:14:34.389 align:start position:0%
+benchmark this company against similar
+companies<00:14:32.240><c> in</c><00:14:32.399><c> their</c><00:14:32.560><c> industry.</c><00:14:33.600><c> And</c><00:14:33.760><c> here</c><00:14:34.079><c> AI</c>
+
+00:14:34.389 --> 00:14:34.399 align:start position:0%
+companies in their industry. And here AI
+ 
+
+00:14:34.399 --> 00:14:36.710 align:start position:0%
+companies in their industry. And here AI
+usage<00:14:34.720><c> had</c><00:14:34.959><c> two</c><00:14:35.120><c> effects.</c><00:14:36.000><c> Firstly</c><00:14:36.320><c> is</c><00:14:36.560><c> that</c>
+
+00:14:36.710 --> 00:14:36.720 align:start position:0%
+usage had two effects. Firstly is that
+ 
+
+00:14:36.720 --> 00:14:39.430 align:start position:0%
+usage had two effects. Firstly is that
+rework<00:14:37.199><c> went</c><00:14:37.360><c> up</c><00:14:37.519><c> by</c><00:14:37.760><c> 2.5</c><00:14:38.399><c> times</c><00:14:39.120><c> which</c><00:14:39.279><c> is</c>
+
+00:14:39.430 --> 00:14:39.440 align:start position:0%
+rework went up by 2.5 times which is
+ 
+
+00:14:39.440 --> 00:14:41.590 align:start position:0%
+rework went up by 2.5 times which is
+really<00:14:39.680><c> bad.</c><00:14:40.480><c> And</c><00:14:40.639><c> effective</c><00:14:41.040><c> output</c><00:14:41.360><c> which</c>
+
+00:14:41.590 --> 00:14:41.600 align:start position:0%
+really bad. And effective output which
+ 
+
+00:14:41.600 --> 00:14:43.189 align:start position:0%
+really bad. And effective output which
+is<00:14:41.760><c> kind</c><00:14:41.839><c> of</c><00:14:41.920><c> like</c><00:14:42.000><c> a</c><00:14:42.240><c> proxy</c><00:14:42.480><c> for</c><00:14:42.720><c> productivity</c>
+
+00:14:43.189 --> 00:14:43.199 align:start position:0%
+is kind of like a proxy for productivity
+ 
+
+00:14:43.199 --> 00:14:45.910 align:start position:0%
+is kind of like a proxy for productivity
+or<00:14:43.360><c> so</c><00:14:43.680><c> didn't</c><00:14:43.920><c> really</c><00:14:44.160><c> change.</c>
+
+00:14:45.910 --> 00:14:45.920 align:start position:0%
+or so didn't really change.
+ 
+
+00:14:45.920 --> 00:14:47.750 align:start position:0%
+or so didn't really change.
+And<00:14:46.160><c> so</c><00:14:46.320><c> then</c><00:14:46.720><c> what's</c><00:14:46.959><c> the</c><00:14:47.120><c> conclusion</c><00:14:47.519><c> here?</c>
+
+00:14:47.750 --> 00:14:47.760 align:start position:0%
+And so then what's the conclusion here?
+ 
+
+00:14:47.760 --> 00:14:49.990 align:start position:0%
+And so then what's the conclusion here?
+Let's<00:14:48.079><c> do</c><00:14:48.160><c> a</c><00:14:48.320><c> recap.</c><00:14:48.720><c> So</c><00:14:48.959><c> we</c><00:14:49.120><c> saw</c><00:14:49.279><c> that</c><00:14:49.519><c> PRs</c>
+
+00:14:49.990 --> 00:14:50.000 align:start position:0%
+Let's do a recap. So we saw that PRs
+ 
+
+00:14:50.000 --> 00:14:53.189 align:start position:0%
+Let's do a recap. So we saw that PRs
+went<00:14:50.240><c> up</c><00:14:50.399><c> by</c><00:14:50.639><c> 14%.</c><00:14:52.079><c> But</c><00:14:52.160><c> this</c><00:14:52.320><c> is</c><00:14:52.480><c> inconclusive</c>
+
+00:14:53.189 --> 00:14:53.199 align:start position:0%
+went up by 14%. But this is inconclusive
+ 
+
+00:14:53.199 --> 00:14:55.990 align:start position:0%
+went up by 14%. But this is inconclusive
+because<00:14:53.519><c> more</c><00:14:53.760><c> PRs</c><00:14:54.240><c> doesn't</c><00:14:54.480><c> mean</c><00:14:54.720><c> better.</c><00:14:55.760><c> We</c>
+
+00:14:55.990 --> 00:14:56.000 align:start position:0%
+because more PRs doesn't mean better. We
+ 
+
+00:14:56.000 --> 00:14:58.310 align:start position:0%
+because more PRs doesn't mean better. We
+saw<00:14:56.160><c> that</c><00:14:56.399><c> code</c><00:14:56.720><c> quality</c><00:14:57.120><c> decreased</c><00:14:57.600><c> by</c><00:14:57.839><c> 9%</c>
+
+00:14:58.310 --> 00:14:58.320 align:start position:0%
+saw that code quality decreased by 9%
+ 
+
+00:14:58.320 --> 00:15:00.550 align:start position:0%
+saw that code quality decreased by 9%
+which<00:14:58.560><c> is</c><00:14:58.720><c> problematic.</c><00:14:59.920><c> We</c><00:15:00.160><c> saw</c><00:15:00.320><c> that</c>
+
+00:15:00.550 --> 00:15:00.560 align:start position:0%
+which is problematic. We saw that
+ 
+
+00:15:00.560 --> 00:15:02.790 align:start position:0%
+which is problematic. We saw that
+effective<00:15:00.959><c> output</c><00:15:02.000><c> didn't</c><00:15:02.480><c> increase</c>
+
+00:15:02.790 --> 00:15:02.800 align:start position:0%
+effective output didn't increase
+ 
+
+00:15:02.800 --> 00:15:04.069 align:start position:0%
+effective output didn't increase
+meaningfully.<00:15:03.360><c> And</c><00:15:03.519><c> then</c><00:15:03.600><c> we</c><00:15:03.760><c> saw</c><00:15:03.920><c> that</c>
+
+00:15:04.069 --> 00:15:04.079 align:start position:0%
+meaningfully. And then we saw that
+ 
+
+00:15:04.079 --> 00:15:06.949 align:start position:0%
+meaningfully. And then we saw that
+rework<00:15:04.639><c> increased</c><00:15:05.040><c> by</c><00:15:05.279><c> a</c><00:15:05.440><c> lot.</c><00:15:06.399><c> And</c><00:15:06.639><c> so</c><00:15:06.800><c> then</c>
+
+00:15:06.949 --> 00:15:06.959 align:start position:0%
+rework increased by a lot. And so then
+ 
+
+00:15:06.959 --> 00:15:09.430 align:start position:0%
+rework increased by a lot. And so then
+the<00:15:07.120><c> question</c><00:15:07.360><c> here</c><00:15:07.600><c> is</c><00:15:08.000><c> what</c><00:15:08.240><c> is</c><00:15:08.399><c> the</c><00:15:08.720><c> ROI</c><00:15:09.199><c> of</c>
+
+00:15:09.430 --> 00:15:09.440 align:start position:0%
+the question here is what is the ROI of
+ 
+
+00:15:09.440 --> 00:15:11.110 align:start position:0%
+the question here is what is the ROI of
+this<00:15:09.680><c> AI</c><00:15:10.000><c> adoption?</c><00:15:10.480><c> Right?</c><00:15:10.639><c> It</c><00:15:10.880><c> might</c><00:15:11.040><c> be</c>
+
+00:15:11.110 --> 00:15:11.120 align:start position:0%
+this AI adoption? Right? It might be
+ 
+
+00:15:11.120 --> 00:15:13.030 align:start position:0%
+this AI adoption? Right? It might be
+negative.<00:15:12.000><c> And</c><00:15:12.160><c> what</c><00:15:12.320><c> I</c><00:15:12.480><c> want</c><00:15:12.560><c> to</c><00:15:12.720><c> point</c><00:15:12.800><c> out</c>
+
+00:15:13.030 --> 00:15:13.040 align:start position:0%
+negative. And what I want to point out
+ 
+
+00:15:13.040 --> 00:15:14.949 align:start position:0%
+negative. And what I want to point out
+here<00:15:13.199><c> is</c><00:15:13.440><c> that</c><00:15:13.680><c> had</c><00:15:14.000><c> this</c><00:15:14.240><c> company</c><00:15:14.639><c> not</c>
+
+00:15:14.949 --> 00:15:14.959 align:start position:0%
+here is that had this company not
+ 
+
+00:15:14.959 --> 00:15:16.949 align:start position:0%
+here is that had this company not
+measured<00:15:15.279><c> this</c><00:15:15.519><c> more</c><00:15:15.839><c> thoroughly</c><00:15:16.320><c> and</c><00:15:16.639><c> simply</c>
+
+00:15:16.949 --> 00:15:16.959 align:start position:0%
+measured this more thoroughly and simply
+ 
+
+00:15:16.959 --> 00:15:18.790 align:start position:0%
+measured this more thoroughly and simply
+measured<00:15:17.360><c> PR</c><00:15:17.760><c> counts,</c><00:15:18.399><c> they</c><00:15:18.560><c> would</c><00:15:18.639><c> have</c>
+
+00:15:18.790 --> 00:15:18.800 align:start position:0%
+measured PR counts, they would have
+ 
+
+00:15:18.800 --> 00:15:20.310 align:start position:0%
+measured PR counts, they would have
+thought,<00:15:18.959><c> hey,</c><00:15:19.199><c> we're</c><00:15:19.440><c> doing</c><00:15:19.600><c> great.</c><00:15:20.079><c> We</c>
+
+00:15:20.310 --> 00:15:20.320 align:start position:0%
+thought, hey, we're doing great. We
+ 
+
+00:15:20.320 --> 00:15:23.030 align:start position:0%
+thought, hey, we're doing great. We
+increased<00:15:20.720><c> our</c><00:15:20.880><c> productivity</c><00:15:21.440><c> by</c><00:15:21.760><c> 14%.</c><00:15:22.720><c> Let's</c>
+
+00:15:23.030 --> 00:15:23.040 align:start position:0%
+increased our productivity by 14%. Let's
+ 
+
+00:15:23.040 --> 00:15:25.110 align:start position:0%
+increased our productivity by 14%. Let's
+run<00:15:23.279><c> the</c><00:15:23.360><c> numbers.</c><00:15:23.680><c> That's</c><00:15:23.920><c> how</c><00:15:24.079><c> many</c><00:15:24.240><c> million</c>
+
+00:15:25.110 --> 00:15:25.120 align:start position:0%
+run the numbers. That's how many million
+ 
+
+00:15:25.120 --> 00:15:26.550 align:start position:0%
+run the numbers. That's how many million
+lots<00:15:25.360><c> of</c><00:15:25.519><c> millions</c><00:15:25.760><c> of</c><00:15:25.920><c> dollars.</c><00:15:26.240><c> And</c><00:15:26.399><c> does</c>
+
+00:15:26.550 --> 00:15:26.560 align:start position:0%
+lots of millions of dollars. And does
+ 
+
+00:15:26.560 --> 00:15:28.629 align:start position:0%
+lots of millions of dollars. And does
+this<00:15:26.720><c> offset</c><00:15:27.120><c> the</c><00:15:27.440><c> AI</c><00:15:27.760><c> licenses?</c><00:15:28.320><c> Sure</c><00:15:28.480><c> thing</c>
+
+00:15:28.629 --> 00:15:28.639 align:start position:0%
+this offset the AI licenses? Sure thing
+ 
+
+00:15:28.639 --> 00:15:31.030 align:start position:0%
+this offset the AI licenses? Sure thing
+it<00:15:28.880><c> does,</c><00:15:29.120><c> right?</c><00:15:30.160><c> The</c><00:15:30.320><c> other</c><00:15:30.480><c> thing</c><00:15:30.639><c> is</c><00:15:30.880><c> that</c>
+
+00:15:31.030 --> 00:15:31.040 align:start position:0%
+it does, right? The other thing is that
+ 
+
+00:15:31.040 --> 00:15:32.069 align:start position:0%
+it does, right? The other thing is that
+I<00:15:31.199><c> don't</c><00:15:31.360><c> think</c><00:15:31.440><c> this</c><00:15:31.600><c> company</c><00:15:31.839><c> should</c>
+
+00:15:32.069 --> 00:15:32.079 align:start position:0%
+I don't think this company should
+ 
+
+00:15:32.079 --> 00:15:33.910 align:start position:0%
+I don't think this company should
+abandon<00:15:32.480><c> AI.</c><00:15:32.880><c> They</c><00:15:33.040><c> should</c><00:15:33.199><c> simply</c><00:15:33.440><c> use</c><00:15:33.680><c> this</c>
+
+00:15:33.910 --> 00:15:33.920 align:start position:0%
+abandon AI. They should simply use this
+ 
+
+00:15:33.920 --> 00:15:35.509 align:start position:0%
+abandon AI. They should simply use this
+data<00:15:34.240><c> to</c><00:15:34.480><c> understand</c><00:15:34.880><c> what</c><00:15:35.120><c> they're</c><00:15:35.360><c> doing</c>
+
+00:15:35.509 --> 00:15:35.519 align:start position:0%
+data to understand what they're doing
+ 
+
+00:15:35.519 --> 00:15:37.430 align:start position:0%
+data to understand what they're doing
+wrong.<00:15:36.000><c> How</c><00:15:36.160><c> can</c><00:15:36.320><c> they</c><00:15:36.480><c> improve?</c><00:15:36.959><c> Because</c><00:15:37.120><c> AI</c>
+
+00:15:37.430 --> 00:15:37.440 align:start position:0%
+wrong. How can they improve? Because AI
+ 
+
+00:15:37.440 --> 00:15:39.030 align:start position:0%
+wrong. How can they improve? Because AI
+is<00:15:37.600><c> here</c><00:15:37.760><c> to</c><00:15:38.000><c> stay.</c><00:15:38.240><c> It's</c><00:15:38.399><c> a</c><00:15:38.560><c> tool</c><00:15:38.800><c> that's</c>
+
+00:15:39.030 --> 00:15:39.040 align:start position:0%
+is here to stay. It's a tool that's
+ 
+
+00:15:39.040 --> 00:15:40.629 align:start position:0%
+is here to stay. It's a tool that's
+going<00:15:39.120><c> to</c><00:15:39.199><c> transform</c><00:15:39.519><c> how</c><00:15:39.760><c> engineers</c><00:15:40.240><c> are</c><00:15:40.399><c> are</c>
+
+00:15:40.629 --> 00:15:40.639 align:start position:0%
+going to transform how engineers are are
+ 
+
+00:15:40.639 --> 00:15:43.430 align:start position:0%
+going to transform how engineers are are
+working,<00:15:40.959><c> right?</c><00:15:41.440><c> and</c><00:15:41.680><c> you</c><00:15:41.839><c> can</c><00:15:42.079><c> just</c><00:15:42.560><c> um</c><00:15:43.199><c> kind</c>
+
+00:15:43.430 --> 00:15:43.440 align:start position:0%
+working, right? and you can just um kind
+ 
+
+00:15:43.440 --> 00:15:46.870 align:start position:0%
+working, right? and you can just um kind
+of<00:15:43.519><c> like</c><00:15:43.760><c> abandon</c><00:15:44.240><c> it</c><00:15:44.480><c> or</c><00:15:44.639><c> so.</c>
+
+00:15:46.870 --> 00:15:46.880 align:start position:0%
+of like abandon it or so.
+ 
+
+00:15:46.880 --> 00:15:49.430 align:start position:0%
+of like abandon it or so.
+Great.<00:15:47.360><c> So,</c><00:15:48.000><c> this</c><00:15:48.240><c> concludes</c><00:15:48.800><c> our</c><00:15:49.120><c> insights</c>
+
+00:15:49.430 --> 00:15:49.440 align:start position:0%
+Great. So, this concludes our insights
+ 
+
+00:15:49.440 --> 00:15:51.749 align:start position:0%
+Great. So, this concludes our insights
+for<00:15:49.680><c> today.</c><00:15:50.000><c> If</c><00:15:50.240><c> you've</c><00:15:50.480><c> enjoyed</c><00:15:51.120><c> this</c><00:15:51.600><c> uh</c>
+
+00:15:51.749 --> 00:15:51.759 align:start position:0%
+for today. If you've enjoyed this uh
+ 
+
+00:15:51.759 --> 00:15:53.350 align:start position:0%
+for today. If you've enjoyed this uh
+talk<00:15:52.000><c> and</c><00:15:52.240><c> you</c><00:15:52.399><c> would</c><00:15:52.480><c> like</c><00:15:52.639><c> similar</c><00:15:52.959><c> insights</c>
+
+00:15:53.350 --> 00:15:53.360 align:start position:0%
+talk and you would like similar insights
+ 
+
+00:15:53.360 --> 00:15:54.790 align:start position:0%
+talk and you would like similar insights
+for<00:15:53.519><c> your</c><00:15:53.680><c> company,</c><00:15:54.000><c> I</c><00:15:54.240><c> invite</c><00:15:54.480><c> you</c><00:15:54.639><c> to</c>
+
+00:15:54.790 --> 00:15:54.800 align:start position:0%
+for your company, I invite you to
+ 
+
+00:15:54.800 --> 00:15:56.870 align:start position:0%
+for your company, I invite you to
+participate<00:15:55.199><c> in</c><00:15:55.360><c> our</c><00:15:55.600><c> research.</c><00:15:56.560><c> Everything</c>
+
+00:15:56.870 --> 00:15:56.880 align:start position:0%
+participate in our research. Everything
+ 
+
+00:15:56.880 --> 00:15:59.030 align:start position:0%
+participate in our research. Everything
+you've<00:15:57.120><c> seen</c><00:15:57.279><c> today</c><00:15:57.759><c> can</c><00:15:58.240><c> uh</c><00:15:58.399><c> be</c><00:15:58.560><c> accessed</c>
+
+00:15:59.030 --> 00:15:59.040 align:start position:0%
+you've seen today can uh be accessed
+ 
+
+00:15:59.040 --> 00:16:00.389 align:start position:0%
+you've seen today can uh be accessed
+through<00:15:59.279><c> kind</c><00:15:59.519><c> of</c><00:15:59.680><c> participating</c><00:16:00.079><c> in</c><00:16:00.240><c> our</c>
+
+00:16:00.389 --> 00:16:00.399 align:start position:0%
+through kind of participating in our
+ 
+
+00:16:00.399 --> 00:16:01.910 align:start position:0%
+through kind of participating in our
+research,<00:16:00.880><c> some</c><00:16:01.040><c> of</c><00:16:01.199><c> them</c><00:16:01.360><c> through</c><00:16:01.680><c> live</c>
+
+00:16:01.910 --> 00:16:01.920 align:start position:0%
+research, some of them through live
+ 
+
+00:16:01.920 --> 00:16:04.550 align:start position:0%
+research, some of them through live
+dashboards<00:16:02.560><c> in</c><00:16:02.880><c> our</c><00:16:03.120><c> research</c><00:16:03.519><c> portal.</c><00:16:04.320><c> And</c>
+
+00:16:04.550 --> 00:16:04.560 align:start position:0%
+dashboards in our research portal. And
+ 
+
+00:16:04.560 --> 00:16:06.389 align:start position:0%
+dashboards in our research portal. And
+especially<00:16:05.199><c> I'd</c><00:16:05.519><c> like</c><00:16:05.600><c> to</c><00:16:05.759><c> invite</c><00:16:06.079><c> companies</c>
+
+00:16:06.389 --> 00:16:06.399 align:start position:0%
+especially I'd like to invite companies
+ 
+
+00:16:06.399 --> 00:16:09.269 align:start position:0%
+especially I'd like to invite companies
+that<00:16:06.720><c> have</c><00:16:06.880><c> access</c><00:16:07.199><c> to</c><00:16:07.920><c> cursor</c><00:16:08.480><c> enterprise</c><00:16:08.959><c> to</c>
+
+00:16:09.269 --> 00:16:09.279 align:start position:0%
+that have access to cursor enterprise to
+ 
+
+00:16:09.279 --> 00:16:11.030 align:start position:0%
+that have access to cursor enterprise to
+participate<00:16:09.839><c> because</c><00:16:10.160><c> we</c><00:16:10.399><c> have</c><00:16:10.480><c> a</c><00:16:10.720><c> high</c><00:16:10.880><c> need</c>
+
+00:16:11.030 --> 00:16:11.040 align:start position:0%
+participate because we have a high need
+ 
+
+00:16:11.040 --> 00:16:13.350 align:start position:0%
+participate because we have a high need
+for<00:16:11.199><c> this</c><00:16:11.759><c> so</c><00:16:11.920><c> we</c><00:16:12.160><c> can</c><00:16:12.320><c> publish</c><00:16:12.639><c> papers</c><00:16:13.040><c> around</c>
+
+00:16:13.350 --> 00:16:13.360 align:start position:0%
+for this so we can publish papers around
+ 
+
+00:16:13.360 --> 00:16:15.749 align:start position:0%
+for this so we can publish papers around
+the<00:16:13.519><c> granularity</c><00:16:14.320><c> of</c><00:16:14.480><c> using</c><00:16:14.800><c> AI</c><00:16:15.360><c> um</c><00:16:15.519><c> in</c>
+
+00:16:15.749 --> 00:16:15.759 align:start position:0%
+the granularity of using AI um in
+ 
+
+00:16:15.759 --> 00:16:17.749 align:start position:0%
+the granularity of using AI um in
+software<00:16:16.079><c> engineering.</c><00:16:16.800><c> You</c><00:16:16.959><c> can</c><00:16:17.120><c> sign</c><00:16:17.279><c> up</c><00:16:17.440><c> at</c>
+
+00:16:17.749 --> 00:16:17.759 align:start position:0%
+software engineering. You can sign up at
+ 
+
+00:16:17.759 --> 00:16:18.550 align:start position:0%
+software engineering. You can sign up at
+software<00:16:18.160><c> engineering</c>
+
+00:16:18.550 --> 00:16:18.560 align:start position:0%
+software engineering
+ 
+
+00:16:18.560 --> 00:16:20.949 align:start position:0%
+software engineering
+productivity.stanford.edu.
+
+00:16:20.949 --> 00:16:20.959 align:start position:0%
+productivity.stanford.edu.
+ 
+
+00:16:20.959 --> 00:16:35.601 align:start position:0%
+productivity.stanford.edu.
+Thank<00:16:21.120><c> you</c><00:16:21.279><c> so</c><00:16:21.440><c> much.</c>
+
+00:16:35.601 --> 00:16:35.611 align:start position:0%
+ 
+ 
+
+00:16:35.611 --> 00:16:37.631 align:start position:0%
+ 
+&gt;&gt; [music]
+
